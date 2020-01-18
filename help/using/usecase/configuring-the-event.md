@@ -1,0 +1,57 @@
+---
+title: Configurazione dell’evento
+description: Scoprite come configurare l’evento per il percorso - caso di utilizzo semplice
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+
+---
+
+
+# Configurazione dell’evento{#concept_y44_hcy_w2b}
+
+Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona cammina vicino a un beacon posizionato accanto al centro benessere. L&#39;utente **** tecnico deve configurare l&#39;evento che il sistema ascolterà nel nostro viaggio.
+
+Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [](../event/about-events.md).
+
+1. Nel menu principale, fate clic sulla **[!UICONTROL Events]**scheda e fate clic**[!UICONTROL Add]** per creare un nuovo evento.
+
+   ![](../assets/journeyuc1_1.png)
+
+1. Il nome viene inserito senza spazi o caratteri speciali: &quot;SpaBeacon&quot;.
+
+   ![](../assets/journeyuc1_2.png)
+
+   <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
+
+1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. Per identificare la persona nel database del profilo cliente in tempo reale è necessario disporre dell’ID Experience Cloud: _endUserIDs > experience > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato nel **[!UICONTROL eventID]**campo (_esperienza > campagna > orchestrazione > eventID_). Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. Nel nostro caso di utilizzo, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l&#39;invio dell&#39;evento.
+
+   ![](../assets/journeyuc1_3.png)
+
+   >[!NOTE]
+   >
+   >L&#39;elenco dei campi varia da uno schema all&#39;altro. In base alla definizione dello schema, alcuni campi possono essere obbligatori e preselezionati.
+
+1. È necessario selezionare uno spazio dei nomi. Uno spazio dei nomi è preselezionato in base alle proprietà dello schema. È possibile mantenere quello preselezionato. Per ulteriori informazioni sugli spazi dei nomi, vedere [](../event/selecting-the-namespace.md).
+
+   ![](../assets/journeyuc1_6.png)
+
+1. Una chiave viene preselezionata in base alle proprietà dello schema e allo spazio dei nomi selezionato. Può tenerla.
+
+   ![](../assets/journeyuc1_5.png)
+
+1. Clic **[!UICONTROL Save]**.
+
+1. Fate clic sull&#39; **[!UICONTROL View Payload]**icona per visualizzare l&#39;anteprima del payload previsto dal sistema e condividerlo con la persona responsabile dell&#39;invio dell&#39;evento. Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
+
+   ![](../assets/journeyuc1_7.png)
+
+   L&#39;evento è pronto per essere utilizzato nel vostro viaggio. Ora devi configurare l’applicazione mobile in modo che possa inviare il payload previsto all’endpoint delle API di ingestione dello streaming. Vedere [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
