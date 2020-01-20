@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 In questa pagina sono elencati tutti gli aggiornamenti della documentazione per l&#39;orchestrazione del percorso.
 È inoltre possibile consultare le [Note](../release-notes/release-notes.md)sulla versione di Orchestrazione del percorso.
+
+## Gennaio 2020 {#january-2020}
+
+* Sono state aggiunte limitazioni per eventi [e](../datasource/adobe-experience-platform-data-source.md) segmenti [di](../functions/functioninsegment.md)esperienza.
+* La documentazione [](../functions/functiongetbestsendtime.md) getBestSendTime è stata aggiornata.
 
 ## Dicembre 2019 {#december-2019}
 
@@ -32,4 +37,3 @@ In questa pagina sono elencati tutti gli aggiornamenti della documentazione per 
 * [Le sezioni relative alle istruzioni](../expression/conditional-instruction.md) condizionali e alla gestione [della](../expression/collection-management-functions.md) raccolta sono state spostate e aggiornate.
 * La sezione [Funzioni](../expression/functions.md) è stata aggiornata con nuovi esempi.
 * La documentazione [della funzione](../functions/functiontodatetime.md) toDateTime è stata aggiornata per riflettere le modifiche della sintassi del fuso orario.
-
