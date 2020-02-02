@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Informazioni sugli eventi {#concept_gfj_fqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_events&quot;
+>title=&quot;Informazioni sugli eventi&quot;
+>abstract=&quot;Un evento è collegato a una persona. Si riferisce al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) o qualcosa che si verifica in relazione a una persona (ad esempio, una persona ha raggiunto 10 000 punti fedeltà). Questo è ciò che l&#39;orchestrazione del viaggio ascolterà nei viaggi per orchestrare le azioni migliori successive.&quot;
 
 Un evento è collegato a una persona. Si riferisce al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) o qualcosa che si verifica in relazione a una persona (ad esempio, una persona ha raggiunto 10 000 punti fedeltà). Questo è ciò che l&#39;orchestrazione del viaggio ascolterà nei viaggi per orchestrare le azioni migliori successive.
 
