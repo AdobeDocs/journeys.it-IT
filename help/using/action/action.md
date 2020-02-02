@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Informazioni sulle azioni {#about_actions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_actions&quot;
+>title=&quot;Informazioni sulle azioni&quot;
+>abstract=&quot;Qui si definisce la connessione al sistema che invierà i messaggi. Le azioni qui definite saranno quindi disponibili nella palette a sinistra del percorso, nella categoria Azione.&quot;
 
 La configurazione delle azioni personalizzate viene sempre eseguita da un utente **** tecnico.
 
