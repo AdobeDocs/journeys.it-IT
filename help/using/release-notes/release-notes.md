@@ -23,51 +23,19 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 
 ## Rilascio Q1 - febbraio 2019 {#q1-release---february-2019}
 
-**Gestione del fuso orario**
+* È ora disponibile una funzione di aiuto contestuale nelle diverse schermate di orchestrazione del viaggio. Ciò significa che, con un solo clic, è possibile accedere direttamente alla documentazione sulla funzionalità attualmente in uso. Per visualizzare la guida contestuale, fai clic sull’icona &quot;i&quot; nell’angolo superiore destro dello schermo. Al momento, questa funzione è disponibile nelle schermate Home, Origini dati, Eventi e Azioni.
 
-I timezoni vengono ora gestiti a livello di viaggio. Nelle proprietà di viaggio sono stati aggiunti due parametri:
+* API
 
-* L’elenco a discesa **Fuso orario** consente di selezionare un fuso orario specifico. Per impostazione predefinita, viene utilizzato il fuso orario del browser.
+* Copia/Incolla attività in viaggi?
 
-* La casella **Fuso orario** profilo consente di utilizzare il fuso orario del profilo della piattaforma esperienza della persona che accede al viaggio, se disponibile. In caso contrario, verrà utilizzato il fuso orario definito nel menu a discesa. Questa funzione non è compatibile con viaggi senza spazio dei nomi.
+* Filtrare gli eventi nei viaggi
 
-**Aiuto contestuale**
+* Più regioni?
 
-È ora disponibile una funzione di aiuto contestuale nelle diverse schermate di orchestrazione del viaggio. Ciò significa che, con un solo clic, è possibile accedere direttamente alla documentazione sulla funzionalità attualmente in uso.
+* Timer in modalità di prova
 
-Per visualizzare la guida contestuale, fai clic sull’icona &quot;i&quot; nell’angolo superiore destro dello schermo.
-
-Al momento, questa funzione è disponibile nelle schermate Home, Origini dati, Eventi e Azioni.
-
-**Altre modifiche**
-
-* In modalità di prova, un nuovo parametro consente di definire il periodo di tempo.  le attività di attesa ora possono durare. Questo consente di accedere rapidamente ai risultati del test.
-
-* In modalità di prova, ora puoi attivare tutti gli eventi del viaggio.
-
-
-* un nuovo parametro consente di definire il periodo di tempo più lungo.  le attività di attesa ora possono durare. Questo consente di accedere rapidamente ai risultati del test.
-
-* L&#39;orchestrazione dei percorsi è ora disponibile nell&#39;area EMEA.
-
-* Nuova icona nella palette per visualizzare o meno gli elementi non disponibili. sans namespace. par default .
-
-* canvas, scollegamento, minuto, qui dit nodo scollegato.
-
-* taglio corto C titoli les listes
-
-* interfaccia utente della palette, risultati di ricerca al icone
-
-* Il capper del pouvoir les definisce un&#39;area esterna dell&#39;API (origini dati o azioni). marque n&#39;accettte que 500 chiamate par postde, le pourra mettre un limite di 500 chiamate secondi qui evite de surcharger system de loyalty tiers
-
-* log du test log. Avant status = error. quand sui sistemi di appello. Possibilityé de voir codice erreur frase qu&#39;à renvoyé le systeme. -> ds un test en cas d&#39;erreur, livelli di sistema, codice di errore, risposta di errore.
-
-* Interrompi viaggio
-
-* percorso: versione 1 il incontrato è più recente
-
-1er marte.
-
+* Test multievento
 
 ## Rilascio GA - Dicembre 2019 {#ga-release---december-2019}
 
