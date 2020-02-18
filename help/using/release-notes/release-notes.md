@@ -25,6 +25,8 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 
 * È ora disponibile una funzione di aiuto contestuale nelle diverse schermate di orchestrazione del viaggio. Ciò significa che, con un solo clic, è possibile accedere direttamente alla documentazione sulla funzionalità attualmente in uso. Per visualizzare la guida contestuale, fai clic sull’icona &quot;i&quot; nell’angolo superiore destro dello schermo. Al momento, questa funzione è disponibile nelle schermate Home, Origini dati, Eventi e Azioni.
 
+* In modalità di prova, tutte le attività di attesa ora vengono automaticamente impostate su una durata di 5 secondi. Questo consente di accedere rapidamente ai risultati del test.
+
 * API
 
 * Copia/Incolla attività in viaggi?
@@ -32,8 +34,6 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 * Filtrare gli eventi nei viaggi
 
 * Più regioni?
-
-* Timer in modalità di prova
 
 * Test multievento
 
