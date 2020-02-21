@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # Attendi attività{#section_rlm_nft_dgb}
 
-Se desiderate aspettare prima di eseguire l&#39;attività successiva nel percorso, potete utilizzare un&#39; **[!UICONTROL Wait]**attività. Consente di definire il momento in cui verrà eseguita l&#39;attività successiva. Sono disponibili quattro opzioni:
+Se desiderate aspettare prima di eseguire l&#39;attività successiva nel percorso, potete utilizzare un&#39; **[!UICONTROL Wait]** attività. Consente di definire il momento in cui verrà eseguita l&#39;attività successiva. Sono disponibili quattro opzioni:
 
 * [Durata](#duration)
 * [Data fissa](#fixed_date)
@@ -37,7 +37,7 @@ Inoltre, se due diverse attese sono in parallelo, quella che si verifica per pri
 >
 >La durata massima di attesa è di 30 giorni.
 >
->In modalità di prova, tutte le attività di attesa vengono automaticamente impostate su una durata di 5 secondi. Questo consente di accedere rapidamente ai risultati del test.
+>In modalità di prova, il parametro Tempo di **attesa nel test** consente di definire l&#39;ora in cui ciascuna attività di attesa durerà. Il tempo predefinito è 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Vedere [](../building-journeys/testing-the-journey.md)
 
 ## Durata{#duration}
 
@@ -75,10 +75,10 @@ Questo tipo di attesa utilizza un punteggio calcolato nella piattaforma. La valu
 >
 >Il primo evento del viaggio deve avere uno spazio dei nomi.
 >
->Questa funzionalità è disponibile solo dopo un&#39; **[!UICONTROL Email]**attività. Devi disporre di Adobe Campaign Standard.
+>Questa funzionalità è disponibile solo dopo un&#39; **[!UICONTROL Email]** attività. Devi disporre di Adobe Campaign Standard.
 
-1. Nel **[!UICONTROL Amount of time]**campo, definite il numero di ore da dedicare all’ottimizzazione dell’invio e-mail.
-1. Nel **[!UICONTROL Optimization type]**campo, scegliete se l&#39;ottimizzazione deve aumentare i clic o si apre.
+1. Nel **[!UICONTROL Amount of time]** campo, definite il numero di ore da dedicare all’ottimizzazione dell’invio e-mail.
+1. Nel **[!UICONTROL Optimization type]** campo, scegliete se l&#39;ottimizzazione deve aumentare i clic o si apre.
 1. Nel campo Ora **** predefinita, definire l’ora predefinita da attendere se il punteggio relativo all’ora di invio predittivo non è disponibile.
 
    >[!NOTE]
