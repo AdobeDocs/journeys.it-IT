@@ -26,10 +26,6 @@ Gli errori vengono visualizzati con un simbolo di avviso visualizzato sulle atti
 
 ![](../assets/journey63.png)
 
-Ad esempio, nel quadro, quando due attività sono disconnesse, viene visualizzato un avviso.
-
-![](../assets/canvas-disconnected.png)
-
 Accanto all&#39; **[!UICONTROL Test]** interruttore e al **[!UICONTROL Publish]** pulsante, è possibile visualizzare un segnale di avviso. Questo segnale di avviso visualizza gli errori rilevati dal sistema e impedisce l&#39;attivazione della modalità di prova o la pubblicazione del percorso. Nella maggior parte dei casi, gli errori rilevati dal sistema sono collegati a errori visibili sulle attività, ma a volte sono collegati ad altri problemi. In questo caso, potete visualizzarli, cercare di identificare il problema utilizzando la descrizione dell&#39;errore. Se non riuscite a identificare il problema, potete copiare i dettagli e inviarli all’amministratore o al supporto tecnico. Gli errori che bloccano il test e gli errori che bloccano la pubblicazione sono simili.
 
 Il sistema rileva due tipi di problemi: errori e avvisi Errori nella pubblicazione del blocco e nel test dell&#39;attivazione. Gli avvisi indicano potenziali problemi che non impediscono l&#39;attivazione o la pubblicazione del test. Vedrete una descrizione del problema e un ID registro dei problemi del tipo ERR_XXX_XXX. Questo aiuterà il supporto tecnico a identificare il problema.
