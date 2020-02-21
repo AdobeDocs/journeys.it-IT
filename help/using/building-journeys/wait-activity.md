@@ -37,7 +37,7 @@ Inoltre, se due diverse attese sono in parallelo, quella che si verifica per pri
 >
 >La durata massima di attesa è di 30 giorni.
 >
->In modalità di prova, il parametro Tempo di **attesa nel test** consente di definire l&#39;ora in cui ciascuna attività di attesa durerà. Il tempo predefinito è 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Vedere [](../building-journeys/testing-the-journey.md)
+>In modalità di prova, tutte le attività di attesa vengono automaticamente impostate su una durata di 5 secondi. Questo consente di accedere rapidamente ai risultati del test.
 
 ## Durata{#duration}
 
