@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -26,15 +26,19 @@ Gli errori vengono visualizzati con un simbolo di avviso visualizzato sulle atti
 
 ![](../assets/journey63.png)
 
-Accanto all&#39; **[!UICONTROL Test]**interruttore e al**[!UICONTROL Publish]** pulsante, è possibile visualizzare un segnale di avviso. Questo segnale di avviso visualizza gli errori rilevati dal sistema e impedisce l&#39;attivazione della modalità di prova o la pubblicazione del percorso. Nella maggior parte dei casi, gli errori rilevati dal sistema sono collegati a errori visibili sulle attività, ma a volte sono collegati ad altri problemi. In questo caso, potete visualizzarli, cercare di identificare il problema utilizzando la descrizione dell&#39;errore. Se non riuscite a identificare il problema, potete copiare i dettagli e inviarli all’amministratore o al supporto tecnico. Gli errori che bloccano il test e gli errori che bloccano la pubblicazione sono simili.
+Ad esempio, nel quadro, quando due attività sono disconnesse, viene visualizzato un avviso.
+
+![](../assets/canvas-disconnected.png)
+
+Accanto all&#39; **[!UICONTROL Test]** interruttore e al **[!UICONTROL Publish]** pulsante, è possibile visualizzare un segnale di avviso. Questo segnale di avviso visualizza gli errori rilevati dal sistema e impedisce l&#39;attivazione della modalità di prova o la pubblicazione del percorso. Nella maggior parte dei casi, gli errori rilevati dal sistema sono collegati a errori visibili sulle attività, ma a volte sono collegati ad altri problemi. In questo caso, potete visualizzarli, cercare di identificare il problema utilizzando la descrizione dell&#39;errore. Se non riuscite a identificare il problema, potete copiare i dettagli e inviarli all’amministratore o al supporto tecnico. Gli errori che bloccano il test e gli errori che bloccano la pubblicazione sono simili.
 
 Il sistema rileva due tipi di problemi: errori e avvisi Errori nella pubblicazione del blocco e nel test dell&#39;attivazione. Gli avvisi indicano potenziali problemi che non impediscono l&#39;attivazione o la pubblicazione del test. Vedrete una descrizione del problema e un ID registro dei problemi del tipo ERR_XXX_XXX. Questo aiuterà il supporto tecnico a identificare il problema.
 
-Sul segno accanto all’ **[!UICONTROL Test]**interruttore e al**[!UICONTROL Publish]** pulsante possono essere visualizzati due colori diversi. Il segno viene visualizzato in rosso in caso di errori. Viene visualizzato in arancione in caso di avvisi.
+Sul segno accanto all’ **[!UICONTROL Test]** interruttore e al **[!UICONTROL Publish]** pulsante possono essere visualizzati due colori diversi. Il segno viene visualizzato in rosso in caso di errori. Viene visualizzato in arancione in caso di avvisi.
 
 ![](../assets/journey75.png)
 
-Gli errori e gli avvisi globali relativi al viaggio vengono visualizzati per primi nell&#39;elenco. Gli errori e gli avvisi relativi ad attività specifiche sono elencati dopo, per ordine di attività o per aspetto nel viaggio da sinistra a destra. Il **[!UICONTROL Copy details]**pulsante consente di copiare le informazioni tecniche sul percorso che il team di assistenza può utilizzare per risolvere i problemi.
+Gli errori e gli avvisi globali relativi al viaggio vengono visualizzati per primi nell&#39;elenco. Gli errori e gli avvisi relativi ad attività specifiche sono elencati dopo, per ordine di attività o per aspetto nel viaggio da sinistra a destra. Il **[!UICONTROL Copy details]** pulsante consente di copiare le informazioni tecniche sul percorso che il team di assistenza può utilizzare per risolvere i problemi.
 
 ## Controllo dell&#39;invio corretto degli eventi{#section_rqz_11t_dgb}
 
