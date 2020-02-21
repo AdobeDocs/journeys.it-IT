@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Informazioni sull&#39;elenco dei viaggi&quot;
->abstract=&quot;L’elenco dei viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi interrompere o eliminare un viaggio completato. Puoi anche usare la barra di ricerca per cercare un viaggio.&quot;
+>abstract=&quot;L’elenco dei viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi interrompere o eliminare un viaggio interrotto. Puoi anche usare la barra di ricerca per cercare un viaggio.&quot;
 >Additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Guarda il video dimostrativo&quot;
 
 
@@ -43,10 +43,6 @@ Puoi anche accedere all’orchestrazione del percorso dalla home page di Experie
 I menu superiori consentono di navigare tra le diverse funzionalità dell&#39;Orchestrazione del viaggio: **[!UICONTROL Home]**(i viaggi),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
-
-Fate clic sull&#39; ![](../assets/icon-context.png) icona nell&#39;angolo superiore destro dello schermo per visualizzare la guida contestuale. È disponibile nelle diverse schermate dell&#39;elenco di orchestrazione del viaggio (viaggi, eventi, azioni e origini dati). Questo consente di visualizzare una descrizione rapida delle funzionalità correnti e di accedere agli articoli e ai video correlati.
-
-![](../assets/journey2bis.png)
 
 ## Ricerca e filtro{#section_lgm_hpz_pgb}
 
