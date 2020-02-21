@@ -20,7 +20,7 @@ Iniziate a segnalare un problema. Gli attuali impegni per questo progetto si ado
 
 ## Contratto di licenza per i collaboratori
 
-Tutti i contributi di terzi a questo progetto devono essere accompagnati da un contratto di licenza firmato. In tal modo è concesso ad Adobe il permesso di ridistribuire i contributi come parte del progetto. [Firmate il nostro contratto di licenza](https://opensource.adobe.com/cla.html). È sufficiente inviare un contratto di licenza Adobe una sola volta, quindi se ne hai già inviato uno in precedenza, puoi iniziare!
+Tutti i contributi di terzi a questo progetto devono essere accompagnati da un contratto di licenza firmato. In tal modo è concesso ad Adobe il permesso di ridistribuire i contributi come parte del progetto. [Firmate il nostro contratto di licenza](http://opensource.adobe.com/cla.html). È sufficiente inviare un contratto di licenza Adobe una sola volta, quindi se ne hai già inviato uno in precedenza, puoi iniziare!
 
 ## Recensioni sul codice
 
