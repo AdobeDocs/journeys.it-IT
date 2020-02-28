@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -22,7 +22,7 @@ Il menu Home del viaggio consente di visualizzare l&#39; **elenco dei viaggi**. 
 
 ## La lista di viaggi {#journey_list}
 
-L&#39;elenco **dei** viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi interrompere un viaggio interrotto. Potete anche usare la barra di ricerca per cercare un viaggio.
+L&#39;elenco **dei** viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi interrompere o eliminare un viaggio completato. Potete anche usare la barra di ricerca per cercare un viaggio.
 
 Per **[!UICONTROL Filters]** accedervi, fate clic sull’icona del filtro in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare i viaggi visualizzati in base a criteri diversi (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). Potete anche scegliere di visualizzare solo i viaggi che utilizzano un evento, un gruppo di campi o un&#39;azione particolare. È possibile configurare le colonne visualizzate nell&#39;elenco. Tutti i filtri e le colonne vengono salvati per utente.
 
@@ -45,6 +45,12 @@ La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disp
 >Notate che esistono delle regole quando si configura un viaggio. La configurazione non consentita verrà scartata. Ad esempio, non potete mettere in parallelo delle azioni, collegare un&#39;attività a un passaggio precedente per creare un ciclo, avviare un percorso con qualcos&#39;altro rispetto a un evento, ecc.
 
 ![](../assets/journey38.png)
+
+L&#39;icona **Mostra elementi** disattivati nell&#39;angolo superiore sinistro consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio gli eventi che utilizzano uno spazio nomi diverso da quelli utilizzati nel viaggio. Per impostazione predefinita, gli elementi non disponibili sono nascosti. Se scegli di visualizzarli, verranno visualizzati in grigio.
+
+Quando si utilizza il campo **Cerca** , per ogni categoria di attività canvas viene visualizzato il numero di risultati.
+
+![](../assets/palette-filter.png)
 
 ## Il quadro {#canvas}
 
@@ -79,3 +85,7 @@ Quando ascoltate un evento, vi consigliamo di non attendere l’evento a tempo i
 Per eliminare il percorso, posizionate il cursore su di esso e fate clic sull’ **[!UICONTROL Delete arrow]** icona .
 
 ![](../assets/journey42ter.png)
+
+Nel quadro, quando due attività vengono disconnesse, viene visualizzato un avviso. Posizionare il cursore sull&#39;icona di avviso per visualizzare il messaggio di errore. Per risolvere il problema, spostate semplicemente l&#39;attività disconnessa e collegatela all&#39;attività precedente.
+
+![](../assets/canvas-disconnected.png)
