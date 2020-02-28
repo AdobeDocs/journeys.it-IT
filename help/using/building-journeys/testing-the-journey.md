@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -22,10 +22,6 @@ Prima di poter verificare il percorso, devi risolvere tutti gli errori, se ce ne
 
 Potete provare il viaggio prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso di individui nel percorso e di risolvere eventuali problemi prima della pubblicazione.
 
->[!NOTE]
->
->In modalità di prova, tutte le attività di attesa vengono automaticamente impostate su una durata di 5 secondi. Questo consente di accedere rapidamente ai risultati del test.
-
 Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
 1. Prima di verificare il percorso, verifica che sia valido e che non si verifichi alcun errore. Non potrai avviare un test di un viaggio con errori. Vedere [](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
@@ -33,6 +29,10 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 1. Per attivare la modalità di prova, fate clic sull’ **[!UICONTROL Test]** interruttore, situato nell’angolo in alto a destra.
 
    ![](../assets/journeytest1.png)
+
+1. Utilizzate il parametro Tempo di **attesa nel test** , nell&#39;angolo in basso a sinistra, per definire l&#39;ora in cui ciascuna attività di attesa durerà in modalità di prova. Il tempo predefinito è 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se avete abbandonato una o più attività di attesa nel viaggio.
+
+   ![](../assets/journeytest_wait.png)
 
 1. Fate clic **[!UICONTROL Trigger an event]** per configurare e inviare gli eventi al percorso. Assicuratevi di inviare eventi correlati ai profili di test. Consultate [Attivazione degli eventi](#firing_events).
 
@@ -60,7 +60,7 @@ Il **[!UICONTROL Trigger an event]** pulsante consente di configurare un evento 
 
 Come prerequisito, devi sapere quali profili vengono contrassegnati come profili di test nella piattaforma dati. Infatti, la modalità di prova consente solo questi profili nel percorso e l&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
 
-Questa schermata consente di configurare i campi passati nell’evento e l’esecuzione dell’invio dell’evento. L&#39;interfaccia consente di trasmettere le informazioni corrette nel payload dell&#39;evento e verificare che il tipo di informazioni sia corretto. La modalità di prova salva gli ultimi parametri utilizzati in una sessione di prova per un uso successivo.
+Se il viaggio contiene diversi eventi, utilizzate l&#39;elenco a discesa per selezionare un evento. Quindi, per ogni evento, configurate i campi passati e l’esecuzione dell’invio dell’evento. L&#39;interfaccia consente di trasmettere le informazioni corrette nel payload dell&#39;evento e verificare che il tipo di informazioni sia corretto. La modalità di prova salva gli ultimi parametri utilizzati in una sessione di prova per un uso successivo.
 
 ![](../assets/journeytest4.png)
 
@@ -75,6 +75,10 @@ Un utente tecnico può anche utilizzare questa interfaccia per comporre i payloa
 Il **[!UICONTROL Show log]** pulsante consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del viaggio in formato JSON. Un pulsante consente di copiare nodi interi. Devi aggiornare manualmente la pagina per aggiornare i risultati del test del viaggio.
 
 ![](../assets/journeytest3.png)
+
+>[!NOTE]
+>
+>Nei registri di test, in caso di errore durante la chiamata a un sistema di terze parti (origine dati o azione), vengono visualizzati il codice di errore e la risposta di errore.
 
 Viene visualizzato il numero di individui (tecnicamente chiamati istanze) attualmente presenti nel percorso. Seguono alcune informazioni utili che vengono visualizzate per ciascun utente:
 
