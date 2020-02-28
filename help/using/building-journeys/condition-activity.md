@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ Sono disponibili quattro tipi di condizioni:
 
 ## Informazioni sull&#39;attività Condizione {#about_condition}
 
-Fare clic **[!UICONTROL Add a path]**per definire più condizioni. Per ogni condizione, dopo l&#39;attività viene aggiunto un nuovo percorso nel quadro.
+Fare clic **[!UICONTROL Add a path]** per definire più condizioni. Per ogni condizione, dopo l&#39;attività viene aggiunto un nuovo percorso nel quadro.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Si noti che la progettazione dei viaggi ha impatti funzionali. Quando più perco
 
 ![](../assets/journey48.png)
 
-Puoi creare un altro percorso per audience non idonee alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni divise. Vedere[Dividi](#percentage_split)percentuali.
+Puoi creare un altro percorso per audience non idonee alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni divise. Vedere [Dividi](#percentage_split)percentuali.
 
 La modalità semplice consente di eseguire semplici query basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati sul lato sinistro dello schermo. Trascinare i campi nella zona principale. Per combinare i diversi elementi, collegateli tra loro per creare diversi gruppi e/o livelli di gruppo. È quindi possibile selezionare un operatore logico per combinare elementi sullo stesso livello:
 
@@ -58,7 +58,11 @@ Questo consente di definire una condizione in base ai campi delle origini dati o
 
 ## Condizione di tempo{#time_condition}
 
-Questo consente di eseguire diverse azioni in base all’ora del giorno e/o del giorno della settimana. Ad esempio, potete decidere di inviare messaggi SMS durante il giorno e e-mail di notte nei giorni feriali. È possibile definire un fuso orario specifico per questa condizione. Vedere [](../building-journeys/timezone-management.md).
+Questo consente di eseguire diverse azioni in base all’ora del giorno e/o del giorno della settimana. Ad esempio, potete decidere di inviare messaggi SMS durante il giorno e e-mail di notte nei giorni feriali.
+
+>[!NOTE]
+>
+>Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. Vedere [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ Questa opzione consente di dividere in modo casuale l&#39;audience per definire 
 
 ## Data, condizione {#date_condition}
 
-Questo consente di definire un flusso diverso in base alla data. Ad esempio, se la persona immette il passaggio durante il periodo di &quot;vendita&quot;, gli invierai un messaggio specifico. Il resto dell&#39;anno, manderà un altro messaggio. Quando si definisce una condizione data, è necessario specificare un fuso orario. Vedere [](../building-journeys/timezone-management.md).
+Questo consente di definire un flusso diverso in base alla data. Ad esempio, se la persona immette il passaggio durante il periodo di &quot;vendita&quot;, gli invierai un messaggio specifico. Il resto dell&#39;anno, manderà un altro messaggio.
+
+>[!NOTE]
+>
+>Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. Vedere [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
