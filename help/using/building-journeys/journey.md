@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ L’interfaccia di viaggio consente di trascinare e rilasciare facilmente le att
 
 Di seguito sono riportati i passaggi principali per creare e pubblicare un viaggio.
 
-1. Nel menu principale, fate clic sulla **[!UICONTROL Home]**scheda.
+1. Nel menu principale, fate clic sulla **[!UICONTROL Home]** scheda.
 
    Viene visualizzato l’elenco dei viaggi. Consultate [](../building-journeys/using-the-journey-designer.md) per ulteriori informazioni sull&#39;interfaccia.
 
    ![](../assets/journey30.png)
 
-1. Fai clic **[!UICONTROL Create]**per creare un nuovo percorso.
+1. Fai clic **[!UICONTROL Create]** per creare un nuovo percorso.
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
    ![](../assets/journey32.png)
 
 1. Per iniziare, trascinate un&#39;attività dell&#39;evento dalla palette al quadro. Potete anche fare doppio clic su un&#39;attività per aggiungerla al quadro.
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
 
    ![](../assets/journey36.png)
 
-## Fine di un viaggio{#ending_a_journey}
+## Fine di un viaggio {#ending_a_journey}
 
 Esistono due modi per terminare un viaggio:
 
@@ -64,4 +63,3 @@ Esistono due modi per terminare un viaggio:
 * La persona arriva a un&#39;attività di condizione (o un&#39;attività di attesa con una condizione) e non corrisponde ad alcuna delle condizioni.
 
 La persona può quindi rientrare nel percorso se è consentito il rientro. Vedere [](../building-journeys/changing-properties.md).
-
