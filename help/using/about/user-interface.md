@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ Nei diversi elenchi, potete eseguire azioni di base su ciascun elemento. Ad esem
 
 ![](../assets/journey4.png)
 
-## Visualizzazione dei nomi dei campi XDM{#friendly-names-display}
+## Esplorazione dei campi della piattaforma dati {#friendly-names-display}
 
-I nomi dei campi XDM sono definiti negli schemi nei nomi dei campi e nei nomi visualizzati quando si definisce il payload [dell&#39;](../event/defining-the-payload-fields.md)evento, il payload [del gruppo di](../datasource/field-groups.md) campi e si selezionano i campi nell&#39;editor [delle](../expression/expressionadvanced.md)espressioni.
-Quando si seleziona un campo, vengono visualizzati il nome tecnico e un nome del campo più semplice da usare.
+Quando si definisce il payload [dell&#39;](../event/defining-the-payload-fields.md)evento, il payload [del gruppo di](../datasource/field-groups.md) campi e si selezionano i campi nell&#39;editor [delle](../expression/expressionadvanced.md)espressioni, oltre al nome del campo viene visualizzato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema nel modello dati esperienza.
 
-Potete fornire descrittori come &quot;xdm:alternateDisplayInfo&quot; durante la configurazione degli schemi per definire nomi descrittivi che sostituiranno i nomi visualizzati. Consente inoltre di modificare i valori &quot;title&quot; e &quot;description&quot; dei campi dello schema.
-
-Se è disponibile un nome descrittivo, il campo verrà visualizzato come `<friendly-name>(<name>)`. Se non è disponibile alcun nome descrittivo, ad esempio `<display-name>(<name>)`, verrà visualizzato il nome visualizzato. Se non ne viene definita alcuna, verrà visualizzato solo il nome tecnico del campo `<name>`.
-
-Potete configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la guida [per gli sviluppatori del Registro di](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)schema.
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVars&quot; e campi generici. È possibile configurare descrittori di nomi descrittivi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la guida [per gli sviluppatori del Registro di](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)schema.
 
 ![](../assets/xdm-from-descriptors.png)
+
+Se è disponibile un nome descrittivo, il campo verrà visualizzato come `<friendly-name>(<name>)`. Se non è disponibile alcun nome descrittivo, ad esempio `<display-name>(<name>)`, verrà visualizzato il nome visualizzato. Se non ne viene definita alcuna, verrà visualizzato solo il nome tecnico del campo `<name>`.
 
 >[!NOTE]
 >
