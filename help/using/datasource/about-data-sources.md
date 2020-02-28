@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 
 ---
 
@@ -23,14 +23,12 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 >title=&quot;Informazioni sulle origini dati&quot;
 >abstract=&quot;La configurazione dell&#39;origine dati viene sempre eseguita da un utente tecnico. La configurazione dell&#39;origine dati consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei viaggi, per: definizione della condizione, parametri e dati di personalizzazione in azioni, definizione di attesa personalizzata, definizione del fuso orario personalizzato.&quot;
 
-La configurazione dell&#39;origine dati viene sempre eseguita da un utente **** tecnico.
-
 La configurazione dell&#39;origine dati consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei viaggi, per:
 
-* definizione condizione
-* dati relativi a parametri e personalizzazione in azioni
-* definizione di attesa personalizzata
-* definizione del fuso orario personalizzato
+* [definizione condizione](../building-journeys/condition-activity.md)
+* parametri e dati di personalizzazione nelle [azioni](../action/action.md)
+* [definizione di attesa personalizzata](../building-journeys/wait-activity.md#custom)
+* [definizione del fuso orario personalizzato](../building-journeys/timezone-management.md)
 
 Questa configurazione non è necessaria se i viaggi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il viaggio è composto da un evento seguito da un&#39;attività e-mail che utilizza solo i dati dell&#39;evento, non è necessario configurare un&#39;origine dati.
 
@@ -39,11 +37,17 @@ Esistono due tipi di origini dati:
 * L’origine dati preconfigurata della piattaforma Experience che definisce la connessione al servizio profili cliente in tempo reale. È un&#39;origine dati incorporata. Vedere [](../datasource/adobe-experience-platform-data-source.md).
 * Le origini dati esterne che consentono di definire una connessione a sistemi esterni. Questi sono quelli che potete creare. Vedere [](../datasource/external-data-sources.md).
 
-Per ogni origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. Vedere [](../datasource/field-groups.md).
+Per ogni origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi sono insiemi di campi che possono essere recuperati da un&#39;origine dati. Vedere [](../datasource/field-groups.md).
+
+Per ulteriori informazioni su come configurare un’origine dati Experience Platform e un’origine dati esterna, nonché su come trovare e utilizzare i dati in un viaggio, guarda questo video [di](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)esercitazione.
 
 Di seguito sono riportati i passaggi principali per la configurazione dell&#39;origine dati:
 
-1. Nel menu principale, fate clic sulla **[!UICONTROL Data Sources]**scheda.
+>[!NOTE]
+>
+>La configurazione dell&#39;origine dati viene sempre eseguita da un utente **** tecnico.
+
+1. Nel menu principale, fate clic sulla **[!UICONTROL Data Sources]** scheda.
 
    Viene visualizzato l&#39;elenco delle origini dati. Consultate [](../about/user-interface.md) per ulteriori informazioni sull&#39;interfaccia.
 
