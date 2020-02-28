@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57cc43d8f2a223c04cc4ccccb3b3c3e0bcadfc1
+source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
 
 ---
 
@@ -19,22 +19,41 @@ source-git-commit: f57cc43d8f2a223c04cc4ccccb3b3c3e0bcadfc1
 
 # Gestione del fuso orario {#timezone_management}
 
-La definizione del fuso orario è disponibile nelle seguenti attività:
+Puoi definire un fuso orario nelle [proprietà](../building-journeys/changing-properties.md) del tuo viaggio.
+
+Per accedere a Proprietà, fai clic sull’icona matita in alto a destra nella schermata.
+
+Questo fuso orario verrà utilizzato per ogni attività del viaggio contenente un elemento temporale come:
 
 * [](../building-journeys/condition-activity.md#time_condition)
 * [](../building-journeys/condition-activity.md#date_condition)
 * [](../building-journeys/wait-activity.md#custom)
 * [](../building-journeys/wait-activity.md#fixed_date)
 
-Se l&#39;evento di ingresso del viaggio ha uno spazio dei nomi, il che significa che il viaggio può raggiungere il servizio di profilo cliente in tempo reale della piattaforma dati, il fuso orario è predefinito con quello specificato nel profilo del singolo che scorre nel viaggio. Se il profilo del singolo non contiene un fuso orario, viene utilizzato il fuso orario dell&#39;istanza. Potete contattare l’amministratore per conoscere il fuso orario dell’istanza.
+Potete selezionare un fuso orario o scegliere di utilizzare il fuso orario definito nel profilo utente.
 
-![](../assets/journey73.png)
+## Definizione di un fuso orario fisso {#fixed-timezone}
 
 È inoltre possibile fissare il fuso orario. Deselezionare il fuso orario predefinito e selezionarne uno dall&#39;elenco a discesa. Se utilizzate un fuso orario fisso, sarà lo stesso per tutti gli utenti che accedono al viaggio.
 
+A tale scopo, in **[!UICONTROL Properties]**, selezionare un fuso orario.
+
+![](../assets/journey73.png)
+
+## Utilizzo di profili per definire il fuso orario di viaggio {#timezone-from-profiles}
+
+Se l&#39;evento di ingresso del viaggio ha uno spazio dei nomi, il che significa che il viaggio può raggiungere il servizio di profilo cliente in tempo reale della piattaforma dati, il fuso orario è predefinito con quello specificato nel profilo del singolo che scorre nel viaggio.
+
+Se un fuso orario è definito nel profilo di Experience Platform, può essere recuperato durante il viaggio.
+
+Se il profilo del singolo non contiene un fuso orario, il fuso orario recuperato sarà quello definito nel campo del fuso orario.
+
+A tal fine, **[!UICONTROL Properties]** verificare **[!UICONTROL Use Profile timezone in timers and conditions]**.
+
 ![](../assets/journey72.png)
 
-Infine, il fuso orario può essere dinamico per ogni persona che accede al passaggio. In questo caso, si utilizzerà l&#39;editor di espressioni per selezionare la posizione in cui si desidera che il sistema ottenga queste informazioni (può provenire da un evento o da un&#39;origine dati). Vedere [](../expression/expressionadvanced.md).
+## Uso dei fusi orari nelle espressioni {#timezone-in-expressions}
 
+I fusi orari vengono utilizzati per creare espressione con l&#39;editor di espressioni avanzate. In questo caso, si utilizzerà l&#39;editor di espressioni per selezionare la posizione in cui si desidera che il sistema ottenga queste informazioni. Vedere [](../expression/expressionadvanced.md).
 
 Le date di inizio e fine di un viaggio non possono essere collegate a un fuso orario specifico. Vengono automaticamente associati al fuso orario dell&#39;istanza.
