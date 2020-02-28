@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -25,6 +25,10 @@ Prima di testare e pubblicare il percorso, verifica che tutte le attività siano
 Gli errori vengono visualizzati con un simbolo di avviso visualizzato sulle attività stesse sul quadro. Posizionare il cursore sul punto esclamativo per visualizzare il messaggio di errore. Se fate clic sull&#39;attività, la riga dovrebbe essere visualizzata in errore con un avviso. Ad esempio, se un campo obbligatorio è vuoto, viene visualizzato un errore.
 
 ![](../assets/journey63.png)
+
+Ad esempio, nel quadro, quando due attività sono disconnesse, viene visualizzato un avviso.
+
+![](../assets/canvas-disconnected.png)
 
 Accanto all&#39; **[!UICONTROL Test]** interruttore e al **[!UICONTROL Publish]** pulsante, è possibile visualizzare un segnale di avviso. Questo segnale di avviso visualizza gli errori rilevati dal sistema e impedisce l&#39;attivazione della modalità di prova o la pubblicazione del percorso. Nella maggior parte dei casi, gli errori rilevati dal sistema sono collegati a errori visibili sulle attività, ma a volte sono collegati ad altri problemi. In questo caso, potete visualizzarli, cercare di identificare il problema utilizzando la descrizione dell&#39;errore. Se non riuscite a identificare il problema, potete copiare i dettagli e inviarli all’amministratore o al supporto tecnico. Gli errori che bloccano il test e gli errori che bloccano la pubblicazione sono simili.
 
