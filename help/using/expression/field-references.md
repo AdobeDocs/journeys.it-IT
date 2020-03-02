@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -47,7 +47,6 @@ Un colore della sintassi viene utilizzato per distinguere visivamente i campi ev
 
 Un valore predefinito può essere associato a un nome di campo. La sintassi è la seguente:
 
-
 ```
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
@@ -71,7 +70,9 @@ Esempio:
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**Riferimento di un campo definito in una mappa** Per recuperare un elemento in una mappa, utilizziamo la funzione entry con una chiave specificata. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Vedere Selezione dello spazio dei nomi. Per ulteriori informazioni, vedi [](../event/selecting-the-namespace.md).
+**Riferimento a un campo definito in una mappa**
+
+Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una data chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Vedere Selezione dello spazio dei nomi. Per ulteriori informazioni, vedi [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
