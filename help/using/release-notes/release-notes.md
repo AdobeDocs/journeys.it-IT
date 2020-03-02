@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 <td>
 <p>La <strong>palette</strong>Viaggio, a sinistra del designer del viaggio, è stata migliorata:</p>
 <ul>
-<li>Una nuova icona, accanto alla barra **Search**, consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio gli eventi che utilizzano uno spazio nomi diverso da quelli utilizzati nel percorso. Per impostazione predefinita, gli elementi non disponibili sono nascosti.</li>
+<li>Una nuova icona, accanto alla barra di <strong>ricerca</strong> , consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio gli eventi che utilizzano uno spazio nomi diverso da quelli utilizzati nel percorso. Per impostazione predefinita, gli elementi non disponibili sono nascosti.</li>
 <li>Quando si utilizza il campo <strong>Cerca</strong> , ora viene visualizzato il numero di risultati per ogni categoria di attività canvas.</li>
 <li>È stata migliorata la navigazione tra le diverse categorie di attività.</li>
 </ul>
