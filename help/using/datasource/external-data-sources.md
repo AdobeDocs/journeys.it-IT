@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 # Origini dati esterne {#concept_t2s_kqt_52b}
 
-Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se la persona ha registrato una stanza. Invece dell’origine dati integrata della piattaforma Experience, puoi creare tutte le origini dati esterne necessarie.
+Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se la persona ha registrato una stanza. Invece dell’origine dati integrata della piattaforma Experience, puoi creare un numero illimitato di origini dati esterne.
 
 Sono supportate le API REST che utilizzano POST o GET e che restituiscono JSON. Sono supportate le modalità di autenticazione API Key, di base e personalizzate.
 
@@ -34,7 +34,7 @@ La chiamata è composta da un URL principale (_https://api.adobeweather.org/weat
 
 Di seguito sono riportati i passaggi principali per creare e configurare una nuova origine dati esterna:
 
-1. Dall&#39;elenco delle origini dati, fare clic **[!UICONTROL Add]**per creare una nuova origine dati esterna.
+1. Dall&#39;elenco delle origini dati, fare clic **[!UICONTROL Add]** per creare una nuova origine dati esterna.
 
    ![](../assets/journey25.png)
 
@@ -53,11 +53,11 @@ Di seguito sono riportati i passaggi principali per creare e configurare una nuo
 
    >[!CAUTION]
    >
-   >È consigliabile utilizzare HTTPS per motivi di sicurezza. Inoltre, non consentiamo l&#39;uso di indirizzi Adobe non disponibili al pubblico e l&#39;uso di indirizzi IP.
+   >È consigliabile utilizzare HTTPS per motivi di sicurezza. Inoltre, non consentiamo l&#39;uso di indirizzi Adobe che non sono disponibili al pubblico e l&#39;uso di indirizzi IP.
 
    ![](../assets/journey27.png)
 
-1. Configurare l&#39;autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**,**[!UICONTROL Basic]**, **[!UICONTROL Custom]**o**[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Nel nostro esempio, scegliamo:
+1. Configurare l&#39;autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Nel nostro esempio, scegliamo:
 
 
    * **[!UICONTROL Type]**: &quot;Chiave API&quot;
@@ -70,20 +70,20 @@ Di seguito sono riportati i passaggi principali per creare e configurare una nuo
 
 Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi con le seguenti informazioni:
 
-* **[!UICONTROL Used in]**: visualizza il numero di viaggi che utilizzano un gruppo di campi. Puoi fare clic sull&#39;**[!UICONTROL View journeys]** icona per visualizzare l&#39;elenco dei viaggi utilizzando questo gruppo di campi.
+* **[!UICONTROL Used in]**: visualizza il numero di viaggi che utilizzano un gruppo di campi. Puoi fare clic sull&#39; **[!UICONTROL View journeys]** icona per visualizzare l&#39;elenco dei viaggi utilizzando questo gruppo di campi.
 * **[!UICONTROL Method]**: selezionate il metodo POST o GET. Nel nostro caso, selezioniamo il metodo GET.
 * **[!UICONTROL Cache duration]**: nel nostro caso, vogliamo che il tempo sia memorizzato nella cache per 10 minuti.
-* **[!UICONTROL Response Payload]**: fai clic all’interno del**[!UICONTROL Payload]** campo e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il tempo. Verificare che i tipi di campo siano corretti. Ogni volta che viene chiamata l&#39;API, il sistema recupererà tutti i campi inclusi nell&#39;esempio di payload. È possibile fare clic su **[!UICONTROL Paste a new payload]**se si desidera modificare il payload attualmente passato.
-* **[!UICONTROL Dynamic Values]**: inserire i diversi parametri separati da un coma, &quot;long,lat&quot; nel nostro esempio. Poiché i valori dei parametri dipendono dal contesto di esecuzione, saranno definiti nei viaggi. Vedere[](../expression/expressionadvanced.md).
+* **[!UICONTROL Response Payload]**: fai clic all’interno del **[!UICONTROL Payload]** campo e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il tempo. Verificare che i tipi di campo siano corretti. Ogni volta che viene chiamata l&#39;API, il sistema recupererà tutti i campi inclusi nell&#39;esempio di payload. È possibile fare clic su **[!UICONTROL Paste a new payload]** se si desidera modificare il payload attualmente passato.
+* **[!UICONTROL Dynamic Values]**: inserire i diversi parametri separati da un coma, &quot;long,lat&quot; nel nostro esempio. Poiché i valori dei parametri dipendono dal contesto di esecuzione, saranno definiti nei viaggi. Vedere [](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
 
-In caso di chiamata GET che richieda parametri, immetti i parametri nel **[!UICONTROL Parameters]**campo e questi vengono automaticamente aggiunti alla fine della chiamata. In caso di chiamata POST, è necessario:
+In caso di chiamata GET che richieda parametri, immetti i parametri nel **[!UICONTROL Parameters]** campo e questi vengono automaticamente aggiunti alla fine della chiamata. In caso di chiamata POST, è necessario:
 
-* elencare i parametri da passare al momento della chiamata nel **[!UICONTROL Parameter]**campo (nell&#39;esempio seguente: &quot;identifier&quot;).
+* elencare i parametri da passare al momento della chiamata nel **[!UICONTROL Parameter]** campo (nell&#39;esempio seguente: &quot;identifier&quot;).
 * specificarli anche con la stessa sintassi nel corpo del payload inviato. A tale scopo, è necessario aggiungere: &quot;param&quot;: &quot;name of your parameter&quot; (nel seguente esempio: &quot;identifier&quot;). Seguite la sintassi seguente:
 
    ```
-   {“id”:{“param”:“identifier”}}
+   {"id":{"param":"identifier"}}
    ```
 
 ![](../assets/journey29.png)
@@ -118,7 +118,7 @@ Definizione dell&#39;endpoint da chiamare per generare il token di accesso:
 * intestazioni: coppie chiave/valore da inserire come intestazioni in questa chiamata, se necessario
 * corpo: descrive il corpo della chiamata se il metodo è POST. Supportiamo una struttura del corpo limitata, definita in bodyParams (coppie chiave/valore). Il bodyType descrive il formato e la codifica del corpo nella chiamata:
    * &#39;form&#39;: il che significa che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave/valore saranno serializzate come segue: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: il che significa che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie di valori chiave saranno serializzate come oggetto json così come: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+   * &#39;json&#39;: il che significa che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie di valori chiave saranno serializzate come oggetto json così come sono: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 Definizione della modalità di inserimento del token di accesso nella richiesta HTTP dell’azione:
 
@@ -141,7 +141,7 @@ Il formato di questa autenticazione è:
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
-    (optional) "headers: {
+    (optional) "headers": {
         "<header name>": "<header value>",
         ...
     },
