@@ -4,7 +4,7 @@ solution: Journeys
 title: Documentazione prodotto Orchestrazione viaggio
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
+source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## Guida introduttiva
 
-* **[Cos&#39;è l&#39;orchestrazione del viaggio?](using/action/working-with-adobe-campaign.md)**<br/>Ulteriori informazioni sull&#39;orchestrazione del viaggio.
+* **[Cos&#39;è l&#39;orchestrazione del viaggio?](using/about/about-journey-orchestration.md)**<br/>Ulteriori informazioni sull&#39;orchestrazione del viaggio.
 
 * **[Crea il tuo primo viaggio](using/about/get-started.md)**<br/>Scopri i passaggi principali per configurare l&#39;Orchestrazione del viaggio e costruire il tuo primo viaggio.
 
@@ -34,7 +34,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/about/troubleshooting.md"><strong>Risoluzione dei problemi</strong></a>
     </div>
-    <em></em>Scopri i vari strumenti che puoi usare per risolvere i tuoi viaggi.
+    <em>Scopri i vari strumenti che puoi usare per risolvere i tuoi viaggi.</em>
     <br>
   </td>
   <td valign="top">
@@ -44,7 +44,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>Caso di utilizzo</strong></a>
     </div>
-    <em></em>Scopri come creare un viaggio avanzato passo dopo passo.
+    <em>Scopri come creare un viaggio avanzato passo dopo passo.</em>
     <br>
   </td>
   <td valign="top">
@@ -54,7 +54,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>Creazione di espressioni avanzate</strong></a>
     </div>
-    <em>Scopri come creare espressioni complesse utilizzando i dati provenienti da eventi e origini dati. </em>
+    <em>Scoprite come creare espressioni complesse utilizzando i dati provenienti da eventi e origini dati. </em>
     <br>
   </td>
 </tr>
