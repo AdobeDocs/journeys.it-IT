@@ -9,19 +9,12 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
+source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 
 ---
 
 
 # Interfaccia utente{#concept_rcq_lqt_52b}
-
-
->[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Informazioni sull&#39;elenco dei viaggi&quot;
->abstract=&quot;L’elenco dei viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi interrompere o eliminare un viaggio completato. Puoi anche usare la barra di ricerca per cercare un viaggio.&quot;
->Additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Guarda il video dimostrativo&quot;
 
 >[!NOTE]
 >
@@ -29,7 +22,7 @@ source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 >
 >Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate al prodotto. Tuttavia, alcune schermate possono essere leggermente diverse dall&#39;interfaccia del prodotto.
 
-## Esplorazione dell’interfaccia{#section_jsq_zr1_ffb}
+## Accesso all&#39;orchestrazione del percorso{#accessing_journey_orchestration}
 
 Per accedere all&#39;interfaccia dell&#39;orchestrazione del viaggio, fare clic sull&#39; **[!UICONTROL App Selector]** icona in alto a destra. Quindi fate clic **[!UICONTROL Journey Orchestration]**, a destra, sotto &quot;Experience Platform&quot;.
 
@@ -38,6 +31,14 @@ Per accedere all&#39;interfaccia dell&#39;orchestrazione del viaggio, fare clic 
 Puoi anche accedere all’orchestrazione del percorso dalla home page di Experience Cloud, nella **[!UICONTROL Quick access]** sezione.
 
 ![](../assets/journey1bis.png)
+
+## Esplorazione dell’interfaccia{#section_jsq_zr1_ffb}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_home&quot;
+>title=&quot;Informazioni sull&#39;elenco dei viaggi&quot;
+>abstract=&quot;L’elenco dei viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. È possibile creare una nuova versione oppure duplicarla. Puoi anche usare la barra di ricerca per cercare un viaggio.&quot;
+>Additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Guarda il video dimostrativo&quot;
 
 I menu superiori consentono di navigare tra le diverse funzionalità dell&#39;Orchestrazione del viaggio: **[!UICONTROL Home]**(i viaggi),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
