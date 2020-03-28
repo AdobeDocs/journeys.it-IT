@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -34,7 +34,7 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
    ![](../assets/journeytest_wait.png)
 
-1. Fate clic **[!UICONTROL Trigger an event]** per configurare e inviare gli eventi al percorso. Assicuratevi di inviare eventi correlati ai profili di test. Consultate [Attivazione degli eventi](#firing_events).
+1. Fate clic **[!UICONTROL Trigger an event]** per configurare e inviare gli eventi al percorso. Assicuratevi di inviare gli eventi relativi ai profili di test. Consultate [Attivazione degli eventi](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
@@ -48,7 +48,7 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
 * Viene fornita un&#39;interfaccia per attivare gli eventi per il percorso testato, ma gli eventi possono essere inviati anche da sistemi di terze parti come Postman.
 * Solo gli individui contrassegnati come &quot;profili di prova&quot; nel servizio di profilo cliente in tempo reale potranno entrare nel percorso testato. Il processo per creare un profilo di test è lo stesso del processo per creare un profilo nella piattaforma dati. È sufficiente assicurarsi che il flag del profilo di test sia vero. Puoi utilizzare la sezione Segmenti nell’interfaccia Piattaforma dati per creare un segmento di profili di test nella tua Piattaforma dati e visualizzare un elenco non esaustivo. Al momento non è possibile visualizzare l&#39;elenco completo.
-* La modalità test è disponibile solo nelle bozze di viaggio che utilizzano uno spazio dei nomi. In effetti, la modalità di prova deve verificare se una persona che accede al viaggio è un profilo di prova o meno e deve quindi essere in grado di raggiungere la piattaforma dati.
+* La modalità test è disponibile solo nelle bozze di viaggio che utilizzano uno spazio dei nomi. In effetti, la modalità di prova deve verificare se una persona che accede al viaggio è un profilo di prova o meno e deve quindi essere in grado di raggiungere la Piattaforma dati.
 * Il numero massimo di profili di test che possono entrare in un percorso durante una sessione di test è 100.
 * Quando disattivate la modalità di prova, i viaggi vengono svuotati da tutte le persone che sono entrate nel passato o che vi si trovano attualmente.
 * Potete attivare/disattivare la modalità di prova il numero di volte necessario.
@@ -58,7 +58,7 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
 Il **[!UICONTROL Trigger an event]** pulsante consente di configurare un evento che farà entrare una persona nel percorso.
 
-Come prerequisito, devi sapere quali profili vengono contrassegnati come profili di test nella piattaforma dati. Infatti, la modalità di prova consente solo questi profili nel percorso e l&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
+Come prerequisito, devi sapere quali profili vengono contrassegnati come profili di test nella piattaforma dati. In effetti, la modalità di prova consente solo questi profili nel percorso e l&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
 
 Se il viaggio contiene diversi eventi, utilizzate l&#39;elenco a discesa per selezionare un evento. Quindi, per ogni evento, configurate i campi passati e l’esecuzione dell’invio dell’evento. L&#39;interfaccia consente di trasmettere le informazioni corrette nel payload dell&#39;evento e verificare che il tipo di informazioni sia corretto. La modalità di prova salva gli ultimi parametri utilizzati in una sessione di prova per un uso successivo.
 
@@ -80,13 +80,15 @@ Il **[!UICONTROL Show log]** pulsante consente di visualizzare i risultati del t
 >
 >Nei registri di test, in caso di errore durante la chiamata a un sistema di terze parti (origine dati o azione), vengono visualizzati il codice di errore e la risposta di errore.
 
-Viene visualizzato il numero di individui (tecnicamente chiamati istanze) attualmente presenti nel percorso. Seguono alcune informazioni utili che vengono visualizzate per ciascun utente:
+Viene visualizzato il numero di individui (tecnicamente chiamati istanze) attualmente presenti nel percorso. Seguono alcune informazioni utili che vengono visualizzate per ogni singolo utente:
 
 * _Id_: l’ID interno dell’utente durante il viaggio. Può essere utilizzato a scopo di debug.
 * _currentstep_: il passo in cui si trova l&#39;individuo nel viaggio. È consigliabile aggiungere etichette alle attività per identificarle più facilmente.
 * _currentstep_ > step: lo stato del viaggio (in esecuzione, completato, errore o scaduto). Per ulteriori informazioni, vedi sotto.
 * _currentstep_ > _extraInfo_: descrizione dell’errore e di altre informazioni contestuali.
+* _currentstep_ > _fetchErrors_: informazioni sugli errori di recupero dei dati che si sono verificati durante questo passaggio.
 * _externalKeys_: il valore della formula chiave definita nell&#39;evento.
 * _data_ arricchita: i dati recuperati nel caso in cui il viaggio utilizzi origini dati.
 * _TransitionHistory_: l&#39;elenco dei passaggi seguiti dall&#39;utente. Per gli eventi, viene visualizzato il payload.
+* _actionExecutionErrors_ : informazioni sugli errori verificatisi.
 
