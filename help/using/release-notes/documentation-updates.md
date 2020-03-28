@@ -23,6 +23,7 @@ In questa pagina sono elencati tutti gli aggiornamenti della documentazione per 
 
 ## Marzo 2020 {#march-2020}
 
+* Sono state aggiunte descrizioni dei parametri per _actionExecutionErrors_ e _fetchErrors_ nella sezione dei registri di prova. [Leggi tutto](../action/testing-the-journey.md#viewing_logs)
 * Le limitazioni alle azioni personalizzate utilizzate in un viaggio sono state aggiornate. Potete inoltre modificare il campo **URL** e i parametri di **autenticazione** . [Leggi tutto](../action/about-custom-action-configuration.md)
 * Sono state aggiunte nuove voci di aiuto contestuali. Il riquadro del payload di autenticazione personalizzata (in azioni e origini dati) ora include un&#39;icona della guida che collega a questa [sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Ora è possibile interrompere i viaggi finiti. [Leggi tutto](../building-journeys/using-the-journey-designer.md)
