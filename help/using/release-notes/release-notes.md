@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
+source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 
 ---
 
@@ -23,7 +23,7 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 
 ## Rilascio Q1 - Marzo 2020 {#q1-release---march-2020}
 
-**Cosa c&#39;è di nuovo?**
+**Novità?**
 
 <table>
 <thead>
@@ -59,8 +59,8 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 <p>La gestione del fuso orario è ora centralizzata nel pannello delle proprietà del viaggio. Nelle proprietà di viaggio sono stati aggiunti due parametri:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>L’elenco a discesa <strong>Fuso orario</strong> consente di selezionare un fuso orario specifico. Per impostazione predefinita, viene utilizzato il fuso orario del browser.</li>
-<li>La casella <strong>Fuso orario</strong> profilo consente di utilizzare il fuso orario del profilo della piattaforma esperienza della persona che accede al viaggio, se disponibile. In caso contrario, viene utilizzato il fuso orario definito nell'elenco a discesa. Questa funzione non è compatibile con i viaggi che utilizzano eventi privi di spazio nomi.</li>
+<li>L’elenco a discesa <strong>Fuso orario</strong> consente di selezionare un fuso orario specifico. Per impostazione predefinita, viene utilizzato il fuso orario del browser. </li>
+<li>La casella di controllo <strong>Fuso orario</strong> profilo consente di utilizzare il fuso orario del profilo della piattaforma esperienza della persona che accede al viaggio, se disponibile. In caso contrario, viene utilizzato il fuso orario definito nell'elenco a discesa. Questa funzione non è compatibile con i viaggi che utilizzano eventi privi di spazio nomi.</li>
 </ul>
 <p>Per ulteriori informazioni, consultare le sezioni <a href="../building-journeys/changing-properties.md#timezone">Modifica delle proprietà</a> e Gestione <a href="../building-journeys/timezone-management.md">del</a> fuso orario.</p>
 </td>
@@ -113,7 +113,7 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 
 * Oltre agli Stati Uniti, ora è disponibile l&#39;orchestrazione dei viaggi nell&#39; **area EMEA**. La domanda e la documentazione sono disponibili in francese e tedesco.
 
-* Experience League è ora integrato nel prodotto. Questo semplifica l&#39;accesso ai contenuti correlati e consente di trarre il massimo da Experience Cloud. L&#39;accesso diretto alla documentazione sull&#39;orchestrazione del percorso è disponibile nella parte inferiore della scheda Aiuto. Inoltre, fate clic su Aiuto > Feedback per segnalare i problemi o condividere le idee con Adobe.
+* Experience League è ora integrato nel prodotto. Questo semplifica l&#39;accesso ai contenuti correlati e consente di trarre il massimo da Experience Cloud. L&#39;accesso diretto alla documentazione sull&#39;orchestrazione del percorso è disponibile nella parte inferiore della scheda della Guida. Inoltre, fate clic su Aiuto > Feedback per segnalare i problemi o condividere le idee con Adobe.
 
 * La scelta rapida da tastiera **C** , che consente di creare un nuovo elemento, è ora disponibile in tutte le schermate elenco: viaggi, origini dati, azioni ed eventi. [Leggi tutto](../about/user-interface.md#section_ksq_zr1_ffb)
 
@@ -127,9 +127,9 @@ L&#39;orchestrazione del viaggio ora è GA.
 
 Creare casi di utilizzo di orchestrazione in tempo reale utilizzando i dati contestuali memorizzati in eventi o origini dati.
 
-L&#39;orchestrazione del percorso consente l&#39;orchestrazione in tempo reale basata su dati contestuali derivati da eventi, informazioni provenienti da Adobe Experience Platform o dati provenienti da servizi API di terze parti. L&#39;applicazione determina nei flussi in più passaggi denominati viaggi le azioni migliori successive specifiche per il consumatore, in base al suo profilo e ai suoi comportamenti. Questo include sia la tempistica ottimale, sia il tipo di azione, ad esempio l&#39;invio al consumatore di una notifica push tramite le funzionalità di messaggistica transazionali di Adobe Campaign Standard (richiede Adobe Campaign Standard) o la notifica di un sistema di terze parti. Queste decisioni si basano su regole e voti Sensei.
+L&#39;orchestrazione del percorso consente l&#39;orchestrazione in tempo reale basata su dati contestuali derivati da eventi, informazioni provenienti da Adobe Experience Platform o dati provenienti da servizi API di terze parti. L&#39;applicazione determina nei flussi in più passaggi denominati viaggi le azioni migliori successive specifiche per il consumatore, in base al suo profilo e ai suoi comportamenti. Questo include sia la tempistica ottimale, sia il tipo di azione, ad esempio l&#39;invio al consumatore di una notifica push tramite le funzionalità di messaggistica transazionali di Adobe Campaign Standard (richiede Adobe Campaign Standard) o la notifica di un sistema di terze parti. Queste decisioni sono prese sulla base di regole e voti Sensei.
 
-[Ulteriori](../action/working-with-adobe-campaign.md) informazioni sull&#39;orchestrazione del viaggio.
+[](../action/working-with-adobe-campaign.md)Ulteriori informazioni su Journey Orchestration.
 
 Risorse aggiuntive:
 
