@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 
 ---
 
@@ -93,6 +93,11 @@ Clic **[!UICONTROL Save]**.
 L&#39;origine dati è ora configurata e pronta per essere utilizzata nei viaggi, ad esempio nelle tue condizioni o per personalizzare un&#39;e-mail. Se la temperatura è superiore a 30°C, si può decidere di inviare una comunicazione specifica.
 
 ## Modalità autenticazione personalizzata{#section_wjp_nl5_nhb}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_authentication_payload&quot;
+>title=&quot;Informazioni sull&#39;autenticazione personalizzata&quot;
+>abstract=&quot;La modalità di autenticazione personalizzata viene utilizzata per l&#39;autenticazione complessa per chiamare i protocolli di wrapping API come OAuth2. L&#39;esecuzione dell&#39;azione è un processo in due fasi. Innanzitutto, viene eseguita una chiamata all&#39;endpoint per generare il token di accesso. Quindi, il token di accesso viene inserito nella richiesta HTTP dell’azione.&quot;
 
 Questa modalità di autenticazione viene utilizzata per l&#39;autenticazione complessa, frequentemente utilizzata per chiamare i protocolli di wrapping API come OAuth2, per recuperare un token di accesso da inserire nella richiesta HTTP reale per l&#39;azione.
 
