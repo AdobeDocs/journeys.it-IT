@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -44,4 +44,4 @@ Di seguito sono riportati i passaggi principali necessari per configurare un&#39
 
    >[!NOTE]
    >
-   >Quando un&#39;azione personalizzata viene utilizzata in una versione di viaggio, la maggior parte dei parametri sono di sola lettura. È possibile modificare solo i **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** i campi e la **[!UICONTROL Authentication]** sezione.
+   >Quando un&#39;azione personalizzata viene utilizzata in un viaggio, la maggior parte dei parametri sono di sola lettura. È possibile modificare solo i **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** i campi e la **[!UICONTROL Authentication]** sezione.
