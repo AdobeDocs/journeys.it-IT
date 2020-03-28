@@ -1,6 +1,6 @@
 ---
 title: Aggiornamenti alla documentazione
-description: Informazioni sugli aggiornamenti della documentazione
+description: Scopri gli aggiornamenti della documentazione
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ---
 
@@ -23,7 +23,11 @@ In questa pagina sono elencati tutti gli aggiornamenti della documentazione per 
 
 ## Marzo 2020 {#march-2020}
 
-* L&#39;attivazione di più eventi è stata aggiunta alla sezione Modalità test [Per saperne di più](../building-journeys/testing-the-journey.md#firing_events)
+* Le limitazioni alle azioni personalizzate utilizzate in un viaggio sono state aggiornate. Potete inoltre modificare il campo **URL** e i parametri di **autenticazione** . [Leggi tutto](../action/about-custom-action-configuration.md)
+* Sono state aggiunte nuove voci di aiuto contestuali. Il riquadro del payload di autenticazione personalizzata (in azioni e origini dati) ora include un&#39;icona della guida che collega a questa [sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+* Ora è possibile interrompere i viaggi finiti. [Leggi tutto](../building-journeys/using-the-journey-designer.md)
+* La sezione della descrizione dell&#39;interfaccia è stata riorganizzata. [Leggi tutto](../about/user-interface.md)
+* L&#39;attivazione di più eventi è stata aggiunta alla sezione Modalità di test [Per saperne di più](../building-journeys/testing-the-journey.md#firing_events)
 * La sezione Modalità di prova è stata aggiornata per quanto riguarda il nuovo tempo di **attesa nel parametro test** . [Leggi tutto](../building-journeys/testing-the-journey.md)
 * La sezione del registro dei test è stata aggiornata con codici di errore e risposte di chiamata esterni. [Leggi tutto](../building-journeys/testing-the-journey.md#viewing_logs)
 * La gestione del fuso orario è ora centralizzata nel pannello delle proprietà del viaggio. Per saperne di più, [consulta](../building-journeys/changing-properties.md#timezone) e [consulta](../building-journeys/timezone-management.md)
@@ -38,7 +42,7 @@ In questa pagina sono elencati tutti gli aggiornamenti della documentazione per 
 
 ## Gennaio 2020 {#january-2020}
 
-* Sono state aggiunte limitazioni per eventi [e](../datasource/adobe-experience-platform-data-source.md) segmenti [di](../functions/functioninsegment.md)esperienza.
+* Sono state aggiunte limitazioni per gli eventi [di](../datasource/adobe-experience-platform-data-source.md) esperienza e [i segmenti](../functions/functioninsegment.md).
 * La documentazione [](../functions/functiongetbestsendtime.md) getBestSendTime è stata aggiornata.
 
 ## Dicembre 2019 {#december-2019}
