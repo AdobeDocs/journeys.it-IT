@@ -22,7 +22,7 @@ Il menu Home del viaggio consente di visualizzare l&#39; **elenco dei viaggi**. 
 
 ## La lista di viaggi {#journey_list}
 
-L&#39;elenco **dei** viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. È possibile creare una nuova versione oppure duplicarla. Potete anche usare la barra di ricerca per cercare un viaggio.
+L&#39;elenco **dei** viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. Potete creare una nuova versione, duplicarla o interromperla. Potete anche usare la barra di ricerca per cercare un viaggio.
 
 Per **[!UICONTROL Filters]** accedervi, fate clic sull’icona del filtro in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare i viaggi visualizzati in base a criteri diversi (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). Potete anche scegliere di visualizzare solo i viaggi che utilizzano un evento, un gruppo di campi o un&#39;azione particolare. È possibile configurare le colonne visualizzate nell&#39;elenco. Tutti i filtri e le colonne vengono salvati per utente.
 
@@ -74,7 +74,7 @@ A seconda dello stato del viaggio, puoi eseguire diverse azioni sul viaggio util
 
 ## Utilizzo dei percorsi nel quadro {#paths}
 
-Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) consentono di definire un&#39;azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell&#39;attività, selezionate la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l&#39;attività. La durata di timeout è definita nelle proprietà del percorso (vedete [](../building-journeys/changing-properties.md) da un utente amministratore. Ad esempio, se l’invio di un messaggio e-mail richiede troppo tempo o si verifica un errore, potete decidere di inviare un SMS.
+Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) consentono di definire un&#39;azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell&#39;attività, selezionate la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l&#39;attività. La durata di timeout è definita nelle proprietà del percorso (vedete [](../building-journeys/changing-properties.md) da un utente amministratore). Ad esempio, se l’invio di un messaggio e-mail richiede troppo tempo o si verifica un errore, potete decidere di inviare un SMS.
 
 ![](../assets/journey42.png)
 
