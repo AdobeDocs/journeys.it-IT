@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -20,9 +20,9 @@ source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
 
 La chiave è il campo o la combinazione di campi fa parte dei dati di payload dell’evento e consentirà al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l’ID Experience Cloud, un ID CRM o un indirizzo e-mail.
 
-Se intendete sfruttare i dati memorizzati nel database Profilo cliente in tempo reale, dovete selezionare, come chiave dell&#39;evento, le informazioni definite come identità del profilo nel servizio [Profilo cliente in tempo](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)reale.
+Se intendete sfruttare i dati memorizzati nel database Profilo cliente in tempo reale, dovete selezionare, come chiave dell&#39;evento, le informazioni definite come identità del profilo nel servizio [Profilo cliente in tempo](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)reale.
 
-Consentirà al sistema di eseguire la riconciliazione tra l&#39;evento e il profilo dell&#39;individuo. Se si seleziona uno schema con un&#39;identità primaria, i campi **[!UICONTROL Key]** e **[!UICONTROL Namespace]** vengono precompilati. Se non è definita alcuna identità, come chiave primaria selezioneremo _identityMap > id_ . Quindi è necessario selezionare uno spazio nomi e la chiave sarà precompilata (sotto il **[!UICONTROL Namespace]** campo) utilizzando _identityMap > id_.
+Consentirà al sistema di eseguire la riconciliazione tra l&#39;evento e il profilo dell&#39;individuo. Se si seleziona uno schema con un&#39;identità primaria, i campi **[!UICONTROL Key]** e **[!UICONTROL Namespace]** vengono precompilati. Se non è definita alcuna identità, come chiave primaria selezioneremo _identityMap > id_ . Quindi è necessario selezionare uno spazio dei nomi e la chiave sarà precompilata (sotto il **[!UICONTROL Namespace]** campo) utilizzando _identityMap > id_.
 
 Quando si selezionano i campi, i tag dei campi identità primari sono assegnati.
 
@@ -30,7 +30,7 @@ Quando si selezionano i campi, i tag dei campi identità primari sono assegnati.
 
 Se devi usare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mail, devi aggiungerla manualmente:
 
-1. Fare clic all&#39;interno del **[!UICONTROL Key]** campo o sull&#39;icona della matita.
+1. Fare clic all&#39;interno del **[!UICONTROL Key]** campo o sull&#39;icona a forma di matita.
 
    ![](../assets/journey16.png)
 
