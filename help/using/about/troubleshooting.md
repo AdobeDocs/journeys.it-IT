@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -30,7 +30,7 @@ Ad esempio, nel quadro, quando due attività sono disconnesse, viene visualizzat
 
 ![](../assets/canvas-disconnected.png)
 
-Accanto all&#39; **[!UICONTROL Test]** interruttore e al **[!UICONTROL Publish]** pulsante, è possibile visualizzare un segnale di avviso. Questo segnale di avviso visualizza gli errori rilevati dal sistema e impedisce l&#39;attivazione della modalità di prova o la pubblicazione del percorso. Nella maggior parte dei casi, gli errori rilevati dal sistema sono collegati a errori visibili sulle attività, ma a volte sono collegati ad altri problemi. In questo caso, potete visualizzarli, cercare di identificare il problema utilizzando la descrizione dell&#39;errore. Se non riuscite a identificare il problema, potete copiare i dettagli e inviarli all’amministratore o al supporto tecnico. Gli errori che bloccano il test e gli errori che bloccano la pubblicazione sono simili.
+Accanto all&#39; **[!UICONTROL Test]** interruttore e al **[!UICONTROL Publish]** pulsante, è possibile visualizzare un segnale di avviso. Questo segnale di avviso visualizza gli errori rilevati dal sistema e impedisce l&#39;attivazione della modalità di prova o la pubblicazione del percorso. Nella maggior parte dei casi, gli errori rilevati dal sistema sono collegati a errori visibili sulle attività, ma a volte sono collegati ad altri problemi. In questo caso, potete visualizzarli, cercare di identificare il problema utilizzando la descrizione dell&#39;errore. Se non riuscite a identificare il problema, potete copiare i dettagli e inviarli all’amministratore o al supporto tecnico. Si noti che gli errori che bloccano il test e gli errori che bloccano la pubblicazione sono simili.
 
 Il sistema rileva due tipi di problemi: errori e avvisi Errori nella pubblicazione del blocco e nel test dell&#39;attivazione. Gli avvisi indicano potenziali problemi che non impediscono l&#39;attivazione o la pubblicazione del test. Vedrete una descrizione del problema e un ID registro dei problemi del tipo ERR_XXX_XXX. Questo aiuterà il supporto tecnico a identificare il problema.
 
@@ -46,11 +46,11 @@ Il punto di partenza di un viaggio è sempre un evento. Potete eseguire i test u
 
 Potete verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata ha un problema. Controllate di nuovo il payload, l&#39;intestazione (e in particolare l&#39;ID organizzazione) e l&#39;URL di destinazione. Potete chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall&#39;origine all&#39;orchestrazione del percorso. In effetti, l’orchestrazione del percorso si basa sulle API di caricamento in streaming della piattaforma Experience. Di conseguenza, in caso di problemi relativi agli eventi, potete fare riferimento a questa [pagina](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) per la risoluzione dei problemi delle API di assimilazione in streaming.
+Gli eventi non vengono inviati direttamente dall&#39;origine all&#39;orchestrazione del percorso. In effetti, l’orchestrazione del percorso si basa sulle API di assimilazione dello streaming della piattaforma Experience. Di conseguenza, in caso di problemi relativi agli eventi, potete fare riferimento a questa [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) per la risoluzione dei problemi delle API di assimilazione in streaming.
 
 ## Verifica se le persone entrano nel viaggio{#section_x4v_zzs_dgb}
 
-L&#39;orchestrazione del viaggio misura le entrate delle persone in un viaggio in tempo reale.
+L&#39;orchestrazione del viaggio misura gli ingressi delle persone in un viaggio in tempo reale.
 
 Se l’invio dell’evento è stato completato con successo ma non viene visualizzato alcun ingresso nel viaggio, significa che qualcosa va storto tra l’invio dell’evento e la ricezione dell’evento nel viaggio.
 
