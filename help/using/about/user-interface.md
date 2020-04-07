@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -35,10 +35,10 @@ Puoi anche accedere all’orchestrazione del percorso dalla home page di Experie
 ## Esplorazione dell’interfaccia{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Informazioni sull&#39;elenco dei viaggi&quot;
->abstract=&quot;L’elenco dei viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. È possibile creare una nuova versione oppure duplicarla. Puoi anche usare la barra di ricerca per cercare un viaggio.&quot;
->Additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Guarda il video dimostrativo&quot;
+>id="jo_home"
+>title="Informazioni sull&#39;elenco Percorso"
+>abstract="La lista di viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. È possibile creare una nuova versione oppure duplicarla. Potete anche usare la barra di ricerca per cercare un viaggio."
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
 I menu superiori consentono di navigare tra le diverse funzionalità dell&#39;Orchestrazione del viaggio: **[!UICONTROL Home]**(i viaggi),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
@@ -78,7 +78,7 @@ Nei diversi elenchi, potete eseguire azioni di base su ciascun elemento. Ad esem
 
 Quando si definisce il payload [dell&#39;](../event/defining-the-payload-fields.md)evento, il payload [del gruppo di](../datasource/field-groups.md) campi e si selezionano i campi nell&#39;editor [delle](../expression/expressionadvanced.md)espressioni, oltre al nome del campo viene visualizzato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema nel modello dati esperienza.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVars&quot; e campi generici. È possibile configurare descrittori di nomi descrittivi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la guida [per gli sviluppatori del Registro di](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)schema.
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVars&quot; e campi generici. È possibile configurare descrittori di nomi descrittivi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la guida [per gli sviluppatori del Registro di](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)schema.
 
 ![](../assets/xdm-from-descriptors.png)
 
