@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
 # Informazioni sulle azioni {#about_actions}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_actions&quot;
->title=&quot;Informazioni sulle azioni&quot;
->abstract=&quot;Qui si definisce la connessione al sistema che invierà i messaggi. Le azioni qui definite saranno quindi disponibili nella palette a sinistra del percorso, nella categoria Azione. &quot;
+>id="jo_actions"
+>title="Informazioni sulle azioni"
+>abstract="Qui si definisce la connessione al sistema che invierà i messaggi. Le azioni qui definite saranno quindi disponibili nella palette a sinistra del percorso, nella categoria Azione. "
 
 Le azioni sono connessioni attraverso le quali puoi offrire esperienze personalizzate in tempo reale a clienti quali notifiche push, e-mail, SMS o qualsiasi altro mezzo di coinvolgimento digitale che utilizzi nel tuo business.
 
