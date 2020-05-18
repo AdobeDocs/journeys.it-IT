@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 # Informazioni sulle origini dati {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_datasources&quot;
->title=&quot;Informazioni sulle origini dati&quot;
->abstract=&quot;La configurazione dell&#39;origine dati viene sempre eseguita da un utente tecnico. La configurazione dell&#39;origine dati consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei viaggi, per: definizione della condizione, parametri e dati di personalizzazione in azioni, definizione di attesa personalizzata, definizione del fuso orario personalizzato.&quot;
+>id="jo_datasources"
+>title="Informazioni sulle origini dati"
+>abstract="La configurazione dell&#39;origine dati viene sempre eseguita da un utente tecnico. La configurazione dell&#39;origine dati consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei viaggi, per: definizione della condizione, parametri e dati di personalizzazione in azioni, definizione di attesa personalizzata, definizione del fuso orario personalizzato."
 
 La configurazione dell&#39;origine dati consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei viaggi, per:
 
