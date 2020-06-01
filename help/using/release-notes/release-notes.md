@@ -10,18 +10,21 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
+workflow-type: ht
+source-wordcount: '758'
+ht-degree: 100%
 
 ---
 
 
 # Note sulla versione {#release-notes}
 
-Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchestrazione del viaggio.
-È inoltre possibile consultare la [documentazione Aggiornamenti](../release-notes/documentation-updates.md).
+Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
+Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
 
-## Rilascio Q1 - Marzo 2020 {#q1-release---march-2020}
+## Versione primo trimestre - marzo 2020 {#q1-release---march-2020}
 
 **Novità?**
 
@@ -34,12 +37,12 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati i seguenti miglioramenti alla modalità di prova:</p>
+<p>Sono stati apportati i seguenti miglioramenti alla modalità di test:</p>
 <ul>
-<li>Quando un viaggio utilizza diversi eventi, ora puoi attivarli singolarmente da un elenco a discesa, nella schermata di configurazione <strong>dell'</strong> evento della modalità di prova. <a href="../building-journeys/testing-the-journey.md#firing_events">Leggi tutto</a></p></li>
-<li><p>Quando una o più attività <strong>Aspetta</strong> vengono utilizzate in un viaggio, ora puoi definire l'ora in cui ciascuna di queste attività durerà in modalità di prova. Il tempo predefinito è 10 secondi. Potete modificare questo valore usando il parametro Tempo di <strong>attesa nel test</strong> , nell’angolo in basso a sinistra. <a href="../building-journeys/testing-the-journey.md">Leggi tutto</a></p><img src="../assets/rn-test.png"/>
+<li>Quando un percorso utilizza diversi eventi, adesso puoi attivarli singolarmente da un elenco a discesa, dalla schermata <strong>Event configuration (Configurazione dell’evento)</strong> della modalità di test. <a href="../building-journeys/testing-the-journey.md#firing_events">Ulteriori informazioni</a></p></li>
+<li><p>Quando una o più attività <strong>Attendi</strong> vengono utilizzate in un percorso, ora puoi impostare la durata di ciascuna in modalità di test. Il tempo predefinito è di 10 secondi. Puoi modificare questo valore usando il parametro <strong>Wait time in test (Tempo di attesa nel test)</strong>, nell’angolo in basso a sinistra. <a href="../building-journeys/testing-the-journey.md">Ulteriori informazioni</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>Nei registri <strong>di</strong>test, in caso di errore durante la chiamata a un sistema di terze parti (origine dati o azione), ora vengono visualizzati il codice di errore e la risposta di errore. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Leggi tutto</a>
+<li>Nei <strong>registri di test</strong>, in caso di errore durante la chiamata a un sistema di terze parti, che sia origine dati o azione, adesso vengono visualizzati il codice di errore e la risposta relativa. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Ulteriori informazioni</a>
 </li>
 </ul>
 </td>
@@ -56,13 +59,13 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 <tbody>
 <tr> 
 <td>
-<p>La gestione del fuso orario è ora centralizzata nel pannello delle proprietà del viaggio. Nelle proprietà di viaggio sono stati aggiunti due parametri:</p>
+<p>La gestione del fuso orario è ora centralizzata nel pannello delle proprietà del percorso. Nelle proprietà del percorso sono stati aggiunti due parametri:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>L’elenco a discesa <strong>Fuso orario</strong> consente di selezionare un fuso orario specifico. Per impostazione predefinita, viene utilizzato il fuso orario del browser. </li>
-<li>La casella di controllo <strong>Fuso orario</strong> profilo consente di utilizzare il fuso orario del profilo della piattaforma esperienza della persona che accede al viaggio, se disponibile. In caso contrario, viene utilizzato il fuso orario definito nell'elenco a discesa. Questa funzione non è compatibile con i viaggi che utilizzano eventi privi di spazio nomi.</li>
+<li>L’elenco a discesa <strong>Timezone (Fuso orario)</strong> consente di selezionare un fuso orario specifico. Per impostazione predefinita, viene utilizzato il fuso orario del browser. </li>
+<li>La casella di controllo <strong>Profile Timezone (Fuso orario profilo)</strong> consente di usare il fuso orario del profilo di Experience Platform della persona che accede al percorso, se disponibile. In caso contrario, viene utilizzato il fuso orario specificato nell’elenco a discesa. Questa funzione non è compatibile con i percorsi che utilizzano eventi privi di spazio dei nomi.</li>
 </ul>
-<p>Per ulteriori informazioni, consultare le sezioni <a href="../building-journeys/changing-properties.md#timezone">Modifica delle proprietà</a> e Gestione <a href="../building-journeys/timezone-management.md">del</a> fuso orario.</p>
+<p>Per ulteriori informazioni, consulta le sezioni <a href="../building-journeys/changing-properties.md#timezone">Modifica delle proprietà</a> e <a href="../building-journeys/timezone-management.md">Gestione del fuso orario</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -71,22 +74,22 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 <table>
 <thead>
 <tr>
-<th><strong>Miglioramenti al designer del viaggio</strong><br/></th>
+<th><strong>Miglioramenti al designer del percorso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr> 
 <td>
-<p>La <strong>palette</strong>Viaggio, a sinistra del designer del viaggio, è stata migliorata:</p>
+<p>È stata migliorata la <strong>palette</strong> del percorso, posizionata a sinistra rispetto al designer del percorso:</p>
 <ul>
-<li>Una nuova icona, accanto alla barra di <strong>ricerca</strong> , consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio gli eventi che utilizzano uno spazio nomi diverso da quelli utilizzati nel percorso. Per impostazione predefinita, gli elementi non disponibili sono nascosti.</li>
-<li>Quando si utilizza il campo <strong>Cerca</strong> , ora viene visualizzato il numero di risultati per ogni categoria di attività canvas.</li>
+<li>Una nuova icona, posta accanto alla barra di <strong>ricerca</strong>, consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio quelli che utilizzano uno spazio dei nomi diverso rispetto a quelli usati nel percorso. Per impostazione predefinita, gli elementi non disponibili sono nascosti.</li>
+<li>Quando si utilizza il campo <strong>ricerca</strong>, ora viene visualizzato il numero di risultati per ogni categoria di attività dell’area di lavoro.</li>
 <li>È stata migliorata la navigazione tra le diverse categorie di attività.</li>
 </ul>
-<p>Nella finestra di progettazione dei viaggi, ora puoi verificare di aver effettuato l’accesso all’ultima versione del viaggio. Queste informazioni vengono visualizzate accanto al numero di versione.</p>
-<p>Nel <strong>quadro</strong>del viaggio, quando due attività vengono disconnesse, ora viene visualizzato un messaggio di avviso.</p>
+<p>Nel designer del percorso, ora puoi verificare di aver effettuato l’accesso all’ultima versione del percorso. Queste informazioni vengono visualizzate accanto al numero di versione.</p>
+<p>Quando due attività vengono disconnesse, adesso nell’<strong>area di lavoro</strong> del percorso viene visualizzato un messaggio di avviso.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>Per ulteriori informazioni, consulta la documentazione <a href="../building-journeys/using-the-journey-designer.md"></a>dettagliata.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/using-the-journey-designer.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -101,8 +104,8 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 <tbody>
 <tr>
 <td>
-<p>È ora disponibile una guida contestuale nelle diverse schermate dell'elenco di orchestrazione del viaggio (viaggi, eventi, azioni e origini dati). Questo consente di visualizzare una descrizione rapida delle funzionalità correnti e di accedere agli articoli e ai video correlati.</p>
-<p>Per visualizzare la guida contestuale, fate clic sull’ <img src="../assets/icon-context.png"/> icona nell’angolo in alto a destra dello schermo. </p>
+<p>È ora disponibile un aiuto contestuale nelle diverse schermate dell’elenco di Journey Orchestration (percorsi, eventi, azioni e origini dati). In tal modo, puoi visualizzare una descrizione rapida delle funzionalità correnti e accedere agli articoli e ai video correlati.</p>
+<p>Per visualizzare l’aiuto contestuale, fai clic sull’icona <img src="../assets/icon-context.png"/> posta nell’angolo in alto a destra dello schermo. </p>
 <img src="../assets/rn-context.png"/>
 </td>
 </tr>
@@ -111,23 +114,23 @@ Questa pagina elenca tutte le nuove funzioni e i miglioramenti per l&#39;orchest
 
 **Altri miglioramenti**
 
-* Oltre agli Stati Uniti, ora è disponibile l&#39;orchestrazione dei viaggi nell&#39; **area EMEA**. La domanda e la documentazione sono disponibili in francese e tedesco.
+* Dopo l’introduzione negli Stati Uniti, adesso Journey Orchestration è accessibile nell’**EMEA**. L’applicazione e la documentazione sono disponibili in francese e tedesco.
 
-* Experience League è ora integrato nel prodotto. Questo semplifica l&#39;accesso ai contenuti correlati e consente di trarre il massimo da Experience Cloud. L&#39;accesso diretto alla documentazione sull&#39;orchestrazione del percorso è disponibile nella parte inferiore della scheda della Guida. Inoltre, fate clic su Aiuto > Feedback per segnalare i problemi o condividere le idee con Adobe.
+* Experience League è ora integrato all’interno del prodotto, il che semplifica l’accesso ai contenuti correlati, consentendoti di trarre il massimo da Experience Cloud. L’accesso diretto alla documentazione di Journey Orchestration è disponibile nella parte inferiore della scheda dell’aiuto. Inoltre, puoi fare clic su Aiuto > Feedback per segnalare i problemi o condividere le idee con Adobe.
 
-* La scelta rapida da tastiera **C** , che consente di creare un nuovo elemento, è ora disponibile in tutte le schermate elenco: viaggi, origini dati, azioni ed eventi. [Leggi tutto](../about/user-interface.md#section_ksq_zr1_ffb)
+* La scelta rapida da tastiera **C**, che consente di creare un nuovo elemento è ora disponibile in tutte le schermate elenco: percorsi, origini dati, azioni ed eventi. [Ulteriori informazioni](../about/user-interface.md#section_ksq_zr1_ffb)
 
-* Ora è possibile **eliminare** i viaggi interrotti. I rapporti associati a questi viaggi eliminati non saranno disponibili.
+* Ora è possibile **eliminare** i percorsi interrotti. I rapporti associati a questi percorsi eliminati non saranno disponibili.
 
-* Quando si esplorano i campi **della piattaforma** dati (formato XDM), ora viene visualizzato il nome visualizzato oltre al nome del campo. Queste informazioni vengono recuperate dalla definizione dello schema nel modello dati esperienza. Quando disponibile, viene visualizzato il nome visualizzato alternativo. Questa descrizione semplice e intuitiva, particolarmente utile per i campi eVar, consente di identificare più facilmente i campi. [Leggi tutto](../about/user-interface.md#friendly-names-display)
+* Durante l’esplorazione dei campi di **Data Platform** (formato XDM), ora viene mostrato il nome visualizzato, in aggiunta al nome del campo. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model. Il nome visualizzato alternativo viene mostrato, se disponibile. Questa descrizione semplice e intuitiva, particolarmente utile per i campi eVar, ti consente di identificare più facilmente i campi. [Ulteriori informazioni](../about/user-interface.md#friendly-names-display)
 
-## Rilascio GA - Dicembre 2019 {#ga-release---december-2019}
+## Versione GA - dicembre 2019 {#ga-release---december-2019}
 
-L&#39;orchestrazione del viaggio ora è GA.
+Journey Orchestration adesso è GA.
 
-Creare casi di utilizzo di orchestrazione in tempo reale utilizzando i dati contestuali memorizzati in eventi o origini dati.
+Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati.
 
-L&#39;orchestrazione del percorso consente l&#39;orchestrazione in tempo reale basata su dati contestuali derivati da eventi, informazioni provenienti da Adobe Experience Platform o dati provenienti da servizi API di terze parti. L&#39;applicazione determina nei flussi in più passaggi denominati viaggi le azioni migliori successive specifiche per il consumatore, in base al suo profilo e ai suoi comportamenti. Questo include sia la tempistica ottimale, sia il tipo di azione, ad esempio l&#39;invio al consumatore di una notifica push tramite le funzionalità di messaggistica transazionali di Adobe Campaign Standard (richiede Adobe Campaign Standard) o la notifica di un sistema di terze parti. Queste decisioni sono prese sulla base di regole e voti Sensei.
+Journey Orchestration consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Nell’ambito di flussi di più passaggi denominati percorsi, l’applicazione determina le migliori azioni da eseguire in futuro che sono specifiche del consumatore, in base al profilo e ai comportamenti adottati. Tale procedura include sia la tempistica ottimale, sia il tipo di azione, ad esempio la notifica di un sistema di terze parti o l’invio al consumatore di una notifica push tramite le funzionalità di messaggistica transazionali di Adobe Campaign Standard (richiesto). Queste decisioni sono prese sulla base di regole e punteggi Sensei.
 
 [](../action/working-with-adobe-campaign.md)Ulteriori informazioni su Journey Orchestration.
 
