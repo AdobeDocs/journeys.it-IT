@@ -1,6 +1,6 @@
 ---
 title: Interfaccia utente
-description: Ulteriori informazioni sull'interfaccia utente
+description: Ulteriori informazioni sull’interfaccia utente
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Per ottenere il meglio da Journey Orchestration, si consiglia di utilizzare Chrome come il vostro browser Internet.
+>Per ottenere il meglio da Journey Orchestration, ti consigliamo di utilizzare Chrome come browser Internet.
 >
->Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate al prodotto. Tuttavia, alcune schermate possono essere leggermente diverse dall&#39;interfaccia del prodotto.
+>Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate al prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 
-## Accesso all&#39;orchestrazione del percorso{#accessing_journey_orchestration}
+## Accesso a Journey Orchestration{#accessing_journey_orchestration}
 
-Per accedere all&#39;interfaccia dell&#39;orchestrazione del viaggio, fare clic sull&#39; **[!UICONTROL App Selector]** icona in alto a destra. Quindi fate clic **[!UICONTROL Journey Orchestration]**, a destra, sotto &quot;Experience Platform&quot;.
+Per accedere a Journey Orchestration, fai clic sull’icona **[!UICONTROL App Selector]** in alto a destra. Quindi seleziona **[!UICONTROL Journey Orchestration]**, a destra, sotto &quot;Experience Platform&quot;.
 
 ![](../assets/journey1.png)
 
-Puoi anche accedere all’orchestrazione del percorso dalla home page di Experience Cloud, nella **[!UICONTROL Quick access]** sezione.
+Puoi anche accedere a Journey Orchestration dalla home page di Experience Cloud, nella sezione **[!UICONTROL Quick access]**.
 
 ![](../assets/journey1bis.png)
 
@@ -39,103 +39,103 @@ Puoi anche accedere all’orchestrazione del percorso dalla home page di Experie
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
->title="Informazioni sull&#39;elenco Percorso"
->abstract="La lista di viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. È possibile creare una nuova versione oppure duplicarla. Potete anche usare la barra di ricerca per cercare un viaggio."
+>title="Informazioni sull’elenco percorsi"
+>abstract="L’elenco dei percorsi ti consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. È possibile creare una nuova versione oppure duplicarla. Puoi anche usare la barra di ricerca per cercare un percorso."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
-I menu superiori consentono di navigare tra le diverse funzionalità dell&#39;Orchestrazione del viaggio: **[!UICONTROL Home]**(i viaggi),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+I menu superiori ti consentono di navigare tra le diverse funzionalità di Journey Orchestration: **[!UICONTROL Home]**(i percorsi),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-Fate clic sull&#39; ![](../assets/icon-context.png) icona nell&#39;angolo superiore destro dello schermo per visualizzare la guida contestuale. È disponibile nelle diverse schermate dell&#39;elenco di orchestrazione del viaggio (viaggi, eventi, azioni e origini dati). Questo consente di visualizzare una descrizione rapida delle funzionalità correnti e di accedere agli articoli e ai video correlati.
+Per visualizzare l’aiuto contestuale, fai clic sull’icona ![](../assets/icon-context.png) posta nell’angolo in alto a destra dello schermo. È disponibile un aiuto contestuale nelle diverse schermate dell’elenco di Journey Orchestration (percorsi, eventi, azioni e origini dati). In tal modo, puoi visualizzare una descrizione rapida delle funzionalità correnti e accedere agli articoli e ai video correlati.
 
 ![](../assets/journey2bis.png)
 
 ## Ricerca e filtro{#section_lgm_hpz_pgb}
 
-Negli **[!UICONTROL Home]**,**[!UICONTROL Data Sources]** elenchi **[!UICONTROL Events]** e **[!UICONTROL Actions]** negli elenchi, una barra di ricerca consente di cercare un elemento.
+Negli elenchi **[!UICONTROL Home]**,**[!UICONTROL Data Sources]** **[!UICONTROL Events]** e **[!UICONTROL Actions]**, una barra di ricerca consente di effettuare la ricerca di un elemento.
 
-Per **[!UICONTROL Filters]** accedervi, fate clic sull’icona del filtro in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare gli elementi visualizzati in base a criteri diversi. Potete scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli creati o quelli modificati negli ultimi 30 giorni.
+Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli creati oppure quelli modificati negli ultimi 30 giorni.
 
-Negli **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]** negli elenchi, utilizzate i filtri **** Creazione per filtrare in base alla data e all’utente di creazione. Ad esempio, potete scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
+Negli elenchi **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, utilizza **Creation filters (Filtri di creazione)** per filtrare in base alla data e all’utente di creazione. Ad esempio, puoi scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
 
-Nell&#39;elenco dei viaggi (sotto **[!UICONTROL Home]**), oltre al **[!UICONTROL Creation filters]**, puoi anche filtrare i viaggi visualizzati in base al loro stato e alla loro versione (**[!UICONTROL Status and version filters]**). È inoltre possibile scegliere di visualizzare solo i viaggi che utilizzano un evento, un gruppo di campi o un&#39;azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Consente di selezionare una data di pubblicazione o un utente. Ad esempio, potete scegliere di visualizzare solo le versioni più recenti dei viaggi live pubblicate ieri. Vedere [](../building-journeys/using-the-journey-designer.md).
+Nell’elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre a **[!UICONTROL Creation filters]**, puoi anche filtrare i percorsi visualizzati in base allo stato e alla versione (**[!UICONTROL Status and version filters]**). È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
->Le colonne visualizzate possono essere personalizzate utilizzando il pulsante di configurazione in alto a destra degli elenchi. La personalizzazione viene salvata per ogni utente.
+>Le colonne visualizzate possono essere personalizzate utilizzando il pulsante di configurazione, posto in alto a destra degli elenchi. La personalizzazione viene salvata per ogni utente.
 
-Le colonne **[!UICONTROL Last update]** e **[!UICONTROL Last update by]** consentono di visualizzare quando si è verificato l’ultimo aggiornamento dei viaggi e quale utente li ha gestiti.
+Le colonne **[!UICONTROL Last update]** e **[!UICONTROL Last update by]** consentono di visualizzare quando si è verificato l’ultimo aggiornamento dei percorsi e quale utente li ha gestiti.
 
 ![](../assets/journey74.png)
 
-Nei riquadri di configurazione dell&#39;evento, dell&#39;origine dati e dell&#39;azione, il **[!UICONTROL Used in]** campo visualizza il numero di viaggi che utilizzano quel particolare evento, gruppo di campi o azione. Potete fare clic sul **[!UICONTROL View journeys]** pulsante per visualizzare l’elenco dei percorsi corrispondenti.
+Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azione, il campo **[!UICONTROL Used in]** visualizza il numero di percorsi che utilizzano quel particolare evento, il gruppo di campi o l’azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL View journeys]**.
 
 ![](../assets/journey3bis.png)
 
-Nei diversi elenchi, potete eseguire azioni di base su ciascun elemento. Ad esempio, potete duplicare o eliminare un elemento.
+All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento.
 
 ![](../assets/journey4.png)
 
-## Esplorazione dei campi della piattaforma dati {#friendly-names-display}
+## Esplorazione dei campi di Data Platform {#friendly-names-display}
 
-Quando si definisce il payload [dell&#39;](../event/defining-the-payload-fields.md)evento, il payload [del gruppo di](../datasource/field-groups.md) campi e si selezionano i campi nell&#39;editor [delle](../expression/expressionadvanced.md)espressioni, oltre al nome del campo viene visualizzato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema nel modello dati esperienza.
+Quando si definisce il [payload dell’evento](../event/defining-the-payload-fields.md) e il [payload del gruppo di campi](../datasource/field-groups.md) e si selezionano i campi nell’[editor delle espressioni](../expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVars&quot; e campi generici. È possibile configurare descrittori di nomi descrittivi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la guida [per gli sviluppatori del Registro di](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)schema.
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. Questa funzione risulta particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. È possibile configurare i descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
-Se è disponibile un nome descrittivo, il campo verrà visualizzato come `<friendly-name>(<name>)`. Se non è disponibile alcun nome descrittivo, ad esempio `<display-name>(<name>)`, verrà visualizzato il nome visualizzato. Se non ne viene definita alcuna, verrà visualizzato solo il nome tecnico del campo `<name>`.
+Se è disponibile un nome descrittivo, il campo verrà visualizzato come `<friendly-name>(<name>)`. Se non è disponibile alcun nome descrittivo, verrà mostrato il nome visualizzato, ad esempio `<display-name>(<name>)`. Se non è definito nessuno dei due, verrà visualizzato solo il nome tecnico del campo `<name>`.
 
 >[!NOTE]
 >
->I nomi descrittivi non vengono recuperati quando si selezionano campi da un&#39;unione di schemi.
+>I nomi descrittivi non vengono recuperati quando si selezionano i campi da un’unione di schemi.
 
-## Utilizzo dei diversi collegamenti{#section_ksq_zr1_ffb}
+## Utilizzo delle varie scelte rapide{#section_ksq_zr1_ffb}
 
-Di seguito sono riportati i diversi collegamenti disponibili nell&#39;interfaccia dell&#39;orchestrazione del viaggio.
+Di seguito sono riportati i diversi collegamenti disponibili nell’interfaccia di Journey Orchestration.
 
-_Nell&#39;elenco dei viaggi, delle azioni, delle origini dati o degli eventi:_
+_Nell’elenco dei percorsi, delle azioni, delle origini dati o degli eventi:_
 
-* Premere **c** per creare un nuovo percorso, azione, origine dati o evento.
+* Premi **c** per creare un nuovo percorso, azione, origine dati o evento.
 
-_Durante la configurazione di un&#39;attività in un percorso:_
+_Durante la configurazione di un’attività in un percorso:_
 
-Il quadro viene salvato automaticamente. Nella parte superiore sinistra del quadro è riportato lo stato di salvataggio.
+L’area di lavoro viene salvata automaticamente. Nella parte superiore sinistra dell’area di lavoro è riportato lo stato di salvataggio.
 
-* Premere **Esc** per chiudere il riquadro di configurazione ed eliminare le modifiche apportate. Equivale al **[!UICONTROL Cancel]** pulsante.
-* Premere **[!UICONTROL Enter]** o fare clic all&#39;esterno del riquadro per chiudere il riquadro di configurazione. Le modifiche vengono salvate. Equivale al **[!UICONTROL Ok]** pulsante.
-* Se si preme **[!UICONTROL Delete]** o **backspace**, è possibile premere **[!UICONTROL Enter]** per confermare l&#39;eliminazione.
+* Premi **Esc** per chiudere il riquadro di configurazione ed eliminare le modifiche apportate. Equivale al pulsante **[!UICONTROL Cancel]**.
+* Per chiudere il riquadro di configurazione, premi **[!UICONTROL Enter]** o fai clic all’esterno del riquadro. Le modifiche vengono salvate. Equivale al pulsante **[!UICONTROL Ok]**.
+* Se si preme **[!UICONTROL Delete]** o **backspace**, è possibile premere **[!UICONTROL Enter]** per confermare l’eliminazione.
 
 _Nei pop-up:_
 
-* Premere **escape** per chiuderlo (equivalente al pulsante **Annulla** ).
-* Premere **[!UICONTROL Enter]** per salvare o confermare (equivalente al **[!UICONTROL Ok]** pulsante o **[!UICONTROL Save]** ).
+* Premi **escape** per chiuderlo, che equivale al pulsante **Annulla**.
+* Premi **[!UICONTROL Enter]** per salvare o confermare (equivalente al pulsante **[!UICONTROL Ok]** o **[!UICONTROL Save]**).
 
-_Nel riquadro di configurazione dell&#39;evento, dell&#39;origine dati o dell&#39;azione:_
+_Nel riquadro di configurazione dell’evento, dell’origine dati o dell’azione:_
 
-* Premere **escape** per chiudere il riquadro di configurazione senza salvare.
-* Premere **[!UICONTROL Enter]** per salvare le modifiche e chiudere il riquadro di configurazione.
-* Premere **scheda** per passare ai diversi campi da configurare.
+* Premi **escape** per chiudere il riquadro di configurazione senza salvataggio.
+* Premi **[!UICONTROL Enter]** per salvare le modifiche e chiudere il riquadro di configurazione.
+* Premi la **scheda** per spostarti tra i diversi campi da configurare.
 
-_Nell&#39;editor di espressioni semplici_
+_Nell’editor di espressioni semplici_
 
-* Fate doppio clic su un campo, a sinistra, per aggiungere una query (equivalente a trascinamento).
+* Fai doppio clic su un campo a sinistra per aggiungere una query, che equivale al trascinamento.
 
 _Durante la navigazione nei campi XDM:_
 
-* Selezionando un &quot;nodo&quot; verranno selezionati tutti i campi del nodo.
+* Facendo clic su un &quot;nodo&quot; verranno selezionati tutti i campi al suo interno.
 
 _In tutte le aree di testo:_
 
-* Utilizzare la combinazione di tasti **Ctrl/Comando + A** per selezionare il testo. Nell&#39;anteprima del payload, seleziona il payload.
+* Utilizza la combinazione di tasti **Ctrl/Comando + A** per selezionare il testo. Nell’anteprima del payload, seleziona il payload.
 
 _In una schermata con una barra di ricerca:_
 
-* Utilizzate la combinazione di tasti **Ctrl/Comando + F** per selezionare la barra di ricerca.
+* Utilizza la combinazione di tasti **Ctrl/Comando + F** per selezionare la barra di ricerca.
 
-_Nel quadro di un viaggio:_
+_Nell’area di lavoro di un percorso:_
 
-* Utilizzate la combinazione di tasti **Ctrl/Comando + A** per selezionare tutte le attività.
-* Quando si selezionano una o più attività, premere **[!UICONTROL Delete]** o **backspace** per eliminarle. Quindi potete premere **[!UICONTROL Enter]** per confermare nella finestra a comparsa di conferma.
-* Fate doppio clic su un&#39;attività dalla palette a sinistra per aggiungerla alla prima posizione disponibile (dall&#39;alto verso il basso).
+* Utilizza la combinazione di tasti **Ctrl/Comando + A** per selezionare tutte le attività.
+* Quando selezioni una o più attività, premi **[!UICONTROL Delete]** o **backspace** per eliminarle. A quel punto puoi premere **[!UICONTROL Enter]** per confermare la tua scelta nella finestra a comparsa relativa.
+* Fai doppio clic su un’attività dalla palette a sinistra per aggiungerla alla prima posizione disponibile (dall’alto verso il basso).
