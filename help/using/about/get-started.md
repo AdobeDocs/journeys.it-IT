@@ -1,6 +1,6 @@
 ---
-title: Guida introduttiva
-description: Guida introduttiva all'orchestrazione del percorso
+title: Introduzione
+description: Introduzione a Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,65 +8,68 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+workflow-type: ht
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
 
-# Guida introduttiva{#concept_y4b_4qt_52b}
+# Introduzione{#concept_y4b_4qt_52b}
 
-Nell&#39;orchestrazione del viaggio, esistono due tipi di utenti, ciascuno dei quali esegue attività specifiche: l&#39;utente **** tecnico e l&#39;utente **** aziendale. L&#39;accesso dell&#39;utente viene gestito tramite profili di prodotto e diritti. Fare riferimento [](../about/access-management.md) per apprendere come configurare l&#39;accesso utente.
+In Journey Orchestration, esistono due tipi di utenti, ciascuno dei quali esegue attività specifiche: l’**utente tecnico** e l’**utente aziendale**. L’accesso dell’utente viene gestito tramite profili di prodotto e diritti. Per scoprire come configurare l’accesso utente, fai riferimento a [](../about/access-management.md).
 
-Di seguito sono riportati i passaggi principali per configurare e utilizzare l&#39;orchestrazione del percorso:
+Di seguito sono riportati i passaggi principali per la configurazione e l’utilizzo di Journey Orchestration:
 
 1. **Configurare un evento**
 
-   È necessario definire le informazioni previste e come elaborarle. Questa configurazione è obbligatoria. Questo passaggio viene eseguito da un utente **** tecnico.
+   È necessario definire le informazioni previste e le modalità con cui elaborarle. Questa configurazione è obbligatoria e viene eseguita da un **utente tecnico**.
 
-   Per ulteriori informazioni, consulta [](../event/about-events.md).
+   Per ulteriori informazioni, fai riferimento a [](../event/about-events.md).
 
    ![](../assets/journey7.png)
 
-1. **Configurare l&#39;origine dati**
+1. **Configurare l’origine dati**
 
-   È necessario definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei viaggi, ad esempio nelle condizioni dell&#39;utente. Anche un&#39;origine dati integrata della piattaforma Experience è configurata al momento del provisioning. Questo passaggio non è richiesto se sfrutti solo i dati degli eventi del tuo viaggio. Questo passaggio viene eseguito da un utente **** tecnico.
+   È necessario definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle tue condizioni. Al momento del provisioning, viene configurata anche un’origine dati integrata in Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguito da un **utente tecnico**.
 
-   Per ulteriori informazioni, consulta [](../datasource/about-data-sources.md).
+   Per ulteriori informazioni, fai riferimento a [](../datasource/about-data-sources.md).
 
    ![](../assets/journey22.png)
 
-1. **Configurare un&#39;azione**
+1. **Configurare un’azione**
 
-   Se utilizzi un sistema di terze parti per inviare i messaggi, devi configurare la relativa connessione con l&#39;orchestrazione del percorso. Vedere [](../action/about-custom-action-configuration.md).
+   Se utilizzi un sistema di terze parti per l’invio dei messaggi, è necessario configurare la relativa connessione con Journey Orchestration. A questo proposito, consulta la sezione [](../action/about-custom-action-configuration.md).
 
-   Se utilizzi Adobe Campaign Standard per inviare messaggi, devi configurare l&#39;azione incorporata. Vedere [](../action/working-with-adobe-campaign.md).
+   Se utilizzi Adobe Campaign Standard per l’invio dei messaggi, è necessario configurare l’azione incorporata. A questo proposito, consulta la sezione [](../action/working-with-adobe-campaign.md).
 
-   Questi passaggi vengono eseguiti da un utente **** tecnico.
+   Questi passaggi vengono eseguiti da un **utente tecnico**.
 
    ![](../assets/custom2.png)
 
-1. **Progettazione del viaggio**
+1. **Progettazione del percorso**
 
-   Combinate le diverse attività di evento, orchestrazione e azione per creare scenari multicanale con più passaggi. Questo passaggio viene eseguito da un utente **** aziendale.
+   Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi. Questo passaggio viene eseguito da un **utente aziendale**.
 
-   Per ulteriori informazioni, consulta [](../building-journeys/journey.md).
+   Per ulteriori informazioni, consulta la sezione [](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
 1. **Test e pubblicazione del percorso**
 
-   È necessario convalidare e attivare il percorso. Questo passaggio viene eseguito da un utente **** aziendale.
+   È necessario convalidare e attivare il percorso. Questo passaggio viene eseguito da un **utente aziendale**.
 
-   Per ulteriori informazioni, consulta [](../building-journeys/testing-the-journey.md) e [](../building-journeys/publishing-the-journey.md).
+   Per ulteriori informazioni, consulta la sezione [](../building-journeys/testing-the-journey.md) e [](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
-1. **Monitorare il viaggio**
+1. **Monitorare il percorso**
 
-   Utilizzate gli strumenti di reporting dedicati per misurare l&#39;efficacia del viaggio. Questo passaggio viene eseguito da un utente **** aziendale.
+   Per misurare l’efficacia del percorso, utilizza gli strumenti di reporting dedicati. Questo passaggio viene eseguito da un **utente aziendale**.
 
-   Per ulteriori informazioni, consulta [](../reporting/about-journey-reports.md).
+   Per ulteriori informazioni, consulta la sezione [](../reporting/about-journey-reports.md).
 
    ![](../assets/dynamic_report_journey_12.png)
 
