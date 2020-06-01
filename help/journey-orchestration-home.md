@@ -3,8 +3,11 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: 'Journey Orchestration: documentazione del prodotto'
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
+workflow-type: ht
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 * **[Dare l&#39;autorizzazione a Journey Orchestration](using/about/access-management.md)**<br/>Scopri come gestire l&#39;accesso degli utenti con profili di prodotto e diritti.
 
-* **[Scopri le novità](using/release-notes/release-notes.md)**<br/>Scopri i dettagli sulle ultime versioni.
+* **[Scopri le novità](using/release-notes/release-notes.md)**<br/>Approfondisci i dettagli sulle ultime versioni.
 
 ## Pagine principali
 
@@ -64,9 +67,9 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ## Risorse aggiuntive
 
-* [Documentazione della piattaforma di esperienze](https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html)
-* [Documentazione sul profilo cliente in tempo reale](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Definizione del campo XDM di Experience Cloud](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
-* [Documentazione spazio nomi identità](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
-* [API Streaming Ingestion](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
-* [Documentazione sui messaggi transazionali di Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
+* [Documentazione di Experience Platform](https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html)
+* [Documentazione del Profilo cliente in tempo reale](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)
+* [Definizione del campo XDM di Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/home.html)
+* [Documentazione spazio dei nomi di identità](https://docs.adobe.com/content/help/it-IT/experience-platform/identity/home.html)
+* [API Streaming Ingestion](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/streaming/overview.html)
+* [Documentazione sulla messaggistica transazionale di Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
