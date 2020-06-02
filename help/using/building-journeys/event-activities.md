@@ -1,5 +1,5 @@
 ---
-title: Eventi
+title: Eventi attività
 description: Informazioni sulle attività degli eventi
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,12 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 1%
 
 ---
 
 
-# Eventi {#concept_rws_1rt_52b}
+# Eventi attività {#concept_rws_1rt_52b}
 
 Gli eventi configurati dall&#39;utente tecnico (vedete [](../event/about-events.md) tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo.
 
@@ -26,13 +29,13 @@ Iniziate sempre il viaggio trascinando e rilasciando un&#39;attività dell&#39;e
 
 ![](../assets/journey44.png)
 
-Quando fate clic sull&#39;attività dell&#39;evento nel quadro, viene visualizzato il riquadro di configurazione dell&#39;attività. Per impostazione predefinita, quando si utilizza lo stesso evento più volte, al nome dell&#39;evento nell&#39;area di lavoro viene aggiunto un numero incrementale. Inoltre, potete utilizzare il **[!UICONTROL Label]**campo per aggiungere un suffisso al nome dell&#39;evento che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questo è utile per identificare gli eventi nel quadro, soprattutto se si utilizza più volte lo stesso evento. Inoltre, faciliterà il debug in caso di errori e faciliterà la lettura dei report.
+Quando fate clic sull&#39;attività dell&#39;evento nell&#39;area di lavoro, viene visualizzato il riquadro di configurazione dell&#39;attività. Per impostazione predefinita, quando si utilizza lo stesso evento più volte, al nome dell&#39;evento nell&#39;area di lavoro viene aggiunto un numero incrementale. Inoltre, potete utilizzare il **[!UICONTROL Label]** campo per aggiungere un suffisso al nome dell&#39;evento che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questo è utile per identificare gli eventi nel quadro, soprattutto se si utilizza più volte lo stesso evento. Inoltre, faciliterà il debug in caso di errori e faciliterà la lettura dei report.
 
 ![](../assets/journey33.png)
 
 ## Eventi generali {#section_ofg_jss_dgb}
 
-Per questo tipo di evento, è possibile aggiungere solo un&#39;etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stato eseguito dall&#39;utente tecnico. Vedere [](../event/about-events.md).
+Per questo tipo di evento, è possibile aggiungere solo un&#39;etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stato eseguito dall&#39;utente tecnico. A questo proposito, consulta la sezione [](../event/about-events.md).
 
 ## Eventi di reazione {#section_dhx_gss_dgb}
 
@@ -42,13 +45,13 @@ Tra le diverse attività dell&#39;evento disponibili nella palette, è disponibi
 
 È possibile utilizzare un&#39;attività di reazione nel quadro solo se è già presente un&#39;attività e-mail, push o SMS.
 
-Vedere [](../building-journeys/about-action-activities.md).
+A questo proposito, consulta la sezione [](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
 Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazione:
 
-1. Aggiungete una **[!UICONTROL Label]**alla reazione. Questo passaggio è facoltativo.
+1. Aggiungete una **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall&#39;elenco a discesa, selezionate l&#39;attività di azione a cui desiderate reagire. È possibile selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata (e-mail, SMS o notifica push), scegliete a cosa rispondere.
 1. È possibile definire una condizione come passaggio facoltativo. Ad esempio, dopo un’azione e-mail, potete decidere di creare due percorsi, uno con un evento di reazione per monitorare i clic solo per i clienti VIP e uno con un evento di reazione per monitorare i clic eseguiti dalle donne.
@@ -62,6 +65,38 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 >[!CAUTION]
 >
 >I client e-mail come Gmail consentono il blocco delle immagini. Le aperture e-mail vengono tracciate utilizzando un’immagine di 0 pixel inclusa nel messaggio e-mail. Se le immagini sono bloccate, le aperture e-mail non verranno prese in considerazione.
+
+## Eventi di qualifica del segmento {#segment-qualification}
+
+Questa attività consente al tuo viaggio di ascoltare le entrate e le uscite dei profili nei segmenti della piattaforma per far sì che gli individui entrino o avanzino in un viaggio. Per ulteriori informazioni sulla creazione dei segmenti, consulta questa [sezione](../segment/about-segments.md).
+
+Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi far entrare tutti i nuovi clienti in argento in un viaggio e inviare loro una serie di messaggi personalizzati.
+
+Questo tipo di evento può essere posizionato come primo passo o successivo del viaggio.
+
+Se il segmento viene trasmesso in streaming con l&#39;opzione Pubblico ad alta frequenza della piattaforma, l&#39;ingresso e le uscite vengono ascoltati in tempo reale. Se il segmento non è in streaming, le entrate e le uscite vengono prese in considerazione al momento del calcolo del segmento.
+
+1. Spiega la categoria **Eventi** e rilascia un’attività di qualificazione **** Segmento nel quadro.
+
+   ![](../assets/segment5.png)
+
+1. Aggiungete un&#39; **etichetta** all&#39;attività. Questo passaggio è facoltativo.
+
+1. Fai clic nel campo **Segmento** e seleziona i segmenti da sfruttare.
+
+   ![](../assets/segment6.png)
+
+1. Nel campo **Comportamento** , scegliere se si desidera ascoltare le entrate, le uscite o entrambi del segmento.
+
+1. Selezionare uno spazio nomi. Questo è necessario solo se l&#39;evento è posizionato come primo passo del viaggio.
+
+   ![](../assets/segment7.png)
+
+Il payload contiene le seguenti informazioni contestuali, che potete utilizzare in condizioni e azioni:
+
+* il comportamento (entrata, uscita)
+* la marca temporale della qualifica
+* l’ID del segmento
 
 ## Utilizzo avanzato: eventi con attesa parallela{#section_vxv_h25_pgb}
 
