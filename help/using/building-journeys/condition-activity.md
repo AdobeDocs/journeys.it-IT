@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 538b350165365479caef499a74346381643033d5
+source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+workflow-type: tm+mt
+source-wordcount: '677'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +36,7 @@ Fare clic **[!UICONTROL Add a path]** per definire più condizioni. Per ogni con
 
 ![](../assets/journey47.png)
 
-Si noti che la progettazione dei viaggi ha impatti funzionali. Quando più percorsi sono definiti dopo una condizione, viene eseguito solo il primo percorso idoneo. Ciò significa che potete variare la priorità dei percorsi posizionandoli sopra o sotto l’uno dell’altro. Ad esempio, se la condizione del primo percorso è &quot;La persona è un VIP&quot; e la condizione del secondo percorso è &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso sarà scelto anche se è anche idoneo al secondo, perché il primo percorso è &quot;sopra&quot;. Per modificare questa priorità, spostare le attività in un altro ordine verticale.
+Si noti che la progettazione dei viaggi ha un impatto funzionale. Quando più percorsi sono definiti dopo una condizione, viene eseguito solo il primo percorso idoneo. Ciò significa che potete variare la priorità dei percorsi posizionandoli sopra o sotto l’uno dell’altro. Ad esempio, se la condizione del primo percorso è &quot;La persona è un VIP&quot; e la condizione del secondo percorso è &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso sarà scelto anche se è anche idoneo al secondo, perché il primo percorso è &quot;sopra&quot;. Per modificare questa priorità, spostare le attività in un altro ordine verticale.
 
 ![](../assets/journey48.png)
 
@@ -46,13 +49,16 @@ La modalità semplice consente di eseguire semplici query basate su una combinaz
 
 ![](../assets/journey64.png)
 
+Se utilizzi il servizio [di segmentazione della](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) piattaforma per creare i tuoi segmenti, puoi sfruttarli nelle tue condizioni di viaggio. Fare riferimento a [Utilizzo dei segmenti nelle condizioni](../segment/using-a-segment.md).
+
+
 >[!NOTE]
 >
->Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic passati sui messaggi) con il semplice editor. A questo scopo dovrete utilizzare l&#39;editor avanzato. Vedere [](../expression/expressionadvanced.md).
+>Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic passati sui messaggi) con l&#39;editor semplice. A questo scopo dovrete utilizzare l&#39;editor avanzato. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
 
 ## Condizione Origine dati {#data_source_condition}
 
-Questo consente di definire una condizione in base ai campi delle origini dati o agli eventi precedentemente inseriti nel percorso. Per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di espressioni, vedere [](../expression/expressionadvanced.md). Utilizzando l&#39;editor di espressioni avanzate, potete impostare condizioni più avanzate per manipolare le raccolte o utilizzare origini dati che richiedono il passaggio di parametri. Vedere [](../datasource/external-data-sources.md).
+Questo consente di definire una condizione in base ai campi delle origini dati o agli eventi precedentemente inseriti nel percorso. Per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di espressioni, vedere [](../expression/expressionadvanced.md). Utilizzando l&#39;editor di espressioni avanzate, potete impostare condizioni più avanzate per manipolare le raccolte o utilizzare origini dati che richiedono il passaggio di parametri. A questo proposito, consulta la sezione [](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -62,7 +68,7 @@ Questo consente di eseguire diverse azioni in base all’ora del giorno e/o del 
 
 >[!NOTE]
 >
->Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. Vedere [](../building-journeys/timezone-management.md).
+>Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. A questo proposito, consulta la sezione [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -72,7 +78,7 @@ Questa opzione consente di dividere in modo casuale l&#39;audience per definire 
 
 >[!NOTE]
 >
->Tenere presente che non è presente alcun pulsante per aggiungere un percorso nella condizione di suddivisione in percentuale. Il numero di percorsi dipende dal numero di divisioni. In condizioni divise, non è possibile aggiungere un percorso per altri casi, in quanto non può verificarsi. Le persone entrano sempre in uno dei percorsi divisi.
+>Tenere presente che non è presente alcun pulsante per aggiungere un percorso nella condizione di suddivisione in percentuale. Il numero di percorsi dipende dal numero di divisioni. In condizioni divise, non è possibile aggiungere un percorso per altri casi, in quanto non può verificarsi. Le persone entreranno sempre in uno dei percorsi divisi.
 
 
 ![](../assets/journey52.png)
@@ -83,6 +89,6 @@ Questo consente di definire un flusso diverso in base alla data. Ad esempio, se 
 
 >[!NOTE]
 >
->Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. Vedere [](../building-journeys/timezone-management.md).
+>Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. A questo proposito, consulta la sezione [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
