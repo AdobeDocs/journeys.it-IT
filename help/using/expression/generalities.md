@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 2%
 
 ---
 
@@ -47,5 +50,4 @@ A seconda del contesto di utilizzo, l&#39;editor di espressioni può restituire 
 |--- |--- |
 | Condizione (condizione origine dati, condizione data) | boolean |
 | Timer personalizzato | dateTimeOnly |
-| Fuso orario personalizzato | timeZone o stringa (ad esempio Europa/Parigi) |
 | Mappatura parametri azione | Qualsiasi |
