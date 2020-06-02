@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'editor di espressioni avanzate
+title: Informazioni sull’editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,12 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 2%
 
 ---
 
 
-# Informazioni sull&#39;editor di espressioni avanzate {#concept_uyj_trt_52b}
+# Informazioni sull’editor di espressioni avanzate {#concept_uyj_trt_52b}
 
 L&#39;editor di espressioni avanzate consente di creare espressioni avanzate in varie schermate dell&#39;interfaccia, ad esempio, quando si definisce una condizione di origine dati.
 È inoltre disponibile ogni volta che è necessario definire parametri di azione che richiedono specifiche manipolazioni dei dati. È possibile sfruttare i dati provenienti dagli eventi o informazioni aggiuntive recuperate dall&#39;origine dati. In un viaggio, l&#39;elenco visualizzato dei campi dell&#39;evento è contestuale e varia in base agli eventi aggiunti nel viaggio.
@@ -30,19 +33,18 @@ _Interfaccia editor di espressioni avanzate_
 L&#39;editor di espressioni avanzate può essere utilizzato per:
 
 * creazione di condizioni [](../building-journeys/condition-activity.md#about_condition) avanzate sulle origini dati e le informazioni sull&#39;evento
-* definire fusi orari [](../building-journeys/timezone-management.md) personalizzati nelle condizioni della data, attività di attesa della data fissa, attività di attesa personalizzate
 * definire attività [di attesa personalizzate](../building-journeys/wait-activity.md#custom)
-* definizione mapping parametri azione
+* definizione del mapping dei parametri di azione
 
-Quando possibile, è possibile passare tra le due modalità utilizzando il **[!UICONTROL Advanced mode]**/**[!UICONTROL Simple mode]** pulsante. La modalità semplice è descritta [qui](../building-journeys/condition-activity.md#about_condition).
+Quando possibile, è possibile passare tra le due modalità utilizzando il **[!UICONTROL Advanced mode]** / **[!UICONTROL Simple mode]** pulsante. La modalità semplice è descritta [qui](../building-journeys/condition-activity.md#about_condition).
 
 >[!NOTE]
 >
->Le condizioni possono essere definite nell&#39;editor di espressioni semplice o avanzato. restituiscono sempre un tipo booleano.
+>Le condizioni possono essere definite nell&#39;editor di espressioni semplice o avanzato. ma restituiscono sempre un tipo booleano.
 >
 >I parametri delle azioni possono essere definiti selezionando i campi o tramite l&#39;editor di espressioni avanzate. restituiscono un tipo di dati specifico in base alla relativa espressione.
 
-## Accesso all&#39;editor di espressioni avanzate {#section_fdz_4nj_cjb}
+## Accessing the advanced expression editor {#section_fdz_4nj_cjb}
 
 Potete accedere all&#39;editor di espressioni avanzate in diversi modi:
 
@@ -50,7 +52,7 @@ Potete accedere all&#39;editor di espressioni avanzate in diversi modi:
 
    ![](../assets/journeyuc2_33.png)
 
-* Quando si crea un fuso orario personalizzato o un timer personalizzato, l&#39;editor avanzato viene visualizzato direttamente.
+* Quando si crea un timer personalizzato, l&#39;editor avanzato viene visualizzato direttamente.
 * Quando mappate il parametro azione, fate clic su **[!UICONTROL Advanced mode]**.
 
 ## Esplorazione dell’interfaccia{#section_otq_tnj_cjb}
