@@ -11,26 +11,29 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
 
 # Verifica del percorso{#testing_the_journey}
 
-Prima di poter verificare il percorso, devi risolvere tutti gli errori, se ce ne sono. Vedere [](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Prima di poter verificare il percorso, devi risolvere tutti gli errori, se ce ne sono. A questo proposito, consulta la sezione [](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 Potete provare il viaggio prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso di individui nel percorso e di risolvere eventuali problemi prima della pubblicazione.
 
 Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
-1. Prima di verificare il percorso, verifica che sia valido e che non si verifichi alcun errore. Non potrai avviare un test di un viaggio con errori. Vedere [](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
+1. Prima di verificare il percorso, verifica che sia valido e che non si verifichi alcun errore. Non potrai avviare un test di un viaggio con errori. A questo proposito, consulta la sezione [](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
 
 1. Per attivare la modalità di prova, fate clic sull’ **[!UICONTROL Test]** interruttore, situato nell’angolo in alto a destra.
 
    ![](../assets/journeytest1.png)
 
-1. Utilizzate il parametro Tempo di **attesa nel test** , nell&#39;angolo in basso a sinistra, per definire l&#39;ora in cui ciascuna attività di attesa durerà in modalità di prova. Il tempo predefinito è 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se avete abbandonato una o più attività di attesa nel viaggio.
+1. Utilizzate il parametro Tempo di **attesa nel test** , nell&#39;angolo in basso a sinistra, per definire l&#39;ora in cui ciascuna attività di attesa durerà in modalità di prova. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se avete abbandonato una o più attività di attesa nel viaggio.
 
    ![](../assets/journeytest_wait.png)
 
@@ -42,7 +45,7 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
    ![](../assets/journeyuctest2.png)
 
-1. In caso di errore, disattivate la modalità di prova, modificate il percorso e verificatene di nuovo il funzionamento. Quando il test è conclusivo, potete pubblicare il viaggio. Vedere [](../building-journeys/publishing-the-journey.md).
+1. In caso di errore, disattivate la modalità di prova, modificate il percorso e verificatene di nuovo il funzionamento. Quando il test è conclusivo, potete pubblicare il viaggio. A questo proposito, consulta la sezione [](../building-journeys/publishing-the-journey.md).
 
 ## Note importanti {#important_notes}
 
@@ -70,6 +73,16 @@ L&#39;interfaccia consente di passare semplici parametri di evento. Se si deside
 
 Un utente tecnico può anche utilizzare questa interfaccia per comporre i payload di eventi e attivare gli eventi senza dover utilizzare uno strumento di terze parti.
 
+Quando si fa clic sul pulsante **Invia** , inizia il test. La progressione dell&#39;individuo nel viaggio è rappresentata da un flusso visivo. Il percorso diventa progressivamente verde mentre l&#39;individuo si sposta lungo il percorso. Se si verifica un errore, nel passaggio corrispondente viene visualizzato un simbolo di avviso. È possibile posizionare il cursore su di esso per visualizzare ulteriori informazioni sull&#39;errore e accedere ai dettagli completi (se disponibili).
+
+![](../assets/journeytest6.png)
+
+Quando selezionate un profilo di test diverso nella schermata di configurazione dell&#39;evento ed eseguite nuovamente il test, il flusso visivo viene cancellato e mostra il percorso del nuovo individuo.
+
+Quando si apre un viaggio nel test, il percorso visualizzato corrisponde all&#39;ultimo test eseguito.
+
+Il flusso visivo viene visualizzato solo quando l’evento inviato al viaggio è definito nella schermata di configurazione dell’evento. Se l&#39;evento è definito esternamente, ad esempio utilizzando Postman, il flusso visivo non viene visualizzato.
+
 ## Visualizzazione dei registri {#viewing_logs}
 
 Il **[!UICONTROL Show log]** pulsante consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del viaggio in formato JSON. Un pulsante consente di copiare nodi interi. Devi aggiornare manualmente la pagina per aggiornare i risultati del test del viaggio.
@@ -92,3 +105,9 @@ Viene visualizzato il numero di individui (tecnicamente chiamati istanze) attual
 * _TransitionHistory_: l&#39;elenco dei passaggi seguiti dall&#39;utente. Per gli eventi, viene visualizzato il payload.
 * _actionExecutionErrors_ : informazioni sugli errori verificatisi.
 
+Di seguito sono riportati i diversi stati del viaggio di un individuo:
+
+* _In esecuzione_: l&#39;individuo è attualmente in viaggio.
+* _Completato_: l&#39;individuo è alla fine del viaggio.
+* _Errore_: l&#39;individuo viene fermato durante il viaggio a causa di un errore.
+* _Timeout_: l&#39;individuo viene fermato nel viaggio per un passo che ha richiesto troppo tempo.
