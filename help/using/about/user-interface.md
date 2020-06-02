@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '995'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Per ottenere il meglio da Journey Orchestration, ti consigliamo di utilizzare Chrome come browser Internet.
+>Per ottenere il meglio da Journey Orchestration, ti consigliamo di utilizzare Chrome come browser Internet. L&#39;interfaccia viene visualizzata nella lingua definita in IMS. Se la lingua IMS non è supportata dall&#39;orchestrazione del percorso, l&#39;interfaccia viene visualizzata in inglese.
 >
 >Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate al prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 
@@ -40,7 +40,7 @@ Puoi anche accedere a Journey Orchestration dalla home page di Experience Cloud,
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Informazioni sull’elenco percorsi"
->abstract="L’elenco dei percorsi ti consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. È possibile creare una nuova versione oppure duplicarla. Puoi anche usare la barra di ricerca per cercare un percorso."
+>abstract="L’elenco dei percorsi ti consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso chiuso. È possibile creare una nuova versione oppure duplicarla. Puoi anche usare la barra di ricerca per cercare un percorso."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
 I menu superiori ti consentono di navigare tra le diverse funzionalità di Journey Orchestration: **[!UICONTROL Home]**(i percorsi),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
