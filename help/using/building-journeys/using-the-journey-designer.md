@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 4%
 
 ---
 
@@ -22,13 +25,13 @@ Il menu Home del viaggio consente di visualizzare l&#39; **elenco dei viaggi**. 
 
 ## La lista di viaggi {#journey_list}
 
-L&#39;elenco **dei** viaggi consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi viaggi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso completato. Potete creare una nuova versione, duplicarla o interromperla. Potete anche usare la barra di ricerca per cercare un viaggio.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso chiuso. Potete creare una nuova versione, duplicarla o interromperla. Puoi anche usare la barra di ricerca per cercare un percorso.
 
-Per **[!UICONTROL Filters]** accedervi, fate clic sull’icona del filtro in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare i viaggi visualizzati in base a criteri diversi (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). Potete anche scegliere di visualizzare solo i viaggi che utilizzano un evento, un gruppo di campi o un&#39;azione particolare. È possibile configurare le colonne visualizzate nell&#39;elenco. Tutti i filtri e le colonne vengono salvati per utente.
+Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare i viaggi visualizzati in base a criteri diversi (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). Potete anche scegliere di visualizzare solo i viaggi che utilizzano un evento, un gruppo di campi o un&#39;azione particolare. È possibile configurare le colonne visualizzate nell&#39;elenco. Tutti i filtri e le colonne vengono salvati per utente.
 
 ![](../assets/journey74.png)
 
-Tutte le versioni dei viaggi vengono visualizzate nell’elenco con il numero di versione. Vedere [](../building-journeys/journey-versions.md).
+Tutte le versioni dei viaggi vengono visualizzate nell’elenco con il numero di versione. A questo proposito, consulta la sezione [](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
@@ -68,7 +71,7 @@ Nell’area di lavoro, le attività dell’azione e dell’evento sono rappresen
 
 ## Azioni nella barra superiore {#top_actions}
 
-A seconda dello stato del viaggio, puoi eseguire diverse azioni sul viaggio utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti verranno visualizzati in modo contestuale. Il pulsante del registro della modalità di prova viene visualizzato quando la modalità di prova è attivata (vedere [](../building-journeys/testing-the-journey.md)). Il pulsante di segnalazione viene visualizzato quando il viaggio è live, interrotto o completato.
+A seconda dello stato del viaggio, puoi eseguire diverse azioni sul viaggio utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti verranno visualizzati in modo contestuale. Il pulsante del registro della modalità di prova viene visualizzato quando la modalità di prova è attivata (vedere [](../building-journeys/testing-the-journey.md)). Il pulsante di segnalazione viene visualizzato quando il viaggio è live, interrotto o chiuso.
 
 ![](../assets/journey41.png)
 
@@ -80,7 +83,7 @@ Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività
 
 Diverse attività (evento, azione, attesa) consentono di aggiungere diversi percorsi dopo di esse. A questo scopo, posizionate il cursore sull&#39;attività e fate clic sul simbolo &quot;+&quot;. Solo le attività di evento e di attesa possono essere impostate in parallelo. Se più eventi sono impostati in parallelo, il percorso scelto sarà quello del primo evento che si verifica.
 
-Quando ascoltate un evento, vi consigliamo di non attendere l’evento a tempo indeterminato. Non è obbligatorio, è solo una buona pratica. Se si desidera ascoltare uno o più eventi solo durante un certo periodo di tempo, si posizionano uno o più eventi e un&#39;attività di attesa in parallelo. Vedere [](../building-journeys/event-activities.md#section_vxv_h25_pgb).
+Quando ascoltate un evento, vi consigliamo di non attendere l’evento a tempo indeterminato. Non è obbligatorio, è solo una buona pratica. Se si desidera ascoltare uno o più eventi solo durante un certo periodo di tempo, si posizionano uno o più eventi e un&#39;attività di attesa in parallelo. A questo proposito, consulta la sezione [](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
 Per eliminare il percorso, posizionate il cursore su di esso e fate clic sull’ **[!UICONTROL Delete arrow]** icona .
 
@@ -89,3 +92,28 @@ Per eliminare il percorso, posizionate il cursore su di esso e fate clic sull’
 Nel quadro, quando due attività vengono disconnesse, viene visualizzato un avviso. Posizionare il cursore sull&#39;icona di avviso per visualizzare il messaggio di errore. Per risolvere il problema, spostate semplicemente l&#39;attività disconnessa e collegatela all&#39;attività precedente.
 
 ![](../assets/canvas-disconnected.png)
+
+## Copia e incolla delle attività {#copy-paste}
+
+Potete copiare una o più attività di un viaggio e incollarle nello stesso percorso o in un altro. Questo consente di risparmiare tempo se desiderate riutilizzare numerose attività già configurate in un viaggio precedente.
+
+**Note importanti**
+
+* Potete copiare/incollare diverse schede e browser. Potete copiare/incollare solo le attività all’interno della stessa istanza.
+* Non è possibile copiare/incollare un evento se il percorso di destinazione ha un evento che utilizza uno spazio nomi diverso.
+* Le attività incollate possono fare riferimento a dati che non esistono nel percorso di destinazione, ad esempio se copiate/incollate tra diverse sandbox. Verificate sempre la presenza di errori ed effettuate le regolazioni necessarie.
+* Non è possibile annullare un’azione. Per eliminare le attività incollate, dovrete selezionarle ed eliminarle. Accertatevi quindi di selezionare solo le attività necessarie prima di copiarle.
+* Potete copiare le attività da qualsiasi viaggio, anche da quelle in sola lettura.
+* Potete selezionare qualsiasi attività, anche quelle non collegate. Le attività collegate resteranno collegate dopo essere state incollate.
+
+Di seguito sono riportati i passaggi per copiare/incollare le attività:
+
+1. Apri un viaggio.
+1. Selezionate le attività da copiare spostando il mouse mentre fate clic. Potete anche fare clic su ogni attività mentre premete il tasto **Ctrl/Comando** . Utilizzate **Ctrl/Comando + A** per selezionare tutte le attività.
+   ![](../assets/copy-paste1.png)
+1. Premere **Ctrl/Comando + C**.
+Se desiderate copiare una sola attività, potete fare clic su di essa e utilizzare l&#39;icona **Copia** in alto a sinistra nel riquadro di configurazione dell&#39;attività.
+   ![](../assets/copy-paste2.png)
+1. In qualsiasi percorso, premere **Ctrl/Comando + V** per incollare le attività senza collegarle a un nodo esistente. Le attività incollate vengono collocate nello stesso ordine. Dopo essere state incollate, le attività restano selezionate in modo da poterle spostare facilmente. È inoltre possibile posizionare il cursore su un segnaposto vuoto e premere **Ctrl/Comando + V**. Le attività inviate saranno collegate al nodo.
+   ![](../assets/copy-paste3.png)
+
