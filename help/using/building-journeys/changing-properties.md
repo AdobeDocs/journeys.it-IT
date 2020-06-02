@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
+source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
 
 Fai clic sull&#39;icona a forma di matita, in alto a destra per accedere alle proprietà del viaggio.
 
-Potete cambiare il nome del viaggio, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e definire una **[!UICONTROL Timeout and error]** durata se siete amministratori.
+Potete cambiare il nome del viaggio, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e definire una **[!UICONTROL Timeout and error]** durata, se siete amministratori.
 
 ![](../assets/journey32.png)
 
@@ -29,7 +32,7 @@ Potete cambiare il nome del viaggio, aggiungere una descrizione, consentire il r
 
 Per impostazione predefinita, i nuovi viaggi consentono il rientro. Potete deselezionare l&#39;opzione per i viaggi &quot;una sola ripresa&quot;, ad esempio se desiderate offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non si desidera che il cliente possa rientrare nel percorso e ricevere nuovamente l&#39;offerta.
 
-Quando un viaggio &quot;finisce&quot;, avrà lo status **[!UICONTROL Finished]**. Il viaggio smetterà di far entrare nuovi individui nel percorso. Le persone già in viaggio finiranno normalmente il viaggio.
+Quando un viaggio &quot;finisce&quot;, avrà lo status **[!UICONTROL Closed (no entrance)]**. Il viaggio smetterà di far entrare nuovi individui nel percorso. Le persone già in viaggio finiranno normalmente il viaggio.
 
 ## Timeout ed errore nelle attività di viaggio {#timeout_and_error}
 
