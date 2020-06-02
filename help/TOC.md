@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Guida di Journey Orchestration
 index: true
-translation-type: ht
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 87%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
       + [Limitazioni delle azioni personalizzate](using/action/custom-action-limitations.md)
       + [Configurazione URL](using/action/url-configuration.md)
       + [Definizione dei parametri del messaggio](using/action/defining-the-message-parameters.md)
++ Uso dei segmenti di una piattaforma {#configuring-segment}
+   + [Informazioni sui segmenti di piattaforma](using/segment/about-segments.md)
+   + [Creazione di un segmento](using/segment/creating-a-segment.md)
+   + [Utilizzo di segmenti nelle condizioni](using/segment/using-a-segment.md)
 + Creare un percorso {#building-journeys}
    + Informazioni sulla creazione di percorsi {#about-journey-building}
       + [Creazione di un percorso](using/building-journeys/journey.md)
@@ -67,6 +71,13 @@ ht-degree: 100%
          + [Utilizzo di azioni personalizzate](using/building-journeys/using-custom-actions.md)
    + [Verifica del percorso](using/building-journeys/testing-the-journey.md)
    + [Pubblicazione del percorso](using/building-journeys/publishing-the-journey.md)
+   + Condivisione di passaggi di viaggio con la piattaforma {#sharing-journey-steps}
+      + [Panoramica sulla condivisione delle fasi del viaggio](using/building-journeys/sharing-overview.md)
+      + [Evento pathSteps campi comuni](using/building-journeys/sharing-common-fields.md)
+      + [eventi pathStep campi di esecuzione azione](using/building-journeys/sharing-execution-fields.md)
+      + [percorso:eventi, campi di recupero dati](using/building-journeys/sharing-fetch-fields.md)
+      + [pathStep, campi di identità dell&#39;evento](using/building-journeys/sharing-identity-fields.md)
+      + [campi di viaggio](using/building-journeys/sharing-journey-fields.md)
 + Utilizzo dell’editor di espressioni avanzate {#building-advanced-conditions-journeys}
    + [Informazioni sull’editor di espressioni avanzate](using/expression/expressionadvanced.md)
    + Sintassi {#syntax}
@@ -163,4 +174,6 @@ ht-degree: 100%
       + [Configurazione delle origini dati](using/usecase/configuring-the-data-sources.md)
       + [Creazione di un percorso](using/usecase/building-the-journey.md)
    + [Sfruttare i punteggi di fatica](using/usecase/leveraging-fatigue-scores.md)
++ Utilizzo delle API{#working-with-apis}
+   + [Capping delle API](using/api/capping.md)
 
