@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -54,6 +57,4 @@ A tal fine, **[!UICONTROL Properties]** verificare **[!UICONTROL Use Profile tim
 
 ## Uso dei fusi orari nelle espressioni {#timezone-in-expressions}
 
-I fusi orari vengono utilizzati per creare espressione con l&#39;editor di espressioni avanzate. In questo caso, si utilizzerà l&#39;editor di espressioni per selezionare la posizione in cui si desidera che il sistema ottenga queste informazioni. Vedere [](../expression/expressionadvanced.md).
-
-Le date di inizio e fine di un viaggio non possono essere collegate a un fuso orario specifico. Vengono automaticamente associati al fuso orario dell&#39;istanza.
+Le date di inizio e di fine di un viaggio non possono essere collegate a un fuso orario specifico. Vengono automaticamente associati al fuso orario dell&#39;istanza.
