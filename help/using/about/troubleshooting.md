@@ -9,14 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 0%
 
 ---
 
 
 # Risoluzione dei problemi{#concept_nlv_bcv_2fb}
 
-In questa sezione viene descritto come risolvere i problemi dei viaggi prima di eseguire test o pubblicare. Tutti i controlli elencati di seguito possono essere eseguiti quando il viaggio è in modalità di prova o quando il viaggio è in diretta. Si consiglia di eseguire tutti i controlli riportati di seguito in modalità di prova, quindi di procedere alla pubblicazione. Vedere [](../building-journeys/testing-the-journey.md).
+In questa sezione viene descritto come risolvere i problemi dei viaggi prima di eseguire test o pubblicare. Tutti i controlli elencati di seguito possono essere eseguiti quando il viaggio è in modalità di prova o quando il viaggio è in diretta. Si consiglia di eseguire tutti i controlli riportati di seguito in modalità di prova, quindi di procedere alla pubblicazione. A questo proposito, consulta la sezione [](../building-journeys/testing-the-journey.md).
 
 ## Verifica degli errori prima del test{#section_h3q_kqk_fhb}
 
@@ -46,11 +49,11 @@ Il punto di partenza di un viaggio è sempre un evento. Potete eseguire i test u
 
 Potete verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata ha un problema. Controllate di nuovo il payload, l&#39;intestazione (e in particolare l&#39;ID organizzazione) e l&#39;URL di destinazione. Potete chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall&#39;origine all&#39;orchestrazione del percorso. In effetti, l’orchestrazione del percorso si basa sulle API di assimilazione dello streaming della piattaforma Experience. Di conseguenza, in caso di problemi relativi agli eventi, potete fare riferimento a questa [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) per la risoluzione dei problemi delle API di assimilazione in streaming.
+Gli eventi non vengono inviati direttamente dall’origine a [!DNL Journey Orchestration]. In effetti, [!DNL Journey Orchestration] si basa sulle API di caricamento in streaming di Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, potete fare riferimento a questa [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) per la risoluzione dei problemi delle API di assimilazione in streaming.
 
 ## Verifica se le persone entrano nel viaggio{#section_x4v_zzs_dgb}
 
-L&#39;orchestrazione del viaggio misura gli ingressi delle persone in un viaggio in tempo reale.
+[!DNL Journey Orchestration] il reporting misura le entrate delle persone in un viaggio in tempo reale.
 
 Se l’invio dell’evento è stato completato con successo ma non viene visualizzato alcun ingresso nel viaggio, significa che qualcosa va storto tra l’invio dell’evento e la ricezione dell’evento nel viaggio.
 
@@ -60,7 +63,7 @@ Di seguito sono riportati alcuni elementi che l’amministratore deve controllar
 * Avete salvato l’evento prima di copiare il payload dall’anteprima del payload?
 * Il payload dell&#39;evento contiene un ID evento?
 * Hai raggiunto l&#39;URL giusto?
-* Avete seguito la struttura del payload API di Streaming Ingestion utilizzando l&#39;anteprima della struttura del payload nel riquadro di configurazione dell&#39;evento? Vedere [](../event/previewing-the-payload.md).
+* Avete seguito la struttura del payload API di Streaming Ingestion utilizzando l&#39;anteprima della struttura del payload nel riquadro di configurazione dell&#39;evento? A questo proposito, consulta la sezione [](../event/previewing-the-payload.md).
 * Avete usato le coppie chiave/valore corrette nell’intestazione dell’evento?
 
    ```
@@ -70,7 +73,7 @@ Di seguito sono riportati alcuni elementi che l’amministratore deve controllar
 
 ## Controllo della modalità di navigazione delle persone nel percorso{#section_l5y_yzs_dgb}
 
-L&#39;orchestrazione del viaggio misura il progresso degli individui all&#39;interno di un viaggio. È facile identificare dove e perché una persona è stata fermata.
+[!DNL Journey Orchestration] la segnalazione misura il progresso delle persone durante un viaggio. È facile identificare dove e perché una persona è stata fermata.
 
 Di seguito sono riportati alcuni elementi da verificare:
 
