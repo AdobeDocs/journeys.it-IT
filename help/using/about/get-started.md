@@ -8,20 +8,20 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 93%
 
 ---
 
 
 # Introduzione{#concept_y4b_4qt_52b}
 
-In Journey Orchestration, esistono due tipi di utenti, ciascuno dei quali esegue attività specifiche: l’**utente tecnico** e l’**utente aziendale**. L’accesso dell’utente viene gestito tramite profili di prodotto e diritti. Per scoprire come configurare l’accesso utente, fai riferimento a [](../about/access-management.md).
+In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. L’accesso dell’utente viene gestito tramite profili di prodotto e diritti. Per scoprire come configurare l’accesso utente, fai riferimento a [](../about/access-management.md).
 
-Di seguito sono riportati i passaggi principali per la configurazione e l’utilizzo di Journey Orchestration:
+Di seguito sono riportati i passaggi principali per la configurazione e l’utilizzo di [!DNL Journey Orchestration]:
 
 1. **Configurare un evento**
 
@@ -41,7 +41,7 @@ Di seguito sono riportati i passaggi principali per la configurazione e l’util
 
 1. **Configurare un’azione**
 
-   Se utilizzi un sistema di terze parti per l’invio dei messaggi, è necessario configurare la relativa connessione con Journey Orchestration. A questo proposito, consulta la sezione [](../action/about-custom-action-configuration.md).
+   Se utilizzi un sistema di terze parti per l’invio dei messaggi, è necessario configurare la relativa connessione con [!DNL Journey Orchestration]. A questo proposito, consulta la sezione [](../action/about-custom-action-configuration.md).
 
    Se utilizzi Adobe Campaign Standard per l’invio dei messaggi, è necessario configurare l’azione incorporata. A questo proposito, consulta la sezione [](../action/working-with-adobe-campaign.md).
 
