@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 1%
 
 ---
 
@@ -72,7 +75,7 @@ La **[!UICONTROL all]** funzione abilita la definizione di un filtro su una dete
 
 Ad esempio, tra tutti gli utenti dell&#39;app, potete ottenere quelli che utilizzano IOS 13 (espressione booleana &quot;app utilizzata == IOS 13&quot;). Il risultato di questa funzione è l&#39;elenco filtrato contenente elementi corrispondenti all&#39;espressione booleana (esempio: app user 1, app user 34, app user 432).
 
-In un&#39;attività Condizione origine dati è possibile verificare se il risultato della **[!UICONTROL all]** funzione è nullo o meno. È inoltre possibile combinare questa **[!UICONTROL all]** funzione con altre funzioni come **[!UICONTROL count]**. Per ulteriori informazioni, consulta Attività [Condizione origine](../building-journeys/condition-activity.md#data_source_condition)dati.
+In un&#39;attività Condizione origine dati è possibile verificare se il risultato della **[!UICONTROL all]** funzione è nullo o meno. È inoltre possibile combinare questa **[!UICONTROL all]** funzione con altre funzioni, ad esempio **[!UICONTROL count]**. Per ulteriori informazioni, consulta Attività [Condizione origine](../building-journeys/condition-activity.md#data_source_condition)dati.
 
 **Esempio 1:**
 
@@ -114,7 +117,7 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 In both cases, the result of the expression is **3**.
 
-A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journey Orchestration sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
+A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
