@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ I valori autorizzati sono compresi tra 1 e 30 secondi.
 
 È consigliabile definire un **[!UICONTROL Timeout and error]** valore molto breve se il viaggio è sensibile al tempo (ad esempio: reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l’azione per più di pochi secondi. Se il viaggio è meno sensibile al tempo, potete utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
 
-L&#39;orchestrazione del percorso utilizza anche un timeout globale. Vedere la sezione [](#global_timeout)successiva.
+[!DNL Journey Orchestration] utilizza anche un timeout globale. Vedere la sezione [](#global_timeout)successiva.
 
 ## Timeout percorso globale {#global_timeout}
 
@@ -50,7 +50,7 @@ Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di viaggio, es
 
 >[!NOTE]
 >
->L&#39;orchestrazione del percorso non reagisce direttamente alle richieste di privacy opt-out, accesso o eliminazione. Tuttavia, il timeout globale assicura che gli utenti non restino mai più di 30 giorni in un qualsiasi viaggio.
+>[!DNL Journey Orchestration] non risponde direttamente alle richieste di privacy opt-out, accesso o eliminazione. Tuttavia, il timeout globale assicura che gli utenti non restino mai più di 30 giorni in un qualsiasi viaggio.
 
 A causa del timeout del viaggio di 30 giorni, quando il rientro del viaggio non è consentito, non possiamo assicurarci che il blocco del rientro funzioni più di 30 giorni. Infatti, mentre rimuoviamo tutte le informazioni sulle persone che sono entrate nel viaggio 30 giorni dopo il loro ingresso, non possiamo sapere che la persona è entrata in precedenza, più di 30 giorni fa.
 
