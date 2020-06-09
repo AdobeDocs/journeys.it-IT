@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ Il **quadro** è la zona centrale del designer di viaggi. È in questa zona che 
 
 Il riquadro **di configurazione dell&#39;** attività viene visualizzato quando si fa clic su un&#39;attività nella palette. Compila i campi richiesti. Fate clic sull&#39; **[!UICONTROL Delete]** icona per eliminare l&#39;attività. Fate clic su **[!UICONTROL Cancel]** per annullare le modifiche o **[!UICONTROL Ok]** per confermare. Per eliminare le attività, potete anche selezionare una (o più) attività e premere il tasto Backspace. Premere il tasto Escape per chiudere il riquadro di configurazione dell&#39;attività.
 
-Nell’area di lavoro, le attività dell’azione e dell’evento sono rappresentate da un’icona con il nome dell’evento o dell’azione visualizzato sotto. Nel riquadro di configurazione dell&#39;attività, potete utilizzare il **[!UICONTROL Label]** campo per aggiungere un suffisso al nome dell&#39;attività. Queste etichette consentiranno di contestualizzare l&#39;uso di eventi e azioni, soprattutto quando durante il viaggio si utilizza più volte lo stesso evento o azione. Sarà inoltre possibile visualizzare le etichette aggiunte nel report Orchestrazione percorso.
+Nell’area di lavoro, le attività dell’azione e dell’evento sono rappresentate da un’icona con il nome dell’evento o dell’azione visualizzato sotto. Nel riquadro di configurazione dell&#39;attività, potete utilizzare il **[!UICONTROL Label]** campo per aggiungere un suffisso al nome dell&#39;attività. Queste etichette consentiranno di contestualizzare l&#39;uso di eventi e azioni, soprattutto quando durante il viaggio si utilizza più volte lo stesso evento o azione. Potrete inoltre visualizzare le etichette aggiunte nel [!DNL Journey Orchestration] rapporto.
 
 ![](../assets/journey59bis.png)
 
@@ -77,7 +77,7 @@ A seconda dello stato del viaggio, puoi eseguire diverse azioni sul viaggio util
 
 ## Utilizzo dei percorsi nel quadro {#paths}
 
-Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) consentono di definire un&#39;azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell&#39;attività, selezionate la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l&#39;attività. La durata di timeout è definita nelle proprietà del percorso (vedete [](../building-journeys/changing-properties.md) da un utente amministratore). Ad esempio, se l’invio di un messaggio e-mail richiede troppo tempo o si verifica un errore, potete decidere di inviare un SMS.
+Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) consentono di definire un&#39;azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell&#39;attività, selezionate la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l&#39;attività. La durata di timeout è definita nelle proprietà del percorso (vedete [](../building-journeys/changing-properties.md) da un utente amministratore. Ad esempio, se l’invio di un messaggio e-mail richiede troppo tempo o si verifica un errore, potete decidere di inviare un SMS.
 
 ![](../assets/journey42.png)
 
