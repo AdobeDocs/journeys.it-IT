@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a53413c79f0213434f9ca6a7847bd7f20fbf41e
+source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 0%
+source-wordcount: '794'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Informazioni sulla gestione degli accessi {#about-access-management}
 
-L’orchestrazione del percorso consente di assegnare agli utenti un set di diritti e sandbox con cui definire la parte dell’interfaccia a cui possono accedere.
+[!DNL Journey Orchestration] consente di assegnare agli utenti un set di diritti per definire a quale parte dell’interfaccia possono accedere.
 
 Possono essere gestiti dagli amministratori che hanno accesso alla console di amministrazione. Per ulteriori informazioni su Admin Console, consulta questa [documentazione](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
@@ -56,19 +56,19 @@ Gli utenti devono sempre essere collegati a un profilo di prodotto che consenta 
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-Di seguito è riportata la compatibilità tra i diritti e le diverse funzionalità dell&#39;orchestrazione del percorso.
+Di seguito è riportata la compatibilità tra diritti e [!DNL Journey Orchestration]diverse funzionalità.
 
 ![](../assets/journey_permission.png)
 
 ## Creazione di un profilo di prodotto {#create-product-profile}
 
-Mediante l&#39;orchestrazione del percorso è possibile creare profili di prodotto personalizzati e assegnare agli utenti una serie di diritti e sandbox. Con i profili di prodotto, puoi autorizzare o negare l&#39;accesso a determinate funzionalità o oggetti nell&#39;interfaccia.
+[!DNL Journey Orchestration] consente di creare profili di prodotto personalizzati e di assegnare agli utenti una serie di diritti e sandbox. Con i profili di prodotto, puoi autorizzare o negare l&#39;accesso a determinate funzionalità o oggetti nell&#39;interfaccia.
 
 Per ulteriori informazioni su come creare e gestire le sandbox, consulta la documentazione [di](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)Adobe Experience Platform.
 
 Per creare un profilo di prodotto e assegnare un set di diritti e sandbox:
 
-1. In Admin Console, seleziona **[!UICONTROL Journey orchestration]**. Dalla **[!UICONTROL Product profile]** scheda, fare clic su **[!UICONTROL New Profile]**.
+1. In Admin Console, seleziona **[!UICONTROL Journey Orchestration]**. Dalla **[!UICONTROL Product profile]** scheda, fare clic su **[!UICONTROL New Profile]**.
 
 1. Aggiungi un **[!UICONTROL Profile Name]** e **[!UICONTROL Description]** per il nuovo profilo di prodotto. Se desiderate che il vostro profilo sia **[!UICONTROL Display name]** diverso, deselezionate **[!UICONTROL Same as Profile Name]** e digitate **[!UICONTROL Display name]**.
 
@@ -86,26 +86,26 @@ Per creare un profilo di prodotto e assegnare un set di diritti e sandbox:
 
    >[!NOTE]
    >
-   >È ora possibile collegare l&#39;orchestrazione del percorso alla piattaforma di produzione e alla sandbox non di produzione. Disponibilità effettiva: 15 giugno 2020.
+   >Platform Sandbox è una funzione beta.
    <br>Per ulteriori informazioni sulle sandbox, consultate questa [sezione](../about/access-management.md#sandboxes).
 
 1. Se necessario, in **[!UICONTROL Included Permission Items]**, fai clic sull&#39;icona X accanto per rimuovere le autorizzazioni dal profilo di prodotto.
 
 1. Dalla categoria di **[!UICONTROL Authoring]** autorizzazioni, eseguite gli stessi passaggi indicati sopra per aggiungere i diritti al profilo di prodotto.
-   <br>Per ulteriori informazioni sui diritti e la compatibilità tra i diritti e le diverse funzionalità dell&#39;Orchestrazione del viaggio, consultare questa [sezione](../about/access-management.md#about-access-management).
+   <br>Per ulteriori informazioni sui diritti e la compatibilità tra i diritti e le diverse funzionalità [!DNL Journey Orchestration]di , consulta questa [sezione](../about/access-management.md#about-access-management).
 
 1. Al termine, fate clic **[!UICONTROL Save]**.
 
-Il tuo profilo di prodotto ora è stato creato e configurato. Gli utenti collegati a questo profilo ora possono connettersi all&#39;orchestrazione del percorso.
+Il tuo profilo di prodotto ora è stato creato e configurato. Gli utenti collegati a questo profilo ora possono connettersi a [!DNL Journey Orchestration].
 
 ## Assegnazione di un profilo di prodotto {#assigning-product-profile}
 
 I profili di prodotto sono assegnati a un set di utenti che condividono gli stessi diritti all&#39;interno dell&#39;organizzazione.
 L&#39;elenco di tutti i profili di prodotto forniti con diritti assegnati è disponibile in questa sezione.
 
-Per assegnare un profilo di prodotto a un utente per accedere all&#39;orchestrazione del percorso:
+Per assegnare un profilo di prodotto a cui un utente può accedere [!DNL Journey Orchestration]:
 
-1. In Admin Console, seleziona **[!UICONTROL Journey orchestration]**.
+1. In Admin Console, seleziona **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/user_management.png)
 
@@ -123,18 +123,18 @@ Per assegnare un profilo di prodotto a un utente per accedere all&#39;orchestraz
 
    ![](../assets/user_management_4.png)
 
-L&#39;utente deve quindi ricevere un&#39;e-mail di reindirizzamento all&#39;istanza di Orchestrazione del viaggio.
+L’utente deve quindi ricevere un messaggio e-mail di reindirizzamento all’ [!DNL Journey Orchestration] istanza.
 
 ## Utilizzo delle sandbox {#sandboxes}
 
 >[!NOTE]
 >
->È ora possibile collegare l&#39;orchestrazione del percorso alla piattaforma di produzione e alla sandbox non di produzione. Disponibilità effettiva: 15 giugno 2020.
+>Platform Sandbox è una funzione beta.
 
-Mediante l&#39;orchestrazione del percorso è possibile suddividere l&#39;istanza in ambienti virtuali separati denominati sandbox.
+[!DNL Journey Orchestration] consente di suddividere l&#39;istanza in ambienti virtuali separati, denominati sandbox.
 Le sandbox vengono assegnate tramite i profili di prodotto nella console di amministrazione. Per ulteriori informazioni su come assegnare le sandbox, consultate questa [sezione](../about/access-management.md#create-product-profile).
 
-L&#39;orchestrazione del percorso riflette le sandbox della piattaforma create per una determinata organizzazione.
+[!DNL Journey Orchestration] riflette le sandbox della piattaforma che sono state create per una determinata organizzazione.
 Le sandbox della piattaforma possono essere create o reimpostate dall’istanza di Adobe Experience Platform. Fate riferimento alla guida [utente per la](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) sandbox per i passaggi dettagliati.
 
 Il controllo dello switcher sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fate clic sulla sandbox attualmente attiva nello switcher e selezionate un’altra sandbox dall’elenco a discesa.
