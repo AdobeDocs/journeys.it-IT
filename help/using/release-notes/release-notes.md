@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 71%
+source-wordcount: '1098'
+ht-degree: 70%
 
 ---
 
@@ -40,16 +40,17 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <li><p>Una nuova attività consente di ascoltare entrate/uscite del segmento Piattaforma per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/event-activities.md#segment-qualification">Leggi tutto</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>È ora possibile creare e modificare i segmenti della piattaforma senza uscire dall'interfaccia di orchestrazione del percorso, grazie a una nuova scheda <strong>Segmenti</strong> . Disponibilità effettiva: 15 giugno 2020. <a href="../segment/about-segments.md">Leggi tutto</a></p>
+<li><p>È ora possibile creare e modificare i segmenti della piattaforma senza uscire dall'interfaccia di orchestrazione del percorso, grazie a una nuova scheda <strong>Segmenti</strong> .<a href="../segment/about-segments.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Nell'editor delle espressioni semplici, i segmenti della piattaforma ora sono elencati direttamente nella struttura di navigazione per consentire una facile configurazione di condizioni come "questa persona appartiene al segmento A?". <a href="../segment/using-a-segment.md">Leggi tutto</a></p>
+<li><p>Nell'editor delle espressioni semplici, i segmenti della piattaforma ora sono elencati direttamente nella struttura di navigazione per consentire una facile configurazione di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>L'orchestrazione del percorso ora passa automaticamente, ad Adobe Data Platform, i passaggi eseguiti nei viaggi. Ciò include potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e risoluzione dei problemi eseguendo query sugli eventi del Passaggio del viaggio per un viaggio particolare o per tutti i viaggi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>È ora possibile collegare l'orchestrazione del percorso alla piattaforma di produzione e alla sandbox non di produzione. Disponibilità effettiva: 15 giugno 2020. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
+</li>
+<li><p>È ora possibile collegare l'orchestrazione del percorso alle sandbox della piattaforma di produzione e non di produzione. Le sandbox sono una funzione beta. Disponibilità effettiva: 30 giugno 2020. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
 </li>
 </td>
 </tr>
@@ -84,9 +85,9 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 
 Per evitare di inviare troppe chiamate API a sistemi di terze parti, stiamo introducendo una nuova API pubblica per impostare le regole di &quot;capping&quot;. Le regole di intercettazione consentono di definire un numero massimo di chiamate a un endpoint API per millisecondi. [Leggi tutto](../api/capping.md)
 
-Il controllo degli accessi ora consente una maggiore granularità nella gestione degli accessi utente. Disponibilità effettiva: 15 giugno 2020. [Leggi tutto](../about/access-management.md#create-product-profile)
+Il controllo degli accessi ora consente una maggiore granularità nella gestione degli accessi utente. Disponibilità effettiva: 30 giugno 2020. [Leggi tutto](../about/access-management.md#create-product-profile)
 
-È ora disponibile l&#39;Orchestrazione del viaggio in APAC (datacenter australiano). Disponibilità effettiva: Giugno, 15 2020
+È ora disponibile l&#39;Orchestrazione del viaggio in APAC (datacenter australiano). Disponibilità effettiva: 30 giugno 2020
 
 L&#39;interfaccia di orchestrazione del viaggio è disponibile in giapponese.
 
