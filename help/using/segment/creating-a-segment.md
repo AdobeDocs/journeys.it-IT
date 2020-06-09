@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '139'
 ht-degree: 5%
 
 ---
@@ -22,9 +22,7 @@ ht-degree: 5%
 
 # Creazione di un segmento {#creating-a-segment}
 
->La scheda del segmento e la creazione/modifica di segmenti nell&#39;orchestrazione del viaggio saranno disponibili il 15 giugno.
-
-Puoi creare un segmento utilizzando il servizio [Segmentazione](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) piattaforma oppure puoi accedervi e crearli direttamente in Orchestrazione percorso.
+Puoi creare un segmento utilizzando il servizio [Segmentazione](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) piattaforma oppure puoi accedervi e crearli direttamente in [!DNL Journey Orchestration].
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Segments]**. Viene visualizzato l’elenco dei segmenti della piattaforma. È possibile cercare un segmento specifico nell&#39;elenco.
 
