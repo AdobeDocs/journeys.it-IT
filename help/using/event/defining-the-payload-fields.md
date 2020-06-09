@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 6%
 
 ---
 
 
 # Definizione dei campi payload {#concept_yrw_3qt_52b}
 
-La definizione del payload consente di scegliere le informazioni che il sistema prevede di ricevere dall’evento nel percorso e la chiave per identificare quale persona è associata all’evento. Il payload si basa sulla definizione del campo Experience Cloud XDM. Per ulteriori informazioni su XDM, fare riferimento a questa [pagina](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+La definizione del payload consente di scegliere le informazioni che il sistema prevede di ricevere dall’evento nel percorso e la chiave per identificare quale persona è associata all’evento. Il payload si basa sulla definizione del campo Experience Cloud XDM. Per ulteriori informazioni su XDM, fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/home.html).
 
 1. Selezionare uno schema XDM dall&#39;elenco e fare clic sul **[!UICONTROL Payload]** campo o sull&#39; **[!UICONTROL Edit]** icona.
 
@@ -28,7 +31,7 @@ La definizione del payload consente di scegliere le informazioni che il sistema 
 
    >[!NOTE]
    >
-   >Accertatevi di aver aggiunto il mixin &quot;orchestrazione&quot; allo schema XDM. In questo modo lo schema conterrà tutte le informazioni necessarie per l&#39;utilizzo dell&#39;orchestrazione del percorso.
+   >Accertatevi di aver aggiunto il mixin &quot;orchestrazione&quot; allo schema XDM. In questo modo si verificherà che lo schema contenga tutte le informazioni necessarie con cui lavorare [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
@@ -38,7 +41,7 @@ La definizione del payload consente di scegliere le informazioni che il sistema 
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL eventID]** campo viene aggiunto automaticamente nell&#39;elenco dei campi selezionati in modo che l&#39;orchestrazione del viaggio possa identificare l&#39;evento. Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. Vedere [](../event/previewing-the-payload.md).
+   >Il **[!UICONTROL eventID]** campo viene aggiunto automaticamente nell’elenco dei campi selezionati in modo da [!DNL Journey Orchestration] identificare l’evento. Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. A questo proposito, consulta la sezione [](../event/previewing-the-payload.md).
 
 1. Dopo aver selezionato i campi necessari, fate clic **[!UICONTROL Save]** o premete **[!UICONTROL Enter]**.
 
