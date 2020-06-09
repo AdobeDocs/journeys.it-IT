@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ Le azioni sono disponibili nella palette a sinistra del percorso, nella categori
 >
 >La configurazione delle azioni personalizzate viene sempre eseguita da un **utente tecnico**.
 
-Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. Per ulteriori informazioni sulle scelte rapide da tastiera disponibili in Journey Orchestration, consulta la sezione [](../about/user-interface.md#section_ksq_zr1_ffb).
+Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. For more information on shortcuts in [!DNL Journey Orchestration], see [](../about/user-interface.md#section_ksq_zr1_ffb).
 
 Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su **[!UICONTROL Actions]** nei menu principali. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull’interfaccia, consulta la sezione [](../about/user-interface.md).
 
@@ -46,4 +46,4 @@ Se disponi di Adobe Campaign Standard, devi configurare l’azione predefinita a
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, Adobe.io, Firebase e così via, devi aggiungere e configurare un’azione personalizzata. Fai riferimento a [](../action/about-custom-action-configuration.md).
 
-Per ulteriori informazioni su come configurare un’azione per Journey Orchestration e in che modo utilizzarla in un percorso, guarda questa [esercitazione video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+For more information on how to configure an Action for [!DNL Journey Orchestration] and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
