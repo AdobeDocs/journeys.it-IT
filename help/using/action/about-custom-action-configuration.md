@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 12%
 
 ---
 
 
 # Informazioni sulla configurazione delle azioni personalizzata {#concept_sxy_bzs_dgb}
 
-Se si utilizza un sistema di terze parti per inviare messaggi o se si desidera che l&#39;orchestrazione del percorso invii chiamate API a un sistema di terze parti, è in questo punto che si configura la relativa connessione all&#39;orchestrazione del percorso. L&#39;azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria (vedere [](../building-journeys/about-action-activities.md). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Facebook, Adobe.io, Firebase, ecc.
+Se utilizzate un sistema di terze parti per inviare messaggi o se desiderate [!DNL Journey Orchestration] inviare chiamate API a un sistema di terze parti, questo è il punto in cui configurate la connessione a [!DNL Journey Orchestration]. L&#39;azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria (vedere [](../building-journeys/about-action-activities.md). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Facebook, Adobe.io, Firebase, ecc.
 Le limitazioni sono elencate qui: [](../action/custom-action-limitations.md).
 
 Di seguito sono riportati i passaggi principali necessari per configurare un&#39;azione personalizzata:
@@ -31,16 +34,16 @@ Di seguito sono riportati i passaggi principali necessari per configurare un&#39
 
    >[!NOTE]
    >
-   >Non utilizzate spazi o caratteri speciali. Non utilizzare più di 30 caratteri.
+   >Non utilizzare spazi o caratteri speciali. Non usare più di 30 caratteri.
 
 1. Aggiungi una descrizione all&#39;azione. Questo passaggio è facoltativo.
-1. Il numero di viaggi che utilizzano questa azione viene visualizzato nel **[!UICONTROL Used in]** campo. Puoi fare clic sul **[!UICONTROL View journeys]** pulsante per visualizzare l’elenco dei viaggi che utilizzano questa azione.
-1. Definire i diversi **[!UICONTROL URL Configuration]** parametri. Vedere [](../action/url-configuration.md).
-1. Configurare la **[!UICONTROL Authentication]** sezione. Questa configurazione è la stessa delle origini dati.  Vedere [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Definite il **[!UICONTROL Message parameters]**. Vedere [](../action/defining-the-message-parameters.md).
+1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
+1. Definire i diversi **[!UICONTROL URL Configuration]** parametri. A questo proposito, consulta la sezione [](../action/url-configuration.md).
+1. Configurare la **[!UICONTROL Authentication]** sezione. Questa configurazione è la stessa delle origini dati.  A questo proposito, consulta la sezione [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Definite il **[!UICONTROL Message parameters]**. A questo proposito, consulta la sezione [](../action/defining-the-message-parameters.md).
 1. Clic **[!UICONTROL Save]**.
 
-   L&#39;azione personalizzata ora è configurata e pronta per essere utilizzata nei vostri viaggi. Vedere [](../building-journeys/about-action-activities.md).
+   L&#39;azione personalizzata ora è configurata e pronta per essere utilizzata nei vostri viaggi. A questo proposito, consulta la sezione [](../building-journeys/about-action-activities.md).
 
    >[!NOTE]
    >
