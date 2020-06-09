@@ -11,30 +11,30 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 77%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
 
 # Aggiornamenti alla documentazione
 
-Questa pagina elenca tutti gli aggiornamenti alla documentazione per Journey Orchestration.
-È inoltre possibile consultare le [Note sulla versione](../release-notes/release-notes.md) di Journey Orchestration.
+Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journey Orchestration].
+You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
 ## Giugno 2020 {#june-2020}
 
-* Sono state aggiunte informazioni su come modificare la durata della cache del token per un&#39;origine dati di autenticazione personalizzata. [Ulteriori informazioni](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Sono state aggiunte informazioni su come modificare la durata della cache del token per un&#39;origine dati di autenticazione personalizzata. [Leggi tutto](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Screenshot e testo aggiornati per riflettere la ridenominazione dello stato del viaggio **Finito** che è stato modificato in **Chiuso (nessuna entrata)**.
-* Sono state aggiunte informazioni sulla definizione della lingua per l&#39;interfaccia. [Ulteriori informazioni](../about/user-interface.md)
+* Sono state aggiunte informazioni sulla definizione della lingua per l&#39;interfaccia. [Leggi tutto](../about/user-interface.md)
 * L&#39;elenco degli stati del percorso di un individuo è stato spostato nella sezione dei registri [della modalità](../building-journeys/testing-the-journey.md#viewing_logs) di prova.
 
 ## Aprile 2020 {#april-2020}
 
-* È stata aggiunta una nuova sezione sulla definizione dello schema evento esperienza per aiutare gli utenti a configurare il loro primo evento. [Ulteriori informazioni](../event/experience-event-schema.md)
-* La pagina principale della documentazione sull&#39;orchestrazione del viaggio è stata aggiornata con ulteriori collegamenti utili. [Ulteriori informazioni](../../journey-orchestration-home.md)
+* È stata aggiunta una nuova sezione sulla definizione dello schema evento esperienza per aiutare gli utenti a configurare il loro primo evento. [Leggi tutto](../event/experience-event-schema.md)
+* La pagina principale della [!DNL Journey Orchestration] documentazione è stata aggiornata con altri collegamenti utili. [Leggi tutto](../../journey-orchestration-home.md)
 
 ## Marzo 2020 {#march-2020}
 
