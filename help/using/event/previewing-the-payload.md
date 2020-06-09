@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +28,7 @@ L’anteprima del payload consente di convalidare la definizione del payload.
 >
 >Quando create un evento, prima di visualizzare l’anteprima del payload, salvate l’evento e riapritelo. Questo passaggio è necessario per generare un ID evento nel payload.
 
-1. Fate clic sull&#39; **[!UICONTROL View Payload]**icona per visualizzare l&#39;anteprima del payload previsto dal sistema.
+1. Fate clic sull&#39; **[!UICONTROL View Payload]** icona per visualizzare l&#39;anteprima del payload previsto dal sistema.
 
    ![](../assets/journey13.png)
 
@@ -35,4 +38,4 @@ L’anteprima del payload consente di convalidare la definizione del payload.
 
 1. Controllare l&#39;anteprima per convalidare la definizione del payload.
 
-1. Potete quindi condividere l’anteprima del payload con la persona responsabile dell’invio dell’evento. Questo payload può aiutarlo a progettare la configurazione di un evento che si sposta verso l&#39;orchestrazione del percorso. Vedere [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Potete quindi condividere l’anteprima del payload con la persona responsabile dell’invio dell’evento. Questo payload può aiutarlo a progettare la configurazione di un evento a cui si preme [!DNL Journey Orchestration]. A questo proposito, consulta la sezione [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
