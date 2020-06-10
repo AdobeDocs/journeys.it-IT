@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
+source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,7 @@ L&#39;elenco dei campi XDM che vengono passati è completo. Alcuni contengono co
 
 >[!CAUTION]
 >
->Per impostazione predefinita, i set di dati non sono attivati per il servizio di profilo in tempo reale. Se desiderate un set di dati nel servizio profilo, dovete attivarlo (**Profile** toggle). Tenete presente che un elevato volume di eventi occuperà spazio di archiviazione nella quota. Procedere con attenzione prima di attivare un dataset per i profili
->
->![](../assets/sharing4.png)
-
->[!NOTE]
->
->I viaggi possono anche inviare l&#39;evento del profilo del passo del viaggio alla piattaforma o meno. I viaggi mantengono una tecnologia per decidere questo.
->
->![](../assets/techtoggle.png)
+>Impossibile attivare i set di dati per il servizio di profilo in tempo reale. Verificare che l&#39;attivazione dell&#39; **opzione Profilo** sia disattivata
 
 I viaggi inviano i dati man mano che si verificano, in streaming. È possibile eseguire una query di questi dati utilizzando il servizio Query. Puoi connetterti ad Analytics del percorso cliente o ad altri strumenti BI per visualizzare i dati relativi a questi passaggi.
 
