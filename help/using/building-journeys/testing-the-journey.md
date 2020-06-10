@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Quando selezionate un profilo di test diverso nella schermata di configurazione 
 
 Quando si apre un viaggio nel test, il percorso visualizzato corrisponde all&#39;ultimo test eseguito.
 
-Il flusso visivo viene visualizzato solo quando l’evento inviato al viaggio è definito nella schermata di configurazione dell’evento. Se l&#39;evento è definito esternamente, ad esempio utilizzando Postman, il flusso visivo non viene visualizzato.
+Il flusso visivo funziona sia che l&#39;evento venga attivato tramite l&#39;interfaccia, sia che venga attivato esternamente (utilizzando, ad esempio, Postman).
 
 ## Visualizzazione dei registri {#viewing_logs}
 
