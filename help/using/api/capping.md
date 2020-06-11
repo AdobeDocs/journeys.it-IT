@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1084'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,13 @@ Per ulteriori informazioni sulla configurazione delle azioni o delle origini dat
 
 ## Risorse
 
-L&#39;API [!DNL Journey Orchestration] Capping è descritta all&#39;interno di un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
+>[!NOTE]
+>
+>L&#39;API [!DNL Journey Orchestration] Capping è descritta all&#39;interno di un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
 
 Per utilizzare questa API con la tua [!DNL Journey Orchestration] istanza, devi usare la console AdobeIO. Per iniziare, segui questa [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e utilizza le sezioni presenti in questa pagina.
 
-Per verificare e preparare l&#39;integrazione, è disponibile [qui](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)una raccolta Postman.
+Per verificare e preparare l&#39;integrazione, è disponibile [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)una raccolta Postman.
 
 ## Autenticazione
 
@@ -44,7 +46,7 @@ Per verificare e preparare l&#39;integrazione, è disponibile [qui](https://gith
 
 >[!CAUTION]
 >
->Per gestire i certificati in Adobe IO, accertatevi di disporre dei diritti di amministratore <b>di</b> sistema sull&#39;organizzazione o su un account <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html"></a> sviluppatore nell&#39;Admin Console.
+>Per gestire i certificati in Adobe IO, accertatevi di disporre dei diritti di amministratore <b>di</b> sistema sull&#39;organizzazione o su un account [](https://helpx.adobe.com/enterprise/using/manage-developers.html) sviluppatore nell&#39;Admin Console.
 
 1. **Verificate di disporre di un certificato** digitale oppure createne uno, se necessario. Le chiavi pubblica e privata fornite con il certificato sono necessarie nei seguenti passaggi.
 1. **Crea una nuova integrazione con[!DNL Journey Orchestration]Service** in Adobe IO e configurala. L&#39;accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (Chiave API, Segreto cliente...).
@@ -166,7 +168,7 @@ L&#39;avviso potenziale è il seguente:
 
 In questa sezione sono elencati i cinque casi d’uso principali che è possibile eseguire per gestire la configurazione di capping in [!DNL Journey Orchestration].
 
-Per facilitare il test e la configurazione, è disponibile [qui](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)una raccolta Postman.
+Per facilitare il test e la configurazione, è disponibile [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)una raccolta Postman.
 
 Questa raccolta Postman è stata impostata per condividere la raccolta Postman Variabile generata tramite Integrazioni __[della console](https://console.adobe.io/integrations)Adobe I/O > Prova > Scarica per Postman__, che genera un file Postman Environment con i valori di integrazioni selezionati.
 
@@ -174,7 +176,7 @@ Una volta scaricati e caricati in Postman, è necessario aggiungere due variabil
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL gateway
 * `{BASE_PATH}` : punto di ingresso per l&#39;API. Il valore è &#39;/authoring&#39;
 
-
+Nella sezione seguente, troverete l&#39;elenco delle chiamate API rimanenti ordinate per eseguire il caso d&#39;uso.
 
 Caso d’uso n° 1: **Creazione e implementazione di una nuova configurazione di capping**
 
