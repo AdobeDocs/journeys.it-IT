@@ -1,6 +1,6 @@
 ---
 title: Metriche e dimensioni
-description: Informazioni su dimensioni e metriche disponibili per l'orchestrazione del viaggio
+description: Informazioni su dimensioni e metriche disponibili per Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+workflow-type: tm+mt
+source-wordcount: '1034'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 >[!NOTE]
 >
->I dati di consegna verranno compilati solo se disponi di Adobe Campaign Standard.
+>I dati di consegna verranno compilati solo se si dispone  Adobe Campaign Standard.
 
 Qui puoi trovare l&#39;elenco di tutti i componenti disponibili nei report dinamici e le relative definizioni.
 
@@ -39,8 +42,8 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
 | **[!UICONTROL Event]** | Elenco di tutti gli eventi (nome **evento - etichetta** evento) utilizzati nei viaggi, ad esempio eventi Geometrixx - Check-Out Geometrixx. |
 | **Gruppo di campi** | Elenco di gruppi di campi (nome **gruppo di** campi) utilizzati per arricchire i dati nei viaggi, ad esempio gruppo di campi Profilo, sistema di prenotazione Geometrixx. |
 | **Viaggio** | Elenco di ogni viaggio (nome **del** viaggio) in modalità di prova e in diretta, ad esempio abbandono del carrello, notifica prenotazione alberghiera. |
-| **Versione percorso** | Elenco di tutte le versioni pubblicate di un viaggio (nome del **viaggio + numero** della versione), ad esempio abbandono del carrello v1, notifica prenotazione alberghiera v2. |
-| **Orchestrazione** | Elenco di ogni attività di orchestrazione (**Condizione, Fine, Attesa**) definita e utilizzata nei viaggi. |
+| **Versione del viaggio** | Elenco di tutte le versioni pubblicate di un viaggio (nome del **viaggio + numero** della versione), ad esempio abbandono del carrello v1, notifica prenotazione alberghiera v2. |
+| **Orchestrazione** | Elenco di tutte le attività di orchestrazione (**Condizione, Fine, Attesa**) definite e utilizzate nei viaggi. |
 
 ## Dimensioni di consegna {#delivery-dimensions}
 
@@ -53,8 +56,8 @@ La tabella seguente fornisce l’elenco delle dimensioni di consegna utilizzate 
 | **Dispositivo** | Dispositivo da cui è stata aperta/visualizzata/su cui è stato fatto clic la notifica e-mail/SMS/push. |
 | **Tipo di messaggio** | Canale utilizzato per la consegna, ad esempio e-mail, SMS, notifica push o In-App. |
 | **Nome app mobile** | Nome dell’applicazione mobile |
-| **Piattaforma** | Piattaforma del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio. |
-| **[!UICONTROL Push platform]** | Piattaforma del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android. |
+| **Platform** | Platform del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio. |
+| **[!UICONTROL Push platform]** | Platform del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android. |
 | **Dominio destinatario** | Dominio utilizzato per aprire l’e-mail. |
 | **URL tracciamento** | URL su cui l’utente ha fatto clic dal messaggio. |
 | **Categoria URL tracciamento** | Categoria assegnata all’URL di tracciamento. |
@@ -82,7 +85,7 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei report di 
 | **Arricchimento eseguito** | Numero totale di arricchimenti eseguiti chiamando un&#39;origine dati per ottenere gruppi di campi specifici. |
 | **Evento di esecuzione** | Numero totale di azioni eseguite per un viaggio. |
 | **Orchestrazione eseguita** | Numero totale di oggetti orchestrazione (fine, attesa, condizione) eseguiti per un viaggio. |
-| **Operazione non riuscita** | Numero totale di viaggi non eseguiti correttamente. |
+| **Operazione non riuscita** | Numero totale di viaggi che non sono stati eseguiti correttamente. |
 | **Tasso di errore** | Numero totale di viaggi che non sono stati eseguiti correttamente rispetto al numero di percorsi di esecuzione. |
 
 ## Metriche di consegna {#delivery-metrics}
@@ -91,8 +94,8 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti d
 
 | Metrica | Definizione |
 |--- |--- |
-| **Blacklist** | Numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. |
-| **Tariffa Blacklist** | Numero totale di messaggi contrassegnati come in lista nera rispetto ai messaggi inviati. |
+| **Elenco blocchi** | Numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. |
+| **Frequenza elenco blocchi** | Numero totale di messaggi nell&#39;elenco blocchi rispetto ai messaggi inviati. |
 | **Bounge + errori** | Totale degli errori cumulati durante l&#39;elaborazione del recapito e del ritorno automatico in relazione al numero totale di messaggi inviati. |
 | **Rimbalzo + tasso di errore** | Numero totale di messaggi rimbalzati rispetto ai messaggi inviati. |
 | **Clic** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
@@ -112,7 +115,7 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti d
 | **Tasso rifiutato** | Numero totale di messaggi contrassegnati come rifiutati rispetto ai messaggi inviati. |
 | **Elaborato/inviato** | Numero totale di invii per la consegna. |
 | **Soft bounce** | Numero totale di errori temporanei, ad esempio una casella in entrata completa. |
-| **Frequenza rimbalzo morbida** | Numero totale di consegne non riuscite a causa di motivi temporanei rispetto ai messaggi inviati. |
+| **Frequenza rimbalzo morbida** | Numero totale di consegne non riuscite a causa di un motivo temporaneo rispetto ai messaggi inviati. |
 | **Clic univoci** | Numero di destinatari che hanno fatto clic su un contenuto in una consegna. |
 | **Aperture univoche** | Numero di destinatari che hanno aperto la consegna. |
 | **Annulla sottoscrizione** | Numero di clic sul collegamento di annullamento della sottoscrizione. |
