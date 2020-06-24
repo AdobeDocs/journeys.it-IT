@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
+source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Per ulteriori informazioni sulla configurazione delle azioni o delle origini dat
 >
 >L&#39;API [!DNL Journey Orchestration] Capping è descritta all&#39;interno di un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Per utilizzare questa API con la tua [!DNL Journey Orchestration] istanza, devi usare la console AdobeIO. Per iniziare, segui questa [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e utilizza le sezioni presenti in questa pagina.
+Per utilizzare questa API con la tua [!DNL Journey Orchestration] istanza, devi usare la console AdobeI/O. Per iniziare, segui questa [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e utilizza le sezioni presenti in questa pagina.
 
 Per verificare e preparare l&#39;integrazione, è disponibile [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)una raccolta Postman.
 
@@ -42,14 +42,14 @@ Per verificare e preparare l&#39;integrazione, è disponibile [qui](https://raw.
 
 ### Impostazione dell’accesso API
 
-[!DNL Journey Orchestration] L&#39;accesso alle API è configurato tramite i passaggi descritti di seguito. Ciascuno di questi passaggi è descritto dettagliatamente nella documentazione [di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe IO.
+[!DNL Journey Orchestration] L&#39;accesso alle API è configurato tramite i passaggi descritti di seguito. Ciascuno di questi passaggi è descritto nella documentazione [I/O di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe.
 
 >[!CAUTION]
 >
->Per gestire i certificati in Adobe IO, accertatevi di disporre dei diritti di amministratore <b>di</b> sistema sull&#39;organizzazione o su un account [](https://helpx.adobe.com/enterprise/using/manage-developers.html) sviluppatore nell&#39;Admin Console.
+>Per gestire i certificati in Adobe I/O, accertatevi di disporre dei diritti di amministratore <b>di</b> sistema sull&#39;organizzazione o su un account [](https://helpx.adobe.com/enterprise/using/manage-developers.html) sviluppatore nell&#39;Admin Console.
 
 1. **Verificate di disporre di un certificato** digitale oppure createne uno, se necessario. Le chiavi pubblica e privata fornite con il certificato sono necessarie nei seguenti passaggi.
-1. **Crea una nuova integrazione con[!DNL Journey Orchestration]Service** in Adobe IO e configurala. L&#39;accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (Chiave API, Segreto cliente...).
+1. **Crea una nuova integrazione con[!DNL Journey Orchestration]Service** in Adobe I/O e configurala. L&#39;accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e  Adobe Experience Platform. Le credenziali verranno quindi generate (Chiave API, Segreto cliente...).
 1. **Create un token Web JSON (JWT)** dalle credenziali generate in precedenza e firmatelo con la vostra chiave privata. Il JWT codifica tutte le informazioni di identità e sicurezza necessarie ad Adobe per verificare la tua identità e concederti l&#39;accesso all&#39;API. Questo passaggio è dettagliato in questa [sezione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Scambiate il JWT per ottenere un token** di accesso tramite una richiesta POST o tramite l&#39;interfaccia della console per sviluppatori. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
 
@@ -65,7 +65,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZZAZIONE>**: Questo è l’ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ogni istanza:
 
    * &lt;ORGANIZZAZIONE> : l&#39;istanza di produzione
-   Per ottenere il valore ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O al momento della creazione di una nuova integrazione, nell&#39;elenco delle licenze (consultare la documentazione <a href="https://www.adobe.io/authentication.html">di</a>Adobe IO).
+   Per ottenere il valore ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo nell&#39;I/O di Adobe quando si crea una nuova integrazione, nell&#39;elenco delle licenze (consultare la documentazione <a href="https://www.adobe.io/authentication.html">di I/O di</a>Adobe).
 
 * **&lt;ACCESS_TOKEN>**: Il token di accesso personale, che è stato recuperato durante lo scambio del JWT tramite una richiesta POST.
 
@@ -79,14 +79,14 @@ L’API Capping consente di creare, configurare e monitorare le configurazioni d
 
 | Metodo | Percorso | Descrizione |
 |---|---|---|
-| POST | list/endpointConfigs | Ottenere un elenco delle configurazioni di capping dell&#39;endpoint |
-| POST | /endpointConfigs | Creare una configurazione di cappottatura dell&#39;endpoint |
-| POST | /endpointConfigs/{uid}/deploying | Implementare una configurazione di cappottatura dell&#39;endpoint |
-| POST | /endpointConfigs/{uid}/undeployment | Disdistribuire una configurazione di cappottatura dell&#39;endpoint |
-| POST | /endpointConfigs/{uid}/canDeploy | Verificate se è possibile distribuire o meno una configurazione di cappotto dell&#39;endpoint |
-| PUT | /endpointConfigs/{uid} | Aggiornare una configurazione di cappottatura dell&#39;endpoint |
-| GET | /endpointConfigs/{uid} | Recuperare una configurazione di capping endpoint |
-| ELIMINA | /endpointConfigs/{uid} | Eliminare una configurazione di codifica enpoint |
+| [!DNL POST] | list/endpointConfigs | Ottenere un elenco delle configurazioni di capping dell&#39;endpoint |
+| [!DNL POST] | /endpointConfigs | Creare una configurazione di cappottatura dell&#39;endpoint |
+| [!DNL POST] | /endpointConfigs/{uid}/deploying | Implementare una configurazione di cappottatura dell&#39;endpoint |
+| [!DNL POST] | /endpointConfigs/{uid}/undeployment | Disdistribuire una configurazione di cappottatura dell&#39;endpoint |
+| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | Verificate se è possibile distribuire o meno una configurazione di cappotto dell&#39;endpoint |
+| [!DNL PUT] | /endpointConfigs/{uid} | Aggiornare una configurazione di cappottatura dell&#39;endpoint |
+| [!DNL GET] | /endpointConfigs/{uid} | Recuperare una configurazione di capping endpoint |
+| [!DNL DELETE] | /endpointConfigs/{uid} | Eliminare una configurazione di codifica enpoint |
 
 Quando si crea o aggiorna una configurazione, viene automaticamente eseguito un controllo per garantire la sintassi e l&#39;integrità del payload.
 In caso di problemi, l&#39;operazione restituisce un avviso o degli errori per facilitare la correzione della configurazione.
@@ -172,9 +172,10 @@ Per facilitare il test e la configurazione, è disponibile [qui](https://raw.git
 
 Questa raccolta Postman è stata impostata per condividere la raccolta Postman Variabile generata tramite Integrazioni __[della console](https://console.adobe.io/integrations)Adobe I/O > Prova > Scarica per Postman__, che genera un file Postman Environment con i valori di integrazioni selezionati.
 
-Una volta scaricati e caricati in Postman, è necessario aggiungere due variabili: `{JO_HOST}` e `{Base_Path}`.
+Una volta scaricati e caricati in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL gateway
 * `{BASE_PATH}` : punto di ingresso per l&#39;API. Il valore è &#39;/authoring&#39;
+* `{SANDBOX_NAME}` : l’intestazione **x-sandbox-name** (ad esempio, &#39;prod&#39;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Per ulteriori informazioni, consultate la panoramica [delle](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) sandbox.
 
 Nella sezione seguente, troverete l&#39;elenco delle chiamate API rimanenti ordinate per eseguire il caso d&#39;uso.
 
