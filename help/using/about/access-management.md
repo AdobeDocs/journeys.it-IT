@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Per creare un profilo di prodotto e assegnare un set di diritti e sandbox:
 
 1. Al termine, fate clic **[!UICONTROL Done]**. È stato creato il nuovo profilo di prodotto.
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. Seleziona il nuovo profilo di prodotto per iniziare a gestire le autorizzazioni. Nella **[!UICONTROL Users]** scheda, aggiungi gli utenti al tuo profilo di prodotto. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -88,7 +88,7 @@ Per creare un profilo di prodotto e assegnare un set di diritti e sandbox:
 
    ![](../assets/user_management_7.png)
 
-1. Nella categoria di **[!UICONTROL Sandbox]** autorizzazioni, scegliete le sandbox da assegnare al profilo di prodotto. In **[!UICONTROL Available Permissions Items]** questa sezione, fate clic sull&#39;icona più (+) per assegnare le sandbox al profilo. Per ulteriori informazioni sulle sandbox, consultate questa [sezione](../about/access-management.md#sandboxes).
+1. Nella categoria di **[!UICONTROL Sandboxes]** autorizzazioni, scegliete le sandbox da assegnare al profilo di prodotto. In **[!UICONTROL Available Permissions Items]** questa sezione, fate clic sull&#39;icona più (+) per assegnare le sandbox al profilo. Per ulteriori informazioni sulle sandbox, consultate questa [sezione](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
