@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida di Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 85%
+source-wordcount: '373'
+ht-degree: 80%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 85%
          + [Utilizzo di azioni personalizzate](using/building-journeys/using-custom-actions.md)
    + [Verifica del percorso](using/building-journeys/testing-the-journey.md)
    + [Pubblicazione del percorso](using/building-journeys/publishing-the-journey.md)
-   + Condivisione di passaggi di viaggio con la piattaforma {#sharing-journey-steps}
+   + Condivisione di passaggi di viaggio con Platform {#sharing-journey-steps}
       + [Panoramica sulla condivisione delle fasi del viaggio](using/building-journeys/sharing-overview.md)
       + [Evento pathSteps campi comuni](using/building-journeys/sharing-common-fields.md)
       + [eventi pathStep campi di esecuzione azione](using/building-journeys/sharing-execution-fields.md)
@@ -162,6 +162,10 @@ ht-degree: 85%
    + [Informazioni sui rapporti sui percorsi](using/reporting/about-journey-reports.md)
    + [Creazione dei rapporti sui percorsi](using/reporting/creating-your-journey-reports.md)
    + [Metriche e dimensioni](using/reporting/metrics-and-dimensions.md)
++ Integrazione con i servizi intelligenti{#use-case-advanced}
+   + [Informazioni sull&#39;integrazione AI](using/ai-services/ai-services-overview.md)
+   + [Utilizzo dell&#39;AI del viaggio](using/ai-services/leveraging-fatigue-scores.md)
+   + [Utilizzo dell&#39;intelligenza artificiale del cliente](using/ai-services/leveraging-customer-ai.md)
 + Casi d’uso{#use-cases-journeys}
    + Caso d’uso semplice{#use-case-simple}
       + [Informazioni sul caso d’uso semplice](using/usecase/about-the-simple-use-case.md)
@@ -173,7 +177,11 @@ ht-degree: 85%
       + [Configurazione degli eventi](using/usecase/configuring-the-events.md)
       + [Configurazione delle origini dati](using/usecase/configuring-the-data-sources.md)
       + [Creazione di un percorso](using/usecase/building-the-journey.md)
-   + [Sfruttare i punteggi di fatica](using/usecase/leveraging-fatigue-scores.md)
 + Utilizzo delle API{#working-with-apis}
    + [Capping delle API](using/api/capping.md)
++ Funzioni alfa {#alpha}
+   + [Panoramica delle funzioni alfa](using/alpha/alpha-overview.md)
+   + [Interfaccia utente](using/alpha/alpha-interface.md)
+   + [Attività trigger segmento](using/alpha/alpha-segment-trigger.md)
+   + [Eventi basati su regole](using/alpha/alpha-events.md)
 
