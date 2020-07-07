@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
+source-git-commit: 3937f92035651fca5ddd7f54c9b650d050f2587f
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -39,13 +39,13 @@ Per questo tipo di evento, è possibile aggiungere solo un&#39;etichetta e una d
 
 ## Eventi di reazione {#section_dhx_gss_dgb}
 
-Tra le diverse attività dell&#39;evento disponibili nella palette, è disponibile l&#39;evento **Reazioni** incorporato. Questa attività consente di reagire ai dati di tracciamento relativi a un messaggio inviato con e-mail, SMS o attività push nello stesso percorso. Queste informazioni derivano dai messaggi transazionali in Adobe Campaign Standard. Queste informazioni vengono acquisite in tempo reale nel momento in cui vengono condivise con la Data Platform. Per le notifiche push, puoi reagire ai messaggi su cui hai fatto clic, che sono stati inviati o che hanno avuto esito negativo. Per gli SMS, è possibile reagire ai messaggi inviati o non riusciti. Per le e-mail, potete reagire ai messaggi su cui è stato fatto clic, che sono stati inviati, che sono stati aperti o che hanno avuto esito negativo.
+Tra le diverse attività dell&#39;evento disponibili nella palette, è disponibile l&#39;evento **Reazioni** incorporato. Questa attività consente di reagire ai dati di tracciamento relativi a un messaggio inviato con e-mail, SMS o attività push nello stesso percorso. Queste informazioni provengono dai messaggi transazionali nel  Adobe Campaign Standard. Queste informazioni vengono acquisite in tempo reale nel momento in cui vengono condivise con l&#39;Platform dati. Per le notifiche push, puoi reagire ai messaggi su cui hai fatto clic, che sono stati inviati o che hanno avuto esito negativo. Per gli SMS, è possibile reagire ai messaggi inviati o non riusciti. Per le e-mail, potete reagire ai messaggi su cui è stato fatto clic, che sono stati inviati, che sono stati aperti o che hanno avuto esito negativo.
 
 È inoltre possibile utilizzare questo meccanismo per eseguire un&#39;azione in assenza di reazioni ai messaggi. A tal fine, create un secondo percorso parallelo all&#39;attività di reazione e aggiungete un&#39;attività di attesa. Se durante il periodo definito nell&#39;attività di attesa non è presente alcuna reazione, verrà scelto il secondo percorso. Potete scegliere di inviare, ad esempio, un messaggio di follow-up.
 
 È possibile utilizzare un&#39;attività di reazione nel quadro solo se è già presente un&#39;attività e-mail, push o SMS.
 
-A questo proposito, consulta la sezione [](../building-journeys/about-action-activities.md).
+See [About action activities](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
@@ -58,23 +58,25 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 
 >[!NOTE]
 >
+>Gli eventi di reazione funzionano con  Adobe Campaign Standard, sia che sia distribuito sui server AWS o Azure.
+>
 >Gli eventi di reazione non possono tenere traccia delle azioni e-mail, SMS o push che avvengono in un percorso diverso.
 >
 >Gli eventi di reazione tengono traccia dei clic sui collegamenti di tipo &quot;tracciati&quot; (vedere questa [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Non vengono presi in considerazione i collegamenti di annullamento sottoscrizione e di pagina mirror.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >I client e-mail come Gmail consentono il blocco delle immagini. Le aperture e-mail vengono tracciate utilizzando un’immagine di 0 pixel inclusa nel messaggio e-mail. Se le immagini sono bloccate, le aperture e-mail non verranno prese in considerazione.
 
 ## Eventi di qualifica del segmento {#segment-qualification}
 
-Questa attività consente al tuo viaggio di ascoltare le entrate e le uscite dei profili nei segmenti della piattaforma per far sì che gli individui entrino o avanzino in un viaggio. Per ulteriori informazioni sulla creazione dei segmenti, consulta questa [sezione](../segment/about-segments.md).
+Questa attività consente al tuo viaggio di ascoltare le entrate e le uscite dei profili nei segmenti Platform per far entrare o far avanzare gli individui in un viaggio. Per ulteriori informazioni sulla creazione dei segmenti, consulta questa [sezione](../segment/about-segments.md).
 
 Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi far entrare tutti i nuovi clienti in argento in un viaggio e inviare loro una serie di messaggi personalizzati.
 
 Questo tipo di evento può essere posizionato come primo passo o successivo del viaggio.
 
-Se il segmento viene trasmesso in streaming con l&#39;opzione Pubblico ad alta frequenza della piattaforma, l&#39;ingresso e le uscite vengono ascoltati in tempo reale. Se il segmento non è in streaming, le entrate e le uscite vengono prese in considerazione al momento del calcolo del segmento.
+Se il segmento viene trasmesso in streaming con l&#39;opzione Pubblico ad alta frequenza di Platform, l&#39;ingresso e l&#39;uscita vengono ascoltati in tempo reale. Se il segmento non è in streaming, le entrate e le uscite vengono prese in considerazione al momento del calcolo del segmento.
 
 1. Spiega la categoria **Eventi** e rilascia un’attività di qualificazione **** Segmento nel quadro.
 
@@ -97,6 +99,12 @@ Il payload contiene le seguenti informazioni contestuali, che potete utilizzare 
 * il comportamento (entrata, uscita)
 * la marca temporale della qualifica
 * l’ID del segmento
+
+Quando si utilizza l&#39;editor di espressioni in una condizione o in un&#39;azione che segue un&#39;attività di qualificazione **del** segmento, è possibile accedere al nodo **SegmentQualified** . È possibile scegliere tra l&#39;ora **dell&#39;** ultima qualifica e lo **stato** (immettere o uscire).
+
+Consultate Attività [](../building-journeys/condition-activity.md#about_condition)Condizione.
+
+![](../assets/segment8.png)
 
 ## Utilizzo avanzato: eventi con attesa parallela{#section_vxv_h25_pgb}
 
