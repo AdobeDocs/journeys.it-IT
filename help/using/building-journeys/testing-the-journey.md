@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1151'
 ht-degree: 1%
 
 ---
@@ -50,18 +50,76 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 ## Note importanti {#important_notes}
 
 * Viene fornita un&#39;interfaccia per attivare gli eventi per il percorso testato, ma gli eventi possono essere inviati anche da sistemi di terze parti come Postman.
-* Solo gli individui contrassegnati come &quot;profili di prova&quot; nel servizio di profilo cliente in tempo reale potranno entrare nel percorso testato. Il processo per creare un profilo di test è lo stesso del processo per creare un profilo nella piattaforma dati. È sufficiente assicurarsi che il flag del profilo di test sia vero. Puoi utilizzare la sezione Segmenti nell’interfaccia Piattaforma dati per creare un segmento di profili di test nella tua Piattaforma dati e visualizzare un elenco non esaustivo. Al momento non è possibile visualizzare l&#39;elenco completo.
-* La modalità test è disponibile solo nelle bozze di viaggio che utilizzano uno spazio dei nomi. In effetti, la modalità di prova deve verificare se una persona che accede al viaggio è un profilo di prova o meno e deve quindi essere in grado di raggiungere la Piattaforma dati.
+* Solo gli individui contrassegnati come &quot;profili di prova&quot; nel servizio di profilo cliente in tempo reale potranno entrare nel percorso testato. A questo proposito, consulta la sezione [](../building-journeys/testing-the-journey.md#create-test-profile).
+* La modalità test è disponibile solo nelle bozze di viaggio che utilizzano uno spazio dei nomi. In effetti, la modalità di prova deve verificare se una persona che accede al viaggio è un profilo di prova o meno e deve quindi essere in grado di raggiungere l&#39;Platform dati.
 * Il numero massimo di profili di test che possono entrare in un percorso durante una sessione di test è 100.
 * Quando disattivate la modalità di prova, i viaggi vengono svuotati da tutte le persone che sono entrate nel passato o che vi si trovano attualmente.
 * Potete attivare/disattivare la modalità di prova il numero di volte necessario.
 * Non è possibile modificare il percorso quando viene attivata la modalità di prova. In modalità di prova, potete pubblicare direttamente il percorso, senza dover disattivare la modalità di prova prima.
 
+## Creazione di un profilo di test{#create-test-profile}
+
+La procedura per creare un profilo di test è la stessa utilizzata per creare un profilo nell’Experience Platform . Viene eseguito tramite chiamate API. Vedere questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)
+
+È necessario utilizzare uno schema di profilo che contenga il mixin &quot;profili test details&quot;. In effetti, il flag testProfile fa parte di questo mixin.
+
+Quando create un profilo, accertatevi di trasmettere il valore: testprofile = true.
+
+È inoltre possibile aggiornare un profilo esistente per modificare il flag testProfile in &quot;true&quot;.
+
+Di seguito è riportato un esempio di chiamata API per creare un profilo di test:
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## Configurazione degli eventi {#firing_events}
 
 Il **[!UICONTROL Trigger an event]** pulsante consente di configurare un evento che farà entrare una persona nel percorso.
 
-Come prerequisito, devi sapere quali profili vengono contrassegnati come profili di test nella piattaforma dati. In effetti, la modalità di prova consente solo questi profili nel percorso e l&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
+>[!NOTE]
+>
+>Quando si attiva un evento in modalità di prova, viene generato un evento reale, il che significa che toccherà anche gli altri percorsi in ascolto di questo evento.
+
+Come prerequisito, devi sapere quali profili vengono contrassegnati come profili di prova nell&#39;Platform dati. In effetti, la modalità di prova consente solo questi profili nel percorso e l&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
 
 Se il viaggio contiene diversi eventi, utilizzate l&#39;elenco a discesa per selezionare un evento. Quindi, per ogni evento, configurate i campi passati e l’esecuzione dell’invio dell’evento. L&#39;interfaccia consente di trasmettere le informazioni corrette nel payload dell&#39;evento e verificare che il tipo di informazioni sia corretto. La modalità di prova salva gli ultimi parametri utilizzati in una sessione di prova per un uso successivo.
 
