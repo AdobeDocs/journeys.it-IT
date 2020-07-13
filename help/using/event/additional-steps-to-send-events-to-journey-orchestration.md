@@ -1,6 +1,6 @@
 ---
-title: Passaggi aggiuntivi per l'invio di eventi all'orchestrazione del percorso
-description: Ulteriori informazioni sui passaggi per l'invio di eventi all'orchestrazione del percorso
+title: Passaggi aggiuntivi per l'invio di eventi ad Journey Orchestration
+description: Ulteriori informazioni sui passaggi per l'invio di eventi ad Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 Per configurare gli eventi a cui inviare **[!UICONTROL Streaming Ingestion APIs]** e in cui utilizzarli, [!DNL Journey Orchestration]è necessario effettuare le seguenti operazioni:
 
-1. Ottenete l&#39;URL di ingresso dalle API Data Platform (consultate [Streaming Ingestion API](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/streaming/overview.html)).
+1. Ottenete l&#39;URL di ingresso dalle API di Platform dati (consultate [Streaming Ingestion API](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/streaming/overview.html)).
 1. Copiate il payload dall’anteprima del payload nel **[!UICONTROL Event]** menu. A questo proposito, consulta la sezione [](../event/defining-the-payload-fields.md).
 
 Quindi devi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
@@ -37,7 +37,7 @@ Quindi devi configurare il sistema di dati che invia gli eventi alle API Streami
 1. Utilizzate il payload copiato [!DNL Journey Orchestration] nel corpo (&quot;sezione dati&quot;) della chiamata API alle API di ingestione dello streaming. Vedere di seguito un esempio
 1. Determinare dove ottenere tutte le variabili presenti nel payload. Esempio: se l’evento deve trasmettere l’indirizzo, il payload incollato mostrerà &quot;address&quot;: &quot;string&quot;. &quot;string&quot; deve essere sostituito dalla variabile che popolerà automaticamente il valore corretto, l&#39;e-mail della persona a cui inviare un messaggio. Nell’anteprima del payload, nella **[!UICONTROL Header]** sezione, vengono automaticamente compilati molti valori che dovrebbero facilitare il lavoro.
 1. Selezionate &quot;application/json&quot; come tipo di corpo.
-1. Trasferite il vostro ID ORG IMS nell&#39;intestazione utilizzando la chiave &quot;x-gw-ims-org-id&quot;. Per il valore, usate il vostro ID ORG IMS (&quot;XXX@AdobeOrg&quot;).
+1. Passa l’ID organizzazione IMS nell’intestazione utilizzando la chiave &quot;x-gw-ims-org-id&quot;. Per questo valore, utilizzate il vostro ID organizzazione IMS (&quot;XXX@AdobeOrg&quot;).
 
 Di seguito è riportato un esempio di evento Streaming Ingestion APIs:
 
