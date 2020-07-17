@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 76%
+source-wordcount: '714'
+ht-degree: 73%
 
 ---
 
@@ -36,11 +36,11 @@ Se modifichi un evento utilizzato in una bozza di percorso o in un percorso live
 
 ## Principio generale {#section_r1f_xqt_pgb}
 
-Gli eventi sono chiamate API POST. Gli eventi vengono inviati ad Adobe Experience Cloud Data Platform tramite le API Streaming Ingestion. La destinazione URL degli eventi inviati tramite le API di messaggistica transazionale è denominata “entrata”. Il payload degli eventi segue la formattazione XDM.
+Gli eventi sono chiamate API POST. Gli eventi vengono inviati ad Adobe Experience Platform tramite le API Streaming Ingestion. La destinazione URL degli eventi inviati tramite le API di messaggistica transazionale è denominata “entrata”. Il payload degli eventi segue la formattazione XDM.
 
 The payload contains information required by Streaming Ingestion APIs to work (in the header) and the information required by [!DNL Journey Orchestration] to work (the event ID, part of the payload body) and information to be used in journeys (in the body, for example, the amount of an abandoned cart). Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, fai riferimento a [questo collegamento](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/api/getting-started.html).
 
-Una volta arrivati attraverso le API Streaming Ingestion, gli eventi si propagano in un servizio interno denominato Pipeline e infine passano a Data Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale, oltre a un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
+Dopo l&#39;arrivo tramite le API Streaming Ingestion, gli eventi scorrono in un servizio interno denominato Pipeline e quindi nell&#39;Adobe Experience Platform . Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale, oltre a un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
 
 The Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. These events are listened by [!DNL Journey Orchestration] and the corresponding journey is triggered.
 
