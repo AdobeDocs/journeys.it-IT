@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 88%
+source-wordcount: '1010'
+ht-degree: 79%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 
 ## Accesso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Quindi seleziona **[!UICONTROL Journey Orchestration]**, a destra, sotto &quot;Experience Platform&quot;.
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ Negli elenchi **[!UICONTROL Home]**,**[!UICONTROL Data Sources]** **[!UICONTROL 
 
 Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli creati oppure quelli modificati negli ultimi 30 giorni.
 
-Negli elenchi **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, utilizza **Creation filters (Filtri di creazione)** per filtrare in base alla data e all’utente di creazione. Ad esempio, puoi scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
+Negli elenchi **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, utilizza **[!UICONTROL Creation filters]** (Filtri di creazione)  per filtrare in base alla data e all’utente di creazione. Ad esempio, puoi scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
 
 Nell’elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre a **[!UICONTROL Creation filters]**, puoi anche filtrare i percorsi visualizzati in base allo stato e alla versione (**[!UICONTROL Status and version filters]**). È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md).
 
@@ -77,7 +77,7 @@ All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun eleme
 
 ![](../assets/journey4.png)
 
-## Esplorazione dei campi di Data Platform {#friendly-names-display}
+## Esplorazione  campi Adobe Experience Platform {#friendly-names-display}
 
 Quando si definisce il [payload dell’evento](../event/defining-the-payload-fields.md) e il [payload del gruppo di campi](../datasource/field-groups.md) e si selezionano i campi nell’[editor delle espressioni](../expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
@@ -104,18 +104,18 @@ _Durante la configurazione di un’attività in un percorso:_
 L’area di lavoro viene salvata automaticamente. Nella parte superiore sinistra dell’area di lavoro è riportato lo stato di salvataggio.
 
 * Premi **Esc** per chiudere il riquadro di configurazione ed eliminare le modifiche apportate. Equivale al pulsante **[!UICONTROL Cancel]**.
-* Per chiudere il riquadro di configurazione, premi **[!UICONTROL Enter]** o fai clic all’esterno del riquadro. Le modifiche vengono salvate. Equivale al pulsante **[!UICONTROL Ok]**.
-* Se si preme **[!UICONTROL Delete]** o **backspace**, è possibile premere **[!UICONTROL Enter]** per confermare l’eliminazione.
+* Press **Enter** or click outside the pane to close the configuration pane. Le modifiche vengono salvate. Equivale al pulsante **[!UICONTROL Ok]**.
+* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
 
 _Nei pop-up:_
 
-* Premi **escape** per chiuderlo, che equivale al pulsante **Annulla**.
-* Premi **[!UICONTROL Enter]** per salvare o confermare (equivalente al pulsante **[!UICONTROL Ok]** o **[!UICONTROL Save]**).
+* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
+* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
 
 _Nel riquadro di configurazione dell’evento, dell’origine dati o dell’azione:_
 
 * Premi **escape** per chiudere il riquadro di configurazione senza salvataggio.
-* Premi **[!UICONTROL Enter]** per salvare le modifiche e chiudere il riquadro di configurazione.
+* Press **Enter** to save modifications and close the configuration pane.
 * Premi la **scheda** per spostarti tra i diversi campi da configurare.
 
 _Nell’editor di espressioni semplici_
@@ -137,5 +137,5 @@ _In una schermata con una barra di ricerca:_
 _Nell’area di lavoro di un percorso:_
 
 * Utilizza la combinazione di tasti **Ctrl/Comando + A** per selezionare tutte le attività.
-* Quando selezioni una o più attività, premi **[!UICONTROL Delete]** o **backspace** per eliminarle. A quel punto puoi premere **[!UICONTROL Enter]** per confermare la tua scelta nella finestra a comparsa relativa.
+* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
 * Fai doppio clic su un’attività dalla palette a sinistra per aggiungerla alla prima posizione disponibile (dall’alto verso il basso).
