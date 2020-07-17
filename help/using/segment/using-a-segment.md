@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2dbcdae1284ef5932a8313d7ef169bc7073741f
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 0%
 
 # Utilizzo di segmenti nelle condizioni {#using-a-segment}
 
-In questa sezione viene illustrato come utilizzare un segmento in una condizione di viaggio. Per informazioni su come utilizzare un evento di qualifica **** Segmento nel percorso, consulta Attività [](../building-journeys/event-activities.md#segment-qualification)Eventi.
+In questa sezione viene illustrato come utilizzare un segmento in una condizione di viaggio. Per informazioni sull’utilizzo di un **[!UICONTROL Segment qualification]** evento nel percorso, consulta Attività [](../building-journeys/segment-qualification-events.md)Eventi.
 
 Per utilizzare un segmento in una condizione di viaggio, attenetevi alla seguente procedura:
 
-1. Apri un percorso, elimina un&#39;attività **Condizione** e scegli la Condizione **origine**dati.
+1. Apri un percorso, elimina un&#39; **[!UICONTROL Condition]** attività e scegli la condizione **origine**dati.
    ![](../assets/journey47.png)
 
-1. Fate clic su **Aggiungi un percorso** per ciascun percorso aggiuntivo necessario. Per ciascun percorso, fare clic sul campo **Espressione** .
+1. Fare clic **[!UICONTROL Add a path]** per ogni percorso aggiuntivo necessario. Per ciascun percorso, fare clic sul **[!UICONTROL Expression]** campo.
 
    ![](../assets/segment3.png)
 
-1. Sul lato sinistro, apri il nodo **Segmenti** . Trascina e rilascia il segmento da utilizzare per la condizione. Per impostazione predefinita, la condizione relativa al segmento è true.
+1. Sul lato sinistro, aprire **[!UICONTROL Segments]** il nodo. Trascina e rilascia il segmento da utilizzare per la condizione. Per impostazione predefinita, la condizione relativa al segmento è true.
 
    ![](../assets/segment4.png)
 
