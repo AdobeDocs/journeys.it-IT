@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6685565797a6cdc43b9c8fc39c9354ae6d213f1f
+source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Di seguito sono riportati i passaggi per configurarlo:
    >* L&#39;ORG associato a questa istanza  Adobe Campaign Standard  è lo stesso dell&#39;ORG Journey Orchestration.
 
 
-Durante la progettazione del percorso, nella **[!UICONTROL Action]** categoria saranno disponibili tre azioni: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consultate [Uso  azioni](../building-journeys/using-adobe-campaign-actions.md)Adobe Campaign). **L&#39;evento** Reazioni consente inoltre di reagire ai clic dei messaggi, alle aperture e così via. (vedere Eventi [di](../building-journeys/event-activities.md#section_dhx_gss_dgb)reazione).
+Durante la progettazione del percorso, nella **[!UICONTROL Action]** categoria saranno disponibili tre azioni: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consultate [Uso  azioni](../building-journeys/using-adobe-campaign-actions.md)Adobe Campaign). **L&#39;evento** Reazioni consente inoltre di reagire ai clic dei messaggi, alle aperture e così via. (vedere Eventi [di](../building-journeys/reaction-events.md)reazione).
 
 ![](../assets/journey58.png)
 
