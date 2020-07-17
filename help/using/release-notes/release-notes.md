@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 71%
+source-wordcount: '1107'
+ht-degree: 66%
 
 ---
 
@@ -35,22 +35,22 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati i seguenti miglioramenti all'integrazione Platform:</p>
+<p>Sono stati apportati i seguenti miglioramenti all'integrazione  Adobe Experience Platform:</p>
 <ul>
-<li><p>Una nuova attività consente di ascoltare le entrate/uscite dei segmenti Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/event-activities.md#segment-qualification">Leggi tutto</a></p>
+<li><p>Una nuova attività consente di ascoltare  ingressi/uscite di segmenti di Adobe Experience Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/segment-qualification-events.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>È ora possibile creare e modificare i segmenti Platform senza uscire dall'interfaccia di Journey Orchestration, grazie a una nuova scheda <strong>Segmenti</strong> .<a href="../segment/about-segments.md">Leggi tutto</a></p>
+<li><p> segmenti di Adobe Experience Platform possono ora essere creati e modificati senza uscire dall'interfaccia Journey Orchestration, grazie a una nuova scheda <strong>Segmenti</strong> .<a href="../segment/about-segments.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Nell'editor delle espressioni semplici, i segmenti Platform ora sono elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
+<li><p>Nell'editor di espressioni semplici,  segmenti di Adobe Experience Platform sono ora elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration passa ora automaticamente all'Platform dati Adobe i passaggi eseguiti nei viaggi. Ciò include potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e risoluzione dei problemi eseguendo query sugli eventi del Passaggio del viaggio per un viaggio particolare o per tutti i viaggi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
+<li><p>Journey Orchestration passa ora automaticamente al Adobe Experience Platform  le fasi eseguite nei viaggi. Ciò include potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e risoluzione dei problemi eseguendo query sugli eventi del Passaggio del viaggio per un viaggio particolare o per tutti i viaggi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration può ora essere collegato a sandbox Platform di produzione e non di produzione. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
+<li><p>Journey Orchestration può ora essere collegato a sandbox di produzione e non di produzione  Adobe Experience Platform. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
 </li>
 </td>
 </tr>
@@ -130,7 +130,7 @@ L&#39;interfaccia Journey Orchestration è disponibile in giapponese.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>L’elenco a discesa <strong>Timezone (Fuso orario)</strong> consente di selezionare un fuso orario specifico. Per impostazione predefinita, viene utilizzato il fuso orario del browser. </li>
-<li>La casella di controllo <strong>Profile Timezone (Fuso orario profilo)</strong> consente di usare il fuso orario del profilo di Experience Platform della persona che accede al percorso, se disponibile. In caso contrario, viene utilizzato il fuso orario specificato nell’elenco a discesa. Questa funzione non è compatibile con i percorsi che utilizzano eventi privi di spazio dei nomi.</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. In caso contrario, viene utilizzato il fuso orario specificato nell’elenco a discesa. Questa funzione non è compatibile con i percorsi che utilizzano eventi privi di spazio dei nomi.</li>
 </ul>
 <p>Per ulteriori informazioni, consulta le sezioni <a href="../building-journeys/changing-properties.md#timezone">Modifica delle proprietà</a> e <a href="../building-journeys/timezone-management.md">Gestione del fuso orario</a>.</p>
 </td>
@@ -189,7 +189,7 @@ L&#39;interfaccia Journey Orchestration è disponibile in giapponese.
 
 * Ora è possibile **eliminare** i percorsi interrotti. I rapporti associati a questi percorsi eliminati non saranno disponibili.
 
-* Durante l’esplorazione dei campi di **Data Platform** (formato XDM), ora viene mostrato il nome visualizzato, in aggiunta al nome del campo. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model. Il nome visualizzato alternativo viene mostrato, se disponibile. Questa descrizione semplice e intuitiva, particolarmente utile per i campi eVar, ti consente di identificare più facilmente i campi. [Ulteriori informazioni](../about/user-interface.md#friendly-names-display)
+* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model. Il nome visualizzato alternativo viene mostrato, se disponibile. Questa descrizione semplice e intuitiva, particolarmente utile per i campi eVar, ti consente di identificare più facilmente i campi. [Ulteriori informazioni](../about/user-interface.md#friendly-names-display)
 
 ## Versione GA - dicembre 2019 {#ga-release---december-2019}
 
