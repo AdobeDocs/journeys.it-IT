@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '236'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ Seguite i passaggi descritti in [](../event/about-events.md).
 
 Per selezionare i campi del punteggio di affaticamento nell&#39;origine dati incorporata, effettuare le operazioni seguenti:
 
-1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare la build-in &#39;origine dati Experience Platform.
+1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare l&#39;origine dati  Adobe Experience Platform incorporata.
 
    ![](../assets/journey23.png)
 
