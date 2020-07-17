@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disp
 
 ![](../assets/journey38.png)
 
-L&#39;icona **Mostra elementi** disattivati nell&#39;angolo superiore sinistro consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio gli eventi che utilizzano uno spazio nomi diverso da quelli utilizzati nel viaggio. Per impostazione predefinita, gli elementi non disponibili sono nascosti. Se scegli di visualizzarli, verranno visualizzati in grigio.
+The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. Per impostazione predefinita, gli elementi non disponibili sono nascosti. Se scegli di visualizzarli, verranno visualizzati in grigio.
 
-Quando si utilizza il campo **Cerca** , per ogni categoria di attività canvas viene visualizzato il numero di risultati.
+Quando si utilizza il **[!UICONTROL Search]** campo, il numero di risultati viene visualizzato per ogni categoria di attività canvas.
 
 ![](../assets/palette-filter.png)
 
