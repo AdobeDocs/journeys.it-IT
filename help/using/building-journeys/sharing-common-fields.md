@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Questo mixin sarà condiviso da pathStepEvent e pathStepProfileEvent.
 
-Si tratta dei campi XDM comuni che [!DNL Journey Orchestration] vengono inviati ad Adobe Data Platform. Verranno inviati campi comuni per ogni fase elaborata durante un viaggio. Campi più specifici vengono utilizzati per azioni personalizzate e per arricchimenti.
+Si tratta dei campi XDM comuni che [!DNL Journey Orchestration] vengono inviati al Adobe Experience Platform . Verranno inviati campi comuni per ogni fase elaborata durante un viaggio. Campi più specifici vengono utilizzati per azioni personalizzate e per arricchimenti.
 
 Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione delle azioni, recupero dei dati, ecc.) per limitare la dimensione degli eventi.
 
