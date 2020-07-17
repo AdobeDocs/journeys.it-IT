@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
@@ -45,9 +45,9 @@ A tale scopo, in **[!UICONTROL Properties]**, selezionare un fuso orario.
 
 ## Utilizzo di profili per definire il fuso orario di viaggio {#timezone-from-profiles}
 
-Se l&#39;evento di ingresso del viaggio ha uno spazio dei nomi, il che significa che il viaggio può raggiungere il servizio di profilo cliente in tempo reale della piattaforma dati, il fuso orario è predefinito con quello specificato nel profilo del singolo che scorre nel viaggio.
+Se l&#39;evento di ingresso del viaggio ha uno spazio dei nomi, il che significa che il viaggio può raggiungere il servizio Profilo cliente in tempo reale del Adobe Experience Platform , il fuso orario è predefinito con quello specificato nel profilo del singolo che scorre nel viaggio.
 
-Se un fuso orario è definito nel profilo di Experience Platform, può essere recuperato durante il viaggio.
+Se un fuso orario è definito nel profilo del Adobe Experience Platform , può essere recuperato durante il viaggio.
 
 Se il profilo del singolo non contiene un fuso orario, il fuso orario recuperato sarà quello definito nel campo del fuso orario.
 
