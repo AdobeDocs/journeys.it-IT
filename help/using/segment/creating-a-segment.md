@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 5%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 5%
 
 # Creazione di un segmento {#creating-a-segment}
 
-Puoi creare un segmento utilizzando il servizio [Segmentazione](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) piattaforma oppure puoi accedervi e crearli direttamente in [!DNL Journey Orchestration].
+Puoi creare un segmento utilizzando il servizio [di segmentazione](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform oppure puoi accedervi e crearli direttamente in [!DNL Journey Orchestration].
 
-1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Segments]**. Viene visualizzato l’elenco dei segmenti della piattaforma. È possibile cercare un segmento specifico nell&#39;elenco.
+1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Segments]**. Viene visualizzato l&#39;elenco  segmenti di Adobe Experience Platform. È possibile cercare un segmento specifico nell&#39;elenco.
 
 ![](../assets/segment1.png)
 
@@ -32,4 +32,4 @@ Puoi creare un segmento utilizzando il servizio [Segmentazione](https://docs.ado
 
 ![](../assets/segment2.png)
 
-Ora il segmento può essere utilizzato nei viaggi per creare condizioni o aggiungere un evento di qualificazione **del** segmento. Consultate [Utilizzo dei segmenti nelle attività](../segment/using-a-segment.md) di condizioni ed [eventi](../building-journeys/event-activities.md#segment-qualification).
+Ora il segmento può essere utilizzato nei viaggi per creare condizioni o aggiungere un **[!UICONTROL Segment qualification]** evento. Consultate [Utilizzo dei segmenti nelle attività](../segment/using-a-segment.md) di condizioni ed [eventi](../building-journeys/segment-qualification-events.md).
