@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
@@ -49,12 +49,15 @@ La modalità semplice consente di eseguire semplici query basate su una combinaz
 
 ![](../assets/journey64.png)
 
-Se utilizzi il servizio [di segmentazione della](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) piattaforma per creare i tuoi segmenti, puoi sfruttarli nelle tue condizioni di viaggio. Fare riferimento a [Utilizzo dei segmenti nelle condizioni](../segment/using-a-segment.md).
+Se utilizzi il [Servizio](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) di segmentazione del Adobe Experience Platform per creare i tuoi segmenti, puoi sfruttarli nelle tue condizioni di viaggio. Fare riferimento a [Utilizzo dei segmenti nelle condizioni](../segment/using-a-segment.md).
 
 
 >[!NOTE]
 >
 >Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic passati sui messaggi) con l&#39;editor semplice. A questo scopo dovrete utilizzare l&#39;editor avanzato. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
+
+
+Quando si verifica un errore in un&#39;azione o in una condizione, il percorso di un individuo si arresta. L&#39;unico modo per far sì che continui è di selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]**. A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condizione Origine dati {#data_source_condition}
 
