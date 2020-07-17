@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## Informazioni sull&#39;attività Trigger segmento {#about-segment-trigger-actvitiy}
 
-L&#39;attività Trigger segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Experience Platform  entrino in un percorso. L&#39;ingresso in un viaggio può essere eseguito una volta o su base regolare.
+L&#39;attività Trigger segmento consente di fare in modo che tutti gli individui appartenenti a un segmento di Adobe Experience Platform  entrino in un percorso. L&#39;ingresso in un viaggio può essere eseguito una volta o su base regolare.
 
-Supponiamo che tu abbia un segmento di clienti Gold su  Experience Platform. Con l&#39;attività Trigger segmento, puoi fare in modo che tutti gli individui appartenenti al segmento di clienti Gold entrino in un percorso e li facciano scorrere in percorsi personalizzati che sfrutteranno tutte le funzionalità di viaggio: condizioni, orari, eventi, azioni.
+Supponiamo che tu abbia un segmento di clienti Gold  Adobe Experience Platform. Con l&#39;attività Trigger segmento, puoi fare in modo che tutti gli individui appartenenti al segmento di clienti Gold entrino in un percorso e li facciano scorrere in percorsi personalizzati che sfrutteranno tutte le funzionalità di viaggio: condizioni, orari, eventi, azioni.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Supponiamo che tu abbia un segmento di clienti Gold su  Experience Platform. Con
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. Nel **[!UICONTROL Segment]** campo, scegli il segmento Experience Platform  che verrà inserito nel percorso, quindi fai clic su **[!UICONTROL Save]**.
+1. Nel **[!UICONTROL Segment]** campo, scegliete il segmento di Adobe Experience Platform  che verrà inserito nel percorso, quindi fate clic su **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ Supponiamo che tu abbia un segmento di clienti Gold su  Experience Platform. Con
 
    >[!IMPORTANT]
    >
-   >Tenere presente che  segmenti Experience Platform vengono calcolati una volta al giorno (segmenti **batch** ) o in tempo reale (segmenti **in streaming** ).
+   >Tenere presente che  segmenti di Adobe Experience Platform vengono calcolati una volta al giorno (segmenti **batch** ) o in tempo reale (segmenti **in streaming** ).
    >
-   >Se il segmento selezionato viene trasmesso in streaming, gli utenti appartenenti a questo segmento possono potenzialmente entrare nel viaggio in tempo reale. Se il segmento è batch, le persone appena qualificate per questo segmento potranno potenzialmente entrare nel percorso quando il calcolo del segmento viene eseguito sull&#39;Experience Platform .
+   >Se il segmento selezionato viene trasmesso in streaming, gli utenti appartenenti a questo segmento possono potenzialmente entrare nel viaggio in tempo reale. Se il segmento è batch, le persone appena qualificate per questo segmento entreranno potenzialmente nel percorso quando il calcolo del segmento viene eseguito sul Adobe Experience Platform .
