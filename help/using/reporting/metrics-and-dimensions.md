@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
 | Dimensioni | Definizione |
 |--- |--- |
 | **Azione** | Elenco di tutte le azioni (nome **azione - etichetta** azione) utilizzate nei viaggi, ad esempio, Push - Conferma check out, E-mail - fedeltà premi. |
-| **Origine dati** | Elenco delle origini dati (nome **origine** dati) utilizzate per arricchire i dati in un viaggio, ad esempio piattaforma esperienza, sistema di prenotazione. |
+| **Origine dati** | Elenco delle origini dati (nome **origine** dati) utilizzate per arricchire i dati in un viaggio, ad esempio la piattaforma Adobe Experience o il sistema di prenotazione. |
 | **[!UICONTROL Event]** | Elenco di tutti gli eventi (nome **evento - etichetta** evento) utilizzati nei viaggi, ad esempio eventi Geometrixx - Check-Out Geometrixx. |
 | **Gruppo di campi** | Elenco di gruppi di campi (nome **gruppo di** campi) utilizzati per arricchire i dati nei viaggi, ad esempio gruppo di campi Profilo, sistema di prenotazione Geometrixx. |
 | **Viaggio** | Elenco di ogni viaggio (nome **del** viaggio) in modalità di prova e in diretta, ad esempio abbandono del carrello, notifica prenotazione alberghiera. |
@@ -94,8 +94,8 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti d
 
 | Metrica | Definizione |
 |--- |--- |
-| **Elenco blocchi** | Numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. |
-| **Frequenza elenco blocchi** | Numero totale di messaggi nell&#39;elenco blocchi rispetto ai messaggi inviati. |
+| **Su  elenco Bloccati** | Numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. |
+| **tasso Elenco Bloccati** | Numero totale di messaggi  inserii nell&#39;elenco Bloccati rispetto ai messaggi inviati. |
 | **Bounge + errori** | Totale degli errori cumulati durante l&#39;elaborazione del recapito e del ritorno automatico in relazione al numero totale di messaggi inviati. |
 | **Rimbalzo + tasso di errore** | Numero totale di messaggi rimbalzati rispetto ai messaggi inviati. |
 | **Clic** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
