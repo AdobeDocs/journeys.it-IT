@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 95%
+source-wordcount: '1271'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 # Origini dati esterne {#concept_t2s_kqt_52b}
 
-Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Al posto dell’origine dati integrata di Experience Platform, puoi creare un numero illimitato di origini dati esterne.
+Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. A differenza dell&#39;origine dati  Adobe Experience Platform incorporata, è possibile creare tutte le origini dati esterne necessarie.
 
 Sono supportate le API REST basate su POST o GET e che restituiscono JSON. Sono supportate le modalità chiave API, sia l’autenticazione di base che personalizzata.
 
@@ -67,6 +67,7 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
    * **[!UICONTROL Value]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
    * **[!UICONTROL Name]**: &quot;appid&quot; (nome del parametro della chiave API)
    * **[!UICONTROL Location]**: &quot;Query parameter&quot; (la chiave API si trova nell’URL)
+
    ![](../assets/journey28.png)
 
 1. Per aggiungere un nuovo gruppo di campi per ciascun set di parametri API, fai clic su **[!UICONTROL Add a New Field Group]**. Non utilizzare spazi o caratteri speciali nel nome del gruppo di campi. Nel nostro esempio, dobbiamo creare due gruppi di campi, uno per ciascun insieme di parametri (city e long/lat).
