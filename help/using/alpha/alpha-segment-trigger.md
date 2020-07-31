@@ -1,6 +1,6 @@
 ---
 title: Attività trigger segmento
-description: Informazioni xxxx
+description: Ulteriori informazioni su Trigger segmento
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ ht-degree: 0%
 
 ## Informazioni sull&#39;attività Trigger segmento {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>Se un’attività di Adobe Campaign Standard fuori dalla casella è presente nell’area di lavoro  al momento della pubblicazione o dell’attivazione della modalità di prova, il viaggio sarà limitato a 13 ingressi al secondo. <br>Se &#39;attività out-of-the-box del Adobe Campaign Standard non è presente nell&#39;area di lavoro al momento della pubblicazione o al momento dell&#39;attivazione della modalità di prova, il viaggio sarà limitato a 1000 eventi al secondo.
+
 L&#39;attività Trigger segmento consente di fare in modo che tutti gli individui appartenenti a un segmento di Adobe Experience Platform  entrino in un percorso. L&#39;ingresso in un viaggio può essere eseguito una volta o su base regolare.
 
 Supponiamo che tu abbia un segmento di clienti Gold  Adobe Experience Platform. Con l&#39;attività Trigger segmento, puoi fare in modo che tutti gli individui appartenenti al segmento di clienti Gold entrino in un percorso e li facciano scorrere in percorsi personalizzati che sfrutteranno tutte le funzionalità di viaggio: condizioni, orari, eventi, azioni.
 
+## Configurazione dell&#39;attività {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >A causa delle latenze di esportazione del segmento, non è possibile attivare un percorso basato su segmenti in un intervallo di tempo più breve di 1 ora.
-
-## Configurazione dell&#39;attività {#configuring-segment-trigger-activity}
 
 1. Spiegate la **[!UICONTROL Orchestration]** categoria e rilasciate un&#39; **[!UICONTROL Segment Trigger]** attività nel quadro.
 
