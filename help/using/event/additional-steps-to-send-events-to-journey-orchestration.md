@@ -1,6 +1,6 @@
 ---
-title: Passaggi aggiuntivi per l'invio di eventi ad Journey Orchestration
-description: Ulteriori informazioni sui passaggi per l'invio di eventi ad Journey Orchestration
+title: Passaggi aggiuntivi per l'invio di eventi al Journey Orchestration
+description: Ulteriori informazioni sui passaggi per l'invio di eventi al Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -33,7 +33,7 @@ Per configurare gli eventi a cui inviare **[!UICONTROL Streaming Ingestion APIs]
 
 Quindi devi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
 
-1. Configurate una chiamata POST API all’URL delle API di ingestione dello streaming (chiamata ingresso).
+1. Configurate una chiamata API POST all&#39;URL delle API di ingestione dello streaming (chiamata ingresso).
 1. Utilizzate il payload copiato [!DNL Journey Orchestration] nel corpo (&quot;sezione dati&quot;) della chiamata API alle API di ingestione dello streaming. Vedere di seguito un esempio
 1. Determinare dove ottenere tutte le variabili presenti nel payload. Esempio: se l’evento deve trasmettere l’indirizzo, il payload incollato mostrerà &quot;address&quot;: &quot;string&quot;. &quot;string&quot; deve essere sostituito dalla variabile che popolerà automaticamente il valore corretto, l&#39;e-mail della persona a cui inviare un messaggio. Nell’anteprima del payload, nella **[!UICONTROL Header]** sezione, vengono automaticamente compilati molti valori che dovrebbero facilitare il lavoro.
 1. Selezionate &quot;application/json&quot; come tipo di corpo.
