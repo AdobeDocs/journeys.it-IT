@@ -35,12 +35,12 @@ Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consu
 
 Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei rapporti sul percorso, le relative definizioni e formule.
 
-| Dimensioni | Definizione |
+| Dimension | Definizione |
 |--- |--- |
 | **Azione** | Elenco di tutte le azioni (nome **azione - etichetta** azione) utilizzate nei viaggi, ad esempio, Push - Conferma check out, E-mail - fedeltà premi. |
 | **Origine dati** | Elenco delle origini dati (nome **origine** dati) utilizzate per arricchire i dati in un viaggio, ad esempio la piattaforma Adobe Experience o il sistema di prenotazione. |
-| **[!UICONTROL Event]** | Elenco di tutti gli eventi (nome **evento - etichetta** evento) utilizzati nei viaggi, ad esempio eventi Geometrixx - Check-Out Geometrixx. |
-| **Gruppo di campi** | Elenco di gruppi di campi (nome **gruppo di** campi) utilizzati per arricchire i dati nei viaggi, ad esempio gruppo di campi Profilo, sistema di prenotazione Geometrixx. |
+| **[!UICONTROL Event]** | Elenco di tutti gli eventi (nome **evento - etichetta** evento) utilizzati nei viaggi, ad esempio, Geometrixx evento - Geometrixx. |
+| **Gruppo di campi** | Elenco di gruppi di campi (nome **gruppo di** campi) utilizzati per arricchire i dati nei viaggi, ad esempio gruppo di campi profilo, sistema di prenotazione Geometrixx. |
 | **Viaggio** | Elenco di ogni viaggio (nome **del** viaggio) in modalità di prova e in diretta, ad esempio abbandono del carrello, notifica prenotazione alberghiera. |
 | **Versione del viaggio** | Elenco di tutte le versioni pubblicate di un viaggio (nome del **viaggio + numero** della versione), ad esempio abbandono del carrello v1, notifica prenotazione alberghiera v2. |
 | **Orchestrazione** | Elenco di tutte le attività di orchestrazione (**Condizione, Fine, Attesa**) definite e utilizzate nei viaggi. |
@@ -49,7 +49,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
 
 La tabella seguente fornisce l’elenco delle dimensioni di consegna utilizzate nei rapporti di viaggio, le relative definizioni e formule.
 
-| Dimensione | Definizione |
+| Dimension | Definizione |
 |--- |--- |
 | **Browser** | Browser da cui è stato aperto il messaggio o su cui è stato fatto clic. |
 | **Nome consegna** | Etichetta e ID della consegna. |
