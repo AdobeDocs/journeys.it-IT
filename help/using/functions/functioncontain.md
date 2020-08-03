@@ -1,5 +1,5 @@
 ---
-title: contains
+title: contain
 description: Ulteriori informazioni sulla funzione contengono
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
 
-# contains {#contain}
+# contain {#contain}
 
 Controlla se la seconda stringa argomento è contenuta nella prima stringa argomento.
 
@@ -24,7 +27,7 @@ Controlla se la seconda stringa argomento è contenuta nella prima stringa argom
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `contain(<parameters>)`
 
