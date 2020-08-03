@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce true se il secondo parametro è un prefisso del primo senza consider
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `startWithIgnoreCase(<parameters>)`
 
