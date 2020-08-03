@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce la somma dei valori di un insieme di espressioni. I valori Null veng
 
 Aggregazione
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `sum(<parameters>)`
 
