@@ -1,6 +1,6 @@
 ---
-title: 'Informazioni sugli schemi ExperienceEvent per Journey Orchestration Events '
-description: 'Scopri gli schemi ExperienceEvent per Journey Orchestration Events '
+title: 'Informazioni sugli schemi ExperienceEvent per gli eventi di Journey Orchestration '
+description: 'Scopri gli schemi ExperienceEvent per gli eventi di Journey Orchestration '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
