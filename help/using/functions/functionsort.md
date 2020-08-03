@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +27,7 @@ Ordina un elenco di valori nell&#39;ordine naturale. Il primo argomento è l&#39
 
 Elenco
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `sort(<parameters>)`
 
@@ -57,7 +60,7 @@ Restituisce un elenco di stringhe.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Restituisce un elenco delle date senza considerare il fuso orario.
+Restituisce un elenco di dateTime senza considerare il fuso orario.
 
 `sort(<listDateTime>,<boolean>)`
 
