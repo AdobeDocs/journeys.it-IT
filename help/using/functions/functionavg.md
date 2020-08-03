@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +28,7 @@ Restituisce il valore medio tra un insieme di espressioni, dato come un elenco o
 
 Aggregazione
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `avg(<parameter>)`
 
