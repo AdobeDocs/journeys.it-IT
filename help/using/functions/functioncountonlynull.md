@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 21%
 
 ---
 
@@ -24,7 +27,7 @@ Conta il numero di valori null nell&#39;elenco.
 
 Aggregazione
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `countOnlyNull(<listAny>)`
 
