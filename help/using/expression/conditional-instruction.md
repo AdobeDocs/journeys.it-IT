@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -61,7 +64,7 @@ listString,listString : listString
 
 L&#39;istruzione condizionale consente di ottimizzare il flusso di lavoro del viaggio riducendo il numero di attività delle condizioni. Ad esempio, all&#39;interno della stessa attività di azione, è possibile specificare due alternative per una definizione di campo utilizzando una sola espressione di condizione.
 
-Esempio di attività di azione (per un campo che prevede una stringa come risultato dell&#39;istruzione condizionale):
+Esempio di un&#39;attività di azione (per un campo che prevede una stringa come risultato dell&#39;istruzione condizionale):
 
 ```
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
