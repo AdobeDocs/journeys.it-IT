@@ -12,19 +12,22 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
 
 # lastIndexOf {#lastIndexOf}
 
-Restituisce la posizione (nel primo argomento) dell&#39;ultima occorrenza del secondo parametro. Restituisce -1 in assenza di corrispondenza.
+Restituisce la posizione (nel primo argomento) dell&#39;ultima occorrenza del secondo parametro. Restituisce -1 se non è presente alcuna corrispondenza.
 
 ## Categoria
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `lastIndexOf(<parameters>)`
 
