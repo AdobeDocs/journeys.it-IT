@@ -35,8 +35,8 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md#create-test-profile)
 * Sono state aggiunte informazioni su come utilizzare il **[!UICONTROL SegmentQualification]** nodo in una condizione o in un’azione di viaggio. [Leggi tutto](../building-journeys/segment-qualification-events.md)
 * È stata aggiunta una nota al messaggio transazionale Campaign e alla pubblicazione dell&#39;evento. Consultate [Utilizzo  Adobe Campaign](../action/working-with-adobe-campaign.md) e [Utilizzo  azioni](../building-journeys/using-adobe-campaign-actions.md)Adobe Campaign.
-* Sono state aggiunte informazioni sui controlli eseguiti durante il test dell’URL dell’istanza Campaign Standard. [Leggi tutto](../action/working-with-adobe-campaign.md)
-* Sono state aggiunte informazioni sulla compatibilità degli eventi di reazione con le istanze Campaign Standard ospitate su server AWS o Azure. [Leggi tutto](../building-journeys/reaction-events.md)
+* Sono state aggiunte informazioni sui controlli eseguiti durante la verifica dell’URL dell’istanza Campaign Standard. [Leggi tutto](../action/working-with-adobe-campaign.md)
+* Sono state aggiunte informazioni sulla compatibilità degli eventi di reazione con le istanze Campaign Standard ospitate sui server AWS o Azure. [Leggi tutto](../building-journeys/reaction-events.md)
 * È stata aggiunta una nota sulla necessità di impostare una regola di capping quando si utilizzano i messaggi transazionali Campaign Standard. [Leggi tutto](../action/working-with-adobe-campaign.md)
 * È stata aggiunta una nota sulla generazione di eventi reali quando si attivano eventi utilizzando la modalità di prova. [Leggi tutto](../building-journeys/testing-the-journey.md#firing_events)
 
