@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce il valore intero più vicino all&#39;argomento con i legami arrotond
 
 Percorsi
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `round(<parameters>)`
 
