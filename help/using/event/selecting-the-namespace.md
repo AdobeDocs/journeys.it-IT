@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 11%
 
 ---
 
 
 # Selezione dello spazio dei nomi {#concept_ckb_3qt_52b}
 
-Lo spazio dei nomi consente di definire il tipo di chiave utilizzata per identificare la persona associata all&#39;evento. La configurazione è opzionale. È necessario per recuperare, nei viaggi, informazioni aggiuntive provenienti dal profilo [cliente](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)in tempo reale. La definizione dello spazio dei nomi non è necessaria se si utilizzano solo dati provenienti da un sistema di terze parti tramite un&#39;origine dati personalizzata.
+Lo spazio dei nomi consente di definire il tipo di chiave utilizzata per identificare la persona associata all&#39;evento. La configurazione è opzionale. È necessario per recuperare, nei viaggi, informazioni aggiuntive provenienti dal profilo [cliente](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)in tempo reale. La definizione dello spazio dei nomi non è necessaria se si utilizzano solo dati provenienti da un sistema di terze parti tramite un&#39;origine dati personalizzata.
 
-È possibile utilizzare uno dei predefiniti oppure crearne uno nuovo utilizzando il servizio Spazio nomi identità. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html).
+È possibile utilizzare uno dei predefiniti oppure crearne uno nuovo utilizzando il servizio Spazio nomi identità. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/identity/home.html).
 
 Se si seleziona uno schema con un&#39;identità primaria, i campi **[!UICONTROL Key]** e **[!UICONTROL Namespace]** vengono precompilati. Se non è definita alcuna identità, come chiave primaria selezioneremo _identityMap > id_ . Quindi è necessario selezionare uno spazio dei nomi e la chiave sarà precompilata (sotto il **[!UICONTROL Namespace]** campo) utilizzando _identityMap > id_.
 
@@ -33,4 +36,4 @@ Selezionare uno spazio nomi dall&#39;elenco a discesa.
 
 ![](../assets/journey17.png)
 
-Per ogni percorso è consentito un solo spazio dei nomi. Se si utilizzano più eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi. Vedere [](../building-journeys/journey.md).
+Per ogni percorso è consentito un solo spazio dei nomi. Se si utilizzano più eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi. A questo proposito, consulta la sezione [](../building-journeys/journey.md).
