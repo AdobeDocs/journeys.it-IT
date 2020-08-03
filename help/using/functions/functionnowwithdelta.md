@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce il valore datetime corrente, incluso un offset. Se viene specificato
 
 Data
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `nowWithDelta(<parameters>)`
 
@@ -34,7 +37,7 @@ Data
 |--- |--- |
 | delta | valore intero positivo o negativo |
 | data part | anni, mesi, giorni, ore, minuti o secondi come stringa |
-| id fuso orario | rappresentazione stringa del valore del fuso orario. Per ulteriori informazioni, consulta [](../expression/data-types.md). L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione. |
+| id fuso orario | rappresentazione in formato stringa del valore del fuso orario. Per ulteriori informazioni, consulta [](../expression/data-types.md). L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione. |
 
 ## Firme e tipo restituito
 
