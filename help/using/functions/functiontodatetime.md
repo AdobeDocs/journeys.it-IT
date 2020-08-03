@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +26,7 @@ Converte i parametri in un valore di data e ora, a seconda del tipo.
 
 Conversione
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `toDateTime(<parameters>)`
 
