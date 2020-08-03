@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +27,7 @@ Verificare che la prima stringa argomento con la seconda stringa argomento sia d
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `notEqualWithIgnoreCase(<parameters>)`
 
