@@ -215,7 +215,7 @@ Il risultato è &quot;token_2&quot;.
 
 **Esempio 3:**
 
-Verifichiamo che il primo (più recente) evento Adobe  Analytics con un valore diverso da zero per DMA ID abbia un valore pari a 602.
+Verifichiamo che il primo (più recente) evento  Adobe Analytics con un valore diverso da zero per l&#39;ID DMA abbia un valore pari a 602.
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
