@@ -40,17 +40,17 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <li><p>Una nuova attività consente di ascoltare  ingressi/uscite di segmenti di Adobe Experience Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/segment-qualification-events.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p> segmenti di Adobe Experience Platform possono ora essere creati e modificati senza uscire dall'interfaccia Journey Orchestration, grazie a una nuova scheda <strong>Segmenti</strong> .<a href="../segment/about-segments.md">Leggi tutto</a></p>
+<li><p> segmenti di Adobe Experience Platform possono ora essere creati e modificati senza uscire dall'interfaccia del Journey Orchestration, grazie a una nuova scheda <strong>Segmenti</strong> .<a href="../segment/about-segments.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>Nell'editor di espressioni semplici,  segmenti di Adobe Experience Platform sono ora elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration passa ora automaticamente al Adobe Experience Platform  le fasi eseguite nei viaggi. Ciò include potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e risoluzione dei problemi eseguendo query sugli eventi del Passaggio del viaggio per un viaggio particolare o per tutti i viaggi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
+<li><p>Il Journey Orchestration ora passa automaticamente al Adobe Experience Platform  le fasi eseguite nei viaggi. Ciò include potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e risoluzione dei problemi eseguendo query sugli eventi del Passaggio del viaggio per un viaggio particolare o per tutti i viaggi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration può ora essere collegato a sandbox di produzione e non di produzione  Adobe Experience Platform. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
+<li><p>È ora possibile collegare il Journey Orchestration a sandbox di produzione e non  Adobe Experience Platform di produzione. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
 </li>
 </td>
 </tr>
@@ -87,9 +87,9 @@ Per evitare di inviare troppe chiamate API a sistemi di terze parti, stiamo intr
 
 Il controllo degli accessi ora consente una maggiore granularità nella gestione degli accessi utente. Disponibilità effettiva: 30 giugno 2020. [Leggi tutto](../about/access-management.md#create-product-profile)
 
-Journey Orchestration è ora disponibile in APAC (datacenter australiano). Disponibilità effettiva: 30 giugno 2020
+Il Journey Orchestration è ora disponibile in APAC (datacenter australiano). Disponibilità effettiva: 30 giugno 2020
 
-L&#39;interfaccia Journey Orchestration è disponibile in giapponese.
+L&#39;interfaccia del Journey Orchestration è disponibile in giapponese.
 
 ## Versione primo trimestre - marzo 2020 {#q1-release---march-2020}
 
