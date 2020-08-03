@@ -21,7 +21,7 @@ ht-degree: 12%
 
 # Informazioni sulla configurazione delle azioni personalizzata {#concept_sxy_bzs_dgb}
 
-Se utilizzate un sistema di terze parti per inviare messaggi o se desiderate [!DNL Journey Orchestration] inviare chiamate API a un sistema di terze parti, questo è il punto in cui configurate la connessione a [!DNL Journey Orchestration]. L&#39;azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria (vedere [](../building-journeys/about-action-activities.md). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Facebook, Adobe.io, Firebase, ecc.
+Se utilizzate un sistema di terze parti per inviare messaggi o se desiderate [!DNL Journey Orchestration] inviare chiamate API a un sistema di terze parti, questo è il punto in cui configurate la connessione a [!DNL Journey Orchestration]. L&#39;azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria (vedere [](../building-journeys/about-action-activities.md). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Facebook,  Adobe.io, Firebase, ecc.
 Le limitazioni sono elencate qui: [](../action/custom-action-limitations.md).
 
 Di seguito sono riportati i passaggi principali necessari per configurare un&#39;azione personalizzata:
