@@ -74,7 +74,7 @@ Per ulteriori informazioni su come creare e gestire le sandbox, consultate [docu
 
 Per creare un profilo di prodotto e assegnare un set di autorizzazioni e sandbox:
 
-1. Nell&#39;Admin Console , selezionare **[!UICONTROL Journey Orchestration]**. Dalla **[!UICONTROL Product profile]** scheda, fare clic su **[!UICONTROL New Profile]**.
+1. Nel Admin Console , selezionate **[!UICONTROL Journey Orchestration]**. Dalla **[!UICONTROL Product profile]** scheda, fare clic su **[!UICONTROL New Profile]**.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -118,7 +118,7 @@ L&#39;elenco di tutti i profili di prodotto forniti con autorizzazioni assegnate
 
 Per assegnare un profilo di prodotto a cui un utente può accedere [!DNL Journey Orchestration]:
 
-1. Nell&#39;Admin Console , selezionare **[!UICONTROL Journey Orchestration]**.
+1. Nel Admin Console , selezionate **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/do-not-localize/user_management.png)
 
