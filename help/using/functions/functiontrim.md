@@ -1,5 +1,5 @@
 ---
-title: rifilo
+title: trim
 description: Scopri il trim della funzione
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 9%
 
 ---
 
 
-# rifilo {#trim}
+# trim {#trim}
 
 Rimuove gli spazi iniziale e finale.
 
@@ -24,7 +27,7 @@ Rimuove gli spazi iniziale e finale.
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `trim(<parameters>)`
 
