@@ -1,5 +1,5 @@
 ---
-title: Costruire il viaggio
+title: Creazione di un percorso
 description: Scopri come creare il percorso del caso d’uso semplice
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,26 +12,29 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 4%
 
 ---
 
 
-# Costruire il viaggio{#concept_eyw_mcy_w2b}
+# Creazione di un percorso{#concept_eyw_mcy_w2b}
 
 L&#39;utente **** aziendale ora può costruire il percorso. Il nostro viaggio includerà solo un percorso con le seguenti attività:
 
 * &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon termale, il sistema riceverà un evento e il viaggio inizierà per quella persona.
-* un&#39; **[!UICONTROL Condition]**attività per verificare che la persona sia una donna
-* un&#39; **[!UICONTROL Email]**attività (utilizzando Adobe Campaign Standard)
-* un&#39; **[!UICONTROL End]**attività
+* un&#39; **[!UICONTROL Condition]** attività per verificare che la persona sia una donna
+* un&#39; **[!UICONTROL Email]** attività (utilizzando  Adobe Campaign Standard)
+* un&#39; **[!UICONTROL End]** attività
 
 >[!NOTE]
 >
->Le attività **[!UICONTROL Push]**e**[!UICONTROL Email]** sono disponibili nella palette solo se disponete di Adobe Campaign Standard.
+>Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nella palette solo se si dispone  Adobe Campaign Standard.
 
 Per ulteriori informazioni su come costruire un viaggio, consulta [](../building-journeys/journey.md).
 
-1. Nel menu superiore, fai clic sulla **[!UICONTROL Home]**scheda e**[!UICONTROL Create]** crea un nuovo percorso.
+1. Nel menu superiore, fai clic sulla **[!UICONTROL Home]** scheda e **[!UICONTROL Create]** crea un nuovo percorso.
 
    ![](../assets/journey31.png)
 
@@ -47,7 +50,7 @@ Per ulteriori informazioni su come costruire un viaggio, consulta [](../building
 
    ![](../assets/journeyuc1_10.png)
 
-1. Scegliete il **[!UICONTROL Data Source Condition]**tipo e fate clic nel**[!UICONTROL Expression]** campo. È inoltre possibile definire un&#39;etichetta di condizione che verrà visualizzata sulla freccia, nel quadro.
+1. Scegliete il **[!UICONTROL Data Source Condition]** tipo e fate clic nel **[!UICONTROL Expression]** campo. È inoltre possibile definire un&#39;etichetta di condizione che verrà visualizzata sulla freccia, nel quadro.
 
    ![](../assets/journeyuc1_11.png)
 
@@ -55,11 +58,11 @@ Per ulteriori informazioni su come costruire un viaggio, consulta [](../building
 
    ![](../assets/journeyuc1_12.png)
 
-1. Rilascia un&#39; **[!UICONTROL Email]**attività e seleziona il modello di messaggi transazionali &quot;Spa sconto&quot;. Questo modello è stato progettato con Adobe Campaign. Fare riferimento a questa[pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Rilascia un&#39; **[!UICONTROL Email]** attività e seleziona il modello di messaggi transazionali &quot;Spa sconto&quot;. Questo modello è stato progettato utilizzando  Adobe Campaign. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Fare clic all&#39;interno del **[!UICONTROL Email]**campo e selezionare l&#39;indirizzo e-mail dall&#39;origine dati.
+1. Fare clic all&#39;interno del **[!UICONTROL Email]** campo e selezionare l&#39;indirizzo e-mail dall&#39;origine dati.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -67,11 +70,11 @@ Per ulteriori informazioni su come costruire un viaggio, consulta [](../building
 
    ![](../assets/journeyuc1_15.png)
 
-1. Rilasciate un&#39; **[!UICONTROL End]**attività.
+1. Rilasciate un&#39; **[!UICONTROL End]** attività.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Fai clic sull’ **[!UICONTROL Test]**interruttore e verifica il percorso utilizzando i profili di prova. In caso di errore, disattivate la modalità di prova, modificate il percorso e verificatene di nuovo il funzionamento. Per ulteriori informazioni sulla modalità di prova, vedere[](../building-journeys/testing-the-journey.md).
+1. Fai clic sull’ **[!UICONTROL Test]** interruttore e verifica il percorso utilizzando i profili di prova. In caso di errore, disattivate la modalità di prova, modificate il percorso e verificatene di nuovo il funzionamento. Per ulteriori informazioni sulla modalità di prova, vedere [](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
