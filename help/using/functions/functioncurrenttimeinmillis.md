@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce l&#39;ora corrente in millisecondi epoch.
 
 Data
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `currentTimeInMillis()`
 
