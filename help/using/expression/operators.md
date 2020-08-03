@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '618'
+ht-degree: 2%
 
 ---
 
@@ -110,6 +113,6 @@ Elenco degli operatori supportati:
 <tr ><th  >Operatore</th><th  >Espressione letterale </th><th  >Esempio</th></tr>
 </thead>
 <tbody>
-<tr ><td>+</td><td><p><pre>&lt;espressione + &lt;durata&gt;</pre></p><p>Aggiungi una durata a dateTime, dateTimeOnly o a una durata.</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>Restituisce 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>Restituisce 2011-12-03T15:30:30<p><pre>now() + toDuration("PT1H")</pre></p><p>Restituisce un dateTime (con fuso orario UTC) un'ora dopo dall'ora corrente</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>Restituisce PT2H</p></td></tr>
+<tr ><td>+</td><td><p><pre>&lt;espressione + &lt;durata&gt;</pre></p><p>Aggiungi una durata a dateTime, dateTimeOnly o a una durata.</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>Restituisce 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>Restituisce 2011-12-03T15:30:30<p><pre>now() + toDuration("PT1H")</pre></p><p>Restituisce un dataTime (con fuso orario UTC) un'ora dopo dall'ora corrente</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>Restituisce PT2H</p></td></tr>
 </tbody>
 </table>
