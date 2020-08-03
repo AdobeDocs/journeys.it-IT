@@ -31,7 +31,7 @@ Per ciascuno di questi canali, è possibile selezionare un **modello** Adobe Cam
 
 >[!NOTE]
 >
->Per poter essere utilizzato in Journey Orchestration, è necessario pubblicare il messaggio transazionale Campaign Standard e il relativo evento associato. Se l&#39;evento è pubblicato ma il messaggio non lo è, non sarà visibile nell&#39;interfaccia Journey Orchestration. Se il messaggio viene pubblicato ma l&#39;evento associato non lo è, sarà visibile nell&#39;interfaccia di Journey Orchestration ma non sarà utilizzabile.
+>Per poter essere utilizzato nel Journey Orchestration, è necessario pubblicare il messaggio di transazione Campaign Standard e il relativo evento associato. Se l&#39;evento è pubblicato ma il messaggio non lo è, non sarà visibile nell&#39;interfaccia dell&#39;Journey Orchestration. Se il messaggio viene pubblicato ma l&#39;evento associato non lo è, sarà visibile nell&#39;interfaccia dell&#39;Journey Orchestration ma non sarà utilizzabile.
 
 ![](../assets/journey59.png)
 
@@ -51,7 +51,7 @@ Per **[!UICONTROL Email]** e **[!UICONTROL SMS]**, i parametri sono identici.
 
 >[!NOTE]
 >
->Per le e-mail, se utilizzate un modello transazionale per i profili, il meccanismo di annullamento dell’iscrizione viene gestito out-of-the-box da Campaign Standard. È sufficiente aggiungere un blocco di **[!UICONTROL Unsubscription link]** contenuto nel modello ([ulteriori](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)informazioni). Se utilizzate un modello basato su eventi (rtEvent), dovete aggiungere nel messaggio un collegamento che passa l&#39;e-mail della persona nel parametro URL e che indichi una pagina di destinazione senza iscrizione. Devi creare questa pagina di destinazione e accertarti che la decisione dell’utente di annullare l’iscrizione sia trasmessa ad Adobe.
+>Per le e-mail, se utilizzate un modello transazionale di profili, il meccanismo di annullamento dell’iscrizione viene gestito out-of-the-box dai Campaign Standard. È sufficiente aggiungere un blocco di **[!UICONTROL Unsubscription link]** contenuto nel modello ([ulteriori](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)informazioni). Se utilizzate un modello basato su eventi (rtEvent), dovete aggiungere nel messaggio un collegamento che passa l&#39;e-mail della persona nel parametro URL e che indichi una pagina di destinazione senza iscrizione. È necessario creare questa pagina di destinazione e assicurarsi che la decisione dell&#39;utente di annullare l&#39;iscrizione sia trasmessa al Adobe .
 
 Innanzitutto, è necessario scegliere un modello di messaggistica transazionale. A questo proposito, consulta la sezione [](../building-journeys/about-action-activities.md).
 
@@ -81,7 +81,7 @@ Questi sono i campi previsti dal messaggio di Adobe Campaign Standard . Questi c
 
 ## Push {#section_im3_hvf_nhb}
 
-Prima di utilizzare l&#39;attività push, l&#39;app mobile deve essere configurata insieme ad Campaign Standard per inviare le notifiche push. Utilizzate questo [articolo](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) per effettuare i passaggi di implementazione necessari per mobile.
+Prima di utilizzare l&#39;attività push, l&#39;app mobile deve essere configurata insieme ai Campaign Standard per inviare le notifiche push. Utilizzate questo [articolo](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) per effettuare i passaggi di implementazione necessari per mobile.
 
 Innanzitutto, devi scegliere un&#39;app mobile dall&#39;elenco a discesa e un messaggio transazionale. A questo proposito, consulta la sezione [](../building-journeys/about-action-activities.md).
 
