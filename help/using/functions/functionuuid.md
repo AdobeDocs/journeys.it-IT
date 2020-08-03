@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +27,7 @@ Genera un UUID casuale (Universal Unique IDentifier).
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `uuid()`
 
