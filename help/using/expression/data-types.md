@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +37,7 @@ Di seguito è illustrata la rappresentazione delle espressioni dei tipi di dati:
     <tbody>
     <tr>
         <td>string</td>
-        <td><p>Sequenza comune di caratteri.</p><p>Non ha dimensioni specifiche, tranne quella implicita che proviene dall'ambiente, come la quantità di memoria disponibile.</p><p>Formato JSON:Stringa</p><p>Formato di serializzazione: UTF-8</p></td>
+        <td><p>Sequenza comune di caratteri.</p><p>Non ha dimensioni specifiche, tranne quella implicita che proviene dall'ambiente, come la quantità di memoria disponibile.</p><p>Formato JSON: Stringa</p><p>Formato di serializzazione: UTF-8</p></td>
         <td><p>"&lt;value&gt;"</p><p>'&lt;value&gt;'</p></td>
         <td><p><pre>"hello world"</pre></p><p><pre>'hello world'</pre></p></td>
     </tr>
@@ -55,7 +58,7 @@ Di seguito è illustrata la rappresentazione delle espressioni dei tipi di dati:
     </tr>
     <tr>
         <td>boolean</td>
-        <td><p>Valore booleano scritto in lettere minuscole: true o false</p><p>Formato JSON:Booleano</p></td>
+        <td><p>Valore booleano scritto in lettere minuscole: true o false</p><p>Formato JSON: Booleano</p></td>
         <td><p>true</p><p>false</p></td>
         <td><p><pre>true</pre></p></td>
     </tr>
@@ -69,7 +72,7 @@ Di seguito è illustrata la rappresentazione delle espressioni dei tipi di dati:
         <td>dateTime</td>
         <td><p>Costante data e ora che considera anche il fuso orario.</p><p>Rappresenta una data-ora con un offset dall'UTC. Può essere visualizzato come un istante nel tempo con le informazioni aggiuntive dell'offset. </p><p>È un modo per rappresentare un "momento" specifico in un certo luogo del mondo.</p><p>Formato JSON: Stringa.</p><p> Deve essere racchiuso in una funzione toDateTime.</p><p>
         Formato di serializzazione: Formato data-ora offset esteso ISO-8601.</p><p> Utilizza DateTimeForsubject.ISO_OFFSET_DATE_TIME per deserializzare e serializzare il valore.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Ulteriori</a>informazioni. 
-        <p>È inoltre possibile passare un numero intero che passa un valore epoch.</p> <a href="https://www.epochconverter.com/">Leggi tutto</a>.</p>
+        <p>È inoltre possibile passare un numero intero che passa un valore epoch.</p> <a href="https://www.epochconverter.com/">Ulteriori informazioni</a>.</p>
         <p>Il fuso orario può essere specificato mediante un offset o un codice del fuso orario (ad esempio: Europa/Parigi, Z - significato UTC).</p></td>
         <td><p>toDateTime("&lt;dateTime in formato ISO-8601&gt;")</p>
         <p>toDateTime(&lt;valore intero di un'epoch in millisecondi&gt;)</p></td>
@@ -78,7 +81,7 @@ Di seguito è illustrata la rappresentazione delle espressioni dei tipi di dati:
     </tr>
     <tr>
         <td>length</td>
-        <td><p>Rappresenta una quantità di tempo basata sul tempo, ad esempio '34,5 secondi'.</p><p> Il modello mostra una quantità o un tempo in millisecondi.</p><p>Le unità temporali supportate sono: millisecondi, secondi, minuti, ore, giorni in cui un giorno equivale a 24 ore.</p><p> Gli anni e i mesi non sono supportati perché non sono un periodo di tempo fisso.</p><p>Formato JSON: Stringa. Deve essere racchiuso in una funzione toDuration.</p><p>Formato di serializzazione: Per deserializzare l’ID di un fuso orario, utilizza la funzione Java java.time.</p><p>Duration.parse: i formati accettati si basano sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Ulteriori</a>informazioni.</td>
+        <td><p>Rappresenta una quantità di tempo basata sul tempo, ad esempio '34,5 secondi'.</p><p> Il modello mostra una quantità o quantità di tempo in millisecondi.</p><p>Le unità temporali supportate sono: millisecondi, secondi, minuti, ore, giorni in cui un giorno equivale a 24 ore.</p><p> Gli anni e i mesi non sono supportati perché non sono un periodo di tempo fisso.</p><p>Formato JSON: Stringa. Deve essere racchiuso in una funzione toDuration.</p><p>Formato di serializzazione: Per deserializzare l’ID di un fuso orario, utilizza la funzione Java java.time.</p><p>Duration.parse: i formati accettati si basano sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Ulteriori</a>informazioni.</td>
         <td><p>toDuration("&lt;durata in formato ISO-8601&gt;")</p><p>toDuration(&lt;durata in millisecondi&gt;)</p></td>
         <td><p><pre>toDuration("PT5S") // 5 secondi</pre></p>
         <p><pre>toDuration(500) // </pre></p>
@@ -110,7 +113,7 @@ Di seguito è illustrata la rappresentazione delle espressioni dei tipi di dati:
     </tr>
     <tr>
         <td>list</td>
-        <td>Elenco separato da virgole di espressioni utilizzando parentesi quadre come delimitatori. Il polimorfismo non è supportato, pertanto tutte le espressioni contenute nell'elenco devono avere lo stesso tipo.</td>
+        <td>Elenco separato da virgole di espressioni utilizzando le parentesi quadre come delimitatori. Il polimorfismo non è supportato, pertanto tutte le espressioni contenute nell'elenco devono avere lo stesso tipo.</td>
         <td>[&lt;espressione&gt;, &lt;espressione&gt;, ... ]</td>
         <td><p><pre>["value1","value2"]</pre></p><p><pre>[3,5]</pre></p><p><pre>[toDuration(500),toDuration(800)]</pre></p></td>
     </tr>
