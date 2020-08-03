@@ -1,5 +1,5 @@
 ---
-title: Versioni del viaggio
+title: Versioni del percorso
 description: Scopri le versioni per i viaggi
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,19 +12,22 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 2%
 
 ---
 
 
-# Versioni del viaggio{#concept_ldc_k55_zgb}
+# Versioni del percorso{#concept_ldc_k55_zgb}
 
-Nell’elenco dei percorsi, tutte le versioni dei percorsi sono visualizzate con il numero di versione. Vedere [](../building-journeys/using-the-journey-designer.md). Quando eseguite una ricerca per un viaggio, le versioni più recenti vengono visualizzate in cima all’elenco al primo avvio dell’applicazione. Potete quindi definire l’ordinamento desiderato e l’applicazione la manterrà come preferenza utente. La versione del viaggio viene visualizzata anche nella parte superiore dell&#39;interfaccia dell&#39;edizione del viaggio, sopra il quadro.
+Nell’elenco dei percorsi, tutte le versioni dei percorsi sono visualizzate con il numero di versione. A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md). Quando eseguite una ricerca per un viaggio, le versioni più recenti vengono visualizzate in cima all’elenco al primo avvio dell’applicazione. Potete quindi definire l’ordinamento desiderato e l’applicazione la manterrà come preferenza utente. La versione del viaggio viene visualizzata anche nella parte superiore dell&#39;interfaccia dell&#39;edizione del viaggio, sopra il quadro.
 
 ![](../assets/journeyversions1.png)
 
 Se devi modificare un viaggio live, devi creare una nuova versione del tuo viaggio.
 
-1. Apri l’ultima versione del tuo viaggio live, fai clic su **[!UICONTROL Create a new version]**e conferma.
+1. Apri l’ultima versione del tuo viaggio live, fai clic su **[!UICONTROL Create a new version]** e conferma.
 
    ![](../assets/journeyversions2.png)
 
@@ -32,7 +35,7 @@ Se devi modificare un viaggio live, devi creare una nuova versione del tuo viagg
    >
    >Puoi creare una nuova versione solo dall’ultima versione di un viaggio.
 
-1. Apportate le modifiche desiderate, fate clic **[!UICONTROL Publish]**e confermate.
+1. Apportate le modifiche desiderate, fate clic **[!UICONTROL Publish]** e confermate.
 
    ![](../assets/journeyversions3.png)
 
