@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +28,7 @@ Se si utilizzano caratteri speciali in un campo, è necessario utilizzare virgol
 
 * il campo inizia con caratteri numerici
 * il campo inizia con il carattere &quot;-&quot;
-* il campo contiene elementi diversi da: _a_-_z_, _A_-_Z_, _0____-9, _, -_
+* il campo contiene elementi diversi da: _a_-_z_, _A_-_Z_, _0_-___9, _, -_
 
 Ad esempio, se il campo è di _3 ore_: _#{OpenWeather.WeatherData.rain.&#39;3h&#39;} > 0_
 
@@ -82,9 +85,9 @@ In questa espressione, è disponibile la voce per la chiave ‘Email’ del camp
 
 **Valori di parametro di un&#39;origine dati (valori dinamici dell&#39;origine dati)**
 
-Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro, viene visualizzata una nuova scheda a destra che consente di specificare questo parametro. Vedere [](../expression/expressionadvanced.md).
+Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro, viene visualizzata una nuova scheda a destra che consente di specificare questo parametro. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
 
-Per i casi di utilizzo più complessi, se si desidera includere i parametri dell&#39;origine dati nell&#39;espressione principale, è possibile definirne i valori utilizzando i _params_ delle parole chiave. Un parametro può essere qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
+Per i casi di utilizzo più complessi, se si desidera includere i parametri dell&#39;origine dati nell&#39;espressione principale, è possibile definirne i valori utilizzando i _params_ delle parole chiave. Un parametro può essere una qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
 
 >[!NOTE]
 >
