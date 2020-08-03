@@ -33,7 +33,7 @@ L&#39;elenco dei campi XDM che vengono passati è completo. Alcuni contengono co
 >
 >Impossibile attivare i set di dati per il servizio di profilo in tempo reale. Assicurarsi che l&#39; **[!UICONTROL Profile]** interruttore sia disattivato
 
-I viaggi inviano i dati man mano che si verificano, in streaming. È possibile eseguire una query di questi dati utilizzando il servizio Query. È possibile connettersi ad Customer Journey Analytics o ad altri strumenti BI per visualizzare i dati relativi a questi passaggi.
+I viaggi inviano i dati man mano che si verificano, in streaming. È possibile eseguire una query di questi dati utilizzando il servizio Query. È possibile connettersi a Customer Journey Analytics o ad altri strumenti BI per visualizzare i dati relativi a questi passaggi.
 
 Vengono creati i seguenti schemi:
 
