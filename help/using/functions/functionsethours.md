@@ -12,19 +12,22 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
 
 # setHours {#setHours}
 
-Imposta le ore solo per l’ora o l’ora della data. Ad esempio, se desiderate aspettare fino a una certa ora domani, potete forzare l&#39;ora.
+Imposta le ore solo per l’ora o l’ora della data. Ad esempio, se si desidera aspettare fino a una certa ora domani, è possibile forzare l&#39;ora.
 
 ## Categoria
 
 Data
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `setHours(<parameter>)`
 
