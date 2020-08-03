@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +27,7 @@ Converte un valore di argomento in una durata. Per ulteriori informazioni sui ti
 
 Conversione
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `toDuration(<parameter>)`
 
