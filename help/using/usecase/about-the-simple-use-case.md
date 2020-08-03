@@ -1,5 +1,5 @@
 ---
-title: Informazioni sul caso di utilizzo semplice
+title: Informazioni sul caso d’uso semplice
 description: Ulteriori informazioni sul percorso caso di utilizzo semplice
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 11%
 
 ---
 
 
-# Informazioni sul caso di utilizzo semplice{#concept_grh_vby_w2b}
+# Informazioni sul caso d’uso semplice{#concept_grh_vby_w2b}
 
 ## Finalità {#purpose}
 
@@ -30,8 +33,8 @@ Vogliamo mandare un messaggio solo se la persona è una donna. Il messaggio deve
 
 ## Prerequisiti {#prerequisites}
 
-Per il nostro caso d&#39;uso, abbiamo progettato un modello di messaggio per le transazioni e-mail in Adobe Campaign Standard. Stiamo utilizzando un modello di messaggi transazionali evento. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Per il nostro caso d&#39;uso, abbiamo progettato un modello di messaggi transazionali e-mail in  Adobe Campaign Standard. Stiamo utilizzando un modello di messaggi transazionali evento. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
-Adobe Campaign Standard è configurato per l&#39;invio di e-mail.
+ Adobe Campaign Standard è configurato per l&#39;invio di e-mail.
 
 Gli eventi vengono inviati dal cellulare dei clienti quando vengono rilevati vicino a un beacon. Devi progettare un&#39;applicazione mobile per inviare eventi dal telefono cellulare del cliente all&#39;SDK di Mobile.
