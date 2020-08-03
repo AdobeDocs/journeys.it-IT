@@ -21,7 +21,7 @@ ht-degree: 6%
 
 # Eventi basati su regole{#simplified-events}
 
-Abbiamo semplificato la configurazione degli eventi di esperienza. Stiamo introducendo un nuovo metodo che non richiede l&#39;uso di un eventID. Quando configurate l&#39;evento in Journey Orchestration, ora potete definire un evento basato su regole.
+Abbiamo semplificato la configurazione degli eventi di esperienza. Stiamo introducendo un nuovo metodo che non richiede l&#39;uso di un eventID. Quando configurate l&#39;evento in un Journey Orchestration, ora potete definire un evento basato su regole.
 
 Questo nuovo tipo di evento non genera un eventID. Utilizzando l&#39;editor di espressioni semplici, ora è sufficiente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i vostri viaggi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell&#39;evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
@@ -59,7 +59,7 @@ Questo nuovo metodo è per lo più trasparente per gli utenti. L’unica modific
 
    ![](../assets/alpha-event6.png)
 
-   Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL City]** campo e **[!UICONTROL Paris]** valore), lo trasmette ad Journey Orchestration.
+   Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL City]** campo e **[!UICONTROL Paris]** valore), lo trasmette al Journey Orchestration.
 
 1. Definite il **[!UICONTROL Namespace]** e **[!UICONTROL Key]**. Consultate [Selezione dello spazio dei nomi](../event/selecting-the-namespace.md) e [Definizione della chiave](../event/defining-the-event-key.md)evento.
 
@@ -67,5 +67,5 @@ Questo nuovo metodo è per lo più trasparente per gli utenti. L’unica modific
 
 Gli altri passaggi per la configurazione degli eventi e la creazione del percorso restano invariati.
 
-L&#39;evento è ora configurato e pronto per essere rilasciato come qualsiasi altro evento. Ogni volta che un evento corrispondente alla regola viene inviato al sistema, viene passato ad Journey Orchestration per attivare i viaggi.
+L&#39;evento è ora configurato e pronto per essere rilasciato come qualsiasi altro evento. Ogni volta che un evento corrispondente alla regola viene inviato al sistema, viene passato al Journey Orchestration per attivare i viaggi.
 
