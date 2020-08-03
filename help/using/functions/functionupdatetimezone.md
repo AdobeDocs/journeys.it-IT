@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 2%
 
 ---
 
@@ -24,13 +27,13 @@ Restituisce una nuova ora di data, con un nuovo fuso orario nello stesso istante
 
 Data
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `updateTimeZone(<parameters>)`
 
 ## Parametri
 
-* id fuso orario:string
+* id fuso orario: string
 * dateTime
 
 ## Firma e tipo restituito
