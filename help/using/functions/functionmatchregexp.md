@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce true se la stringa nel primo parametro corrisponde all&#39;espressio
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `matchRegExp(<parameters>)`
 
