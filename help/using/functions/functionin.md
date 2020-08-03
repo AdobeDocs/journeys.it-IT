@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 10%
 
 ---
 
@@ -20,13 +23,13 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 Controlla se il primo valore argomento è nell&#39;elenco. Il controllo viene eseguito tramite un valore Equal per ogni valore argomento. Restituisce true se il valore dell&#39;argomento viene trovato, false in caso contrario.
 
-Il tipo di oggetto `<expression>` deve corrispondere agli elementi dell&#39;elenco. I tipi di elementi dell&#39;elenco, come promemoria, devono corrispondere tra loro.
+Il tipo di oggetto `<expression>` deve corrispondere agli elementi dell&#39;elenco. I tipi di elementi dell&#39;elenco, come promemoria, devono corrispondere l&#39;uno all&#39;altro.
 
 ## Categoria
 
 Elenco
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `in(<parameters>)`
 
