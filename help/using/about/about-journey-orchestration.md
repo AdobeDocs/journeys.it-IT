@@ -27,7 +27,7 @@ Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati conte
 
 [!DNL Journey Orchestration] consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Puoi configurare un&#39;azione personalizzata se utilizzi un sistema di terze parti per l&#39;invio dei messaggi. Se si dispone  Adobe Campaign Standard, sarà possibile inviare e-mail, notifiche push e SMS utilizzando le  funzionalità [di messaggistica](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)transazionali  Adobe Campaign Standard.
 
-Nella scheda di configurazione dell’evento, un utente **** tecnico configura gli eventi previsti nei viaggi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati (come gli eventi SDK di Adobe Mobile).
+Nella scheda di configurazione dell’evento, un utente **** tecnico configura gli eventi previsti nei viaggi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati (come  eventi SDK Mobile di Adobe).
 
 Nella scheda di configurazione dell&#39;origine dati, un utente **** tecnico configura:
 
