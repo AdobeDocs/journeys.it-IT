@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 4%
 
 ---
 
 
 # Definizione del codice evento {#concept_ond_hqt_52b}
 
-La chiave è il campo o la combinazione di campi fa parte dei dati di payload dell’evento e consentirà al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l’ID Experience Cloud, un ID CRM o un indirizzo e-mail.
+La chiave è il campo o la combinazione di campi fa parte dei dati di payload dell’evento e consentirà al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l&#39;ID Experience Cloud , un ID CRM o un indirizzo e-mail.
 
-Se intendete sfruttare i dati memorizzati nel database Profilo cliente in tempo reale, dovete selezionare, come chiave dell&#39;evento, le informazioni definite come identità del profilo nel servizio [Profilo cliente in tempo](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)reale.
+Se intendete sfruttare i dati memorizzati nel database Profilo cliente in tempo reale, dovete selezionare, come chiave dell&#39;evento, le informazioni definite come identità del profilo nel servizio [Profilo cliente in tempo](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)reale.
 
 Consentirà al sistema di eseguire la riconciliazione tra l&#39;evento e il profilo dell&#39;individuo. Se si seleziona uno schema con un&#39;identità primaria, i campi **[!UICONTROL Key]** e **[!UICONTROL Namespace]** vengono precompilati. Se non è definita alcuna identità, come chiave primaria selezioneremo _identityMap > id_ . Quindi è necessario selezionare uno spazio dei nomi e la chiave sarà precompilata (sotto il **[!UICONTROL Namespace]** campo) utilizzando _identityMap > id_.
 
@@ -38,7 +41,7 @@ Se devi usare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mail, de
 
    ![](../assets/journey20.png)
 
-Quando l&#39;evento viene ricevuto, il valore della chiave consentirà al sistema di identificare la persona associata all&#39;evento. Associata a uno spazio dei nomi (vedere [](../event/selecting-the-namespace.md)), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Vedere [](../building-journeys/about-orchestration-activities.md).
+Quando l&#39;evento viene ricevuto, il valore della chiave consentirà al sistema di identificare la persona associata all&#39;evento. Associata a uno spazio dei nomi (vedere [](../event/selecting-the-namespace.md)), la chiave può essere utilizzata per eseguire query sul Adobe Experience Platform . A questo proposito, consulta la sezione [](../building-journeys/about-orchestration-activities.md).
 La chiave viene utilizzata anche per verificare che una persona sia in viaggio. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso viaggio. Di conseguenza, il sistema non consente alla stessa chiave, ad esempio la chiave CRMID=3224, di trovarsi in luoghi diversi nello stesso percorso.
 
-È inoltre possibile accedere alle funzioni di espressione avanzate (**[!UICONTROL Advanced mode]**) per eseguire ulteriori manipolazioni. Queste funzioni consentono di manipolare i valori utilizzati per eseguire query specifiche, ad esempio la modifica dei formati, eseguendo concatenazioni di campi, tenendo conto solo di una parte di un campo (ad esempio i 10 primi caratteri). Vedere [](../expression/expressionadvanced.md).
+È inoltre possibile accedere alle funzioni di espressione avanzate (**[!UICONTROL Advanced mode]**) per eseguire ulteriori manipolazioni. Queste funzioni consentono di manipolare i valori utilizzati per eseguire query specifiche, ad esempio la modifica dei formati, eseguendo concatenazioni di campi, tenendo conto solo di una parte di un campo (ad esempio i 10 primi caratteri). A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
