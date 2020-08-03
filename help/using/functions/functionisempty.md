@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce true se la stringa nel parametro non ha carattere.
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `isEmpty(<parameters>)`
 
