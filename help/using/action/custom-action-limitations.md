@@ -30,4 +30,4 @@ Di seguito sono riportati alcuni limiti relativi all&#39;utilizzo di azioni pers
 * Sono supportati solo i metodi di chiamata POST e PUT.
 * Il nome del parametro o dell&#39;intestazione della query non deve iniziare con &quot;.&quot; o &quot;$&quot;.
 * Gli indirizzi IP non sono consentiti.
-* Indirizzi Adobe interni (.adobe). non sono consentiti.
+* Indirizzi  Adobe interni (.adobe). non sono consentiti.
