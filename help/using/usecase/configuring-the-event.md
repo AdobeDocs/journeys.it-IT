@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +25,7 @@ Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona camm
 
 Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [](../event/about-events.md).
 
-1. Nel menu principale, fate clic sulla **[!UICONTROL Events]**scheda e fate clic**[!UICONTROL Add]** per creare un nuovo evento.
+1. Nel menu principale, fate clic sulla **[!UICONTROL Events]** scheda e fate clic **[!UICONTROL Add]** per creare un nuovo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -32,7 +35,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [](.
 
    <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
-1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. Per identificare la persona nel database del profilo cliente in tempo reale è necessario disporre dell’ID Experience Cloud: _endUserIDs > experience > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato nel **[!UICONTROL eventID]**campo (_esperienza > campagna > orchestrazione > eventID_). Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. Nel nostro caso di utilizzo, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l&#39;invio dell&#39;evento.
+1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. Abbiamo bisogno dell&#39;ID Experience Cloud  per identificare la persona nel database Profilo cliente in tempo reale: _endUserIDs > experience > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato nel **[!UICONTROL eventID]** campo (_esperienza > campagna > orchestrazione > eventID_). Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. Nel nostro caso d’uso, questo ID viene usato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l&#39;invio dell&#39;evento.
 
    ![](../assets/journeyuc1_3.png)
 
@@ -50,8 +53,8 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [](.
 
 1. Clic **[!UICONTROL Save]**.
 
-1. Fate clic sull&#39; **[!UICONTROL View Payload]**icona per visualizzare l&#39;anteprima del payload previsto dal sistema e condividerlo con la persona responsabile dell&#39;invio dell&#39;evento. Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
+1. Fate clic sull&#39; **[!UICONTROL View Payload]** icona per visualizzare l&#39;anteprima del payload previsto dal sistema e condividerlo con la persona responsabile dell&#39;invio dell&#39;evento. Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
 
    ![](../assets/journeyuc1_7.png)
 
-   L&#39;evento è pronto per essere utilizzato nel vostro viaggio. Ora devi configurare l’applicazione mobile in modo che possa inviare il payload previsto all’endpoint delle API di ingestione dello streaming. Vedere [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   L&#39;evento è pronto per essere utilizzato nel vostro viaggio. È ora necessario configurare l&#39;applicazione mobile in modo che possa inviare il payload previsto all&#39;endpoint delle API di ingestione dello streaming. A questo proposito, consulta la sezione [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
