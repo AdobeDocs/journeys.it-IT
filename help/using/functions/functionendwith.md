@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce true se il secondo parametro è un suffisso del primo.
 
 Stringa
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `endWith(<parameters>)`
 
