@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +27,7 @@ Converte in una stringa l&#39;elenco (qualsiasi tipo) fornito nel primo parametr
 
 Elenco
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `serializeList(<parameters>)`
 
