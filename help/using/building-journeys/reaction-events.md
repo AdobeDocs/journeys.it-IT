@@ -36,7 +36,7 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 1. Aggiungete una **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall&#39;elenco a discesa, selezionate l&#39;attività di azione a cui desiderate reagire. È possibile selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata (e-mail, SMS o notifica push), scegliete a cosa rispondere.
-1. È possibile definire una condizione come passaggio facoltativo. Ad esempio, dopo un’azione e-mail, potete decidere di creare due percorsi, uno con un evento di reazione per monitorare i clic solo per i clienti VIP e uno con un evento di reazione per monitorare i clic eseguiti dalle donne.
+1. È possibile definire una condizione come passaggio facoltativo. Ad esempio, dopo un’azione e-mail, potete decidere di creare due percorsi, uno con un evento di reazione per monitorare i clic solo per VIP clienti e uno con un evento di reazione per monitorare i clic eseguiti dalle donne.
 
 >[!NOTE]
 >
