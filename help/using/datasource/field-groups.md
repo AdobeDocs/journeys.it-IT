@@ -58,4 +58,4 @@ Per eliminare un campo da un gruppo di campi utilizzato in uno o più viaggi, pr
 1. Aprire tutti i viaggi che utilizzano il &quot;Campo Gruppo A&quot;.
 1. Create nuove versioni di ciascuno di questi viaggi. Modificate tutte le attività utilizzando il &quot;Gruppo di campi A&quot; e selezionate &quot;Gruppo di campi B&quot;.
 1. Arrestate le versioni precedenti dei viaggi che utilizzano &quot;Field Group A&quot;. A questo punto non si dovrebbe effettuare alcun viaggio utilizzando il &quot;Gruppo di campi A&quot;.
-1. Rimuovere il &quot;Campo Gruppo A&quot; in quanto non è più utilizzato.
+1. Rimuovere il &quot;Campo Gruppo A&quot; così come non è più utilizzato.
