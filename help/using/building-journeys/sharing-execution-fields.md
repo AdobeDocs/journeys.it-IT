@@ -57,7 +57,7 @@ Tipo: long
 
 ## actionExecutionError
 
-Tipo di errore che si verifica quando viene chiamata l’azione.
+Tipo di errore che si verifica quando l’azione viene chiamata.
 
 Tipo: string
 
