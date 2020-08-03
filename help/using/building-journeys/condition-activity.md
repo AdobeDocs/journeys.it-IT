@@ -36,7 +36,7 @@ Fare clic **[!UICONTROL Add a path]** per definire più condizioni. Per ogni con
 
 ![](../assets/journey47.png)
 
-Si noti che la progettazione dei viaggi ha un impatto funzionale. Quando più percorsi sono definiti dopo una condizione, viene eseguito solo il primo percorso idoneo. Ciò significa che potete variare la priorità dei percorsi posizionandoli sopra o sotto l’uno dell’altro. Ad esempio, se la condizione del primo percorso è &quot;La persona è un VIP&quot; e la condizione del secondo percorso è &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso sarà scelto anche se è anche idoneo al secondo, perché il primo percorso è &quot;sopra&quot;. Per modificare questa priorità, spostare le attività in un altro ordine verticale.
+Si noti che la progettazione dei viaggi ha un impatto funzionale. Quando più percorsi sono definiti dopo una condizione, viene eseguito solo il primo percorso idoneo. Ciò significa che potete variare la priorità dei percorsi posizionandoli sopra o sotto l’uno dell’altro. Ad esempio, se la condizione del primo percorso è &quot;La persona è un VIP&quot; e la condizione del secondo percorso è &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un uomo che è un VIP) supera questo passo, il primo percorso sarà scelto anche se è anche idoneo al secondo, perché il primo percorso è &quot;sopra&quot;. Per modificare questa priorità, spostare le attività in un altro ordine verticale.
 
 ![](../assets/journey48.png)
 
