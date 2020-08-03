@@ -25,7 +25,7 @@ L&#39;AI del cliente fa parte dei servizi intelligenti. Consente di prevedere le
 
 L&#39;AI del cliente consente ai marchi di creare punteggi basati sull&#39;apprendimento di churn o conversione che saranno disponibili come attributi di profilo nei profili di Adobe Experience Platform  (Profilo cliente in tempo reale).
 
-Di conseguenza, possono essere utilizzati come qualsiasi altro attributo di profilo nelle condizioni di Journey Orchestration (per prendere le decisioni migliori), nelle azioni o nella creazione di segmenti.
+Di conseguenza, possono essere utilizzati come qualsiasi altro attributo di profilo nelle condizioni di  Journey Orchestration (per prendere le decisioni migliori), nelle azioni o nella creazione di segmenti.
 
 ![](../assets/customer-ai.png)
 
