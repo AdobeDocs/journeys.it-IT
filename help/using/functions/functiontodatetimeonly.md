@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +27,7 @@ Converte un valore argomento in un valore solo per l&#39;ora della data.
 
 Conversione
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `toDateTimeOnly(<parameters>)`
 
