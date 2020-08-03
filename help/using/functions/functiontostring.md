@@ -12,19 +12,22 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 2%
 
 ---
 
 
 # toString {#toString}
 
-Converte un valore argomento in un valore stringa, a seconda del tipo. Per ulteriori informazioni sui tipi di dati, fare riferimento a [](../expression/data-types.md).
+Converte un valore di argomento in un valore di stringa, a seconda del tipo. Per ulteriori informazioni sui tipi di dati, fare riferimento a [](../expression/data-types.md).
 
 ## Categoria
 
 Conversione
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `toString(<parameter>)`
 
