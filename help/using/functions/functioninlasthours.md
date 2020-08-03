@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +27,7 @@ Restituisce true se l&#39;ora data specificata è compresa tra ora e ora - ore d
 
 Data
 
-## Sintassi funzione
+## Sintassi delle funzioni
 
 `inLastHours(<dateTime>,<delta>)`
 
