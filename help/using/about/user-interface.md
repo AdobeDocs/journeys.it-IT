@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 79%
+ht-degree: 90%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. L&#39;interfaccia viene visualizzata nella lingua definita in IMS. Se la lingua IMS non è supportata da [!DNL Journey Orchestration], l&#39;interfaccia viene visualizzata in inglese.
+>Per ottenere il meglio da [!DNL Journey Orchestration], ti consigliamo di utilizzare Chrome come browser Internet. L’interfaccia viene visualizzata nella lingua definita all’interno di IMS. Se la lingua IMS non è supportata da [!DNL Journey Orchestration], l’interfaccia viene visualizzata in inglese.
 >
 >Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate al prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 
-## Accesso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## Accesso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+Per accedere all’interfaccia di [!DNL Journey Orchestration], fai clic sull’icona **[!UICONTROL App Selector]** in alto a destra. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
-You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
+Puoi anche accedere a [!DNL Journey Orchestration] dalla home page di Experience Cloud, nella sezione **[!UICONTROL Quick access]**.
 
 ![](../assets/journey1bis.png)
 
@@ -40,14 +40,14 @@ You can also access [!DNL Journey Orchestration] from the Experience Cloud home 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Informazioni sull’elenco percorsi"
->abstract="L’elenco dei percorsi ti consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso chiuso. È possibile creare una nuova versione oppure duplicarla. Puoi anche usare la barra di ricerca per cercare un percorso."
+>abstract="L’elenco dei percorsi ti consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso terminato. È possibile creare una nuova versione oppure duplicarla. Puoi anche usare la barra di ricerca per cercare un percorso."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
-The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+I menu superiori ti consentono di navigare tra le diverse funzionalità di [!DNL Journey Orchestration]: **[!UICONTROL Home]** (i percorsi), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-Per visualizzare l’aiuto contestuale, fai clic sull’icona ![](../assets/icon-context.png) posta nell’angolo in alto a destra dello schermo. It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). In tal modo, puoi visualizzare una descrizione rapida delle funzionalità correnti e accedere agli articoli e ai video correlati.
+Per visualizzare l’aiuto contestuale, fai clic sull’icona ![](../assets/icon-context.png) posta nell’angolo in alto a destra dello schermo. È disponibile nelle diverse schermate di elenco di [!DNL Journey Orchestration] (percorsi, eventi, azioni e origini dati). In tal modo, puoi visualizzare una descrizione rapida delle funzionalità correnti e accedere agli articoli e ai video correlati.
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ Se è disponibile un nome descrittivo, il campo verrà visualizzato come `<frie
 
 ## Utilizzo delle varie scelte rapide{#section_ksq_zr1_ffb}
 
-Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
+Di seguito sono riportate le diverse scelte rapide disponibili nell’interfaccia di [!DNL Journey Orchestration].
 
 _Nell’elenco dei percorsi, delle azioni, delle origini dati o degli eventi:_
 
