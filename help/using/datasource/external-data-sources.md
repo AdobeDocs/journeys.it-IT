@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ L’origine dati è ora configurata ed è pronta per essere utilizzata nei perco
 >title="Informazioni sull’autenticazione personalizzata"
 >abstract="La modalità di autenticazione personalizzata viene utilizzata per l’autenticazione complessa destinata al richiamo dei protocolli di wrapping di API come OAuth2. L’esecuzione dell’azione è un processo suddiviso in due fasi. Innanzitutto, viene eseguita una chiamata all’endpoint per la generazione del token di accesso. Quindi, il token di accesso viene inserito nella richiesta HTTP dell’azione."
 
-Questa modalità di autenticazione viene utilizzata per la tipologia complessa, spesso impiegata per la chiamata dei protocolli di wrapping API come Oauth2 e per il recupero di un token di accesso da inserire nella richiesta HTTP effettiva per l’azione.
+Questa modalità di autenticazione viene utilizzata per la tipologia complessa, spesso impiegata per la chiamata dei protocolli di wrapping API come OAuth2 e per il recupero di un token di accesso da inserire nella richiesta HTTP effettiva per l’azione.
 
 Quando configuri l’autenticazione personalizzata, puoi fare clic sul pulsante seguente per verificare la corretta configurazione del payload di autenticazione personalizzata.
 
@@ -166,7 +166,7 @@ Il formato di questa autenticazione è:
 }
 ```
 
-È possibile modificare la durata della cache del token per un&#39;origine dati di autenticazione personalizzata. Di seguito è riportato un esempio di payload di autenticazione personalizzato. La durata della cache è definita nel parametro &quot;cacheDuration&quot;. Specifica la durata di conservazione del token generato nella cache. L&#39;unità può essere in millisecondi, secondi, minuti, ore, giorni, mesi, anni.
+Adesso puoi modificare la durata della cache del token per un’origine dati di autenticazione personalizzata. Di seguito è riportato un esempio di payload di autenticazione personalizzato. La durata della cache è definita nel parametro “cacheDuration”. Tale parametro Specifica la durata di conservazione del token generato nella cache. L’unità può essere in millisecondi, secondi, minuti, ore, giorni, mesi, anni.
 
 ```
 "authentication": {
