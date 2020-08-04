@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 74%
+ht-degree: 86%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Informazioni sulle origini dati"
->abstract="La configurazione dell’origine dati viene sempre eseguita da un utente tecnico. La configurazione dell&#39;origine dati consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei viaggi, per: definizione della condizione, parametri e dati di personalizzazione nelle azioni, definizione personalizzata del fuso orario, definizione del fuso orario."
+>abstract="La configurazione dell’origine dati viene sempre eseguita da un utente tecnico. La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, le quali verranno utilizzate nei percorsi. Tali informazioni saranno destinate a: definizione della condizione, dati relativi a parametri e personalizzazione nelle azioni, definizione di attesa personalizzata, impostazione del fuso orario."
 
 La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, le quali verranno utilizzate nei percorsi e consentiranno di ottenere:
 
 * [Definizione della condizione.](../building-journeys/condition-activity.md)
 * Dati dei parametri e di personalizzazione nelle [azioni](../action/action.md).
 * [Impostazione di attesa personalizzata](../building-journeys/wait-activity.md#custom).
-* [definizione del fuso orario](../building-journeys/timezone-management.md)
+* [Impostazione del fuso orario](../building-journeys/timezone-management.md)
 
 Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività e-mail che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
 
@@ -42,7 +42,7 @@ Esistono due tipi di origini dati:
 
 Per ciascuna origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi costituiscono insiemi di campi che possono essere recuperati da un’origine dati. A questo proposito, consulta la sezione [](../datasource/field-groups.md).
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/it-IT/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
 Di seguito sono riportati i passaggi principali per la configurazione dell’origine dati:
 
