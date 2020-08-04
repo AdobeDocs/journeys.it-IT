@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 78%
 + Novità {#release-notes}
    + [Note sulla versione](using/release-notes/release-notes.md)
    + [Aggiornamenti alla documentazione](using/release-notes/documentation-updates.md)
-+ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Informazioni [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
++ Primi passi con [!DNL Journey Orchestration] {#starting-with-journeys}
+   + [Informazioni su [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Introduzione](using/about/get-started.md)
    + [Interfaccia utente](using/about/user-interface.md)
    + [Gestione degli accessi](using/about/access-management.md)
@@ -46,8 +46,8 @@ ht-degree: 78%
       + [Limitazioni delle azioni personalizzate](using/action/custom-action-limitations.md)
       + [Configurazione URL](using/action/url-configuration.md)
       + [Definizione dei parametri del messaggio](using/action/defining-the-message-parameters.md)
-+ Uso dei segmenti di una piattaforma {#configuring-segment}
-   + [Informazioni sui segmenti di piattaforma](using/segment/about-segments.md)
++ Utilizzo dei segmenti di Platform {#configuring-segment}
+   + [Informazioni sui segmenti di Platform](using/segment/about-segments.md)
    + [Creazione di un segmento](using/segment/creating-a-segment.md)
    + [Utilizzo di segmenti nelle condizioni](using/segment/using-a-segment.md)
 + Creare un percorso {#building-journeys}
@@ -76,12 +76,12 @@ ht-degree: 78%
    + [Verifica del percorso](using/building-journeys/testing-the-journey.md)
    + [Pubblicazione del percorso](using/building-journeys/publishing-the-journey.md)
    + Condivisione di passaggi di viaggio con  Adobe Experience Platform {#sharing-journey-steps}
-      + [Panoramica sulla condivisione delle fasi del viaggio](using/building-journeys/sharing-overview.md)
-      + [Evento pathSteps campi comuni](using/building-journeys/sharing-common-fields.md)
-      + [eventi pathStep campi di esecuzione azione](using/building-journeys/sharing-execution-fields.md)
-      + [percorso:eventi, campi di recupero dati](using/building-journeys/sharing-fetch-fields.md)
-      + [pathStep, campi di identità dell&#39;evento](using/building-journeys/sharing-identity-fields.md)
-      + [campi di viaggio](using/building-journeys/sharing-journey-fields.md)
+      + [Panoramica sulla condivisione delle fasi del percorso](using/building-journeys/sharing-overview.md)
+      + [Campi comuni degli eventi journeySteps](using/building-journeys/sharing-common-fields.md)
+      + [Campi di esecuzione azione degli eventi journeyStep](using/building-journeys/sharing-execution-fields.md)
+      + [Campi di recupero dati di journeyStep](using/building-journeys/sharing-fetch-fields.md)
+      + [Campi di identità dell’evento di journeyStep](using/building-journeys/sharing-identity-fields.md)
+      + [Campi del percorso](using/building-journeys/sharing-journey-fields.md)
 + Utilizzo dell’editor di espressioni avanzate {#building-advanced-conditions-journeys}
    + [Informazioni sull’editor di espressioni avanzate](using/expression/expressionadvanced.md)
    + Sintassi {#syntax}
@@ -102,8 +102,8 @@ ht-degree: 78%
          + [count](using/functions/functioncount.md)
          + [countOnlyNull](using/functions/functioncountonlynull.md)
          + [countWithNull](using/functions/functioncountwithnull.md)
-         + [separateCount](using/functions/functiondistinctcount.md)
-         + [distintoCountWithNull](using/functions/functiondistinctcountwithnull.md)
+         + [distinctCount](using/functions/functiondistinctcount.md)
+         + [distinctCountWithNull](using/functions/functiondistinctcountwithnull.md)
          + [max](using/functions/functionmax.md)
          + [min](using/functions/functionmin.md)
          + [sum](using/functions/functionsum.md)
@@ -124,14 +124,14 @@ ht-degree: 78%
          + [inNextDays](using/functions/functioninnextdays.md)
          + [inNextHours](using/functions/functioninnexthours.md)
          + [inNextMonths](using/functions/functioninnextmonths.md)
-         + [inNextYear](using/functions/functioninnextyears.md)
+         + [inNextYears](using/functions/functioninnextyears.md)
          + [now](using/functions/functionnow.md)
          + [nowWithDelta](using/functions/functionnowwithdelta.md)
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
       + Elenco {#list}
          + [distinct](using/functions/functiondistinct.md)
-         + [separateWithNull](using/functions/functiondistinctwithnull.md)
+         + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [in](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
@@ -167,9 +167,9 @@ ht-degree: 78%
    + [Creazione dei rapporti sui percorsi](using/reporting/creating-your-journey-reports.md)
    + [Metriche e dimensioni](using/reporting/metrics-and-dimensions.md)
 + Integrazione con i servizi intelligenti{#use-case-advanced}
-   + [Informazioni sull&#39;integrazione AI](using/ai-services/ai-services-overview.md)
-   + [Utilizzo dell&#39;AI del viaggio](using/ai-services/leveraging-fatigue-scores.md)
-   + [Utilizzo dell&#39;intelligenza artificiale del cliente](using/ai-services/leveraging-customer-ai.md)
+   + [Informazioni sull’integrazione con l’intelligenza artificiale](using/ai-services/ai-services-overview.md)
+   + [Sfruttamento dell’intelligenza artificiale del percorso](using/ai-services/leveraging-fatigue-scores.md)
+   + [Sfruttamento dell’intelligenza artificiale del cliente](using/ai-services/leveraging-customer-ai.md)
 + Casi d’uso{#use-cases-journeys}
    + Caso d’uso semplice{#use-case-simple}
       + [Informazioni sul caso d’uso semplice](using/usecase/about-the-simple-use-case.md)
@@ -182,10 +182,10 @@ ht-degree: 78%
       + [Configurazione delle origini dati](using/usecase/configuring-the-data-sources.md)
       + [Creazione di un percorso](using/usecase/building-the-journey.md)
 + Utilizzo delle API{#working-with-apis}
-   + [Capping delle API](using/api/capping.md)
+   + [Limitazione di utilizzo delle API](using/api/capping.md)
 + Funzioni alfa {#alpha}
    + [Panoramica delle funzioni alfa](using/alpha/alpha-overview.md)
    + [Interfaccia utente](using/alpha/alpha-interface.md)
-   + [Attività trigger segmento](using/alpha/alpha-segment-trigger.md)
+   + [Attività attivazione segmento](using/alpha/alpha-segment-trigger.md)
    + [Eventi basati su regole](using/alpha/alpha-events.md)
 
