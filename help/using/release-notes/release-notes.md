@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 66%
+ht-degree: 85%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 66%
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
 
-## Release Q2 - Giugno 2020 {#q2-release---june-2020}
+## Versione secondo trimestre - giugno 2020 {#q2-release---june-2020}
 
 <table>
 <thead>
 <tr>
-<th><strong>Miglioramenti dell'integrazione  Adobe Experience Platform</strong><br/></th>
+<th><strong>Miglioramenti dell’integrazione di Adobe Experience Platform</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -40,13 +40,13 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <li><p>Una nuova attività consente di ascoltare  ingressi/uscite di segmenti di Adobe Experience Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/segment-qualification-events.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p> segmenti di Adobe Experience Platform possono ora essere creati e modificati senza uscire dall'interfaccia del Journey Orchestration, grazie a una nuova scheda <strong>Segmenti</strong> .<a href="../segment/about-segments.md">Leggi tutto</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>Nell'editor di espressioni semplici,  segmenti di Adobe Experience Platform sono ora elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Il Journey Orchestration ora passa automaticamente al Adobe Experience Platform  le fasi eseguite nei viaggi. Ciò include potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e risoluzione dei problemi eseguendo query sugli eventi del Passaggio del viaggio per un viaggio particolare o per tutti i viaggi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
+<li><p>Il Journey Orchestration ora passa automaticamente al Adobe Experience Platform  le fasi eseguite nei viaggi. Ciò include i potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e ai fini di risoluzione dei problemi attraverso l’esecuzione di query sugli eventi del passaggio del percorso o per tutti i percorsi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
@@ -60,21 +60,21 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <table>
 <thead>
 <tr>
-<th><strong>Miglioramenti di Progettazione viaggi e modalità di prova</strong><br/></th>
+<th><strong>Miglioramenti di designer del percorso e modalità di test</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati i seguenti miglioramenti al progettista del viaggio e alla modalità di prova:</p>
+<p>Sono stati apportati i seguenti miglioramenti al designer del percorso e alla modalità di test:</p>
 <ul>
-<li><p>È ora possibile copiare le attività Incolla da un viaggio all'altro, selezionando 1 o N attività di viaggio. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Leggi tutto</a></p>
+<li><p>È ora possibile copiare e incollare le attività da un percorso all’altro, selezionando 1 o N attività di percorso. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Leggi tutto</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>Dopo aver attivato un evento per creare un profilo di test per entrare in un viaggio, potete ora vedere i suoi progressi lungo il percorso grazie a un flusso visivo colorato. In caso di errore nel percorso, vengono visualizzati anche i dettagli degli errori. <a href="../building-journeys/testing-the-journey.md#firing_events">Leggi tutto</a></p>
+<li><p>Dopo aver attivato un evento per la creazione di un profilo di test per l’accesso a un percorso, ora potrai vederne i progressi grazie a un flusso visivo colorato. In caso di errore nel percorso, vengono visualizzati anche i dettagli degli errori. <a href="../building-journeys/testing-the-journey.md#firing_events">Leggi tutto</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>Lo stato di <strong>viaggio Finito</strong> è stato rinominato <strong>Chiuso (senza entrata)</strong> per riflettere meglio cosa significa questo stato.</li>
+<li>Lo stato di percorso <strong>Finished</strong> è stato rinominato <strong>Closed (no entrance)</strong> per riflettere meglio il suo significato.</li>
 </ul>
 </td>
 </tr>
@@ -83,13 +83,13 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 
 **Altri miglioramenti**
 
-Per evitare di inviare troppe chiamate API a sistemi di terze parti, stiamo introducendo una nuova API pubblica per impostare le regole di &quot;capping&quot;. Le regole di intercettazione consentono di definire un numero massimo di chiamate a un endpoint API per millisecondi. [Leggi tutto](../api/capping.md)
+Per evitare di inviare un numero eccessivo di chiamate API a sistemi di terze parti, stiamo introducendo una nuova API pubblica per impostare le regole di “limitazione di utilizzo”. Le regole di limitazione di utilizzo consentono di definire un numero massimo di chiamate a un endpoint API per millisecondi. [Leggi tutto](../api/capping.md)
 
-Il controllo degli accessi ora consente una maggiore granularità nella gestione degli accessi utente. Disponibilità effettiva: 30 giugno 2020. [Leggi tutto](../about/access-management.md#create-product-profile)
+Adesso il controllo di accesso consente una maggiore granularità nella gestione degli accessi utente. Disponibilità effettiva: 30 giugno 2020. [Leggi tutto](../about/access-management.md#create-product-profile)
 
-Il Journey Orchestration è ora disponibile in APAC (datacenter australiano). Disponibilità effettiva: 30 giugno 2020
+Journey Orchestration è ora disponibile in APAC (datacenter australiano). Disponibilità effettiva: 30 giugno 2020
 
-L&#39;interfaccia del Journey Orchestration è disponibile in giapponese.
+L’interfaccia Journey Orchestration è disponibile in giapponese.
 
 ## Versione primo trimestre - marzo 2020 {#q1-release---march-2020}
 
@@ -203,5 +203,5 @@ Journey Orchestration consente l’orchestrazione in tempo reale basata su dati 
 
 Risorse aggiuntive:
 
-* [Esercitazioni](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Esercitazioni](https://docs.adobe.com/content/help/it-IT/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
