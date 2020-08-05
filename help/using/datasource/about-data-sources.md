@@ -37,7 +37,7 @@ Questa configurazione non è necessaria se i percorsi sfruttano solo i dati loca
 
 Esistono due tipi di origini dati:
 
-* L&#39;origine dati  Adobe Experience Platform preconfigurata che definisce la connessione al servizio profili cliente in tempo reale. che costituisce un’origine dati incorporata. A questo proposito, consulta la sezione [](../datasource/adobe-experience-platform-data-source.md).
+* L&#39;origine dati Adobe Experience Platform preconfigurata che definisce la connessione al servizio profili cliente in tempo reale. che costituisce un’origine dati incorporata. A questo proposito, consulta la sezione [](../datasource/adobe-experience-platform-data-source.md).
 * Le origini dati esterne che consentono di definire una connessione ai sistemi esterni, ovvero quelle che puoi creare. A questo proposito, consulta la sezione [](../datasource/external-data-sources.md).
 
 Per ciascuna origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi costituiscono insiemi di campi che possono essere recuperati da un’origine dati. A questo proposito, consulta la sezione [](../datasource/field-groups.md).
