@@ -58,6 +58,6 @@ A causa del timeout del viaggio di 30 giorni, quando il rientro del viaggio non 
 
 Il fuso orario è definito a livello di viaggio.
 
-Potete immettere un fuso orario fisso o utilizzare  profili di Adobe Experience Platform per definire il fuso orario del viaggio.
+Potete immettere un fuso orario fisso o utilizzare i profili Adobe Experience Platform per definire il fuso orario del viaggio.
 
 Per ulteriori informazioni sulla gestione del fuso orario, vedi [](../building-journeys/timezone-management.md).
