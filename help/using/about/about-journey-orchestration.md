@@ -21,7 +21,7 @@ ht-degree: 97%
 
 Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati.
 
-[!DNL Journey Orchestration] è un servizio di applicazione integrato con il Adobe Experience Platform .
+[!DNL Journey Orchestration] è un servizio di applicazione integrato con l&#39;Adobe Experience Platform.
 
 ![](../assets/journeydiagram.png)
 
