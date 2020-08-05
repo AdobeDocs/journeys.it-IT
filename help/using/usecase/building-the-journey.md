@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ L&#39;utente **** aziendale ora può costruire il percorso. Il nostro viaggio in
 * due **[!UICONTROL Event]** attività: &quot;LobbyBeacon&quot; e &quot;RestaurantBeacon&quot;
 * due **[!UICONTROL Condition]** attività
 * tre **[!UICONTROL Push]** attività e una **[!UICONTROL Email]** attività (utilizzando  Adobe Campaign Standard)
-* un&#39; **[!UICONTROL Wait]** attività
+* a **[!UICONTROL Wait]** activity
 * quattro **[!UICONTROL End]** attività
 
 >[!NOTE]
@@ -57,7 +57,7 @@ Per ulteriori informazioni su come costruire un viaggio, consulta [](../building
 
    ![](../assets/journeyuc2_15.png)
 
-1. Fate clic su **[!UICONTROL Advanced mode]** e definite la seguente condizione in base ai campi &quot;timestamp&quot; e &quot;directMarketing.send.value&quot; provenienti dall&#39;origine dati del Adobe Experience Platform . La sintassi dell&#39;espressione è la seguente:
+1. Fate clic su **[!UICONTROL Advanced mode]** e definite la seguente condizione in base ai campi &quot;timestamp&quot; e &quot;directMarketing.send.value&quot; provenienti dall&#39;origine dati Adobe Experience Platform. La sintassi dell&#39;espressione è la seguente:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -146,7 +146,7 @@ Dopo la condizione vengono creati due percorsi:
 
    ![](../assets/journeyuc2_23.png)
 
-1. Aggiungete una nuova **[!UICONTROL Push]** attività, selezionate il modello &quot;Sconto pasti&quot; e definite i **[!UICONTROL Address]** campi e **[!UICONTROL Personalization]** . Aggiungete un&#39; **[!UICONTROL End]** attività.
+1. Aggiungete una nuova **[!UICONTROL Push]** attività, selezionate il modello &quot;Sconto pasti&quot; e definite i **[!UICONTROL Address]** campi e **[!UICONTROL Personalization]** . Aggiungi un’attività **[!UICONTROL End]**. 
 
    ![](../assets/journeyuc2_24.png)
 
@@ -154,7 +154,7 @@ Dopo la condizione vengono creati due percorsi:
 
    ![](../assets/journeyuc2_31.png)
 
-1. Nel secondo percorso che segue la condizione di prenotazione (nessuna stanza prenotata), aggiungete un&#39; **[!UICONTROL Push]** attività e selezionate il modello &quot;Tariffe camera&quot;. Aggiungete un&#39; **[!UICONTROL End]** attività.
+1. Nel secondo percorso che segue la condizione di prenotazione (nessuna stanza prenotata), aggiungete un&#39; **[!UICONTROL Push]** attività e selezionate il modello &quot;Tariffe camera&quot;. Aggiungi un’attività **[!UICONTROL End]**. 
 
    ![](../assets/journeyuc2_25.png)
 
@@ -172,7 +172,7 @@ Dopo la condizione vengono creati due percorsi:
 
    ![](../assets/journeyuc2_28.png)
 
-1. Aggiungete un&#39; **[!UICONTROL End]** attività.
+1. Aggiungi un’attività **[!UICONTROL End]**. 
 
 Fai clic sull&#39; **[!UICONTROL Test]** interruttore e verifica il percorso. In caso di errore, disattivate la modalità di prova, modificate il percorso e verificatene di nuovo il funzionamento. Per ulteriori informazioni sulla modalità di prova, vedere [](../building-journeys/testing-the-journey.md).
 
