@@ -26,10 +26,10 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 ## Luglio 2020 {#july-2020}
 
-* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi che riportano  Adobe Experience Platform. [Leggi tutto](../building-journeys/sharing-overview.md)
-* La sezione delle attività degli eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Leggi tutto](../building-journeys/event-activities.md)
-* Sono state aggiunte procedure ottimali per evitare il sovraccarico con la qualifica del segmento. [Leggi tutto](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* È stata aggiunta una nota per spiegare come continuare un viaggio dopo un errore in un’azione o una condizione. [Leggi tutto](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi per il reporting ad Adobe Experience Platform. [Ulteriori informazioni](../building-journeys/sharing-overview.md)
+* La sezione delle attività degli eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Ulteriori informazioni](../building-journeys/event-activities.md)
+* Sono state aggiunte procedure ottimali per evitare il sovraccarico con la qualifica del segmento. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* È stata aggiunta una nota per spiegare come continuare un viaggio dopo un errore in un’azione o una condizione. [Ulteriori informazioni](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * È stata aggiunta una nuova sezione sulle funzioni alfa testate tra un gruppo limitato di clienti. [Leggi tutto](../alpha/alpha-overview.md)
 * È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Leggi tutto](../ai-services/ai-services-overview.md)
 * È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md#create-test-profile)
