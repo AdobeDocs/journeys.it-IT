@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -37,14 +37,14 @@ Per chiudere un viaggio, fai clic **[!UICONTROL Close to new entrances]** mentre
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
-È inoltre possibile:
+Puoi inoltre:
 
 1. In **[!UICONTROL Home]**, fare clic sul viaggio che si desidera chiudere.
 1. In alto a destra, fate clic sulla freccia giù.
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Clic **[!UICONTROL Close to new entrances]**. Viene visualizzata una finestra di dialogo.
+1. Fai clic su **[!UICONTROL Close to new entrances]**. Viene visualizzata una finestra di dialogo.
 1. Fate clic **[!UICONTROL Close to new entrances]** per confermare.
 
 ## Interruzione di un viaggio
@@ -57,12 +57,12 @@ Puoi interrompere un viaggio (ad esempio, se un esperto di marketing si rende co
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
-È inoltre possibile:
+Puoi inoltre:
 
 1. In **[!UICONTROL Home]**, clicca sul viaggio che vuoi fermare.
 1. In alto a destra, fate clic sulla freccia giù.
 
 ![](../assets/finish_drop_down_list.png)
 
-1. Clic **[!UICONTROL Stop]**. Viene visualizzata una finestra di dialogo.
+1. Fai clic su **[!UICONTROL Stop]**. Viene visualizzata una finestra di dialogo.
 1. Fate clic **[!UICONTROL Stop]** per confermare.
