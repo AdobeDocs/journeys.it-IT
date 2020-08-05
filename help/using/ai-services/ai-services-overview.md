@@ -14,16 +14,16 @@ translation-type: tm+mt
 source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Informazioni sull&#39;integrazione AI {#ai-overview}
+# Informazioni sull’integrazione con l’intelligenza artificiale {#ai-overview}
 
 L&#39;integrazione con i servizi intelligenti consente di sfruttare la potenza dell&#39;intelligenza artificiale e dell&#39;apprendimento automatico nei casi di utilizzo dell&#39;esperienza del cliente. Questo consente agli analisti di marketing di impostare previsioni specifiche per le esigenze di un&#39;azienda utilizzando configurazioni a livello di business, senza bisogno di conoscenze scientifiche.
 
-Per ulteriori informazioni su Intelligent Services, consulta la [documentazione](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
+For more information on Intelligent Services, refer to the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
 
 Questa integrazione consente di:
 
