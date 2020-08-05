@@ -23,12 +23,12 @@ ht-degree: 0%
 
 ## Informazioni sull&#39;interfaccia della versione Alfa {#about-alpha-interface}
 
-La navigazione all&#39;interno [!DNL Journey Orchestration] dei menu è stata migliorata, per fornire un&#39;interfaccia coerente con  Adobe Experience Platform. Le modifiche includono:
+La navigazione all&#39;interno [!DNL Journey Orchestration] dei menu è stata migliorata, per fornire un&#39;interfaccia coerente con Adobe Experience Platform. Le modifiche includono:
 
 * Menu spostati dall&#39;alto a sinistra dell&#39;interfaccia,
 * Raggruppamento delle funzionalità di amministrazione in un&#39;unica dashboard.
 
-In [questa sezione](../about/user-interface.md)sono illustrati concetti globali relativi all’utilizzo e alla navigazione nell’interfaccia (ricerca e filtro, navigazione  campi di Adobe Experience Platform, collegamenti).
+In [questa sezione](../about/user-interface.md)sono illustrati concetti globali relativi all’utilizzo e alla navigazione nell’interfaccia (ricerca e filtro, navigazione nei campi Adobe Experience Platform, collegamenti).
 
 ## Accesso alle [!DNL Journey Orchestration] funzionalità {#accessing-journey-orchestration-functionalities}
 
@@ -36,7 +36,7 @@ Quando accedete [!DNL Journey Orchestration], viene visualizzato il **[!UICONTRO
 
 ![](../assets/interface-journeys.png)
 
-Il **[!UICONTROL Segments]** menu consente di accedere e creare segmenti  Adobe Experience Platform. Consultate [Informazioni  segmenti](../segment/about-segments.md)di Adobe Experience Platform.
+Il **[!UICONTROL Segments]** menu consente di accedere e creare segmenti Adobe Experience Platform. Consultate [I segmenti](../segment/about-segments.md)Adobe Experience Platform.
 
 ![](../assets/interface-segments.png)
 
