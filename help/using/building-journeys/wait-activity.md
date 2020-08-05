@@ -70,15 +70,15 @@ Questa opzione consente di definire una data personalizzata, ad esempio 12 lugli
 
 >[!CAUTION]
 >
->La funzionalità di ottimizzazione dell&#39;ora di invio tramite e-mail è disponibile solo per i clienti che utilizzano la funzione Servizio dati Adobe Campaign Standard .
+>La funzionalità di ottimizzazione dell&#39;ora di invio tramite e-mail è disponibile solo per i clienti che utilizzano la funzione  Adobe Campaign Standard Data Service.
 
-Questo tipo di attesa utilizza un punteggio calcolato nel Adobe Experience Platform . La valutazione calcola la propensione a fare clic o aprire un messaggio e-mail in futuro in base al comportamento passato. L&#39;algoritmo che calcola il punteggio richiede una certa quantità di dati per funzionare. Di conseguenza, quando non dispone di dati sufficienti, viene applicato il tempo di attesa predefinito. Al momento della pubblicazione, vi verrà notificato che si applica l’ora predefinita.
+Questo tipo di attesa utilizza una valutazione calcolata in Adobe Experience Platform. La valutazione calcola la propensione a fare clic o aprire un messaggio e-mail in futuro in base al comportamento passato. L&#39;algoritmo che calcola il punteggio richiede una certa quantità di dati per funzionare. Di conseguenza, quando non dispone di dati sufficienti, viene applicato il tempo di attesa predefinito. Al momento della pubblicazione, vi verrà notificato che si applica l’ora predefinita.
 
 >[!NOTE]
 >
 >Il primo evento del viaggio deve avere uno spazio dei nomi.
 >
->Questa funzionalità è disponibile solo dopo un&#39; **[!UICONTROL Email]** attività. Deve avere  Adobe Campaign Standard.
+>Questa funzionalità è disponibile solo dopo un&#39; **[!UICONTROL Email]** attività. Devi avere  Adobe Campaign Standard.
 
 1. Nel **[!UICONTROL Amount of time]** campo, definite il numero di ore da dedicare all’ottimizzazione dell’invio delle e-mail.
 1. Nel **[!UICONTROL Optimization type]** campo, scegliete se l&#39;ottimizzazione deve aumentare i clic o si apre.
