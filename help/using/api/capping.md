@@ -28,7 +28,7 @@ Durante una configurazione dell&#39;origine dati, definirai una connessione a un
 Per ulteriori informazioni sulla configurazione delle azioni o delle origini dati, vedere [Informazioni sulle azioni](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
 
 
-## Risorse
+## Resources
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Per verificare e preparare l&#39;integrazione, è disponibile [qui](https://raw.
 >Per gestire i certificati in  I/O Adobe, accertatevi di disporre dei diritti di amministratore <b>di</b> sistema sull&#39;organizzazione o su un account [](https://helpx.adobe.com/enterprise/using/manage-developers.html) sviluppatore nell&#39;Admin Console.
 
 1. **Verificate di disporre di un certificato** digitale oppure createne uno, se necessario. Le chiavi pubblica e privata fornite con il certificato sono necessarie nei seguenti passaggi.
-1. **Crea una nuova integrazione nel[!DNL Journey Orchestration]servizio** in  Adobe I/O e configurala. L&#39;accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e  Adobe Experience Platform. Le credenziali verranno quindi generate (Chiave API, Segreto cliente...).
+1. **Crea una nuova integrazione nel[!DNL Journey Orchestration]servizio** in  Adobe I/O e configurala. L&#39;accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (Chiave API, Segreto cliente...).
 1. **Create un token Web JSON (JWT)** dalle credenziali generate in precedenza e firmatelo con la vostra chiave privata. Il JWT codifica tutte le informazioni di identità e sicurezza necessarie per  Adobe per verificare la propria identità e concedere l&#39;accesso all&#39;API. Questo passaggio è dettagliato in questa [sezione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Scambiate il JWT per ottenere un token** di accesso tramite una richiesta di POST o tramite l&#39;interfaccia della console per sviluppatori. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
 
