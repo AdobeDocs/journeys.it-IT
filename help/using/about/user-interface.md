@@ -77,7 +77,7 @@ All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun eleme
 
 ![](../assets/journey4.png)
 
-## Esplorazione  campi Adobe Experience Platform {#friendly-names-display}
+## Esplorazione dei campi di Adobe Experience Platform {#friendly-names-display}
 
 Quando si definisce il [payload dell’evento](../event/defining-the-payload-fields.md) e il [payload del gruppo di campi](../datasource/field-groups.md) e si selezionano i campi nell’[editor delle espressioni](../expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
