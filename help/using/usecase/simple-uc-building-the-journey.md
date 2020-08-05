@@ -26,7 +26,7 @@ L&#39;utente **** aziendale ora può costruire il percorso. Il nostro viaggio in
 * &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon termale, il sistema riceverà un evento e il viaggio inizierà per quella persona.
 * un&#39; **[!UICONTROL Condition]** attività per verificare che la persona sia una donna
 * un&#39; **[!UICONTROL Email]** attività (utilizzando  Adobe Campaign Standard)
-* un&#39; **[!UICONTROL End]** attività
+* an **[!UICONTROL End]** activity
 
 >[!NOTE]
 >
