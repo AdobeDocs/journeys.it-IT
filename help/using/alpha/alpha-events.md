@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -39,15 +39,15 @@ Questo nuovo metodo è per lo più trasparente per gli utenti. L’unica modific
 
    ![](../assets/alpha-event3.png)
 
-1. Nel nuovo **[!UICONTROL Event ID type]** campo, selezionare **[!UICONTROL Rule Based]**.
+1. In the new **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL System Generated]** tipo è il metodo esistente che richiede un eventID. Vedere [questa sezione](../event/about-events.md).
+   >Il **[!UICONTROL System Generated]** tipo è il metodo esistente che richiede un eventID. Vedi [questa sezione](../event/about-events.md).
 
-1. Definire il **[!UICONTROL Schema]** e il payload **[!UICONTROL Fields]**. Vedere [questa sezione](../event/defining-the-payload-fields.md).
+1. Definire il **[!UICONTROL Schema]** e il payload **[!UICONTROL Fields]**. Vedi [questa sezione](../event/defining-the-payload-fields.md).
 
    ![](../assets/alpha-event5.png)
 
