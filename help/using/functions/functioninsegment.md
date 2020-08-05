@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ Controlla se un singolo appartiene a un determinato segmento.
 
 Il nome del segmento deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione.
 
-I segmenti sono definiti nel Adobe Experience Platform [](https://platform.adobe.com/segment/overview). L&#39;editor di espressioni fornisce un elenco di segmenti compilato automaticamente.
+I segmenti sono definiti in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L&#39;editor di espressioni fornisce un elenco di segmenti compilato automaticamente.
 
 >[!NOTE]
 >
@@ -57,4 +57,4 @@ Restituisce un valore booleano.
 
 Spiegazione:
 
-La funzione restituirà **[!UICONTROL true]** se l&#39;individuo all&#39;interno dell&#39;istanza di viaggio fa parte del segmento di Adobe Experience Platform  denominato &quot;men over 50&quot;, **[!UICONTROL false]** altrimenti.
+La funzione restituisce **[!UICONTROL true]** se l&#39;individuo all&#39;interno dell&#39;istanza del viaggio fa parte del segmento Adobe Experience Platform denominato &quot;men over 50&quot;, **[!UICONTROL false]** altrimenti.
