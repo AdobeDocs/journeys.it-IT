@@ -1,6 +1,6 @@
 ---
 title: 'Origine dati Adobe Experience Platform '
-description: 'Scopri come configurare l''origine dati del Adobe Experience Platform  '
+description: 'Informazioni su come configurare l''origine dati Adobe Experience Platform '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 # Origine dati Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-L&#39;origine dati del Adobe Experience Platform  definisce la connessione al servizio profilo cliente in tempo reale. Questa origine dati è incorporata e preconfigurata. Non può essere eliminato. Questa origine dati è progettata per recuperare e utilizzare i dati dal Servizio profili cliente in tempo reale (ad esempio, verificare se la persona che ha effettuato un viaggio è una donna). Consente di utilizzare i dati di profilo e gli eventi esperienza. Per ulteriori informazioni sul servizio Profilo cliente in tempo reale, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html).
+L&#39;origine dati Adobe Experience Platform definisce la connessione a Real-time Customer Profile Service. Questa origine dati è incorporata e preconfigurata. Non può essere eliminato. Questa origine dati è progettata per recuperare e utilizzare i dati dal Servizio profili cliente in tempo reale (ad esempio, verificare se la persona che ha effettuato un viaggio è una donna). Consente di utilizzare i dati di profilo e gli eventi esperienza. Per ulteriori informazioni sul servizio Profilo cliente in tempo reale, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Potete modificare il gruppo di campi preconfigurato denominato &quot;ProfileFiel
 
 Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi all&#39;origine dati incorporata.
 
-1. Dall&#39;elenco delle origini dati, selezionare l&#39;origine dati  Adobe Experience Platform incorporata.
+1. Dall&#39;elenco delle origini dati, selezionare l&#39;origine dati Adobe Experience Platform incorporata.
 
    Sul lato destro dello schermo si apre il riquadro di configurazione dell’origine dati .
 
@@ -43,7 +43,7 @@ Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi a
 
    ![](../assets/journey24.png)
 
-1. Selezionare uno schema dal **[!UICONTROL Schema]** menu a discesa. In questo campo sono elencati gli schemi di eventi di profilo ed esperienza disponibili nel Adobe Experience Platform . La creazione dello schema non viene eseguita in [!DNL Journey Orchestration]. Viene eseguito nel Adobe Experience Platform .
+1. Selezionare uno schema dal **[!UICONTROL Schema]** menu a discesa. In questo campo sono elencati gli schemi di eventi di profilo ed esperienza disponibili in Adobe Experience Platform. La creazione dello schema non viene eseguita in [!DNL Journey Orchestration]. Viene eseguito in Adobe Experience Platform.
 1. Selezionate i campi che desiderate usare.
 1. Definite la durata della cache.
 1. Fate clic su **[!UICONTROL Save]**.
