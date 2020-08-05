@@ -21,11 +21,11 @@ ht-degree: 6%
 
 # Configurazione dell’origine dati{#concept_ax3_bcy_w2b}
 
-Nel nostro caso d&#39;uso, vogliamo utilizzare dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è una donna. Queste informazioni sono memorizzate nel database del profilo cliente in tempo reale. L&#39;utente **** tecnico deve verificare che tali campi siano definiti nell&#39;origine dati  Adobe Experience Platform incorporata.
+Nel nostro caso d&#39;uso, vogliamo utilizzare dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è una donna. Queste informazioni sono memorizzate nel database del profilo cliente in tempo reale. L&#39;utente **** tecnico deve verificare che tali campi siano definiti nell&#39;origine dati Adobe Experience Platform incorporata.
 
 Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare riferimento a [](../datasource/about-data-sources.md).
 
-1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare l&#39;origine dati  Adobe Experience Platform incorporata.
+1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare l&#39;origine dati Adobe Experience Platform incorporata.
 
    ![](../assets/journey23.png)
 
@@ -36,6 +36,6 @@ Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare rife
    * _persona > genere_
    * _personalEmail > address_
 
-1. Clic **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
 L&#39;origine dati ora è configurata e pronta per essere utilizzata durante il viaggio.
