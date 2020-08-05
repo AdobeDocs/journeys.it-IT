@@ -19,11 +19,11 @@ ht-degree: 0%
 ---
 
 
-# eventi dei passi di viaggio, campi comuni {#sharing-common-fields}
+# journeysteps events common fields {#sharing-common-fields}
 
 Questo mixin sarà condiviso da pathStepEvent e pathStepProfileEvent.
 
-Si tratta dei campi XDM comuni che [!DNL Journey Orchestration] vengono inviati al Adobe Experience Platform . Verranno inviati campi comuni per ogni fase elaborata durante un viaggio. Campi più specifici vengono utilizzati per azioni personalizzate e per arricchimenti.
+Si tratta dei campi XDM più comuni che [!DNL Journey Orchestration] vengono inviati ad Adobe Experience Platform. Verranno inviati campi comuni per ogni fase elaborata durante un viaggio. Campi più specifici vengono utilizzati per azioni personalizzate e per arricchimenti.
 
 Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione delle azioni, recupero dei dati, ecc.) per limitare la dimensione degli eventi.
 
@@ -83,7 +83,7 @@ Valori possibili:
 
 * Condizione
 * Azione
-* Pianificazione
+* Scheduler
 * Timer
 
 ## stepStatus
