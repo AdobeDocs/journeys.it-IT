@@ -1,6 +1,6 @@
 ---
-title: Panoramica sulla condivisione delle fasi del viaggio
-description: Panoramica sulla condivisione delle fasi del viaggio
+title: Panoramica sulla condivisione delle fasi del percorso
+description: Panoramica sulla condivisione delle fasi del percorso
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,18 +14,18 @@ translation-type: tm+mt
 source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Panoramica sulla condivisione delle fasi del viaggio{#sharing-overview}
+# Panoramica sulla condivisione delle fasi del percorso{#sharing-overview}
 
-[!DNL Journey Orchestration] invia automaticamente i dati sulle prestazioni del viaggio al Adobe Experience Platform , in modo che possano essere combinati con altri dati a scopo di analisi.
+[!DNL Journey Orchestration] invia automaticamente i dati sulle prestazioni del viaggio all&#39;Adobe Experience Platform, in modo che possa essere combinato con altri dati a scopo di analisi.
 
-Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità consente di combinare [!DNL Journey Orchestration] i dati con i dati evento a valle, come il numero di conversioni verificatesi, il livello di coinvolgimento verificatosi sul sito Web o il numero di transazioni avvenute nello store. Le informazioni sul viaggio possono essere combinate con dati sul Adobe Experience Platform , provenienti da altre proprietà digitali o da proprietà offline, per fornire una visione più completa delle prestazioni.
+Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità consente di combinare [!DNL Journey Orchestration] i dati con i dati evento a valle, come il numero di conversioni verificatesi, il livello di coinvolgimento verificatosi sul sito Web o il numero di transazioni avvenute nello store. Le informazioni sul viaggio possono essere combinate con dati sull&#39;Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline, per fornire una visione più completa delle prestazioni.
 
-[!DNL Journey Orchestration] crea automaticamente gli schemi e i flussi necessari nei set di dati al Adobe Experience Platform  per ogni passaggio effettuato da un individuo in un viaggio. Un evento step corrisponde a un singolo spostamento da un nodo all&#39;altro in un percorso. Ad esempio, in un percorso con un evento, una condizione e un&#39;azione, vengono inviati tre eventi step al Adobe Experience Platform .
+[!DNL Journey Orchestration] crea automaticamente gli schemi e i flussi necessari nei set di dati all&#39;Adobe Experience Platform per ogni passaggio effettuato da un utente in un determinato viaggio. Un evento step corrisponde a un singolo spostamento da un nodo all&#39;altro in un percorso. Ad esempio, in un percorso che include un evento, una condizione e un&#39;azione, vengono inviati all&#39;Adobe Experience Platform tre eventi step.
 
 L&#39;elenco dei campi XDM che vengono passati è completo. Alcuni contengono codici generati dal sistema e altri hanno nomi comprensibili agli utenti. Alcuni esempi includono l’etichetta dell’attività di viaggio o lo stato del passaggio: quante volte un&#39;azione è scaduta o terminata in un errore.
 
@@ -53,12 +53,12 @@ Vengono passati i seguenti set di dati:
 
 ![](../assets/sharing3.png)
 
-Gli elenchi dei campi XDM passati al Adobe Experience Platform  sono descritti di seguito:
+Gli elenchi dei campi XDM passati all&#39;Adobe Experience Platform sono descritti di seguito:
 
-* [Evento pathSteps campi comuni](../building-journeys/sharing-common-fields.md)
-* [eventi pathStep campi di esecuzione azione](../building-journeys/sharing-execution-fields.md)
-* [percorso:eventi, campi di recupero dati](../building-journeys/sharing-fetch-fields.md)
-* [pathStep, campi di identità dell&#39;evento](../building-journeys/sharing-identity-fields.md)
-* [campi di viaggio](../building-journeys/sharing-journey-fields.md)
+* [Campi comuni degli eventi journeySteps](../building-journeys/sharing-common-fields.md)
+* [Campi di esecuzione azione degli eventi journeyStep](../building-journeys/sharing-execution-fields.md)
+* [Campi di recupero dati di journeyStep](../building-journeys/sharing-fetch-fields.md)
+* [Campi di identità dell’evento di journeyStep](../building-journeys/sharing-identity-fields.md)
+* [Campi del percorso](../building-journeys/sharing-journey-fields.md)
 
-Per ulteriori informazioni sugli eventi di passaggio che riferiscono  Adobe Experience Platform, guardate questo video [di](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)esercitazione.
+Per ulteriori informazioni sugli eventi dei passaggi da riportare ad Adobe Experience Platform, guardate questo video [di](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)esercitazione.
