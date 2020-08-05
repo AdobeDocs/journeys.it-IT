@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ L&#39;editor di espressioni avanzate può essere utilizzato per creare condizion
 
 L&#39;editor di espressioni avanzate è obbligatorio per eseguire query sulle serie temporali, ad esempio un elenco di acquisti o clic passati sui messaggi. Tali query non possono essere eseguite utilizzando l&#39;editor semplice.
 
-Gli eventi esperienza vengono recuperati dal Adobe Experience Platform  come raccolta in ordine cronologico inverso, di conseguenza:
+Gli eventi esperienza vengono recuperati dall&#39;Adobe Experience Platform come raccolta in ordine cronologico inverso, di conseguenza:
 
 * la prima funzione restituirà l&#39;evento più recente
 * last function restituirà quella più vecchia.
