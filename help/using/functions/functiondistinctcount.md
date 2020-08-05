@@ -1,5 +1,5 @@
 ---
-title: separateCount
+title: distinctCount
 description: Scopri la funzione distintaCount
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
 
-# separateCount{#distinctCount}
+# distinctCount{#distinctCount}
 
 Conta il numero di valori diversi ignorando i valori null.
 
