@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -42,14 +42,14 @@ Si noti che la progettazione dei viaggi ha un impatto funzionale. Quando più pe
 
 Puoi creare un altro percorso per audience non idonee alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni divise. Vedere [Dividi](#percentage_split)percentuali.
 
-La modalità semplice consente di eseguire semplici query basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati sul lato sinistro dello schermo. Trascinare i campi nella zona principale. Per combinare i diversi elementi, collegateli tra loro per creare diversi gruppi e/o livelli di gruppo. È quindi possibile selezionare un operatore logico per combinare elementi sullo stesso livello:
+La modalità semplice consente di eseguire semplici query basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati sul lato sinistro dello schermo. Trascinare i campi nella zona principale. Per combinare i diversi elementi, collegateli tra loro per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
 
 * E: un&#39;intersezione di due criteri. Vengono presi in considerazione solo gli elementi che corrispondono a tutti i criteri.
-* O: un&#39;unione di due criteri. Vengono presi in considerazione gli elementi che corrispondono ad almeno uno dei due criteri.
+* O: un&#39;unione di due criteri. Vengono considerati gli elementi che corrispondono ad almeno uno dei due criteri.
 
 ![](../assets/journey64.png)
 
-Se utilizzi il [Servizio](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) di segmentazione del Adobe Experience Platform per creare i tuoi segmenti, puoi sfruttarli nelle tue condizioni di viaggio. Fare riferimento a [Utilizzo dei segmenti nelle condizioni](../segment/using-a-segment.md).
+Se utilizzi [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) per creare i tuoi segmenti, puoi sfruttarli nelle tue condizioni di viaggio. Fare riferimento a [Utilizzo dei segmenti nelle condizioni](../segment/using-a-segment.md).
 
 
 >[!NOTE]
