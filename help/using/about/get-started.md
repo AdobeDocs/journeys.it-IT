@@ -33,7 +33,7 @@ Di seguito sono riportati i passaggi principali per la configurazione e l’util
 
 1. **Configurare l’origine dati**
 
-   È necessario definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle tue condizioni. In fase di provisioning viene configurata anche un&#39;origine dati  Adobe Experience Platform incorporata. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguito da un **utente tecnico**.
+   È necessario definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle tue condizioni. Un&#39;origine dati Adobe Experience Platform integrata è configurata anche in fase di provisioning. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguito da un **utente tecnico**.
 
    Per ulteriori informazioni, fai riferimento a [](../datasource/about-data-sources.md).
 
