@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -49,12 +49,12 @@ Per questo caso di utilizzo, sarà necessario creare due eventi (vedere [](../us
 
 Sarà necessario configurare una connessione a due origini dati (vedere [](../usecase/configuring-the-data-sources.md)):
 
-* L&#39;origine dati  Adobe Experience Platform integrata, per recuperare le informazioni relative alle nostre due condizioni (iscrizione fedeltà e data dell&#39;ultimo contatto) e le informazioni sulla personalizzazione dei messaggi.
+* L&#39;origine dati Adobe Experience Platform integrata, per recuperare le informazioni relative alle nostre due condizioni (iscrizione fedeltà e data dell&#39;ultimo contatto) e le informazioni sulla personalizzazione dei messaggi.
 * Il sistema di prenotazione alberghiera, per recuperare le informazioni sullo stato della prenotazione.
 
 ## Prerequisiti {#prerequisites}
 
-Per il nostro caso d&#39;uso, abbiamo progettato tre modelli di messaggistica transazionali  Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionali evento. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
+Per il nostro caso d&#39;uso, abbiamo progettato tre  modelli di messaggistica transazionali Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionali evento. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
  Adobe Campaign Standard è configurato per inviare e-mail e notifiche push.
 
