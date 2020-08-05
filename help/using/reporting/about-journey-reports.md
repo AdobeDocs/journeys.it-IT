@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->I dati di consegna e il componente Segmenti verranno compilati solo se si dispone  Adobe Campaign Standard.
+>I dati di distribuzione e il componente Segmenti verranno compilati solo se si dispone  Adobe Campaign Standard.
 
 In questa sezione viene illustrato come accedere e utilizzare i rapporti per misurare l&#39;efficacia dei viaggi.
 
