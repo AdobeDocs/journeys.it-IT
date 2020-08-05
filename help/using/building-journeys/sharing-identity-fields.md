@@ -1,6 +1,6 @@
 ---
-title: pathStep, campi di identità dell'evento
-description: pathStep, campi di identità dell'evento
+title: Campi di identità dell’evento di journeyStep
+description: Campi di identità dell’evento di journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
 
-# pathStep, campi di identità dell&#39;evento {#sharing-identity-fields}
+# Campi di identità dell’evento di journeyStep {#sharing-identity-fields}
 
 Questo mixin è specifico per pathStepEvent: questo evento è correlato al viaggio e non dispone della mappa identità, che descrive l&#39;eventuale identità del profilo.
 
