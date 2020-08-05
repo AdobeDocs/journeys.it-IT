@@ -56,8 +56,8 @@ La tabella seguente fornisce l’elenco delle dimensioni di consegna utilizzate 
 | **Dispositivo** | Dispositivo da cui è stata aperta/visualizzata/su cui è stato fatto clic la notifica e-mail/SMS/push. |
 | **Tipo di messaggio** | Canale utilizzato per la consegna, ad esempio e-mail, SMS, notifica push o In-App. |
 | **Nome app mobile** | Nome dell’applicazione mobile |
-| **Platform** | Platform del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio. |
-| **[!UICONTROL Push platform]** | Platform del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android. |
+| **Piattaforma** | Piattaforma del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio. |
+| **[!UICONTROL Push platform]** | Piattaforma del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android. |
 | **Dominio destinatario** | Dominio utilizzato per aprire l’e-mail. |
 | **URL tracciamento** | URL su cui l’utente ha fatto clic dal messaggio. |
 | **Categoria URL tracciamento** | Categoria assegnata all’URL di tracciamento. |
@@ -98,7 +98,7 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti d
 | **tasso Elenco Bloccati** | Numero totale di messaggi  inserii nell&#39;elenco Bloccati rispetto ai messaggi inviati. |
 | **Bounge + errori** | Totale degli errori cumulati durante l&#39;elaborazione del recapito e del ritorno automatico in relazione al numero totale di messaggi inviati. |
 | **Rimbalzo + tasso di errore** | Numero totale di messaggi rimbalzati rispetto ai messaggi inviati. |
-| **Clic** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
+| **Fai clic su** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
 | **Tasso di click-through** | Numero totale di clic in una consegna rispetto al numero di messaggi inviati. |
 | **Consegnato** | Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati. |
 | **Tasso di consegna** | Numero totale di messaggi consegnati correttamente rispetto ai messaggi inviati. |
