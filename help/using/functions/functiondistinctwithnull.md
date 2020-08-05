@@ -1,5 +1,5 @@
 ---
-title: separateWithNull
+title: distinctWithNull
 description: Scopri la funzione separateWithNull
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -19,7 +19,7 @@ ht-degree: 11%
 ---
 
 
-# separateWithNull {#distinctWithNull}
+# distinctWithNull {#distinctWithNull}
 
 Restituisce i valori distinti dell&#39;elenco. Se nell&#39;elenco è presente almeno un valore null, nell&#39;elenco restituito verrà incluso un valore null.
 
