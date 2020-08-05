@@ -21,11 +21,11 @@ ht-degree: 14%
 
 # Configurazione delle origini dati {#concept_vml_hdy_w2b}
 
-Nel nostro caso d&#39;uso, vogliamo utilizzare dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è un membro fedeltà e non è stata contattata nelle ultime 24 ore. Queste informazioni sono memorizzate nel database del profilo cliente in tempo reale. L&#39;utente **** tecnico deve configurare l&#39;origine dati  Adobe Experience Platform per recuperare tali campi.
+Nel nostro caso d&#39;uso, vogliamo utilizzare dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è un membro fedeltà e non è stata contattata nelle ultime 24 ore. Queste informazioni sono memorizzate nel database del profilo cliente in tempo reale. L&#39;utente **** tecnico deve configurare l&#39;origine dati Adobe Experience Platform per recuperare tali campi.
 
 Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare riferimento a [](../datasource/about-data-sources.md).
 
-1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare l&#39;origine dati  Adobe Experience Platform incorporata.
+1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare l&#39;origine dati Adobe Experience Platform incorporata.
 
    ![](../assets/journey23.png)
 
@@ -43,7 +43,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare rife
 
    ![](../assets/journeyuc2_7.png)
 
-1. Clic **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
 Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di prenotazione alberghiera. L&#39;utente **** tecnico deve configurare una seconda origine dati per recuperare questo campo.
 
@@ -77,6 +77,6 @@ Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di preno
 
    ![](../assets/journeyuc2_11.png)
 
-1. Clic **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
    Le origini dati ora sono configurate e pronte per essere utilizzate durante il viaggio.
