@@ -1,6 +1,6 @@
 ---
-title: percorso:eventi, campi di recupero dati
-description: percorso:eventi, campi di recupero dati
+title: Campi di recupero dati di journeyStep
+description: Campi di recupero dati di journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# percorso:eventi, campi di recupero dati {#sharing-fetch-fields}
+# Campi di recupero dati di journeyStep {#sharing-fetch-fields}
 
 Questo mixin sarà condiviso da pathStepEvent e pathStepProfileEvent.
 
@@ -33,7 +33,7 @@ Tipo: long
 
 ## fetchTypeInError
 
-Definisce se l&#39;errore di recupero si trova nel Adobe Experience Platform  o in un&#39;origine dati personalizzata.
+Definisce se l&#39;errore di recupero si trova sull&#39;Adobe Experience Platform o su un&#39;origine dati personalizzata.
 
 Tipo: string
 
@@ -93,13 +93,13 @@ Tipo: long
 
 ## fetchPlatformTotalTime
 
-Il tempo totale impiegato per recuperare i dati  Adobe Experience Platform in millisecondi. Nota: questo tempo viene calcolato dal momento in cui il motore invia l’evento di arricchimento al servizio di arricchimento e riceve la risposta.
+Il tempo totale impiegato per recuperare i dati da Adobe Experience Platform in millisecondi. Nota: questo tempo viene calcolato dal momento in cui il motore invia l’evento di arricchimento al servizio di arricchimento e riceve la risposta.
 
 Tipo: long
 
 ## fetchPlatformCount
 
-Il numero di volte in cui i dati vengono recuperati dal  Adobe Experience Platform.
+Quante volte i dati vengono recuperati da Adobe Experience Platform.
 
 Tipo: long
 
