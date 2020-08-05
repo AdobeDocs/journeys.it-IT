@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Il menu Home del viaggio consente di visualizzare l&#39; **elenco dei viaggi**. 
 
 ## La lista di viaggi {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso chiuso. Potete creare una nuova versione, duplicarla o interromperla. Puoi anche usare la barra di ricerca per cercare un percorso.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso terminato. Potete creare una nuova versione, duplicarla o interromperla. Puoi anche usare la barra di ricerca per cercare un percorso.
 
 Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare i viaggi visualizzati in base a criteri diversi (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). Potete anche scegliere di visualizzare solo i viaggi che utilizzano un evento, un gruppo di campi o un&#39;azione particolare. È possibile configurare le colonne visualizzate nell&#39;elenco. Tutti i filtri e le colonne vengono salvati per utente.
 
