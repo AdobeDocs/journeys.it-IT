@@ -1,6 +1,6 @@
 ---
-title: campi di viaggio
-description: campi di viaggio
+title: Campi del percorso
+description: Campi del percorso
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
 
-# campi di viaggio {#sharing-journey-fields}
+# Campi del percorso {#sharing-journey-fields}
 
 Questo mixin viene utilizzato nello schema del percorso (in relazione con pathStepEvent). Contiene i campi seguenti:
 
