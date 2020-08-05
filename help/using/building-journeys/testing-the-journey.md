@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -51,15 +51,15 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
 * Viene fornita un&#39;interfaccia per attivare gli eventi per il percorso testato, ma gli eventi possono essere inviati anche da sistemi di terze parti come Postman.
 * Solo gli individui contrassegnati come &quot;profili di prova&quot; nel servizio di profilo cliente in tempo reale potranno entrare nel percorso testato. A questo proposito, consulta la sezione [](../building-journeys/testing-the-journey.md#create-test-profile).
-* La modalità test è disponibile solo nelle bozze di viaggio che utilizzano uno spazio dei nomi. La modalità di prova deve verificare se una persona che accede al viaggio è o meno un profilo di prova e deve quindi essere in grado di raggiungere il Adobe Experience Platform .
+* La modalità test è disponibile solo nelle bozze di viaggio che utilizzano uno spazio dei nomi. La modalità di prova deve verificare se una persona che accede al viaggio è un profilo di prova o meno e deve quindi essere in grado di raggiungere l’Adobe Experience Platform.
 * Il numero massimo di profili di test che possono entrare in un percorso durante una sessione di test è 100.
 * Quando disattivate la modalità di prova, i viaggi vengono svuotati da tutte le persone che sono entrate nel passato o che vi si trovano attualmente. Inoltre, la relazione è stata cancellata.
 * Potete attivare/disattivare la modalità di prova il numero di volte necessario.
 * Non è possibile modificare il percorso quando viene attivata la modalità di prova. In modalità di prova, potete pubblicare direttamente il percorso, senza dover disattivare la modalità di prova prima.
 
-## Creazione di un profilo di test{#create-test-profile}
+## Creating a test profile{#create-test-profile}
 
-La procedura per creare un profilo di test è la stessa utilizzata per creare un profilo nel Adobe Experience Platform . Viene eseguito tramite chiamate API. Vedere questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)
+La procedura per creare un profilo di test è la stessa utilizzata per creare un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. See this [page](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)
 
 È necessario utilizzare uno schema di profilo che contenga il mixin &quot;profili test details&quot;. Il flag testProfile fa parte di questo mixin.
 
@@ -119,7 +119,7 @@ Il **[!UICONTROL Trigger an event]** pulsante consente di configurare un evento 
 >
 >Quando si attiva un evento in modalità di prova, viene generato un evento reale, il che significa che toccherà anche gli altri percorsi in ascolto di questo evento.
 
-Come prerequisito, è necessario sapere quali profili vengono contrassegnati come profili di test nel Adobe Experience Platform . In effetti, la modalità di prova consente solo questi profili nel percorso e l&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
+Come prerequisito, è necessario sapere quali profili vengono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di prova consente solo questi profili nel percorso e l&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
 
 Se il viaggio contiene diversi eventi, utilizzate l&#39;elenco a discesa per selezionare un evento. Quindi, per ogni evento, configurate i campi passati e l’esecuzione dell’invio dell’evento. L&#39;interfaccia consente di trasmettere le informazioni corrette nel payload dell&#39;evento e verificare che il tipo di informazioni sia corretto. La modalità di prova salva gli ultimi parametri utilizzati in una sessione di prova per un uso successivo.
 
