@@ -22,7 +22,7 @@ ht-degree: 98%
 
 # Origini dati esterne {#concept_t2s_kqt_52b}
 
-Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. A differenza dell&#39;origine dati  Adobe Experience Platform incorporata, è possibile creare tutte le origini dati esterne necessarie.
+Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Invece dell&#39;origine dati Adobe Experience Platform incorporata, puoi creare tutte le origini dati esterne necessarie.
 
 Sono supportate le API REST basate su POST o GET e che restituiscono JSON. Sono supportate le modalità chiave API, sia l’autenticazione di base che personalizzata.
 
