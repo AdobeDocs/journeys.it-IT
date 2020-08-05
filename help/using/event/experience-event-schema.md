@@ -22,13 +22,13 @@ ht-degree: 0%
 
 # Informazioni sugli schemi ExperienceEvent per [!DNL Journey Orchestration] gli eventi
 
-[!DNL Journey Orchestration] gli eventi sono eventi esperienza XDM che vengono inviati al Adobe Experience Platform  tramite Streaming Ingestion.
+[!DNL Journey Orchestration] gli eventi sono eventi di esperienza XDM che vengono inviati all&#39;Adobe Experience Platform tramite Streaming Ingestion.
 
-Di conseguenza, un prerequisito importante per configurare gli eventi per [!DNL Journey Orchestration] è avere familiarità con il modello dati esperienza del Adobe Experience Platform  (o XDM) e con come comporre gli schemi evento esperienza XDM, nonché con come trasmettere al Adobe Experience Platform  i dati in formato XDM.
+Di conseguenza, un prerequisito importante per configurare gli eventi per [!DNL Journey Orchestration] è che tu abbia familiarità con il modello dati esperienza (o XDM) di Adobe Experience Platform e con come comporre gli schemi evento esperienza XDM, nonché con come trasmettere dati in formato XDM all’Adobe Experience Platform.
 
 ## Requisiti dello schema per [!DNL Journey Orchestration] gli eventi
 
-Il primo passaggio nella configurazione di un evento per [!DNL Journey Orchestration] è garantire che sia definito uno schema XDM per rappresentare l&#39;evento, e che sia creato un dataset per registrare le istanze dell&#39;evento nel Adobe Experience Platform . La disponibilità di un set di dati per gli eventi non è strettamente necessaria, ma l&#39;invio degli eventi a un set di dati specifico vi consentirà di mantenere la cronologia degli eventi degli utenti per riferimento e analisi futuri, pertanto è sempre una buona idea. Se non si dispone già di uno schema e di un set di dati adeguati per l&#39;evento, entrambi i task possono essere eseguiti nell&#39;interfaccia Web del Adobe Experience Platform .
+Il primo passaggio nella configurazione di un evento [!DNL Journey Orchestration] è garantire che sia definito uno schema XDM per rappresentare l&#39;evento, e che sia creato un dataset per registrare le istanze dell&#39;evento sull&#39;Adobe Experience Platform. La disponibilità di un set di dati per gli eventi non è strettamente necessaria, ma l&#39;invio degli eventi a un set di dati specifico vi consentirà di mantenere la cronologia degli eventi degli utenti per riferimento e analisi futuri, pertanto è sempre una buona idea. Se non si dispone già di uno schema e di un set di dati adeguati per l&#39;evento, entrambe le operazioni possono essere eseguite nell&#39;interfaccia Web di Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
