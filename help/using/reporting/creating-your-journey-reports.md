@@ -51,15 +51,15 @@ Per accedere ai rapporti dei viaggi e iniziare a monitorare il successo delle co
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. Dalla **[!UICONTROL Panels]** scheda, trascinare e rilasciare tutti i pannelli o le tabelle a forma libera necessari. Per ulteriori informazioni, consulta questa [sezione](#adding-panels).
+1. Dalla **[!UICONTROL Panels]** scheda, trascinare e rilasciare tutti i pannelli o le tabelle a forma libera necessari. For more information, refer to this [section](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. Puoi quindi iniziare a filtrare i dati trascinando dimensioni e metriche dalla **[!UICONTROL Components]** scheda alla tabella a forma libera. Per ulteriori informazioni, consulta questa [sezione](#adding-components).
+1. Puoi quindi iniziare a filtrare i dati trascinando dimensioni e metriche dalla **[!UICONTROL Components]** scheda alla tabella a forma libera. For more information, refer to this [section](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
-1. Per avere una visualizzazione più chiara dei dati, puoi aggiungere visualizzazioni dalla **[!UICONTROL Visualizations]** scheda. Per ulteriori informazioni, consulta questa [sezione](#adding-visualizations).
+1. Per avere una visualizzazione più chiara dei dati, puoi aggiungere visualizzazioni dalla **[!UICONTROL Visualizations]** scheda. For more information, refer to this [section](#adding-visualizations).
 
 ## Aggiunta di pannelli{#adding-panels}
 
