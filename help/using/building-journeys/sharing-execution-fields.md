@@ -1,6 +1,6 @@
 ---
-title: eventi pathStep campi di esecuzione azione
-description: eventi pathStep campi di esecuzione azione
+title: Campi di esecuzione azione degli eventi journeyStep
+description: Campi di esecuzione azione degli eventi journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# eventi pathStep campi di esecuzione azione {#sharing-execution-fields}
+# Campi di esecuzione azione degli eventi journeyStep {#sharing-execution-fields}
 
 Questo mixin sarà condiviso da pathStepEvent e pathStepProfileEvent.
 
