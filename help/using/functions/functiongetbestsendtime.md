@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Fornisce un orario predittivo del momento migliore per la consegna di un&#39;e-mail a un singolo utente.
 
-Questa funzione utilizza un punteggio calcolato nel Adobe Experience Platform . La valutazione calcola la propensione a fare clic o aprire un messaggio e-mail in futuro in base al comportamento passato. L&#39;algoritmo che calcola il punteggio richiede una certa quantità di dati per funzionare. Di conseguenza, quando non dispone di dati sufficienti, si applica il tempo predefinito. Per ulteriori informazioni, vedi [](../building-journeys/wait-activity.md).
+Questa funzione utilizza una valutazione calcolata in Adobe Experience Platform. La valutazione calcola la propensione a fare clic o aprire un messaggio e-mail in futuro in base al comportamento passato. L&#39;algoritmo che calcola il punteggio richiede una certa quantità di dati per funzionare. Di conseguenza, quando non dispone di dati sufficienti, si applica il tempo predefinito. Per ulteriori informazioni, vedi [](../building-journeys/wait-activity.md).
 
 Per utilizzare questa funzione, è necessario uno [spazio dei nomi](../event/selecting-the-namespace.md) .
 
