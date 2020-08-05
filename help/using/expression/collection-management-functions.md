@@ -208,7 +208,7 @@ Il risultato è &quot;token_2&quot;.
 
 >[!NOTE]
 >
->Gli eventi esperienza vengono recuperati dal Adobe Experience Platform  come raccolta in ordine cronologico inverso, di conseguenza:
+>Gli eventi esperienza vengono recuperati dall&#39;Adobe Experience Platform come raccolta in ordine cronologico inverso, di conseguenza:
 >* **[!UICONTROL first]** restituirà l&#39;evento più recente
 >* **[!UICONTROL last]** restituirà la funzione meno recente.
 
