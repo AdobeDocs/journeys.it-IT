@@ -35,22 +35,22 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati i seguenti miglioramenti all'integrazione  Adobe Experience Platform:</p>
+<p>Sono stati apportati i seguenti miglioramenti all'integrazione Adobe Experience Platform:</p>
 <ul>
-<li><p>Una nuova attività consente di ascoltare  ingressi/uscite di segmenti di Adobe Experience Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/segment-qualification-events.md">Leggi tutto</a></p>
+<li><p>Una nuova attività consente di ascoltare le entrate/uscite dei segmenti Adobe Experience Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/segment-qualification-events.md">Ulteriori informazioni</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Leggi tutto</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Ulteriori informazioni</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Nell'editor di espressioni semplici,  segmenti di Adobe Experience Platform sono ora elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
+<li><p>Nell'editor delle espressioni semplici, i segmenti Adobe Experience Platform ora sono elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Ulteriori informazioni</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Il Journey Orchestration ora passa automaticamente al Adobe Experience Platform  le fasi eseguite nei viaggi. Ciò include i potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e ai fini di risoluzione dei problemi attraverso l’esecuzione di query sugli eventi del passaggio del percorso o per tutti i percorsi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
+<li><p>Il Journey Orchestration ora passa automaticamente, all'Adobe Experience Platform, i passaggi eseguiti nei viaggi. Ciò include i potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e ai fini di risoluzione dei problemi attraverso l’esecuzione di query sugli eventi del passaggio del percorso o per tutti i percorsi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>È ora possibile collegare il Journey Orchestration a sandbox di produzione e non  Adobe Experience Platform di produzione. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
+<li><p>È ora possibile collegare il Journey Orchestration alle sandbox Adobe Experience Platform di produzione e non di produzione. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
 </li>
 </td>
 </tr>
