@@ -67,7 +67,7 @@ Un valore predefinito può essere associato a un nome di campo. La sintassi è l
 
 Agli elementi definiti all&#39;interno delle raccolte viene fatto riferimento utilizzando le funzioni specifiche all, first e last. Per ulteriori informazioni, vedi [](../expression/collection-management-functions.md).
 
-Esempio:
+Esempio :
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -87,7 +87,7 @@ In questa espressione, è disponibile la voce per la chiave ‘Email’ del camp
 
 Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro, viene visualizzata una nuova scheda a destra che consente di specificare questo parametro. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
 
-Per i casi di utilizzo più complessi, se si desidera includere i parametri dell&#39;origine dati nell&#39;espressione principale, è possibile definirne i valori utilizzando i _params_ delle parole chiave. Un parametro può essere una qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Un parametro può essere una qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
 
 >[!NOTE]
 >
