@@ -1,5 +1,5 @@
 ---
-title: inNextYear
+title: inNextYears
 description: Scopri la funzione inNextYears
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -19,7 +19,7 @@ ht-degree: 9%
 ---
 
 
-# inNextYear {#inNextYears}
+# inNextYears {#inNextYears}
 
 Restituisce true se una data o un dateTime specificato è compreso tra ora e ora + anni delta.
 
