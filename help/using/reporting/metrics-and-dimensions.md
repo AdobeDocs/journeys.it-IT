@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
 | Dimension | Definizione |
 |--- |--- |
 | **Azione** | Elenco di tutte le azioni (nome **azione - etichetta** azione) utilizzate nei viaggi, ad esempio, Push - Conferma check out, E-mail - fedeltà premi. |
-| **Origine dati** | Elenco delle origini dati (nome **origine** dati) utilizzate per arricchire i dati in un viaggio, ad esempio la piattaforma Adobe Experience o il sistema di prenotazione. |
+| **Origine dati** | Elenco delle origini dati (nome **origine** dati) utilizzate per arricchire i dati in un viaggio, ad esempio Adobe Experience Platform, sistema di prenotazione. |
 | **[!UICONTROL Event]** | Elenco di tutti gli eventi (nome **evento - etichetta** evento) utilizzati nei viaggi, ad esempio, Geometrixx evento - Geometrixx. |
 | **Gruppo di campi** | Elenco di gruppi di campi (nome **gruppo di** campi) utilizzati per arricchire i dati nei viaggi, ad esempio gruppo di campi profilo, sistema di prenotazione Geometrixx. |
 | **Viaggio** | Elenco di ogni viaggio (nome **del** viaggio) in modalità di prova e in diretta, ad esempio abbandono del carrello, notifica prenotazione alberghiera. |
