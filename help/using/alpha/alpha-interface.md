@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ In [questa sezione](../about/user-interface.md)sono illustrati concetti globali 
 
 ## Accesso alle [!DNL Journey Orchestration] funzionalità {#accessing-journey-orchestration-functionalities}
 
+La barra dei menu situata sul lato sinistro consente di accedere alle diverse funzionalità. Fate clic su un&#39;icona per accedere al menu corrispondente. Potete fare clic sulla freccia in basso a sinistra per espandere o comprimere la barra dei menu.
+
+![](../assets/interface-journeys2.png)
+
 Quando accedete [!DNL Journey Orchestration], viene visualizzato il **[!UICONTROL Journeys]** menu che consente di accedere ai viaggi esistenti o di crearne di nuovi. See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
 
 ![](../assets/interface-journeys.png)
@@ -43,3 +47,4 @@ Il **[!UICONTROL Segments]** menu consente di accedere e creare segmenti Adobe E
 Il **[!UICONTROL Admin]** menu è disponibile per tutti gli utenti con diritti di amministratore (consultate Gestione [](../about/access-management.md)degli accessi). Fornisce una dashboard che consente di impostare origini [](../datasource/about-data-sources.md)dati, [eventi](../event/about-events.md) e [azioni](../action/action.md).
 
 ![](../assets/interface-admin-dashboard.png)
+
