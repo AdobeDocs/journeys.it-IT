@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -37,13 +37,13 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <td>
 <p>Sono stati apportati i seguenti miglioramenti all'integrazione Adobe Experience Platform:</p>
 <ul>
-<li><p>Una nuova attività consente di ascoltare le entrate/uscite dei segmenti Adobe Experience Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/segment-qualification-events.md">Ulteriori informazioni</a></p>
+<li><p>Una nuova attività consente di ascoltare le entrate/uscite dei segmenti Adobe Experience Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/segment-qualification-events.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Ulteriori informazioni</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Nell'editor delle espressioni semplici, i segmenti Adobe Experience Platform ora sono elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Ulteriori informazioni</a></p>
+<li><p>Nell'editor delle espressioni semplici, i segmenti Adobe Experience Platform ora sono elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Il Journey Orchestration ora passa automaticamente, all'Adobe Experience Platform, i passaggi eseguiti nei viaggi. Ciò include i potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e ai fini di risoluzione dei problemi attraverso l’esecuzione di query sugli eventi del passaggio del percorso o per tutti i percorsi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
@@ -181,7 +181,7 @@ L’interfaccia Journey Orchestration è disponibile in giapponese.
 
 **Altri miglioramenti**
 
-* Dopo l’introduzione negli Stati Uniti, adesso Journey Orchestration è accessibile nell’**EMEA**. L’applicazione e la documentazione sono disponibili in francese e tedesco.
+* In addition to US, Journey Orchestration is now available in **EMEA**. L’applicazione e la documentazione sono disponibili in francese e tedesco.
 
 * Experience League è ora integrato all’interno del prodotto, il che semplifica l’accesso ai contenuti correlati, consentendoti di trarre il massimo da Experience Cloud. L’accesso diretto alla documentazione di Journey Orchestration è disponibile nella parte inferiore della scheda dell’aiuto. Inoltre, puoi fare clic su Aiuto > Feedback per segnalare i problemi o condividere le idee con Adobe.
 
