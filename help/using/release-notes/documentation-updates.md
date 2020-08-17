@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 88%
+source-wordcount: '771'
+ht-degree: 80%
 
 ---
 
@@ -24,12 +24,18 @@ ht-degree: 88%
 Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journey Orchestration].
 È inoltre possibile consultare le [Note sulla versione](../release-notes/release-notes.md) di [!DNL Journey Orchestration].
 
+## Agosto 2020 {#august-2020}
+
+* Sono state aggiunte informazioni su come ordinare e scegliere le colonne da visualizzare nell’elenco dei segmenti. [Leggi tutto](../building-journeys/segment-qualification-events.md)
+* Sono state aggiunte informazioni su come copiare il nome e l’ID di un segmento dopo che questo è stato selezionato. [Leggi tutto](../building-journeys/segment-qualification-events.md)
+* Le occorrenze di  Experience Platform sono state armonizzate tra le varie pagine.
+
 ## Luglio 2020 {#july-2020}
 
-* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi per il reporting ad Adobe Experience Platform. [Ulteriori informazioni](../building-journeys/sharing-overview.md)
-* La sezione delle attività degli eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Ulteriori informazioni](../building-journeys/event-activities.md)
-* Sono state aggiunte procedure ottimali per evitare il sovraccarico con la qualifica del segmento. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* È stata aggiunta una nota per spiegare come continuare un viaggio dopo un errore in un’azione o una condizione. [Ulteriori informazioni](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi per il reporting ad Adobe Experience Platform. [Leggi tutto](../building-journeys/sharing-overview.md)
+* La sezione delle attività degli eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Leggi tutto](../building-journeys/event-activities.md)
+* Sono state aggiunte procedure ottimali per evitare il sovraccarico con la qualifica del segmento. [Leggi tutto](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* È stata aggiunta una nota per spiegare come continuare un viaggio dopo un errore in un’azione o una condizione. [Leggi tutto](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * È stata aggiunta una nuova sezione sulle funzioni alfa testate tra un gruppo limitato di clienti. [Leggi tutto](../alpha/alpha-overview.md)
 * È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Leggi tutto](../ai-services/ai-services-overview.md)
 * È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -81,7 +87,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 * Tutte le schermate sono state aggiornate per riflettere le modifiche all’interfaccia.
 * La sezione della modalità di test è stata aggiornata. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
-* È stato aggiunto un avviso nelle sezioni di [ottimizzazione tempo di invio dell’e-mail](../building-journeys/wait-activity.md) e dei [punteggi di fatica predittivi](../ai-services/leveraging-fatigue-scores.md). Queste funzionalità sono disponibili solo per i clienti che utilizzano la funzione Adobe Campaign Standard Data Service.
+* È stato aggiunto un avviso nelle sezioni di [ottimizzazione tempo di invio dell’e-mail](../building-journeys/wait-activity.md) e dei [punteggi di fatica predittivi](../ai-services/leveraging-fatigue-scores.md). Queste funzionalità sono disponibili solo per i clienti che utilizzano [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 * I percorsi interrotti ora possono essere eliminati. Sono state aggiornate le pagine correlate della documentazione.
 * Quando si rilevano problemi in un percorso, ora vengono visualizzati due colori: il rosso indica gli errori e l’arancione gli avvisi. [Ulteriori informazioni](../about/troubleshooting.md)
 * È stata aggiornata la sezione dell’editor di espressioni avanzate. [Ulteriori informazioni](../expression/expressionadvanced.md).
