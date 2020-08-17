@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
+source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ Supponiamo che tu abbia un segmento di clienti Gold su Adobe Experience Platform
 
    L&#39;attività deve essere posizionata come primo passo di un viaggio.
 
+1. Aggiungete un elemento **[!UICONTROL Label]** all&#39;attività. Questo passaggio è facoltativo.
+
 1. Configurare l&#39;attività **[!UICONTROL Scheduler type]**.
 
    Per impostazione predefinita, il segmento entra nel percorso **[!UICONTROL As soon as possible]**, ovvero 1 ora dopo la pubblicazione del percorso. Se si desidera che il segmento entri nel percorso in una data/ora specifica o su base periodica, selezionare l&#39;opzione desiderata dall&#39;elenco.
@@ -51,7 +53,17 @@ Supponiamo che tu abbia un segmento di clienti Gold su Adobe Experience Platform
 
 1. Nel **[!UICONTROL Segment]** campo, scegliete il segmento Adobe Experience Platform che verrà inserito nel percorso, quindi fate clic su **[!UICONTROL Save]**.
 
+   >[!NOTE]
+   >
+   >È possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
+
    ![](../assets/segment-trigger-segment-selection.png)
+
+   Una volta aggiunto il segmento, il **[!UICONTROL Copy]** pulsante consente di copiarne il nome e l’ID:
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. Nel **[!UICONTROL Namespace]** campo, scegliete lo spazio dei nomi da utilizzare per identificare gli individui. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 
