@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '590'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Questa opzione consente di definire una data personalizzata, ad esempio 12 lugli
 
 >[!CAUTION]
 >
->La funzionalità di ottimizzazione dell&#39;ora di invio tramite e-mail è disponibile solo per i clienti che utilizzano la funzione  Adobe Campaign Standard Data Service.
+>La funzionalità di ottimizzazione dell&#39;ora di invio tramite e-mail è disponibile solo per i clienti che utilizzano [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 Questo tipo di attesa utilizza una valutazione calcolata in Adobe Experience Platform. La valutazione calcola la propensione a fare clic o aprire un messaggio e-mail in futuro in base al comportamento passato. L&#39;algoritmo che calcola il punteggio richiede una certa quantità di dati per funzionare. Di conseguenza, quando non dispone di dati sufficienti, viene applicato il tempo di attesa predefinito. Al momento della pubblicazione, vi verrà notificato che si applica l’ora predefinita.
 
