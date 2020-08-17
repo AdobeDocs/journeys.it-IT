@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,17 @@ Se il segmento viene trasmesso in streaming con l&#39;opzione Pubblico ad alta f
 
 1. Fai clic nel **[!UICONTROL Segment]** campo e seleziona i segmenti che vuoi sfruttare.
 
+   >[!NOTE]
+   >
+   >È possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
+
    ![](../assets/segment6.png)
+
+   Una volta aggiunto il segmento, il **[!UICONTROL Copy]** pulsante consente di copiarne il nome e l’ID:
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. Nel **[!UICONTROL Behavior]** campo, scegliete se desiderate ascoltare le entrate del segmento, le uscite o entrambi.
 
@@ -59,7 +69,7 @@ Consultate Attività [](../building-journeys/condition-activity.md#about_conditi
 
 ![](../assets/segment8.png)
 
-## Best practice per i segmenti {#best-practices-segments}
+## Best practice {#best-practices-segments}
 
 L&#39; **[!UICONTROL Segment Qualification]** attività consente l&#39;ingresso immediato nei viaggi di persone che ottengono le qualifiche o la squalifica da un segmento Adobe Experience Platform.
 
