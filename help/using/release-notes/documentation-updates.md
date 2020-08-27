@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 80%
+source-wordcount: '724'
+ht-degree: 83%
 
 ---
 
@@ -81,13 +81,14 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 ## Gennaio 2020 {#january-2020}
 
 * Sono state aggiunte limitazioni per gli [eventi di esperienza](../datasource/adobe-experience-platform-data-source.md) e [i segmenti](../functions/functioninsegment.md).
-* La documentazione [getBestSendTime](../functions/functiongetbestsendtime.md) è stata aggiornata.
+
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## Dicembre 2019 {#december-2019}
 
 * Tutte le schermate sono state aggiornate per riflettere le modifiche all’interfaccia.
 * La sezione della modalità di test è stata aggiornata. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
-* È stato aggiunto un avviso nelle sezioni di [ottimizzazione tempo di invio dell’e-mail](../building-journeys/wait-activity.md) e dei [punteggi di fatica predittivi](../ai-services/leveraging-fatigue-scores.md). Queste funzionalità sono disponibili solo per i clienti che utilizzano [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * I percorsi interrotti ora possono essere eliminati. Sono state aggiornate le pagine correlate della documentazione.
 * Quando si rilevano problemi in un percorso, ora vengono visualizzati due colori: il rosso indica gli errori e l’arancione gli avvisi. [Ulteriori informazioni](../about/troubleshooting.md)
 * È stata aggiornata la sezione dell’editor di espressioni avanzate. [Ulteriori informazioni](../expression/expressionadvanced.md).
