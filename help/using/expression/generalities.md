@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -38,8 +38,8 @@ Le espressioni vengono valutate da sinistra a destra. L&#39;associatività sugli
 
 Di seguito sono riportate le diverse regole di distinzione tra maiuscole e minuscole:
 
-* Tutti gli operatori (e, o, ecc.) Deve essere scritto in lettere minuscole. Ad esempio, _`<expression1>`ed`<expression2>`_è un&#39;espressione valida mentre l&#39;espressione_`<expression1>` AND `<expression2>`_ non lo è.
-* Tutti i nomi delle funzioni sono con distinzione tra maiuscole e minuscole. Ad esempio, _getBestSendTime()_ è valido, mentre la funzione _GETBESTSENDTIME()_ non lo è.
+* Tutti gli operatori (e, o, ecc.) Deve essere scritto in lettere minuscole. Ad esempio, _`<expression1>`ed`<expression2>`_ è un&#39;espressione valida mentre l&#39;espressione _`<expression1>`AND`<expression2>`_ non lo è.
+* Tutti i nomi delle funzioni sono con distinzione tra maiuscole e minuscole. Ad esempio, _inSegment()_ è valido, mentre la funzione _INSEGMENT()_ non lo è.
 * I riferimenti ai campi e i valori costanti fanno distinzione tra maiuscole e minuscole: non sono elementi incorporati della lingua (a differenza di operatori e funzioni), sono creati dall&#39;utente finale.
 
 ## Tipo di espressione restituito{#section_gyc_435_53b}
