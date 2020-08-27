@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 2%
+source-wordcount: '377'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,8 @@ Se desiderate aspettare prima di eseguire l&#39;attività successiva nel percors
 * [Durata](#duration)
 * [Data fissa](#fixed_date)
 * [Personalizzato](#custom)
-* [Ottimizzazione dell&#39;ora di invio tramite e-mail](#email_send_time_optimization)
+
+<!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informazioni sull&#39;attività Wait{#about_wait}
 
@@ -66,26 +67,26 @@ Questa opzione consente di definire una data personalizzata, ad esempio 12 lugli
 
 ![](../assets/journey57.png)
 
-## Ottimizzazione dell&#39;ora di invio tramite e-mail{#email_send_time_optimization}
+<!--## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
->La funzionalità di ottimizzazione dell&#39;ora di invio tramite e-mail è disponibile solo per i clienti che utilizzano [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+>The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-Questo tipo di attesa utilizza una valutazione calcolata in Adobe Experience Platform. La valutazione calcola la propensione a fare clic o aprire un messaggio e-mail in futuro in base al comportamento passato. L&#39;algoritmo che calcola il punteggio richiede una certa quantità di dati per funzionare. Di conseguenza, quando non dispone di dati sufficienti, viene applicato il tempo di attesa predefinito. Al momento della pubblicazione, vi verrà notificato che si applica l’ora predefinita.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
 >[!NOTE]
 >
->Il primo evento del viaggio deve avere uno spazio dei nomi.
+>The first event of your journey must have a namespace.
 >
->Questa funzionalità è disponibile solo dopo un&#39; **[!UICONTROL Email]** attività. Devi avere  Adobe Campaign Standard.
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
 
-1. Nel **[!UICONTROL Amount of time]** campo, definite il numero di ore da dedicare all’ottimizzazione dell’invio delle e-mail.
-1. Nel **[!UICONTROL Optimization type]** campo, scegliete se l&#39;ottimizzazione deve aumentare i clic o si apre.
-1. Nel **[!UICONTROL Default time]** campo, definire l&#39;ora di attesa predefinita se il punteggio relativo al tempo di invio predittivo non è disponibile.
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
 
-   >[!NOTE]
-   >
-   >Il punteggio relativo al tempo di invio potrebbe non essere disponibile perché non sono disponibili dati sufficienti per eseguire il calcolo. In questo caso, al momento della pubblicazione verrà comunicato che si applica l&#39;ora predefinita.
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)
+![](../assets/journey57bis.png)-->
