@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 9%
+source-wordcount: '619'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,30 @@ Abbiamo semplificato la configurazione degli eventi di esperienza. Stiamo introd
 Questo nuovo tipo di evento non genera un eventID. Utilizzando l&#39;editor di espressioni semplici, ora è sufficiente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i vostri viaggi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell&#39;evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
 Questo nuovo metodo è per lo più trasparente per gli utenti. L’unica modifica è un nuovo campo nella schermata di definizione dell’evento.
+
+## Utilizzo  dati Adobe Analytics{#analytics-data}
+
+>[!NOTE]
+>
+>Questa sezione è valida solo per i clienti che devono utilizzare  dati Adobe Analytics.
+
+Potete sfruttare tutti i dati evento comportamentali  Adobe Analytics già acquisiti e in streaming nella piattaforma per attivare i viaggi e automatizzare le esperienze per i vostri clienti.
+
+Affinché questo funzioni, è necessario attivare, in Adobe Experience Platform, la suite di rapporti che si desidera sfruttare:
+
+1. In Adobe Experience Platform, selezionate **[!UICONTROL Sources]** quindi **[!UICONTROL Add data]** nella sezione  Adobe Analytics. Viene visualizzato l&#39;elenco  suite di rapporti Adobe Analytics disponibili.
+
+1. Selezionate la suite di rapporti da attivare, fate clic su **[!UICONTROL Next]** e fate clic su **[!UICONTROL Finish]**.
+
+1. Condividi l&#39;ID dati di origine con il tuo punto di contatto del programma Alfa.
+
+Questo abilita il connettore di origine Analytics per la suite di rapporti. Ogni volta che i dati entrano, vengono trasformati in un evento Experience e inviati in Adobe Experience Platform.
+
+![](../assets/alpha-event9.png)
+
+Per ulteriori informazioni sul connettore  sorgente Adobe Analytics, consultare la [documentazione](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) e l&#39; [esercitazione](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+
+## Configurazione di un evento basato su regole{#configuring-rule-based}
 
 1. Dal menu a sinistra, fate clic sull&#39; **[!UICONTROL Admin]** icona, quindi fate clic su **[!UICONTROL Events]**. Viene visualizzato l’elenco degli eventi.
 
@@ -68,4 +92,14 @@ Questo nuovo metodo è per lo più trasparente per gli utenti. L’unica modific
 Gli altri passaggi per la configurazione degli eventi e la creazione del percorso restano invariati.
 
 L&#39;evento è ora configurato e pronto per essere rilasciato come qualsiasi altro evento. Ogni volta che un evento corrispondente alla regola viene inviato al sistema, viene passato al Journey Orchestration per attivare i viaggi.
+
+## Modalità di test per gli eventi basati su regole{#test-rule-based}
+
+La modalità di prova è disponibile anche per i viaggi che utilizzano un evento basato su regole.
+
+Quando si attiva un evento, la schermata di configurazione **dell&#39;** evento consente di definire i parametri dell&#39;evento da trasmettere nel test. Per visualizzare la condizione ID evento, fate clic sull&#39;icona della descrizione comando nell&#39;angolo superiore destro. Accanto a ciascun campo che fa parte della valutazione delle regole è disponibile una descrizione comandi.
+
+![](../assets/alpha-event8.png)
+
+Per ulteriori informazioni su come utilizzare la modalità di prova, fare riferimento a [](../building-journeys/testing-the-journey.md).
 
