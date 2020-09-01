@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida di Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 95%
@@ -63,7 +63,7 @@ ht-degree: 95%
          + [Informazioni sulle attività degli eventi](using/building-journeys/event-activities.md)
          + [Eventi generali](using/building-journeys/general-events.md)
          + [Eventi di reazione](using/building-journeys/reaction-events.md)
-         + [Eventi di qualifica del segmento](using/building-journeys/segment-qualification-events.md)
+         + [Eventi di qualificazione dei segmenti](using/building-journeys/segment-qualification-events.md)
       + Attività di orchestrazione {#orchestration-activities}
          + [Informazioni sulle attività di orchestrazione](using/building-journeys/about-orchestration-activities.md)
          + [Attività condizione](using/building-journeys/condition-activity.md)
@@ -184,6 +184,6 @@ ht-degree: 95%
 + Funzioni alfa {#alpha}
    + [Panoramica delle funzioni alfa](using/alpha/alpha-overview.md)
    + [Interfaccia utente](using/alpha/alpha-interface.md)
-   + [Attività attivazione segmento](using/alpha/alpha-segment-trigger.md)
+   + [Attività Lettura segmento](using/alpha/alpha-segment-trigger.md)
    + [Eventi basati su regole](using/alpha/alpha-events.md)
 
