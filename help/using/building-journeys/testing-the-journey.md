@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1151'
 ht-degree: 2%
 
 ---
@@ -122,10 +122,6 @@ Il **[!UICONTROL Trigger an event]** pulsante consente di configurare un evento 
 Come prerequisito, è necessario sapere quali profili vengono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di prova consente solo questi profili nel percorso e l&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
 
 Se il viaggio contiene diversi eventi, utilizzate l&#39;elenco a discesa per selezionare un evento. Quindi, per ogni evento, configurate i campi passati e l’esecuzione dell’invio dell’evento. L&#39;interfaccia consente di trasmettere le informazioni corrette nel payload dell&#39;evento e verificare che il tipo di informazioni sia corretto. La modalità di prova salva gli ultimi parametri utilizzati in una sessione di prova per un uso successivo.
-
->[!NOTE]
->
->Si noti che **[!UICONTROL TIMESTAMP]**
 
 ![](../assets/journeytest4.png)
 
