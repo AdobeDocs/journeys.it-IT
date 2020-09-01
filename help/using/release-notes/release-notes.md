@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
+source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 84%
+source-wordcount: '1527'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,127 @@ ht-degree: 84%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
+
+## Release di agosto 2020 {#august-release}
+
+### Aggiornamenti GA{#august-ga-update}
+
+Il payload degli eventi Qualificazione segmento ora contiene le seguenti informazioni contestuali, che potete utilizzare in condizioni e azioni: il comportamento (entrata, uscita), la marca temporale della qualifica e l’ID del segmento. [Leggi tutto](../building-journeys/segment-qualification-events.md)
+
+### Aggiornamenti alfa{#august-alpha-update}
+
+Per scoprire l&#39;ambito dell&#39;Alfa, fare riferimento a questa [sezione](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Attività attivazione segmento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sono stati apportati i seguenti miglioramenti all'attività Trigger segmento:
+</p>
+<ul>
+<li><p>Il nome dell'attività è stato modificato in "Leggi segmento". </p>
+</li>
+<li><p>La configurazione dell'utilità di pianificazione del viaggio è stata rimossa dalle proprietà dell'attività. Ora è accessibile direttamente dalle proprietà del viaggio, in una sezione dedicata che verrà visualizzata se un'attività di lettura del segmento è stata rilasciata nell'area di lavoro. </p>
+</li>
+<li><p>Ora puoi testare il viaggio su un profilo unitario e monitorarne l'avanzamento utilizzando il flusso visivo.</p>
+</li>
+</ul>
+<p>Per ulteriori informazioni, consulta la <a href="../alpha/alpha-segment-trigger.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Eventi basati su regole</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sono stati apportati i seguenti miglioramenti agli eventi basati su regole:
+</p>
+<ul>
+<li><p>Ora potete sfruttare tutti i dati  evento comportamentale Adobe Analytics già acquisiti e in streaming nella piattaforma per attivare i viaggi e automatizzare le esperienze per i vostri clienti. <a href="../alpha/alpha-events.md#analytics-data">Leggi tutto</a></p>
+</li>
+<li><p>Quando si attiva un evento basato su regola in modalità di prova, ora è possibile visualizzare direttamente la condizione ID evento. Inoltre, è stata aggiunta una descrizione comandi accanto a ciascun campo che fa parte della valutazione delle regole. <a href="../alpha/alpha-events.md#configuring-rule-based">Leggi tutto</a></p>
+</li>
+<li><p>La schermata di definizione dell'evento basata su regole è stata riorganizzata per migliorare l'esperienza. <a href="../alpha/alpha-events.md#test-rule-based">Leggi tutto</a></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Rilascio Alfa - Luglio 2020 {#alpha-release---july-2020}
+
+Il programma Alpha offre funzioni attualmente testate tra un numero limitato di clienti. Questo ci permette di migliorare il nostro prodotto in base al feedback ricevuto. Queste funzioni non sono disponibili per tutti i clienti dei Journey Orchestration.
+
+Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md)dedicata.
+
+<table>
+<thead>
+<tr>
+<th><strong>Interfaccia utente avanzata</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La navigazione all'interno dei menu dei Journey Orchestration è stata migliorata, per fornire un'interfaccia coerente con Adobe Experience Platform:
+</p>
+<ul>
+<li><p>Menu spostati dall'alto a sinistra dell'interfaccia. </p>
+</li>
+<li><p>Raggruppamento delle funzionalità di amministrazione in un'unica dashboard.</p>
+</li>
+</ul>
+<p>Per ulteriori informazioni, consulta la <a href="../alpha/alpha-interface.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Attività attivazione segmento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’attività Trigger segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L'ingresso in un viaggio può essere eseguito una volta o su base regolare. <a href="../alpha/alpha-segment-trigger.md">Leggi tutto</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Eventi basati su regole</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Abbiamo semplificato la configurazione degli eventi di esperienza. Stiamo introducendo un nuovo metodo che non richiede l'uso di un eventID. Quando configurate l'evento in un Journey Orchestration, ora potete definire un evento basato su regole. <a href="../alpha/alpha-events.md">Leggi tutto</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Versione secondo trimestre - giugno 2020 {#q2-release---june-2020}
 
@@ -49,9 +170,9 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <li><p>Il Journey Orchestration ora passa automaticamente, all'Adobe Experience Platform, i passaggi eseguiti nei viaggi. Ciò include i potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e ai fini di risoluzione dei problemi attraverso l’esecuzione di query sugli eventi del passaggio del percorso o per tutti i percorsi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-</li>
 <li><p>È ora possibile collegare il Journey Orchestration alle sandbox Adobe Experience Platform di produzione e non di produzione. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
 </li>
+</ul>
 </td>
 </tr>
 </tbody>
