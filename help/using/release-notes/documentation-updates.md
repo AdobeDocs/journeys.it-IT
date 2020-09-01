@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 83%
@@ -28,7 +28,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 * Sono state aggiunte informazioni su come ordinare e scegliere le colonne da visualizzare nell’elenco dei segmenti. [Leggi tutto](../building-journeys/segment-qualification-events.md)
 * Sono state aggiunte informazioni su come copiare il nome e l’ID di un segmento dopo che questo è stato selezionato. [Leggi tutto](../building-journeys/segment-qualification-events.md)
-* Le occorrenze di  Experience Platform sono state armonizzate tra le varie pagine.
+* Le occorrenze di  Experience Platform sono state armonizzate tra le diverse pagine.
 
 ## Luglio 2020 {#july-2020}
 
