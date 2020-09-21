@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 # Origini dati esterne {#concept_t2s_kqt_52b}
 
-Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Invece dell&#39;origine dati Adobe Experience Platform incorporata, puoi creare tutte le origini dati esterne necessarie.
+Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Al posto dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
 
 Sono supportate le API REST basate su POST o GET e che restituiscono JSON. Sono supportate le modalità chiave API, sia l’autenticazione di base che personalizzata.
 
@@ -131,10 +131,10 @@ Definizione dell’endpoint da chiamare per la generazione del token di accesso:
 
 La definizione della modalità di inserimento del token di accesso nella richiesta HTTP dell’azione:
 
-* authorizedType: definisce il modo in cui il token di accesso generato deve essere inserito nella chiamata HTTP per l’azione. I valori possibili sono:
+* authorizationType: definisce il modo in cui il token di accesso generato deve essere inserito nella chiamata HTTP per l’azione. I valori possibili sono:
 
-   * bearer: indica che il token di accesso deve essere inserito nell’intestazione Autorizzazione (Autorizzazione), ad esempio: _Authorization: Bearer &lt;token di accesso>_
-   * intestazione: indica che il token di accesso deve essere inserito come intestazione, il nome dell’intestazione è definito dalla proprietà tokenTarget. Ad esempio, se tokenTarget è myHeader, il token di accesso verrà inserito come intestazione: _myHeader: &lt;token di accesso>_
+   * bearer: indica che il token di accesso deve essere inserito nell’intestazione Autorizzazione, ad esempio: _Authorization: Bearer &lt;token di accesso>_
+   * header: indica che il token di accesso deve essere inserito come intestazione, il nome dell’intestazione è definito dalla proprietà tokenTarget. Ad esempio, se tokenTarget è myHeader, il token di accesso verrà inserito come intestazione: _myHeader: &lt;token di accesso>_
    * queryParam: indica che il token di accesso deve essere inserito come queryParam, il nome del param di query è definito dalla proprietà tokenTarget. Ad esempio, se il tokenTarget è myQueryParam, l’URL della chiamata di azione sarà: _&lt;url>?myQueryParam=&lt;token di accesso>_
 
 * tokenInResponse: indica come estrarre il token di accesso dalla chiamata di autenticazione. Questa proprietà può corrispondere a:
