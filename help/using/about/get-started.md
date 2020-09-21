@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Di seguito sono riportati i passaggi principali per la configurazione e l’util
 
 1. **Configurare l’origine dati**
 
-   È necessario definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle tue condizioni. Un&#39;origine dati Adobe Experience Platform integrata è configurata anche in fase di provisioning. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguito da un **utente tecnico**.
+   È necessario definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle tue condizioni. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguito da un **utente tecnico**.
 
    Per ulteriori informazioni, fai riferimento a [](../datasource/about-data-sources.md).
 
