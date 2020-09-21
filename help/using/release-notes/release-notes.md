@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 63%
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
 
-## Release di agosto 2020 {#august-release}
+## Versione di agosto 2020 {#august-release}
 
-### Aggiornamenti GA{#august-ga-update}
+### Aggiornamenti per la disponibilità generale{#august-ga-update}
 
-Il payload degli eventi Qualificazione segmento ora contiene le seguenti informazioni contestuali, che potete utilizzare in condizioni e azioni: il comportamento (entrata, uscita), la marca temporale della qualifica e l’ID del segmento. [Leggi tutto](../building-journeys/segment-qualification-events.md)
+Il payload degli eventi di qualificazione dei segmenti ora contiene le seguenti informazioni contestuali, che è possibile utilizzare in condizioni e azioni: il comportamento (entrata, uscita), il timestamp della qualificazione e l’ID del segmento. [Leggi tutto](../building-journeys/segment-qualification-events.md)
 
-### Aggiornamenti alfa{#august-alpha-update}
+### Aggiornamenti Alpha{#august-alpha-update}
 
-Per scoprire l&#39;ambito dell&#39;Alfa, fare riferimento a questa [sezione](../alpha/alpha-overview.md).
+Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](../alpha/alpha-overview.md).
 
 <table>
 <thead>
@@ -43,14 +43,14 @@ Per scoprire l&#39;ambito dell&#39;Alfa, fare riferimento a questa [sezione](../
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati i seguenti miglioramenti all'attività Trigger segmento:
+<p>Sono stati apportati i seguenti miglioramenti all’attività attivazione segmento:
 </p>
 <ul>
-<li><p>Il nome dell'attività è stato modificato in "Leggi segmento". </p>
+<li><p>Il nome dell’attività è stato modificato in “Leggi segmento”. </p>
 </li>
-<li><p>La configurazione dell'utilità di pianificazione del viaggio è stata rimossa dalle proprietà dell'attività. Ora è accessibile direttamente dalle proprietà del viaggio, in una sezione dedicata che verrà visualizzata se un'attività di lettura del segmento è stata rilasciata nell'area di lavoro. </p>
+<li><p>La configurazione dell’utilità di pianificazione del percorso è stata rimossa dalle proprietà dell’attività. Ora è accessibile direttamente dalle proprietà del percorso, in una sezione dedicata che verrà visualizzata se un’attività Leggi segmento è stata rilasciata nell’area di lavoro. </p>
 </li>
-<li><p>Ora puoi testare il viaggio su un profilo unitario e monitorarne l'avanzamento utilizzando il flusso visivo.</p>
+<li><p>Ora puoi testare il percorso su un profilo unitario e monitorare l’avanzamento del profilo nel percorso utilizzando il flusso visivo.</p>
 </li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../alpha/alpha-segment-trigger.md">documentazione dettagliata</a>.</p>
@@ -71,11 +71,11 @@ Per scoprire l&#39;ambito dell&#39;Alfa, fare riferimento a questa [sezione](../
 <p>Sono stati apportati i seguenti miglioramenti agli eventi basati su regole:
 </p>
 <ul>
-<li><p>Ora potete sfruttare tutti i dati  evento comportamentale Adobe Analytics già acquisiti e in streaming nella piattaforma per attivare i viaggi e automatizzare le esperienze per i vostri clienti. <a href="../alpha/alpha-events.md#analytics-data">Leggi tutto</a></p>
+<li><p>Ora puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che già acquisisci e trasferisci in Platform per attivare i percorsi e automatizzare le esperienze per i clienti. <a href="../alpha/alpha-events.md#analytics-data">Leggi tutto</a></p>
 </li>
-<li><p>Quando si attiva un evento basato su regola in modalità di prova, ora è possibile visualizzare direttamente la condizione ID evento. Inoltre, è stata aggiunta una descrizione comandi accanto a ciascun campo che fa parte della valutazione delle regole. <a href="../alpha/alpha-events.md#configuring-rule-based">Leggi tutto</a></p>
+<li><p>Ora, quando attivi un evento basato su regole in modalità di test, puoi visualizzare direttamente la condizione dell’ID evento. Inoltre, è stata aggiunta una descrizione del comando accanto a ciascun campo che fa parte della valutazione delle regole. <a href="../alpha/alpha-events.md#configuring-rule-based">Leggi tutto</a></p>
 </li>
-<li><p>La schermata di definizione dell'evento basata su regole è stata riorganizzata per migliorare l'esperienza. <a href="../alpha/alpha-events.md#test-rule-based">Leggi tutto</a></p>
+<li><p>La schermata di definizione degli eventi basati su regole è stata riorganizzata per migliorare l’esperienza. <a href="../alpha/alpha-events.md#test-rule-based">Leggi tutto</a></p>
 </li>
 </ul>
 </td>
@@ -83,27 +83,27 @@ Per scoprire l&#39;ambito dell&#39;Alfa, fare riferimento a questa [sezione](../
 </tbody>
 </table>
 
-## Rilascio Alfa - Luglio 2020 {#alpha-release---july-2020}
+## Rilascio Alpha - Luglio 2020 {#alpha-release---july-2020}
 
-Il programma Alpha offre funzioni attualmente testate tra un numero limitato di clienti. Questo ci permette di migliorare il nostro prodotto in base al feedback ricevuto. Queste funzioni non sono disponibili per tutti i clienti dei Journey Orchestration.
+Il programma Alpha offre funzioni che sono attualmente in fase di test per un numero limitato di clienti. Questo ci permette di migliorare il nostro prodotto in base al feedback ricevuto. Le funzioni non sono disponibili per tutti i clienti di Journey Orchestration.
 
-Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md)dedicata.
+Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md) dedicata.
 
 <table>
 <thead>
 <tr>
-<th><strong>Interfaccia utente avanzata</strong><br/></th>
+<th><strong>Interfaccia utente migliorata</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La navigazione all'interno dei menu dei Journey Orchestration è stata migliorata, per fornire un'interfaccia coerente con Adobe Experience Platform:
+<p>La navigazione all’interno dei menu di Journey Orchestration è stata migliorata per fornire un’interfaccia coerente con Adobe Experience Platform:
 </p>
 <ul>
-<li><p>Menu spostati dall'alto a sinistra dell'interfaccia. </p>
+<li><p>I menu sono stati spostati dalla parte superiore al lato sinistro dell’interfaccia. </p>
 </li>
-<li><p>Raggruppamento delle funzionalità di amministrazione in un'unica dashboard.</p>
+<li><p>Le funzionalità di amministrazione sono state raggruppate in un’unica dashboard.</p>
 </li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../alpha/alpha-interface.md">documentazione dettagliata</a>.</p>
@@ -121,7 +121,7 @@ Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md)dedic
 <tbody>
 <tr>
 <td>
-<p>L’attività Trigger segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L'ingresso in un viaggio può essere eseguito una volta o su base regolare. <a href="../alpha/alpha-segment-trigger.md">Leggi tutto</a>
+<p>L’attività attivazione segmento consente di fare in modo che tutti i singoli utenti appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare. <a href="../alpha/alpha-segment-trigger.md">Leggi tutto</a>
 </p>
 </td>
 </tr>
@@ -137,7 +137,7 @@ Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md)dedic
 <tbody>
 <tr>
 <td>
-<p>Abbiamo semplificato la configurazione degli eventi di esperienza. Stiamo introducendo un nuovo metodo che non richiede l'uso di un eventID. Quando configurate l'evento in un Journey Orchestration, ora potete definire un evento basato su regole. <a href="../alpha/alpha-events.md">Leggi tutto</a>
+<p>Abbiamo semplificato la configurazione degli eventi di esperienza. Stiamo introducendo un nuovo metodo che non richiede l’uso di un ID evento. Ora quando configuri l’evento in Journey Orchestration puoi definire un evento basato su regole. <a href="../alpha/alpha-events.md">Leggi tutto</a>
 </p>
 </td>
 </tr>
@@ -156,21 +156,21 @@ Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md)dedic
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati i seguenti miglioramenti all'integrazione Adobe Experience Platform:</p>
+<p>Sono stati apportati i seguenti miglioramenti all’integrazione di Adobe Experience Platform:</p>
 <ul>
-<li><p>Una nuova attività consente di ascoltare le entrate/uscite dei segmenti Adobe Experience Platform per far entrare o andare avanti le persone in un viaggio. <a href="../building-journeys/segment-qualification-events.md">Leggi tutto</a></p>
+<li><p>Una nuova attività consente di ascoltare le entrate/uscite dei segmenti Adobe Experience Platform per consentire alle persone di accedere a un percorso o proseguire in esso. <a href="../building-journeys/segment-qualification-events.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Leggi tutto</a></p>
+<li><p>Grazie alla nuova scheda <strong>Segments</strong> è ora possibile creare e modificare i segmenti di Adobe Experience Platform senza uscire dall’interfaccia di Journey Orchestration.<a href="../segment/about-segments.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Nell'editor delle espressioni semplici, i segmenti Adobe Experience Platform ora sono elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come "questa persona appartiene al segmento A?".<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
+<li><p>Nell’editor delle espressioni semplici, i segmenti di Adobe Experience Platform ora sono elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come “questa persona appartiene al segmento A?”.<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Il Journey Orchestration ora passa automaticamente, all'Adobe Experience Platform, i passaggi eseguiti nei viaggi. Ciò include i potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e ai fini di risoluzione dei problemi attraverso l’esecuzione di query sugli eventi del passaggio del percorso o per tutti i percorsi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
+<li><p>Ora Journey Orchestration passa automaticamente ad Adobe Experience Platform i passaggi eseguiti nei percorsi. Ciò include i potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e ai fini di risoluzione dei problemi attraverso l’esecuzione di query sugli eventi del passaggio del percorso o per tutti i percorsi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>È ora possibile collegare il Journey Orchestration alle sandbox Adobe Experience Platform di produzione e non di produzione. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
+<li><p>Ora Journey Orchestration può essere collegata alle sandbox Adobe Experience Platform, sia di produzione che non di produzione. Le sandbox sono una funzione beta. <a href="../about/access-management.md#sandboxes">Leggi tutto</a></p>
 </li>
 </ul>
 </td>
@@ -251,7 +251,7 @@ L’interfaccia Journey Orchestration è disponibile in giapponese.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>L’elenco a discesa <strong>Timezone (Fuso orario)</strong> consente di selezionare un fuso orario specifico. Per impostazione predefinita, viene utilizzato il fuso orario del browser. </li>
-<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. In caso contrario, viene utilizzato il fuso orario specificato nell’elenco a discesa. Questa funzione non è compatibile con i percorsi che utilizzano eventi privi di spazio dei nomi.</li>
+<li>La casella di controllo <strong>Profile Timezone (Fuso orario profilo)</strong> consente di usare il fuso orario del profilo di Adobe Experience Platform della persona che accede al percorso, se disponibile. In caso contrario, viene utilizzato il fuso orario specificato nell’elenco a discesa. Questa funzione non è compatibile con i percorsi che utilizzano eventi privi di spazio dei nomi.</li>
 </ul>
 <p>Per ulteriori informazioni, consulta le sezioni <a href="../building-journeys/changing-properties.md#timezone">Modifica delle proprietà</a> e <a href="../building-journeys/timezone-management.md">Gestione del fuso orario</a>.</p>
 </td>
@@ -302,7 +302,7 @@ L’interfaccia Journey Orchestration è disponibile in giapponese.
 
 **Altri miglioramenti**
 
-* In addition to US, Journey Orchestration is now available in **EMEA**. L’applicazione e la documentazione sono disponibili in francese e tedesco.
+* Dopo l’introduzione negli Stati Uniti, ora Journey Orchestration è accessibile nell’**EMEA**. L’applicazione e la documentazione sono disponibili in francese e tedesco.
 
 * Experience League è ora integrato all’interno del prodotto, il che semplifica l’accesso ai contenuti correlati, consentendoti di trarre il massimo da Experience Cloud. L’accesso diretto alla documentazione di Journey Orchestration è disponibile nella parte inferiore della scheda dell’aiuto. Inoltre, puoi fare clic su Aiuto > Feedback per segnalare i problemi o condividere le idee con Adobe.
 
@@ -310,7 +310,7 @@ L’interfaccia Journey Orchestration è disponibile in giapponese.
 
 * Ora è possibile **eliminare** i percorsi interrotti. I rapporti associati a questi percorsi eliminati non saranno disponibili.
 
-* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model. Il nome visualizzato alternativo viene mostrato, se disponibile. Questa descrizione semplice e intuitiva, particolarmente utile per i campi eVar, ti consente di identificare più facilmente i campi. [Ulteriori informazioni](../about/user-interface.md#friendly-names-display)
+* Durante l’esplorazione dei **campi di Adobe Experience Platform** (formato XDM), ora viene mostrato il nome visualizzato in aggiunta al nome del campo. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model. Il nome visualizzato alternativo viene mostrato, se disponibile. Questa descrizione semplice e intuitiva, particolarmente utile per i campi eVar, ti consente di identificare più facilmente i campi. [Ulteriori informazioni](../about/user-interface.md#friendly-names-display)
 
 ## Versione GA - dicembre 2019 {#ga-release---december-2019}
 
