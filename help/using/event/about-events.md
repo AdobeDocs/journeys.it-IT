@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Gli eventi sono chiamate API POST. Gli eventi vengono inviati ad Adobe Experienc
 
 Nell’intestazione del payload sono contenute le informazioni richieste per il funzionamento delle API Streaming Ingestion, oltre alle informazioni necessarie all’operatività di [!DNL Journey Orchestration], come l’ID evento e una parte del corpo del payload, e infine le informazioni da utilizzare nei percorsi (ad esempio, nel corpo, la quantità presente in un carrello abbandonato). Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, fai riferimento a [questo collegamento](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/api/getting-started.html).
 
-Dopo l&#39;arrivo tramite le API Streaming Ingestion, gli eventi scorrono in un servizio interno denominato Pipeline e quindi in Adobe Experience Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale, oltre a un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
+Una volta arrivati attraverso le API Streaming Ingestion, gli eventi si propagano in un servizio interno denominato Pipeline e infine passano ad Adobe Experience Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale ed è presente un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
 
 La pipeline filtra gli eventi che presentano un payload contenente gli ID evento di [!DNL Journey Orchestration] (vedi il processo di creazione degli eventi illustrato in seguito) che sono forniti da [!DNL Journey Orchestration] e contenuti nel payload dell’evento. [!DNL Journey Orchestration] fa da listener agli eventi, il che attiva il percorso corrispondente.
 
