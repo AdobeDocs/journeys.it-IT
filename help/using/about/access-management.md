@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all�
 [!DNL Journey Orchestration] consente di suddividere l’istanza in ambienti virtuali separati, denominati sandbox.
 Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. Per ulteriori informazioni su come assegnare le sandbox, consulta questa [sezione](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] riflette le sandbox Adobe Experience Platform create per una determinata organizzazione.
-Le sandbox Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. Per conoscere i passaggi dettagliati, fai riferimento alla [guida utente sulle sandbox](https://docs.adobe.com/content/help/it-IT/experience-platform/sandbox/ui/user-guide.html).
+[!DNL Journey Orchestration] riflette le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
+Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza Adobe Experience Platform. Per conoscere i passaggi dettagliati, fai riferimento alla [guida utente sulle sandbox](https://docs.adobe.com/content/help/it-IT/experience-platform/sandbox/ui/user-guide.html).
 
 Il controllo del commutatore sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
