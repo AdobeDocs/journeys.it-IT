@@ -1,6 +1,6 @@
 ---
 title: Creazione di un percorso
-description: 'Scopri come creare il percorso avanzato per l’utilizzo dei casi '
+description: 'Scopri come creare il percorso del caso di utilizzo avanzato '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,54 +10,54 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Creazione di un percorso {#concept_owm_kdy_w2b}
 
-L&#39;utente **** aziendale ora può costruire il percorso. Il nostro viaggio includerà le seguenti attività:
+Ora l’**utente aziendale** può costruire il percorso. Il percorso includerà le seguenti attività:
 
-* due **[!UICONTROL Event]** attività: &quot;LobbyBeacon&quot; e &quot;RestaurantBeacon&quot;
-* due **[!UICONTROL Condition]** attività
-* tre **[!UICONTROL Push]** attività e una **[!UICONTROL Email]** attività (utilizzando  Adobe Campaign Standard)
-* a **[!UICONTROL Wait]** activity
-* quattro **[!UICONTROL End]** attività
+* due attività **[!UICONTROL Event]**: “LobbyBeacon” e “RestaurantBeacon”
+* due attività **[!UICONTROL Condition]**
+* tre attività **[!UICONTROL Push]** e un’attività **[!UICONTROL Email]** (utilizzando Adobe Campaign Standard)
+* un’attività **[!UICONTROL Wait]**
+* quattro attività **[!UICONTROL End]**
 
 >[!NOTE]
 >
->Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nella palette solo se si dispone  Adobe Campaign Standard.
+>Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nel riquadro solo se si dispone di Adobe Campaign Standard.
 
-Per ulteriori informazioni su come costruire un viaggio, consulta [](../building-journeys/journey.md).
+Per ulteriori informazioni sulla creazione di un percorso, consulta [](../building-journeys/journey.md).
 
-## Primi passi{#section_ntb_ws1_ffb}
+## Primi passaggi{#section_ntb_ws1_ffb}
 
-1. Nel menu superiore, fai clic sulla **[!UICONTROL Home]** scheda e **[!UICONTROL Create]** crea un nuovo percorso.
+1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]** e **[!UICONTROL Create]** per creare un nuovo percorso.
 
    ![](../assets/journey31.png)
 
-1. Modifica le proprietà del viaggio nel riquadro di configurazione visualizzato sul lato destro. Aggiungete un nome e impostatelo per la durata di un mese, dal 1 al 31 dicembre.
+1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Aggiungi un nome e imposta la durata di un mese, dal 1° al 31 dicembre.
 
    ![](../assets/journeyuc2_12.png)
 
-1. Iniziate a progettare il viaggio trascinando e rilasciando l’evento &quot;LobbyBeacon&quot; dalla palette al quadro. È inoltre possibile fare doppio clic sull&#39;evento nella palette per aggiungerlo al quadro.
+1. Inizia a progettare il percorso trascinando l’evento “LobbyBeacon” dal riquadro all’area di lavoro. Puoi anche fare doppio clic sull’evento nel riquadro per aggiungerlo all’area di lavoro.
 
    ![](../assets/journeyuc2_13.png)
 
-1. Aggiungiamo ora una condizione per verificare che la persona non sia stata contattata nelle ultime 24 ore e verificare se è un membro della fedeltà. Trascina e rilascia un’attività di condizione nel percorso.
+1. Aggiungiamo ora una condizione per verificare che la persona non sia stata contattata nelle ultime 24 ore e verificare se è un membro fedeltà. Trascina un’attività condizione nel percorso.
 
    ![](../assets/journeyuc2_14.png)
 
-1. Scegliete il **[!UICONTROL Data Source Condition]** tipo e fate clic nel **[!UICONTROL Expression]** campo. È inoltre possibile definire un&#39;etichetta di condizione che verrà visualizzata sulla freccia, nel quadro. Nel nostro esempio, sostituiamo &quot;Condizione 1&quot; con &quot;Fedeltà membro&quot;.
+1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e fai clic nel campo **[!UICONTROL Expression]**. Puoi anche definire un’etichetta di condizione che verrà visualizzata sulla freccia nell’area di lavoro. Nel nostro esempio, sostituiamo “Condizione 1” con “Membro fedeltà”.
 
    ![](../assets/journeyuc2_15.png)
 
-1. Fate clic su **[!UICONTROL Advanced mode]** e definite la seguente condizione in base ai campi &quot;timestamp&quot; e &quot;directMarketing.send.value&quot; provenienti dall&#39;origine dati Adobe Experience Platform. La sintassi dell&#39;espressione è la seguente:
+1. Fai clic su **[!UICONTROL Advanced mode]** e definisci la seguente condizione in base ai campi “timestamp” e “directMarketing.sends.value” provenienti dall’origine dati di Adobe Experience Platform. La sintassi dell’espressione è la seguente:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -69,7 +69,7 @@ Per ulteriori informazioni su come costruire un viaggio, consulta [](../building
 
    ![](../assets/journeyuc2_30.png)
 
-1. Fate clic sul **[!UICONTROL Add a path]** pulsante e create un secondo percorso per i clienti che non sono stati contattati nelle ultime 24 ore e non sono membri fedeltà. Denominate il percorso &quot;Not Fealty Member&quot; (Non membro fedeltà). La sintassi dell&#39;espressione è la seguente:
+1. Fai clic sul pulsante **[!UICONTROL Add a path]** e crea un secondo percorso per i clienti che non sono stati contattati nelle ultime 24 ore e non sono membri fedeltà. Denomina il percorso “Non membro fedeltà”. La sintassi dell’espressione è la seguente:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -81,11 +81,11 @@ Per ulteriori informazioni su come costruire un viaggio, consulta [](../building
 
    >[!NOTE]
    >
-   >Nella seconda parte dell&#39;espressione, &quot;Profile&quot; è facoltativo.
+   >Nella seconda parte dell’espressione, “Profile” è facoltativo.
 
-1. È necessario selezionare uno spazio dei nomi. Uno spazio dei nomi è preselezionato in base alle proprietà dello schema. È possibile mantenere quello preselezionato. Per ulteriori informazioni sugli spazi dei nomi, vedere [](../event/selecting-the-namespace.md).
+1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. Per ulteriori informazioni sugli spazi dei nomi, consulta [](../event/selecting-the-namespace.md).
 
-Nel nostro caso d&#39;uso, vogliamo solo reagire a queste due condizioni, quindi non controlliamo la casella **[!UICONTROL Show path for other cases than the one(s) above]**.
+Nel nostro caso di utilizzo vogliamo solamente reagire a queste due condizioni, quindi non spuntiamo la casella **[!UICONTROL Show path for other cases than the one(s) above]** (Mostra percorso per casi diversi da quello/i mostrato/i sopra).
 
 Dopo la condizione vengono creati due percorsi:
 
@@ -96,11 +96,11 @@ Dopo la condizione vengono creati due percorsi:
 
 ## Primo percorso: il cliente è un membro fedeltà {#section_otb_ws1_ffb}
 
-1. Nel primo percorso, aggiungiamo una condizione per verificare se ha una prenotazione. Trascina e rilascia un’attività di condizione nel percorso.
+1. Nel primo percorso, aggiungiamo una condizione per verificare se il cliente ha una prenotazione. Trascina un’attività condizione nel percorso.
 
    ![](../assets/journeyuc2_17.png)
 
-1. Scegliere il **[!UICONTROL Data Source Condition]** tipo e definire la condizione in base alle informazioni sullo stato della prenotazione recuperate dal sistema di prenotazione:
+1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e definisci la condizione in base alle informazioni sullo stato della prenotazione recuperate dal sistema di prenotazione:
 
    ```
    #{MarltonReservation.MarltonFieldGroup.reservation} == true
@@ -108,7 +108,7 @@ Dopo la condizione vengono creati due percorsi:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Quando si seleziona un campo da un&#39;origine dati esterna, nella parte destra della schermata viene visualizzato l&#39;elenco dei parametri definiti al momento della configurazione dell&#39;origine dati esterna (vedere [](../usecase/configuring-the-data-sources.md)). Fate clic sul nome del parametro e definite il valore della chiave del sistema di prenotazione, l&#39;ID Experience Cloud , nel nostro esempio:
+1. Quando selezioni un campo da un’origine dati esterna, nella parte destra della schermata viene visualizzato l’elenco dei parametri definiti al momento della configurazione dell’origine dati esterna (consulta [](../usecase/configuring-the-data-sources.md)). Fai clic sul nome del parametro e definisci il valore della chiave del sistema di prenotazione, l’ID Experience Cloud, nel nostro esempio:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -116,7 +116,7 @@ Dopo la condizione vengono creati due percorsi:
 
    ![](../assets/journeyuc2_19.png)
 
-1. Dal momento che vogliamo reagire anche ai clienti che non hanno una prenotazione, dobbiamo controllare la casella **[!UICONTROL Show path for other cases than the one(s) above]**.
+1. Dal momento che vogliamo reagire anche ai clienti che non hanno una prenotazione, dobbiamo spuntare la casella **[!UICONTROL Show path for other cases than the one(s) above]** (Mostra percorso per casi diversi da quello/i mostrato/i sopra).
 
    ![](../assets/journeyuc2_20.png)
 
@@ -127,57 +127,57 @@ Dopo la condizione vengono creati due percorsi:
 
    ![](../assets/journeyuc2_21.png)
 
-1. Nel primo percorso (stanza prenotata), lasciate cadere un&#39; **[!UICONTROL Push]** attività, selezionate la vostra app mobile e il modello di &quot;Benvenuto&quot;.
+1. Nel primo percorso (stanza prenotata), rilascia un’attività **[!UICONTROL Push]**, seleziona la tua app mobile e il modello per dare il benvenuto.
 
    ![](../assets/journeyuc2_22.png)
 
-1. Definite i **[!UICONTROL Target]** campi richiesti dal sistema per inviare il push.
+1. Definisci i campi **[!UICONTROL Target]** richiesti dal sistema per inviare il push.
 
-   * **[!UICONTROL Push platform]**: selezionate la piattaforma: **[!UICONTROL Apple Push Notification Server]** (Apple) o **[!UICONTROL Firebase Cloud Messaging]** (Android).
-   * **[!UICONTROL Registration token]**: aggiungete la seguente espressione (basata sull&#39;evento configurato) utilizzando la modalità avanzata:
+   * **[!UICONTROL Push platform]**: seleziona la piattaforma: **[!UICONTROL Apple Push Notification Server]** (Apple) o **[!UICONTROL Firebase Cloud Messaging]** (Android).
+   * **[!UICONTROL Registration token]**: aggiungi la seguente espressione (basata sull’evento configurato) utilizzando la modalità avanzata:
 
       ```
       @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
       ```
 
-1. Definite i campi di personalizzazione delle notifiche push. Nel nostro esempio: nome e cognome.
+1. Definisci i campi di personalizzazione delle notifiche push. Nel nostro esempio: nome e cognome.
 
-1. Aggiungete un evento &quot;RestaurantBeacon&quot;.
+1. Aggiungi un evento “RestaurantBeacon”.
 
    ![](../assets/journeyuc2_23.png)
 
-1. Aggiungete una nuova **[!UICONTROL Push]** attività, selezionate il modello &quot;Sconto pasti&quot; e definite i **[!UICONTROL Address]** campi e **[!UICONTROL Personalization]** . Aggiungi un’attività **[!UICONTROL End]**. 
+1. Aggiungi una nuova attività **[!UICONTROL Push]**, seleziona il modello “Sconto sui pasti” e definisci i campi **[!UICONTROL Address]** e **[!UICONTROL Personalization]**. Aggiungi un’attività **[!UICONTROL End]**.
 
    ![](../assets/journeyuc2_24.png)
 
-1. Vogliamo inviare una notifica push con sconto pasto solo se la persona entra nel ristorante entro le prossime 6 ore dopo la push di benvenuto. A tal fine, è necessario utilizzare un&#39;attività di attesa. Posizionate il cursore sull&#39;attività push di benvenuto e fate clic sul simbolo &quot;+&quot;. Nel nuovo percorso, aggiungete un&#39;attività di attesa e definite una durata di 6 ore. Sarà scelta la prima attività ammissibile. Se l’evento del ristorante viene ricevuto meno di 6 ore dopo il push di benvenuto, l’attività push viene inviata. Se non viene ricevuto nessun evento del ristorante entro le prossime 6 ore, l&#39;attesa viene scelta. Inserite un&#39; **[!UICONTROL End]** attività dopo l&#39;attività di attesa.
+1. Vogliamo inviare una notifica push con uno sconto sui pasti solo se la persona entra nel ristorante entro le successive 6 ore dopo il messaggio push di benvenuto. Per farlo, dovremo utilizzare un’attività Attendi. Posiziona il cursore sull’attività push di benvenuto e fai clic sul simbolo “+”. Nel nuovo percorso, aggiungi un’attività Attendi e imposta una durata di 6 ore. Verrà scelta la prima attività idonea. Se l’evento del ristorante viene ricevuto meno di 6 ore dopo il messaggio push di benvenuto, l’attività push viene inviata. Se non viene ricevuto nessun evento del ristorante entro le 6 ore successive, viene scelta l’attività Attendi. Posiziona un’attività **[!UICONTROL End]** dopo l’attività Attendi.
 
    ![](../assets/journeyuc2_31.png)
 
-1. Nel secondo percorso che segue la condizione di prenotazione (nessuna stanza prenotata), aggiungete un&#39; **[!UICONTROL Push]** attività e selezionate il modello &quot;Tariffe camera&quot;. Aggiungi un’attività **[!UICONTROL End]**. 
+1. Nel secondo percorso che segue la condizione di prenotazione (nessuna stanza prenotata), aggiungi un’attività **[!UICONTROL Push]** e seleziona il modello “Tariffe delle camere”. Aggiungi un’attività **[!UICONTROL End]**.
 
    ![](../assets/journeyuc2_25.png)
 
 ## Secondo percorso: il cliente non è un membro fedeltà{#section_ptb_ws1_ffb}
 
-1. Nel secondo percorso che segue la prima condizione (il cliente non è un membro fedeltà), aggiungete un&#39; **[!UICONTROL Email]** attività e selezionate il modello di &quot;iscrizione fedeltà&quot;.
+1. Nel secondo percorso che segue la prima condizione (il cliente non è un membro fedeltà), aggiungi un’attività **[!UICONTROL Email]** e seleziona il modello “Iscrizione fedeltà”.
 
    ![](../assets/journeyuc2_26.png)
 
-1. Nel **[!UICONTROL Address]** campo, selezionare l&#39;indirizzo e-mail dall&#39;origine dati.
+1. Nel campo **[!UICONTROL Address]**, seleziona l’indirizzo e-mail dall’origine dati.
 
    ![](../assets/journeyuc2_27.png)
 
-1. Definire i campi di personalizzazione del nome e del cognome dall&#39;origine dati.
+1. Definisci i campi di personalizzazione nome e cognome dall’origine dati.
 
    ![](../assets/journeyuc2_28.png)
 
-1. Aggiungi un’attività **[!UICONTROL End]**. 
+1. Aggiungi un’attività **[!UICONTROL End]**.
 
-Fai clic sull&#39; **[!UICONTROL Test]** interruttore e verifica il percorso. In caso di errore, disattivate la modalità di prova, modificate il percorso e verificatene di nuovo il funzionamento. Per ulteriori informazioni sulla modalità di prova, vedere [](../building-journeys/testing-the-journey.md).
+Fai clic sull’interruttore **[!UICONTROL Test]** e verifica il percorso. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Per ulteriori informazioni sulla modalità di test, consulta [](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 
-Quando il test è conclusivo, potete pubblicare il viaggio dal menu a discesa in alto a destra.
+Quando il test va a buon fine, puoi pubblicare il percorso dal menu a discesa in alto a destra.
 
 ![](../assets/journeyuc2_32.png)
