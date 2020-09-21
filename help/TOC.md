@@ -1,18 +1,18 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Guida al Journey Orchestration
+user-guide-title: Guida di Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] Guida {#using}
+# Guida di [!DNL Journey Orchestration] {#using}
 
 + [Documentazione del prodotto](journey-orchestration-home.md)
 + Novità {#release-notes}
@@ -59,8 +59,8 @@ ht-degree: 94%
       + [Terminazione di un percorso](using/building-journeys/terminating-a-journey.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
    + Attività {#about-journey-building}
-      + Eventi attività {#events-activities}
-         + [Informazioni sulle attività degli eventi](using/building-journeys/event-activities.md)
+      + Attività eventi {#events-activities}
+         + [Informazioni sulle attività eventi](using/building-journeys/event-activities.md)
          + [Eventi generali](using/building-journeys/general-events.md)
          + [Eventi di reazione](using/building-journeys/reaction-events.md)
          + [Eventi di qualificazione dei segmenti](using/building-journeys/segment-qualification-events.md)
@@ -75,7 +75,7 @@ ht-degree: 94%
          + [Utilizzo di azioni personalizzate](using/building-journeys/using-custom-actions.md)
    + [Verifica del percorso](using/building-journeys/testing-the-journey.md)
    + [Pubblicazione del percorso](using/building-journeys/publishing-the-journey.md)
-   + Condivisione di passaggi di viaggio con Adobe Experience Platform {#sharing-journey-steps}
+   + Condivisione di passaggi del percorso con Adobe Experience Platform {#sharing-journey-steps}
       + [Panoramica sulla condivisione delle fasi del percorso](using/building-journeys/sharing-overview.md)
       + [Campi comuni degli eventi journeySteps](using/building-journeys/sharing-common-fields.md)
       + [Campi di esecuzione azione degli eventi journeyStep](using/building-journeys/sharing-execution-fields.md)
@@ -184,6 +184,6 @@ ht-degree: 94%
 + Funzioni alfa {#alpha}
    + [Panoramica delle funzioni alfa](using/alpha/alpha-overview.md)
    + [Interfaccia utente](using/alpha/alpha-interface.md)
-   + [Attività Lettura segmento](using/alpha/alpha-segment-trigger.md)
+   + [Attività Leggi segmento](using/alpha/alpha-segment-trigger.md)
    + [Eventi basati su regole](using/alpha/alpha-events.md)
 
