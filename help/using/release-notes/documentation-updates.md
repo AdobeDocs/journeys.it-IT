@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 ## Agosto 2020 {#august-2020}
 
 * Sono state aggiunte informazioni su come ordinare e scegliere le colonne da visualizzare nell’elenco dei segmenti. [Leggi tutto](../building-journeys/segment-qualification-events.md)
-* Sono state aggiunte informazioni su come copiare il nome e l’ID di un segmento dopo che questo è stato selezionato. [Leggi tutto](../building-journeys/segment-qualification-events.md)
-* Le occorrenze di  Experience Platform sono state armonizzate tra le diverse pagine.
+* Sono state aggiunte informazioni su come copiare il nome e l’ID di un segmento dopo averlo selezionato. [Leggi tutto](../building-journeys/segment-qualification-events.md)
+* Le occorrenze di Experience Platform sono state armonizzate tra le diverse pagine.
 
 ## Luglio 2020 {#july-2020}
 
-* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi per il reporting ad Adobe Experience Platform. [Leggi tutto](../building-journeys/sharing-overview.md)
-* La sezione delle attività degli eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Leggi tutto](../building-journeys/event-activities.md)
-* Sono state aggiunte procedure ottimali per evitare il sovraccarico con la qualifica del segmento. [Leggi tutto](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* È stata aggiunta una nota per spiegare come continuare un viaggio dopo un errore in un’azione o una condizione. [Leggi tutto](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi che inviano rapporti ad Adobe Experience Platform. [Leggi tutto](../building-journeys/sharing-overview.md)
+* La sezione delle attività eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Leggi tutto](../building-journeys/event-activities.md)
+* Sono state aggiunte le best practice per evitare il sovraccarico con la qualificazione dei segmenti. [Leggi tutto](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Leggi tutto](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * È stata aggiunta una nuova sezione sulle funzioni alfa testate tra un gruppo limitato di clienti. [Leggi tutto](../alpha/alpha-overview.md)
 * È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Leggi tutto](../ai-services/ai-services-overview.md)
 * È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -61,12 +61,12 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 ## Marzo 2020 {#march-2020}
 
 * Nella sezione dei registri di test sono state aggiunte le descrizioni dei parametri per _actionExecutionErrors_ e _fetchErrors_. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#viewing_logs)
-* Sono state aggiornate le limitazioni alle azioni personalizzate utilizzate in un percorso. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
+* Sono state aggiornate le limitazioni alle azioni personalizzate utilizzate in un percorso. Puoi anche modificare il campo **[!UICONTROL URL]** e i parametri di **[!UICONTROL Authentication]**. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
 * Sono state aggiunte nuove voci di aiuto contestuali. In azioni e origini dati, il riquadro del payload di autenticazione personalizzata adesso include un’icona dell’aiuto che collega a questa [sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Ora è possibile interrompere i percorsi chiusi. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
 * È stata riorganizzata la sezione relativa alla descrizione dell’interfaccia. [Ulteriori informazioni](../about/user-interface.md)
 * È stata aggiunta l’attivazione di più eventi alla sezione Modalità di test [Ulteriori informazioni](../building-journeys/testing-the-journey.md#firing_events)
-* The Test mode section has been updated regarding the new **[!UICONTROL Wait time in test]** parameter. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
+* La sezione Modalità di test è stata aggiornata per quanto riguarda il nuovo parametro **[!UICONTROL Wait time in test]** (Tempo di attesa nel test). [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
 * La sezione del registro dei test è stata aggiornata con i codici di errore e le risposte della chiamata esterna. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#viewing_logs)
 * La gestione del fuso orario è ora centralizzata nel pannello delle proprietà del percorso. Per ulteriori informazioni, consulta [questa](../building-journeys/changing-properties.md#timezone) e [questa sezione](../building-journeys/timezone-management.md).
 * La sezione designer del percorso è stata aggiornata per riflettere i miglioramenti più recenti. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
