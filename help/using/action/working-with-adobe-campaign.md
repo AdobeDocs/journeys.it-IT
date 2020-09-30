@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: 4f7cc4da51a93019b5a296003c51d4bee6724498
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -47,10 +47,11 @@ Di seguito sono riportati i passaggi per configurarlo:
    >
    >Questo test verifica che:
    >
-   >* L’host è &quot;.campaign.adobe.com&quot; o &quot;.campaign-sandbox.adobe.com&quot;,
-   >* L&#39;URL inizia con https,
-   >* L&#39;ORG associato a questa istanza  Adobe Campaign Standard è uguale all&#39;ORG  Journey Orchestration.
-
+   >L’host è &quot;.campaign.adobe.com&quot; o &quot;.campaign-sandbox.adobe.com&quot;,
+   >
+   >L&#39;URL inizia con https,
+   >
+   >L&#39;ORG associato a questa istanza  Adobe Campaign Standard è uguale all&#39;ORG  Journey Orchestration.
 
 Durante la progettazione del percorso, nella **[!UICONTROL Action]** categoria saranno disponibili tre azioni: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consultate [Utilizzo  azioni](../building-journeys/using-adobe-campaign-actions.md)Adobe Campaign). **L&#39;evento** Reazioni consente inoltre di reagire ai clic dei messaggi, alle aperture e così via. (vedere Eventi [di](../building-journeys/reaction-events.md)reazione).
 
