@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
    ![](../assets/journeyuctest2.png)
 
-1. In caso di errore, disattivate la modalità di prova, modificate il percorso e verificatene di nuovo il funzionamento. Quando il test è conclusivo, potete pubblicare il viaggio. A questo proposito, consulta la sezione [](../building-journeys/publishing-the-journey.md).
+1. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Quando il test è conclusivo, potete pubblicare il viaggio. A questo proposito, consulta la sezione [](../building-journeys/publishing-the-journey.md).
 
 ## Note importanti {#important_notes}
 
@@ -169,3 +169,18 @@ Di seguito sono riportati i diversi stati del viaggio di un individuo:
 * _Completato_: l&#39;individuo è alla fine del viaggio.
 * _Errore_: l&#39;individuo viene fermato durante il viaggio a causa di un errore.
 * _Timeout_: l&#39;individuo viene fermato nel viaggio per un passo che ha richiesto troppo tempo.
+
+Quando un evento viene attivato utilizzando la modalità di prova, un dataset viene generato automaticamente con il nome dell&#39;origine.
+
+Quando un evento viene attivato utilizzando la modalità di prova, un dataset viene generato automaticamente con il nome dell&#39;origine.
+
+La modalità test crea automaticamente un evento esperienza e lo invia ad Adobe Experience Platform. Il nome dell&#39;origine di questo evento esperienza è &quot;Eventi test Journey Orchestration&quot;.
+
+In caso di eventi multipli attivati da viaggi multipli
+
+Esiste uno scenario in cui si verificano più eventi inviati da viaggi multipli che avranno schemi diversi. Lo schema può mappare a 1 dataset? In caso contrario, saranno necessari più insiemi di dati.
+
+La creazione e la denominazione automatica di questi set di dati viene eseguita se un set di dati di destinazione non è incluso nell&#39;evento esperienza. Ecco perché oggi vediamo il &quot;dataset creato automaticamente per voyager&quot;.
+
+La denominazione della nostra fonte determina la creazione automatica. Se abbiamo più eventi, dovremmo concatenarli e farli diventare &quot;Journey Orchestration Test Event - NAME OF SCHEMA&quot;. Viene automaticamente impostato su &quot;Set di dati generato automaticamente per Journey Orchestration evento di test - NAME OF SCHEMA&quot;.
+
