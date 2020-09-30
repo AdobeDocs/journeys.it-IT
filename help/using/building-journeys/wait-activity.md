@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Questa opzione consente di definire una data personalizzata, ad esempio 12 lugli
 
 >[!NOTE]
 >
->È possibile utilizzare un&#39;espressione dateTimeOnly o una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell&#39;evento che si trova nel modulo 2016-08-12T09:46:06.
+>È possibile utilizzare un&#39;espressione dateTimeOnly o una funzione per convertire in dateTimeOnly. Ad esempio: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, il campo nel caso in cui si tratti del modulo 2016-08-12T09:46:06Z.
 >
 >Il fuso **** orario è previsto nelle proprietà del viaggio. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo di mixaggio e un fuso orario ISO-8601 completo come 2016-08-12T09:46:06.982-05. A questo proposito, consulta la sezione [](../building-journeys/timezone-management.md).
 
