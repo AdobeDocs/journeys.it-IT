@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '1653'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,54 @@ ht-degree: 100%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
+
+## Release di settembre 2020 {#september-release}
+
+### Aggiornamenti per la disponibilità generale{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Miglioramenti all'attività delle condizioni</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Quando si aggiungono condizioni al viaggio, ora è possibile definire un'etichetta. Se durante un viaggio si utilizzano diverse condizioni, questo consente di identificarle più facilmente.
+</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/condition-activity.md#about_condition">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Aggiornamenti Alpha{#september-alpha-update}
+
+Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Miglioramenti all’attività di lettura dei segmenti</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>I viaggi basati su segmenti ora mostrano, sopra il quadro, un promemoria del tipo di pianificazione del viaggio. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>
+</li>
+<li><p>È stata migliorata la granularità dei registri della modalità di prova per visualizzare lo stato di avanzamento dell’esportazione del segmento.</p>
+</li>
+</ul>
+<p>Per ulteriori informazioni sull'attività del segmento <strong></strong> Leggi, consulta la documentazione <a href="../alpha/alpha-segment-trigger.md"></a>dettagliata.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versione di agosto 2020 {#august-release}
 
