@@ -11,17 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+source-git-commit: e5644e28d66652b013d9873275d1d564ad75b97d
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 5%
+source-wordcount: '108'
+ht-degree: 28%
 
 ---
 
 
 # Panoramica delle funzioni alfa
 
-Il programma Alpha offre funzioni attualmente testate tra un numero limitato di clienti. Questo ci permette di migliorare il nostro prodotto in base al feedback ricevuto. Queste funzioni non sono disponibili per tutti i clienti dei Journey Orchestration.
+Il programma Alpha offre funzioni che sono attualmente in fase di test per un numero limitato di clienti. Le funzioni non sono disponibili per tutti i clienti di Journey Orchestration.
 
 Questa sezione è dedicata solo alle funzioni Alfa. Se non fate parte del programma Alfa e desiderate ulteriori informazioni sulle altre funzioni dell&#39;Journey Orchestration, consultate le altre sezioni di questa [documentazione](../../journey-orchestration-home.md).
 
