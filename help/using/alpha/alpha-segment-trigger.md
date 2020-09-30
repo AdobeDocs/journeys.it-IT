@@ -1,5 +1,5 @@
 ---
-title: Attività Lettura segmento
+title: Attività Leggi segmento
 description: Ulteriori informazioni sull'attività Leggi segmento.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 4%
 
 ---
 
 
-# Attività Lettura segmento {#segment-trigger-activity}
+# Attività Leggi segmento {#segment-trigger-activity}
 
 ## Informazioni sull&#39;attività Leggi segmento {#about-segment-trigger-actvitiy}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Se  un’attività di Adobe Campaign Standard out-of-the-box è presente nell’area di lavoro al momento della pubblicazione o al momento dell’attivazione della modalità di prova, il viaggio sarà limitato a 13 ingressi al secondo. In caso contrario, il viaggio sarà limitato a 1000 eventi al secondo.
 
-L’attività Leggi segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L&#39;ingresso in un viaggio può essere eseguito una volta o su base regolare.
+L’attività Leggi segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare.
 
 Supponiamo che tu abbia un segmento di clienti Gold su Adobe Experience Platform. Con l&#39;attività Leggi segmento, puoi fare in modo che tutti gli individui appartenenti al segmento di clienti Gold intraprendano un viaggio e li facciano scorrere in percorsi personalizzati che sfruttino tutte le funzionalità di viaggio: condizioni, orari, eventi, azioni.
 
@@ -83,14 +83,20 @@ A questo scopo, attivate la modalità di prova, quindi selezionate l’opzione d
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Potete quindi configurare la modalità di prova come di consueto. In [questa sezione](../building-journeys/testing-the-journey.md)sono illustrati i passaggi dettagliati su come verificare il percorso.
+Potete quindi configurare ed eseguire la modalità di prova come di consueto. In [questa sezione](../building-journeys/testing-the-journey.md)sono illustrati i passaggi dettagliati su come verificare il percorso.
 
-Tieni presente che il test del percorso con un massimo di 100 profili contemporaneamente non consente di monitorare l’avanzamento degli individui durante il viaggio utilizzando il flusso visivo.
+Una volta eseguito il test, il **[!UICONTROL Show logs]** pulsante consente di visualizzare i risultati del test in base all&#39;opzione di test selezionata:
+
+* **[!UICONTROL Single profile at a time]**: i registri di test visualizzano le stesse informazioni di quando si utilizza la modalità di prova unitaria. Per ulteriori informazioni al riguardo, consulta [questa sezione](../building-journeys/testing-the-journey.md#viewing_logs)
+
+* **[!UICONTROL Up to 100 profiles at once]**: i registri di test consentono di tenere traccia della progressione dell’esportazione del segmento da Adobe Experience Platform, nonché dei singoli progressi di tutte le persone che sono entrate nel percorso.
+
+   Tieni presente che il test del percorso con un massimo di 100 profili contemporaneamente non consente di monitorare l’avanzamento degli individui durante il viaggio utilizzando il flusso visivo.
+
+   ![](../assets/read-segment-log.png)
 
 Una volta completati i test, potete pubblicare il viaggio (consultate [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md)). Gli individui appartenenti al segmento entreranno nel percorso nella data/ora specificata nella sezione delle proprietà del viaggio **[!UICONTROL Scheduler]** .
 
->[!IMPORTANT]
+>[!NOTE]
 >
->I segmenti Adobe Experience Platform vengono calcolati una volta al giorno (segmenti **batch** ) o in tempo reale (segmenti **in streaming** ).
->
->Se il segmento selezionato viene trasmesso in streaming, gli utenti appartenenti a questo segmento possono potenzialmente entrare nel percorso in tempo reale. Se il segmento è batch, le persone appena qualificate per questo segmento potranno potenzialmente entrare nel percorso quando il calcolo del segmento viene eseguito sull&#39;Adobe Experience Platform.
+>Quando si esegue una nuova versione di un percorso basato su segmenti che non è ricorrente (a partire dal più presto possibile o &quot;una volta&quot;), tutti gli utenti che sono entrati nel percorso in precedenza non immetteranno nuovamente la nuova versione al momento della pubblicazione. Se desiderate consentire loro di rientrare, dovete duplicare il viaggio.
