@@ -1,5 +1,5 @@
 ---
-title: Eventi di qualifica del segmento
+title: Eventi di qualificazione dei segmenti
 description: Scopri gli eventi di qualifica dei segmenti
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
 
-# Eventi di qualifica del segmento {#segment-qualification}
+# Eventi di qualificazione dei segmenti {#segment-qualification}
 
 ## Informazioni sugli eventi di qualificazione dei segmenti{#about-segment-qualification}
 
@@ -29,7 +29,12 @@ Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa atti
 
 Questo tipo di evento può essere posizionato come primo passo o successivo del viaggio.
 
-Se il segmento viene trasmesso in streaming con l&#39;opzione Pubblico ad alta frequenza di Adobe Experience Platform, l&#39;ingresso e l&#39;uscita vengono ascoltati in tempo reale. Se il segmento non è in streaming, le entrate e le uscite vengono prese in considerazione al momento del calcolo del segmento.
+>[!IMPORTANT]
+>
+>Tenere presente che i segmenti Adobe Experience Platform vengono calcolati una volta al giorno (segmenti **batch** ) o in tempo reale (segmenti **in streaming** , utilizzando l&#39;opzione Pubblico ad alta frequenza di Adobe Experience Platform).
+>
+>Se il segmento selezionato viene trasmesso in streaming, gli utenti appartenenti a questo segmento possono potenzialmente entrare nel percorso in tempo reale. Se il segmento è batch, le persone appena qualificate per questo segmento potranno potenzialmente entrare nel percorso quando il calcolo del segmento viene eseguito sull&#39;Adobe Experience Platform.
+
 
 1. Spiegate la **[!UICONTROL Events]** categoria e rilasciate un&#39; **[!UICONTROL Segment qualification]** attività nel quadro.
 
