@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 25d3c3062bca2151faf10d11e9636799c1331f24
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 5%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -32,11 +32,15 @@ Sono disponibili quattro tipi di condizioni:
 
 ## Informazioni sull&#39;attività Condizione {#about_condition}
 
+Quando si utilizzano più condizioni in un viaggio, è possibile definire etichette per ognuna di esse per identificarle più facilmente.
+
 Fare clic **[!UICONTROL Add a path]** per definire più condizioni. Per ogni condizione, dopo l&#39;attività viene aggiunto un nuovo percorso nel quadro.
 
 ![](../assets/journey47.png)
 
-Si noti che la progettazione dei viaggi ha un impatto funzionale. Quando più percorsi sono definiti dopo una condizione, viene eseguito solo il primo percorso idoneo. Ciò significa che potete variare la priorità dei percorsi posizionandoli sopra o sotto l’uno dell’altro. Ad esempio, se la condizione del primo percorso è &quot;La persona è un VIP&quot; e la condizione del secondo percorso è &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un uomo che è un VIP) supera questo passo, il primo percorso sarà scelto anche se è anche idoneo al secondo, perché il primo percorso è &quot;sopra&quot;. Per modificare questa priorità, spostare le attività in un altro ordine verticale.
+Si noti che la progettazione dei viaggi ha impatti funzionali. Quando più percorsi sono definiti dopo una condizione, viene eseguito solo il primo percorso idoneo. Ciò significa che potete variare la priorità dei percorsi posizionandoli sopra o sotto l’uno dell’altro.
+
+Prendiamo ad esempio la condizione di un primo percorso &quot;La persona è un VIP&quot; e la condizione di un secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un uomo che è un VIP) supera questo passo, il primo percorso sarà scelto anche se è anche idoneo al secondo, perché il primo percorso è &quot;sopra&quot;. Per modificare questa priorità, spostare le attività in un altro ordine verticale.
 
 ![](../assets/journey48.png)
 
@@ -57,7 +61,7 @@ Se utilizzi [Adobe Experience Platform Segmentation Service](https://docs.adobe.
 >Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic passati sui messaggi) con l&#39;editor semplice. A questo scopo dovrete utilizzare l&#39;editor avanzato. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
 
 
-Quando si verifica un errore in un&#39;azione o in una condizione, il percorso di un individuo si arresta. L&#39;unico modo per far sì che continui è di selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]**. A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condizione Origine dati {#data_source_condition}
 
