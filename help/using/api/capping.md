@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -82,12 +82,12 @@ L’API Capping consente di creare, configurare e monitorare le configurazioni d
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Ottenere un elenco delle configurazioni di capping dell&#39;endpoint |
 | [!DNL POST] | /endpointConfigs | Creare una configurazione di cappottatura dell&#39;endpoint |
-| [!DNL POST] | /endpointConfigs/{uid}/deploying | Implementare una configurazione di cappottatura dell&#39;endpoint |
-| [!DNL POST] | /endpointConfigs/{uid}/undeployment | Disdistribuire una configurazione di cappottatura dell&#39;endpoint |
-| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | Verificate se è possibile distribuire o meno una configurazione di cappotto dell&#39;endpoint |
-| [!DNL PUT] | /endpointConfigs/{uid} | Aggiornare una configurazione di cappottatura dell&#39;endpoint |
-| [!DNL GET] | /endpointConfigs/{uid} | Recuperare una configurazione di capping endpoint |
-| [!DNL DELETE] | /endpointConfigs/{uid} | Eliminare una configurazione di codifica enpoint |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploying | Implementare una configurazione di cappottatura dell&#39;endpoint |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeployment | Disdistribuire una configurazione di cappottatura dell&#39;endpoint |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | Verificate se è possibile distribuire o meno una configurazione di cappotto dell&#39;endpoint |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | Aggiornare una configurazione di cappottatura dell&#39;endpoint |
+| [!DNL GET] | /endpointConfigs/`{uid}` | Recuperare una configurazione di capping endpoint |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | Eliminare una configurazione di codifica enpoint |
 
 Quando si crea o aggiorna una configurazione, viene automaticamente eseguito un controllo per garantire la sintassi e l&#39;integrità del payload.
 In caso di problemi, l&#39;operazione restituisce un avviso o degli errori per facilitare la correzione della configurazione.
@@ -156,7 +156,7 @@ Gli errori potenziali sono:
 * **ERR_ENDPOINTCONFIG_108**: configurazione di capping: numero massimo di chiamate non valido (puntoInMs)
 * **ERR_ENDPOINTCONFIG_111**: configurazione di capping: impossibile creare la configurazione dell&#39;endpoint: payload non valido
 * **ERR_ENDPOINTCONFIG_112**: configurazione di capping: impossibile creare la configurazione dell&#39;endpoint: attesa di un payload JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome servizio non valido <!--<given value>-->: deve essere &#39;dataSource&#39; o &#39;action&#39;
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome servizio non valido `<!--<given value>-->`: deve essere &#39;dataSource&#39; o &#39;action&#39;
 
 
 L&#39;avviso potenziale è il seguente:
