@@ -1,6 +1,6 @@
 ---
 title: Informazioni sulla creazione di percorsi
-description: Scopri come creare un percorso
+description: In qualità di utente aziendale, scopri come combinare attività di evento, orchestrazione e azione per creare un percorso.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 10%
+source-wordcount: '376'
+ht-degree: 13%
 
 ---
 
@@ -26,7 +26,7 @@ This step is performed by the **business user**. Qui si creano i percorsi. Combi
 
 L’interfaccia di viaggio consente di trascinare e rilasciare facilmente le attività dalla palette al quadro. Potete anche fare doppio clic su un&#39;attività per aggiungerla nell&#39;area di lavoro al passaggio successivo disponibile. Ogni attività ha un ruolo specifico e si colloca nel processo. Le attività sono sequenziate. Al termine di un&#39;attività, il flusso continua ed elabora l&#39;attività successiva, e così via.
 
-Per ogni percorso è consentito un solo spazio dei nomi. Quando si elimina il primo evento, gli eventi con spazi dei nomi diversi verranno visualizzati in grigio. Se il primo evento non dispone di uno spazio nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. A questo proposito, consulta la sezione [](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disabilitati se il viaggio include eventi senza uno spazio dei nomi. Infine, se si utilizzano diversi eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi.
+Per ogni percorso è consentito un solo spazio dei nomi. Quando si elimina il primo evento, gli eventi con spazi dei nomi diversi saranno disattivati. Se il primo evento non dispone di uno spazio nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. A questo proposito, consulta la sezione [](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disabilitati se il viaggio include eventi senza uno spazio nomi. Infine, se si utilizzano diversi eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi.
 
 ## Quick start {#creating_journey}
 
@@ -42,7 +42,7 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
 
    ![](../assets/journey31.png)
 
-1. Modifica le proprietà del viaggio nel riquadro di configurazione visualizzato sul lato destro. A questo proposito, consulta la sezione [](../building-journeys/changing-properties.md).
+1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. A questo proposito, consulta la sezione [](../building-journeys/changing-properties.md).
 
    ![](../assets/journey32.png)
 
