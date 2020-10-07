@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 97%
       + [Configurazione dell’evento](using/usecase/configuring-the-event.md)
       + [Configurazione dell’origine dati](using/usecase/configuring-the-data-source.md)
       + [Creazione di un percorso](using/usecase/simple-uc-building-the-journey.md)
-   + Building a cross-channel journey{#use-case-advanced}
+   + Creazione di un percorso cross-channel{#use-case-advanced}
       + [Informazioni sul caso d’uso avanzato](using/usecase/about-the-advanced-use-case.md)
       + [Configurazione degli eventi](using/usecase/configuring-the-events.md)
       + [Configurazione delle origini dati](using/usecase/configuring-the-data-sources.md)
