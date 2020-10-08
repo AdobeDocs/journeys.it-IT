@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -46,7 +44,7 @@ Innanzitutto, eseguite il targeting dei clienti che hanno visitato lo store onli
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**Questa espressione cerca tutti gli eventi per l&#39;utente specificati negli ultimi 7 giorni:**
+**Questa espressione cerca tutti gli eventi per l&#39;utente specificato negli ultimi 7 giorni:**
 
 Quindi seleziona tutti gli eventi addtocart che non si sono trasformati in un completePurchase.
 
