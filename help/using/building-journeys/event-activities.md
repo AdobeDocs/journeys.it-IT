@@ -1,5 +1,5 @@
 ---
-title: Informazioni sulle attività degli eventi
+title: Informazioni sulle attività eventi
 description: Informazioni sulle attività degli eventi
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Informazioni sulle attività degli eventi {#concept_rws_1rt_52b}
+# Informazioni sulle attività eventi {#concept_rws_1rt_52b}
 
 Gli eventi configurati dall&#39;utente tecnico (vedere [](../event/about-events.md)) vengono visualizzati nella prima categoria della palette, sul lato sinistro dello schermo.
 
