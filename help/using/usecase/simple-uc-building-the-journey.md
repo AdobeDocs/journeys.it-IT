@@ -8,20 +8,18 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 4%
+ht-degree: 42%
 
 ---
 
 
 # Creazione di un percorso{#concept_eyw_mcy_w2b}
 
-L&#39;utente **** aziendale ora può costruire il percorso. Il nostro viaggio includerà solo un percorso con le seguenti attività:
+Ora l’**utente aziendale** può costruire il percorso. Il nostro viaggio includerà solo un percorso con le seguenti attività:
 
 * &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon termale, il sistema riceverà un evento e il viaggio inizierà per quella persona.
 * un&#39; **[!UICONTROL Condition]** attività per verificare che la persona sia una donna
@@ -30,27 +28,27 @@ L&#39;utente **** aziendale ora può costruire il percorso. Il nostro viaggio in
 
 >[!NOTE]
 >
->Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nella palette solo se si dispone  Adobe Campaign Standard.
+>Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nel riquadro solo se si dispone di Adobe Campaign Standard.
 
-Per ulteriori informazioni su come costruire un viaggio, consulta [](../building-journeys/journey.md).
+Per ulteriori informazioni sulla creazione di un percorso, consulta [](../building-journeys/journey.md).
 
-1. Nel menu superiore, fai clic sulla **[!UICONTROL Home]** scheda e **[!UICONTROL Create]** crea un nuovo percorso.
+1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]** e **[!UICONTROL Create]** per creare un nuovo percorso.
 
    ![](../assets/journey31.png)
 
-1. Modifica le proprietà del viaggio nel riquadro di configurazione visualizzato sul lato destro. Lo chiamiamo &quot;Spa&quot; e lo mettiamo a durare un mese, dal 1 al 31 dicembre.
+1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Lo chiamiamo &quot;Spa&quot; e lo mettiamo a durare un mese, dal 1 al 31 dicembre.
 
    ![](../assets/journeyuc1_8.png)
 
-1. Iniziate a progettare il viaggio trascinando e rilasciando l&#39;evento &quot;SpaBeacon&quot; dalla palette al quadro. È inoltre possibile fare doppio clic sull&#39;evento nella palette per aggiungerlo al quadro.
+1. Iniziate a progettare il viaggio trascinando e rilasciando l&#39;evento &quot;SpaBeacon&quot; dalla palette al quadro. Puoi anche fare doppio clic sull’evento nel riquadro per aggiungerlo all’area di lavoro.
 
    ![](../assets/journeyuc1_9.png)
 
-1. Aggiungiamo ora una condizione per verificare che la persona sia una donna. Trascina e rilascia un’attività di condizione nel percorso.
+1. Aggiungiamo ora una condizione per verificare che la persona sia una donna. Trascina un’attività condizione nel percorso.
 
    ![](../assets/journeyuc1_10.png)
 
-1. Scegliete il **[!UICONTROL Data Source Condition]** tipo e fate clic nel **[!UICONTROL Expression]** campo. È inoltre possibile definire un&#39;etichetta di condizione che verrà visualizzata sulla freccia, nel quadro.
+1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e fai clic nel campo **[!UICONTROL Expression]**. Puoi anche definire un’etichetta di condizione che verrà visualizzata sulla freccia nell’area di lavoro.
 
    ![](../assets/journeyuc1_11.png)
 
@@ -58,11 +56,11 @@ Per ulteriori informazioni su come costruire un viaggio, consulta [](../building
 
    ![](../assets/journeyuc1_12.png)
 
-1. Rilascia un&#39; **[!UICONTROL Email]** attività e seleziona il modello di messaggi transazionali &quot;Spa sconto&quot;. Questo modello è stato progettato utilizzando  Adobe Campaign. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
+1. Rilascia un&#39; **[!UICONTROL Email]** attività e seleziona il modello di messaggi transazionali &quot;Spa sconto&quot;. Questo modello è stato progettato utilizzando  Adobe Campaign. Refer to this [page](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Fare clic all&#39;interno del **[!UICONTROL Email]** campo e selezionare l&#39;indirizzo e-mail dall&#39;origine dati.
+1. Click inside the **[!UICONTROL Email]** field and select the email address from the data source.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -74,11 +72,11 @@ Per ulteriori informazioni su come costruire un viaggio, consulta [](../building
 
    ![](../assets/journeyuc1_17.png)
 
-1. Fai clic sull’ **[!UICONTROL Test]** interruttore e verifica il percorso utilizzando i profili di prova. In caso di errore, disattivate la modalità di prova, modificate il percorso e verificatene di nuovo il funzionamento. Per ulteriori informazioni sulla modalità di prova, vedere [](../building-journeys/testing-the-journey.md).
+1. Fai clic sull’ **[!UICONTROL Test]** interruttore e verifica il percorso utilizzando i profili di prova. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Per ulteriori informazioni sulla modalità di test, consulta [](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
-1. Quando il test è conclusivo, potete pubblicare il viaggio dal menu a discesa in alto a destra.
+1. Quando il test va a buon fine, puoi pubblicare il percorso dal menu a discesa in alto a destra.
 
    ![](../assets/journeyuc1_18.png)
 
