@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -54,7 +52,7 @@ Sarà necessario configurare una connessione a due origini dati (vedere [](../us
 
 ## Prerequisiti {#prerequisites}
 
-Per il nostro caso d&#39;uso, abbiamo progettato tre  modelli di messaggistica transazionali Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionali evento. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
+Per il nostro caso d&#39;uso, abbiamo progettato tre  modelli di messaggistica transazionali Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionali evento. Refer to this [page](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
  Adobe Campaign Standard è configurato per inviare e-mail e notifiche push.
 
