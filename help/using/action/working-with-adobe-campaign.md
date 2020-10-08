@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4f7cc4da51a93019b5a296003c51d4bee6724498
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +29,7 @@ Per poter essere utilizzato nel Journey Orchestration, è necessario pubblicare 
 >
 >Per evitare il sovraccarico  messaggi transazionali Adobe Campaign Standard, si consiglia di impostare una regola **di** capping per l&#39;integrazione dei Campaign Standard.
 >
->Per ulteriori informazioni sugli SLA per la messaggistica transazionale, consulta [Descrizione](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)del prodotto Adobe Campaign Standard.
+>Per ulteriori informazioni sugli SLA per la messaggistica transazionale, consulta [Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)del prodotto Adobe Campaign Standard.
 
 Di seguito sono riportati i passaggi per configurarlo:
 
