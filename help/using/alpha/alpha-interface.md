@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -23,10 +21,10 @@ ht-degree: 0%
 
 ## Informazioni sull&#39;interfaccia della versione Alfa {#about-alpha-interface}
 
-La navigazione all&#39;interno [!DNL Journey Orchestration] dei menu è stata migliorata, per fornire un&#39;interfaccia coerente con Adobe Experience Platform. Le modifiche includono:
+Navigation within [!DNL Journey Orchestration] menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform. Le modifiche includono:
 
-* Menu spostati dall&#39;alto a sinistra dell&#39;interfaccia,
-* Raggruppamento delle funzionalità di amministrazione in un&#39;unica dashboard.
+* I menu sono stati spostati dalla parte superiore al lato sinistro dell’interfaccia,
+* Le funzionalità di amministrazione sono state raggruppate in un’unica dashboard.
 
 In [questa sezione](../about/user-interface.md)sono illustrati concetti globali relativi all’utilizzo e alla navigazione nell’interfaccia (ricerca e filtro, navigazione nei campi Adobe Experience Platform, collegamenti).
 
