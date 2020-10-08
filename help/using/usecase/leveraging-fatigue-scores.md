@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -58,7 +56,7 @@ Per sfruttare il livello di affaticamento del percorso, effettua i seguenti pass
 
    ![](../assets/journeyuc2_14.png)
 
-1. Scegliete il **[!UICONTROL Data Source Condition]** tipo e fate clic nel **[!UICONTROL Expression]** campo.
+1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e fai clic nel campo **[!UICONTROL Expression]**. 
 
    ![](../assets/journeyuc3_2.png)
 
