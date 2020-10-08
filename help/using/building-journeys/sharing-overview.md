@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -23,11 +21,11 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] invia automaticamente i dati sulle prestazioni del viaggio all&#39;Adobe Experience Platform, in modo che possa essere combinato con altri dati a scopo di analisi.
 
-Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità consente di combinare [!DNL Journey Orchestration] i dati con i dati evento a valle, come il numero di conversioni verificatesi, il livello di coinvolgimento verificatosi sul sito Web o il numero di transazioni avvenute nello store. Le informazioni sul viaggio possono essere combinate con dati sull&#39;Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline, per fornire una visione più completa delle prestazioni.
+Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità consente di combinare [!DNL Journey Orchestration] i dati con i dati evento a valle, come il numero di conversioni verificatesi, l&#39;entità del coinvolgimento sul sito Web o il numero di transazioni avvenute nello store. Le informazioni sul viaggio possono essere combinate con dati sull&#39;Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline, per fornire una visione più completa delle prestazioni.
 
 [!DNL Journey Orchestration] crea automaticamente gli schemi e i flussi necessari nei set di dati all&#39;Adobe Experience Platform per ogni passaggio effettuato da un utente in un determinato viaggio. Un evento step corrisponde a un singolo spostamento da un nodo all&#39;altro in un percorso. Ad esempio, in un percorso che include un evento, una condizione e un&#39;azione, vengono inviati all&#39;Adobe Experience Platform tre eventi step.
 
-L&#39;elenco dei campi XDM che vengono passati è completo. Alcuni contengono codici generati dal sistema e altri hanno nomi comprensibili agli utenti. Alcuni esempi includono l’etichetta dell’attività di viaggio o lo stato del passaggio: quante volte un&#39;azione è scaduta o terminata in un errore.
+L&#39;elenco dei campi XDM che vengono passati è completo. Alcuni contengono codici generati dal sistema e altri hanno nomi comprensibili agli utenti. Alcuni esempi includono l’etichetta dell’attività di viaggio o lo stato del passaggio: quante volte un’azione è scaduta o terminata in un errore.
 
 >[!CAUTION]
 >
