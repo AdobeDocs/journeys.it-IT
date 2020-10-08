@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 9%
+ht-degree: 26%
 
 ---
 
@@ -35,4 +33,4 @@ Quando rilasci un&#39;attività di azione nel quadro, puoi definire un **[!UICON
 
 ![](../assets/journey59bis.png)
 
-Quando si verifica un errore in un&#39;azione o in una condizione, il percorso di un individuo si arresta. L&#39;unico modo per far sì che continui è di selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]**. A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md#paths).
