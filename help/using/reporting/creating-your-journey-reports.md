@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b87de729f48c4624554eb19b6d418cb3cf70b805
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 2%
@@ -47,7 +45,7 @@ Per accedere ai rapporti dei viaggi e iniziare a monitorare il successo delle co
 
    ![](../assets/dynamic_report_journey_12.png)
 
-1. Fai clic su **[!UICONTROL Create new project]** per creare un rapporto da zero.
+1. Fai clic su per **[!UICONTROL Create new project]** creare un rapporto da zero.
 
    ![](../assets/dynamic_report_journey_3.png)
 
