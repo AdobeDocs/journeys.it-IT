@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bdec7addcadabac614f703c4ad719c13d044465f
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 93%
+source-wordcount: '1733'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,31 @@ ht-degree: 93%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
+
+## Rilascio di ottobre 2020 {#october-release}
+
+### Aggiornamenti per la disponibilità generale{#october-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Timeout evento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi configurare un timeout per un evento per consentire a un viaggio di ascoltare un evento solo durante un certo periodo di tempo. Non è più necessario aggiungere un'attività Wait in parallelo al percorso dell'evento per ottenere questo risultato.
+</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Altri miglioramenti{#october-other}
+
+* Quando pubblicate una nuova versione di un viaggio, la versione precedente termina automaticamente e passa allo stato Chiuso. [Leggi tutto](../building-journeys/journey-versions.md)
 
 ## Release di settembre 2020 {#september-release}
 
@@ -207,10 +232,10 @@ Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md) dedi
 <li><p>Una nuova attività consente di ascoltare le entrate/uscite dei segmenti Adobe Experience Platform per consentire alle persone di accedere a un percorso o proseguire in esso. <a href="../building-journeys/segment-qualification-events.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Grazie alla nuova scheda <strong>Segments</strong> è ora possibile creare e modificare i segmenti di Adobe Experience Platform senza uscire dall’interfaccia di Journey Orchestration.<a href="../segment/about-segments.md">Leggi tutto</a></p>
+<li><p>Grazie alla nuova scheda <strong>Segments</strong> è ora possibile creare e modificare i segmenti di Adobe Experience Platform senza uscire dall’interfaccia di Journey Orchestration. <a href="../segment/about-segments.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Nell’editor delle espressioni semplici, i segmenti di Adobe Experience Platform ora sono elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come “questa persona appartiene al segmento A?”.<a href="../segment/using-a-segment.md">Leggi tutto</a></p>
+<li><p>Nell’editor delle espressioni semplici, i segmenti di Adobe Experience Platform ora sono elencati direttamente nella struttura di navigazione per consentire una configurazione semplice di condizioni come “questa persona appartiene al segmento A?”. <a href="../segment/using-a-segment.md">Leggi tutto</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Ora Journey Orchestration passa automaticamente ad Adobe Experience Platform i passaggi eseguiti nei percorsi. Ciò include i potenziali errori rilevati. Queste informazioni possono essere utilizzate per ottenere rapporti e ai fini di risoluzione dei problemi attraverso l’esecuzione di query sugli eventi del passaggio del percorso o per tutti i percorsi. <a href="../building-journeys/sharing-overview.md">Leggi tutto</a></p>
