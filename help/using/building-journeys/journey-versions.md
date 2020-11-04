@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -43,4 +43,4 @@ Le versioni del percorso possono essere arrestate singolarmente. Tutte le versio
 
 >[!NOTE]
 >
->Se disponete di diverse versioni dal vivo e interrompete quella più recente, gli utenti non torneranno a una versione dal vivo precedente. Non ci sarà ingresso nel viaggio.
+>Quando pubblicate una nuova versione di un viaggio, la versione precedente termina automaticamente e passa allo stato **Chiuso** . Non ci sarà ingresso nel viaggio. Anche se interrompete l&#39;ultima versione, la versione precedente rimarrà chiusa.
