@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 44b2da66d6621b18b13ff99e46af02eddcaac6b1
+source-git-commit: 93da470ae878ec3dcf4fcb435dab86c8bf0419d4
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,8 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
 | **Azione** | Elenco di tutte le azioni (nome **azione - etichetta** azione) utilizzate nei viaggi, ad esempio, Push - Conferma check out, E-mail - fedeltà premi. |
 | **Origine dati** | Elenco delle origini dati (nome **origine** dati) utilizzate per arricchire i dati in un viaggio, ad esempio Adobe Experience Platform, sistema di prenotazione. |
 | **[!UICONTROL Event]** | Elenco di tutti gli eventi (nome **evento - etichetta** evento) utilizzati nei viaggi, ad esempio, Geometrixx evento - Geometrixx. |
-| **[!UICONTROL Event origin]** | Eventi di scomposizione per categorie: **[!UICONTROL Internal event]** e **[!UICONTROL External event]**. For more information, refer to this [page](../building-journeys/jump.md). |
 | **Gruppo di campi** | Elenco di gruppi di campi (nome **gruppo di** campi) utilizzati per arricchire i dati nei viaggi, ad esempio gruppo di campi profilo, sistema di prenotazione Geometrixx. |
 | **Viaggio** | Elenco di ogni viaggio (nome **del** viaggio) in modalità di prova e in diretta, ad esempio abbandono del carrello, notifica prenotazione alberghiera. |
-| **[!UICONTROL Journey origin]** | Suddivisione **[!UICONTROL Internal event]**&quot; per viaggi. |
 | **Versione del viaggio** | Elenco di tutte le versioni pubblicate di un viaggio (nome del **viaggio + numero** della versione), ad esempio abbandono del carrello v1, notifica prenotazione alberghiera v2. |
 | **Orchestrazione** | Elenco di tutte le attività di orchestrazione (**Condizione, Fine, Attesa**) definite e utilizzate nei viaggi. |
 
