@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
 # Versioni del percorso{#concept_ldc_k55_zgb}
 
-Nell’elenco dei percorsi, tutte le versioni dei percorsi sono visualizzate con il numero di versione. A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md). Quando eseguite una ricerca per un viaggio, le versioni più recenti vengono visualizzate in cima all’elenco al primo avvio dell’applicazione. Potete quindi definire l’ordinamento desiderato e l’applicazione la manterrà come preferenza utente. La versione del viaggio viene visualizzata anche nella parte superiore dell&#39;interfaccia dell&#39;edizione del viaggio, sopra il quadro.
+Nell’elenco dei percorsi, tutte le versioni dei percorsi sono visualizzate con il numero di versione. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md). Quando eseguite una ricerca per un viaggio, le versioni più recenti vengono visualizzate in cima all’elenco al primo avvio dell’applicazione. Potete quindi definire l’ordinamento desiderato e l’applicazione la manterrà come preferenza utente. La versione del viaggio viene visualizzata anche nella parte superiore dell&#39;interfaccia dell&#39;edizione del viaggio, sopra il quadro.
 
 ![](../assets/journeyversions1.png)
 
