@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '109'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 # nowWithDelta {#nowWithDelta}
 
-Restituisce il valore datetime corrente, incluso un offset. Se viene specificato un ID del fuso orario, verrà applicato l&#39;offset del fuso orario. Per ulteriori informazioni sui tipi di dati, fare riferimento a [](../expression/data-types.md).
+Restituisce il valore datetime corrente, incluso un offset. Se viene specificato un ID del fuso orario, verrà applicato l&#39;offset del fuso orario. For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## Categoria
 
@@ -35,7 +35,7 @@ Data
 |--- |--- |
 | delta | valore intero positivo o negativo |
 | data part | anni, mesi, giorni, ore, minuti o secondi come stringa |
-| id fuso orario | rappresentazione in formato stringa del valore del fuso orario. Per ulteriori informazioni, consulta [](../expression/data-types.md). L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione. |
+| id fuso orario | rappresentazione in formato stringa del valore del fuso orario. Per ulteriori informazioni, consulta Tipi [](../expression/data-types.md)di dati. L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione. |
 
 ## Firme e tipo restituito
 
