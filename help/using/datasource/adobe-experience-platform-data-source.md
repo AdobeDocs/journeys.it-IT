@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 10%
+source-wordcount: '356'
+ht-degree: 11%
 
 ---
 
@@ -25,9 +25,9 @@ L&#39;origine dati Adobe Experience Platform definisce la connessione a Real-tim
 >
 >Potete recuperare gli ultimi 1000 eventi di esperienza creati meno di un anno fa.
 
-Per consentire la connessione al Servizio profili cliente in tempo reale, dobbiamo utilizzare una chiave per identificare una persona e uno spazio dei nomi che contestualizzi la chiave. Di conseguenza, è possibile utilizzare questa origine dati solo se i viaggi iniziano con un evento contenente una chiave e uno spazio dei nomi. A questo proposito, consulta la sezione [](../building-journeys/journey.md).
+Per consentire la connessione al Servizio profili cliente in tempo reale, dobbiamo utilizzare una chiave per identificare una persona e uno spazio dei nomi che contestualizzi la chiave. Di conseguenza, è possibile utilizzare questa origine dati solo se i viaggi iniziano con un evento contenente una chiave e uno spazio dei nomi. Consulta [questa pagina](../building-journeys/journey.md).
 
-Potete modificare il gruppo di campi preconfigurato denominato &quot;ProfileFieldGroup&quot;, aggiungere nuovi e rimuovere quelli che non sono utilizzati in alcuna bozza o in viaggi live. A questo proposito, consulta la sezione [](../datasource/field-groups.md).
+Potete modificare il gruppo di campi preconfigurato denominato &quot;ProfileFieldGroup&quot;, aggiungere nuovi e rimuovere quelli che non sono utilizzati in alcuna bozza o in viaggi live. Consulta [questa pagina](../datasource/field-groups.md).
 
 Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi all&#39;origine dati incorporata.
 
@@ -37,7 +37,7 @@ Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi a
 
    ![](../assets/journey23.png)
 
-1. Fare clic **[!UICONTROL Add a New Field Group]** per definire una nuova serie di campi da recuperare. A questo proposito, consulta la sezione [](../datasource/field-groups.md).
+1. Fare clic **[!UICONTROL Add a New Field Group]** per definire una nuova serie di campi da recuperare. Consulta [questa pagina](../datasource/field-groups.md).
 
    ![](../assets/journey24.png)
 
