@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Un meccanismo di convalida della sintassi verifica l’integrità del tuo codice
 
 **Necessità di parametri per la creazione di condizioni con l’editor di espressioni avanzate**
 
-Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro (vedi [](../datasource/external-data-sources.md)). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
+If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
 
 ![](../assets/journeyuc2_19.png)
 
