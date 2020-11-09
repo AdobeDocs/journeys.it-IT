@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona entra nell&#39;hotel Marlton e nel ristorante. L&#39;utente **** tecnico deve configurare i due eventi che vogliamo che il sistema ascolti nel nostro viaggio.
 
-Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [](../event/about-events.md).
+Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [questa pagina](../event/about-events.md).
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -43,7 +43,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [](.
    >
    >L&#39;elenco dei campi varia da uno schema all&#39;altro. In base alla definizione dello schema, alcuni campi possono essere obbligatori e preselezionati.
 
-1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. Per ulteriori informazioni sugli spazi dei nomi, consulta [](../event/selecting-the-namespace.md).
+1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -57,4 +57,4 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [](.
 
    ![](../assets/journeyuc2_5.png)
 
-Allo stesso modo, create l’evento &quot;RestaurantBeacon&quot;. I tuoi due eventi beacon vengono creati e ora possono essere utilizzati nel nostro viaggio. È ora necessario configurare l&#39;applicazione mobile in modo che possa inviare il payload previsto all&#39;endpoint delle API di ingestione dello streaming. A questo proposito, consulta la sezione [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+Allo stesso modo, create l’evento &quot;RestaurantBeacon&quot;. I tuoi due eventi beacon vengono creati e ora possono essere utilizzati nel nostro viaggio. È ora necessario configurare l&#39;applicazione mobile in modo che possa inviare il payload previsto all&#39;endpoint delle API di ingestione dello streaming. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
