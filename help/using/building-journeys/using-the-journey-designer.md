@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1354'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta 
 
 ![](../assets/journey74.png)
 
-Tutte le versioni dei viaggi vengono visualizzate nell’elenco con il numero di versione. A questo proposito, consulta la sezione [](../building-journeys/journey-versions.md).
+Tutte le versioni dei viaggi vengono visualizzate nell’elenco con il numero di versione. Consulta [questa pagina](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
@@ -55,7 +55,7 @@ Quando si utilizza il **[!UICONTROL Search]** campo, il numero di risultati vien
 
 ## Il quadro {#canvas}
 
-Il **quadro** è la zona centrale del designer di viaggi. È in questa zona che puoi rilasciare le tue attività e configurarle. Fate clic su un&#39;attività nell&#39;area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell&#39;attività sul lato destro. Potete ingrandire e ridurre utilizzando i pulsanti &quot;+&quot; e &quot;-&quot; in alto a destra. Nell’area di lavoro, tutte le attività consentono di aggiungere un passaggio successivo, tranne **[!UICONTROL End]** le attività (vedere [](../building-journeys/end-activity.md)).
+Il **quadro** è la zona centrale del designer di viaggi. È in questa zona che puoi rilasciare le tue attività e configurarle. Fate clic su un&#39;attività nell&#39;area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell&#39;attività sul lato destro. Potete ingrandire e ridurre utilizzando i pulsanti &quot;+&quot; e &quot;-&quot; in alto a destra. Nell’area di lavoro, tutte le attività consentono di aggiungere un passaggio successivo, tranne **[!UICONTROL End]** le attività (consultate [questa pagina](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
@@ -69,19 +69,19 @@ Nell’area di lavoro, le attività dell’azione e dell’evento sono rappresen
 
 ## Azioni nella barra superiore {#top_actions}
 
-A seconda dello stato del viaggio, puoi eseguire diverse azioni sul viaggio utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti verranno visualizzati in modo contestuale. Il pulsante del registro della modalità di prova viene visualizzato quando la modalità di prova è attivata (vedere [](../building-journeys/testing-the-journey.md)). Il pulsante di segnalazione viene visualizzato quando il viaggio è live, interrotto o chiuso.
+A seconda dello stato del viaggio, puoi eseguire diverse azioni sul viaggio utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti verranno visualizzati in modo contestuale. Il pulsante del registro della modalità di prova viene visualizzato quando la modalità di prova è attivata (vedere [questa pagina](../building-journeys/testing-the-journey.md)). Il pulsante di segnalazione viene visualizzato quando il viaggio è live, interrotto o chiuso.
 
 ![](../assets/journey41.png)
 
 ## Utilizzo dei percorsi nel quadro {#paths}
 
-Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) consentono di definire un&#39;azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell&#39;attività, selezionate la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l&#39;attività. La durata di timeout è definita nelle proprietà del percorso (vedete [](../building-journeys/changing-properties.md) da un utente amministratore. Ad esempio, se l’invio di un messaggio e-mail richiede troppo tempo o si verifica un errore, potete decidere di inviare un SMS.
+Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) consentono di definire un&#39;azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell&#39;attività, selezionate la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l&#39;attività. La durata del timeout è definita nelle proprietà del percorso (vedi [questa pagina](../building-journeys/changing-properties.md) da un utente amministratore). Ad esempio, se l’invio di un messaggio e-mail richiede troppo tempo o si verifica un errore, potete decidere di inviare un SMS.
 
 ![](../assets/journey42.png)
 
 Diverse attività (evento, azione, attesa) consentono di aggiungere diversi percorsi dopo di esse. A questo scopo, posizionate il cursore sull&#39;attività e fate clic sul simbolo &quot;+&quot;. Solo le attività di evento e di attesa possono essere impostate in parallelo. Se più eventi sono impostati in parallelo, il percorso scelto sarà quello del primo evento che si verifica.
 
-Quando ascoltate un evento, vi consigliamo di non attendere l’evento a tempo indeterminato. Non è obbligatorio, è solo una buona pratica. Se si desidera ascoltare uno o più eventi solo durante un certo periodo di tempo, si posizionano uno o più eventi e un&#39;attività di attesa in parallelo. A questo proposito, consulta la sezione [](../building-journeys/event-activities.md#section_vxv_h25_pgb).
+Quando ascoltate un evento, vi consigliamo di non attendere l’evento a tempo indeterminato. Non è obbligatorio, è solo una buona pratica. Se si desidera ascoltare uno o più eventi solo durante un certo periodo di tempo, si posizionano uno o più eventi e un&#39;attività di attesa in parallelo. Vedi [questa sezione](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
 Per eliminare il percorso, posizionate il cursore su di esso e fate clic sull’ **[!UICONTROL Delete arrow]** icona .
 
