@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 88%
 
 ---
 
@@ -35,10 +35,10 @@ Questa configurazione non è necessaria se i percorsi sfruttano solo i dati loca
 
 Esistono due tipi di origini dati:
 
-* L’origine dati preconfigurata di Adobe Experience Platform che definisce la connessione al servizio Profilo del cliente in tempo reale, che costituisce un’origine dati incorporata. A questo proposito, consulta la sezione [](../datasource/adobe-experience-platform-data-source.md).
-* Le origini dati esterne che consentono di definire una connessione ai sistemi esterni, ovvero quelle che puoi creare. A questo proposito, consulta la sezione [](../datasource/external-data-sources.md).
+* L’origine dati preconfigurata di Adobe Experience Platform che definisce la connessione al servizio Profilo del cliente in tempo reale, che costituisce un’origine dati incorporata. Consulta [questa pagina](../datasource/adobe-experience-platform-data-source.md).
+* Le origini dati esterne che consentono di definire una connessione ai sistemi esterni, ovvero quelle che puoi creare. Consulta [questa pagina](../datasource/external-data-sources.md).
 
-Per ciascuna origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi costituiscono insiemi di campi che possono essere recuperati da un’origine dati. A questo proposito, consulta la sezione [](../datasource/field-groups.md).
+Per ciascuna origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi costituiscono insiemi di campi che possono essere recuperati da un’origine dati. Consulta [questa pagina](../datasource/field-groups.md).
 
 Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://docs.adobe.com/content/help/it-IT/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
@@ -50,11 +50,11 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Data Sources]**.
 
-   Viene visualizzato l’elenco delle origini dati. Per ulteriori informazioni sull’interfaccia, consulta la sezione [](../about/user-interface.md).
+   Viene visualizzato l’elenco delle origini dati. See [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey18.png)
 
-1. È quindi possibile aggiungere gruppi di campi all’origine dati incorporata (consulta la sezione [](../datasource/adobe-experience-platform-data-source.md)) o creare una nuova origine dati esterna (vedi [](../datasource/external-data-sources.md)) e i gruppi di campi associati (consulta la sezione [](../datasource/field-groups.md)).
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
