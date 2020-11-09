@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -40,12 +40,12 @@ Vengono quindi verificate due condizioni:
 
 ![](../assets/journeyuc2_29.png)
 
-Per questo caso di utilizzo, sarà necessario creare due eventi (vedere [](../usecase/configuring-the-events.md)):
+Per questo caso di utilizzo, sarà necessario creare due eventi (vedere [questa pagina](../usecase/configuring-the-events.md)):
 
 * L&#39;evento beacon della hall che verrà inviato al sistema quando un cliente entra nell&#39;hotel.
 * Evento beacon ristorante che verrà inviato quando un cliente entra nel ristorante.
 
-Sarà necessario configurare una connessione a due origini dati (vedere [](../usecase/configuring-the-data-sources.md)):
+Sarà necessario configurare una connessione a due origini dati (vedere [questa pagina](../usecase/configuring-the-data-sources.md)):
 
 * L&#39;origine dati Adobe Experience Platform integrata, per recuperare le informazioni relative alle nostre due condizioni (iscrizione fedeltà e data dell&#39;ultimo contatto) e le informazioni sulla personalizzazione dei messaggi.
 * Il sistema di prenotazione alberghiera, per recuperare le informazioni sullo stato della prenotazione.
