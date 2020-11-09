@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ Questo caso di utilizzo vi mostrerà come sfruttare i punteggi di affaticamento 
 
 ## Configurazione dell’evento {#section_ptb_ws1_ffb}
 
-Seguite i passaggi descritti in [](../event/about-events.md).
+Seguite i passaggi descritti in [questa pagina](../event/about-events.md).
 
 ## Configurazione dell’origine dati {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ Per selezionare i campi del punteggio di affaticamento nell&#39;origine dati inc
 
 ## Creazione di un percorso {#section_uzm_pyy_wfb}
 
-Per creare, convalidare e pubblicare il percorso, segui i passaggi descritti in [](../building-journeys/journey.md).
+Per creare, convalidare e pubblicare il percorso, segui i passaggi descritti in [questa pagina](../building-journeys/journey.md).
 
 Nel nostro caso d&#39;uso, stiamo sfruttando il **[!UICONTROL fatigueLevel]** campo. È inoltre possibile utilizzare il **[!UICONTROL fatigueScore]** campo.
 
