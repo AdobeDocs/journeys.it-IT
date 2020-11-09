@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 65ff1003fdfec087e4e2030dd81df8dab6229495
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Informazioni sulle attività eventi {#concept_rws_1rt_52b}
 
-Gli eventi configurati dall&#39;utente tecnico (vedere [](../event/about-events.md)) vengono visualizzati nella prima categoria della palette, sul lato sinistro dello schermo.
+Gli eventi configurati dall&#39;utente tecnico (vedere [questa pagina](../event/about-events.md)) vengono visualizzati nella prima categoria della palette, sul lato sinistro dello schermo.
 
 ![](../assets/journey43.png)
 
