@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 900b956799194e13ee01ca9aef3c786e9c5b04db
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1007'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta 
 
 Negli elenchi **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, utilizza **[!UICONTROL Creation filters]** (Filtri di creazione) per filtrare in base alla data e all’utente di creazione. Ad esempio, puoi scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
 
-Nell’elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre a **[!UICONTROL Creation filters]**, puoi anche filtrare i percorsi visualizzati in base allo stato e alla versione (**[!UICONTROL Status and version filters]**). È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md).
+Nell’elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre a **[!UICONTROL Creation filters]**, puoi anche filtrare i percorsi visualizzati in base allo stato e alla versione (**[!UICONTROL Status and version filters]**). È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
