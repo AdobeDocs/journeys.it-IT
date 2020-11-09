@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Se devi usare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mail, de
 
    ![](../assets/journey20.png)
 
-Quando l&#39;evento viene ricevuto, il valore della chiave consentirà al sistema di identificare la persona associata all&#39;evento. Associata a uno spazio dei nomi (vedere [](../event/selecting-the-namespace.md)), la chiave può essere utilizzata per eseguire query sull&#39;Adobe Experience Platform. A questo proposito, consulta la sezione [](../building-journeys/about-orchestration-activities.md).
+Quando l&#39;evento viene ricevuto, il valore della chiave consentirà al sistema di identificare la persona associata all&#39;evento. Associata a uno spazio dei nomi (vedere [questa pagina](../event/selecting-the-namespace.md)), la chiave può essere utilizzata per eseguire query sull&#39;Adobe Experience Platform. Consulta [questa pagina](../building-journeys/about-orchestration-activities.md).
 La chiave viene utilizzata anche per verificare che una persona sia in viaggio. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso viaggio. Di conseguenza, il sistema non consente alla stessa chiave, ad esempio la chiave CRMID=3224, di trovarsi in luoghi diversi nello stesso percorso.
 
-È inoltre possibile accedere alle funzioni di espressione avanzate (**[!UICONTROL Advanced mode]**) per eseguire ulteriori manipolazioni. Queste funzioni consentono di manipolare i valori utilizzati per eseguire query specifiche, ad esempio la modifica dei formati, eseguendo concatenazioni di campi, tenendo conto solo di una parte di un campo (ad esempio i 10 primi caratteri). A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
+È inoltre possibile accedere alle funzioni di espressione avanzate (**[!UICONTROL Advanced mode]**) per eseguire ulteriori manipolazioni. Queste funzioni consentono di manipolare i valori utilizzati per eseguire query specifiche, ad esempio la modifica dei formati, eseguendo concatenazioni di campi, tenendo conto solo di una parte di un campo (ad esempio i 10 primi caratteri). Consulta [questa pagina](../expression/expressionadvanced.md).
