@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '743'
+ht-degree: 10%
 
 ---
 
@@ -56,14 +56,13 @@ Se utilizzi [Adobe Experience Platform Segmentation Service](https://docs.adobe.
 
 >[!NOTE]
 >
->Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic passati sui messaggi) con l&#39;editor semplice. A questo scopo dovrete utilizzare l&#39;editor avanzato. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
+>Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic passati sui messaggi) con l&#39;editor semplice. A questo scopo dovrete utilizzare l&#39;editor avanzato. Consulta [questa pagina](../expression/expressionadvanced.md).
 
-
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). A questo proposito, consulta la sezione [](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condizione Origine dati {#data_source_condition}
 
-Questo consente di definire una condizione in base ai campi delle origini dati o agli eventi precedentemente inseriti nel percorso. Per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di espressioni, vedere [](../expression/expressionadvanced.md). Utilizzando l&#39;editor di espressioni avanzate, potete impostare condizioni più avanzate per manipolare le raccolte o utilizzare origini dati che richiedono il passaggio di parametri. A questo proposito, consulta la sezione [](../datasource/external-data-sources.md).
+Questo consente di definire una condizione in base ai campi delle origini dati o agli eventi precedentemente inseriti nel percorso. Per informazioni sull’utilizzo dell’editor di espressioni, consultate [questa pagina](../expression/expressionadvanced.md). Utilizzando l&#39;editor di espressioni avanzate, potete impostare condizioni più avanzate per manipolare le raccolte o utilizzare origini dati che richiedono il passaggio di parametri. Consulta [questa pagina](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -73,7 +72,7 @@ Questo consente di eseguire diverse azioni in base all’ora del giorno e/o del 
 
 >[!NOTE]
 >
->Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. A questo proposito, consulta la sezione [](../building-journeys/timezone-management.md).
+>Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -85,7 +84,6 @@ Questa opzione consente di dividere in modo casuale l&#39;audience per definire 
 >
 >Tenere presente che non è presente alcun pulsante per aggiungere un percorso nella condizione di suddivisione in percentuale. Il numero di percorsi dipende dal numero di divisioni. In condizioni divise, non è possibile aggiungere un percorso per altri casi, in quanto non può verificarsi. Le persone entreranno sempre in uno dei percorsi divisi.
 
-
 ![](../assets/journey52.png)
 
 ## Data, condizione {#date_condition}
@@ -94,6 +92,6 @@ Questo consente di definire un flusso diverso in base alla data. Ad esempio, se 
 
 >[!NOTE]
 >
->Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. A questo proposito, consulta la sezione [](../building-journeys/timezone-management.md).
+>Il fuso orario non è più specifico a una condizione e ora è definito a livello di percorso nelle proprietà del viaggio. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
