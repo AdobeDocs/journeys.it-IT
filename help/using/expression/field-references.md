@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 1%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
@@ -63,7 +63,7 @@ Un valore predefinito può essere associato a un nome di campo. La sintassi è l
 
 **Riferimento di un campo all&#39;interno delle raccolte**
 
-Agli elementi definiti all&#39;interno delle raccolte viene fatto riferimento utilizzando le funzioni specifiche all, first e last. Per ulteriori informazioni, vedi [](../expression/collection-management-functions.md).
+Agli elementi definiti all&#39;interno delle raccolte viene fatto riferimento utilizzando le funzioni specifiche all, first e last. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
 Esempio :
 
@@ -73,17 +73,17 @@ Esempio :
 
 **Riferimento a un campo definito in una mappa**
 
-Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una data chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Vedere Selezione dello spazio dei nomi. Per ulteriori informazioni, vedi [](../event/selecting-the-namespace.md).
+Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una data chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Vedere Selezione dello spazio dei nomi. Per ulteriori informazioni, consultate [questa pagina](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In questa espressione, è disponibile la voce per la chiave ‘Email’ del campo ‘IdentityMap’ di un evento. La voce &quot;E-mail&quot; è una raccolta, dalla quale prendiamo l&#39;&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, vedi [](../expression/collection-management-functions.md).
+In questa espressione, è disponibile la voce per la chiave ‘Email’ del campo ‘IdentityMap’ di un evento. La voce &quot;E-mail&quot; è una raccolta, dalla quale prendiamo l&#39;&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, consultate [questa pagina](../expression/collection-management-functions.md).
 
 **Valori di parametro di un&#39;origine dati (valori dinamici dell&#39;origine dati)**
 
-Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro, viene visualizzata una nuova scheda a destra che consente di specificare questo parametro. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
+Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro, viene visualizzata una nuova scheda a destra che consente di specificare questo parametro. Consulta [questa pagina](../expression/expressionadvanced.md).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Un parametro può essere una qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
 
