@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 Nel nostro caso d&#39;uso, vogliamo utilizzare dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è un membro fedeltà e non è stata contattata nelle ultime 24 ore. Queste informazioni sono memorizzate nel database del profilo cliente in tempo reale. L&#39;utente **** tecnico deve configurare l&#39;origine dati Adobe Experience Platform per recuperare tali campi.
 
-Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare riferimento a [](../datasource/about-data-sources.md).
+Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare riferimento a [questa pagina](../datasource/about-data-sources.md).
 
 1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare l&#39;origine dati Adobe Experience Platform incorporata.
 
