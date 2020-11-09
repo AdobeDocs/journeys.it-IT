@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
 
 # Attività fine{#section_vqp_4ft_dgb}
 
-L&#39; **[!UICONTROL End]** attività consente di segnare la fine di ogni percorso del viaggio. Non è obbligatorio ma consigliato per la chiarezza visiva. In effetti, se il viaggio ha diverse attività finali, si consiglia di aggiungere un&#39;etichetta a ogni fine per rendere i report più facili da leggere. A questo proposito, consulta la sezione [](../reporting/about-journey-reports.md).
+L&#39; **[!UICONTROL End]** attività consente di segnare la fine di ogni percorso del viaggio. Non è obbligatorio ma consigliato per la chiarezza visiva. In effetti, se il viaggio ha diverse attività finali, si consiglia di aggiungere un&#39;etichetta a ogni fine per rendere i report più facili da leggere. Consulta [questa pagina](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)
