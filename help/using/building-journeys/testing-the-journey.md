@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 # Verifica del percorso{#testing_the_journey}
 
-Prima di poter verificare il percorso, devi risolvere tutti gli errori, se ce ne sono. A questo proposito, consulta la sezione [](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Prima di poter verificare il percorso, devi risolvere tutti gli errori, se ce ne sono. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 Potete provare il viaggio prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso di individui nel percorso e di risolvere eventuali problemi prima della pubblicazione.
 
 Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
-1. Prima di verificare il percorso, verifica che sia valido e che non si verifichi alcun errore. Non potrai avviare un test di un viaggio con errori. A questo proposito, consulta la sezione [](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
+1. Prima di verificare il percorso, verifica che sia valido e che non si verifichi alcun errore. Non potrai avviare un test di un viaggio con errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
 
 1. Per attivare la modalità di prova, fate clic sull’ **[!UICONTROL Test]** interruttore, situato nell’angolo in alto a destra.
 
@@ -43,12 +43,12 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
    ![](../assets/journeyuctest2.png)
 
-1. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Quando il test è conclusivo, potete pubblicare il viaggio. A questo proposito, consulta la sezione [](../building-journeys/publishing-the-journey.md).
+1. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Quando il test è conclusivo, potete pubblicare il viaggio. Consulta [questa pagina](../building-journeys/publishing-the-journey.md).
 
 ## Note importanti {#important_notes}
 
 * Viene fornita un&#39;interfaccia per attivare gli eventi per il percorso testato, ma gli eventi possono essere inviati anche da sistemi di terze parti come Postman.
-* Solo gli individui contrassegnati come &quot;profili di prova&quot; nel servizio di profilo cliente in tempo reale potranno entrare nel percorso testato. A questo proposito, consulta la sezione [](../building-journeys/testing-the-journey.md#create-test-profile).
+* Solo gli individui contrassegnati come &quot;profili di prova&quot; nel servizio di profilo cliente in tempo reale potranno entrare nel percorso testato. Vedi [questa sezione](../building-journeys/testing-the-journey.md#create-test-profile).
 * La modalità test è disponibile solo nelle bozze di viaggio che utilizzano uno spazio dei nomi. La modalità di prova deve verificare se una persona che accede al viaggio è un profilo di prova o meno e deve quindi essere in grado di raggiungere l’Adobe Experience Platform.
 * Il numero massimo di profili di test che possono entrare in un percorso durante una sessione di test è 100.
 * Quando disattivate la modalità di prova, i viaggi vengono svuotati da tutte le persone che sono entrate nel passato o che vi si trovano attualmente. Inoltre, la relazione è stata cancellata.
