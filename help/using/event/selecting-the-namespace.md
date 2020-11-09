@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 11%
+source-wordcount: '204'
+ht-degree: 12%
 
 ---
 
@@ -34,4 +34,4 @@ Selezionare uno spazio nomi dall&#39;elenco a discesa.
 
 ![](../assets/journey17.png)
 
-Per ogni percorso è consentito un solo spazio dei nomi. Se si utilizzano più eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi. A questo proposito, consulta la sezione [](../building-journeys/journey.md).
+Per ogni percorso è consentito un solo spazio dei nomi. Se si utilizzano più eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi. Consulta [questa pagina](../building-journeys/journey.md).
