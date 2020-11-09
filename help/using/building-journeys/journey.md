@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 18%
+source-wordcount: '404'
+ht-degree: 17%
 
 ---
 
@@ -24,7 +24,7 @@ This step is performed by the **business user**. Qui si creano i percorsi. Combi
 
 L’interfaccia di viaggio consente di trascinare e rilasciare facilmente le attività dalla palette al quadro. Potete anche fare doppio clic su un&#39;attività per aggiungerla nell&#39;area di lavoro al passaggio successivo disponibile. Ogni attività ha un ruolo specifico e si colloca nel processo. Le attività sono sequenziate. Al termine di un&#39;attività, il flusso continua ed elabora l&#39;attività successiva, e così via.
 
-Per ogni percorso è consentito un solo spazio dei nomi. Quando si elimina il primo evento, gli eventi con spazi dei nomi diversi saranno disattivati. Se il primo evento non dispone di uno spazio nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. A questo proposito, consulta la sezione [](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disabilitati se il viaggio include eventi senza uno spazio nomi. Infine, se si utilizzano diversi eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi.
+Per ogni percorso è consentito un solo spazio dei nomi. Quando si elimina il primo evento, gli eventi con spazi dei nomi diversi saranno disattivati. Se il primo evento non dispone di uno spazio nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. Consulta [questa pagina](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disabilitati se il viaggio include eventi senza uno spazio nomi. Infine, se si utilizzano diversi eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi.
 
 ## Quick start {#creating_journey}
 
@@ -32,7 +32,7 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]**.
 
-   Viene visualizzato l’elenco dei viaggi. Per ulteriori informazioni sull’interfaccia, consulta la sezione [](../building-journeys/using-the-journey-designer.md).
+   Viene visualizzato l’elenco dei viaggi. Per ulteriori informazioni sull&#39;interfaccia, fare riferimento a [questa pagina](../building-journeys/using-the-journey-designer.md) .
 
    ![](../assets/journey30.png)
 
@@ -40,7 +40,7 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
 
    ![](../assets/journey31.png)
 
-1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. A questo proposito, consulta la sezione [](../building-journeys/changing-properties.md).
+1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Consulta [questa pagina](../building-journeys/changing-properties.md).
 
    ![](../assets/journey32.png)
 
@@ -48,11 +48,11 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
 
    ![](../assets/journey33.png)
 
-1. Trascina e rilascia le altre attività e configurale. Vedi [](../building-journeys/event-activities.md), [](../building-journeys/about-orchestration-activities.md) e [](../building-journeys/about-action-activities.md).
+1. Trascina e rilascia le altre attività e configurale. Fare riferimento alle pagine Attività [](../building-journeys/event-activities.md)Evento, [Informazioni sulle attività](../building-journeys/about-orchestration-activities.md) di orchestrazione e [Informazioni sulle attività](../building-journeys/about-action-activities.md)di azione.
 
    ![](../assets/journey34.png)
 
-1. Il viaggio viene salvato automaticamente. Verifica il percorso e pubblicalo. Vedere [](../building-journeys/testing-the-journey.md) e [](../building-journeys/publishing-the-journey.md).
+1. Il viaggio viene salvato automaticamente. Verifica il percorso e pubblicalo. Vedi [Verificare il percorso](../building-journeys/testing-the-journey.md) e [Pubblicare il percorso](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -60,7 +60,7 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
 
 Esistono due modi per terminare un viaggio:
 
-* La persona arriva all&#39;ultima attività di un percorso. Quest&#39;ultima attività può essere un&#39;attività finale o un&#39;altra. Non è previsto l&#39;obbligo di terminare un percorso con un&#39;attività finale. A questo proposito, consulta la sezione [](../building-journeys/end-activity.md).
+* La persona arriva all&#39;ultima attività di un percorso. Quest&#39;ultima attività può essere un&#39;attività finale o un&#39;altra. Non è previsto l&#39;obbligo di terminare un percorso con un&#39;attività finale. Consulta [questa pagina](../building-journeys/end-activity.md).
 * La persona arriva a un&#39;attività di condizione (o un&#39;attività di attesa con una condizione) e non corrisponde ad alcuna delle condizioni.
 
-La persona può quindi rientrare nel percorso se è consentito il rientro. A questo proposito, consulta la sezione [](../building-journeys/changing-properties.md).
+La persona può quindi rientrare nel percorso se è consentito il rientro. Consulta [questa pagina](../building-journeys/changing-properties.md).
