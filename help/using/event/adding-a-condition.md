@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '198'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ La condizione dell&#39;evento consente al sistema di filtrare l&#39;elaborazione
 
 La condizione relativa agli eventi può essere basata solo sui dati passati nel payload dell&#39;evento. La condizione definita a livello di evento non può essere modificata nel quadro da un esperto di marketing. Lo scopo è quello di rendere più difficile questa condizione quando l&#39;evento viene utilizzato. Ad esempio, se non si desidera mai che gli esperti di marketing utilizzino eventi di abbandono del carrello se il valore del carrello è troppo piccolo, è possibile creare una condizione per il campo evento &quot;valore del carrello&quot; e imporre un valore superiore a 100 dollari.
 
-È possibile utilizzare l&#39;editor di espressioni semplici o l&#39;editor di espressioni avanzate per impostare le condizioni relative agli eventi. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
+È possibile utilizzare l&#39;editor di espressioni semplici o l&#39;editor di espressioni avanzate per impostare le condizioni relative agli eventi. Consulta [questa pagina](../expression/expressionadvanced.md).
 
 Ad esempio, è possibile definire una condizione per elaborare solo gli eventi di un tipo specifico di evento e ignorare gli altri tipi. Oppure, se l&#39;evento è un abbandono del carrello e il payload include il campo del valore del carrello, puoi definire una condizione dell&#39;evento per elaborare gli eventi solo se il valore del carrello è maggiore di 100 dollari.
 
