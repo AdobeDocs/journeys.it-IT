@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    ![](../assets/journey27.png)
 
-1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, consulta la sezione [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Le scelte del nostro esempio:
+1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Le scelte del nostro esempio:
 
 
    * **[!UICONTROL Type]**: &quot;API key&quot;
@@ -76,7 +76,7 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
 * **[!UICONTROL Cache duration]**: nel nostro caso, vogliamo che il meteo sia memorizzato nella cache per 10 minuti.
 * **[!UICONTROL Response Payload]**: fai clic all’interno del campo **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Se vuoi modificare il payload attualmente trasmesso, è possibile fare clic su **[!UICONTROL Paste a new payload]**.
-* **[!UICONTROL Dynamic Values]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. A questo proposito, consulta la sezione [](../expression/expressionadvanced.md).
+* **[!UICONTROL Dynamic Values]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. Consulta [questa pagina](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
 
 In presenza di una chiamata GET che richieda i parametri, inseriscili nel campo **[!UICONTROL Parameters]** e verranno aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
