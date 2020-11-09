@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 42%
+source-wordcount: '395'
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ Ora l’**utente aziendale** può costruire il percorso. Il nostro viaggio inclu
 >
 >Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nel riquadro solo se si dispone di Adobe Campaign Standard.
 
-Per ulteriori informazioni sulla creazione di un percorso, consulta [](../building-journeys/journey.md).
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]** e **[!UICONTROL Create]** per creare un nuovo percorso.
 
@@ -72,7 +72,7 @@ Per ulteriori informazioni sulla creazione di un percorso, consulta [](../buildi
 
    ![](../assets/journeyuc1_17.png)
 
-1. Fai clic sull’ **[!UICONTROL Test]** interruttore e verifica il percorso utilizzando i profili di prova. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Per ulteriori informazioni sulla modalità di test, consulta [](../building-journeys/testing-the-journey.md).
+1. Fai clic sull’ **[!UICONTROL Test]** interruttore e verifica il percorso utilizzando i profili di prova. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
