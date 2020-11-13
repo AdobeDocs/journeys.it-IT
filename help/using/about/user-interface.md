@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 98%
+source-wordcount: '1063'
+ht-degree: 93%
 
 ---
 
@@ -139,3 +139,11 @@ _Nell’area di lavoro di un percorso:_
 * Utilizza la combinazione di tasti **Ctrl/Comando + A** per selezionare tutte le attività.
 * Quando selezioni una o più attività, premi **Elimina** o **backspace** per eliminarle. A questo punto puoi premere **Invio** per confermare la scelta nella finestra a comparsa relativa.
 * Fai doppio clic su un’attività dal riquadro a sinistra per aggiungerla alla prima posizione disponibile (dall’alto verso il basso).
+
+_In un viaggio:_
+
+* Premere **T** per attivare/disattivare la modalità di prova.
+* In un viaggio basato su eventi in modalità di prova, premete **E** per attivare un evento.
+* In un percorso basato su segmenti, quando l&#39;opzione **Profilo singolo in una data** è selezionata in modalità di prova, premete **P** per attivare un evento.
+* In modalità di prova, premere **L** per visualizzare i registri.
+
