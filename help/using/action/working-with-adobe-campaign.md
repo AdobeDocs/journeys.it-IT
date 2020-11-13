@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Per poter essere utilizzato nel Journey Orchestration, è necessario pubblicare 
 
 >[!NOTE]
 >
->Per evitare il sovraccarico  messaggi transazionali Adobe Campaign Standard, si consiglia di impostare una regola **di** capping per l&#39;integrazione dei Campaign Standard.
+> messaggi transazionali Adobe Campaign Standard ha una scala di 50 000 messaggi all&#39;ora al massimo tra i canali per una determinata istanza. Per ridurre il rischio di sovraccarico, si consiglia di impostare una regola **di** capping per l&#39;integrazione dei Campaign Standard.
 >
 >Per ulteriori informazioni sugli SLA per la messaggistica transazionale, consulta [Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)del prodotto Adobe Campaign Standard.
 
