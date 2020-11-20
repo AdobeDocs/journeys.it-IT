@@ -1,13 +1,11 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Capping della descrizione API
 description: Ulteriori informazioni sull'API Capping.
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -47,7 +45,7 @@ Per verificare e preparare l&#39;integrazione, è disponibile [qui](https://raw.
 >Per gestire i certificati in  I/O Adobe, accertatevi di disporre dei diritti di amministratore <b>di</b> sistema sull&#39;organizzazione o su un account [](https://helpx.adobe.com/enterprise/using/manage-developers.html) sviluppatore nell&#39;Admin Console.
 
 1. **Verificate di disporre di un certificato** digitale oppure createne uno, se necessario. Le chiavi pubblica e privata fornite con il certificato sono necessarie nei seguenti passaggi.
-1. **Crea una nuova integrazione nel[!DNL Journey Orchestration]servizio** in  Adobe I/O e configurala. L&#39;accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (Chiave API, Segreto cliente...).
+1. **Crea una nuova integrazione nel [!DNL Journey Orchestration] servizio** in  Adobe I/O e configurala. L&#39;accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (Chiave API, Segreto cliente...).
 1. **Create un token Web JSON (JWT)** dalle credenziali generate in precedenza e firmatelo con la vostra chiave privata. Il JWT codifica tutte le informazioni di identità e sicurezza necessarie per  Adobe per verificare la propria identità e concedere l&#39;accesso all&#39;API. Questo passaggio è dettagliato in questa [sezione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Scambiate il JWT per ottenere un token** di accesso tramite una richiesta di POST o tramite l&#39;interfaccia della console per sviluppatori. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
 
@@ -169,7 +167,7 @@ In questa sezione sono elencati i cinque casi d’uso principali che è possibil
 
 Per facilitare il test e la configurazione, è disponibile [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)una raccolta Postman.
 
-Questa raccolta Postman è stata impostata per condividere la raccolta Postman Variabile generata tramite __[Integrazioni](https://console.adobe.io/integrations)della console I/O di Adobe > Prova > Scarica per Postman__, che genera un file Postman Environment con i valori di integrazioni selezionati.
+Questa raccolta Postman è stata impostata per condividere la raccolta Postman Variabile generata tramite __[Integrazioni](https://console.adobe.io/integrations) della console I/O di Adobe > Prova > Scarica per Postman__, che genera un file Postman Environment con i valori di integrazioni selezionati.
 
 Una volta scaricati e caricati in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL gateway
