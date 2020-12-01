@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Eventi di qualificazione dei segmenti
 description: Scopri gli eventi di qualifica dei segmenti
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -82,6 +82,8 @@ Inoltre, se il segmento batch viene creato di recente e utilizzato immediatament
 ### Segmenti in streaming{#streamed-speed-segment-qualification}
 
 Quando si utilizza la qualifica del segmento per i segmenti in streaming, il rischio di ottenere picchi di entrate/uscite elevati è minore a causa della valutazione continua del segmento. Tuttavia, se la definizione del segmento porta a rendere un volume elevato di clienti idonei allo stesso tempo, potrebbe verificarsi anche un picco.
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Come evitare gli overload{#overloads-speed-segment-qualification}
 
