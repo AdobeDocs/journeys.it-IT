@@ -4,19 +4,15 @@ solution: Journey Orchestration
 title: Passaggio da un viaggio all'altro
 description: Passaggio da un viaggio all'altro
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
 
 # Passaggio da un viaggio all&#39;altro {#jump}
-
->[!NOTE]
->
->Disponibilità effettiva: 15 novembre 2020
 
 L’attività di azione **Jump** consente di spingere gli utenti da un viaggio all’altro. Questa funzione consente di:
 
@@ -38,21 +34,31 @@ Di seguito sono riportati i diversi passaggi del processo di esecuzione:
 1. L&#39;individuo raggiunge il passo di salto.
 1. L&#39;individuo viene spinto al viaggio B, e passa ai passi successivi nel viaggio A, dopo il salto.
 
-Nel **viaggio B**, il primo evento può essere attivato esternamente (come un evento regolare) o internamente, tramite un salto dal viaggio A:
+Nel viaggio B, il primo evento viene attivato internamente, attraverso il salto dal viaggio A:
 
 1. Il viaggio B ha ricevuto un evento interno dal viaggio A.
-1. Il primo evento del viaggio B viene attivato con le informazioni provenienti dal viaggio A.
 1. Il singolo inizia a scorrere nel viaggio B.
+
+>[!NOTE]
+>
+>Il percorso B può essere attivato anche tramite un evento esterno.
 
 ## Note importanti
 
+### Authoring
+
+* Il salto è disponibile solo nei viaggi che utilizzano uno spazio nomi.
 * È possibile passare a un percorso che utilizza lo stesso spazio nomi del percorso di origine.
 * Non puoi passare a un percorso che inizia con un evento di qualifica **** Segmento.
-* Quando il lancio viene eseguito, viene attivata l&#39;ultima versione del percorso di destinazione.
+* Non puoi avere un evento di qualificazione **di salto e** Segmento nello stesso percorso.
 * In un viaggio potete includere tutti i salti necessari. Dopo un salto, potete aggiungere qualsiasi attività necessaria.
 * Puoi avere tutti i livelli di salto necessari. Ad esempio, il viaggio A passa al viaggio B, che porta al viaggio C, e così via.
 * Il percorso di destinazione può includere anche tutti i salti necessari.
 * I pattern di loop non sono supportati. Non c&#39;è modo di collegare due o più viaggi insieme che creerebbero un ciclo infinito. La schermata di configurazione dell&#39;attività **Jump** vi impedisce di eseguire questa operazione.
+
+### Execution
+
+* Quando il lancio viene eseguito, viene attivata l&#39;ultima versione del percorso di destinazione.
 * Come al solito, un individuo unico può essere presente solo una volta nello stesso viaggio. Di conseguenza, se l&#39;individuo spinto dal viaggio di origine è già nel viaggio di destinazione, l&#39;individuo non entrerà nel viaggio di destinazione. Nessun errore verrà segnalato durante il salto perché si tratta di un comportamento normale.
 
 ## Configurazione del collegamento
@@ -84,9 +90,16 @@ Il campo **Primo evento** è precompilato con il nome del primo evento del perco
 
    ![](../assets/jump5.png)
 
+
+   >[!NOTE]
+   >
+   >L&#39;identità dell&#39;individuo viene mappata automaticamente. Queste informazioni non sono visibili nell&#39;interfaccia.
+
 Il lancio è configurato. Non appena il tuo viaggio è live o in modalità di prova, gli individui che raggiungono il salto saranno spinti dal viaggio di destinazione.
 
 Quando un salto viene configurato in un viaggio, all’inizio del percorso di destinazione viene automaticamente aggiunta un’icona di ingresso di salto. Questo consente di identificare che il viaggio può essere attivato esternamente ma anche internamente da un salto.
+
+![](../assets/jump7.png)
 
 ## Risoluzione dei problemi
 
@@ -94,3 +107,5 @@ Quando il viaggio viene pubblicato o in modalità di prova, si verificano degli 
 * il percorso di destinazione non esiste più
 * il percorso di destinazione è stato sbloccato, chiuso o interrotto
 * se il primo evento del percorso di destinazione è cambiato e la mappatura è interrotta
+
+![](../assets/jump6.png)
