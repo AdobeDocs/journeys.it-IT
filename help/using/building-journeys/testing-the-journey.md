@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Verifica del percorso
 description: 'Scopri i test di viaggio '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 3%
 
 ---
@@ -133,6 +133,16 @@ Quando selezionate un profilo di test diverso nella schermata di configurazione 
 Quando si apre un viaggio nel test, il percorso visualizzato corrisponde all&#39;ultimo test eseguito.
 
 Il flusso visivo funziona sia che l&#39;evento venga attivato tramite l&#39;interfaccia, sia che venga attivato esternamente (utilizzando, ad esempio, Postman).
+
+## Modalità di prova per i viaggi basati su regole {#test-rule-based}
+
+La modalità di prova è disponibile anche per i viaggi che utilizzano un evento basato su regole. For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+Quando si attiva un evento, la schermata di configurazione **dell&#39;** evento consente di definire i parametri dell&#39;evento da trasmettere nel test. Per visualizzare la condizione ID evento, fate clic sull&#39;icona della descrizione comando nell&#39;angolo superiore destro. Accanto a ciascun campo che fa parte della valutazione delle regole è disponibile una descrizione comandi.
+
+![](../assets/alpha-event8.png)
+
+Per ulteriori informazioni su come utilizzare la modalità di prova, consultate [questa pagina](../building-journeys/testing-the-journey.md).
 
 ## Visualizzazione dei registri {#viewing_logs}
 
