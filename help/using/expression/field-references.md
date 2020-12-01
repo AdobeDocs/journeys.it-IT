@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Riferimenti campo
 description: Informazioni sui riferimenti di campo nelle espressioni avanzate
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 3%
 
 ---
@@ -55,6 +55,38 @@ Un valore predefinito può essere associato a un nome di campo. La sintassi è l
 >[!NOTE]
 >
 >Il tipo di campo e il valore predefinito devono essere identici. Ad esempio, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} non sarà valido perché il valore predefinito è un numero intero, mentre il valore previsto dovrebbe essere una stringa.
+
+Esempi:
+
+```
+// for an event 'OrderEvent' having the following payload:
+{
+    "orderId": "12345"
+}
+ 
+expression example:
+- @{OrderEvent.orderId}                                    -> "12345"
+- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @{OrderEvent.productId}                                  -> null
+ 
+ 
+// for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
+{
+    "person": {
+        "lastName":"Snow"
+    },
+    "emails": [
+        { "email":"john.snow@winterfell.westeros" },
+        { "email":"snow@thewall.westeros" }
+    ]
+}
+ 
+expression examples:
+- #{ACP.Profile.person.lastName}                 -> "Snow"
+- #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
+- #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
+- #{ACP.Profile.person.age}                      -> null
+```
 
 **Riferimento di un campo all&#39;interno delle raccolte**
 
