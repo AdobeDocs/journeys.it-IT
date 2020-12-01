@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Passaggio da un viaggio all'altro
 description: Passaggio da un viaggio all'altro
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# Passaggio da un viaggio all&#39;altro {#jump}
+# Passaggio da un viaggio a un altro{#jump}
 
-L’attività di azione **Jump** consente di spingere gli utenti da un viaggio all’altro. Questa funzione consente di:
+L&#39;attività di azione **Jump** consente di spingere gli utenti da un viaggio all&#39;altro. Questa funzione consente di:
 
 * semplificare la progettazione di viaggi molto complessi suddividendoli in più
 * costruire percorsi basati su percorsi comuni e riutilizzabili
 
-Nel viaggio di origine, aggiungete semplicemente un **Jump** e selezionate un percorso di destinazione. Quando l&#39;individuo entra nel passaggio di salto, un evento interno viene inviato al primo evento del percorso di destinazione. Se l&#39;azione di salto ha successo, l&#39;individuo continua a progredire nel viaggio. Il comportamento è simile ad altre azioni.
+Nel percorso di origine, è sufficiente aggiungere un **Jump** e selezionare un percorso di destinazione. Quando l&#39;individuo entra nel passaggio di salto, un evento interno viene inviato al primo evento del percorso di destinazione. Se l&#39;azione di salto ha successo, l&#39;individuo continua a progredire nel viaggio. Il comportamento è simile ad altre azioni.
 
 Nel viaggio di destinazione, il primo evento attivato internamente dal salto farà scorrere il singolo viaggio.
 
 ## Ciclo
 
-Supponiamo che tu abbia aggiunto un salto in un viaggio A a un viaggio B. Il viaggio A è il viaggio **di** origine e il percorso **B, il viaggio**didestinazione.
+Supponiamo che tu abbia aggiunto un salto in un viaggio A a un viaggio B. Il percorso A è il **percorso di origine** e il percorso B, il **percorso di destinazione**.
 Di seguito sono riportati i diversi passaggi del processo di esecuzione:
 
-**Il percorso A** viene attivato da un evento esterno:
+**Journey** Ais attivato da un evento esterno:
 
 1. Percorso A riceve un evento esterno relativo a un individuo.
 1. L&#39;individuo raggiunge il passo di salto.
@@ -49,8 +49,8 @@ Nel viaggio B, il primo evento viene attivato internamente, attraverso il salto 
 
 * Il salto è disponibile solo nei viaggi che utilizzano uno spazio nomi.
 * È possibile passare a un percorso che utilizza lo stesso spazio nomi del percorso di origine.
-* Non puoi passare a un percorso che inizia con un evento di qualifica **** Segmento.
-* Non puoi avere un evento di qualificazione **di salto e** Segmento nello stesso percorso.
+* Non è possibile passare a un percorso che inizia con un evento **Qualificazione segmento**.
+* Non puoi avere un evento di salto e un evento **Qualificazione segmento** nello stesso percorso.
 * In un viaggio potete includere tutti i salti necessari. Dopo un salto, potete aggiungere qualsiasi attività necessaria.
 * Puoi avere tutti i livelli di salto necessari. Ad esempio, il viaggio A passa al viaggio B, che porta al viaggio C, e così via.
 * Il percorso di destinazione può includere anche tutti i salti necessari.
@@ -67,25 +67,25 @@ Nel viaggio B, il primo evento viene attivato internamente, attraverso il salto 
 
    ![](../assets/jump1.png)
 
-1. In qualsiasi fase del percorso, aggiungi un&#39;attività **Jump** dalla categoria **Azione** . Aggiungete un&#39;etichetta e una descrizione.
+1. In qualsiasi fase del percorso, aggiungete un&#39;attività **Jump** dalla categoria **Action**. Aggiungete un&#39;etichetta e una descrizione.
 
    ![](../assets/jump2.png)
 
-1. Fate clic all&#39;interno del campo del percorso **di** Target.
-Nell&#39;elenco sono visualizzate tutte le versioni di viaggio in bozza, live o in modalità di prova. I percorsi che utilizzano uno spazio nomi diverso o che iniziano con un evento di qualificazione **** Segmento non sono disponibili. Vengono inoltre filtrati i viaggi di destinazione per creare un pattern di ciclo.
+1. Fare clic all&#39;interno del campo **Percorso di destinazione**.
+Nell&#39;elenco sono visualizzate tutte le versioni di viaggio in bozza, live o in modalità di prova. I percorsi che utilizzano uno spazio nomi diverso o che iniziano con un evento **Qualificazione segmento** non sono disponibili. Vengono inoltre filtrati i viaggi di destinazione per creare un pattern di ciclo.
 
    ![](../assets/jump3.png)
 
    >[!NOTE]
    >
-   >Puoi fare clic sull’icona **Apri percorso** destinazione, a destra, per aprire il percorso di destinazione in una nuova scheda.
+   >Puoi fare clic sull&#39;icona **Apri percorso destinazione** a destra per aprire il percorso di destinazione in una nuova scheda.
 
 1. Selezionate il percorso di destinazione a cui desiderate passare.
 Il campo **Primo evento** è precompilato con il nome del primo evento del percorso di destinazione. Se il percorso di destinazione include più eventi, il salto è consentito solo per il primo evento.
 
    ![](../assets/jump4.png)
 
-1. La sezione Parametri **** azione visualizza tutti i campi dell&#39;evento target. Allo stesso modo degli altri tipi di azioni, mappare ogni campo con campi dell&#39;evento di origine o dell&#39;origine dati. Queste informazioni verranno trasmesse al percorso di destinazione in fase di esecuzione.
+1. La sezione **Parametri azione** visualizza tutti i campi dell&#39;evento di destinazione. Allo stesso modo degli altri tipi di azioni, mappare ogni campo con campi dell&#39;evento di origine o dell&#39;origine dati. Queste informazioni verranno trasmesse al percorso di destinazione in fase di esecuzione.
 1. Aggiungi le attività successive per completare il percorso di origine.
 
    ![](../assets/jump5.png)
