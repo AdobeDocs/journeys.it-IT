@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Informazioni sugli eventi
 description: Informazioni sugli eventi
 translation-type: tm+mt
-source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
+source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +29,13 @@ Se modifichi un evento utilizzato in una bozza di percorso o in un percorso live
 
 È possibile definire due tipi di eventi:
 
-* **Eventi basati su** regole: questo tipo di evento non genera un eventID. Utilizzando l&#39;editor di espressioni semplici, è sufficiente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i viaggi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell&#39;evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
+* **Eventi** di base delle regole: questo tipo di evento non genera un eventID. Utilizzando l&#39;editor di espressioni semplici, è sufficiente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i viaggi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell&#39;evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
    >[!CAUTION]
    >
-   >Per gli eventi basati su regole viene definita una regola di capping. Limita il numero di eventi qualificati che un viaggio può elaborare a 400 k al minuto. Per maggiori informazioni, contattare il punto di contatto del programma Alfa. Oltre a questa regola di limite, a livello di viaggio viene definito un limite di 5000 eventi per secondi.
+   >Per gli eventi basati su regole viene definita una regola di capping. Limita il numero di eventi qualificati che un viaggio può elaborare a 5000 al secondo per una determinata organizzazione (ORG). Corrisponde agli SLA Journey Orchestration. Vedere questa [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Eventi generati** dal sistema: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente al momento della creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, ma deve passare quello disponibile nell’anteprima del payload.
+* **Sviluppatori** di sistemi: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente al momento della creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, ma deve passare quello disponibile nell’anteprima del payload.
 
-Per informazioni su come creare un evento, consultate questa [pagina](../event/about-creating.md).
+Per informazioni su come creare un evento, fare riferimento a questa [pagina](../event/about-creating.md).
 
