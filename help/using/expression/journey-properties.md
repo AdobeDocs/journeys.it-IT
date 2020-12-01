@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Proprietà del viaggio
 description: Scopri le proprietà del viaggio
 translation-type: tm+mt
-source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
+source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Di seguito sono riportati alcuni esempi di casi di utilizzo:
 
 * **Profili** eliminati dal registro: puoi inviare tutti i profili esclusi da un messaggio tramite una regola di capping a un sistema di terze parti a scopo di registrazione. A questo scopo, configurate un percorso in caso di timeout ed errore e aggiungete una condizione per filtrare in base a un tipo di errore specifico, ad esempio: &quot;elimina le persone con la regola di capping&quot;. Potete quindi inviare i profili eliminati a un sistema di terze parti tramite un&#39;azione personalizzata.
 
-* **Invio di avvisi push in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, potete impostare un percorso in caso di errore, aggiungere una condizione e un&#39;azione personalizzata. Potete inviare una notifica su un canale di Slack , ad esempio, con la descrizione dell&#39;errore rilevato.
+* **Invia avvisi in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, potete impostare un percorso in caso di errore, aggiungere una condizione e un&#39;azione personalizzata. Potete inviare una notifica su un canale di Slack , ad esempio, con la descrizione dell&#39;errore rilevato.
 
 * **Ottimizzazione degli errori nel reporting** : invece di avere un solo percorso per i messaggi di errore, puoi definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare il reporting e visualizzare tutti i dati dei tipi di errore.
 
