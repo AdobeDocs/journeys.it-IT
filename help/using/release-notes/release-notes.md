@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -80,7 +80,7 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 
 Sono state aggiunte limitazioni per la creazione di nuove versioni di un viaggio. Queste limitazioni evitano modifiche troppo drastiche nel percorso per mantenere una certa coerenza tra le versioni. [Leggi tutto](../about/limitations.md#journey-versions-limitations)
 
-L&#39;attività Qualifica **** segmento non può più essere utilizzata in un percorso che include attività di messaggio Campaign Standard. Questa limitazione protegge l&#39;integrità delle istanze di  Adobe Campaign Standard. In effetti, l&#39;utilizzo delle qualifiche dei segmenti può determinare picchi giornalieri di invio di messaggi che sovraccaricano i messaggi transazionali Campaign Standard. [Leggi tutto](../about/limitations.md#segment-qualification)
+L&#39;attività **Qualificazione segmento** non può più essere utilizzata in un percorso che include attività di messaggio Campaign Standard. Questa limitazione protegge l&#39;integrità delle istanze di  Adobe Campaign Standard. In effetti, l&#39;utilizzo delle qualifiche dei segmenti può determinare picchi giornalieri di invio di messaggi che sovraccaricano i messaggi transazionali Campaign Standard. [Leggi tutto](../about/limitations.md#segment-qualification)
 
 ## Rilascio di ottobre 2020 {#october-release}
 
@@ -105,7 +105,7 @@ L&#39;attività Qualifica **** segmento non può più essere utilizzata in un pe
 
 * Quando pubblicate una nuova versione di un viaggio, la versione precedente termina automaticamente e passa allo stato Chiuso. [Leggi tutto](../building-journeys/journey-versions.md)
 
-## Release di settembre 2020 {#september-release}
+## Rilascio di settembre 2020 {#september-release}
 
 ### Aggiornamenti per la disponibilità generale{#september-ga-update}
 
@@ -139,7 +139,7 @@ Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p>Sono stati apportati i seguenti miglioramenti all'attività <strong>Leggi segmento</strong>:
 </p>
 <ul>
 <li><p>I viaggi basati su segmenti ora mostrano, sopra il quadro, un promemoria del tipo di pianificazione del viaggio. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>
@@ -147,7 +147,7 @@ Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](
 <li><p>È stata migliorata la granularità dei registri della modalità di prova per visualizzare lo stato di avanzamento dell’esportazione del segmento.</p>
 </li>
 </ul>
-<p>Per ulteriori informazioni sull'attività del segmento <strong></strong> Leggi, consulta la documentazione <a href="../alpha/alpha-segment-trigger.md"></a>dettagliata.</p>
+<p>Per ulteriori informazioni sull'attività <strong>Leggi segmento</strong>, fare riferimento alla <a href="../alpha/alpha-segment-trigger.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
