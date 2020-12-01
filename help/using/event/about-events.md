@@ -2,17 +2,17 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Informazioni sugli eventi
-description: Informazione su come configurare un evento
+description: Informazioni sugli eventi
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '385'
+ht-degree: 54%
 
 ---
 
 
-# Informazioni sugli eventi {#concept_gfj_fqt_52b}
+# Principio generale {#concept_gfj_fqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -27,42 +27,15 @@ La configurazione dell’evento consente di definire le informazioni che [!DNL J
 
 Se modifichi un evento utilizzato in una bozza di percorso o in un percorso live, puoi cambiare solo il nome e la descrizione oppure aggiungere i campi payload. Al fine di evitare l’interruzione dei percorsi, limitiamo rigorosamente la modifica delle bozze di percorso o dei percorsi live.
 
-## Principio generale {#section_r1f_xqt_pgb}
+È possibile definire due tipi di eventi:
 
-Gli eventi sono chiamate API POST. Gli eventi vengono inviati ad Adobe Experience Platform tramite le API Streaming Ingestion. La destinazione URL degli eventi inviati tramite le API di messaggistica transazionale è denominata “entrata”. Il payload degli eventi segue la formattazione XDM.
+* **Eventi basati su** regole: questo tipo di evento non genera un eventID. Utilizzando l&#39;editor di espressioni semplici, è sufficiente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i viaggi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell&#39;evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
-Nell’intestazione del payload sono contenute le informazioni richieste per il funzionamento delle API Streaming Ingestion, oltre alle informazioni necessarie all’operatività di [!DNL Journey Orchestration], come l’ID evento e una parte del corpo del payload, e infine le informazioni da utilizzare nei percorsi (ad esempio, nel corpo, la quantità presente in un carrello abbandonato). Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, fai riferimento a [questo collegamento](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/api/getting-started.html).
-
-Una volta arrivati attraverso le API Streaming Ingestion, gli eventi si propagano in un servizio interno denominato Pipeline e infine passano ad Adobe Experience Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale ed è presente un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
-
-La pipeline filtra gli eventi che presentano un payload contenente gli ID evento di [!DNL Journey Orchestration] (vedi il processo di creazione degli eventi illustrato in seguito) che sono forniti da [!DNL Journey Orchestration] e contenuti nel payload dell’evento. [!DNL Journey Orchestration] fa da listener agli eventi, il che attiva il percorso corrispondente.
-
-## Creazione di un nuovo evento {#section_tbk_5qt_pgb}
-
-Di seguito sono riportati i passaggi principali per la configurazione di un nuovo evento:
-
-1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Events]**. Viene visualizzato l’elenco degli eventi. Per ulteriori informazioni sull&#39;interfaccia, fare riferimento a [questa pagina](../about/user-interface.md) .
-
-   ![](../assets/journey5.png)
-
-1. Per creare un nuovo evento, fai clic su **[!UICONTROL Add]**. Il riquadro di configurazione dell’evento si apre sul lato destro dello schermo.
-
-   ![](../assets/journey6.png)
-
-1. Inserisci un nome per l’evento.
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Non utilizzare spazi o caratteri speciali. Non usare più di 30 caratteri.
+   >Per gli eventi basati su regole viene definita una regola di capping. Limita il numero di eventi qualificati che un viaggio può elaborare a 400 k al minuto. Per maggiori informazioni, contattare il punto di contatto del programma Alfa. Oltre a questa regola di limite, a livello di viaggio viene definito un limite di 5000 eventi per secondi.
 
-1. Aggiungi una descrizione all’evento. Questo passaggio è facoltativo.
-1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento, solitamente denominato payload, che [!DNL Journey Orchestration] prevede di ricevere. Potrai quindi utilizzare queste informazioni nel tuo percorso. Consulta [questa pagina](../event/defining-the-payload-fields.md).
-1. Il numero di percorsi che utilizzano questo evento viene visualizzato nel campo **[!UICONTROL Used in]**. Puoi fare clic sull’icona **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo evento.
-1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa pagina](../event/selecting-the-namespace.md).
-1. Definisci la chiave: scegli un campo di payload o specifica una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, [!DNL Journey Orchestration] seleziona la chiave che deve corrispondere allo spazio dei nomi, ad esempio, se scegli uno spazio dei nomi e-mail, opterà per la chiave e-mail. Consulta [questa pagina](../event/defining-the-event-key.md).
-1. Aggiungi una condizione. Questo passaggio è facoltativo. In tal modo, consenti al sistema di elaborare solo gli eventi che soddisfano la condizione specifica. Tale condizione può essere basata solo sulle informazioni contenute nell’evento. Consulta [questa pagina](../event/adding-a-condition.md).
-1. Clic **[!UICONTROL Save]**.
+* **Eventi generati** dal sistema: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente al momento della creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, ma deve passare quello disponibile nell’anteprima del payload.
 
-   ![](../assets/journey7.png)
+Per informazioni su come creare un evento, consultate questa [pagina](../event/about-creating.md).
 
-   L’evento è ora configurato e pronto per essere rilasciato in un percorso. Per poter ricevere gli eventi sono necessari ulteriori passaggi di configurazione. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
