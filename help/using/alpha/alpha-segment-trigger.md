@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Attività Leggi segmento
 description: Ulteriori informazioni sull'attività Leggi segmento.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 4%
 L’attività Leggi segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare.
 
 Supponiamo che tu abbia un segmento di clienti Gold su Adobe Experience Platform. Con l&#39;attività Leggi segmento, puoi fare in modo che tutti gli individui appartenenti al segmento di clienti Gold intraprendano un viaggio e li facciano scorrere in percorsi personalizzati che sfruttino tutte le funzionalità di viaggio: condizioni, orari, eventi, azioni.
+
+>[!NOTE]
+>
+>Non puoi avere un salto e un&#39;attività di **lettura del segmento** nello stesso percorso. Non è possibile passare a un percorso che inizia con un evento di segmento **di** lettura.
 
 ## Configurazione dell&#39;attività {#configuring-segment-trigger-activity}
 
