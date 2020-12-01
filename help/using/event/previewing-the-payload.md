@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Anteprima del payload
 description: Scopri come visualizzare in anteprima il payload
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ L’anteprima del payload consente di convalidare la definizione del payload.
 
 >[!NOTE]
 >
->Quando create un evento, prima di visualizzare l’anteprima del payload, salvate l’evento e riapritelo. Questo passaggio è necessario per generare un ID evento nel payload.
+>Per gli eventi generati dal sistema, quando create un evento, prima di visualizzare l’anteprima del payload, salvate l’evento e riapritelo. Questo passaggio è necessario per generare un ID evento nel payload.
 
 1. Fate clic sull&#39; **[!UICONTROL View Payload]** icona per visualizzare l&#39;anteprima del payload previsto dal sistema.
 
