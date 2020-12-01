@@ -4,13 +4,12 @@ solution: Journey Orchestration
 title: Informazioni sulla creazione di percorsi
 description: In qualità di utente aziendale, scopri come combinare attività di evento, orchestrazione e azione per creare un percorso.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 17%
 
 ---
-
 
 
 # Creazione di un percorso {#concept_gq5_sqt_52b}
