@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Versioni del percorso
 description: Scopri le versioni per i viaggi
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -19,6 +19,10 @@ Nell’elenco dei percorsi, tutte le versioni dei percorsi sono visualizzate con
 ![](../assets/journeyversions1.png)
 
 Se devi modificare un viaggio live, devi creare una nuova versione del tuo viaggio.
+
+>[!NOTE]
+>
+>Per ulteriori informazioni sulle limitazioni delle versioni di viaggio, consulta [questa pagina](../about/limitations.md#journey-versions-limitations)
 
 1. Apri l’ultima versione del tuo viaggio live, fai clic su **[!UICONTROL Create a new version]** e conferma.
 
