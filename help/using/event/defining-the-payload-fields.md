@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Definizione dei campi payload
 description: Informazioni su come definire i campi payload
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '282'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ La definizione del payload consente di scegliere le informazioni che il sistema 
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL eventID]** campo viene aggiunto automaticamente nell’elenco dei campi selezionati in modo da [!DNL Journey Orchestration] identificare l’evento. Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. Consulta [questa pagina](../event/previewing-the-payload.md).
+   >Per gli eventi generati dal sistema, il **[!UICONTROL eventID]** campo viene aggiunto automaticamente nell&#39;elenco dei campi selezionati in modo da [!DNL Journey Orchestration] identificare l&#39;evento. Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. Consulta [questa pagina](../event/previewing-the-payload.md).
 
 1. Dopo aver selezionato i campi necessari, fate clic **[!UICONTROL Save]** o premete **[!UICONTROL Enter]**.
 
