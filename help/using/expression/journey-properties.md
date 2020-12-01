@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Proprietà del viaggio
 description: Scopri le proprietà del viaggio
 translation-type: tm+mt
-source-git-commit: 1fd02fcc2a535046cfbcdb5d1c52850ee93370af
+source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Proprietà del viaggio {#journey-properties}
+# Proprietà del percorso {#journey-properties}
 
-Nell&#39;editor di espressioni avanzate, sotto le categorie dell&#39;evento e dell&#39;origine dati si trova la categoria Proprietà **** viaggio. Questa categoria contiene i campi tecnici relativi al percorso di un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai viaggi in diretta, come l&#39;ID viaggio o gli errori specifici riscontrati.
+Nell&#39;editor di espressioni avanzate, sotto le categorie dell&#39;evento e dell&#39;origine dati si trova la categoria **Proprietà percorso**. Questa categoria contiene i campi tecnici relativi al percorso di un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai viaggi in diretta, come l&#39;ID viaggio o gli errori specifici riscontrati.
 
 ![](../assets/journey-properties.png)
 
@@ -33,30 +33,30 @@ Di seguito sono riportati alcuni esempi di casi di utilizzo:
 
 * **Invio di avvisi push in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, potete impostare un percorso in caso di errore, aggiungere una condizione e un&#39;azione personalizzata. Potete inviare una notifica su un canale di Slack , ad esempio, con la descrizione dell&#39;errore rilevato.
 
-* **Ottimizzazione degli errori nei report** : invece di avere un solo percorso per i messaggi di errore, puoi definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare il reporting e visualizzare tutti i dati dei tipi di errore.
+* **Ottimizzazione degli errori nel reporting** : invece di avere un solo percorso per i messaggi di errore, puoi definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare il reporting e visualizzare tutti i dati dei tipi di errore.
 
 ## Elenco di campi {#journey-properties-fields}
 
-|Categoria|Nome campo|Etichetta|Descrizione|
-|-|-|-|—|
-|Versione percorso|UID percorso|Identificatore percorso| |
-| |viaggioVersioneUID|Identificatore versione viaggio| |
-| |viaggioVersionName|Nome versione viaggio| |
-| |pathVersionDescription|Descrizione versione viaggio| |
-| |tripVersion|Journey Version| |
-|Istanza di viaggio|instanceUID|Identificatore istanza di viaggio|ID dell&#39;istanza|
-| |externalKey|Chiave esterna|Identificatore individuale che attiva il percorso|
-|Identità|profileId|Identificatore identità profilo|Identificatore del profilo nel percorso|
-| |namespace|Spazio dei nomi identità profilo|Spazio dei nomi del profilo nel percorso (esempio: ECID)|
-|Nodo corrente|currentNodeId|Identificatore nodo corrente|Identificatore dell&#39;attività corrente (nodo)|
-| |currentNodeName|Nome nodo corrente|Nome dell&#39;attività corrente (nodo)|
-|Nodo precedente|previousNodeId|Identificatore nodo precedente|Identificatore dell&#39;attività precedente (nodo)|
-| |previousNodeName|Nome nodo precedente|Nome dell&#39;attività precedente (nodo)|
-|Errori|lastNodeUIDInError|Last Node Identifier in Error|Identifier of the most activity (node) in error|
-| |lastNodeNameInError|Last Node Name in Error|Nome dell&#39;ultima attività (nodo) in error|
-| |lastNodeTypeInError|Last Node Type in Error|Error type dell&#39;ultima attività (nodo) in error. Tipi possibili:<ul><li>Eventi: Eventi, Reazioni, SQ (esempio: Qualificazione segmento)</li><li>Controllo del flusso: Fine, Condizione, Aspetta</li><li>Azioni: Azioni ACS, Jump, Azione personalizzata</li></ul>|
-| |lastErrorCode|Last Error Code|Error code|Error code of the last activity (node) in error. Possibili errori: <ul><li>Codici di errore HTTP</li><li>con cappuccio</li><li>timedOut</li><li>error (esempio: predefinito in caso di errore imprevisto. Non dovrebbe/estremamente raro)</li></ul>|
-| |lastExecutingActionErrorCode|Last Execution Action Error Code|Error code dell&#39;ultima azione eseguita in errore |
-| |lastDataFetchErrorCode|Last Data Fetch Error Code|Codice errore ultimo recupero dati|Codice errore del recupero dati più recente da origini dati|
-|Tempo|lastActionExecutionElapsedTime|Tempo trascorso dell&#39;ultima esecuzione dell&#39;azione|Tempo trascorso per eseguire l&#39;ultima azione|
-| |lastDataFetchElapsedTime|Ultimo recupero dati trascorso|Tempo trascorso per eseguire il recupero dati più recente da origini dati|
+| Categoria | Nome campo | Etichetta | Descrizione |
+|---|---|---|------------|
+| Versione percorso | viaggioUID | Identificatore percorso |  |
+|  | viaggioVersionUID | Identificatore versione viaggio |  |
+|  | viaggioVersionName | Nome versione viaggio |  |
+|  | pathVersionDescription | Descrizione versione viaggio |  |
+|  | viaggioVersion | Versione percorso |  |
+| Istanza di viaggio | instanceUID | Identificatore Istanza Del Percorso | ID dell’istanza |
+|  | externalKey | Chiave esterna | Singolo identificatore che attiva il percorso |
+| Identità | profileId | Identificatore identità profilo | Identificatore del profilo nel percorso |
+|  | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nel percorso (esempio: ECID |
+| Nodo corrente | currentNodeId | Identificatore nodo corrente | Identificatore dell&#39;attività corrente (nodo) |
+|  | currentNodeName | Nome nodo corrente | Nome dell&#39;attività corrente (nodo) |
+| Nodo precedente | previousNodeId | Identificatore nodo precedente | Identificatore dell&#39;attività precedente (nodo) |
+|  | previousNodeName | Nome nodo precedente | Nome dell&#39;attività precedente (nodo) |
+| Errori | lastNodeUIDInError | Identificatore ultimo nodo in errore | Identificatore dell&#39;attività più recente (nodo) in errore |
+|  | lastNodeNameInError | Nome ultimo nodo in errore | Nome dell&#39;attività più recente (nodo) in errore |
+|  | lastNodeTypeInError | Ultimo tipo di nodo in errore | Tipo di errore dell&#39;ultima attività (nodo) in errore. Tipi possibili:<ul><li>Eventi: Eventi, Reazioni, SQ (esempio: Qualificazione segmento)</li><li>Controllo del flusso: Fine, Condizione, Aspetta</li><li>Azioni: Azioni ACS, Jump, Azione personalizzata</li></ul> |
+|  | lastErrorCode | Ultimo codice di errore | Codice di errore dell&#39;ultima attività (nodo) in errore. Possibili errori: <ul><li>Codici di errore HTTP</li><li>con cappuccio</li><li>timedOut</li><li>error (esempio: predefinito in caso di errore imprevisto. Non dovrebbe/estremamente raro)</li></ul> |
+|  | lastExecuteActionErrorCode | Codice errore ultima azione eseguita | Codice di errore dell&#39;ultima azione in errore |
+|  | lastDataFetchErrorCode | Codice errore ultimo recupero dati | Codice di errore del recupero dati più recente da origini dati |
+| Time | lastActionExecutionElapsedTime | Tempo trascorso ultima esecuzione azione | Tempo impiegato per eseguire l&#39;azione più recente |
+|  | lastDataFetchElapsedTime | Tempo trascorso ultimo recupero dati | Tempo impiegato per eseguire il recupero dati più recente da origini dati |
