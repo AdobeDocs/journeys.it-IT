@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
 translation-type: tm+mt
-source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
+source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 77%
+source-wordcount: '2026'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 # Note sulla versione {#release-notes}
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
-Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
+È inoltre possibile consultare gli ultimi [aggiornamenti della documentazione](../release-notes/documentation-updates.md).
 
 ## Rilascio di novembre 2020 {#november-release}
 
@@ -28,7 +28,7 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <tbody>
 <tr>
 <td>
-<p>Abbiamo aggiunto una nuova attività di azione che ti permette di spingere gli individui da un viaggio all'altro. L’attività Jump consente di:
+<p>Una nuova attività di azione consente di spingere gli individui da un viaggio all’altro. L'attività <strong>Jump</strong> consente di:
 </p>
 <ul>
 <li>semplificare la progettazione di viaggi molto complessi suddividendoli in più </li>
@@ -51,7 +51,6 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <td>
 <p>Nell'editor di espressioni avanzate, abbiamo aggiunto una nuova categoria nell'elenco di campi e funzioni. Si tratta delle informazioni recuperate dal sistema dai viaggi in diretta, come l'ID viaggio o gli errori specifici riscontrati. Questo vi darà maggiori possibilità quando si costruiscono i vostri viaggi. Ad esempio, sarà possibile avvisare i sistemi di terze parti in caso di errori riscontrati in una condizione o in un'azione.
 </p>
-<p>Questa funzione sarà disponibile nei prossimi giorni.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../expression/journey-properties.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -67,9 +66,8 @@ Puoi anche consultare la sezione [Aggiornamenti alla documentazione](../release-
 <tbody>
 <tr>
 <td>
-<p>Abbiamo aggiunto un nuovo metodo per configurare più facilmente gli eventi. Questa funzione, testata tra un numero limitato di clienti attraverso il programma Alpha, è ora disponibile in versione beta per tutti i clienti. Questo nuovo metodo non richiede l’utilizzo di un eventID. Valuta se l'evento deve essere attivato in base a una condizione. È comunque possibile utilizzare il metodo esistente, ora denominato "generato dal sistema".
+<p>È ora disponibile un nuovo metodo per impostare più facilmente gli eventi, senza utilizzare un ID evento: gli eventi basati su regole valutano se l'evento deve essere attivato in base a una condizione. È comunque possibile utilizzare il metodo esistente, ora denominato "generato dal sistema". Questa funzione, testata tra un numero limitato di clienti attraverso il programma Alpha, è ora disponibile in versione beta per tutti i clienti.
 </p>
-<p>Questa funzione sarà disponibile nei prossimi giorni.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../event/about-events.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
