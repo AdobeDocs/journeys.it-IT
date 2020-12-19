@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Gestione del fuso orario {#timezone_management}
 
-Puoi definire un fuso orario nelle [proprietà](../building-journeys/changing-properties.md) del tuo viaggio.
+È possibile definire un fuso orario nelle [proprietà](../building-journeys/changing-properties.md) del viaggio.
 
 Per accedere a Proprietà, fai clic sull’icona matita in alto a destra nella schermata.
 
@@ -32,11 +32,11 @@ Potete selezionare un fuso orario o scegliere di utilizzare il fuso orario defin
 
 È inoltre possibile fissare il fuso orario. Deselezionare il fuso orario predefinito e selezionarne uno dall&#39;elenco a discesa. Se utilizzate un fuso orario fisso, sarà lo stesso per tutti gli utenti che accedono al viaggio.
 
-A tale scopo, in **[!UICONTROL Properties]**, selezionare un fuso orario.
+A questo scopo, in **[!UICONTROL Properties]**, selezionare un fuso orario.
 
 ![](../assets/journey73.png)
 
-## Utilizzo di profili per definire il fuso orario di viaggio {#timezone-from-profiles}
+## Utilizzo di profili per definire il fuso orario del viaggio {#timezone-from-profiles}
 
 Se l&#39;evento di ingresso del viaggio ha uno spazio dei nomi, il che significa che il viaggio può raggiungere il servizio Real-time Customer Profile dell&#39;Adobe Experience Platform, il fuso orario è predefinito con quello specificato nel profilo del singolo che scorre nel viaggio.
 
@@ -44,7 +44,7 @@ Se un fuso orario è definito nel profilo Adobe Experience Platform, può essere
 
 Se il profilo del singolo non contiene un fuso orario, il fuso orario recuperato sarà quello definito nel campo del fuso orario.
 
-A tal fine, **[!UICONTROL Properties]** verificare **[!UICONTROL Use Profile timezone in timers and conditions]**.
+A tal fine, in **[!UICONTROL Properties]**, selezionare **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey72.png)
 
