@@ -27,7 +27,7 @@ Sono disponibili quattro tipi di condizioni:
 
 Quando si utilizzano più condizioni in un viaggio, è possibile definire etichette per ognuna di esse per identificarle più facilmente.
 
-Fare clic **[!UICONTROL Add a path]** per definire più condizioni. Per ogni condizione, dopo l&#39;attività viene aggiunto un nuovo percorso nel quadro.
+Fare clic su **[!UICONTROL Add a path]** per definire più condizioni. Per ogni condizione, dopo l&#39;attività viene aggiunto un nuovo percorso nel quadro.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Prendiamo ad esempio la condizione di un primo percorso &quot;La persona è un V
 
 ![](../assets/journey48.png)
 
-Puoi creare un altro percorso per audience non idonee alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni divise. Vedere [Dividi](#percentage_split)percentuali.
+È possibile creare un altro percorso per i tipi di pubblico non idonei alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni divise. Vedere [Percentuale divisa](#percentage_split).
 
 La modalità semplice consente di eseguire semplici query basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati sul lato sinistro dello schermo. Trascinare i campi nella zona principale. Per combinare i diversi elementi, collegateli tra loro per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
 
@@ -46,7 +46,7 @@ La modalità semplice consente di eseguire semplici query basate su una combinaz
 
 ![](../assets/journey64.png)
 
-Se utilizzi [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) per creare i tuoi segmenti, puoi sfruttarli nelle tue condizioni di viaggio. Fare riferimento a [Utilizzo dei segmenti nelle condizioni](../segment/using-a-segment.md).
+Se si utilizza [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) per creare i segmenti, è possibile sfruttarli nelle condizioni di viaggio. Fare riferimento a [Utilizzo dei segmenti in condizioni](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -57,11 +57,11 @@ Quando si verifica un errore in un’azione o in una condizione, il percorso di 
 
 ## Condizione Origine dati {#data_source_condition}
 
-Questo consente di definire una condizione in base ai campi delle origini dati o agli eventi precedentemente inseriti nel percorso. Per informazioni sull’utilizzo dell’editor di espressioni, consultate [questa pagina](../expression/expressionadvanced.md). Utilizzando l&#39;editor di espressioni avanzate, potete impostare condizioni più avanzate per manipolare le raccolte o utilizzare origini dati che richiedono il passaggio di parametri. Consulta [questa pagina](../datasource/external-data-sources.md).
+Questo consente di definire una condizione in base ai campi delle origini dati o agli eventi precedentemente inseriti nel percorso. Per informazioni sull&#39;utilizzo dell&#39;editor di espressioni, vedere [questa pagina](../expression/expressionadvanced.md). Utilizzando l&#39;editor di espressioni avanzate, potete impostare condizioni più avanzate per manipolare le raccolte o utilizzare origini dati che richiedono il passaggio di parametri. Consulta [questa pagina](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
-## Condizione di tempo{#time_condition}
+## Condizione ora{#time_condition}
 
 Questo consente di eseguire diverse azioni in base all’ora del giorno e/o del giorno della settimana. Ad esempio, potete decidere di inviare messaggi SMS durante il giorno e e-mail di notte nei giorni feriali.
 
@@ -71,7 +71,7 @@ Questo consente di eseguire diverse azioni in base all’ora del giorno e/o del 
 
 ![](../assets/journey51.png)
 
-## Suddivisione percentuale {#percentage_split}
+## Divisione percentuale {#percentage_split}
 
 Questa opzione consente di dividere in modo casuale l&#39;audience per definire un&#39;azione diversa per ciascun gruppo. Definire il numero di divisioni e la partizione per ciascun percorso. Il calcolo della divisione è statistico in quanto il sistema non è in grado di prevedere quante persone scorreranno in questa attività del viaggio. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione è basata su un meccanismo casuale Java (vedere questa [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
@@ -81,7 +81,7 @@ Questa opzione consente di dividere in modo casuale l&#39;audience per definire 
 
 ![](../assets/journey52.png)
 
-## Data, condizione {#date_condition}
+## Condizione data {#date_condition}
 
 Questo consente di definire un flusso diverso in base alla data. Ad esempio, se la persona immette il passaggio durante il periodo di &quot;vendita&quot;, gli invierai un messaggio specifico. Il resto dell&#39;anno, manderà un altro messaggio.
 
