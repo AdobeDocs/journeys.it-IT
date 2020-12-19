@@ -14,23 +14,23 @@ ht-degree: 17%
 
 # Creazione di un percorso {#concept_gq5_sqt_52b}
 
-This step is performed by the **business user**. Qui si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
+Questo passaggio viene eseguito dall&#39; **utente aziendale**. Qui si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
 L’interfaccia di viaggio consente di trascinare e rilasciare facilmente le attività dalla palette al quadro. Potete anche fare doppio clic su un&#39;attività per aggiungerla nell&#39;area di lavoro al passaggio successivo disponibile. Ogni attività ha un ruolo specifico e si colloca nel processo. Le attività sono sequenziate. Al termine di un&#39;attività, il flusso continua ed elabora l&#39;attività successiva, e così via.
 
 Per ogni percorso è consentito un solo spazio dei nomi. Quando si elimina il primo evento, gli eventi con spazi dei nomi diversi saranno disattivati. Se il primo evento non dispone di uno spazio nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. Consulta [questa pagina](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disabilitati se il viaggio include eventi senza uno spazio nomi. Infine, se si utilizzano diversi eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi.
 
-## Quick start {#creating_journey}
+## Avvio rapido {#creating_journey}
 
 Di seguito sono riportati i passaggi principali per creare e pubblicare un viaggio.
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]**.
 
-   Viene visualizzato l’elenco dei viaggi. Per ulteriori informazioni sull&#39;interfaccia, fare riferimento a [questa pagina](../building-journeys/using-the-journey-designer.md) .
+   Viene visualizzato l’elenco dei viaggi. Fare riferimento a [questa pagina](../building-journeys/using-the-journey-designer.md) per ulteriori informazioni sull&#39;interfaccia.
 
    ![](../assets/journey30.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey.
+1. Fate clic su **[!UICONTROL Create]** per creare un nuovo percorso.
 
    ![](../assets/journey31.png)
 
@@ -42,15 +42,15 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
 
    ![](../assets/journey33.png)
 
-1. Trascina e rilascia le altre attività e configurale. Fare riferimento alle pagine Attività [](../building-journeys/event-activities.md)Evento, [Informazioni sulle attività](../building-journeys/about-orchestration-activities.md) di orchestrazione e [Informazioni sulle attività](../building-journeys/about-action-activities.md)di azione.
+1. Trascina e rilascia le altre attività e configurale. Fare riferimento alle pagine [Attività evento](../building-journeys/event-activities.md), [Informazioni sulle attività di orchestrazione](../building-journeys/about-orchestration-activities.md) e [Informazioni sulle attività di azione](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Il viaggio viene salvato automaticamente. Verifica il percorso e pubblicalo. Vedi [Verificare il percorso](../building-journeys/testing-the-journey.md) e [Pubblicare il percorso](../building-journeys/publishing-the-journey.md).
+1. Il viaggio viene salvato automaticamente. Verifica il percorso e pubblicalo. Vedere [test del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
-## Fine di un viaggio {#ending_a_journey}
+## Fine di un percorso {#ending_a_journey}
 
 Esistono due modi per terminare un viaggio:
 
