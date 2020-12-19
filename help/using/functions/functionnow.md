@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # now {#now}
 
-Restituisce la data corrente in formato ora data. For more information on data types, refer to [this page](../expression/data-types.md).
+Restituisce la data corrente in formato ora data. Per ulteriori informazioni sui tipi di dati, fare riferimento a [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
