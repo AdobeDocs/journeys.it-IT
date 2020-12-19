@@ -22,9 +22,9 @@ Potete sfruttare tutti i dati evento comportamentali  Adobe Analytics già acqui
 
 Affinché questo funzioni, è necessario attivare, in Adobe Experience Platform, la suite di rapporti che si desidera sfruttare:
 
-1. In Adobe Experience Platform, selezionate **[!UICONTROL Sources]** quindi **[!UICONTROL Add data]** nella sezione  Adobe Analytics. Viene visualizzato l&#39;elenco  suite di rapporti Adobe Analytics disponibili.
+1. In Adobe Experience Platform, selezionare **[!UICONTROL Sources]** quindi **[!UICONTROL Add data]** nella sezione Adobe Analytics . Viene visualizzato l&#39;elenco  suite di rapporti Adobe Analytics disponibili.
 
-1. Selezionate la suite di rapporti da attivare, fate clic su **[!UICONTROL Next]** e fate clic su **[!UICONTROL Finish]**.
+1. Selezionate la suite di rapporti che desiderate abilitare, fate clic su **[!UICONTROL Next]** e fate clic su **[!UICONTROL Finish]**.
 
 1. Condividi l&#39;ID dati di origine con il tuo punto di contatto del programma Alfa.
 
@@ -32,4 +32,4 @@ Questo abilita il connettore di origine Analytics per la suite di rapporti. Ogni
 
 ![](../assets/alpha-event9.png)
 
-Per ulteriori informazioni sul connettore  sorgente Adobe Analytics, consultare la [documentazione](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) e l&#39; [esercitazione](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Per ulteriori informazioni sul  connettore di origine Adobe Analytics, fare riferimento alla [documentazione](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) e all&#39;esercitazione [tutorial](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
