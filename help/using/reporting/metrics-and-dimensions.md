@@ -22,21 +22,21 @@ Qui puoi trovare l&#39;elenco di tutti i componenti disponibili nei report dinam
 
 La tabella seguente riporta l’elenco delle dimensioni utilizzate nei rapporti sul viaggio e le relative definizioni.
 
-Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consulta [questa pagina](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
+Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consultare [questa pagina](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
-## Dimensioni del viaggio {#MBE_table_wk4_bnj_w2b}
+## Dimensioni percorso {#MBE_table_wk4_bnj_w2b}
 
 Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei rapporti sul percorso, le relative definizioni e formule.
 
 | Dimension | Definizione |
 |--- |--- |
-| **Azione** | Elenco di tutte le azioni (nome **azione - etichetta** azione) utilizzate nei viaggi, ad esempio, Push - Conferma check out, E-mail - fedeltà premi. |
-| **Origine dati** | Elenco delle origini dati (nome **origine** dati) utilizzate per arricchire i dati in un viaggio, ad esempio Adobe Experience Platform, sistema di prenotazione. |
-| **[!UICONTROL Event]** | Elenco di tutti gli eventi (nome **evento - etichetta** evento) utilizzati nei viaggi, ad esempio, Geometrixx evento - Geometrixx. |
-| **Gruppo di campi** | Elenco di gruppi di campi (nome **gruppo di** campi) utilizzati per arricchire i dati nei viaggi, ad esempio gruppo di campi profilo, sistema di prenotazione Geometrixx. |
-| **Viaggio** | Elenco di ogni viaggio (nome **del** viaggio) in modalità di prova e in diretta, ad esempio abbandono del carrello, notifica prenotazione alberghiera. |
-| **Versione del viaggio** | Elenco di tutte le versioni pubblicate di un viaggio (nome del **viaggio + numero** della versione), ad esempio abbandono del carrello v1, notifica prenotazione alberghiera v2. |
-| **Orchestrazione** | Elenco di tutte le attività di orchestrazione (**Condizione, Fine, Attesa**) definite e utilizzate nei viaggi. |
+| **Azione** | Elenco di tutte le azioni (**nome azione - etichetta azione**) utilizzate nei viaggi, ad esempio, Push - conferma estrazione, E-mail - fedeltà premi. |
+| **Origine dati** | Elenco delle origini dati (**nome origine dati**) utilizzate per arricchire i dati in un viaggio, ad esempio Adobe Experience Platform, sistema di prenotazione. |
+| **[!UICONTROL Event]** | Elenco di tutti gli eventi (**nome evento - etichetta evento**) utilizzati nei viaggi, ad esempio, evento Geometrixx - Geometrixx. |
+| **Gruppo di campi** | Elenco dei gruppi di campi (**nome del gruppo di campi**) utilizzati per arricchire i dati nei viaggi, ad esempio gruppo di campi profilo, sistema di prenotazione Geometrixx. |
+| **Viaggio** | Elenco di ogni viaggio (**nome percorso**) in modalità di prova e live, ad esempio abbandono carrello, notifica prenotazione alberghiera. |
+| **Versione del viaggio** | Elenco di ogni versione pubblicata di un viaggio (**nome percorso + numero versione**) ad esempio abbandono carrello v1, notifica prenotazione alberghiera v2. |
+| **Orchestrazione** | Elenco di tutte le attività di orchestrazione (**Condizione, Fine, Aspetta**) definite e utilizzate nei viaggi. |
 
 ## Dimensioni di consegna {#delivery-dimensions}
 
@@ -57,7 +57,7 @@ La tabella seguente fornisce l’elenco delle dimensioni di consegna utilizzate 
 | **Etichetta URL tracciamento** | Etichetta data all’URL, ad esempio pagina mirror, contattateci o aprite. |
 | **Variante** | Variante del messaggio e-mail in caso di test A/B. |
 
-## Metriche del viaggio {#MBE_p_p22_c4j_w2b}
+## Metriche del percorso {#MBE_p_p22_c4j_w2b}
 
 La tabella seguente fornisce l’elenco delle metriche utilizzate nei report di viaggio, le relative definizioni e formule.
 
@@ -82,7 +82,8 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei report di 
 
 ## Metriche di consegna {#delivery-metrics}
 
-La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti di viaggio, le relative definizioni e formule.
+La tabella seguente fornisce l’elenco delle metriche utilizzate nel percorso
+rapporti, relative definizioni e formule.
 
 | Metrica | Definizione |
 |--- |--- |
