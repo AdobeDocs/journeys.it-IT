@@ -139,6 +139,6 @@ L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all�
 Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. Per ulteriori informazioni su come assegnare le sandbox, consulta questa [sezione](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] riflette le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
-Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza Adobe Experience Platform. Per conoscere i passaggi dettagliati, fai riferimento alla [guida utente sulle sandbox](https://docs.adobe.com/content/help/it-IT/experience-platform/sandbox/ui/user-guide.html).
+Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza Adobe Experience Platform. Per conoscere i passaggi dettagliati, fai riferimento alla [guida utente sulle sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
 Il controllo del commutatore sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
