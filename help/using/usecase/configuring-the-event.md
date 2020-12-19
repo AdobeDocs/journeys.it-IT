@@ -6,19 +6,19 @@ description: Scoprite come configurare l’evento per il percorso - caso di util
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Configurazione dell’evento{#concept_y44_hcy_w2b}
 
-Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona cammina vicino a un beacon posizionato accanto al centro benessere. L&#39;utente **** tecnico deve configurare l&#39;evento che il sistema ascolterà nel nostro viaggio.
+Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona cammina vicino a un beacon posizionato accanto al centro benessere. L&#39; **utente tecnico** deve configurare l&#39;evento che il sistema ascolterà nel nostro viaggio.
 
-Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [questa pagina](../event/about-events.md).
+Per ulteriori informazioni sulla configurazione dell&#39;evento, fare riferimento a [questa pagina](../event/about-events.md).
 
-1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
+1. Nel menu principale, fate clic sulla scheda **[!UICONTROL Events]** e fate clic su **[!UICONTROL Add]** per creare un nuovo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -26,7 +26,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [que
 
    ![](../assets/journeyuc1_2.png)
 
-1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. Abbiamo bisogno dell&#39;ID Experience Cloud  per identificare la persona nel database Profilo cliente in tempo reale: _endUserIDs > experience > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato nel **[!UICONTROL eventID]** campo (_esperienza > campagna > orchestrazione > eventID_). Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. Nel nostro caso d’uso, questo ID viene usato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l&#39;invio dell&#39;evento.
+1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. Abbiamo bisogno dell&#39;ID Experience Cloud  per identificare la persona nel database Profilo cliente in tempo reale: _endUserIDs > experience > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato nel campo **[!UICONTROL eventID]** (_esperienza > campagna > orchestrazione > eventID_). Il sistema che preme l&#39;evento non deve generare un ID, ma deve utilizzare quello disponibile nell&#39;anteprima del payload. Nel nostro caso d’uso, questo ID viene usato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l&#39;invio dell&#39;evento.
 
    ![](../assets/journeyuc1_3.png)
 
@@ -34,7 +34,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [que
    >
    >L&#39;elenco dei campi varia da uno schema all&#39;altro. In base alla definizione dello schema, alcuni campi possono essere obbligatori e preselezionati.
 
-1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
+1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. Per ulteriori informazioni sugli spazi dei nomi, vedere [questa pagina](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
@@ -44,7 +44,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [que
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-1. Fate clic sull&#39; **[!UICONTROL View Payload]** icona per visualizzare l&#39;anteprima del payload previsto dal sistema e condividerlo con la persona responsabile dell&#39;invio dell&#39;evento. Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
+1. Fate clic sull&#39;icona **[!UICONTROL View Payload]** per visualizzare l&#39;anteprima del payload previsto dal sistema e condividerlo con la persona responsabile dell&#39;invio dell&#39;evento. Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
 
    ![](../assets/journeyuc1_7.png)
 
