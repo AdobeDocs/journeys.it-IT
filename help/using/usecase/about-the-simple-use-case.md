@@ -6,8 +6,8 @@ description: Ulteriori informazioni sul percorso caso di utilizzo semplice
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Vogliamo mandare un messaggio solo se la persona è una donna. Il messaggio deve
 
 ## Prerequisiti {#prerequisites}
 
-Per il nostro caso d&#39;uso, abbiamo progettato un modello di messaggistica transazionale e-mail in  Adobe Campaign Standard. Stiamo utilizzando un modello di messaggi transazionali evento. Refer to this [page](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
+Per il nostro caso d&#39;uso, abbiamo progettato un modello di messaggistica transazionale e-mail in  Adobe Campaign Standard. Stiamo utilizzando un modello di messaggi transazionali evento. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
  Adobe Campaign Standard è configurato per l&#39;invio di e-mail.
 
