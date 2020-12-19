@@ -109,7 +109,7 @@ Questa condizione recupera solo gli eventi geofence attivati in &quot;Arlington&
                     .name} == "Arlington"
 ```
 
-Spiegazione: Si tratta di un confronto stretto tra stringhe (con distinzione tra maiuscole e minuscole), che equivale a una query in modalità semplice utilizzata `equal to` con `Is sensitive` selezionata.
+Spiegazione: Si tratta di un confronto stretto tra stringhe (con distinzione tra maiuscole e minuscole), equivalente a una query in modalità semplice che utilizza `equal to` con `Is sensitive` selezionato.
 
 La stessa query con `Is sensitive` non selezionato genererà la seguente espressione in modalità avanzata:
 
@@ -138,6 +138,6 @@ La seguente espressione consente di definire l&#39;ID CRM in un campo di persona
                          ))
 ```
 
-Spiegazione: In questo esempio vengono utilizzate `substr` e `lastIndexOf` funzioni per rimuovere le parentesi graffe che contengono l&#39;ID CRM passato con un evento di avvio dell&#39;app mobile.
+Spiegazione: In questo esempio vengono utilizzate le funzioni `substr` e `lastIndexOf` per rimuovere le parentesi graffe che contengono l&#39;ID CRM passato con un evento di avvio dell&#39;app mobile.
 
-Per ulteriori informazioni sull’utilizzo dell’editor di espressioni avanzate, guardate [questo video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di espressioni avanzate, guardate [questo video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
