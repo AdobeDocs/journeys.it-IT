@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Proprietà del viaggio
+title: Proprietà del percorso
 description: Scopri le proprietà del viaggio
 translation-type: tm+mt
 source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
