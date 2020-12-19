@@ -6,8 +6,8 @@ description: Scopri come sfruttare i punteggi di affaticamento nei viaggi
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,22 +18,22 @@ Questo caso di utilizzo vi mostrerà come sfruttare i punteggi di affaticamento 
 
 >[!NOTE]
 >
->La funzionalità di valutazione della fatica predittiva è disponibile solo per i clienti che utilizzano [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+>La funzionalità di valutazione della fatica predittiva è disponibile solo per i clienti che utilizzano il [Connettore dati Adobe Experience Platform](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 ## Configurazione dell’evento {#section_ptb_ws1_ffb}
 
-Seguite i passaggi descritti in [questa pagina](../event/about-events.md).
+Seguire i passaggi descritti in [questa pagina](../event/about-events.md).
 
 ## Configurazione dell’origine dati {#section_o3n_4yy_wfb}
 
 Per selezionare i campi del punteggio di affaticamento nell&#39;origine dati incorporata, effettuare le operazioni seguenti:
 
-1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare l&#39;origine dati Adobe Experience Platform incorporata.
+1. Nel menu principale, fare clic sulla scheda **[!UICONTROL Data Sources]** e selezionare l&#39;origine dati Adobe Experience Platform incorporata.
 
    ![](../assets/journey23.png)
 
 1. Verificate che i campi richiesti per il caso di utilizzo siano selezionati.
-1. Fai clic **[!UICONTROL Add a New Field Group]**, seleziona il **[!UICONTROL Profiles]** modello e aggiungi i **[!UICONTROL fatigueLevel]** campi e (in **[!UICONTROL fatigueScore]** viaggioAI > emailScore > fatica __).
+1. Fare clic su **[!UICONTROL Add a New Field Group]**, selezionare il modello **[!UICONTROL Profiles]** e aggiungere i campi **[!UICONTROL fatigueLevel]** e **[!UICONTROL fatigueScore]** (in _pathAI > emailScore > fatigue_).
 
    ![](../assets/journeyuc3_1.png)
 
@@ -43,7 +43,7 @@ Per selezionare i campi del punteggio di affaticamento nell&#39;origine dati inc
 
 Per creare, convalidare e pubblicare il percorso, segui i passaggi descritti in [questa pagina](../building-journeys/journey.md).
 
-Nel nostro caso d&#39;uso, stiamo sfruttando il **[!UICONTROL fatigueLevel]** campo. È inoltre possibile utilizzare il **[!UICONTROL fatigueScore]** campo.
+Nel nostro caso di utilizzo, stiamo sfruttando il campo **[!UICONTROL fatigueLevel]**. È inoltre possibile utilizzare il campo **[!UICONTROL fatigueScore]**.
 
 Per sfruttare il livello di affaticamento del percorso, effettua i seguenti passaggi:
 
@@ -55,7 +55,7 @@ Per sfruttare il livello di affaticamento del percorso, effettua i seguenti pass
 
    ![](../assets/journeyuc3_2.png)
 
-1. Utilizzando l&#39;editor di espressioni semplici, cerca il **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Profile > pathAI > emailScore > fatigue_), rilascialo a destra e crea la seguente condizione: &quot;fatigueLevel è uguale a &quot;Low&quot;. Fai clic su **[!UICONTROL Ok]**.
+1. Utilizzando l&#39;editor di espressioni semplici, cercare il campo **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Profile > pathAI > emailScore > fatigue_), rilasciarlo a destra e creare la seguente condizione: &quot;fatigueLevel è uguale a &quot;Low&quot;. Fai clic su **[!UICONTROL Ok]**.
 
    ![](../assets/journeyuc3_3.png)
 
