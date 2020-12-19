@@ -20,7 +20,7 @@ Se  Adobe Campaign Standard, sono disponibili le seguenti attività pronte all�
 >
 >A tal fine, è necessario configurare l&#39;azione integrata. Consulta [questa pagina](../action/working-with-adobe-campaign.md).
 
-Per ciascuno di questi canali, è possibile selezionare un **modello** Adobe Campaign Standard Transactional Messaging. In effetti, non [!DNL Journey Orchestration] è una soluzione che invia messaggi. Per i canali e-mail, SMS e push incorporati, ci affidiamo ai messaggi transazionali per eseguire l&#39;invio dei messaggi. Se desiderate utilizzare un determinato modello di messaggio nei vostri viaggi, dovete pubblicarlo in  Adobe Campaign Standard. Per informazioni su come utilizzare [questa funzione, fare riferimento a questa pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html) .
+Per ciascuno di questi canali, è possibile selezionare un  Adobe Campaign Standard Transactional Messaging **template**. In realtà, [!DNL Journey Orchestration] non è una soluzione di invio di messaggi. Per i canali e-mail, SMS e push incorporati, ci affidiamo ai messaggi transazionali per eseguire l&#39;invio dei messaggi. Se desiderate utilizzare un determinato modello di messaggio nei vostri viaggi, dovete pubblicarlo in  Adobe Campaign Standard. Fare riferimento a [questa pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html) per ulteriori informazioni sull&#39;utilizzo di questa funzione.
 
 >[!NOTE]
 >
@@ -44,19 +44,19 @@ Per **[!UICONTROL Email]** e **[!UICONTROL SMS]**, i parametri sono identici.
 
 >[!NOTE]
 >
->Per le e-mail, se utilizzate un modello transazionale di profili, il meccanismo di annullamento dell’iscrizione viene gestito out-of-the-box dai Campaign Standard. È sufficiente aggiungere un blocco di **[!UICONTROL Unsubscription link]** contenuto nel modello ([ulteriori](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)informazioni). Se utilizzate un modello basato su eventi (rtEvent), dovete aggiungere nel messaggio un collegamento che passa l&#39;e-mail della persona nel parametro URL e che indichi una pagina di destinazione senza iscrizione. È necessario creare questa pagina di destinazione e assicurarsi che la decisione dell&#39;utente di annullare l&#39;iscrizione sia trasmessa al Adobe .
+>Per le e-mail, se utilizzate un modello transazionale di profili, il meccanismo di annullamento dell’iscrizione viene gestito out-of-the-box dai Campaign Standard. È sufficiente aggiungere un blocco di contenuto **[!UICONTROL Unsubscription link]** nel modello ([ulteriori informazioni](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Se utilizzate un modello basato su eventi (rtEvent), dovete aggiungere nel messaggio un collegamento che passa l&#39;e-mail della persona nel parametro URL e che indichi una pagina di destinazione senza iscrizione. È necessario creare questa pagina di destinazione e assicurarsi che la decisione dell&#39;utente di annullare l&#39;iscrizione sia trasmessa al Adobe .
 
 Innanzitutto, è necessario scegliere un modello di messaggistica transazionale. Consulta [questa pagina](../building-journeys/about-action-activities.md).
 
 Sono disponibili due categorie: **[!UICONTROL Address]** e **[!UICONTROL Personalization Data]**.
 
-È possibile definire facilmente dove recuperare l&#39; **[!UICONTROL Address]** o l&#39; **[!UICONTROL Personalization Data]** interfaccia. È possibile sfogliare gli eventi e i campi dell&#39;origine dati disponibili. È inoltre possibile utilizzare l&#39;editor di espressioni avanzate per casi di utilizzo più avanzati, ad esempio per utilizzare un&#39;origine dati che richiede il passaggio di parametri o l&#39;esecuzione di operazioni di manipolazione. Consulta [questa pagina](../expression/expressionadvanced.md).
+È possibile definire facilmente dove recuperare il **[!UICONTROL Address]** o il **[!UICONTROL Personalization Data]** utilizzando l&#39;interfaccia. È possibile sfogliare gli eventi e i campi dell&#39;origine dati disponibili. È inoltre possibile utilizzare l&#39;editor di espressioni avanzate per casi di utilizzo più avanzati, ad esempio per utilizzare un&#39;origine dati che richiede il passaggio di parametri o l&#39;esecuzione di operazioni di manipolazione. Consulta [questa pagina](../expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 
 >[!NOTE]
 >
->Questa categoria è visibile solo se selezioni un messaggio transazionale &quot;event&quot;. Per i messaggi di &quot;profilo&quot;, il **[!UICONTROL Address]** campo viene automaticamente recuperato da  Adobe Campaign Standard dal sistema.
+>Questa categoria è visibile solo se selezioni un messaggio transazionale &quot;event&quot;. Per i messaggi di &quot;profilo&quot;, il campo **[!UICONTROL Address]** viene recuperato automaticamente da  Adobe Campaign Standard dal sistema.
 
 Questi sono i campi che il sistema richiede per sapere dove inviare il messaggio. Per un modello e-mail, si tratta dell’indirizzo e-mail. Per un SMS, è il numero di telefono cellulare.
 
@@ -74,7 +74,7 @@ Questi sono i campi previsti dal messaggio Adobe Campaign Standard . Questi camp
 
 ## Push {#section_im3_hvf_nhb}
 
-Prima di utilizzare l&#39;attività push, l&#39;app mobile deve essere configurata insieme ai Campaign Standard per inviare le notifiche push. Utilizzate questo [articolo](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html) per effettuare i passaggi di implementazione necessari per mobile.
+Prima di utilizzare l&#39;attività push, l&#39;app mobile deve essere configurata insieme ai Campaign Standard per inviare le notifiche push. Utilizzate questo [articolo](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html) per eseguire i passaggi di implementazione necessari per Mobile.
 
 Innanzitutto, devi scegliere un&#39;app mobile dall&#39;elenco a discesa e un messaggio transazionale. Consulta [questa pagina](../building-journeys/about-action-activities.md).
 
@@ -86,11 +86,11 @@ Sono disponibili due categorie: **[!UICONTROL Target]** e **[!UICONTROL Personal
 
 >[!NOTE]
 >
->Questa categoria è visibile solo se si seleziona un messaggio evento. Per i messaggi di profilo, i **[!UICONTROL Target]** campi vengono recuperati automaticamente dal sistema utilizzando la riconciliazione eseguita da  Adobe Campaign Standard.
+>Questa categoria è visibile solo se si seleziona un messaggio evento. Per i messaggi di profilo, i campi **[!UICONTROL Target]** vengono recuperati automaticamente dal sistema utilizzando la riconciliazione eseguita da  Adobe Campaign Standard.
 
 In questa sezione, è necessario definire il **[!UICONTROL Push platform]**. L&#39;elenco a discesa consente di selezionare **[!UICONTROL Apple Push Notification Server]** (iOS) o **[!UICONTROL Firebase Cloud Messaging]** (Android). In alternativa, è possibile selezionare un campo specifico da un evento o un&#39;origine dati, oppure definire un&#39;espressione avanzata.
 
-È inoltre necessario definire il **[!UICONTROL Registration Token]**. L&#39;espressione dipende da come il token viene definito nel payload dell&#39;evento o in altre [!DNL Journey Orchestration] informazioni. Può essere un campo semplice o un&#39;espressione più complessa nel caso in cui il token sia definito in una raccolta, ad esempio:
+È inoltre necessario definire il **[!UICONTROL Registration Token]**. L&#39;espressione dipende da come il token viene definito nel payload dell&#39;evento o in altre informazioni [!DNL Journey Orchestration]. Può essere un campo semplice o un&#39;espressione più complessa nel caso in cui il token sia definito in una raccolta, ad esempio:
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
