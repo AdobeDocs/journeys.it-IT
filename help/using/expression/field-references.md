@@ -21,9 +21,9 @@ Se si utilizzano caratteri speciali in un campo, è necessario utilizzare virgol
 
 * il campo inizia con caratteri numerici
 * il campo inizia con il carattere &quot;-&quot;
-* il campo contiene elementi diversi da: _a_-_z_, _A_-_Z_, _0_-___9, _, -_
+* il campo contiene elementi diversi da: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
 
-Ad esempio, se il campo è di _3 ore_: _#{OpenWeather.WeatherData.rain.&#39;3h&#39;} > 0_
+Ad esempio, se il campo è _3h_: _#{OpenWeather.WeatherData.rain.&#39;3h&#39;} > 0_
 
 ```
 // event field
@@ -100,19 +100,19 @@ Esempio :
 
 **Riferimento a un campo definito in una mappa**
 
-Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una data chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Vedere Selezione dello spazio dei nomi. Per ulteriori informazioni, consultate [questa pagina](../event/selecting-the-namespace.md).
+Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una data chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Vedere Selezione dello spazio dei nomi. Per ulteriori informazioni, vedere [questa pagina](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In questa espressione, è disponibile la voce per la chiave ‘Email’ del campo ‘IdentityMap’ di un evento. La voce &quot;E-mail&quot; è una raccolta, dalla quale prendiamo l&#39;&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, consultate [questa pagina](../expression/collection-management-functions.md).
+In questa espressione, è disponibile la voce per la chiave ‘Email’ del campo ‘IdentityMap’ di un evento. La voce &quot;E-mail&quot; è una raccolta, dalla quale prendiamo l&#39;&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, vedere [questa pagina](../expression/collection-management-functions.md).
 
 **Valori di parametro di un&#39;origine dati (valori dinamici dell&#39;origine dati)**
 
 Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro, viene visualizzata una nuova scheda a destra che consente di specificare questo parametro. Consulta [questa pagina](../expression/expressionadvanced.md).
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Un parametro può essere una qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
+Per casi di utilizzo più complessi, se si desidera includere i parametri dell&#39;origine dati nell&#39;espressione principale, è possibile definirne i valori utilizzando la parola chiave _params_. Un parametro può essere una qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
 
 >[!NOTE]
 >
