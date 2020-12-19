@@ -26,7 +26,7 @@ Supponiamo che tu abbia un segmento di clienti Gold su Adobe Experience Platform
 
 >[!NOTE]
 >
->Non puoi avere un salto e un&#39;attività di **lettura del segmento** nello stesso percorso. Non è possibile passare a un percorso che inizia con un evento di segmento **di** lettura.
+>Non è possibile impostare un&#39;attività **Leggi segmento** nello stesso percorso. Non è possibile passare a un percorso che inizia con un evento **Leggi segmento**.
 
 ## Configurazione dell&#39;attività {#configuring-segment-trigger-activity}
 
@@ -34,13 +34,13 @@ Supponiamo che tu abbia un segmento di clienti Gold su Adobe Experience Platform
 >
 >A causa delle latenze di esportazione del segmento, non è possibile attivare un percorso basato su segmenti in un intervallo di tempo più breve di 1 ora.
 
-1. Spiegate la **[!UICONTROL Orchestration]** categoria e rilasciate un&#39; **[!UICONTROL Read Segment]** attività nel quadro.
+1. Spiegate la categoria **[!UICONTROL Orchestration]** e rilasciate un&#39;attività **[!UICONTROL Read Segment]** nel quadro.
 
    L&#39;attività deve essere posizionata come primo passo di un viaggio.
 
 1. Aggiungete un elemento **[!UICONTROL Label]** all&#39;attività (facoltativo).
 
-1. Nel **[!UICONTROL Segment]** campo, scegliete il segmento Adobe Experience Platform che verrà inserito nel percorso, quindi fate clic su **[!UICONTROL Save]**.
+1. Nel campo **[!UICONTROL Segment]**, scegliete il segmento Adobe Experience Platform che verrà inserito nel percorso, quindi fate clic su **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
@@ -48,41 +48,41 @@ Supponiamo che tu abbia un segmento di clienti Gold su Adobe Experience Platform
 
    ![](../assets/segment-trigger-segment-selection.png)
 
-   Una volta aggiunto il segmento, il **[!UICONTROL Copy]** pulsante consente di copiarne il nome e l’ID:
+   Una volta aggiunto il segmento, il pulsante **[!UICONTROL Copy]** consente di copiarne il nome e l&#39;ID:
 
    `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-trigger-copy.png)
 
-1. Nel **[!UICONTROL Namespace]** campo, scegliete lo spazio dei nomi da utilizzare per identificare gli individui. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
+1. Nel campo **[!UICONTROL Namespace]**, scegliete lo spazio dei nomi da utilizzare per identificare gli utenti. Per ulteriori informazioni sugli spazi dei nomi, consultare [questa sezione](../event/selecting-the-namespace.md).
 
    >[!NOTE]
    >
    >Gli individui appartenenti a un segmento che non ha l&#39;identità selezionata (spazio dei nomi) tra le loro diverse identità non possono entrare nel percorso.
 
-1. L&#39; **[!UICONTROL Read Segment]** attività consente di specificare l&#39;ora in cui il segmento entrerà nel percorso. A tal fine, fai clic sul **[!UICONTROL Edit journey schedule]** collegamento per accedere alle proprietà del viaggio, quindi configura il **[!UICONTROL Scheduler type]** campo.
+1. L&#39;attività **[!UICONTROL Read Segment]** consente di specificare l&#39;ora in cui il segmento entrerà nel percorso. A tal fine, fare clic sul collegamento **[!UICONTROL Edit journey schedule]** per accedere alle proprietà del percorso, quindi configurare il campo **[!UICONTROL Scheduler type]**.
 
    ![](../assets/segment-trigger-schedule.png)
 
-   Per impostazione predefinita, i segmenti entrano nel percorso, **[!UICONTROL As soon as possible]** ovvero 1 ora dopo la pubblicazione del percorso. Se si desidera che il segmento entri nel percorso in una data/ora specifica o su base periodica, selezionare il valore desiderato dall&#39;elenco.
+   Per impostazione predefinita, i segmenti entrano nel percorso **[!UICONTROL As soon as possible]**, ovvero 1 ora dopo la pubblicazione del percorso. Se si desidera che il segmento entri nel percorso in una data/ora specifica o su base periodica, selezionare il valore desiderato dall&#39;elenco.
 
    >[!NOTE]
    >
-   >La **[!UICONTROL Schedule]** sezione è disponibile solo quando un&#39; **[!UICONTROL Read Segment]** attività è stata eliminata nell&#39;area di lavoro.
+   >Tenere presente che la sezione **[!UICONTROL Schedule]** è disponibile solo quando un&#39;attività **[!UICONTROL Read Segment]** è stata eliminata nel quadro.
 
    ![](../assets/segment-trigger-properties.png)
 
 ## Verifica e pubblicazione del percorso {#testing-publishing}
 
-L&#39; **[!UICONTROL Read Segment]** attività consente di testare il viaggio su un profilo unitario o su 100 profili di test casuali selezionati tra i profili idonei per il segmento.
+L&#39;attività **[!UICONTROL Read Segment]** consente di verificare il percorso sia su un profilo unitario, sia su 100 profili di test casuali selezionati tra i profili idonei per il segmento.
 
 A questo scopo, attivate la modalità di prova, quindi selezionate l’opzione desiderata nel riquadro a sinistra.
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Potete quindi configurare ed eseguire la modalità di prova come di consueto. In [questa sezione](../building-journeys/testing-the-journey.md)sono illustrati i passaggi dettagliati su come verificare il percorso.
+Potete quindi configurare ed eseguire la modalità di prova come di consueto. I passaggi dettagliati su come testare un viaggio sono presentati in [questa sezione](../building-journeys/testing-the-journey.md).
 
-Una volta eseguito il test, il **[!UICONTROL Show logs]** pulsante consente di visualizzare i risultati del test in base all&#39;opzione di test selezionata:
+Una volta eseguito il test, il pulsante **[!UICONTROL Show logs]** consente di visualizzare i risultati del test in base all&#39;opzione selezionata:
 
 * **[!UICONTROL Single profile at a time]**: i registri di test visualizzano le stesse informazioni di quando si utilizza la modalità di prova unitaria. Per ulteriori informazioni al riguardo, consulta [questa sezione](../building-journeys/testing-the-journey.md#viewing_logs)
 
@@ -92,7 +92,7 @@ Una volta eseguito il test, il **[!UICONTROL Show logs]** pulsante consente di v
 
    ![](../assets/read-segment-log.png)
 
-Una volta completati i test, potete pubblicare il viaggio (consultate [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md)). Gli individui appartenenti al segmento entreranno nel percorso nella data/ora specificata nella sezione delle proprietà del viaggio **[!UICONTROL Scheduler]** .
+Una volta completati i test, puoi pubblicare il percorso (vedi [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md)). Gli individui appartenenti al segmento entreranno nel percorso nella data/ora specificata nella sezione delle proprietà del viaggio **[!UICONTROL Scheduler]**.
 
 >[!NOTE]
 >
