@@ -20,19 +20,19 @@ Di seguito sono riportati i limiti relativi all&#39;uso del Journey Orchestratio
 
 * Non c&#39;è alcun limite di invio. 
 * In caso di errore vengono eseguiti sistematicamente due tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. 
-* L&#39;evento **Reaction** integrato consente di reagire alle azioni pronte all&#39;uso (consultate questa [pagina](../building-journeys/reaction-events.md)). Per reagire a un messaggio inviato tramite un&#39;azione personalizzata, è necessario configurare un evento dedicato. 
+* L&#39;evento **Reaction** integrato consente di reagire alle azioni pronte all&#39;uso (vedere questa [pagina](../building-journeys/reaction-events.md)). Per reagire a un messaggio inviato tramite un&#39;azione personalizzata, è necessario configurare un evento dedicato. 
 * Non esiste alcuna integrazione con i prodotti Adobe Campaign Classic.
 
-## Limitazioni delle versioni del percorso {#journey-versions-limitations}
+## Limiti delle versioni del percorso {#journey-versions-limitations}
 
-* un percorso che inizia con un&#39;attività di evento nella release v1 non può iniziare con qualcos&#39;altro che con un evento in altre versioni. Non è possibile avviare un percorso con un evento Qualifica **** segmento.
-* un percorso che inizia con un&#39;attività Qualifica **** segmento in v1 deve sempre iniziare con una Qualifica **** segmento in ulteriori versioni.
-* Il segmento e lo spazio dei nomi scelti nella qualifica **** Segmento (primo nodo) non possono essere modificati nelle nuove versioni.
+* un percorso che inizia con un&#39;attività di evento nella release v1 non può iniziare con qualcos&#39;altro che con un evento in altre versioni. Non è possibile avviare un percorso con un evento **Qualificazione segmento**.
+* un percorso che inizia con un&#39;attività **Qualificazione segmento** in v1 deve sempre iniziare con una **Qualificazione segmento** in ulteriori versioni.
+* Il segmento e lo spazio dei nomi scelti in **Qualificazione segmento** (primo nodo) non possono essere modificati nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni di viaggio.
 
-## Qualificazione del segmento {#segment-qualification}
+## Qualificazione segmento {#segment-qualification}
 
-* L&#39;attività di qualificazione **del** segmento non può essere utilizzata insieme  messaggi transazionali Adobe Campaign Standard a causa di vincoli di throughput. Consultate [Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)del prodotto Adobe Campaign Standard. 
+* L&#39;attività **Qualificazione segmento** non può essere utilizzata insieme  messaggi transazionali Adobe Campaign Standard a causa di vincoli di throughput. Vedere [ Descrizione prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitazioni delle azioni personalizzate
@@ -46,7 +46,7 @@ Di seguito sono riportati i limiti relativi all&#39;uso del Journey Orchestratio
 
 ##  limitazioni delle azioni Adobe Campaign
 
-*  messaggi transazionali Adobe Campaign Standard ha una scala di 50 000 messaggi all&#39;ora al massimo tra i canali per una determinata istanza. Consultate [Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)del prodotto Adobe Campaign Standard. 
+*  messaggi transazionali Adobe Campaign Standard ha una scala di 50 000 messaggi all&#39;ora al massimo tra i canali per una determinata istanza. Vedere [ Descrizione prodotto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limiti eventi
