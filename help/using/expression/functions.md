@@ -16,7 +16,7 @@ ht-degree: 73%
 
 Una funzione può avere firme diverse (un insieme diverso di parametri ordinati). Una firma di funzione può avere espressioni da 0 a 0 come parametri ordinati.
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ... ,`<expression as param N>`)
 
 Ogni funzione ha un tipo restituito specifico.
 
@@ -57,7 +57,7 @@ Elenco delle funzioni supportate.
 | Data | [setHours](../functions/functionsethours.md) |
 | Data | [setDays](../functions/functionsetdays.md) |
 | Elenco | [distinct](../functions/functiondistinct.md) |
-| Elenco | [distinctCount](../functions/functiondistinctcount.md) |
+| Elenco | [separateCount](../functions/functiondistinctcount.md) |
 | Elenco | [in](../functions/functionin.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
