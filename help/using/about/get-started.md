@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # Introduzione{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration], esistono due tipi di utenti, ciascuno dei quali esegue attività specifiche: l’**utente tecnico** e l’**utente aziendale**. L’accesso dell’utente viene gestito tramite profili di prodotto e diritti. Refer to [this page](../about/access-management.md) to learn how to configure user access.
+In [!DNL Journey Orchestration], esistono due tipi di utenti, ciascuno dei quali esegue attività specifiche: l’**utente tecnico** e l’**utente aziendale**. L’accesso dell’utente viene gestito tramite profili di prodotto e diritti. Fare riferimento a [questa pagina](../about/access-management.md) per informazioni su come configurare l&#39;accesso utente.
 
 Di seguito sono riportati i passaggi principali per la configurazione e l’utilizzo di [!DNL Journey Orchestration]:
 
@@ -56,7 +56,7 @@ Di seguito sono riportati i passaggi principali per la configurazione e l’util
 
    È necessario convalidare e attivare il percorso. Questo passaggio viene eseguito da un **utente aziendale**.
 
-   Per ulteriori informazioni, consulta le pagine [Test del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
+   Per ulteriori informazioni, vedere le pagine [Verifica del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
