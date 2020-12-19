@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Sfruttamento dell’intelligenza artificiale del cliente {#customer-ai}
 
-L&#39;AI del cliente fa parte dei servizi intelligenti. Consente di prevedere le attività che un cliente è in grado di eseguire. Consulta la [documentazione](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+L&#39;AI del cliente fa parte dei servizi intelligenti. Consente di prevedere le attività che un cliente è in grado di eseguire. Vedere la [documentazione](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
 L&#39;AI del cliente consente ai marchi di creare punteggi basati sull&#39;apprendimento di churn o conversione che saranno disponibili come attributi di profilo nei profili Adobe Experience Platform (Real-time Customer Profile).
 
