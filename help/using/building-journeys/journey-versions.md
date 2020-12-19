@@ -22,9 +22,9 @@ Se devi modificare un viaggio live, devi creare una nuova versione del tuo viagg
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle limitazioni delle versioni di viaggio, consulta [questa pagina](../about/limitations.md#journey-versions-limitations)
+>Per ulteriori informazioni sulle limitazioni delle versioni di viaggio, vedere [questa pagina](../about/limitations.md#journey-versions-limitations)
 
-1. Apri l’ultima versione del tuo viaggio live, fai clic su **[!UICONTROL Create a new version]** e conferma.
+1. Aprite l&#39;ultima versione del viaggio live, fate clic su **[!UICONTROL Create a new version]** e confermate.
 
    ![](../assets/journeyversions2.png)
 
@@ -32,7 +32,7 @@ Se devi modificare un viaggio live, devi creare una nuova versione del tuo viagg
    >
    >Puoi creare una nuova versione solo dall’ultima versione di un viaggio.
 
-1. Apportate le modifiche desiderate, fate clic **[!UICONTROL Publish]** e confermate.
+1. Apportate le modifiche desiderate, fate clic su **[!UICONTROL Publish]** e confermate.
 
    ![](../assets/journeyversions3.png)
 
@@ -42,4 +42,4 @@ Le versioni del percorso possono essere arrestate singolarmente. Tutte le versio
 
 >[!NOTE]
 >
->Quando pubblicate una nuova versione di un viaggio, la versione precedente termina automaticamente e passa allo stato **Chiuso** . Non ci sarà ingresso nel viaggio. Anche se interrompete l&#39;ultima versione, la versione precedente rimarrà chiusa.
+>Quando pubblicate una nuova versione di un percorso, la versione precedente termina automaticamente e passa allo stato **Chiuso**. Non ci sarà ingresso nel viaggio. Anche se interrompete l&#39;ultima versione, la versione precedente rimarrà chiusa.
