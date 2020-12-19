@@ -45,11 +45,11 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Data Sources]**.
 
-   Viene visualizzato l’elenco delle origini dati. See [this page](../about/user-interface.md) for more information on the interface.
+   Viene visualizzato l’elenco delle origini dati. Per ulteriori informazioni sull&#39;interfaccia, vedere [questa pagina](../about/user-interface.md).
 
    ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
+1. È quindi possibile aggiungere gruppi di campi all&#39;origine dati incorporata (vedere [questa pagina](../datasource/adobe-experience-platform-data-source.md)) oppure creare una nuova origine dati esterna (vedere [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedere [questa pagina](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
