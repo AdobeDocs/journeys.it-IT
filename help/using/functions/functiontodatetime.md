@@ -34,7 +34,7 @@ Conversione
 
 >[!NOTE]
 >
->L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione. For more information on data types, refer to [this page](../expression/data-types.md).
+>L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione. Per ulteriori informazioni sui tipi di dati, fare riferimento a [questa pagina](../expression/data-types.md).
 
 ## Firme e tipi restituiti
 
@@ -44,7 +44,7 @@ Conversione
 
 `toDateTime(<integer>)`
 
-Restituisce un **dataTime**.
+Restituisce un valore **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
