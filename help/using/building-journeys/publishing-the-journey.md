@@ -21,7 +21,7 @@ Se devi apportare modifiche a un viaggio pubblicato, devi creare una nuova versi
 Se interrompete un viaggio, questo verrà interrotto definitivamente. Tutte le persone che fluiscono nel viaggio saranno fermate in modo permanente e il viaggio smetterà di consentire nuove entrate. Per riutilizzare il percorso, dovete duplicarlo e pubblicarlo.
 
 1. Prima di pubblicare il viaggio, verifica che sia valido e che non si verifichi alcun errore. Non potrai pubblicare un viaggio con errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). È inoltre consigliabile verificare il percorso prima della pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
-1. Per pubblicare il viaggio, fate clic sull’ **[!UICONTROL Publish]** opzione, situata nel menu a discesa in alto a destra.
+1. Per pubblicare il percorso, fate clic sull&#39;opzione **[!UICONTROL Publish]**, situata nel menu a discesa in alto a destra.
 
    ![](../assets/journeyuc1_18.png)
 
