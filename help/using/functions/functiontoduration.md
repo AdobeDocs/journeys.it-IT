@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # toDuration {#toDuration}
 
-Converte un valore di argomento in una durata. For more information on data types, refer to [this page](../expression/data-types.md).
+Converte un valore di argomento in una durata. Per ulteriori informazioni sui tipi di dati, fare riferimento a [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
