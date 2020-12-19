@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # toString {#toString}
 
-Converte un valore di argomento in un valore di stringa, a seconda del tipo. For more information on data types, refer to [this page](../expression/data-types.md).
+Converte un valore di argomento in un valore di stringa, a seconda del tipo. Per ulteriori informazioni sui tipi di dati, fare riferimento a [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
