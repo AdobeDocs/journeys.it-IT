@@ -22,19 +22,19 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 
 1. Prima di verificare il percorso, verifica che sia valido e che non si verifichi alcun errore. Non potrai avviare un test di un viaggio con errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
 
-1. Per attivare la modalità di prova, fate clic sull’ **[!UICONTROL Test]** interruttore, situato nell’angolo in alto a destra.
+1. Per attivare la modalità di prova, fate clic sull&#39;interruttore **[!UICONTROL Test]**, situato nell&#39;angolo superiore destro.
 
    ![](../assets/journeytest1.png)
 
-1. Utilizzate il **[!UICONTROL Wait time in test]** parametro, nell&#39;angolo in basso a sinistra, per definire l&#39;ora in cui ciascuna attività di attesa durerà in modalità di prova. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se avete abbandonato una o più attività di attesa nel viaggio.
+1. Utilizzate il parametro **[!UICONTROL Wait time in test]**, nell&#39;angolo in basso a sinistra, per definire l&#39;ora in cui ciascuna attività di attesa durerà in modalità di prova. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se avete abbandonato una o più attività di attesa nel viaggio.
 
    ![](../assets/journeytest_wait.png)
 
-1. Fate clic **[!UICONTROL Trigger an event]** per configurare e inviare gli eventi al percorso. Assicuratevi di inviare gli eventi relativi ai profili di test. Consultate [Attivazione degli eventi](#firing_events).
+1. Fate clic su **[!UICONTROL Trigger an event]** per configurare e inviare gli eventi al percorso. Assicuratevi di inviare gli eventi relativi ai profili di test. Vedere [Attivazione degli eventi](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Dopo la ricezione degli eventi, fate clic sul **[!UICONTROL Show log]** pulsante per visualizzare il risultato del test e verificarlo. Consultate [Visualizzazione dei registri](#viewing_logs).
+1. Dopo la ricezione degli eventi, fate clic sul pulsante **[!UICONTROL Show log]** per visualizzare il risultato del test e verificarlo. Vedere [Visualizzazione dei registri](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -50,9 +50,9 @@ Per utilizzare la modalità di prova, effettuate le seguenti operazioni:
 * Potete attivare/disattivare la modalità di prova il numero di volte necessario.
 * Non è possibile modificare il percorso quando viene attivata la modalità di prova. In modalità di prova, potete pubblicare direttamente il percorso, senza dover disattivare la modalità di prova prima.
 
-## Creating a test profile{#create-test-profile}
+## Creazione di un profilo di test{#create-test-profile}
 
-La procedura per creare un profilo di test è la stessa utilizzata per creare un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. See this [page](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)
+La procedura per creare un profilo di test è la stessa utilizzata per creare un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. Vedere questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)
 
 È necessario utilizzare uno schema di profilo che contenga il mixin &quot;profili test details&quot;. Il flag testProfile fa parte di questo mixin.
 
@@ -106,7 +106,7 @@ curl -X POST \
 
 ## Configurazione degli eventi {#firing_events}
 
-Il **[!UICONTROL Trigger an event]** pulsante consente di configurare un evento che farà entrare una persona nel percorso.
+Il pulsante **[!UICONTROL Trigger an event]** consente di configurare un evento che farà entrare una persona nel percorso.
 
 >[!NOTE]
 >
@@ -118,13 +118,13 @@ Se il viaggio contiene diversi eventi, utilizzate l&#39;elenco a discesa per sel
 
 ![](../assets/journeytest4.png)
 
-L&#39;interfaccia consente di passare semplici parametri di evento. Se si desidera trasmettere raccolte o altri oggetti avanzati nell&#39;evento, è possibile fare clic su per visualizzare **[!UICONTROL Code View]** l&#39;intero codice del payload e modificarlo. Ad esempio, potete copiare e incollare le informazioni sull&#39;evento preparate da un utente tecnico.
+L&#39;interfaccia consente di passare semplici parametri di evento. Se si desidera trasmettere raccolte o altri oggetti avanzati nell&#39;evento, è possibile fare clic su **[!UICONTROL Code View]** per visualizzare l&#39;intero codice del payload e modificarlo. Ad esempio, potete copiare e incollare le informazioni sull&#39;evento preparate da un utente tecnico.
 
 ![](../assets/journeytest5.png)
 
 Un utente tecnico può anche utilizzare questa interfaccia per comporre i payload di eventi e attivare gli eventi senza dover utilizzare uno strumento di terze parti.
 
-Quando si fa clic sul **[!UICONTROL Send]** pulsante, inizia il test. La progressione dell&#39;individuo nel viaggio è rappresentata da un flusso visivo. Il percorso diventa progressivamente verde mentre l&#39;individuo si sposta lungo il percorso. Se si verifica un errore, nel passaggio corrispondente viene visualizzato un simbolo di avviso. È possibile posizionare il cursore su di esso per visualizzare ulteriori informazioni sull&#39;errore e accedere ai dettagli completi (se disponibili).
+Quando si fa clic sul pulsante **[!UICONTROL Send]**, il test inizia. La progressione dell&#39;individuo nel viaggio è rappresentata da un flusso visivo. Il percorso diventa progressivamente verde mentre l&#39;individuo si sposta lungo il percorso. Se si verifica un errore, nel passaggio corrispondente viene visualizzato un simbolo di avviso. È possibile posizionare il cursore su di esso per visualizzare ulteriori informazioni sull&#39;errore e accedere ai dettagli completi (se disponibili).
 
 ![](../assets/journeytest6.png)
 
@@ -136,17 +136,17 @@ Il flusso visivo funziona sia che l&#39;evento venga attivato tramite l&#39;inte
 
 ## Modalità di prova per i viaggi basati su regole {#test-rule-based}
 
-La modalità di prova è disponibile anche per i viaggi che utilizzano un evento basato su regole. For more information on rule-based events, refer to [this page](../event/about-events.md).
+La modalità di prova è disponibile anche per i viaggi che utilizzano un evento basato su regole. Per ulteriori informazioni sugli eventi basati su regole, fare riferimento a [questa pagina](../event/about-events.md).
 
-Quando si attiva un evento, la schermata di configurazione **dell&#39;** evento consente di definire i parametri dell&#39;evento da trasmettere nel test. Per visualizzare la condizione ID evento, fate clic sull&#39;icona della descrizione comando nell&#39;angolo superiore destro. Accanto a ciascun campo che fa parte della valutazione delle regole è disponibile una descrizione comandi.
+Quando si attiva un evento, la schermata **Configurazione evento** consente di definire i parametri dell&#39;evento da trasmettere nel test. Per visualizzare la condizione ID evento, fate clic sull&#39;icona della descrizione comando nell&#39;angolo superiore destro. Accanto a ciascun campo che fa parte della valutazione delle regole è disponibile una descrizione comandi.
 
 ![](../assets/alpha-event8.png)
 
-Per ulteriori informazioni su come utilizzare la modalità di prova, consultate [questa pagina](../building-journeys/testing-the-journey.md).
+Per ulteriori informazioni sull&#39;utilizzo della modalità di prova, vedere [questa pagina](../building-journeys/testing-the-journey.md).
 
 ## Visualizzazione dei registri {#viewing_logs}
 
-Il **[!UICONTROL Show log]** pulsante consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del viaggio in formato JSON. Un pulsante consente di copiare nodi interi. Devi aggiornare manualmente la pagina per aggiornare i risultati del test del viaggio.
+Il pulsante **[!UICONTROL Show log]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del viaggio in formato JSON. Un pulsante consente di copiare nodi interi. Devi aggiornare manualmente la pagina per aggiornare i risultati del test del viaggio.
 
 ![](../assets/journeytest3.png)
 
@@ -158,9 +158,9 @@ Viene visualizzato il numero di individui (tecnicamente chiamati istanze) attual
 
 * _Id_: l’ID interno dell’utente durante il viaggio. Può essere utilizzato a scopo di debug.
 * _currentstep_: il passo in cui si trova l&#39;individuo nel viaggio. È consigliabile aggiungere etichette alle attività per identificarle più facilmente.
-* _currentstep_ > step: lo stato del viaggio (in esecuzione, completato, errore o scaduto). Per ulteriori informazioni, vedi sotto.
-* _currentstep_ > _extraInfo_: descrizione dell’errore e di altre informazioni contestuali.
-* _currentstep_ > _fetchErrors_: informazioni sugli errori di recupero dei dati che si sono verificati durante questo passaggio.
+* _fase_  corrente>: lo stato del viaggio (in esecuzione, completato, errore o scaduto). Per ulteriori informazioni, vedi sotto.
+* _currentstep_ >  _extraInfo_: descrizione dell’errore e di altre informazioni contestuali.
+* _currentstep_ >  _fetchErrors_: informazioni sugli errori di recupero dei dati che si sono verificati durante questo passaggio.
 * _externalKeys_: il valore della formula chiave definita nell&#39;evento.
 * _data_ arricchita: i dati recuperati nel caso in cui il viaggio utilizzi origini dati.
 * _TransitionHistory_: l&#39;elenco dei passaggi seguiti dall&#39;utente. Per gli eventi, viene visualizzato il payload.
