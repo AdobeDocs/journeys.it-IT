@@ -6,8 +6,8 @@ description: Scopri  azioni Adobe Campaign
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,19 +22,19 @@ Per poter essere utilizzato nel Journey Orchestration, è necessario pubblicare 
 
 >[!NOTE]
 >
-> messaggi transazionali Adobe Campaign Standard ha una scala di 50 000 messaggi all&#39;ora al massimo tra i canali per una determinata istanza. Per ridurre il rischio di sovraccarico, si consiglia di impostare una regola **di** capping per l&#39;integrazione dei Campaign Standard.
+> messaggi transazionali Adobe Campaign Standard ha una scala di 50 000 messaggi all&#39;ora al massimo tra i canali per una determinata istanza. Per ridurre il rischio di sovraccarico, si consiglia di impostare una **regola di capping** per l&#39;integrazione dei Campaign Standard.
 >
->Per ulteriori informazioni sugli SLA per la messaggistica transazionale, consulta [Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)del prodotto Adobe Campaign Standard.
+>Ulteriori informazioni sugli SLA di messaggistica transazionale in [ Descrizione prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html).
 
 Di seguito sono riportati i passaggi per configurarlo:
 
-1. Dall’ **[!UICONTROL Actions]** elenco, fate clic sull’azione **[!UICONTROL AdobeCampaignStandard]** incorporata. Il riquadro di configurazione delle azioni si apre sul lato destro della schermata.
+1. Nell&#39;elenco **[!UICONTROL Actions]**, fare clic sull&#39;azione **[!UICONTROL AdobeCampaignStandard]** incorporata. Il riquadro di configurazione delle azioni si apre sul lato destro della schermata.
 
    ![](../assets/actioncampaign.png)
 
-1. Copiate l’URL dell’istanza  Adobe Campaign Standard e incollatelo nel **[!UICONTROL URL]** campo.
+1. Copiate l&#39;URL dell&#39;istanza  Adobe Campaign Standard e incollatelo nel campo **[!UICONTROL URL]**.
 
-1. Fare clic su per **[!UICONTROL Test the instance URL]** verificare la validità dell&#39;istanza.
+1. Fare clic su **[!UICONTROL Test the instance URL]** per verificare la validità dell&#39;istanza.
 
    >[!NOTE]
    >
@@ -46,8 +46,8 @@ Di seguito sono riportati i passaggi per configurarlo:
    >
    >L&#39;ORG associato a questa istanza  Adobe Campaign Standard è uguale all&#39;ORG  Journey Orchestration.
 
-Durante la progettazione del percorso, nella **[!UICONTROL Action]** categoria saranno disponibili tre azioni: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consultate [Utilizzo  azioni](../building-journeys/using-adobe-campaign-actions.md)Adobe Campaign). **L&#39;evento** Reazioni consente inoltre di reagire ai clic dei messaggi, alle aperture e così via. (vedere Eventi [di](../building-journeys/reaction-events.md)reazione).
+Durante la progettazione del percorso, nella categoria **[!UICONTROL Action]** saranno disponibili tre azioni: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (vedere [Utilizzo  azioni Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Gli** eventi di reazione consentiranno inoltre di reagire ai clic dei messaggi, alle aperture e così via. (vedere [Eventi di reazione](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
-Se utilizzi un sistema di terze parti per inviare messaggi, devi aggiungere e configurare un&#39;azione personalizzata. See [About custom action configuration](../action/about-custom-action-configuration.md).
+Se utilizzi un sistema di terze parti per inviare messaggi, devi aggiungere e configurare un&#39;azione personalizzata. Vedere [Informazioni sulla configurazione dell&#39;azione personalizzata](../action/about-custom-action-configuration.md).
