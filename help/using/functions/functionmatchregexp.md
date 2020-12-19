@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # matchRegExp {#matchRegExp}
 
-Restituisce true se la stringa nel primo parametro corrisponde all&#39;espressione regolare nel secondo parametro. Per ulteriori informazioni, consultate [questa pagina](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Restituisce true se la stringa nel primo parametro corrisponde all&#39;espressione regolare nel secondo parametro. Per ulteriori informazioni, vedere [questa pagina](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Categoria
 
