@@ -15,14 +15,14 @@ ht-degree: 7%
 
 # Creazione di un segmento {#creating-a-segment}
 
-Puoi creare un segmento utilizzando [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) oppure puoi accedervi e crearli direttamente in [!DNL Journey Orchestration].
+È possibile creare un segmento utilizzando il [servizio di segmentazione Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) oppure accedere e creare direttamente in [!DNL Journey Orchestration].
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Segments]**. Viene visualizzato l’elenco dei segmenti Adobe Experience Platform. È possibile cercare un segmento specifico nell&#39;elenco.
 
    ![](../assets/segment1.png)
 
-1. Click **[!UICONTROL Add]** to create a new segment. La schermata di definizione del segmento consente di configurare tutti i campi richiesti per definire il segmento. La configurazione è la stessa del servizio di segmentazione. Consulta la guida [utente di](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder (Generatore di segmenti).
+1. Fare clic su **[!UICONTROL Add]** per creare un nuovo segmento. La schermata di definizione del segmento consente di configurare tutti i campi richiesti per definire il segmento. La configurazione è la stessa del servizio di segmentazione. Fare riferimento alla [Guida utente di Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](../assets/segment2.png)
 
-Ora il segmento può essere utilizzato nei viaggi per creare condizioni o aggiungere un **[!UICONTROL Segment qualification]** evento. Consultate [Utilizzo dei segmenti nelle attività](../segment/using-a-segment.md) di condizioni ed [eventi](../building-journeys/segment-qualification-events.md).
+Ora il segmento può essere utilizzato nei viaggi per creare condizioni o aggiungere un evento **[!UICONTROL Segment qualification]**. Vedere [Utilizzo dei segmenti in condizioni](../segment/using-a-segment.md) e [Attività eventi](../building-journeys/segment-qualification-events.md).
