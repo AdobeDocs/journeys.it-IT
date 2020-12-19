@@ -72,7 +72,7 @@ Un meccanismo di convalida della sintassi verifica l’integrità del tuo codice
 
 **Necessità di parametri per la creazione di condizioni con l’editor di espressioni avanzate**
 
-If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
+Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro (vedere [questa pagina](../datasource/external-data-sources.md). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
 
 ![](../assets/journeyuc2_19.png)
 
