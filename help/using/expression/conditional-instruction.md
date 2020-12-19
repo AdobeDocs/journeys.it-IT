@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Istruzione condizionale (if, then, else) {#section_cdz_lsk_w3b}
+# Istruzioni condizionali (if, then, else) {#section_cdz_lsk_w3b}
 
 L&#39;istruzione condizionale (se, quindi, else) è supportata nell&#39;editor avanzato. Consente di definire espressioni più complesse. È composta dai seguenti elementi:
 
@@ -32,9 +32,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` deve restituire un **valore booleano**.
+`<expression1>` deve restituire un  **valore booleano**.
 
-`<expression2>` e `<expression3>` devono avere lo stesso tipo o tipi compatibili. Le firme supportate e i tipi restituiti sono:
+`<expression2>` e  `<expression3>` devono avere lo stesso tipo o tipi compatibili. Le firme supportate e i tipi restituiti sono:
 
 ```
 boolean,boolean : boolean
