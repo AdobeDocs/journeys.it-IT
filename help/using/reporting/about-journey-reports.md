@@ -26,7 +26,7 @@ La barra degli strumenti superiore consente, ad esempio, di modificare, salvare 
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Utilizzate la **[!UICONTROL Project]** scheda per:
+Utilizzate la scheda **[!UICONTROL Project]** per:
 
 * **[!UICONTROL Open]**: apre un report o un modello creato in precedenza.
 * **[!UICONTROL Save As]**: duplica i modelli per modificarli.
@@ -34,13 +34,13 @@ Utilizzate la **[!UICONTROL Project]** scheda per:
 * **[!UICONTROL Download CSV]**: esporta i rapporti in un file CSV.
 * **[!UICONTROL Print]**: stampa il rapporto.
 
-La **[!UICONTROL Edit]** scheda consente di:
+La scheda **[!UICONTROL Edit]** consente di:
 
 * **[!UICONTROL Undo]**: annulla l’ultima azione sul dashboard.
-* **[!UICONTROL Redo]**: annulla l’ultima **[!UICONTROL Undo]** azione sul dashboard.
+* **[!UICONTROL Redo]**: annulla l’ultima  **[!UICONTROL Undo]** azione sul dashboard.
 * **[!UICONTROL Clear all]**: elimina tutti i pannelli del dashboard.
 
-La **[!UICONTROL Insert]** tabella consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+La tabella **[!UICONTROL Insert]** consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
 
 * **[!UICONTROL New Blank Panel]**: aggiunge un nuovo pannello vuoto al dashboard.
 * **[!UICONTROL New Freeform]**: aggiunge una nuova tabella a forma libera al dashboard.
@@ -53,14 +53,14 @@ Le schede a sinistra consentono di creare il rapporto e di filtrare i dati in ba
 
 Queste schede consentono di accedere ai seguenti elementi:
 
-* **[!UICONTROL Panels]**: aggiungi un pannello vuoto o una forma libera al rapporto per iniziare a filtrare i dati. For more on this, refer to the [Adding panels](../reporting/creating-your-journey-reports.md#adding-panels) section
-* **[!UICONTROL Visualizations]**: trascina e rilascia una selezione di elementi di visualizzazione per conferire al rapporto una dimensione grafica. For more on this, refer to the [Adding visualizations](../reporting/creating-your-journey-reports.md#adding-visualizations) section.
-* **[!UICONTROL Components]**: personalizzare i rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi. For more on this, refer to the [Adding components](../reporting/creating-your-journey-reports.md#adding-components) section.
+* **[!UICONTROL Panels]**: aggiungi un pannello vuoto o una forma libera al rapporto per iniziare a filtrare i dati. Per ulteriori informazioni, consultare la sezione [Aggiunta di pannelli](../reporting/creating-your-journey-reports.md#adding-panels)
+* **[!UICONTROL Visualizations]**: trascina e rilascia una selezione di elementi di visualizzazione per conferire al rapporto una dimensione grafica. Per ulteriori informazioni, consultare la sezione [Aggiunta di visualizzazioni](../reporting/creating-your-journey-reports.md#adding-visualizations).
+* **[!UICONTROL Components]**: personalizzare i rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi. Per ulteriori informazioni, consultare la sezione [Aggiunta di componenti](../reporting/creating-your-journey-reports.md#adding-components).
 
-## Modello riepilogo viaggio {#ootb-template}
+## Modello riepilogo percorso {#ootb-template}
 
 I rapporti sono suddivisi in due categorie: un modello integrato e rapporti personalizzati.
-Il modello standard **[!UICONTROL Journey summary]** offre una visualizzazione chiara dei dati di tracciamento più importanti.
+Il modello out-of-the-box, **[!UICONTROL Journey summary]**, offre una visualizzazione chiara dei dati di tracciamento più importanti.
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -83,7 +83,7 @@ La visualizzazione del flusso di lavoro del viaggio consente di visualizzare il 
 
 ![](../assets/dynamic_report_journey_10.png)
 
-La **[!UICONTROL Journey summary]** tabella contiene i dati disponibili per il viaggio, ad esempio:
+La tabella **[!UICONTROL Journey summary]** contiene i dati disponibili per il viaggio, ad esempio:
 
 * **[!UICONTROL Entered]**: numero totale di persone che hanno raggiunto l&#39;evento di ingresso del viaggio.
 * **[!UICONTROL Completion rate]**: numero totale di persone che hanno raggiunto il controllo del flusso finale del viaggio rispetto al numero totale di persone che sono entrate nel viaggio.
@@ -91,11 +91,11 @@ La **[!UICONTROL Journey summary]** tabella contiene i dati disponibili per il v
 * **[!UICONTROL Failed]**: numero totale di viaggi che non sono stati eseguiti correttamente.
 * **[!UICONTROL Failed rate]**: numero totale di viaggi che non sono stati eseguiti con successo rispetto al numero di percorsi di esecuzione.
 
-Nella **[!UICONTROL Top events]** tabella sono visualizzati gli eventi di maggior successo e le azioni **[!UICONTROL Top action]** di maggior successo dei viaggi.
+La tabella **[!UICONTROL Top events]** mostra gli eventi di maggior successo e le **[!UICONTROL Top action]** azioni di maggior successo nei vostri viaggi.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-La **[!UICONTROL Delivery - Sending summary]** tabella contiene i dati disponibili per le consegne del viaggio, ad esempio:
+La tabella **[!UICONTROL Delivery - Sending summary]** contiene i dati disponibili per le consegne del viaggio, ad esempio:
 
 * **[!UICONTROL Processed/sent]**: numero totale di messaggi inviati.
 * **[!UICONTROL Delivered rate]**: numero totale di messaggi consegnati correttamente rispetto ai messaggi inviati.
@@ -103,7 +103,7 @@ La **[!UICONTROL Delivery - Sending summary]** tabella contiene i dati disponibi
 * **[!UICONTROL Bounce + error rate]**: numero totale di messaggi rimbalzati rispetto ai messaggi inviati.
 * **[!UICONTROL Bounces + errors]**: totale degli errori cumulati durante l&#39;elaborazione della consegna e della restituzione automatica in relazione al numero totale di messaggi inviati.
 
-La **[!UICONTROL Delivery - Tracking summary]** tabella contiene i dati disponibili per monitorare il successo delle consegne dei viaggi, ad esempio:
+La tabella **[!UICONTROL Delivery - Tracking summary]** contiene i dati disponibili per monitorare il successo delle consegne dei viaggi, ad esempio:
 
 * **[!UICONTROL Open Rate]**: percentuale di messaggi aperti.
 * **[!UICONTROL Open]**: il numero di volte in cui un messaggio è stato aperto in una consegna.
