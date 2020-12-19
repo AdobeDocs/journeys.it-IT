@@ -6,8 +6,8 @@ description: Ulteriori informazioni sul viaggio caso di utilizzo avanzato
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Sarà necessario configurare una connessione a due origini dati (vedere [questa 
 
 ## Prerequisiti {#prerequisites}
 
-Per il nostro caso d&#39;uso, abbiamo progettato tre  modelli di messaggistica transazionali Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionali evento. Refer to this [page](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
+Per il nostro caso d&#39;uso, abbiamo progettato tre  modelli di messaggistica transazionali Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionali evento. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
  Adobe Campaign Standard è configurato per inviare e-mail e notifiche push.
 
