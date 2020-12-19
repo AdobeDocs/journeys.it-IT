@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Attività attendi{#section_rlm_nft_dgb}
 
-Se desiderate aspettare prima di eseguire l&#39;attività successiva nel percorso, potete utilizzare un&#39; **[!UICONTROL Wait]** attività. Consente di definire il momento in cui verrà eseguita l&#39;attività successiva. Sono disponibili quattro opzioni:
+Se si desidera attendere prima di eseguire l&#39;attività successiva nel percorso, è possibile utilizzare un&#39;attività **[!UICONTROL Wait]**. Consente di definire il momento in cui verrà eseguita l&#39;attività successiva. Sono disponibili quattro opzioni:
 
 * [Durata](#duration)
 * [Data fissa](#fixed_date)
@@ -34,15 +34,15 @@ Inoltre, se due diverse attese sono in parallelo, quella che si verifica per pri
 >
 >La durata massima di attesa è di 30 giorni.
 >
->In modalità di prova, il **[!UICONTROL Wait time in test]** parametro consente di definire l&#39;ora in cui ciascuna attività di attesa durerà. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
+>In modalità di prova, il parametro **[!UICONTROL Wait time in test]** consente di definire l&#39;ora in cui ciascuna attività di attesa durerà. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
-## Durata{#duration}
+## Durata:{#duration}
 
 Selezionate la durata dell&#39;attesa prima dell&#39;esecuzione dell&#39;attività successiva.
 
 ![](../assets/journey55.png)
 
-## Attesa data fissa{#fixed_date}
+## Fissa data di attesa{#fixed_date}
 
 Selezionare la data per l&#39;esecuzione dell&#39;attività successiva.
 
@@ -50,13 +50,13 @@ Selezionare la data per l&#39;esecuzione dell&#39;attività successiva.
 
 ## Attesa personalizzata{#custom}
 
-Questa opzione consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un&#39;espressione avanzata basata su un campo proveniente da un evento o da un&#39;origine dati. Non consente di definire una durata personalizzata, ad esempio 7 giorni. L&#39;espressione nell&#39;editor di espressioni deve fornire un formato dateTimeOnly. Consulta [questa pagina](../expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, consultate [questa pagina](../expression/data-types.md).
+Questa opzione consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un&#39;espressione avanzata basata su un campo proveniente da un evento o da un&#39;origine dati. Non consente di definire una durata personalizzata, ad esempio 7 giorni. L&#39;espressione nell&#39;editor di espressioni deve fornire un formato dateTimeOnly. Consulta [questa pagina](../expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, vedere [questa pagina](../expression/data-types.md).
 
 >[!NOTE]
 >
->È possibile utilizzare un&#39;espressione dateTimeOnly o una funzione per convertire in dateTimeOnly. Ad esempio: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, il campo nel caso in cui si tratti del modulo 2016-08-12T09:46:06Z.
+>È possibile utilizzare un&#39;espressione dateTimeOnly o una funzione per convertire in dateTimeOnly. Ad esempio: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, il campo nel caso in cui si trovi nel modulo 2016-08-12T09:46:06Z.
 >
->Il fuso **** orario è previsto nelle proprietà del viaggio. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo di mixaggio e un fuso orario ISO-8601 completo come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
+>Il **fuso orario** è previsto nelle proprietà del viaggio. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo di mixaggio e un fuso orario ISO-8601 completo come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
