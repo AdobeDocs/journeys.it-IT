@@ -6,8 +6,8 @@ description: Scopri gli aggiornamenti della documentazione
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 ## Settembre 2020 {#september-2020}
 
-* La sezione della descrizione dell&#39;interfaccia è stata aggiornata per riflettere il nuovo menu del selettore **** Tutto. [Leggi tutto](../about/user-interface.md)
+* La sezione della descrizione dell&#39;interfaccia è stata aggiornata per riflettere il nuovo menu **All selector**. [Leggi tutto](../about/user-interface.md)
 * Aggiunta una nota sulle nuove versioni non ricorrenti dei viaggi basati su segmenti. [Leggi tutto](../alpha/alpha-segment-trigger.md)
 
 ## Agosto 2020 {#august-2020}
