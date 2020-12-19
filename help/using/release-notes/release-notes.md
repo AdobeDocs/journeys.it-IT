@@ -6,8 +6,8 @@ description: Informazioni sulle note sulla versione
 translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 <table>
 <thead>
 <tr>
-<th><strong>Passaggio da un viaggio all'altro</strong><br/></th>
+<th><strong>Passaggio da un percorso a un altro</strong><br/></th>
 </tr>
 </thead>
 <tbody>
