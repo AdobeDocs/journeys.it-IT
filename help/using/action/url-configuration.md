@@ -14,21 +14,21 @@ ht-degree: 9%
 
 # Configurazione URL {#concept_gbg_1f1_2gb}
 
-Quando si configura un&#39;azione personalizzata, è necessario definire i seguenti **[!UICONTROL URL Configuration]** parametri:
+Durante la configurazione di un&#39;azione personalizzata, è necessario definire i seguenti parametri **[!UICONTROL URL Configuration]**:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Add the **[!UICONTROL URL]** of the external service.
+1. Aggiungete la **[!UICONTROL URL]** del servizio esterno.
 
    >[!NOTE]
    >
    >Per motivi di sicurezza, è consigliabile utilizzare HTTPS. Non consentiamo l&#39;uso di indirizzi  Adobe non pubblici e l&#39;uso di indirizzi IP.
 
-1. Seleziona la chiamata **[!UICONTROL Method]**: può essere uno **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
-1. Nella **[!UICONTROL Headers]** sezione fare clic **[!UICONTROL Add a header field]** per definire una nuova coppia chiave/valore. Corrispondono alle intestazioni HTTP della richiesta effettuata al servizio esterno. Per eliminare coppie chiave/valore, posizionate il cursore sul **[!UICONTROL Headers]** campo e fate clic sull&#39; **[!UICONTROL Delete]** icona.
+1. Seleziona la chiamata **[!UICONTROL Method]**: può essere **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
+1. Nella sezione **[!UICONTROL Headers]**, fare clic su **[!UICONTROL Add a header field]** per definire una nuova coppia chiave/valore. Corrispondono alle intestazioni HTTP della richiesta effettuata al servizio esterno. Per eliminare coppie chiave/valore, posizionate il cursore sul campo **[!UICONTROL Headers]** e fate clic sull&#39;icona **[!UICONTROL Delete]**.
 
-   **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** sono impostati per impostazione predefinita e non possono essere eliminati o sovrascritti.
+   **[!UICONTROL Content-Type]** e  **[!UICONTROL Charset]** sono impostati per impostazione predefinita e non possono essere eliminati o sovrascritti.
 
    >[!NOTE]
    >
-   >Le intestazioni vengono convalidate in base alle seguenti regole di [analisi](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Le intestazioni vengono convalidate in base alle seguenti [regole di analisi](https://tools.ietf.org/html/rfc7230#section-3.2.4).
