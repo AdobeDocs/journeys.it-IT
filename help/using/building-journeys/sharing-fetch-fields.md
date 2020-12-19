@@ -74,7 +74,7 @@ Tipo: string
 
 ## fetchOriginErrorCode
 
-Il codice di errore fornito dal sistema [!DNL Journey Orchestration] sta eseguendo una query. Ad esempio, può essere un 404, 500, ecc.
+Il codice di errore fornito dal sistema [!DNL Journey Orchestration] sta eseguendo query. Ad esempio, può essere un 404, 500, ecc.
 
 Tipo: string
 
