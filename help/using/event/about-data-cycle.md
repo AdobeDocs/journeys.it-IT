@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -20,4 +20,4 @@ Nell’intestazione del payload sono contenute le informazioni richieste per il 
 
 Una volta arrivati attraverso le API Streaming Ingestion, gli eventi si propagano in un servizio interno denominato Pipeline e infine passano ad Adobe Experience Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale ed è presente un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
 
-For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. Per gli eventi basati su regola, il sistema identifica l&#39;evento utilizzando la condizione eventID. [!DNL Journey Orchestration] fa da listener agli eventi, il che attiva il percorso corrispondente.
+Per gli eventi generati dal sistema, la pipeline filtra gli eventi che presentano un payload contenente [!DNL Journey Orchestration] eventIDs (vedere il processo di creazione degli eventi di seguito) forniti da [!DNL Journey Orchestration] e contenuti nel payload dell&#39;evento. Per gli eventi basati su regola, il sistema identifica l&#39;evento utilizzando la condizione eventID. [!DNL Journey Orchestration] fa da listener agli eventi, il che attiva il percorso corrispondente.
