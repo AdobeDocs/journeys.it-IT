@@ -23,15 +23,15 @@ Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperien
 
 Le azioni personalizzate ti consentono di configurare la connessione di un sistema di terze parti in modo da consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. Consulta [questa pagina](../building-journeys/about-action-activities.md).
+Le azioni sono disponibili nella palette a sinistra del percorso, nella categoria **[!UICONTROL Action]**. Consulta [questa pagina](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >La configurazione delle azioni personalizzate viene sempre eseguita da un **utente tecnico**.
 
-Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. Per ulteriori informazioni sui collegamenti in [!DNL Journey Orchestration], vedere [questa sezione](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su **[!UICONTROL Actions]** nei menu principali. Viene visualizzato l’elenco delle azioni. See [this page](../about/user-interface.md) for more information on the interface.
+Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su **[!UICONTROL Actions]** nei menu principali. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, vedere [questa pagina](../about/user-interface.md).
 
 ![](../assets/custom1.png)
 
