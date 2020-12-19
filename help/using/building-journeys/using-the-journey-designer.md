@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # Utilizzo del designer del percorso {#concept_m1g_5qt_52b}
 
-Il menu Home del viaggio consente di visualizzare l&#39; **elenco dei viaggi**. Crea un nuovo percorso o fai clic su uno esistente per aprire l&#39;interfaccia **del progettista del** percorso. Il designer è costituito dalle seguenti aree: la palette, il quadro e il riquadro di configurazione dell&#39;attività.
+Il menu Home del viaggio consente di visualizzare l&#39; **elenco di viaggi**. Crea un nuovo viaggio o fai clic su un percorso esistente per aprire l&#39;interfaccia **del progettista di viaggi**. Il designer è costituito dalle seguenti aree: la palette, il quadro e il riquadro di configurazione dell&#39;attività.
 
-## La lista di viaggi {#journey_list}
+## Elenco percorsi {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso terminato. Potete creare una nuova versione, duplicarla o interromperla. Puoi anche usare la barra di ricerca per cercare un percorso.
+La **lista di percorsi** consente di visualizzare tutti i viaggi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso terminato. Potete creare una nuova versione, duplicarla o interromperla. Puoi anche usare la barra di ricerca per cercare un percorso.
 
 Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare i viaggi visualizzati in base a criteri diversi (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). Potete anche scegliere di visualizzare solo i viaggi che utilizzano un evento, un gruppo di campi o un&#39;azione particolare. È possibile configurare le colonne visualizzate nell&#39;elenco. Tutti i filtri e le colonne vengono salvati per utente.
 
@@ -30,7 +30,7 @@ Tutte le versioni dei viaggi vengono visualizzate nell’elenco con il numero di
 
 >[!NOTE]
 >
->Per aprire il quadro di un viaggio in un&#39;altra scheda del browser, tieni premuto il tasto **Ctrl** o **Comando** e fai clic sul percorso.
+>Per aprire il quadro di un viaggio in un&#39;altra scheda del browser, tenere premuto il tasto **Control** o **Command** e fare clic sul percorso.
 
 ## La palette {#palette}
 
@@ -42,27 +42,27 @@ La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disp
 
 ![](../assets/journey38.png)
 
-The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. Per impostazione predefinita, gli elementi non disponibili sono nascosti. Se scegli di visualizzarli, verranno visualizzati in grigio.
+L&#39;icona **[!UICONTROL Show disabled items]** nell&#39;angolo in alto a sinistra consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio gli eventi che utilizzano uno spazio nomi diverso da quelli utilizzati nel viaggio. Per impostazione predefinita, gli elementi non disponibili sono nascosti. Se scegli di visualizzarli, verranno visualizzati in grigio.
 
-Quando si utilizza il **[!UICONTROL Search]** campo, il numero di risultati viene visualizzato per ogni categoria di attività canvas.
+Quando si utilizza il campo **[!UICONTROL Search]**, il numero di risultati viene visualizzato per ogni categoria di attività canvas.
 
 ![](../assets/palette-filter.png)
 
 ## Il quadro {#canvas}
 
-Il **quadro** è la zona centrale del designer di viaggi. È in questa zona che puoi rilasciare le tue attività e configurarle. Fate clic su un&#39;attività nell&#39;area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell&#39;attività sul lato destro. Potete ingrandire e ridurre utilizzando i pulsanti &quot;+&quot; e &quot;-&quot; in alto a destra. Nell’area di lavoro, tutte le attività consentono di aggiungere un passaggio successivo, tranne **[!UICONTROL End]** le attività (consultate [questa pagina](../building-journeys/end-activity.md)).
+Il **quadro** è la zona centrale del progettista di viaggi. È in questa zona che puoi rilasciare le tue attività e configurarle. Fate clic su un&#39;attività nell&#39;area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell&#39;attività sul lato destro. Potete ingrandire e ridurre utilizzando i pulsanti &quot;+&quot; e &quot;-&quot; in alto a destra. Nell&#39;area di lavoro, tutte le attività consentono di aggiungere un passaggio successivo, ad eccezione delle attività **[!UICONTROL End]** (vedere [questa pagina](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
 ## Riquadro di configurazione dell&#39;attività {#configuration_pane}
 
-Il riquadro **di configurazione dell&#39;** attività viene visualizzato quando si fa clic su un&#39;attività nella palette. Compila i campi richiesti. Fate clic sull&#39; **[!UICONTROL Delete]** icona per eliminare l&#39;attività. Fate clic su **[!UICONTROL Cancel]** per annullare le modifiche o **[!UICONTROL Ok]** per confermare. Per eliminare le attività, potete anche selezionare una (o più) attività e premere il tasto Backspace. Premere il tasto Escape per chiudere il riquadro di configurazione dell&#39;attività.
+Il **riquadro di configurazione dell&#39;attività** viene visualizzato quando si fa clic su un&#39;attività nella palette. Compila i campi richiesti. Fate clic sull&#39;icona **[!UICONTROL Delete]** per eliminare l&#39;attività. Fare clic su **[!UICONTROL Cancel]** per annullare le modifiche oppure su **[!UICONTROL Ok]** per confermare. Per eliminare le attività, potete anche selezionare una (o più) attività e premere il tasto Backspace. Premere il tasto Escape per chiudere il riquadro di configurazione dell&#39;attività.
 
-Nell’area di lavoro, le attività dell’azione e dell’evento sono rappresentate da un’icona con il nome dell’evento o dell’azione visualizzato sotto. Nel riquadro di configurazione dell&#39;attività, potete utilizzare il **[!UICONTROL Label]** campo per aggiungere un suffisso al nome dell&#39;attività. Queste etichette consentiranno di contestualizzare l&#39;uso di eventi e azioni, soprattutto quando durante il viaggio si utilizza più volte lo stesso evento o azione. Potrete inoltre visualizzare le etichette aggiunte nel [!DNL Journey Orchestration] rapporto. È inoltre possibile definire etichette per le attività relative alle condizioni.
+Nell’area di lavoro, le attività dell’azione e dell’evento sono rappresentate da un’icona con il nome dell’evento o dell’azione visualizzato sotto. Nel riquadro di configurazione dell&#39;attività, potete utilizzare il campo **[!UICONTROL Label]** per aggiungere un suffisso al nome dell&#39;attività. Queste etichette consentiranno di contestualizzare l&#39;uso di eventi e azioni, soprattutto quando durante il viaggio si utilizza più volte lo stesso evento o azione. Potrete inoltre visualizzare le etichette aggiunte nel report [!DNL Journey Orchestration]. È inoltre possibile definire etichette per le attività relative alle condizioni.
 
 ![](../assets/journey59bis.png)
 
-## Azioni nella barra superiore {#top_actions}
+## Azioni barra superiore {#top_actions}
 
 A seconda dello stato del viaggio, puoi eseguire diverse azioni sul viaggio utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti verranno visualizzati in modo contestuale. Il pulsante del registro della modalità di prova viene visualizzato quando la modalità di prova è attivata (vedere [questa pagina](../building-journeys/testing-the-journey.md)). Il pulsante di segnalazione viene visualizzato quando il viaggio è live, interrotto o chiuso.
 
@@ -70,7 +70,7 @@ A seconda dello stato del viaggio, puoi eseguire diverse azioni sul viaggio util
 
 ## Utilizzo dei percorsi nel quadro {#paths}
 
-Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) consentono di definire un&#39;azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell&#39;attività, selezionate la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l&#39;attività. La durata del timeout è definita nelle proprietà del percorso (vedi [questa pagina](../building-journeys/changing-properties.md) da un utente amministratore). Ad esempio, se l’invio di un messaggio e-mail richiede troppo tempo o si verifica un errore, potete decidere di inviare un SMS.
+Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]**) consentono di definire un&#39;azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell&#39;attività, selezionate la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l&#39;attività. La durata del timeout è definita nelle proprietà del percorso (vedere [questa pagina](../building-journeys/changing-properties.md) da un utente amministratore). Ad esempio, se l’invio di un messaggio e-mail richiede troppo tempo o si verifica un errore, potete decidere di inviare un SMS.
 
 ![](../assets/journey42.png)
 
@@ -78,7 +78,7 @@ Diverse attività (evento, azione, attesa) consentono di aggiungere diversi perc
 
 Quando ascoltate un evento, vi consigliamo di non attendere l’evento a tempo indeterminato. Non è obbligatorio, è solo una buona pratica. Se si desidera ascoltare uno o più eventi solo durante un certo periodo di tempo, si posizionano uno o più eventi e un&#39;attività di attesa in parallelo. Vedi [questa sezione](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
-Per eliminare il percorso, posizionate il cursore su di esso e fate clic sull’ **[!UICONTROL Delete arrow]** icona .
+Per eliminare il percorso, posizionate il cursore su di esso e fate clic sull&#39;icona **[!UICONTROL Delete arrow]**.
 
 ![](../assets/journey42ter.png)
 
@@ -102,7 +102,7 @@ Potete copiare una o più attività di un viaggio e incollarle nello stesso perc
 Di seguito sono riportati i passaggi per copiare/incollare le attività:
 
 1. Apri un viaggio.
-1. Selezionate le attività da copiare spostando il mouse mentre fate clic. Potete anche fare clic su ogni attività mentre premete il tasto **Ctrl/Comando** . Utilizzate **Ctrl/Comando + A** per selezionare tutte le attività.
+1. Selezionate le attività da copiare spostando il mouse mentre fate clic. Potete anche fare clic su ogni attività mentre premete il tasto **Ctrl/Comando**. Utilizzare **Ctrl/Comando + A** per selezionare tutte le attività.
    ![](../assets/copy-paste1.png)
 1. Premere **Ctrl/Comando + C**.
 Se desiderate copiare una sola attività, potete fare clic su di essa e utilizzare l&#39;icona **Copia** in alto a sinistra nel riquadro di configurazione dell&#39;attività.
