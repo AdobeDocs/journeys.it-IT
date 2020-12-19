@@ -6,8 +6,8 @@ description: 'Scopri come creare il percorso del caso di utilizzo avanzato '
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Ora l’**utente aziendale** può costruire il percorso. Il percorso includerà 
 >
 >Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nel riquadro solo se si dispone di Adobe Campaign Standard.
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+Per ulteriori informazioni su come creare un percorso, fare riferimento a [questa pagina](../building-journeys/journey.md).
 
 ## Primi passaggi{#section_ntb_ws1_ffb}
 
@@ -76,7 +76,7 @@ For additional information on how to build a journey, refer to [this page](../bu
    >
    >Nella seconda parte dell’espressione, “Profile” è facoltativo.
 
-1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
+1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. Per ulteriori informazioni sugli spazi dei nomi, vedere [questa pagina](../event/selecting-the-namespace.md).
 
 Nel nostro caso di utilizzo vogliamo solamente reagire a queste due condizioni, quindi non spuntiamo la casella **[!UICONTROL Show path for other cases than the one(s) above]** (Mostra percorso per casi diversi da quello/i mostrato/i sopra).
 
@@ -101,7 +101,7 @@ Dopo la condizione vengono creati due percorsi:
 
    ![](../assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [this page](../usecase/configuring-the-data-sources.md)). Fai clic sul nome del parametro e definisci il valore della chiave del sistema di prenotazione, l’ID Experience Cloud, nel nostro esempio:
+1. Quando si seleziona un campo da un&#39;origine dati esterna, nella parte destra della schermata viene visualizzato l&#39;elenco dei parametri definiti durante la configurazione dell&#39;origine dati esterna (vedere [questa pagina](../usecase/configuring-the-data-sources.md)). Fai clic sul nome del parametro e definisci il valore della chiave del sistema di prenotazione, l’ID Experience Cloud, nel nostro esempio:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -167,7 +167,7 @@ Dopo la condizione vengono creati due percorsi:
 
 1. Aggiungi un’attività **[!UICONTROL End]**.
 
-Fai clic sull’interruttore **[!UICONTROL Test]** e verifica il percorso. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+Fai clic sull’interruttore **[!UICONTROL Test]** e verifica il percorso. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Per ulteriori informazioni sulla modalità di prova, fare riferimento a [questa pagina](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 
