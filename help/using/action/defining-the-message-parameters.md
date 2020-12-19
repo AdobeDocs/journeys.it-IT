@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ![](../assets/messageparameterssection.png)
 
-Nella **[!UICONTROL Message parameters]** sezione, incollate un esempio del payload JSON da inviare al servizio esterno.
+Nella sezione **[!UICONTROL Message parameters]**, incollate un esempio del payload JSON da inviare al servizio esterno.
 
 ![](../assets/customactionpayloadmessage.png)
 
