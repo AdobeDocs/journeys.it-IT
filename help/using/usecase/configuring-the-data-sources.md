@@ -6,19 +6,19 @@ description: Scopri come configurare l’origine dati per il percorso, caso di u
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Configurazione delle origini dati {#concept_vml_hdy_w2b}
 
-Nel nostro caso d&#39;uso, vogliamo utilizzare dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è un membro fedeltà e non è stata contattata nelle ultime 24 ore. Queste informazioni sono memorizzate nel database del profilo cliente in tempo reale. L&#39;utente **** tecnico deve configurare l&#39;origine dati Adobe Experience Platform per recuperare tali campi.
+Nel nostro caso d&#39;uso, vogliamo utilizzare dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è un membro fedeltà e non è stata contattata nelle ultime 24 ore. Queste informazioni sono memorizzate nel database del profilo cliente in tempo reale. L&#39; **utente tecnico** deve configurare l&#39;origine dati Adobe Experience Platform per recuperare tali campi.
 
 Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare riferimento a [questa pagina](../datasource/about-data-sources.md).
 
-1. Nel menu principale, fare clic sulla **[!UICONTROL Data Sources]** scheda e selezionare l&#39;origine dati Adobe Experience Platform incorporata.
+1. Nel menu principale, fare clic sulla scheda **[!UICONTROL Data Sources]** e selezionare l&#39;origine dati Adobe Experience Platform incorporata.
 
    ![](../assets/journey23.png)
 
@@ -28,19 +28,19 @@ Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare rife
    * _persona > nome > lastName_
    * _personalEmail > address_
 
-1. Fate clic **[!UICONTROL Add a New Field Group]**, selezionate uno **[!UICONTROL Profiles]** schema e aggiungete il campo **Fedeltà membro** per la condizione. Il campo **Fedeltà membro** è un campo personalizzato ed è stato aggiunto in XDM: &quot;_customer > marlton > loyaltyMember&quot;
+1. Fare clic su **[!UICONTROL Add a New Field Group]**, selezionare uno schema **[!UICONTROL Profiles]** e aggiungere il campo **Fedeltà membro** per la condizione. Il campo **Fedeltà membro** è un campo personalizzato ed è stato aggiunto in XDM: &quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. Fai clic **[!UICONTROL Add a New Field Group]**, seleziona uno **[!UICONTROL ExperienceEvent]** schema e scegli i campi necessari per la nostra condizione, in base al numero di messaggi inviati in un determinato periodo: _marca_ temporale per la data e _directMarketing > invia > valore_ per il numero di messaggi inviati.
+1. Fare clic su **[!UICONTROL Add a New Field Group]**, selezionare uno schema **[!UICONTROL ExperienceEvent]** e scegliere i campi necessari per la nostra condizione in base al numero di messaggi inviati in un dato periodo: _marca temporale_ per la data e _directMarketing > invia > valore_ per il numero di messaggi inviati.
 
    ![](../assets/journeyuc2_7.png)
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di prenotazione alberghiera. L&#39;utente **** tecnico deve configurare una seconda origine dati per recuperare questo campo.
+Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di prenotazione alberghiera. L&#39; **utente tecnico** deve configurare una seconda origine dati per recuperare questo campo.
 
-1. Nell&#39;elenco delle origini dati, fare clic **[!UICONTROL Add]** per aggiungere una nuova origine dati esterna per definire la connessione al sistema di prenotazione alberghiera.
+1. Nell&#39;elenco delle origini dati, fare clic su **[!UICONTROL Add]** per aggiungere una nuova origine dati esterna per definire la connessione al sistema di prenotazione alberghiera.
 
    ![](../assets/journeyuc2_9.png)
 
@@ -54,11 +54,11 @@ Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di preno
 
    ![](../assets/journeyuc2_10.png)
 
-1. Fate clic **[!UICONTROL Add a New Field Group]** per definire le informazioni da recuperare e i parametri API. Per il nostro esempio, esiste un solo parametro (l&#39;id), quindi è necessario creare un gruppo di campi con le seguenti informazioni:
+1. Fate clic su **[!UICONTROL Add a New Field Group]** per definire le informazioni da recuperare e i parametri API. Per il nostro esempio, esiste un solo parametro (l&#39;id), quindi è necessario creare un gruppo di campi con le seguenti informazioni:
 
    * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
    * **[!UICONTROL Cache duration]**: questo varia in base alla frequenza delle chiamate API. Nel nostro caso, il sistema di prenotazione viene aggiornato ogni 10 minuti.
-   * **[!UICONTROL Response Payload]**: fare clic all&#39;interno del **[!UICONTROL Payload]** campo e incollare un esempio del payload. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Nel nostro esempio, il payload contiene solo lo stato della prenotazione:
+   * **[!UICONTROL Response Payload]**: fare clic all&#39;interno del  **[!UICONTROL Payload]** campo e incollare un esempio del payload. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Nel nostro esempio, il payload contiene solo lo stato della prenotazione:
 
    ```
    {
