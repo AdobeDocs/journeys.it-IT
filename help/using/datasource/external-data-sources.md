@@ -53,7 +53,7 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    ![](../assets/journey27.png)
 
-1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Le scelte del nostro esempio:
+1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Le scelte del nostro esempio:
 
 
    * **[!UICONTROL Type]**: &quot;API key&quot;
