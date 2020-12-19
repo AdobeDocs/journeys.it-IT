@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Controlla se il primo valore argomento è nell&#39;elenco. Il controllo viene eseguito tramite un valore Equal per ogni valore argomento. Restituisce true se il valore dell&#39;argomento viene trovato, false in caso contrario.
 
-Il tipo di oggetto `<expression>` deve corrispondere agli elementi dell&#39;elenco. I tipi di elementi dell&#39;elenco, come promemoria, devono corrispondere l&#39;uno all&#39;altro.
+Il tipo di `<expression>` deve corrispondere agli elementi dell&#39;elenco. I tipi di elementi dell&#39;elenco, come promemoria, devono corrispondere l&#39;uno all&#39;altro.
 
 ## Categoria
 
