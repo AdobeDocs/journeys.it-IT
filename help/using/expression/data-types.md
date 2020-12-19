@@ -18,7 +18,7 @@ Tecnicamente, una costante contiene sempre un tipo di dati. Nell&#39;espressione
 
 Le sezioni seguenti forniscono informazioni sulle diverse espressioni dei tipi di dati e sulla relativa rappresentazione.
 
-## string {#string}
+## stringa {#string}
 
 **Descrizione**
 
@@ -118,7 +118,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Descrizione**
 
@@ -194,7 +194,7 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## length {#duration}
+## durata {#duration}
 
 **Descrizione**
 
@@ -262,7 +262,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## list {#list}
+## elenco {#list}
 
 **Descrizione**
 
