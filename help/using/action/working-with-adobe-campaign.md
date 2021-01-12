@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Utilizzo di Adobe Campaign
 description: Scopri  azioni Adobe Campaign
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '300'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,7 @@ Di seguito sono riportati i passaggi per configurarlo:
    >
    >Questo test verifica che:
    >
-   >L’host è &quot;.campaign.adobe.com&quot; o &quot;.campaign-sandbox.adobe.com&quot;,
+   >L’host è &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; o &quot;campaign-demo.adobe.com&quot;
    >
    >L&#39;URL inizia con https,
    >
