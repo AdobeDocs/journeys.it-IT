@@ -2,11 +2,11 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Proprietà del percorso
-description: Scopri le proprietà del viaggio
+description: Informazioni sulle proprietà degli percorsi
 translation-type: tm+mt
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -14,18 +14,18 @@ ht-degree: 1%
 
 # Proprietà del percorso {#journey-properties}
 
-Nell&#39;editor di espressioni avanzate, sotto le categorie dell&#39;evento e dell&#39;origine dati si trova la categoria **Proprietà percorso**. Questa categoria contiene i campi tecnici relativi al percorso di un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai viaggi in diretta, come l&#39;ID viaggio o gli errori specifici riscontrati.
+Nell&#39;editor di espressioni avanzate, sotto le categorie dell&#39;evento e dell&#39;origine dati si trova la categoria **Proprietà Percorso**. Questa categoria contiene i campi tecnici relativi al percorso per un determinato profilo. Queste sono le informazioni recuperate dal sistema dagli percorsi in diretta, come l&#39;ID percorso o gli errori specifici riscontrati.
 
 ![](../assets/journey-properties.png)
 
 Troverete informazioni, ad esempio:
 
-* versione viaggio: viaggio uid, versione percorso uid, esempio uid, ecc.
+* Versione percorso: ID percorso, ID versione percorso, uid istanza, ecc.
 * errori: acquisizione dei dati, esecuzione di azioni, ecc.
 * passaggio corrente, ultimo passaggio corrente, ecc.
 * profili eliminati
 
-È possibile utilizzare questi campi per creare espressioni. Durante l&#39;esecuzione del viaggio, i valori saranno recuperati direttamente dal viaggio.
+È possibile utilizzare questi campi per creare espressioni. Durante l&#39;esecuzione del percorso, i valori verranno recuperati direttamente dal percorso.
 
 Di seguito sono riportati alcuni esempi di casi di utilizzo:
 
@@ -40,14 +40,16 @@ Di seguito sono riportati alcuni esempi di casi di utilizzo:
 | Categoria | Nome campo | Etichetta | Descrizione |
 |---|---|---|------------|
 | Versione percorso | viaggioUID | Identificatore percorso |  |
-|  | viaggioVersionUID | Identificatore versione viaggio |  |
-|  | viaggioVersionName | Nome versione viaggio |  |
-|  | pathVersionDescription | Descrizione versione viaggio |  |
+|  | viaggioVersionUID | ID versione percorso |  |
+|  | viaggioVersionName | Nome versione percorso |  |
+|  | pathVersionDescription | Descrizione versione percorso |  |
 |  | viaggioVersion | Versione percorso |  |
-| Istanza di viaggio | instanceUID | Identificatore Istanza Del Percorso | ID dell’istanza |
+| Istanza percorso | instanceUID | ID istanza percorso | ID dell’istanza |
 |  | externalKey | Chiave esterna | Singolo identificatore che attiva il percorso |
+|  | OrganizationId | Identificatore organizzazione | Organizzazione del marchio |
+|  | sandboxName | Nome sandbox | Nome della sandbox |
 | Identità | profileId | Identificatore identità profilo | Identificatore del profilo nel percorso |
-|  | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nel percorso (esempio: ECID |
+|  | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nell&#39;percorso (esempio: ECID |
 | Nodo corrente | currentNodeId | Identificatore nodo corrente | Identificatore dell&#39;attività corrente (nodo) |
 |  | currentNodeName | Nome nodo corrente | Nome dell&#39;attività corrente (nodo) |
 | Nodo precedente | previousNodeId | Identificatore nodo precedente | Identificatore dell&#39;attività precedente (nodo) |
