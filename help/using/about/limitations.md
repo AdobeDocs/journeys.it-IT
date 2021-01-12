@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Limitazioni per i Journey Orchestration
 description: Ulteriori informazioni sui limiti degli Journey Orchestration
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 3%
+source-wordcount: '515'
+ht-degree: 2%
 
 ---
 
@@ -23,12 +23,12 @@ Di seguito sono riportati i limiti relativi all&#39;uso del Journey Orchestratio
 * L&#39;evento **Reaction** integrato consente di reagire alle azioni pronte all&#39;uso (vedere questa [pagina](../building-journeys/reaction-events.md)). Per reagire a un messaggio inviato tramite un&#39;azione personalizzata, è necessario configurare un evento dedicato. 
 * Non esiste alcuna integrazione con i prodotti Adobe Campaign Classic.
 
-## Limiti delle versioni del percorso {#journey-versions-limitations}
+## Limiti delle versioni di percorso {#journey-versions-limitations}
 
-* un percorso che inizia con un&#39;attività di evento nella release v1 non può iniziare con qualcos&#39;altro che con un evento in altre versioni. Non è possibile avviare un percorso con un evento **Qualificazione segmento**.
+* un percorso che inizia con un&#39;attività dell&#39;evento in v1 non può iniziare con qualcosa di diverso da un evento in altre versioni. Non è possibile avviare un percorso con un evento **Qualificazione segmento**.
 * un percorso che inizia con un&#39;attività **Qualificazione segmento** in v1 deve sempre iniziare con una **Qualificazione segmento** in ulteriori versioni.
 * Il segmento e lo spazio dei nomi scelti in **Qualificazione segmento** (primo nodo) non possono essere modificati nelle nuove versioni.
-* La regola di rientro deve essere la stessa in tutte le versioni di viaggio.
+* La regola di rientro deve essere la stessa in tutte le versioni di percorso.
 
 ## Qualificazione segmento {#segment-qualification}
 
@@ -56,4 +56,16 @@ Di seguito sono riportati i limiti relativi all&#39;uso del Journey Orchestratio
 
 ## Limiti delle origini dati
 
-* Le origini dati esterne possono essere sfruttate nell&#39;ambito di un percorso con il cliente per cercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite REST API, supportare JSON e poter gestire il volume di richieste.
+* Le origini dati esterne possono essere sfruttate all&#39;interno di un percorso cliente per cercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite REST API, supportare JSON e poter gestire il volume di richieste.
+
+## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
+
+In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento del profilo basato su API. Il target del livello di servizio (SLT) in termini di latenza è &lt; 1 min dall&#39;assimilazione al profilo unificato per il 95° percentile delle richieste, a un volume di richieste 20.000 al secondo (RPS).
+
+Se un Percorso viene attivato contemporaneamente alla creazione di un profilo e controlla/recupera immediatamente le informazioni da Servizio profili, potrebbe non funzionare correttamente.
+
+È possibile scegliere una delle due soluzioni seguenti:
+
+* Aggiungete un&#39;attività di attesa dopo il primo evento, per dare ad Adobe Experience Platform il tempo necessario per eseguire l&#39;assimilazione a Profile Service.
+
+* Configurate un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l&#39;evento esperienza potrebbe contenere informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
