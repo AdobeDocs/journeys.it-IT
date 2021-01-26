@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Utilizzo di Adobe Campaign
 description: Scopri  azioni Adobe Campaign
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Per poter essere utilizzato nel Journey Orchestration, è necessario pubblicare 
 
 >[!NOTE]
 >
-> messaggi transazionali Adobe Campaign Standard ha una scala di 50 000 messaggi all&#39;ora al massimo tra i canali per una determinata istanza. Per ridurre il rischio di sovraccarico, si consiglia di impostare una **regola di capping** per l&#39;integrazione dei Campaign Standard.
+>Una regola di capping di 13 chiamate al secondo viene automaticamente definita per  azioni Adobe Campaign Standard non appena viene impostata &#39;integrazione Adobe Campaign Standard. Questo corrisponde alla scala ufficiale di  Adobe Campaign Standard Transactional Messaging.
 >
 >Ulteriori informazioni sugli SLA di messaggistica transazionale in [ Descrizione prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html).
 
@@ -40,7 +40,7 @@ Di seguito sono riportati i passaggi per configurarlo:
    >
    >Questo test verifica che:
    >
-   >L’host è &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; o &quot;campaign-demo.adobe.com&quot;
+   >L’host è &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; o &quot;.campaign-demo.adobe.com&quot;
    >
    >L&#39;URL inizia con https,
    >
