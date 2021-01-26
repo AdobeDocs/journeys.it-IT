@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 73%
 
 ---
@@ -21,7 +21,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 
 Quando si seleziona uno schema nella configurazione dell&#39;evento, vengono selezionati solo i campi obbligatori per la corretta ricezione dell&#39;evento da parte del Journey Orchestration. [Leggi tutto](../event/defining-the-payload-fields.md)
 
-Gli attributi delle proprietà percorso sono ora disponibili nell&#39;editor di espressioni semplici.
+Gli attributi delle proprietà percorso sono ora disponibili nell&#39;editor di espressioni semplici. [Leggi tutto](../expression/journey-properties.md)
 
 Sono stati aggiunti due nuovi attributi di proprietà percorso (sandboxName e OrganizationId). [Leggi tutto](../expression/journey-properties.md)
 
