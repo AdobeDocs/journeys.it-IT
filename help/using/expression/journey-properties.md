@@ -4,17 +4,21 @@ solution: Journey Orchestration
 title: Proprietà del percorso
 description: Informazioni sulle proprietà degli percorsi
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 0%
 
 ---
 
 
-# Proprietà del percorso {#journey-properties}
+# Attributi proprietà percorso {#journey-properties}
 
 Nell&#39;editor di espressioni avanzate, sotto le categorie dell&#39;evento e dell&#39;origine dati si trova la categoria **Proprietà Percorso**. Questa categoria contiene i campi tecnici relativi al percorso per un determinato profilo. Queste sono le informazioni recuperate dal sistema dagli percorsi in diretta, come l&#39;ID percorso o gli errori specifici riscontrati.
+
+>[!NOTE]
+>
+>Gli attributi delle proprietà percorso sono disponibili anche nell&#39;editor di espressioni semplici. Vedere la sezione [](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
