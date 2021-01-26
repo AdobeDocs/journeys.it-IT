@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
 translation-type: tm+mt
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2169'
+ht-degree: 73%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 0%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 È inoltre possibile consultare gli ultimi [aggiornamenti della documentazione](../release-notes/documentation-updates.md).
+
+## Rilascio di gennaio 2021 {#january-release}
+
+Quando si seleziona uno schema nella configurazione dell&#39;evento, vengono selezionati solo i campi obbligatori per la corretta ricezione dell&#39;evento da parte del Journey Orchestration. [Leggi tutto](../event/defining-the-payload-fields.md)
+
+Gli attributi delle proprietà percorso sono ora disponibili nell&#39;editor di espressioni semplici.
+
+Sono stati aggiunti due nuovi attributi di proprietà percorso (sandboxName e OrganizationId). [Leggi tutto](../expression/journey-properties.md)
+
+Per allinearsi  SLA Adobe Campaign Standard, una regola di limite massimo di 13 chiamate al secondo viene ora definita automaticamente per  azioni Adobe Campaign Standard non appena &#39;integrazione Adobe Campaign Standard è configurata. [Leggi tutto](../action/working-with-adobe-campaign.md)
+
+La durata di timeout dell&#39;evento ora è specificata più chiaramente nel percorso di timeout. [Leggi tutto](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) sono state aggiunte all&#39;elenco delle funzioni disponibili nell&#39;editor di espressioni avanzate. In questo modo si offrono più possibilità nei casi di utilizzo del calcolo delle stringhe.
 
 ## Rilascio di novembre 2020 {#november-release}
 
@@ -28,13 +42,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 <tbody>
 <tr>
 <td>
-<p>Una nuova attività di azione consente di spingere gli individui da un viaggio all’altro. L'attività <strong>Jump</strong> consente di:
+<p>Una nuova attività di azione consente di inviare singoli utenti da un percorso all’altro. L'attività <strong>Jump</strong> consente di:
 </p>
 <ul>
-<li>semplificare la progettazione di viaggi molto complessi suddividendoli in più </li>
-<li>costruire percorsi basati su percorsi comuni e riutilizzabili</li>
+<li>semplificare la progettazione di percorsi molto complessi suddividendoli in più </li>
+<li>creare percorsi basati su pattern di percorso comuni e riutilizzabili</li>
 </ul>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/jump.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consultare la <a href="../building-journeys/jump.md">documentazione dettagliata</a> e <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">video di esercitazione</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -43,13 +57,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 <table>
 <thead>
 <tr>
-<th><strong>Utilizzo delle proprietà di viaggio nell'editor di espressioni</strong><br/></th>
+<th><strong>Uso delle proprietà percorso nell'editor di espressioni</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nell'editor di espressioni avanzate, abbiamo aggiunto una nuova categoria nell'elenco di campi e funzioni. Si tratta delle informazioni recuperate dal sistema dai viaggi in diretta, come l'ID viaggio o gli errori specifici riscontrati. Questo vi darà maggiori possibilità quando si costruiscono i vostri viaggi. Ad esempio, sarà possibile avvisare i sistemi di terze parti in caso di errori riscontrati in una condizione o in un'azione.
+<p>Nell'editor di espressioni avanzate, abbiamo aggiunto una nuova categoria nell'elenco di campi e funzioni. Queste sono le informazioni recuperate dal sistema dagli percorsi in diretta, come l'ID percorso o gli errori specifici riscontrati. Questo vi darà più possibilità quando si costruiscono i vostri percorsi. Ad esempio, sarà possibile avvisare i sistemi di terze parti in caso di errori riscontrati in una condizione o in un'azione.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../expression/journey-properties.md">documentazione dettagliata</a>.</p>
 </td>
@@ -74,11 +88,11 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 </tbody>
 </table>
 
-### Altri miglioramenti{#october-november}
+### Altri miglioramenti
 
-Sono state aggiunte limitazioni per la creazione di nuove versioni di un viaggio. Queste limitazioni evitano modifiche troppo drastiche nel percorso per mantenere una certa coerenza tra le versioni. [Leggi tutto](../about/limitations.md#journey-versions-limitations)
+Sono state aggiunte limitazioni alla creazione di nuove versioni di un percorso. Queste limitazioni evitano modifiche troppo drastiche nel percorso per mantenere una certa coerenza tra le versioni. [Leggi tutto](../about/limitations.md#journey-versions-limitations)
 
-L&#39;attività **Qualificazione segmento** non può più essere utilizzata in un percorso che include attività di messaggio Campaign Standard. Questa limitazione protegge l&#39;integrità delle istanze di  Adobe Campaign Standard. In effetti, l&#39;utilizzo delle qualifiche dei segmenti può determinare picchi giornalieri di invio di messaggi che sovraccaricano i messaggi transazionali Campaign Standard. [Leggi tutto](../about/limitations.md#segment-qualification)
+L&#39;attività **Qualificazione segmento** non può più essere utilizzata in un percorso che include attività relative ai messaggi Campaign Standard. Questa limitazione protegge l&#39;integrità delle istanze di  Adobe Campaign Standard. In effetti, l&#39;utilizzo delle qualifiche dei segmenti può determinare picchi giornalieri di invio di messaggi che sovraccaricano i messaggi transazionali Campaign Standard. [Leggi tutto](../about/limitations.md#segment-qualification)
 
 ## Rilascio di ottobre 2020 {#october-release}
 
@@ -91,7 +105,7 @@ L&#39;attività **Qualificazione segmento** non può più essere utilizzata in u
 <tbody>
 <tr>
 <td>
-<p>Ora puoi configurare un timeout per un evento per consentire a un viaggio di ascoltare un evento solo durante un certo periodo di tempo. Non è più necessario aggiungere un'attività Wait in parallelo al percorso dell'evento per ottenere questo risultato.
+<p>Ora potete configurare un timeout per un evento in modo che un percorso ascolti un evento solo durante un determinato periodo di tempo. Non è più necessario aggiungere un'attività Wait in parallelo al percorso dell'evento per ottenere questo risultato.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentazione dettagliata</a>.</p>
 </td>
@@ -99,9 +113,9 @@ L&#39;attività **Qualificazione segmento** non può più essere utilizzata in u
 </tbody>
 </table>
 
-### Altri miglioramenti{#october-other}
+### Altri miglioramenti
 
-* Quando pubblicate una nuova versione di un viaggio, la versione precedente termina automaticamente e passa allo stato Chiuso. [Leggi tutto](../building-journeys/journey-versions.md)
+* Quando pubblicate una nuova versione di un percorso, la versione precedente termina automaticamente e passa allo stato Chiuso. [Leggi tutto](../building-journeys/journey-versions.md)
 
 ## Rilascio di settembre 2020 {#september-release}
 
@@ -116,7 +130,7 @@ L&#39;attività **Qualificazione segmento** non può più essere utilizzata in u
 <tbody>
 <tr>
 <td>
-<p>Quando si aggiungono condizioni al viaggio, ora è possibile definire un'etichetta. Se durante un viaggio si utilizzano diverse condizioni, questo consente di identificarle più facilmente.
+<p>Quando si aggiungono condizioni al percorso, è ora possibile definire un'etichetta. Se utilizzate diverse condizioni in un percorso, questo vi consente di identificarle più facilmente.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/condition-activity.md#about_condition">documentazione dettagliata</a>.</p>
 </td>
@@ -140,7 +154,7 @@ Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](
 <p>Sono stati apportati i seguenti miglioramenti all'attività <strong>Leggi segmento</strong>:
 </p>
 <ul>
-<li><p>I viaggi basati su segmenti ora mostrano, sopra il quadro, un promemoria del tipo di pianificazione del viaggio. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>
+<li><p>Gli percorsi basati su segmenti ora visualizzano, sopra il quadro, un promemoria del tipo di pianificazione  percorso. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>
 </li>
 <li><p>È stata migliorata la granularità dei registri della modalità di prova per visualizzare lo stato di avanzamento dell’esportazione del segmento.</p>
 </li>
