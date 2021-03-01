@@ -16,17 +16,17 @@ ht-degree: 17%
 
 Questo passaggio viene eseguito dall&#39; **utente aziendale**. Qui si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
-L’interfaccia di viaggio consente di trascinare e rilasciare facilmente le attività dalla palette al quadro. Potete anche fare doppio clic su un&#39;attività per aggiungerla nell&#39;area di lavoro al passaggio successivo disponibile. Ogni attività ha un ruolo specifico e si colloca nel processo. Le attività sono sequenziate. Al termine di un&#39;attività, il flusso continua ed elabora l&#39;attività successiva, e così via.
+L&#39;interfaccia del percorso consente di trascinare e rilasciare facilmente le attività dalla palette al quadro. Potete anche fare doppio clic su un&#39;attività per aggiungerla nell&#39;area di lavoro al passaggio successivo disponibile. Ogni attività ha un ruolo specifico e si colloca nel processo. Le attività sono sequenziate. Al termine di un&#39;attività, il flusso continua ed elabora l&#39;attività successiva, e così via.
 
-Per ogni percorso è consentito un solo spazio dei nomi. Quando si elimina il primo evento, gli eventi con spazi dei nomi diversi saranno disattivati. Se il primo evento non dispone di uno spazio nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. Consulta [questa pagina](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disabilitati se il viaggio include eventi senza uno spazio nomi. Infine, se si utilizzano diversi eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi.
+È consentito un solo spazio dei nomi per percorso. Quando si elimina il primo evento, gli eventi con spazi dei nomi diversi saranno disattivati. Se il primo evento non dispone di uno spazio nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. Consulta [questa pagina](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disabilitati se l&#39;percorso dispone di eventi senza uno spazio nomi. Infine, se si utilizzano diversi eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi.
 
 ## Avvio rapido {#creating_journey}
 
-Di seguito sono riportati i passaggi principali per creare e pubblicare un viaggio.
+Di seguito sono riportati i passaggi principali per creare e pubblicare un percorso.
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]**.
 
-   Viene visualizzato l’elenco dei viaggi. Fare riferimento a [questa pagina](../building-journeys/using-the-journey-designer.md) per ulteriori informazioni sull&#39;interfaccia.
+   Viene visualizzato l’elenco degli percorsi. Fare riferimento a [questa pagina](../building-journeys/using-the-journey-designer.md) per ulteriori informazioni sull&#39;interfaccia.
 
    ![](../assets/journey30.png)
 
@@ -46,13 +46,13 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un viagg
 
    ![](../assets/journey34.png)
 
-1. Il viaggio viene salvato automaticamente. Verifica il percorso e pubblicalo. Vedere [test del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
+1. Il percorso viene salvato automaticamente. Verificate il percorso e pubblicatelo. Vedere [test del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
 ## Fine di un percorso {#ending_a_journey}
 
-Esistono due modi per terminare un viaggio:
+Esistono due modi per terminare un percorso:
 
 * La persona arriva all&#39;ultima attività di un percorso. Quest&#39;ultima attività può essere un&#39;attività finale o un&#39;altra. Non è previsto l&#39;obbligo di terminare un percorso con un&#39;attività finale. Consulta [questa pagina](../building-journeys/end-activity.md).
 * La persona arriva a un&#39;attività di condizione (o un&#39;attività di attesa con una condizione) e non corrisponde ad alcuna delle condizioni.
