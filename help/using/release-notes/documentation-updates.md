@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Aggiornamenti alla documentazione
 description: Scopri gli aggiornamenti della documentazione
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '785'
 ht-degree: 93%
 
 ---
@@ -19,16 +19,16 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 ## Gennaio 2021 {#january-2021}
 
-* Sono state aggiunte best practice per attivare un percorso contemporaneamente alla creazione di un profilo. [Ulteriori informazioni](../about/limitations.md#journeys-limitation-profile-creation).
+* Sono state aggiunte le best practice per attivare un percorso contemporaneamente alla creazione di un profilo. [Leggi tutto](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Ottobre 2020 {#october-2020}
 
-* Sono state aggiunte informazioni su come configurare un timeout per un evento. [Ulteriori informazioni](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
+* Sono state aggiunte informazioni su come configurare un timeout per un evento. [Leggi tutto](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
 
 ## Settembre 2020 {#september-2020}
 
-* La sezione della descrizione dell&#39;interfaccia è stata aggiornata per riflettere il nuovo menu **All selector**. [Leggi tutto](../about/user-interface.md)
-* È stata aggiunta una nota sugli percorsi basati su segmenti  nuove versioni non ricorrenti. [Leggi tutto](../alpha/alpha-segment-trigger.md)
+* La sezione relativa alla descrizione dell’interfaccia è stata aggiornata per riflettere il nuovo menu **All selector** . [Leggi tutto](../about/user-interface.md)
+* È stata aggiunta una nota sulle nuove versioni non ricorrenti dei percorsi basati su segmenti.
 
 ## Agosto 2020 {#august-2020}
 
@@ -42,7 +42,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 * La sezione delle attività eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Leggi tutto](../building-journeys/event-activities.md)
 * Sono state aggiunte le best practice per evitare il sovraccarico con la qualificazione dei segmenti. [Leggi tutto](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Leggi tutto](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* È stata aggiunta una nuova sezione sulle funzioni alfa testate tra un gruppo limitato di clienti. [Leggi tutto](../alpha/alpha-overview.md)
+* È stata aggiunta una nuova sezione sulle funzioni alfa testate tra un gruppo limitato di clienti.
 * È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Leggi tutto](../ai-services/ai-services-overview.md)
 * È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md#create-test-profile)
 * Sono state aggiunte informazioni su come utilizzare il nodo **[!UICONTROL SegmentQualification]** in una condizione o azione di percorso. [Leggi tutto](../building-journeys/segment-qualification-events.md)
