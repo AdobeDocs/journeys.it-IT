@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Gestione degli accessi
 description: Ulteriori informazioni sulla gestione degli accessi
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ All’interno di Admin Console, puoi assegnare agli utenti uno dei seguenti prof
    * Gestione dei percorsi
    * Pubblicazione dei percorsi
    * Gestione dei rapporti
+   * Leggi eventi, origini dati e azioni
 
 Puoi anche creare profili di prodotto personalizzati, se i profili forniti non sono sufficienti per la gestione dei tuoi utenti.
 Gli utenti devono essere sempre collegati a un profilo di prodotto che consenta loro di assegnare autorizzazioni incorporate specifiche, ad esempio:
