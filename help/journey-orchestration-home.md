@@ -1,14 +1,14 @@
 ---
-keywords: Journeys;home;popular topics
+keywords: Viaggi;home;argomenti comuni
 product: adobe campaign
 solution: Journey Orchestration
 title: 'Journey Orchestration: documentazione del prodotto'
 topic: Premium
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,6 @@ Scopri come configurare gli eventi a cui i tuoi percorsi faranno da listener.
 
 * **[Scopri le novità](using/release-notes/release-notes.md)**<br/>
 Approfondisci i dettagli sulle ultime versioni.
-
-* **[Funzioni alfa](using/alpha/alpha-overview.md)**<br/>
-Scoprite le funzioni attualmente disponibili tramite il programma alfa.
 
 ## Pagine principali
 
