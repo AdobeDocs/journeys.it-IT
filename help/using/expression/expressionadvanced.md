@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Informazioni sull’editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 96%
+source-wordcount: '541'
+ht-degree: 90%
 
 ---
 
@@ -56,9 +56,11 @@ Questa schermata ti consente di scrivere manualmente l’espressione.
 
 Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni disponibili:
 
-* **[!UICONTROL Events]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso.
-* **[!UICONTROL Data Sources]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati.
-* **[!UICONTROL Functions]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie.
+* **[!UICONTROL Events]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Leggi tutto](../event/about-events.md)
+* **[!UICONTROL Segments]**: se hai abbandonato un  **[!UICONTROL Segment qualification]** evento, scegli il segmento da utilizzare nell’espressione. [Leggi tutto](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Leggi tutto](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Leggi tutto](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Leggi tutto](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
@@ -72,7 +74,7 @@ Un meccanismo di convalida della sintassi verifica l’integrità del tuo codice
 
 **Necessità di parametri per la creazione di condizioni con l’editor di espressioni avanzate**
 
-Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro (vedere [questa pagina](../datasource/external-data-sources.md). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
+Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro (consulta [questa pagina](../datasource/external-data-sources.md). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
 
 ![](../assets/journeyuc2_19.png)
 
