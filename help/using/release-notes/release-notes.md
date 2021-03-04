@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 73%
+source-wordcount: '2264'
+ht-degree: 68%
 
 ---
 
@@ -15,23 +15,48 @@ ht-degree: 73%
 # Note sulla versione {#release-notes}
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
-È inoltre possibile consultare gli ultimi [aggiornamenti della documentazione](../release-notes/documentation-updates.md).
+È inoltre possibile consultare l&#39;ultimo [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
 
-## Rilascio di gennaio 2021 {#january-release}
+## Versione di febbraio 2021 {#february-2021-release}
 
-Quando si seleziona uno schema nella configurazione dell&#39;evento, vengono selezionati solo i campi obbligatori per la corretta ricezione dell&#39;evento da parte del Journey Orchestration. [Leggi tutto](../event/defining-the-payload-fields.md)
+<table>
+<thead>
+<tr>
+<th><strong>Aggiorna attività profilo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Questa nuova attività di azione ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/update-profiles.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Gli attributi delle proprietà percorso sono ora disponibili nell&#39;editor di espressioni semplici. [Leggi tutto](../expression/journey-properties.md)
+### Altri miglioramenti
 
-Sono stati aggiunti due nuovi attributi di proprietà percorso (sandboxName e OrganizationId). [Leggi tutto](../expression/journey-properties.md)
+* Ora, durante la configurazione di un evento, solo i campi obbligatori per la convalida XDM sono preselezionati per impostazione predefinita. Questi campi non possono essere deselezionati.
+* Nella palette Percorso è stato aggiunto un nuovo filtro. Consente di visualizzare solo gli ultimi cinque eventi e azioni utilizzati, oltre a quelli predefiniti. Questo è specifico per ogni utente. Per impostazione predefinita, vengono visualizzati tutti gli elementi. [Leggi tutto](../building-journeys/using-the-journey-designer.md#palette)
+* Quando si avvia un nuovo percorso, gli elementi che non possono essere eliminati nell’area di lavoro come primo passaggio sono ora nascosti. Questo riguarda tutte le azioni, l&#39;attività della condizione, l&#39;attesa e la reazione.
+* Nella parte sinistra dell’editor di espressioni avanzate, le funzioni sono ora raggruppate in una sezione **Funzioni** alla fine dell’elenco.
 
-Per allinearsi  SLA Adobe Campaign Standard, una regola di limite massimo di 13 chiamate al secondo viene ora definita automaticamente per  azioni Adobe Campaign Standard non appena &#39;integrazione Adobe Campaign Standard è configurata. [Leggi tutto](../action/working-with-adobe-campaign.md)
+## Versione di gennaio 2021 {#january-2021-release}
 
-La durata di timeout dell&#39;evento ora è specificata più chiaramente nel percorso di timeout. [Leggi tutto](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+Quando si seleziona uno schema nella configurazione dell’evento, vengono selezionati solo i campi obbligatori per consentire la corretta ricezione dell’evento da parte di Journey Orchestration. [Leggi tutto](../event/defining-the-payload-fields.md)
 
-Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) sono state aggiunte all&#39;elenco delle funzioni disponibili nell&#39;editor di espressioni avanzate. In questo modo si offrono più possibilità nei casi di utilizzo del calcolo delle stringhe.
+Gli attributi delle proprietà del percorso sono ora disponibili nell’editor di espressioni semplici. [Leggi tutto](../expression/journey-properties.md)
 
-## Rilascio di novembre 2020 {#november-release}
+Sono stati aggiunti due nuovi attributi di proprietà del percorso (sandboxName e OrganizationId). [Leggi tutto](../expression/journey-properties.md)
+
+Per allinearsi agli SLA di Adobe Campaign Standard, una regola di limite pari a 13 chiamate al secondo viene ora definita automaticamente per le azioni di Adobe Campaign Standard non appena viene impostata l’integrazione con Adobe Campaign Standard. [Leggi tutto](../action/working-with-adobe-campaign.md)
+
+La durata del timeout dell’evento viene ora specificata più chiaramente nel percorso di timeout. [Leggi tutto](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) sono state aggiunte all’elenco delle funzioni disponibili nell’editor di espressioni avanzate. Questo offre ulteriori possibilità nei casi di utilizzo del calcolo delle stringhe.
+
+## Versione di novembre 2020 {#november-release}
 
 <table>
 <thead>
@@ -42,13 +67,13 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 <tbody>
 <tr>
 <td>
-<p>Una nuova attività di azione consente di inviare singoli utenti da un percorso all’altro. L'attività <strong>Jump</strong> consente di:
+<p>Una nuova attività di azione ti consente di spingere singoli utenti da un percorso all’altro. L’attività <strong>Jump</strong> ti consente di:
 </p>
 <ul>
-<li>semplificare la progettazione di percorsi molto complessi suddividendoli in più </li>
+<li>semplificare la progettazione di percorsi molto complessi suddividendoli in più percorsi </li>
 <li>creare percorsi basati su pattern di percorso comuni e riutilizzabili</li>
 </ul>
-<p>Per ulteriori informazioni, consultare la <a href="../building-journeys/jump.md">documentazione dettagliata</a> e <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">video di esercitazione</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/jump.md">documentazione dettagliata</a> e <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">video tutorial</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -57,13 +82,13 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 <table>
 <thead>
 <tr>
-<th><strong>Uso delle proprietà percorso nell'editor di espressioni</strong><br/></th>
+<th><strong>Utilizzo delle proprietà del percorso nell’editor delle espressioni</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nell'editor di espressioni avanzate, abbiamo aggiunto una nuova categoria nell'elenco di campi e funzioni. Queste sono le informazioni recuperate dal sistema dagli percorsi in diretta, come l'ID percorso o gli errori specifici riscontrati. Questo vi darà più possibilità quando si costruiscono i vostri percorsi. Ad esempio, sarà possibile avvisare i sistemi di terze parti in caso di errori riscontrati in una condizione o in un'azione.
+<p>Nell’editor di espressioni avanzate, abbiamo aggiunto una nuova categoria nell’elenco dei campi e delle funzioni. Si tratta delle informazioni recuperate dal sistema dai percorsi live, ad esempio l’ID del percorso o gli errori specifici rilevati. In questo modo avrai più possibilità di creare i tuoi percorsi. Ad esempio, potrai avvisare i sistemi di terze parti in caso di errori riscontrati in una condizione o in un’azione.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../expression/journey-properties.md">documentazione dettagliata</a>.</p>
 </td>
@@ -80,9 +105,8 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 <tbody>
 <tr>
 <td>
-<p>È ora disponibile un nuovo metodo per impostare più facilmente gli eventi, senza utilizzare un ID evento: gli eventi basati su regole valutano se l'evento deve essere attivato in base a una condizione. È comunque possibile utilizzare il metodo esistente, ora denominato "generato dal sistema". Questa funzione, testata tra un numero limitato di clienti attraverso il programma Alpha, è ora disponibile in versione beta per tutti i clienti.
+<p>È ora disponibile un nuovo metodo per configurare gli eventi in modo più semplice, senza utilizzare un ID evento: gli eventi basati su regole valutano se l'evento deve essere attivato in base a una condizione. È comunque possibile utilizzare il metodo esistente, ora denominato "generato dal sistema". Questa funzione, testata tra un numero limitato di clienti tramite il programma Alpha, è ora disponibile in versione beta per tutti i clienti.
 </p>
-<p>Per ulteriori informazioni, consulta la <a href="../event/about-events.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -90,11 +114,11 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 
 ### Altri miglioramenti
 
-Sono state aggiunte limitazioni alla creazione di nuove versioni di un percorso. Queste limitazioni evitano modifiche troppo drastiche nel percorso per mantenere una certa coerenza tra le versioni. [Leggi tutto](../about/limitations.md#journey-versions-limitations)
+Sono state aggiunte limitazioni durante la creazione di nuove versioni di un percorso. Queste limitazioni evitano modifiche troppo drastiche nel percorso per mantenere una certa coerenza tra le versioni. [Leggi tutto](../about/limitations.md#journey-versions-limitations)
 
-L&#39;attività **Qualificazione segmento** non può più essere utilizzata in un percorso che include attività relative ai messaggi Campaign Standard. Questa limitazione protegge l&#39;integrità delle istanze di  Adobe Campaign Standard. In effetti, l&#39;utilizzo delle qualifiche dei segmenti può determinare picchi giornalieri di invio di messaggi che sovraccaricano i messaggi transazionali Campaign Standard. [Leggi tutto](../about/limitations.md#segment-qualification)
+L’attività **Qualificazione dei segmenti** non può più essere utilizzata in un percorso che include le attività relative ai messaggi di Campaign Standard. Questa restrizione protegge l’integrità delle istanze di Adobe Campaign Standard. In effetti, l’utilizzo della qualificazione dei segmenti può causare picchi giornalieri di invio dei messaggi che sovraccaricherebbero i messaggi transazionali di Campaign Standard. [Leggi tutto](../about/limitations.md#segment-qualification)
 
-## Rilascio di ottobre 2020 {#october-release}
+## Versione di ottobre 2020 {#october-release}
 
 <table>
 <thead>
@@ -105,7 +129,7 @@ L&#39;attività **Qualificazione segmento** non può più essere utilizzata in u
 <tbody>
 <tr>
 <td>
-<p>Ora potete configurare un timeout per un evento in modo che un percorso ascolti un evento solo durante un determinato periodo di tempo. Non è più necessario aggiungere un'attività Wait in parallelo al percorso dell'evento per ottenere questo risultato.
+<p>Ora puoi configurare un timeout per un evento al fine di fare in modo che un percorso ascolti un evento solo durante un certo periodo di tempo. Per ottenere questo risultato, non è più necessario aggiungere un’attività Wait in parallelo al percorso dell’evento .
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentazione dettagliata</a>.</p>
 </td>
@@ -115,22 +139,22 @@ L&#39;attività **Qualificazione segmento** non può più essere utilizzata in u
 
 ### Altri miglioramenti
 
-* Quando pubblicate una nuova versione di un percorso, la versione precedente termina automaticamente e passa allo stato Chiuso. [Leggi tutto](../building-journeys/journey-versions.md)
+* Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e passa allo stato Chiuso. [Leggi tutto](../building-journeys/journey-versions.md)
 
-## Rilascio di settembre 2020 {#september-release}
+## Versione di settembre 2020 {#september-release}
 
 ### Aggiornamenti per la disponibilità generale{#september-ga-update}
 
 <table>
 <thead>
 <tr>
-<th><strong>Miglioramenti all'attività delle condizioni</strong><br/></th>
+<th><strong>Miglioramenti all’attività condizione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Quando si aggiungono condizioni al percorso, è ora possibile definire un'etichetta. Se utilizzate diverse condizioni in un percorso, questo vi consente di identificarle più facilmente.
+<p>Quando aggiungi condizioni al percorso, ora puoi definire un’etichetta. Se utilizzi più condizioni in un percorso, ti consente di identificarle più facilmente.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/condition-activity.md#about_condition">documentazione dettagliata</a>.</p>
 </td>
@@ -140,26 +164,23 @@ L&#39;attività **Qualificazione segmento** non può più essere utilizzata in u
 
 ### Aggiornamenti Alpha{#september-alpha-update}
 
-Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](../alpha/alpha-overview.md).
-
 <table>
 <thead>
 <tr>
-<th><strong>Miglioramenti all’attività di lettura dei segmenti</strong><br/></th>
+<th><strong>Miglioramenti all’attività dei segmenti di lettura</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati i seguenti miglioramenti all'attività <strong>Leggi segmento</strong>:
+<p>Sono stati apportati i seguenti miglioramenti all'attività <strong>Read segment</strong> :
 </p>
 <ul>
-<li><p>Gli percorsi basati su segmenti ora visualizzano, sopra il quadro, un promemoria del tipo di pianificazione  percorso. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>
+<li><p>I percorsi basati su segmenti ora vengono visualizzati, sopra l’area di lavoro, un promemoria del tipo di pianificazione del percorso. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>
 </li>
-<li><p>È stata migliorata la granularità dei registri della modalità di prova per visualizzare lo stato di avanzamento dell’esportazione del segmento.</p>
+<li><p>È stata migliorata la granularità dei registri della modalità di test per visualizzare lo stato di avanzamento dell’esportazione del segmento.</p>
 </li>
 </ul>
-<p>Per ulteriori informazioni sull'attività <strong>Leggi segmento</strong>, fare riferimento alla <a href="../alpha/alpha-segment-trigger.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](
 Il payload degli eventi di qualificazione dei segmenti ora contiene le seguenti informazioni contestuali, che è possibile utilizzare in condizioni e azioni: il comportamento (entrata, uscita), il timestamp della qualificazione e l’ID del segmento. [Leggi tutto](../building-journeys/segment-qualification-events.md)
 
 ### Aggiornamenti Alpha{#august-alpha-update}
-
-Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](../alpha/alpha-overview.md).
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](
 <li><p>Ora puoi testare il percorso su un profilo unitario e monitorare l’avanzamento del profilo nel percorso utilizzando il flusso visivo.</p>
 </li>
 </ul>
-<p>Per ulteriori informazioni, consulta la <a href="../alpha/alpha-segment-trigger.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ Per scoprire l’ambito del programma Alpha, fai riferimento a questa [sezione](
 
 Il programma Alpha offre funzioni che sono attualmente in fase di test per un numero limitato di clienti. Questo ci permette di migliorare il nostro prodotto in base al feedback ricevuto. Le funzioni non sono disponibili per tutti i clienti di Journey Orchestration.
 
-Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md) dedicata.
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md) dedi
 <li><p>Le funzionalità di amministrazione sono state raggruppate in un’unica dashboard.</p>
 </li>
 </ul>
-<p>Per ulteriori informazioni, consulta la <a href="../alpha/alpha-interface.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Queste funzioni sono descritte in una [sezione](../alpha/alpha-overview.md) dedi
 <tbody>
 <tr>
 <td>
-<p>L’attività attivazione segmento consente di fare in modo che tutti i singoli utenti appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare. <a href="../alpha/alpha-segment-trigger.md">Leggi tutto</a>
+<p>L’attività attivazione segmento consente di fare in modo che tutti i singoli utenti appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare. 
 </p>
 </td>
 </tr>
