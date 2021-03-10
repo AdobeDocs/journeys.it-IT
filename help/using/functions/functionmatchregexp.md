@@ -3,24 +3,27 @@ product: adobe campaign
 solution: Journey Orchestration
 title: matchRegExp
 description: Scopri la funzione matchRegExp
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 4%
+source-wordcount: '89'
+ht-degree: 5%
 
 ---
 
 
 # matchRegExp {#matchRegExp}
 
-Restituisce true se la stringa nel primo parametro corrisponde all&#39;espressione regolare nel secondo parametro. Per ulteriori informazioni, vedere [questa pagina](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Restituisce true se la stringa nel primo parametro corrisponde all&#39;espressione regolare nel secondo parametro. Per ulteriori informazioni, consulta [questa pagina](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Categoria
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `matchRegExp(<parameters>)`
 
@@ -29,7 +32,7 @@ Stringa
 | Parametro | Tipo |
 |--- |--- |
 | string | string |
-| regexp | string |
+| rigexp | string |
 
 ## Firma e tipo restituito
 
@@ -45,4 +48,4 @@ Restituisce true.
 
 Spiegazione:
 
-Qui si verifica se la stringa soddisfa l&#39;espressione regolare (sintassi Java): inizia con &quot;Hello&quot;, poi qualsiasi tipo di stringa e finiture con &quot;World&quot;.
+Qui si controlla se la stringa soddisfa l&#39;espressione regolare (sintassi java): inizia con &quot;Hello&quot;, poi qualsiasi tipo di stringa e finisce con &quot;World&quot;.
