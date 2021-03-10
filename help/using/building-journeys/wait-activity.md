@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Attività attendi
-description: Ulteriori informazioni sull'attività di attesa
+description: Scopri l’attività attendi
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '388'
 ht-degree: 4%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 4%
 
 # Attività attendi{#section_rlm_nft_dgb}
 
-Se si desidera attendere prima di eseguire l&#39;attività successiva nel percorso, è possibile utilizzare un&#39;attività **[!UICONTROL Wait]**. Consente di definire il momento in cui verrà eseguita l&#39;attività successiva. Sono disponibili quattro opzioni:
+Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività **[!UICONTROL Wait]** . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili quattro opzioni:
 
 * [Durata](#duration)
 * [Data fissa](#fixed_date)
@@ -24,39 +27,39 @@ Se si desidera attendere prima di eseguire l&#39;attività successiva nel percor
 
 ## Informazioni sull&#39;attività Wait{#about_wait}
 
-Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione di tempo e una condizione diversa ma sovrapposta, l&#39;attesa posizionata sopra sarà quella con priorità. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. La priorità della prima attività di attesa
+Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione temporale e una condizione diversa ma sovrapposta, l’attesa posizionata sopra sarà quella prioritaria. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. La prima attività di attesa avrà una priorità
 
-Inoltre, se due diverse attese sono in parallelo, quella che si verifica per prima verrà definita come priorità, indipendentemente dalla posizione verticale. Ad esempio, se un’attesa di 1 ora è superiore e un’attesa di 30 minuti è inferiore, dopo 30 minuti verrà elaborata l’attesa di 30 minuti.
+Inoltre, se due attese diverse sono in parallelo, quella che si verifica per prima verrà definita come priorità, indipendentemente dalla sua posizione verticale. Ad esempio, se un’attesa di 1 ora è superiore e un’attesa di 30 minuti è inferiore, dopo 30 minuti viene elaborata l’attesa di 30 minuti.
 
-È possibile definire una condizione se si desidera limitare l&#39;attesa a una determinata popolazione.
+Puoi definire una condizione se desideri limitare l’attesa a una determinata popolazione.
 
 >[!NOTE]
 >
 >La durata massima di attesa è di 30 giorni.
 >
->In modalità di prova, il parametro **[!UICONTROL Wait time in test]** consente di definire l&#39;ora in cui ciascuna attività di attesa durerà. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
+>In modalità di test, il parametro **[!UICONTROL Wait time in test]** ti consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
-## Durata:{#duration}
+## Durata attesa{#duration}
 
-Selezionate la durata dell&#39;attesa prima dell&#39;esecuzione dell&#39;attività successiva.
+Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva.
 
 ![](../assets/journey55.png)
 
-## Fissa data di attesa{#fixed_date}
+## Data fissa attesa{#fixed_date}
 
-Selezionare la data per l&#39;esecuzione dell&#39;attività successiva.
+Seleziona la data di esecuzione dell’attività successiva.
 
 ![](../assets/journey56.png)
 
 ## Attesa personalizzata{#custom}
 
-Questa opzione consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un&#39;espressione avanzata basata su un campo proveniente da un evento o da un&#39;origine dati. Non consente di definire una durata personalizzata, ad esempio 7 giorni. L&#39;espressione nell&#39;editor di espressioni deve fornire un formato dateTimeOnly. Consulta [questa pagina](../expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, vedere [questa pagina](../expression/data-types.md).
+Questa opzione ti consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da un’origine dati. Non ti consente di definire una durata personalizzata, ad esempio 7 giorni. L&#39;espressione nell&#39;editor di espressioni deve fornire un formato dateTimeOnly. Consulta [questa pagina](../expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, vedere [questa pagina](../expression/data-types.md).
 
 >[!NOTE]
 >
->È possibile utilizzare un&#39;espressione dateTimeOnly o una funzione per convertire in dateTimeOnly. Ad esempio: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, il campo nel caso in cui si trovi nel modulo 2016-08-12T09:46:06Z.
+>È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, il campo nel caso in cui si tratti del modulo 2016-08-12T09:46:06Z.
 >
->Il **fuso orario** è previsto nelle proprietà del viaggio. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo di mixaggio e un fuso orario ISO-8601 completo come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
+>Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di miscelazione e fuso orario ISO-8601 offset come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
