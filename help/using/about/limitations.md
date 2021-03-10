@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Limitazioni del Journey Orchestration
 description: Ulteriori informazioni sui limiti dei Journey Orchestration
+feature: Percorsi
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 1433ccabaceb31c7ffac117a31531d0d380a54f8
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -23,9 +26,9 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 * L&#39;evento incorporato **Reaction** consente di reagire alle azioni predefinite (consulta questa [pagina](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
 * Non esiste un’integrazione basata su prodotti Adobe Campaign Classic.
 
-## Limitazioni delle versioni del percorso {#journey-versions-limitations}
+## Limitazioni delle versioni di percorso {#journey-versions-limitations}
 
-* un percorso che inizia con un’attività evento nella versione v1 non può iniziare con un elemento diverso da un evento in ulteriori versioni. Non puoi avviare un percorso con un evento **Qualificazione del segmento** .
+* un percorso che inizia con un’attività evento nella versione v1 non può iniziare con un elemento diverso da un evento nelle versioni successive. Non è possibile avviare un percorso con un evento **Qualificazione del segmento**.
 * un percorso che inizia con un&#39;attività **Qualifica segmento** in v1 deve sempre iniziare con una **Qualificazione segmento** in ulteriori versioni.
 * Il segmento e lo spazio dei nomi scelti in **Qualificazione del segmento** (primo nodo) non possono essere modificati nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
@@ -51,18 +54,18 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 ## Limiti degli eventi
 
-* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima all’interno del Journey Orchestration per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
+* Per gli eventi generati dal sistema, i dati di streaming utilizzati per avviare un percorso cliente devono essere configurati prima all’interno del Journey Orchestration per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
  
 
 ## Limiti delle origini dati
 
-* Le origini dati esterne possono essere utilizzate all’interno del percorso del cliente per cercare dati esterni in tempo reale. Queste sorgenti devono essere utilizzabili tramite API REST, supportare JSON e poter gestire il volume di richieste.
+* Le origini dati esterne possono essere utilizzate all’interno di un percorso di clienti per cercare dati esterni in tempo reale. Queste sorgenti devono essere utilizzabili tramite API REST, supportare JSON e poter gestire il volume di richieste.
 
 ## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 
 In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. L’obiettivo a livello di servizio (SLT) in termini di latenza è &lt; 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
 
-Se un percorso viene attivato simultaneamente per la creazione di un profilo e controlla/recupera immediatamente le informazioni dal servizio profili, potrebbe non funzionare correttamente.
+Se un Percorso viene attivato simultaneamente per la creazione di un profilo e controlla/recupera immediatamente le informazioni dal Servizio profili, potrebbe non funzionare correttamente.
 
 Puoi scegliere una delle due soluzioni seguenti:
 
