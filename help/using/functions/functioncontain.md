@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: contain
-description: Ulteriori informazioni sulla funzione contengono
+description: Informazioni sulla funzione che contiene
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
 
 # contain {#contain}
 
-Controlla se la seconda stringa argomento è contenuta nella prima stringa argomento.
+Controlla se la seconda stringa di argomento è contenuta nella prima stringa di argomento.
 
 ## Categoria
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `contain(<parameters>)`
 
