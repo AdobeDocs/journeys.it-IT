@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: serializeList
 description: Scopri la funzione serializeList
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '90'
 ht-degree: 15%
 
 ---
@@ -14,13 +17,13 @@ ht-degree: 15%
 
 # serializeList {#serializeList}
 
-Converte in una stringa l&#39;elenco (qualsiasi tipo) fornito nel primo parametro. Il secondo parametro rappresenta il separatore da utilizzare. Il terzo parametro è un valore booleano che indica se ogni elemento dell&#39;espressione deve includere virgolette.
+Converte l’elenco (qualsiasi tipo) fornito nel primo parametro in una stringa. Il secondo parametro rappresenta il separatore da utilizzare. Il terzo parametro è un valore booleano che indica se ogni elemento dell’espressione deve includere virgolette.
 
 ## Categoria
 
 Elenco
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `serializeList(<parameters>)`
 
@@ -67,4 +70,4 @@ Restituisce &quot;Hello World&quot;.
 
 `serializeList(["Hello", "World"], ",", true)`
 
-Restituisce &quot;&quot;Hello&quot;,&quot;World&quot;.
+Restituisce &quot;&quot;Hello&quot;,&quot;World&quot;&quot;.
