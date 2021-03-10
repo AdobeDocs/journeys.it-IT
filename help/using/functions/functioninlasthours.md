@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inLastHours
 description: Scopri la funzione inLastHours
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 8%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ Restituisce true se l&#39;ora data specificata è compresa tra ora e ora - ore d
 
 Data
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `inLastHours(<dateTime>,<delta>)`
 
@@ -28,7 +31,7 @@ Data
 
 | Parametro | Tipo |
 |-----------|------------------|
-| data e ora | dateTime |
+| ora | dateTime |
 | delta | integer |
 
 ## Firme e tipo restituito
