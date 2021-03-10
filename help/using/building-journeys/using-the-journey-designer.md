@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Utilizzo del designer del percorso
-description: Ulteriori informazioni sull’utilizzo del designer del percorso
+description: Ulteriori informazioni sull'utilizzo del designer del percorso
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1392'
 ht-degree: 5%
 
 ---
@@ -14,13 +17,13 @@ ht-degree: 5%
 
 # Utilizzo del designer del percorso {#concept_m1g_5qt_52b}
 
-Il menu Home del percorso ti consente di visualizzare l’ **elenco dei percorsi**. Crea un nuovo percorso o fai clic su un percorso esistente per aprire l’ **interfaccia del designer del percorso**. Il designer è costituito dalle seguenti zone: la palette, l’area di lavoro e il riquadro di configurazione dell’attività.
+Il menu Home del percorso consente di visualizzare l&#39; **elenco di percorsi**. Crea un nuovo percorso o fai clic su uno esistente per aprire l&#39; **interfaccia di designer del percorso**. Il designer è costituito dalle seguenti zone: la palette, l’area di lavoro e il riquadro di configurazione dell’attività.
 
-## Elenco percorsi {#journey_list}
+## Elenco dei percorsi {#journey_list}
 
-L’ **elenco percorsi** ti consente di visualizzare tutti i tuoi percorsi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso terminato. Puoi crearne una nuova versione, duplicarla o interromperla. Puoi anche usare la barra di ricerca per cercare un percorso.
+L&#39; **elenco percorsi** consente di visualizzare tutti i percorsi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso terminato. Puoi crearne una nuova versione, duplicarla o interromperla. Puoi anche usare la barra di ricerca per cercare un percorso.
 
-Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare i percorsi visualizzati in base a diversi criteri (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). Puoi anche scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare. È possibile configurare le colonne visualizzate nell’elenco. Tutti i filtri e le colonne vengono salvati per utente.
+Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare i percorsi visualizzati in base a diversi criteri (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare. È possibile configurare le colonne visualizzate nell’elenco. Tutti i filtri e le colonne vengono salvati per utente.
 
 ![](../assets/journey74.png)
 
@@ -30,7 +33,7 @@ Tutte le versioni dei percorsi vengono visualizzate nell’elenco con il numero 
 
 >[!NOTE]
 >
->Per aprire l’area di lavoro di un percorso in una scheda del browser diversa, tieni premuto il tasto **Control** o **Comando** e fai clic sul percorso.
+>Per aprire un&#39;area di lavoro del percorso in una scheda del browser diversa, tieni premuto il tasto **Control** o **Comando** e fai clic sul percorso.
 
 ## La palette {#palette}
 
@@ -38,7 +41,7 @@ La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disp
 
 >[!NOTE]
 >
->Tieni presente che sono presenti regole durante la configurazione di un percorso. La configurazione non consentita verrà scartata. Ad esempio, non puoi inserire azioni in parallelo, collegare un’attività a un passaggio precedente per creare un ciclo, avviare un percorso con un’altra azione che un evento, ecc.
+>Tieni presente che sono presenti regole durante la configurazione di un percorso. La configurazione non consentita verrà scartata. Ad esempio, non è possibile inserire azioni in parallelo, collegare un&#39;attività a un passaggio precedente per creare un ciclo, avviare un percorso con un elemento diverso da un evento, ecc.
 
 ![](../assets/journey38.png)
 
@@ -54,7 +57,7 @@ Puoi inoltre utilizzare il campo **[!UICONTROL Search]** .
 
 ## Area di lavoro {#canvas}
 
-La **area di lavoro** è la zona centrale nel designer del percorso. È in questa zona che puoi rilasciare le attività e configurarle. Fai clic su un’attività nell’area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell’attività sul lato destro. È possibile ingrandire e ridurre utilizzando i pulsanti &quot;+&quot; e &quot;-&quot; in alto a destra. Nell’area di lavoro, tutte le attività ti consentono di aggiungere un passaggio successivo, ad eccezione delle attività **[!UICONTROL End]** (consulta [questa pagina](../building-journeys/end-activity.md)).
+La **area di lavoro** è la zona centrale nella finestra di progettazione del percorso. È in questa zona che puoi rilasciare le attività e configurarle. Fai clic su un’attività nell’area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell’attività sul lato destro. È possibile ingrandire e ridurre utilizzando i pulsanti &quot;+&quot; e &quot;-&quot; in alto a destra. Nell’area di lavoro, tutte le attività ti consentono di aggiungere un passaggio successivo, ad eccezione delle attività **[!UICONTROL End]** (consulta [questa pagina](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
@@ -68,7 +71,7 @@ Nell’area di lavoro, le attività azione ed evento sono rappresentate da un’
 
 ## Azioni barra superiore {#top_actions}
 
-A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante del registro della modalità di prova viene visualizzato quando viene attivata la modalità di prova (vedere [questa pagina](../building-journeys/testing-the-journey.md)). Il pulsante di reporting viene visualizzato quando il percorso è attivo, interrotto o chiuso.
+A seconda dello stato del percorso, è possibile eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante del registro della modalità di prova viene visualizzato quando viene attivata la modalità di prova (vedere [questa pagina](../building-journeys/testing-the-journey.md)). Il pulsante di reporting viene visualizzato quando il percorso è attivo, arrestato o chiuso.
 
 ![](../assets/journey41.png)
 
@@ -92,7 +95,7 @@ Nell’area di lavoro, quando due attività vengono disconnesse, viene visualizz
 
 ## Copia e incolla delle attività {#copy-paste}
 
-Puoi copiare una o più attività di un percorso e incollarle nello stesso percorso o in un’altra. Ciò ti consente di risparmiare tempo se desideri riutilizzare numerose attività già configurate in un percorso precedente.
+Puoi copiare una o più attività di un percorso e incollarle nello stesso percorso o in un&#39;altra. Ciò ti consente di risparmiare tempo se desideri riutilizzare numerose attività già configurate in un percorso precedente.
 
 **Note importanti**
 
