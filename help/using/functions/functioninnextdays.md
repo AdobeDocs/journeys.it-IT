@@ -3,24 +3,27 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inNextDays
 description: Scopri la funzione inNextDays
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
 
 # inNextDays {#inNextDays}
 
-Restituisce true se una data o un dateTime specificato è compreso tra ora e ora + giorni delta.
+Restituisce true se una data o un valore dateTime specificato è compreso tra ora e ora + giorni delta.
 
 ## Categoria
 
 Data
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `inNextDays(<dateTime>,<delta>)`
 
@@ -28,7 +31,7 @@ Data
 
 | Parametro | Tipo |
 |-----------|------------------|
-| data e ora | dateTime |
+| ora | dateTime |
 | delta | integer |
 
 ## Firme e tipo restituito
