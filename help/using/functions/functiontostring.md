@@ -3,24 +3,27 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toString
 description: Scopri la funzione toString
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 4%
+source-wordcount: '118'
+ht-degree: 5%
 
 ---
 
 
 # toString {#toString}
 
-Converte un valore di argomento in un valore di stringa, a seconda del tipo. Per ulteriori informazioni sui tipi di dati, fare riferimento a [questa pagina](../expression/data-types.md).
+Converte un valore di argomento in un valore di stringa, a seconda del tipo. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
 Conversione
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `toString(<parameter>)`
 
@@ -30,11 +33,11 @@ Conversione
 |--- |--- |
 | dateTime | converte la data in formato data UTC |
 | dateTimeOnly | converte la data in formato data UTC |
-| length | converti nel numero corrispondente di millisecondi come stringa |
-| fuso orario | converti in rappresentazione stringa id fuso orario (JODA id) |
+| durata | convertire nel numero corrispondente di millisecondi come stringa |
+| fuso orario | converti nella rappresentazione stringa id fuso orario (JODA id) |
 | integer | converte in rappresentazione stringa del valore (1 diventa &quot;1&quot;) |
-| decimal | converte in rappresentazione stringa del valore (1.5 diventa &quot;1.5&quot;) |
-| boolean | converte il valore booleano come &#39;true&#39; se true, &#39;false&#39; se false |
+| decimale | converte in rappresentazione stringa del valore (1.5 diventa &quot;1.5&quot;) |
+| booleano | converte il valore booleano come &#39;true&#39; se true, &#39;false&#39; se false |
 
 ## Firme e tipo restituito
 
