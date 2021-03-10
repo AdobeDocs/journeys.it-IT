@@ -3,22 +3,25 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inSegment
 description: Scopri la funzione inSegment
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 6%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
 
 # inSegment {#inSegment}
 
-Controlla se un singolo appartiene a un determinato segmento.
+Controlla se una persona appartiene a un dato segmento.
 
-Il nome del segmento deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione.
+Il nome del segmento deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione.
 
-I segmenti sono definiti in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L&#39;editor di espressioni fornisce un elenco di segmenti compilato automaticamente.
+I segmenti sono definiti in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’editor di espressioni fornisce un elenco di segmenti compilato automaticamente.
 
 >[!NOTE]
 >
@@ -28,7 +31,7 @@ I segmenti sono definiti in [Adobe Experience Platform](https://platform.adobe.c
 
 Adobe Experience Platform
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `inSegment(<parameter>)`
 
@@ -36,7 +39,7 @@ Adobe Experience Platform
 
 | Parametro | Descrizione | Tipo |
 |--- |--- |--- |
-| Segmento | Il nome del segmento | `<string>` |
+| Segmento | Nome del segmento | `<string>` |
 
 ## Firma e tipo restituito
 
@@ -50,4 +53,4 @@ Restituisce un valore booleano.
 
 Spiegazione:
 
-La funzione restituirà **[!UICONTROL true]** se l&#39;individuo all&#39;interno dell&#39;istanza del viaggio fa parte del segmento Adobe Experience Platform denominato &quot;men over 50&quot;, **[!UICONTROL false]** in caso contrario.
+La funzione restituirà **[!UICONTROL true]** se la persona all&#39;interno dell&#39;istanza del percorso fa parte del segmento Adobe Experience Platform denominato &quot;men over 50&quot;, **[!UICONTROL false]** in caso contrario.
