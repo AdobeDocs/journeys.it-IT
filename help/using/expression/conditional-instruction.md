@@ -2,27 +2,30 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Istruzione condizionale (if, then, else)
-description: Informazioni sulle istruzioni condizionali
+description: Scopri le istruzioni condizionali
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
 
-# Istruzioni condizionali (if, then, else) {#section_cdz_lsk_w3b}
+# Istruzione condizionale (if, then, else) {#section_cdz_lsk_w3b}
 
-L&#39;istruzione condizionale (se, quindi, else) è supportata nell&#39;editor avanzato. Consente di definire espressioni più complesse. È composta dai seguenti elementi:
+L’istruzione condizionale (se, then, else) è supportata nell’editor avanzato. Consente di definire espressioni più complesse. È composto dai seguenti elementi:
 
 * **[!UICONTROL if]**: la condizione da valutare per prima.
 * **[!UICONTROL then]**: l&#39;espressione da valutare nel caso in cui il risultato della valutazione della condizione sia vero.
-* **[!UICONTROL else]**: l&#39;espressione da valutare nel caso in cui il risultato della valutazione della condizione sia falso.
+* **[!UICONTROL else]**: l’espressione da valutare nel caso in cui il risultato della valutazione della condizione sia falso.
 
 >[!NOTE]
 >
->Le parentesi sono richieste intorno a tutte le espressioni.
+>Sono necessarie parentesi intorno a tutte le espressioni.
 
 ```
 if  (<expression1>)
@@ -32,7 +35,7 @@ else
    (<expression3>)
 ```
 
-`<expression1>` deve restituire un  **valore booleano**.
+`<expression1>` deve restituire un valore  **booleano**.
 
 `<expression2>` e  `<expression3>` devono avere lo stesso tipo o tipi compatibili. Le firme supportate e i tipi restituiti sono:
 
@@ -55,9 +58,9 @@ listString,listString : listString
 
 **Utilizzo**
 
-L&#39;istruzione condizionale consente di ottimizzare il flusso di lavoro del viaggio riducendo il numero di attività delle condizioni. Ad esempio, all&#39;interno della stessa attività di azione, è possibile specificare due alternative per una definizione di campo utilizzando una sola espressione di condizione.
+L’istruzione condizionale ti consente di ottimizzare il flusso di lavoro del percorso riducendo il numero di attività di condizione. Ad esempio, all’interno della stessa attività di azione, puoi specificare due alternative per una definizione di campo utilizzando una sola espressione di condizione.
 
-Esempio di un&#39;attività di azione (per un campo che prevede una stringa come risultato dell&#39;istruzione condizionale):
+Esempio per un’attività di azione (per un campo che richiede una stringa come risultato dell’istruzione condizionale):
 
 ```
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
