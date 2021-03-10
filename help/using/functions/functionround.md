@@ -2,12 +2,15 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: round
-description: Scopri il giro della funzione
+description: Scopri l’arrotondamento della funzione
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 7%
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
@@ -20,13 +23,13 @@ Restituisce il valore intero più vicino all&#39;argomento con i legami arrotond
 
 Percorsi
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `round(<parameters>)`
 
 ## Parametri
 
-* decimal
+* decimale
 * integer
 
 ## Firme e tipo restituito
