@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: distinct
-description: Informazioni sulla funzione distinta
+description: Scopri il distinto funzione
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '87'
 ht-degree: 13%
 
 ---
@@ -14,13 +17,13 @@ ht-degree: 13%
 
 # distinct {#distinct}
 
-Restituisce i valori distinti dell&#39;elenco senza valori null.
+Restituisce i valori distinti dell’elenco senza valori nulli.
 
 ## Categoria
 
 Elenco
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `distinct(<parameter>)`
 
@@ -40,7 +43,7 @@ Elenco
 
 `distinct(<listInteger>)`
 
-Restituisce un elenco di interi.
+Restituisce un elenco di numeri interi.
 
 `distinct(<listDecimal>)`
 
@@ -52,11 +55,11 @@ Restituisce un elenco di stringhe.
 
 `distinct(<listDateTimeOnly>)`
 
-Restituisce un elenco di dateTime senza considerare il fuso orario.
+Restituisce un elenco di date senza considerare il fuso orario.
 
 `distinct(<listDateTime>)`
 
-Restituisce un elenco di dateTime.
+Restituisce un elenco di date.
 
 `distinct(<listBoolean>)`
 
@@ -64,7 +67,7 @@ Restituisce un elenco di booleani.
 
 `distinct(<listDuration>)`
 
-Restituisce un elenco delle durate.
+Restituisce un elenco di durate.
 
 ## Esempi
 
