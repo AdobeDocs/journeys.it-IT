@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: lastIndexOf
 description: Scopri la funzione lastIndexOf
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '64'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ Restituisce la posizione (nel primo argomento) dell&#39;ultima occorrenza del se
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `lastIndexOf(<parameters>)`
 
@@ -45,4 +48,4 @@ Restituisce 3.
 
 Spiegazione:
 
-In &quot;Hello&quot;, l&#39;ultima occorrenza di &quot;l&quot; è nella posizione 3.
+In &quot;Hello&quot;, l&#39;ultima occorrenza di &quot;l&quot; è in posizione 3.
