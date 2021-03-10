@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Riferimenti campo
 description: Informazioni sui riferimenti di campo nelle espressioni avanzate
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '438'
 ht-degree: 3%
 
 ---
@@ -15,15 +18,15 @@ ht-degree: 3%
 
 # Riferimenti campo {#concept_fkj_ll5_dgb}
 
-Un riferimento a un campo può essere allegato a un evento o a un gruppo di campi. L’unica informazione significativa è il nome del campo e il relativo percorso.
+Un riferimento di campo può essere associato a un evento o a un gruppo di campi. L’unica informazione significativa è il nome del campo e il relativo percorso.
 
-Se si utilizzano caratteri speciali in un campo, è necessario utilizzare virgolette doppie o virgolette semplici. Di seguito sono riportati i casi in cui sono necessarie delle virgolette:
+Se utilizzi caratteri speciali in un campo, devi utilizzare virgolette doppie o virgolette semplici. Di seguito sono riportati i casi in cui le virgolette sono necessarie:
 
 * il campo inizia con caratteri numerici
 * il campo inizia con il carattere &quot;-&quot;
-* il campo contiene elementi diversi da: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
+* il campo contiene elementi diversi da: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
-Ad esempio, se il campo è _3h_: _#{OpenWeather.WeatherData.rain.&#39;3h&#39;} > 0_
+Ad esempio, se il campo è _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```
 // event field
@@ -35,13 +38,13 @@ Ad esempio, se il campo è _3h_: _#{OpenWeather.WeatherData.rain.&#39;3h&#39;} >
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-Nell&#39;espressione, ai campi dell&#39;evento viene fatto riferimento con &quot;@&quot; e ai campi dell&#39;origine dati viene fatto riferimento con &quot;#&quot;.
+Nell&#39;espressione, ai campi evento viene fatto riferimento con &quot;@&quot; e ai campi dell&#39;origine dati viene fatto riferimento con &quot;#&quot;.
 
-Un colore della sintassi viene utilizzato per distinguere visivamente i campi evento (verde) dai gruppi di campi (blu).
+Il colore della sintassi viene utilizzato per distinguere visivamente i campi evento (verde) dai gruppi di campi (blu).
 
 **Valori predefiniti per i riferimenti di campo**
 
-Un valore predefinito può essere associato a un nome di campo. La sintassi è la seguente:
+È possibile associare un valore predefinito al nome di un campo. La sintassi è la seguente:
 
 ```
 // event field
@@ -54,7 +57,7 @@ Un valore predefinito può essere associato a un nome di campo. La sintassi è l
 
 >[!NOTE]
 >
->Il tipo di campo e il valore predefinito devono essere identici. Ad esempio, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} non sarà valido perché il valore predefinito è un numero intero, mentre il valore previsto dovrebbe essere una stringa.
+>Il tipo di campo e il valore predefinito devono essere uguali. Ad esempio, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} non sarà valido perché il valore predefinito è un numero intero, mentre il valore previsto deve essere una stringa.
 
 Esempi:
 
@@ -88,9 +91,9 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-**Riferimento di un campo all&#39;interno delle raccolte**
+**Riferimento di un campo nelle raccolte**
 
-Agli elementi definiti all&#39;interno delle raccolte viene fatto riferimento utilizzando le funzioni specifiche all, first e last. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
+Gli elementi definiti nelle raccolte vengono referenziati utilizzando le funzioni specifiche all, first e last. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
 Esempio :
 
@@ -100,32 +103,32 @@ Esempio :
 
 **Riferimento a un campo definito in una mappa**
 
-Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una data chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Vedere Selezione dello spazio dei nomi. Per ulteriori informazioni, vedere [questa pagina](../event/selecting-the-namespace.md).
+Per recuperare un elemento in una mappa, utilizziamo la funzione di ingresso con una chiave specifica. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Consulta Selezione dello spazio dei nomi . Per ulteriori informazioni, consulta [questa pagina](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In questa espressione, è disponibile la voce per la chiave ‘Email’ del campo ‘IdentityMap’ di un evento. La voce &quot;E-mail&quot; è una raccolta, dalla quale prendiamo l&#39;&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, vedere [questa pagina](../expression/collection-management-functions.md).
+In questa espressione, otteniamo la voce per la chiave &quot;Email&quot; del campo &quot;IdentityMap&quot; di un evento. La voce &quot;Email&quot; è una raccolta da cui prendiamo l’&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
-**Valori di parametro di un&#39;origine dati (valori dinamici dell&#39;origine dati)**
+**Valori dei parametri di un’origine dati (valori dinamici dell’origine dati)**
 
-Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro, viene visualizzata una nuova scheda a destra che consente di specificare questo parametro. Consulta [questa pagina](../expression/expressionadvanced.md).
+Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro , a destra viene visualizzata una nuova scheda che consente di specificare questo parametro. Consulta [questa pagina](../expression/expressionadvanced.md).
 
-Per casi di utilizzo più complessi, se si desidera includere i parametri dell&#39;origine dati nell&#39;espressione principale, è possibile definirne i valori utilizzando la parola chiave _params_. Un parametro può essere una qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
+Per casi d’uso più complessi, se desideri includere i parametri dell’origine dati nell’espressione principale, puoi definirne i valori utilizzando la parola chiave _params_. Un parametro può essere qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
 
 >[!NOTE]
 >
->Quando definite i valori dei parametri nell&#39;espressione, la scheda a destra scompare.
+>Quando definisci i valori dei parametri nell’espressione, la scheda a destra scompare.
 
-Utilizzate la sintassi seguente:
+Utilizza la sintassi seguente:
 
 ```
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
 * **`<params-1-name>`**: nome esatto del primo parametro dall&#39;origine dati.
-* **`<params-1-value>`**: il valore del primo parametro. Può essere una qualsiasi espressione valida.
+* **`<params-1-value>`**: il valore del primo parametro. Può essere qualsiasi espressione valida.
 
 Esempio:
 
