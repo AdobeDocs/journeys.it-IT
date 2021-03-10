@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Terminazione di un percorso
-description: Scopri come terminare un viaggio
+description: Scopri come terminare un percorso
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '309'
 ht-degree: 4%
 
 ---
@@ -14,48 +17,48 @@ ht-degree: 4%
 
 # Terminazione di un percorso
 
-Le opzioni **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** consentono di terminare i percorsi **live**. La chiusura di un viaggio implica **che l&#39;arrivo di nuovi clienti nel viaggio è bloccato** e che i clienti che sono già entrati nel viaggio sono in grado di sperimentarlo fino alla fine. Questo è il modo più consigliato per porre fine a un percorso che offre la migliore esperienza ai clienti. Fermare un viaggio implica che le persone già entrate in viaggio vengono tutte fermate nel loro cammino. Il viaggio è fondamentalmente spento.
+Le opzioni **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** consentono di terminare i percorsi **live**. La chiusura di un percorso implica **che l&#39;arrivo di nuovi clienti nel percorso è bloccato** e che i clienti che sono già entrati nel percorso sono in grado di sperimentarlo fino alla fine. Questo è il modo più consigliato per mettere fine a un percorso in quanto offre la migliore esperienza per i clienti. Arrestare un percorso implica che le persone che sono già entrate in un percorso vengono tutte fermate nel loro progresso. Il percorso è fondamentalmente spento.
 
 >[!NOTE]
 >
->Non è possibile riprendere un viaggio chiuso o interrotto.
+>Non è possibile riprendere un percorso chiuso o interrotto.
 
-## Chiusura di un viaggio
+## Chiusura di un percorso
 
-Potete chiudere manualmente un viaggio per garantire che i clienti che sono già entrati nel percorso possano completare il percorso ma che i nuovi utenti non siano in grado di entrarvi.
+È possibile chiudere manualmente un percorso per garantire che i clienti che sono già entrati nel percorso possano completare il loro percorso ma i nuovi utenti non siano in grado di accedere al percorso.
 
-Non è possibile riavviare o eliminare una versione di viaggio chiusa. Potete crearne una nuova versione o duplicarla.
+Impossibile riavviare o eliminare una versione di un percorso chiuso. Puoi crearne una nuova versione o duplicarla.
 
-Per chiudere un viaggio, fai clic su **[!UICONTROL Close to new entrances]** mentre passi il cursore su un viaggio nell&#39;elenco dei viaggi.
+Per chiudere un percorso, fai clic su **[!UICONTROL Close to new entrances]** mentre passi il mouse su un percorso nell’elenco dei percorsi.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
 Puoi inoltre:
 
-1. In **[!UICONTROL Home]**, fare clic sul percorso da chiudere.
-1. In alto a destra, fate clic sulla freccia giù.
+1. In **[!UICONTROL Home]**, fai clic sul percorso da chiudere.
+1. In alto a destra, fai clic sulla freccia giù.
 
    ![](../assets/finish_drop_down_list.png)
 
 1. Fai clic su **[!UICONTROL Close to new entrances]**. Viene visualizzata una finestra di dialogo.
-1. Fare clic su **[!UICONTROL Close to new entrances]** per confermare.
+1. Fai clic su **[!UICONTROL Close to new entrances]** per confermare.
 
-## Interruzione di un viaggio
+## Arresto di un percorso
 
-Puoi interrompere un viaggio quando si è verificata un&#39;emergenza e tutte le operazioni di elaborazione devono essere terminate immediatamente durante un viaggio.
+È possibile interrompere un percorso quando si è verificata un&#39;emergenza e tutte le operazioni di elaborazione devono essere terminate immediatamente su un percorso.
 
-Impossibile riavviare una versione di viaggio interrotta.
+Impossibile riavviare una versione di percorso interrotta.
 
-Per interrompere un viaggio (ad esempio, se un esperto di marketing si rende conto che il percorso si rivolge a un pubblico sbagliato o che un&#39;azione personalizzata che dovrebbe inviare i messaggi non funziona correttamente...) fai clic su **[!UICONTROL Stop]** mentre passi il cursore su un percorso nell&#39;elenco dei viaggi.
+È possibile arrestare un percorso (ad esempio se un addetto al marketing si rende conto che il percorso esegue il targeting del pubblico errato o che un&#39;azione personalizzata che dovrebbe inviare i messaggi non funziona correttamente) facendo clic su **[!UICONTROL Stop]** mentre si passa il mouse su un percorso nell&#39;elenco dei percorsi.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
 Puoi inoltre:
 
-1. In **[!UICONTROL Home]**, fare clic sul percorso che si desidera interrompere.
-1. In alto a destra, fate clic sulla freccia giù.
+1. In **[!UICONTROL Home]**, fai clic sul percorso da interrompere.
+1. In alto a destra, fai clic sulla freccia giù.
 
 ![](../assets/finish_drop_down_list.png)
 
 1. Fai clic su **[!UICONTROL Stop]**. Viene visualizzata una finestra di dialogo.
-1. Fare clic su **[!UICONTROL Stop]** per confermare.
+1. Fai clic su **[!UICONTROL Stop]** per confermare.
