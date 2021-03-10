@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informazioni su Journey Orchestration
 description: Ulteriori informazioni su Journey Orchestration
+feature: Percorsi
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ ht-degree: 100%
 
 Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati.
 
-[!DNL Journey Orchestration] è un servizio di applicazione integrato con Adobe Experience Platform.
+[!DNL Journey Orchestration] è un servizio applicativo integrato con Adobe Experience Platform.
 
 ![](../assets/journeydiagram.png)
 
