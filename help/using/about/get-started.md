@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Introduzione
 description: Scopri i passaggi principali per configurare Journey Orchestration e creare il primo percorso.
+feature: Percorsi
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 92%
+source-wordcount: '326'
+ht-degree: 91%
 
 ---
 
 
 # Introduzione{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration], esistono due tipi di utenti, ciascuno dei quali esegue attività specifiche: l’**utente tecnico** e l’**utente aziendale**. L’accesso dell’utente viene gestito tramite profili di prodotto e diritti. Fare riferimento a [questa pagina](../about/access-management.md) per informazioni su come configurare l&#39;accesso utente.
+In [!DNL Journey Orchestration], esistono due tipi di utenti, ciascuno dei quali esegue attività specifiche: l’**utente tecnico** e l’**utente aziendale**. L’accesso dell’utente viene gestito tramite profili di prodotto e diritti. Per informazioni su come configurare l’accesso utente, consulta [questa pagina](../about/access-management.md) .
 
 Di seguito sono riportati i passaggi principali per la configurazione e l’utilizzo di [!DNL Journey Orchestration]:
 
@@ -56,7 +59,7 @@ Di seguito sono riportati i passaggi principali per la configurazione e l’util
 
    È necessario convalidare e attivare il percorso. Questo passaggio viene eseguito da un **utente aziendale**.
 
-   Per ulteriori informazioni, vedere le pagine [Verifica del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
+   Per ulteriori informazioni, consulta le pagine [Test del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
