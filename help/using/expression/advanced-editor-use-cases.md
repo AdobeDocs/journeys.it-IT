@@ -3,37 +3,40 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilizzo dell’editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '498'
 ht-degree: 2%
 
 ---
 
 
-# Esempi di espressioni avanzate
+# Esempi di espressione avanzati
 
-L&#39;editor di espressioni avanzate può essere utilizzato per creare condizioni che consentono di filtrare gli utenti durante i viaggi. Queste condizioni consentono di eseguire il targeting degli utenti in base all&#39;ora, alla data, alla posizione, alla durata o ad azioni quali l&#39;acquisto o l&#39;abbandono dei carrelli in modo che possano essere riassegnati durante il viaggio.
+L’editor di espressioni avanzate può essere utilizzato per creare condizioni che consentono di filtrare gli utenti nei percorsi. Queste condizioni ti consentono di eseguire il targeting degli utenti in base a ora, data, posizione, durata o azioni quali l’acquisto o l’abbandono dei carrelli in modo che possano essere reindirizzati nel percorso.
 
 >[!NOTE]
 >
 >Gli eventi iniziano con @, origini dati con #.
 
-## Creazione di condizioni per gli eventi di esperienza
+## Creazione di condizioni sugli eventi di esperienza
 
-L&#39;editor di espressioni avanzate è obbligatorio per eseguire query sulle serie temporali, ad esempio un elenco di acquisti o clic passati sui messaggi. Tali query non possono essere eseguite utilizzando l&#39;editor semplice.
+L’editor di espressioni avanzate è obbligatorio per eseguire query su serie temporali come un elenco di acquisti o clic passati sui messaggi. Tali query non possono essere eseguite utilizzando il semplice editor.
 
-Gli eventi esperienza vengono recuperati dall&#39;Adobe Experience Platform come raccolta in ordine cronologico inverso, di conseguenza:
+Gli eventi di esperienza vengono recuperati da Adobe Experience Platform come raccolta in ordine cronologico inverso, quindi:
 
-* la prima funzione restituirà l&#39;evento più recente
-* last function restituirà quella più vecchia.
+* la prima funzione restituirà l’evento più recente
+* l&#39;ultima funzione restituirà quella più vecchia.
 
-Ad esempio, supponiamo di voler indirizzare i clienti con un abbandono del carrello negli ultimi 7 giorni per inviare un messaggio quando il cliente si avvicina a un negozio, con un&#39;offerta sugli articoli che voleva che fossero in negozio.
+Ad esempio, supponiamo che desideri indirizzare l’attività ai clienti con abbandono del carrello negli ultimi 7 giorni per inviare un messaggio quando il cliente si avvicina a un negozio, con un’offerta sugli articoli che desidera che siano in negozio.
 
-**È necessario creare le seguenti condizioni:**
+**Devi creare le seguenti condizioni:**
 
-Innanzitutto, eseguite il targeting dei clienti che hanno visitato lo store online ma non hanno completato l&#39;ordine negli ultimi 7 giorni.
+Innanzitutto, rivolgiti ai clienti che hanno visitato il negozio online ma non hanno finalizzato l&#39;ordine negli ultimi 7 giorni.
 
 <!--**This expression looks for a specified value in a string value:**
 
@@ -45,9 +48,9 @@ Quindi seleziona tutti gli eventi addtocart che non si sono trasformati in un co
 
 >[!NOTE]
 >
->Per inserire rapidamente i campi nell’espressione, fate doppio clic sul campo nel pannello sinistro dell’editor.
+>Per inserire rapidamente i campi nell’espressione, fai doppio clic sul campo nel pannello a sinistra dell’editor.
 
-La marca temporale specificata funge da valore data e ora, la seconda da numero di giorni.
+La marca temporale specificata agisce come valore dell&#39;ora della data, la seconda come numero di giorni.
 
 ```
         In( “addToCart”, #{ExperiencePlatformDataSource
@@ -69,17 +72,17 @@ La marca temporale specificata funge da valore data e ora, la seconda da numero 
 
 Questa espressione restituisce un valore booleano.
 
-**Ora costruiamo un&#39;espressione controllando che il prodotto sia in magazzino**
+**Ora costruiamo un&#39;espressione che controlla che il prodotto sia in magazzino**
 
 * In Inventory, questa espressione cerca il campo quantità di un prodotto e specifica che deve essere maggiore di 0.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* A destra, i valori necessari sono specificati, qui, è necessario recuperare la posizione dello store, che è mappato dalla posizione dell&#39;evento &quot;ArriveLumaStudio&quot;:
+* A destra, vengono specificati i valori necessari, qui, è necessario recuperare la posizione dello store, che è mappata dalla posizione dell&#39;evento &quot;ArriveLumaStudio&quot;:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* E specificare SKU, utilizzando la funzione `first` per recuperare l&#39;interazione &quot;addToCart&quot; più recente:
+* Specifica lo SKU utilizzando la funzione `first` per recuperare la più recente interazione &quot;addToCart&quot;:
 
    ```
        #{ExperiencePlatformDataSource
@@ -93,13 +96,13 @@ Questa espressione restituisce un valore booleano.
                        .SKU}
    ```
 
-Da qui puoi aggiungere un altro percorso nel tuo percorso per quando il prodotto non è in negozio e inviare le notifiche con l&#39;offerta di partecipazione. Configura i messaggi di conseguenza e utilizza i dati di personalizzazione per migliorare la destinazione del messaggio.
+Da qui puoi aggiungere un altro percorso nel tuo percorso per quando il prodotto non è in negozio e inviare una notifica con un’offerta di coinvolgimento. Configura i messaggi di conseguenza e utilizza i dati di personalizzazione per migliorare la destinazione del messaggio.
 
-## Esempi di manipolazione di stringhe con l&#39;editor di espressioni avanzate
+## Esempi di manipolazioni delle stringhe con l’editor di espressioni avanzate
 
 **In condizioni**
 
-Questa condizione recupera solo gli eventi geofence attivati in &quot;Arlington&quot;:
+Questa condizione recupera solo gli eventi recinti geografici attivati in &quot;Arlington&quot;:
 
 ```
         @{GeofenceEntry
@@ -109,9 +112,9 @@ Questa condizione recupera solo gli eventi geofence attivati in &quot;Arlington&
                     .name} == "Arlington"
 ```
 
-Spiegazione: Si tratta di un confronto stretto tra stringhe (con distinzione tra maiuscole e minuscole), equivalente a una query in modalità semplice che utilizza `equal to` con `Is sensitive` selezionato.
+Spiegazione: Si tratta di un confronto rigoroso delle stringhe (distinzione tra maiuscole e minuscole), equivalente a una query in modalità semplice che utilizza `equal to` con `Is sensitive` selezionata.
 
-La stessa query con `Is sensitive` non selezionato genererà la seguente espressione in modalità avanzata:
+La stessa query con `Is sensitive` non selezionata genera la seguente espressione in modalità avanzata:
 
 ```
         equalIgnoreCase(@{GeofenceEntry
@@ -123,7 +126,7 @@ La stessa query con `Is sensitive` non selezionato genererà la seguente espress
 
 **In azioni**
 
-La seguente espressione consente di definire l&#39;ID CRM in un campo di personalizzazione azione:
+La seguente espressione ti consente di definire l’ID del sistema di gestione delle relazioni con i clienti in un campo di personalizzazione delle azioni:
 
 ```
     substr(@{MobileAppLaunch
@@ -138,6 +141,6 @@ La seguente espressione consente di definire l&#39;ID CRM in un campo di persona
                          ))
 ```
 
-Spiegazione: In questo esempio vengono utilizzate le funzioni `substr` e `lastIndexOf` per rimuovere le parentesi graffe che contengono l&#39;ID CRM passato con un evento di avvio dell&#39;app mobile.
+Spiegazione: In questo esempio vengono utilizzate le funzioni `substr` e `lastIndexOf` per rimuovere le parentesi graffe che racchiudono l’ID del sistema di gestione delle relazioni con i clienti passato con un evento di avvio di un’app mobile.
 
-Per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di espressioni avanzate, guardate [questo video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Per ulteriori informazioni su come utilizzare l’editor di espressioni avanzate, guarda [questo video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
