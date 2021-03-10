@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: now
-description: Scopri la funzione
+description: Informazioni sulla funzione
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
 
 # now {#now}
 
-Restituisce la data corrente in formato ora data. Per ulteriori informazioni sui tipi di dati, fare riferimento a [questa pagina](../expression/data-types.md).
+Restituisce la data corrente in formato ora data. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
 Data
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `now(<parameter>)`
 
@@ -36,7 +39,7 @@ Data
 
 `now("<timeZone id>")`
 
-Restituisce un dateTime.
+Restituisce un valore dateTime.
 
 ## Esempi
 
