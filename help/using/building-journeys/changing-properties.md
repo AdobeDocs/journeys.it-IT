@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Modifica delle proprietà
 description: Scopri come modificare le proprietà
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -15,42 +18,42 @@ ht-degree: 0%
 
 # Modifica delle proprietà {#concept_prq_wqt_52b}
 
-Fai clic sull&#39;icona a forma di matita, in alto a destra per accedere alle proprietà del viaggio.
+Fai clic sull’icona della matita, in alto a destra, per accedere alle proprietà del percorso.
 
-Potete cambiare il nome del viaggio, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e fine e definire una durata **[!UICONTROL Timeout and error]** se siete amministratori.
+Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e definire una **[!UICONTROL Timeout and error]** durata se sei un amministratore.
 
 ![](../assets/journey32.png)
 
-## Entrata{#entrance}
+## Ingresso{#entrance}
 
-Per impostazione predefinita, i nuovi viaggi consentono il rientro. Potete deselezionare l&#39;opzione per i viaggi &quot;una sola ripresa&quot;, ad esempio se desiderate offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non si desidera che il cliente possa rientrare nel percorso e ricevere nuovamente l&#39;offerta.
+Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l&#39;opzione per percorsi &quot;una ripresa&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non vuoi che il cliente sia in grado di reinserire il percorso e ricevere nuovamente l&#39;offerta.
 
-Quando un viaggio &quot;termina&quot;, avrà lo stato **[!UICONTROL Closed (no entrance)]**. Il viaggio smetterà di far entrare nuovi individui nel percorso. Le persone già in viaggio finiranno normalmente il viaggio.
+Quando un percorso &quot;termina&quot;, lo stato sarà **[!UICONTROL Closed (no entrance)]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso.
 
-## Timeout ed errore nelle attività di viaggio {#timeout_and_error}
+## Timeout ed errore nelle attività del percorso {#timeout_and_error}
 
-Quando si modifica un&#39;azione o un&#39;attività di condizione, è possibile definire un percorso alternativo in caso di errore o timeout. Se l&#39;elaborazione dell&#39;attività che esegue l&#39;interrogazione a un sistema di terze parti supera la durata di timeout definita nel campo delle proprietà del viaggio (**[!UICONTROL Timeout and  error]**), verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
+Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività che esegue l’interrogazione a un sistema di terze parti supera la durata di timeout definita nel campo delle proprietà del percorso (**[!UICONTROL Timeout and  error]** ), verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 
 I valori autorizzati sono compresi tra 1 e 30 secondi.
 
-È consigliabile definire un valore molto breve **[!UICONTROL Timeout and error]** se il viaggio è sensibile al tempo (ad esempio: reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l’azione per più di pochi secondi. Se il viaggio è meno sensibile al tempo, potete utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
+È consigliabile definire un valore molto breve **[!UICONTROL Timeout and error]** se il percorso è sensibile al tempo (ad esempio: reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l&#39;azione per più di pochi secondi. Se il percorso è meno sensibile al tempo, puoi utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
 
 [!DNL Journey Orchestration] utilizza anche un timeout globale. Vedere la sezione [successiva](#global_timeout).
 
 ## Timeout percorso globale {#global_timeout}
 
-Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di viaggio, esiste anche un timeout di viaggio globale che non viene visualizzato nell&#39;interfaccia e non può essere modificato. Questo timeout arresterà il progresso degli individui nel viaggio 30 giorni dopo il loro ingresso. Ciò significa che il viaggio di un individuo non può durare più di 30 giorni. Dopo il periodo di timeout di 30 giorni, i dati del singolo vengono eliminati. Gli individui che continuano a scorrere nel viaggio alla fine del periodo di timeout verranno interrotti e saranno presi in considerazione come errori nel reporting.
+Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout interrompe il progresso dei singoli utenti nel percorso 30 giorni dopo l’accesso. Ciò significa che il percorso di un individuo non può durare più di 30 giorni. Dopo il periodo di timeout di 30 giorni, i dati del singolo utente vengono eliminati. Gli utenti che continuano a scorrere nel percorso alla fine del periodo di timeout verranno arrestati e verranno presi in considerazione come errori nel reporting.
 
 >[!NOTE]
 >
->[!DNL Journey Orchestration] non risponde direttamente alle richieste di privacy opt-out, accesso o eliminazione. Tuttavia, il timeout globale assicura che gli utenti non restino mai più di 30 giorni in un qualsiasi viaggio.
+>[!DNL Journey Orchestration] non reagisce direttamente alle richieste di rinuncia, accesso o cancellazione della privacy. Tuttavia, il timeout globale assicura che gli individui non rimangano mai più di 30 giorni in un percorso.
 
-A causa del timeout del viaggio di 30 giorni, quando il rientro del viaggio non è consentito, non possiamo assicurarci che il blocco del rientro funzioni più di 30 giorni. Infatti, mentre rimuoviamo tutte le informazioni sulle persone che sono entrate nel viaggio 30 giorni dopo il loro ingresso, non possiamo sapere che la persona è entrata in precedenza, più di 30 giorni fa.
+A causa del timeout di 30 percorsi, quando non è consentito l’accesso al percorso, non possiamo assicurarci che il blocco del rientro funzioni per più di 30 giorni. Infatti, poiché rimuoviamo tutte le informazioni sulle persone che sono entrate nel percorso 30 giorni dopo il loro ingresso, non possiamo sapere che la persona è entrata in precedenza, più di 30 giorni fa.
 
 ## Fuso orario e fuso orario del profilo {#timezone}
 
-Il fuso orario è definito a livello di viaggio.
+Il fuso orario è definito a livello di percorso.
 
-Potete immettere un fuso orario fisso o utilizzare i profili Adobe Experience Platform per definire il fuso orario del viaggio.
+Puoi immettere un fuso orario fisso oppure utilizzare i profili Adobe Experience Platform per definire il fuso orario percorso.
 
-Per ulteriori informazioni sulla gestione del fuso orario, vedere [questa pagina](../building-journeys/timezone-management.md).
+Per ulteriori informazioni sulla gestione del fuso orario, consulta [questa pagina](../building-journeys/timezone-management.md).
