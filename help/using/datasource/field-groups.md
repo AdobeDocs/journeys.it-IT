@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Gruppi di campi
-description: Scopri i gruppi di campi
+description: Informazioni sui gruppi di campi
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -15,40 +18,40 @@ ht-degree: 0%
 
 # Gruppi di campi {#concept_ntl_ypt_52b}
 
-I gruppi di campi sono insiemi di campi che è possibile recuperare da un&#39;origine dati e utilizzare in un percorso.
+I gruppi di campi sono insiemi di campi che è possibile recuperare da un’origine dati e utilizzare in un percorso.
 
 ## Definizione dei gruppi di campi {#section_dsz_kjd_fjb}
 
-Per ogni origine dati, è possibile definire diversi gruppi di campi, ciascuno dei quali ha una specifica durata cache.
+Per ogni origine dati, puoi definire diversi gruppi di campi, ciascuno dei quali con una specifica durata della cache.
 
-Ad esempio, potete creare un gruppo di campi con il numero di telefono, l&#39;e-mail, il nome e l&#39;indirizzo del profilo. Potrai quindi utilizzare questi dati nel tuo viaggio per creare condizioni. Ad esempio, potete decidere di inviare un SMS solo se il numero di telefono del profilo non è vuoto. Se questo campo è vuoto, potete inviare un messaggio e-mail.
+Ad esempio, puoi creare un gruppo di campi con il numero di telefono, l’e-mail, il nome e l’indirizzo del profilo. Potrai quindi utilizzare questi dati nel tuo percorso per creare condizioni. Ad esempio, puoi decidere di inviare un SMS solo se il numero di telefono del profilo non è vuoto. Se è vuoto, puoi inviare un’e-mail.
 
-Anche se viene aggiunto automaticamente un nome predefinito, si consiglia di assegnare un nome al gruppo di campi. In effetti, il nome del gruppo di campi sarà visibile agli altri utenti in [!DNL Journey Orchestration]. È consigliabile assegnare un nome pertinente ai gruppi di campi.
+Anche se viene aggiunto automaticamente un nome predefinito, ti consigliamo di assegnare un nome al gruppo di campi. In effetti, il nome del gruppo di campi sarà visibile agli altri utenti in [!DNL Journey Orchestration]. È consigliabile assegnare un nome pertinente ai gruppi di campi.
 
-Quando un campo origine dati viene utilizzato in un percorso, il sistema recupera tutti i campi definiti per quel gruppo di campi. Di conseguenza, è consigliabile selezionare solo i campi necessari per i viaggi. Questo ridurrà la latenza richiesta nei vostri viaggi, aumentando così le prestazioni. È possibile aggiungere facilmente più campi in gruppi di campi in un secondo momento.
+Quando un campo origine dati viene utilizzato in un percorso, il sistema recupererà tutti i campi definiti per quel gruppo di campi. Pertanto, è consigliabile selezionare solo i campi necessari per i percorsi. Questo ridurrà la latenza della richiesta nei percorsi aumentando così le prestazioni. È possibile aggiungere facilmente più campi nei gruppi di campi in un secondo momento.
 
-**[!UICONTROL Cache duration]** è importante anche in quanto consente di ottimizzare le prestazioni. La durata della cache indica che in un viaggio, se i dati di un gruppo di campi vengono recuperati una volta, il sistema la memorizzerà nella cache temporaneamente. Se gli stessi dati sono richiesti successivamente nello stesso percorso, il sistema non effettuerà un&#39;altra richiesta all&#39;origine dati. La configurazione della durata della cache deve essere adattata per ogni caso di utilizzo. Se avete bisogno di recuperare dati in tempo reale come lo stato di prenotazione dell&#39;hotel, le informazioni meteo o il numero di punti fedeltà, associerete il gruppo di campi che contiene questi campi con una breve durata della cache (ad esempio 1 secondo). Per i campi aggiornati meno frequentemente (nome, genere), create un secondo gruppo di campi con una durata cache più lunga (ad esempio, 5 giorni).
+**[!UICONTROL Cache duration]** è importante anche in quanto ti aiuterà a ottimizzare le prestazioni. La durata della cache indica che in un percorso, se i dati di un gruppo di campi vengono recuperati una volta, il sistema li memorizzerà temporaneamente nella cache. Se gli stessi dati sono richiesti più avanti nello stesso percorso, il sistema non effettuerà un&#39;altra richiesta all&#39;origine dati. La configurazione della durata della cache deve essere adattata per ogni caso d’uso. Se devi recuperare dati in tempo reale, ad esempio lo stato della prenotazione dell’hotel, le informazioni meteo o il numero di punti fedeltà, associ il gruppo di campi contenente questi campi a una breve durata della cache (ad esempio 1 secondo). Per i campi che vengono aggiornati meno frequentemente (nome, genere), creerai un secondo gruppo di campi con una durata della cache più lunga (ad esempio, 5 giorni).
 
-Il numero di viaggi che utilizzano un gruppo di campi viene visualizzato nel campo **[!UICONTROL Used in]**. È possibile fare clic sul pulsante **[!UICONTROL View journeys]** per visualizzare l&#39;elenco dei viaggi che utilizzano questo gruppo di campi.
+Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nel campo **[!UICONTROL Used in]** . Puoi fare clic sul pulsante **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
 
 >[!NOTE]
 >
->Tenere presente che se un gruppo di campi non ha campi, non verrà visualizzato nell&#39;editor di espressioni.
+>Tieni presente che se un gruppo di campi non ha un campo, non verrà visualizzato nell’editor espressioni.
 
 ![](../assets/journey3bis.png)
 
 ## Ciclo di vita del gruppo di campi {#section_abk_njd_fjb}
 
-È possibile aggiungere o rimuovere campi da un gruppo di campi che non è utilizzato per le operazioni di bozza o di viaggio live.
+È possibile aggiungere o rimuovere campi da un gruppo di campi non utilizzato in alcuna bozza o in un percorso live.
 
-È possibile aggiungere ma non rimuovere un campo da un gruppo di campi utilizzato in uno o più viaggi bozza o dal vivo. Questo eviterà di interrompere i viaggi.
+Puoi aggiungere ma non rimuovere un campo da un gruppo di campi utilizzato in uno o più percorsi di bozza o live. In questo modo si evitano percorsi di rottura.
 
-Per eliminare un campo da un gruppo di campi utilizzato in uno o più viaggi, procedere come segue. Utilizzare un esempio di un gruppo di campi denominato &quot;Gruppo di campi A&quot;.
+Per eliminare un campo da un gruppo di campi utilizzato in uno o più percorsi, procedere come segue. Utilizziamo un esempio di gruppo di campi denominato &quot;Gruppo di campi A&quot;.
 
-1. Nell&#39;elenco dei gruppi di campi, posizionate il cursore su &quot;Campo Gruppo A&quot; e fate clic sull&#39;icona **[!UICONTROL Duplicate]** a destra. Denominate, ad esempio, il gruppo di campi duplicato &quot;Gruppo di campi B&quot;.
+1. Nell’elenco dei gruppi di campi, posiziona il cursore su &quot;Gruppo di campi A&quot; e fai clic sull’icona **[!UICONTROL Duplicate]** situata a destra. Ad esempio, denominare il gruppo di campi duplicato &quot;Gruppo di campi B&quot;.
 1. In &quot;Gruppo di campi B&quot;, rimuovere i campi che non si desidera più.
-1. In &quot;Campo Gruppo A&quot;, verificare la posizione in cui viene utilizzato questo gruppo di campi. Queste informazioni vengono visualizzate nel campo **[!UICONTROL Used in]**.
-1. Aprire tutti i viaggi che utilizzano il &quot;Campo Gruppo A&quot;.
-1. Create nuove versioni di ciascuno di questi viaggi. Modificate tutte le attività utilizzando il &quot;Gruppo di campi A&quot; e selezionate &quot;Gruppo di campi B&quot;.
-1. Arrestate le versioni precedenti dei viaggi che utilizzano &quot;Field Group A&quot;. A questo punto non si dovrebbe effettuare alcun viaggio utilizzando il &quot;Gruppo di campi A&quot;.
-1. Rimuovere il &quot;Campo Gruppo A&quot; così come non è più utilizzato.
+1. In &quot;Gruppo di campi A&quot;, controlla dove viene utilizzato questo gruppo di campi. Queste informazioni vengono visualizzate nel campo **[!UICONTROL Used in]** .
+1. Aprire tutti i percorsi che utilizzano &quot;Gruppo di campi A&quot;.
+1. Crea nuove versioni di ciascuno di questi percorsi. Modifica tutte le attività utilizzando &quot;Gruppo di campi A&quot; e seleziona &quot;Gruppo di campi B&quot;.
+1. Arrestare le vecchie versioni di percorsi che utilizzano &quot;Gruppo di campi A&quot;. Non dovrebbe quindi essere presente alcun percorso che utilizzi &quot;Gruppo di campi A&quot;.
+1. Rimuovere il &quot;Gruppo di campi A&quot; in quanto non è più utilizzato.
