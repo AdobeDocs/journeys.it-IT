@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Interfaccia utente
 description: Ulteriori informazioni sull’interfaccia utente
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1067'
 ht-degree: 93%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 93%
 
 ## Accesso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Per accedere all&#39;interfaccia di [!DNL Journey Orchestration], fare clic sull&#39;icona **[!UICONTROL App Selector]**, in alto a destra, quindi fare clic su **[!UICONTROL Journey Orchestration]**.
+Per accedere all&#39;interfaccia di [!DNL Journey Orchestration], fai clic sull&#39;icona **[!UICONTROL App Selector]** in alto a destra, quindi fai clic su **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -135,10 +138,10 @@ _Nell’area di lavoro di un percorso:_
 * Quando selezioni una o più attività, premi **Elimina** o **backspace** per eliminarle. A questo punto puoi premere **Invio** per confermare la scelta nella finestra a comparsa relativa.
 * Fai doppio clic su un’attività dal riquadro a sinistra per aggiungerla alla prima posizione disponibile (dall’alto verso il basso).
 
-_In un viaggio:_
+_In un percorso:_
 
 * Premere **T** per attivare/disattivare la modalità di prova.
-* In un percorso basato su eventi in modalità di prova, premere **E** per attivare un evento.
-* In un percorso basato su segmenti, quando l&#39;opzione **Profilo singolo alla volta** è selezionata in modalità di prova, premere **P** per attivare un evento.
+* In un percorso basato su eventi in modalità di test, premere **E** per attivare un evento.
+* In un percorso basato su segmenti, quando l&#39;opzione **Profilo singolo alla volta** è selezionata in modalità di test, premere **P** per attivare un evento.
 * In modalità di prova, premere **L** per visualizzare i registri.
 
