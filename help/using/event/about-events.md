@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informazioni sugli eventi
 description: Informazioni sugli eventi
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 55%
 
 ---
@@ -27,15 +30,15 @@ La configurazione dell’evento consente di definire le informazioni che [!DNL J
 
 Se modifichi un evento utilizzato in una bozza di percorso o in un percorso live, puoi cambiare solo il nome e la descrizione oppure aggiungere i campi payload. Al fine di evitare l’interruzione dei percorsi, limitiamo rigorosamente la modifica delle bozze di percorso o dei percorsi live.
 
-È possibile definire due tipi di eventi:
+Puoi definire due tipi di eventi:
 
-* **Eventi** di base delle regole: questo tipo di evento non genera un eventID. Utilizzando l&#39;editor di espressioni semplici, è sufficiente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i viaggi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell&#39;evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
+* **Eventi** basati sulle regole: questo tipo di evento non genera un eventID. Utilizzando l’editor di espressioni semplici, puoi semplicemente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i tuoi percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
    >[!CAUTION]
    >
-   >Per gli eventi basati su regole viene definita una regola di capping. Limita il numero di eventi qualificati che un viaggio può elaborare a 5000 al secondo per una determinata organizzazione (ORG). Corrisponde agli SLA Journey Orchestration. Vedere questa [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Per gli eventi basati su regole viene definita una regola di limitazione. Limita il numero di eventi qualificati che un percorso può elaborare a 5000 al secondo per una determinata organizzazione (ORG). Corrisponde agli SLA di Journey Orchestration. Vedere questa [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Sviluppatori** di sistemi: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente al momento della creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, ma deve passare quello disponibile nell’anteprima del payload.
+* **Sviluppatori** di sistema: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, deve passare quello disponibile nell’anteprima del payload.
 
-Per informazioni su come creare un evento, fare riferimento a questa [pagina](../event/about-creating.md).
+Per informazioni su come creare un evento, consulta questa [pagina](../event/about-creating.md).
 
