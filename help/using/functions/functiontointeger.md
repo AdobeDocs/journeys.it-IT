@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: toInteger
-description: Informazioni sulla funzione toInteger
+description: Scopri la funzione toInteger
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 7%
+source-wordcount: '74'
+ht-degree: 8%
 
 ---
 
 
 # toInteger {#toInteger}
 
-Converte un valore argomento in un numero intero.
+Converte un valore di argomento in un numero intero.
 
 ## Categoria
 
 Conversione
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `toInteger(<parameter>)`
 
@@ -28,10 +31,10 @@ Conversione
 
 | Parametro | Descrizione |
 |--- |--- |
-| string | converte il valore della stringa come numero intero |
+| string | converte il valore della stringa in un numero intero |
 | dateTime | converte la data come numero di millisecondi (epoch millisecondi) |
-| decimal | converte in numero intero rimuovendo la parte decimale (ad esempio: 1,5 diventa 1) |
-| boolean | converte il valore booleano in 1 se true, 0 se false |
+| decimale | converte in numero intero rimuovendo la parte decimale (ad esempio: 1,5 diventa 1) |
+| booleano | converte il valore booleano in 1 se true, 0 se false |
 
 ## Firme e tipo restituito
 
