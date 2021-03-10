@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: sum
 description: Scopri la somma delle funzioni
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ Restituisce la somma dei valori di un insieme di espressioni. I valori Null veng
 
 Aggregazione
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `sum(<parameters>)`
 
@@ -28,15 +31,15 @@ Aggregazione
 
 * listInteger
 * listDecimal
-* length
+* durata
 * integer
-* decimal
+* decimale
 
 ## Firme e tipi restituiti
 
 `sum(<listDecimal>)`
 
-Restituisce un valore decimale.
+Restituisce un decimale.
 
 `sum(<listInteger>)`
 
@@ -48,7 +51,7 @@ Restituisce un numero intero.
 
 `sum(<decimal>,<decimal>)`
 
-Restituisce un valore decimale.
+Restituisce un decimale.
 
 ## Esempi
 
