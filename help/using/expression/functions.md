@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Funzioni
 description: Informazioni sulle funzioni
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 73%
+source-wordcount: '171'
+ht-degree: 71%
 
 ---
 
 
 # Funzioni {#concept_p1r_qj5_dgb}
 
-Una funzione può avere firme diverse (un insieme diverso di parametri ordinati). Una firma di funzione può avere espressioni da 0 a 0 come parametri ordinati.
+Una funzione può avere firme diverse (un diverso insieme di parametri ordinati). Una firma di funzione può avere espressioni 0-N come parametri ordinati.
 
 `<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ... ,`<expression as param N>`)
 
@@ -57,7 +60,7 @@ Elenco delle funzioni supportate.
 | Data | [setHours](../functions/functionsethours.md) |
 | Data | [setDays](../functions/functionsetdays.md) |
 | Elenco | [distinct](../functions/functiondistinct.md) |
-| Elenco | [separateCount](../functions/functiondistinctcount.md) |
+| Elenco | [distinctCount](../functions/functiondistinctcount.md) |
 | Elenco | [in](../functions/functionin.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
