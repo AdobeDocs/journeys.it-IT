@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Configurazione URL
-description: Informazioni sulla configurazione URL
+description: Scopri la configurazione dell’URL
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '130'
 ht-degree: 9%
 
 ---
@@ -14,20 +17,20 @@ ht-degree: 9%
 
 # Configurazione URL {#concept_gbg_1f1_2gb}
 
-Durante la configurazione di un&#39;azione personalizzata, è necessario definire i seguenti parametri **[!UICONTROL URL Configuration]**:
+Quando configuri un’azione personalizzata, devi definire i seguenti parametri **[!UICONTROL URL Configuration]**:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Aggiungete la **[!UICONTROL URL]** del servizio esterno.
+1. Aggiungi il **[!UICONTROL URL]** del servizio esterno.
 
    >[!NOTE]
    >
-   >Per motivi di sicurezza, è consigliabile utilizzare HTTPS. Non consentiamo l&#39;uso di indirizzi  Adobe non pubblici e l&#39;uso di indirizzi IP.
+   >Per motivi di sicurezza, è consigliabile utilizzare HTTPS. Non consentiamo l’uso di indirizzi di Adobe che non sono pubblici e l’uso di indirizzi IP.
 
 1. Seleziona la chiamata **[!UICONTROL Method]**: può essere **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
-1. Nella sezione **[!UICONTROL Headers]**, fare clic su **[!UICONTROL Add a header field]** per definire una nuova coppia chiave/valore. Corrispondono alle intestazioni HTTP della richiesta effettuata al servizio esterno. Per eliminare coppie chiave/valore, posizionate il cursore sul campo **[!UICONTROL Headers]** e fate clic sull&#39;icona **[!UICONTROL Delete]**.
+1. Nella sezione **[!UICONTROL Headers]**, fai clic su **[!UICONTROL Add a header field]** per definire una nuova coppia chiave/valore. Corrispondono alle intestazioni HTTP della richiesta effettuata al servizio esterno. Per eliminare le coppie chiave/valore, posiziona il cursore sul campo **[!UICONTROL Headers]** e fai clic sull&#39;icona **[!UICONTROL Delete]**.
 
-   **[!UICONTROL Content-Type]** e  **[!UICONTROL Charset]** sono impostati per impostazione predefinita e non possono essere eliminati o sovrascritti.
+   **[!UICONTROL Content-Type]** e  **[!UICONTROL Charset]** sono impostati per impostazione predefinita e non possono essere eliminati o ignorati.
 
    >[!NOTE]
    >
