@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Tipi di dati
 description: Informazioni sui tipi di dati nelle espressioni avanzate
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '562'
 ht-degree: 4%
 
 ---
@@ -14,9 +17,9 @@ ht-degree: 4%
 
 # Tipi di dati {#concept_gp3_rj5_dgb}
 
-Tecnicamente, una costante contiene sempre un tipo di dati. Nell&#39;espressione letterale viene specificato solo il valore. Il tipo di dati può essere ricavato dal valore (ad esempio stringa, numero intero, decimale ecc.). Per casi specifici come l&#39;ora della data, utilizziamo funzioni dedicate per la rappresentazione.
+Tecnicamente, una costante contiene sempre un tipo di dati. Nell’espressione letterale viene specificato solo il valore . Il tipo di dati può essere dedotto dal valore (ad esempio stringa, numero intero, decimale e così via). Per casi specifici, come l’ora della data, utilizziamo funzioni dedicate per la rappresentazione.
 
-Le sezioni seguenti forniscono informazioni sulle diverse espressioni dei tipi di dati e sulla relativa rappresentazione.
+Le sezioni seguenti forniscono informazioni sulle diverse espressioni del tipo di dati e sulla relativa rappresentazione.
 
 ## stringa {#string}
 
@@ -28,7 +31,7 @@ Formato JSON: Stringa
 
 Formato di serializzazione: UTF-8
 
-**Rappresentazione letterale**
+**Rappresentanza letterale**
 
 ```
 "<value>"
@@ -52,11 +55,11 @@ Formato di serializzazione: UTF-8
 
 **Descrizione**
 
-Valore intero compreso tra -2^63 e 2^63-1.
+Valore intero da -2^63 a 2^63-1.
 
 Formato JSON: Numero
 
-**Rappresentazione letterale**
+**Rappresentanza letterale**
 
 ```
 <integer value>
@@ -68,21 +71,21 @@ Formato JSON: Numero
 42
 ```
 
-## decimal {#decimal}
+## decimale {#decimal}
 
 **Descrizione**
 
 Numero decimale. Rappresenta un valore mobile:
 
 * valore finito positivo maggiore di tipo doppio, (2-2^-52)x2^1023
-* valore normale positivo minimo di tipo doppio, 2-1022
-* più piccolo valore positivo diverso da zero di tipo doppio, 2 p-1074
+* valore normale positivo più piccolo del tipo doppio, 2-1022
+* valore positivo minore diverso da zero di tipo doppio, 2 p-1074
 
 Formato JSON: Numero
 
 Formato di serializzazione: utilizzo di &#39;.&#39; come separatore decimale.
 
-**Rappresentazione letterale**
+**Rappresentanza letterale**
 
 ```
 <integer value>.<integer value>
@@ -94,15 +97,15 @@ Formato di serializzazione: utilizzo di &#39;.&#39; come separatore decimale.
 3.14
 ```
 
-## boolean {#boolean}
+## booleano {#boolean}
 
 **Descrizione**
 
-Valore booleano scritto in lettere minuscole: true o false
+Valore booleano scritto in minuscolo: true o false
 
 Formato JSON: Booleano
 
-**Rappresentazione letterale**
+**Rappresentanza letterale**
 
 ```
 true
@@ -122,9 +125,9 @@ true
 
 **Descrizione**
 
-Rappresenta un&#39;ora data senza un fuso orario, visualizzata come anno-mese-giorno-ora-minuto-secondo-millisecondo.
+Rappresenta un’ora di data senza un fuso orario, visualizzata come anno-mese-giorno-ora-minuto-secondo-millisecondi.
 
-Non memorizza né rappresenta un fuso orario. Al contrario, è una descrizione della data, come utilizzato per i compleanni, combinato con l&#39;ora locale come visto su un orologio a muro.
+Non memorizza o rappresenta un fuso orario. Invece, è una descrizione della data, come utilizzato per i compleanni, combinato con l&#39;ora locale come visto su un orologio a muro.
 
 Non può rappresentare un istante sulla linea temporale senza informazioni aggiuntive, ad esempio un offset o un fuso orario.
 
@@ -132,7 +135,7 @@ Formato di serializzazione: Formato data-ora offset esteso ISO-8601.
 
 Utilizza DateTimeForsubject ISO_LOCAL_DATE_TIME per deserializzare e serializzare il valore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
-**Rappresentazione letterale**
+**Rappresentanza letterale**
 
 ```
 toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
@@ -142,13 +145,13 @@ toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")
 
 **Descrizione**
 
-Costante data e ora che considera anche il fuso orario. Rappresenta una data-ora con un offset dall&#39;UTC.
+Costante di data che considera anche il fuso orario. Rappresenta una data-ora con un offset da UTC.
 
 Può essere visualizzato come un istante nel tempo con le informazioni aggiuntive dell&#39;offset. È un modo per rappresentare un &quot;momento&quot; specifico in un certo luogo del mondo.
 
 Formato JSON: Stringa.
 
-Deve essere racchiuso in una funzione toDateTime.
+Deve essere incapsulato in una funzione toDateTime .
 
 Formato di serializzazione: Formato data-ora offset esteso ISO-8601.
 
@@ -156,9 +159,9 @@ Utilizza DateTimeForsubject ISO_OFFSET_DATE_TIME per deserializzare e serializza
 
 È inoltre possibile passare un numero intero che passa un valore epoch. [Leggi tutto](https://www.epochconverter.com)
 
-Il fuso orario può essere specificato mediante un offset o un codice del fuso orario (ad esempio: Europa/Parigi, Z - significato UTC).
+Il fuso orario può essere specificato da un codice di offset o di fuso orario (ad esempio: Europa/Parigi, Z - significato UTC).
 
-**Rappresentazione letterale**
+**Rappresentanza letterale**
 
 ```
 toDateTime("<dateTime in ISO-8601 format>")
@@ -198,19 +201,19 @@ toDateTime(1560762190189)
 
 **Descrizione**
 
-Rappresenta una quantità di tempo basata sul tempo, ad esempio &#39;34,5 secondi&#39;. Il modello mostra una quantità o quantità di tempo in millisecondi.
+Rappresenta una quantità di tempo basata sul tempo, ad esempio &quot;34,5 secondi&quot;. Modella una quantità o una quantità di tempo in millisecondi.
 
-Le unità temporali supportate sono: millisecondi, secondi, minuti, ore, giorni in cui un giorno equivale a 24 ore. Gli anni e i mesi non sono supportati perché non sono un periodo di tempo fisso.
+Le unità temporali supportate sono: millisecondi, secondi, minuti, ore, giorni in cui un giorno è uguale a 24 ore. Gli anni e i mesi non sono supportati in quanto non rappresentano un periodo di tempo fisso.
 
 Formato JSON: Stringa.
 
-Deve essere racchiuso in una funzione toDuration.
+Deve essere incapsulato in una funzione toDuration.
 
-Formato di serializzazione: Per deserializzare l’ID di un fuso orario, utilizza la funzione Java java.time.
+Formato di serializzazione: Per deserializzare un ID di fuso orario, utilizza la funzione java java.time.
 
-Duration.parse: i formati accettati si basano sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: i formati accettati sono basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
-**Rappresentazione letterale**
+**Rappresentanza letterale**
 
 ```
 toDuration("<duration in ISO-8601 format>")
@@ -266,11 +269,11 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 
 **Descrizione**
 
-Elenco separato da virgole di espressioni utilizzando le parentesi quadre come delimitatori.
+Elenco di espressioni separate da virgola che utilizzano parentesi quadre come delimitatori.
 
-Il polimorfismo non è supportato, pertanto tutte le espressioni contenute nell&#39;elenco devono avere lo stesso tipo.
+Polimorfismo non supportato, pertanto tutte le espressioni contenute nell&#39;elenco devono avere lo stesso tipo.
 
-**Rappresentazione letterale**
+**Rappresentanza letterale**
 
 ```
 [<expression>, <expression>, ... ]
