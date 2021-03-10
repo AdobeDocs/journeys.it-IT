@@ -3,26 +3,29 @@ product: adobe campaign
 solution: Journey Orchestration
 title: replaceAll
 description: Scopri la funzione replaceAll
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 5%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
 
 # replaceAll {#replaceAll}
 
-Sostituisce tutte le occorrenze che corrispondono alla stringa di destinazione con la stringa sostitutiva nella stringa base.
+Sostituisce tutte le occorrenze corrispondenti alla stringa di destinazione con la stringa di sostituzione nella stringa di base.
 
-Il passaggio di sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si ottiene &quot;ba&quot; anziché &quot;ab&quot;.
+La sostituzione procede dall’inizio della stringa alla fine, ad esempio sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
 
 ## Categoria
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `replaceAll(<parameters>)`
 
@@ -32,7 +35,7 @@ Stringa
 |-----------|--------------|
 | base | string |
 | target | string |
-| sostitutivo | string |
+| sostituzione | string |
 
 ## Firma e tipo restituito
 
