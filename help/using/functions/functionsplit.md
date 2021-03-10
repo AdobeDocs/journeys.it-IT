@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: split
-description: Scopri la divisione della funzione
+description: Scopri la suddivisione della funzione
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 135485c097f99483c2ddb3d03e0552f9ac134b44
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 4%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
 
 # split {#split}
 
-Divide la prima stringa argomento con una stringa separatore (seconda stringa argomento, che può essere un&#39;espressione regolare) per generare un elenco di stringhe (token).
+Divide la prima stringa argomento con una stringa separatore (seconda stringa argomento, che può essere un’espressione regolare) per generare un elenco di stringhe (token).
 
 ## Categoria
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `split(<parameters>)`
 
