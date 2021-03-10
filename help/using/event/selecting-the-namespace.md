@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Selezione dello spazio dei nomi
-description: Scoprite come selezionare lo spazio dei nomi
+description: Scopri come selezionare lo spazio dei nomi
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '208'
 ht-degree: 12%
 
 ---
@@ -14,19 +17,19 @@ ht-degree: 12%
 
 # Selezione dello spazio dei nomi {#concept_ckb_3qt_52b}
 
-Lo spazio dei nomi consente di definire il tipo di chiave utilizzata per identificare la persona associata all&#39;evento. La configurazione è opzionale. È richiesto se si desidera recuperare, nei viaggi, informazioni aggiuntive provenienti dal [Real-time Customer Profile](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html). La definizione dello spazio dei nomi non è necessaria se si utilizzano solo dati provenienti da un sistema di terze parti tramite un&#39;origine dati personalizzata.
+Lo spazio dei nomi ti consente di definire il tipo di chiave utilizzata per identificare la persona associata all’evento. La configurazione è facoltativa. È richiesto se desideri recuperare, nei tuoi percorsi, informazioni aggiuntive provenienti dal [Profilo del cliente in tempo reale](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html). La definizione dello spazio dei nomi non è necessaria se utilizzi solo dati provenienti da un sistema di terze parti tramite un’origine dati personalizzata.
 
-È possibile utilizzare uno dei predefiniti oppure crearne uno nuovo utilizzando il servizio Spazio nomi identità. Fare riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/identity/home.html).
+È possibile utilizzare uno dei predefiniti oppure crearne uno nuovo utilizzando il servizio Namespace Identity. Fai riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/identity/home.html).
 
-Se si seleziona uno schema con un&#39;identità primaria, i campi **[!UICONTROL Key]** e **[!UICONTROL Namespace]** vengono precompilati. Se non è definita alcuna identità, si seleziona _identityMap > id_ come chiave primaria. Quindi è necessario selezionare uno spazio dei nomi e la chiave sarà precompilata (sotto il campo **[!UICONTROL Namespace]**) utilizzando _identityMap > id_.
+Se selezioni uno schema con un&#39;identità primaria, i campi **[!UICONTROL Key]** e **[!UICONTROL Namespace]** sono precompilati. Se non è definita alcuna identità, selezioniamo _identityMap > id_ come chiave primaria. Quindi devi selezionare uno spazio dei nomi e la chiave verrà precompilata (sotto il campo **[!UICONTROL Namespace]** ) utilizzando _identityMap > id_.
 
-Quando si selezionano i campi, i tag dei campi identità primari sono assegnati.
+Durante la selezione dei campi, i campi di identità principali vengono contrassegnati con tag.
 
 ![](../assets/primary-identity.png)
 
 
-Selezionare uno spazio nomi dall&#39;elenco a discesa.
+Seleziona uno spazio dei nomi dall’elenco a discesa.
 
 ![](../assets/journey17.png)
 
-Per ogni percorso è consentito un solo spazio dei nomi. Se si utilizzano più eventi nello stesso percorso, è necessario che utilizzino lo stesso spazio nomi. Consulta [questa pagina](../building-journeys/journey.md).
+È consentito un solo spazio dei nomi al percorso. Se utilizzi più eventi nello stesso percorso, è necessario che utilizzino lo stesso namespace. Consulta [questa pagina](../building-journeys/journey.md).
