@@ -3,23 +3,26 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDateTime
 description: Scopri la funzione toDateTime
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 4%
+source-wordcount: '97'
+ht-degree: 5%
 
 ---
 
 # toDateTime {#toDateTime}
 
-Converte i parametri in un valore di data e ora, a seconda del tipo.
+Converte i parametri in un valore di ora della data, a seconda dei loro tipi.
 
 ## Categoria
 
 Conversione
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `toDateTime(<parameters>)`
 
@@ -27,14 +30,14 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| data e ora in formato ISO-8601 | string |
+| ora in formato ISO-8601 | string |
 | id fuso orario | string |
 | data e ora senza fuso orario | dateTimeOnly |
 | valore intero di un&#39;epoch in millisecondi | integer |
 
 >[!NOTE]
 >
->L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione. Per ulteriori informazioni sui tipi di dati, fare riferimento a [questa pagina](../expression/data-types.md).
+>L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
 
 ## Firme e tipi restituiti
 
