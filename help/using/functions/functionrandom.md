@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: random
-description: Scopri la funzione a caso
+description: Scopri la funzione casuale
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '55'
 ht-degree: 5%
 
 ---
@@ -20,7 +23,7 @@ Genera un numero casuale compreso tra 0 e 1.
 
 Percorsi
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `random(<parameters>)`
 
@@ -28,10 +31,10 @@ Percorsi
 
 `random()`
 
-Restituisce un valore decimale.
+Restituisce un decimale.
 
 ## Esempio
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-Spiegazione: se il rapporto di successo non ha alcun valore/è nullo, il valore predefinito sarà applicato e sarà una figura casuale compresa tra 0 e 1 * 100 (ovvero da 0 a 100).
+Spiegazione: se il rapporto di successo non ha valore/è nullo, viene applicato il valore predefinito e sarà una figura casuale compresa tra 0 e 1 * 100 (ovvero da 0 a 100).
