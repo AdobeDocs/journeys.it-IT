@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: setDays
-description: Informazioni sulla funzione setDays
+description: Scopri la funzione setDays
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
 
 # setDays {#setDays}
 
-Imposta il giorno solo dell’ora della data o dell’ora della data. Ad esempio, se desiderate aspettare fino a un determinato giorno del mese, potete forzare il giorno.
+Imposta solo il giorno dell’ora o dell’ora della data. Ad esempio, se desideri attendere fino a un determinato giorno del mese, puoi forzare il giorno .
 
 ## Categoria
 
 Data
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `setDays(<parameter>)`
 
@@ -28,8 +31,8 @@ Data
 
 | Parametro | Tipo |
 |--- |--- |
-| data e ora | dateTime |
-| data ora senza considerare il fuso orario | dateTimeOnly |
+| ora | dateTime |
+| data e ora senza considerare il fuso orario | dateTimeOnly |
 | giorni | integer |
 
 ## Firme e tipo restituito
@@ -40,7 +43,7 @@ Restituisce un valore datetime.
 
 `setDays(<dateTimeOnly>,<days>)`
 
-Restituisce un datetime senza considerare il fuso orario.
+Restituisce un valore datetime senza considerare il fuso orario.
 
 ## Esempi
 
