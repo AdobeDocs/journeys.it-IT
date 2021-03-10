@@ -1,12 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 'Informazioni sugli schemi ExperienceEvent per gli eventi di Journey Orchestration '
-description: 'Scopri gli schemi ExperienceEvent per gli eventi di Journey Orchestration '
+title: 'Informazioni sugli schemi ExperienceEvent per eventi di Journey Orchestration '
+description: 'Scopri gli schemi ExperienceEvent per eventi Journey Orchestration '
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -15,37 +18,37 @@ ht-degree: 0%
 
 # Informazioni sugli schemi ExperienceEvent per gli eventi [!DNL Journey Orchestration]
 
-[!DNL Journey Orchestration] gli eventi sono eventi di esperienza XDM che vengono inviati all&#39;Adobe Experience Platform tramite Streaming Ingestion.
+[!DNL Journey Orchestration] Gli eventi sono eventi esperienza XDM che vengono inviati a Adobe Experience Platform tramite Streaming Ingestion.
 
-Di conseguenza, un prerequisito importante per impostare gli eventi per [!DNL Journey Orchestration] è che tu abbia familiarità con il modello dati esperienza (o XDM) di Adobe Experience Platform e con come comporre gli schemi evento esperienza XDM, nonché con come trasmettere i dati in formato XDM all&#39;Adobe Experience Platform.
+Di conseguenza, un prerequisito importante per la configurazione degli eventi per [!DNL Journey Orchestration] è che tu abbia familiarità con Experience Data Model (o XDM) di Adobe Experience Platform e con le modalità di composizione degli schemi XDM Experience Event, nonché con le modalità di streaming dei dati in formato XDM in Adobe Experience Platform.
 
 ## Requisiti dello schema per gli eventi [!DNL Journey Orchestration]
 
-Il primo passaggio nella configurazione di un evento per [!DNL Journey Orchestration] consiste nell&#39;assicurarsi di disporre di uno schema XDM definito per rappresentare l&#39;evento, e di un dataset creato per registrare le istanze dell&#39;evento sull&#39;Adobe Experience Platform. La disponibilità di un set di dati per gli eventi non è strettamente necessaria, ma l&#39;invio degli eventi a un set di dati specifico vi consentirà di mantenere la cronologia degli eventi degli utenti per riferimento e analisi futuri, pertanto è sempre una buona idea. Se non si dispone già di uno schema e di un set di dati adeguati per l&#39;evento, entrambe le operazioni possono essere eseguite nell&#39;interfaccia Web di Adobe Experience Platform.
+Il primo passaggio nella configurazione di un evento per [!DNL Journey Orchestration] consiste nell&#39;assicurarsi di disporre di uno schema XDM definito per rappresentare l&#39;evento e di un set di dati creato per registrare le istanze dell&#39;evento in Adobe Experience Platform. Disporre di un set di dati per i tuoi eventi non è strettamente necessario, ma l’invio degli eventi a un set di dati specifico ti consentirà di mantenere la cronologia degli eventi degli utenti per riferimenti e analisi futuri, quindi è sempre una buona idea. Se non disponi già di uno schema e di un set di dati appropriati per l’evento, entrambe le attività possono essere eseguite nell’interfaccia Web di Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
-Qualsiasi schema XDM che verrà utilizzato per gli eventi [!DNL Journey Orchestration] deve soddisfare i seguenti requisiti:
+Qualsiasi schema XDM che verrà utilizzato per eventi [!DNL Journey Orchestration] deve soddisfare i seguenti requisiti:
 
 * Lo schema deve essere della classe ExperienceEvent XDM.
 
    ![](../assets/schema2.png)
 
-* Per gli eventi generati dal sistema, lo schema deve includere il mixin eventID di orchestrazione. [!DNL Journey Orchestration] utilizza questo campo per identificare gli eventi utilizzati nei viaggi.
+* Per gli eventi generati dal sistema, lo schema deve includere il mixin eventID di Orchestration. [!DNL Journey Orchestration] utilizza questo campo per identificare gli eventi utilizzati nei percorsi.
 
    ![](../assets/schema3.png)
 
-* Dichiarare un campo di identità per identificare l’oggetto dell’evento. Se non viene specificata alcuna identità, è possibile utilizzare una mappa di identità. Questo non è consigliato.
+* Dichiara un campo di identità per identificare l’oggetto dell’evento. Se non viene specificata alcuna identità, è possibile utilizzare una mappa di identità. Questa opzione non è consigliata.
 
    ![](../assets/schema4.png)
 
-* Se si desidera che questi dati siano disponibili per la ricerca successiva in un viaggio, contrassegnare lo schema e il dataset per il profilo.
+* Se desideri che questi dati siano disponibili per la ricerca in un secondo momento in un Percorso, contrassegna lo schema e il set di dati per il profilo.
 
    ![](../assets/schema5.png)
 
    ![](../assets/schema6.png)
 
-* Potete includere campi di dati per acquisire qualsiasi altro dato contestuale da includere nell&#39;evento, ad esempio informazioni sull&#39;utente, sul dispositivo da cui è stato generato l&#39;evento, sulla posizione o su qualsiasi altra circostanza significativa correlata all&#39;evento.
+* Puoi includere campi di dati per acquisire altri dati contestuali da includere con l’evento, ad esempio informazioni sull’utente, il dispositivo da cui è stato generato l’evento, la posizione o qualsiasi altra circostanza significativa correlata all’evento.
 
    ![](../assets/schema7.png)
 
