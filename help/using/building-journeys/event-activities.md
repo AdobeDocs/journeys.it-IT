@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informazioni sulle attività eventi
 description: Informazioni sulle attività degli eventi
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -14,41 +17,41 @@ ht-degree: 1%
 
 # Informazioni sulle attività eventi {#concept_rws_1rt_52b}
 
-Gli eventi configurati dall&#39;utente tecnico (vedere [questa pagina](../event/about-events.md)) vengono visualizzati nella prima categoria della palette, sul lato sinistro dello schermo.
+Gli eventi configurati dall’utente tecnico (consulta [questa pagina](../event/about-events.md)) vengono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo.
 
 ![](../assets/journey43.png)
 
-Iniziate sempre il viaggio trascinando e rilasciando un&#39;attività dell&#39;evento. Potete anche fare doppio clic su di esso.
+Avvia sempre il percorso trascinando e rilasciando un’attività evento. Puoi anche fare doppio clic su di esso.
 
 ![](../assets/journey44.png)
 
-Quando fate clic sull&#39;attività dell&#39;evento nell&#39;area di lavoro, viene visualizzato il riquadro di configurazione dell&#39;attività. Per impostazione predefinita, quando si utilizza lo stesso evento più volte, al nome dell&#39;evento nell&#39;area di lavoro viene aggiunto un numero incrementale. Inoltre, potete utilizzare il campo **[!UICONTROL Label]** per aggiungere un suffisso al nome dell&#39;evento che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questo è utile per identificare gli eventi nel quadro, soprattutto se si utilizza più volte lo stesso evento. Inoltre, faciliterà il debug in caso di errori e faciliterà la lettura dei report.
+Quando fai clic sull’attività dell’evento nell’area di lavoro, viene visualizzato il riquadro di configurazione dell’attività . Per impostazione predefinita, quando utilizzi più volte lo stesso evento, al nome dell’evento nell’area di lavoro viene aggiunto un numero incrementale. Inoltre, puoi utilizzare il campo **[!UICONTROL Label]** per aggiungere un suffisso al nome dell’evento che verrà visualizzato sotto l’attività nell’area di lavoro. Questo è utile per identificare gli eventi nell’area di lavoro, soprattutto se utilizzi più volte lo stesso evento. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti.
 
 ![](../assets/journey33.png)
 
 ## Ascolto degli eventi durante un periodo di tempo specifico
 
-Un&#39;attività dell&#39;evento posizionata nel percorso ascolta gli eventi in modo indefinito. Per ascoltare un evento solo durante un certo periodo di tempo, dovete configurare un timeout per l&#39;evento.
+Un’attività dell’evento posizionata nel percorso ascolta gli eventi a tempo indefinito. Per ascoltare un evento solo durante un certo periodo di tempo, devi configurare un timeout per l’evento.
 
-Il viaggio quindi ascolterà l&#39;evento durante il tempo specificato nel timeout. Se un evento viene ricevuto durante tale periodo, la persona scorre nel percorso dell&#39;evento. In caso contrario, il cliente percorrerà un percorso di timeout o terminerà il viaggio.
+Il percorso ascolterà quindi l&#39;evento durante il tempo specificato nel timeout. Se un evento viene ricevuto durante quel periodo, la persona scorre nel percorso dell&#39;evento. In caso contrario, il cliente può scorrere in un percorso di timeout o terminare il percorso.
 
-Per configurare un timeout per un evento, attenetevi alla procedura seguente:
+Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
-1. Attivate l&#39;opzione **[!UICONTROL Enable the event timeout]** dalle proprietà dell&#39;evento.
+1. Attiva l&#39;opzione **[!UICONTROL Enable the event timeout]** dalle proprietà dell&#39;evento.
 
-1. Specificate il tempo di attesa del viaggio per l’evento.
+1. Specifica il tempo di attesa dell’evento da parte del percorso.
 
-1. Se desiderate inviare gli utenti a un percorso di timeout quando nessun evento viene ricevuto entro il timeout specificato, abilitate l&#39;opzione **[!UICONTROL Set the timeout path]**. Se questa opzione non è abilitata, il percorso terminerà per l&#39;individuo una volta raggiunto il timeout.
+1. Se desideri inviare gli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita l’opzione **[!UICONTROL Set the timeout path]** . Se questa opzione non è abilitata, il percorso termina per la persona una volta raggiunto il timeout.
 
    ![](../assets/event-timeout.png)
 
-In questo esempio, il viaggio invia una prima notifica di benvenuto a un cliente. Invia quindi un push con sconto per il pasto solo se il cliente entra nel ristorante entro il giorno successivo. Abbiamo pertanto configurato l&#39;evento ristorante con un timeout di 1 giorno:
+In questo esempio, il percorso invia un primo messaggio push di benvenuto a un cliente. Invia quindi un push con sconto sul pasto solo se il cliente entra nel ristorante entro il giorno successivo. Abbiamo pertanto configurato l’evento del ristorante con un timeout di 1 giorno:
 
-* Se l&#39;evento del ristorante viene ricevuto meno di 1 giorno dopo il push di benvenuto, l&#39;attività push con sconto pasto viene inviata.
-* Se non viene ricevuto alcun evento ristorante entro il giorno successivo, la persona scorre attraverso il percorso di timeout.
+* Se l’evento del ristorante viene ricevuto meno di 1 giorno dopo il messaggio push di benvenuto, viene inviata l’attività push con sconto sui pasti.
+* Se non viene ricevuto alcun evento di ristorante entro il giorno successivo, la persona scorre attraverso il percorso di timeout.
 
-Se desiderate configurare un timeout per più eventi posizionati dopo un&#39;attività **[!UICONTROL Wait]**, dovete configurare il timeout solo per uno di questi eventi.
+Tieni presente che se desideri configurare un timeout per più eventi posizionati dopo un’attività **[!UICONTROL Wait]** , devi configurare il timeout solo per uno di questi eventi.
 
-Il timeout verrà applicato a tutti gli eventi posizionati dopo l&#39;attività **[!UICONTROL Wait]**. Se non viene ricevuto alcun evento dopo il timeout specificato, gli utenti accederanno a un singolo percorso di timeout o termineranno il viaggio.
+Il timeout si applica a tutti gli eventi posizionati dopo l’attività **[!UICONTROL Wait]** . Se non viene ricevuto alcun evento dopo il timeout specificato, gli utenti accederanno a un singolo percorso di timeout o termineranno il percorso.
 
 ![](../assets/event-timeout-group.png)
