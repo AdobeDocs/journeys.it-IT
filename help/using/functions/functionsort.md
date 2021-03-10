@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: sort
-description: Informazioni sull'ordinamento delle funzioni
+description: Scopri l’ordinamento delle funzioni
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 10%
+source-wordcount: '108'
+ht-degree: 11%
 
 ---
 
 
 # sort {#sort}
 
-Ordina un elenco di valori nell&#39;ordine naturale. Il primo argomento è l&#39;elenco di valori, il secondo è un valore booleano che indica se l&#39;ordinamento è crescente (true) o decrescente (false).
+Ordina un elenco di valori nell’ordine naturale. Il primo argomento è l’elenco dei valori, il secondo è un valore booleano che indica se l’ordinamento è crescente (true) o decrescente (false).
 
 ## Categoria
 
 Elenco
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `sort(<parameters>)`
 
@@ -41,7 +44,7 @@ Elenco
 
 `sort(<listInteger>,<boolean>)`
 
-Restituisce un elenco di interi.
+Restituisce un elenco di numeri interi.
 
 `sort(<listDecimal>,<boolean>)`
 
@@ -53,11 +56,11 @@ Restituisce un elenco di stringhe.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Restituisce un elenco di dateTime senza considerare il fuso orario.
+Restituisce un elenco di date senza considerare il fuso orario.
 
 `sort(<listDateTime>,<boolean>)`
 
-Restituisce un elenco di dateTime.
+Restituisce un elenco di date.
 
 `sort(<listBoolean>,<boolean>)`
 
