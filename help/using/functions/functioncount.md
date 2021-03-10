@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: count
-description: Ulteriori informazioni sul conteggio delle funzioni
+description: Informazioni sul conteggio delle funzioni
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '54'
 ht-degree: 22%
 
 ---
@@ -14,13 +17,13 @@ ht-degree: 22%
 
 # count {#count}
 
-Conta gli elementi dell&#39;elenco che non tengono conto dei valori null.
+Conta gli elementi dell’elenco che non tengono conto dei valori nulli.
 
 ## Categoria
 
 Aggregazione
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `count(<listAny>)`
 
