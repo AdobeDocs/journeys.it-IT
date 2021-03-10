@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Funzioni di gestione delle raccolte
 description: Informazioni sui tipi di dati nelle funzioni di gestione della raccolta
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 1%
 
 Il linguaggio di espressione introduce anche un set di funzioni per eseguire query sulle raccolte.
 
-Queste funzioni sono spiegate di seguito. Negli esempi seguenti, utilizziamo il payload dell&#39;evento contenente una raccolta:
+Queste funzioni sono spiegate di seguito. Negli esempi seguenti, utilizziamo il payload dell’evento contenente una raccolta:
 
 ```
                 { 
@@ -60,19 +63,19 @@ Queste funzioni sono spiegate di seguito. Negli esempi seguenti, utilizziamo il 
 
 **La funzione &quot;all(`<condition>`)&quot;**
 
-La funzione **[!UICONTROL all]** abilita la definizione di un filtro in una determinata raccolta utilizzando un&#39;espressione booleana.
+La funzione **[!UICONTROL all]** abilita la definizione di un filtro su una determinata raccolta utilizzando un&#39;espressione booleana.
 
 ```
 <listExpression>.all(<condition>)
 ```
 
-Ad esempio, tra tutti gli utenti dell&#39;app, potete ottenere quelli che utilizzano IOS 13 (espressione booleana &quot;app utilizzata == IOS 13&quot;). Il risultato di questa funzione è l&#39;elenco filtrato contenente elementi corrispondenti all&#39;espressione booleana (esempio: app user 1, app user 34, app user 432).
+Ad esempio, tra tutti gli utenti dell’app, puoi ottenere quelli che utilizzano IOS 13 (espressione booleana &quot;app used == IOS 13&quot;). Il risultato di questa funzione è l’elenco filtrato contenente elementi che corrispondono all’espressione booleana (esempio: utente app 1, utente app 34, utente app 432).
 
-In un&#39;attività Condizione origine dati è possibile verificare se il risultato della funzione **[!UICONTROL all]** è nullo o meno. È inoltre possibile combinare questa funzione **[!UICONTROL all]** con altre funzioni come **[!UICONTROL count]**. Per ulteriori informazioni, vedere [Attività condizione origine dati](../building-journeys/condition-activity.md#data_source_condition).
+In un’attività Condizione origine dati puoi verificare se il risultato della funzione **[!UICONTROL all]** è nullo o meno. È inoltre possibile combinare questa funzione **[!UICONTROL all]** con altre funzioni come **[!UICONTROL count]**. Per ulteriori informazioni, consulta [Attività condizione origine dati](../building-journeys/condition-activity.md#data_source_condition).
 
 **Esempio 1:**
 
-Vogliamo verificare se un utente ha installato una versione specifica di un&#39;applicazione. A questo scopo, tutti i token di notifica push vengono associati alle applicazioni mobili la cui versione è 1.0. Quindi, viene eseguita una condizione con la funzione **[!UICONTROL count]** per verificare che l&#39;elenco restituito di token contenga almeno un elemento.
+Vogliamo verificare se un utente ha installato una versione specifica di un&#39;applicazione. A questo scopo, otteniamo tutti i token di notifica push associati alle applicazioni mobili per le quali la versione è 1.0. Quindi, eseguiamo una condizione con la funzione **[!UICONTROL count]** per verificare che l’elenco restituito di token contenga almeno un elemento.
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -82,7 +85,7 @@ Il risultato è vero.
 
 **Esempio 2:**
 
-In questa sezione viene utilizzata la funzione **[!UICONTROL count]** per verificare se nella raccolta sono presenti token di notifica push.
+Qui usiamo la funzione **[!UICONTROL count]** per verificare se nella raccolta sono presenti token di notifica push.
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -115,7 +118,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->Quando la condizione di filtro nella funzione **all()** è vuota, il filtro restituirà tutti gli elementi nell&#39;elenco. **Tuttavia, per conteggiare il numero di elementi di una raccolta, la funzione all non è obbligatoria.**
+>Quando la condizione di filtro nella funzione **all()** è vuota, il filtro restituirà tutti gli elementi dell&#39;elenco. **Tuttavia, per contare il numero di elementi di una raccolta, la funzione all non è necessaria.**
 
 
 ```
@@ -126,7 +129,7 @@ Il risultato dell&#39;espressione è **3**.
 
 **Esempio 3:**
 
-Qui verifichiamo se un individuo non ha ricevuto alcuna comunicazione entro le ultime 24 ore. Filtriamo la raccolta di eventi esperienza recuperati dall&#39;origine dati ExperiencePlatform utilizzando due espressioni basate su due elementi della raccolta. In particolare, la marca temporale dell&#39;evento viene confrontata con la dataTime restituita dalla funzione **[!UICONTROL nowWithDelta]**.
+Qui verifichiamo se un individuo non ha ricevuto alcuna comunicazione entro le ultime 24 ore. Filtriamo la raccolta di eventi di esperienza recuperati dall’origine dati Experience Platform, utilizzando due espressioni basate su due elementi della raccolta. In particolare, la marca temporale dell&#39;evento viene confrontata con la dataTime restituita dalla funzione **[!UICONTROL nowWithDelta]** .
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -134,11 +137,11 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
-Il risultato sarà vero se non esiste un evento esperienza che corrisponda alle due condizioni.
+Il risultato sarà vero se non esiste un evento di esperienza che corrisponda alle due condizioni.
 
 **Esempio 4:**
 
-Qui si desidera verificare se un individuo ha avviato almeno una volta un&#39;applicazione negli ultimi 7 giorni, ad esempio per attivare una notifica push invitandolo ad avviare un&#39;esercitazione.
+Qui vogliamo verificare se una persona ha avviato almeno una volta un’applicazione negli ultimi 7 giorni, per esempio per attivare una notifica push invitandola ad avviare un’esercitazione.
 
 ```
 count(
@@ -166,14 +169,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** è disponibile solo quando si modificano le raccolte di eventi e  **currentDataPackField**
->durante la manipolazione delle raccolte di origini dati. Durante l&#39;elaborazione delle raccolte con **[!UICONTROL all]**, **[!UICONTROL first]** e **[!UICONTROL last]**,
->su ciascun elemento della raccolta, uno per uno. **[!UICONTROL currentEventField]** e  **currentDataPackField**
->corrisponde all’elemento a cui viene ripetuto il ciclo.
+>**[!UICONTROL currentEventField]** è disponibile solo durante la manipolazione delle raccolte di eventi e  **currentDataPackField**
+>durante la manipolazione delle raccolte di origini dati. Quando elaboriamo le raccolte con **[!UICONTROL all]**, **[!UICONTROL first]** e **[!UICONTROL last]**,
+>su ogni elemento della raccolta, uno per uno. **[!UICONTROL currentEventField]** e  **currentDataPackField**
+>corrispondono all’elemento a cui si sta ripetendo il ciclo.
 
 **Le funzioni &quot;first(`<condition>`)&quot; e &quot;last(`<condition>`)&quot;**
 
-Le funzioni **[!UICONTROL first]** e **[!UICONTROL last]** consentono anche la definizione di un filtro nella raccolta restituendo il primo o l&#39;ultimo elemento dell&#39;elenco che soddisfa il filtro.
+Le funzioni **[!UICONTROL first]** e **[!UICONTROL last]** consentono inoltre di definire un filtro per la raccolta restituendo al contempo il primo/ultimo elemento dell’elenco che soddisfa il filtro.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -191,7 +194,7 @@ Il risultato è &quot;token_1&quot;.
 
 **Esempio 2:**
 
-Questa espressione restituisce l&#39;ultimo token di notifica push associato alle applicazioni mobili la cui versione è 1.0.
+Questa espressione restituisce l’ultimo token di notifica push associato alle applicazioni mobili la cui versione è 1.0.
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
@@ -201,14 +204,14 @@ Il risultato è &quot;token_2&quot;.
 
 >[!NOTE]
 >
->Gli eventi esperienza vengono recuperati dall&#39;Adobe Experience Platform come raccolta in ordine cronologico inverso, di conseguenza:
->* **[!UICONTROL first]** restituirà l&#39;evento più recente
->* **[!UICONTROL last]** restituirà la funzione meno recente.
+>Gli eventi di esperienza vengono recuperati da Adobe Experience Platform come raccolta in ordine cronologico inverso, quindi :
+>* **[!UICONTROL first]** restituirà l’evento più recente
+>* **[!UICONTROL last]** restituirà quello più vecchio.
 
 
 **Esempio 3:**
 
-Verifichiamo che il primo (più recente) evento  Adobe Analytics con un valore diverso da zero per l&#39;ID DMA abbia un valore pari a 602.
+Controlliamo se il primo evento Adobe Analytics (più recente) con un valore diverso da zero per DMA ID ha un valore pari a 602.
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
@@ -217,14 +220,14 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **La funzione &quot;at(`<index>`)&quot;**
 
-La funzione **[!UICONTROL at]** consente di fare riferimento a un elemento specifico in una raccolta in base a un indice.
+La funzione **[!UICONTROL at]** ti consente di fare riferimento a un elemento specifico in una raccolta in base a un indice.
 L&#39;indice 0 è il primo indice della raccolta.
 
 _`<listExpression>`.at(`<index>`)_
 
 **Esempio:**
 
-Questa espressione restituisce il secondo token di notifica push dell&#39;elenco.
+Questa espressione restituisce il secondo token di notifica push dell’elenco.
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
