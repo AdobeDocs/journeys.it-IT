@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: substr
-description: Scopri il substr funzione
+description: Informazioni sul substr funzione
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 7%
 
 ---
 
 
 # substr {#substr}
 
-Restituisce la sottostringa dell&#39;espressione stringa tra l&#39;indice start e l&#39;indice end. Se l&#39;indice finale non è definito, si trova tra l&#39;indice iniziale e la fine.
+Restituisce la sottostringa dell&#39;espressione stringa tra l&#39;indice begin e l&#39;indice end. Se l&#39;indice finale non è definito, si trova tra l&#39;indice iniziale e la fine.
 
 ## Categoria
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `substr(<parameters>)`
 
