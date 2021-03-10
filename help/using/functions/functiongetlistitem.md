@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: getListItem
 description: Scopri la funzione gstListItem
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 5539ea0e8f124896f5599dba63babaa3e5b0229b
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ Restituisce l&#39;elemento dell&#39;elenco in corrispondenza dell&#39;indice spe
 
 Elenco
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `getListItem(<parameters>)`
 
@@ -28,20 +31,20 @@ Elenco
 
 | Parametro | Tipo |
 |-----------|------------------|
-| list | listString |
-| list | listBoolean |
-| list | listInteger |
-| list | listDecimal |
-| list | listDuration |
-| list | listDateTime |
-| list | listDateTimeOnly |
+| elenco | listString |
+| elenco | listBoolean |
+| elenco | listInteger |
+| elenco | listDecimal |
+| elenco | listDuration |
+| elenco | listDateTime |
+| elenco | listDateTimeOnly |
 | index | integer |
 
 ## Firme e tipo restituito
 
 `getListItem(<listInteger>,<index>)`
 
-Restituisce un elenco di interi.
+Restituisce un elenco di numeri interi.
 
 `getListItem(<listDecimal>,<index>)`
 
@@ -53,11 +56,11 @@ Restituisce un elenco di stringhe.
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-Restituisce un elenco di dateTime senza considerare il fuso orario.
+Restituisce un elenco di date senza considerare il fuso orario.
 
 `getListItem(<listDateTime>,<index>)`
 
-Restituisce un elenco di dateTime.
+Restituisce un elenco di date.
 
 `getListItem(<listBoolean>,<index>)`
 
@@ -65,7 +68,7 @@ Restituisce un elenco di booleani.
 
 `getListItem(<listDuration>,<index>)`
 
-Restituisce un elenco delle durate.
+Restituisce un elenco di durate.
 
 ## Esempio
 
