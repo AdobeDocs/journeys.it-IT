@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
+feature: Percorsi
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2268'
 ht-degree: 68%
 
 ---
@@ -38,13 +41,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 ### Altri miglioramenti
 
 * Ora, durante la configurazione di un evento, solo i campi obbligatori per la convalida XDM sono preselezionati per impostazione predefinita. Questi campi non possono essere deselezionati.
-* Nella palette Percorso è stato aggiunto un nuovo filtro. Consente di visualizzare solo gli ultimi cinque eventi e azioni utilizzati, oltre a quelli predefiniti. Questo è specifico per ogni utente. Per impostazione predefinita, vengono visualizzati tutti gli elementi. [Leggi tutto](../building-journeys/using-the-journey-designer.md#palette)
+* Nella palette percorso è stato aggiunto un nuovo filtro. Consente di visualizzare solo gli ultimi cinque eventi e azioni utilizzati, oltre a quelli predefiniti. Questo è specifico per ogni utente. Per impostazione predefinita, vengono visualizzati tutti gli elementi. [Leggi tutto](../building-journeys/using-the-journey-designer.md#palette)
 * Quando si avvia un nuovo percorso, gli elementi che non possono essere eliminati nell’area di lavoro come primo passaggio sono ora nascosti. Questo riguarda tutte le azioni, l&#39;attività della condizione, l&#39;attesa e la reazione.
 * Nella parte sinistra dell’editor di espressioni avanzate, le funzioni sono ora raggruppate in una sezione **Funzioni** alla fine dell’elenco.
 
 ## Versione di gennaio 2021 {#january-2021-release}
 
-Quando si seleziona uno schema nella configurazione dell’evento, vengono selezionati solo i campi obbligatori per consentire la corretta ricezione dell’evento da parte di Journey Orchestration. [Leggi tutto](../event/defining-the-payload-fields.md)
+Quando si seleziona uno schema nella configurazione dell’evento, vengono selezionati solo i campi obbligatori per consentire la corretta ricezione dell’evento da parte del Journey Orchestration. [Leggi tutto](../event/defining-the-payload-fields.md)
 
 Gli attributi delle proprietà del percorso sono ora disponibili nell’editor di espressioni semplici. [Leggi tutto](../expression/journey-properties.md)
 
@@ -67,11 +70,11 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 <tbody>
 <tr>
 <td>
-<p>Una nuova attività di azione ti consente di spingere singoli utenti da un percorso all’altro. L’attività <strong>Jump</strong> ti consente di:
+<p>Una nuova attività di azione ti consente di inviare singoli utenti da un percorso all’altro. L’attività <strong>Jump</strong> ti consente di:
 </p>
 <ul>
-<li>semplificare la progettazione di percorsi molto complessi suddividendoli in più percorsi </li>
-<li>creare percorsi basati su pattern di percorso comuni e riutilizzabili</li>
+<li>semplificare la progettazione di percorsi molto complessi suddividendoli in più </li>
+<li>creare percorsi basati su modelli di percorso comuni e riutilizzabili</li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/jump.md">documentazione dettagliata</a> e <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">video tutorial</a>.</p>
 </td>
@@ -88,7 +91,7 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 <tbody>
 <tr>
 <td>
-<p>Nell’editor di espressioni avanzate, abbiamo aggiunto una nuova categoria nell’elenco dei campi e delle funzioni. Si tratta delle informazioni recuperate dal sistema dai percorsi live, ad esempio l’ID del percorso o gli errori specifici rilevati. In questo modo avrai più possibilità di creare i tuoi percorsi. Ad esempio, potrai avvisare i sistemi di terze parti in caso di errori riscontrati in una condizione o in un’azione.
+<p>Nell’editor di espressioni avanzate, abbiamo aggiunto una nuova categoria nell’elenco dei campi e delle funzioni. Si tratta delle informazioni recuperate dal sistema dai percorsi in tempo reale, ad esempio l’ID percorso o gli errori specifici rilevati. Questo vi darà più possibilità quando si costruiscono i vostri percorsi. Ad esempio, potrai avvisare i sistemi di terze parti in caso di errori riscontrati in una condizione o in un’azione.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../expression/journey-properties.md">documentazione dettagliata</a>.</p>
 </td>
@@ -116,7 +119,7 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 
 Sono state aggiunte limitazioni durante la creazione di nuove versioni di un percorso. Queste limitazioni evitano modifiche troppo drastiche nel percorso per mantenere una certa coerenza tra le versioni. [Leggi tutto](../about/limitations.md#journey-versions-limitations)
 
-L’attività **Qualificazione dei segmenti** non può più essere utilizzata in un percorso che include le attività relative ai messaggi di Campaign Standard. Questa restrizione protegge l’integrità delle istanze di Adobe Campaign Standard. In effetti, l’utilizzo della qualificazione dei segmenti può causare picchi giornalieri di invio dei messaggi che sovraccaricherebbero i messaggi transazionali di Campaign Standard. [Leggi tutto](../about/limitations.md#segment-qualification)
+L&#39;attività **Qualificazione del segmento** non può più essere utilizzata in un percorso che include attività messaggio di Campaign Standard. Questa restrizione protegge l’integrità delle istanze Adobe Campaign Standard. In effetti, l’utilizzo della qualificazione dei segmenti può causare picchi giornalieri di invio dei messaggi che sovraccaricano i messaggi transazionali Campaign Standard. [Leggi tutto](../about/limitations.md#segment-qualification)
 
 ## Versione di ottobre 2020 {#october-release}
 
@@ -129,7 +132,7 @@ L’attività **Qualificazione dei segmenti** non può più essere utilizzata in
 <tbody>
 <tr>
 <td>
-<p>Ora puoi configurare un timeout per un evento al fine di fare in modo che un percorso ascolti un evento solo durante un certo periodo di tempo. Per ottenere questo risultato, non è più necessario aggiungere un’attività Wait in parallelo al percorso dell’evento .
+<p>Ora puoi configurare un timeout per un evento in modo che un percorso ascolti un evento solo durante un certo periodo di tempo. Per ottenere questo risultato, non è più necessario aggiungere un’attività Wait in parallelo al percorso dell’evento .
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentazione dettagliata</a>.</p>
 </td>
@@ -154,7 +157,7 @@ L’attività **Qualificazione dei segmenti** non può più essere utilizzata in
 <tbody>
 <tr>
 <td>
-<p>Quando aggiungi condizioni al percorso, ora puoi definire un’etichetta. Se utilizzi più condizioni in un percorso, ti consente di identificarle più facilmente.
+<p>Quando aggiungi condizioni al percorso, ora puoi definire un’etichetta. Se utilizzi più condizioni in un percorso, questo ti consente di identificarle più facilmente.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/condition-activity.md#about_condition">documentazione dettagliata</a>.</p>
 </td>
@@ -176,7 +179,7 @@ L’attività **Qualificazione dei segmenti** non può più essere utilizzata in
 <p>Sono stati apportati i seguenti miglioramenti all'attività <strong>Read segment</strong> :
 </p>
 <ul>
-<li><p>I percorsi basati su segmenti ora vengono visualizzati, sopra l’area di lavoro, un promemoria del tipo di pianificazione del percorso. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>
+<li><p>I percorsi basati su segmenti ora vengono visualizzati, al di sopra dell’area di lavoro, un promemoria del tipo di pianificazione del percorso. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>
 </li>
 <li><p>È stata migliorata la granularità dei registri della modalità di test per visualizzare lo stato di avanzamento dell’esportazione del segmento.</p>
 </li>
