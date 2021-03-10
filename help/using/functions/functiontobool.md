@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toBool
 description: Scopri la funzione toBool
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -16,21 +19,21 @@ ht-degree: 5%
 
 Converte un valore di argomento in un valore booleano, a seconda del tipo.
 
-* Da stringa: provare a convertire il valore della stringa come valore booleano, da &quot;true&quot; se il valore della stringa è &quot;true&quot;, da &quot;false&quot; in caso contrario
-* Da numerico: true se il valore numerico non è uguale a 0, false in caso contrario
+* Stringa da: prova a convertire il valore della stringa come booleano, da &quot;true&quot; se il valore della stringa è &quot;true&quot;, false in caso contrario
+* Da dati numerici: true se il valore numerico non è uguale a 0, false in caso contrario
 
 ## Categoria
 
 Conversione
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `toBool(<parameter>)`
 
 ## Parametri
 
-* decimal
-* boolean
+* decimale
+* booleano
 * string
 * integer
 
