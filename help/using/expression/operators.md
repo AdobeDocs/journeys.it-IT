@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Operatori
 description: Informazioni sugli operatori nelle espressioni avanzate
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 6%
 
 ---
@@ -42,7 +45,7 @@ Elenco degli operatori supportati:
 <expression1> and <expression2>
 ```
 
-&lt;espressione1> e &lt;espressione2> devono essere entrambi booleani. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono essere booleani. Il risultato è booleano.
 
 Esempio:
 
@@ -58,7 +61,7 @@ Esempio:
 <expression1> or <expression2>
 ```
 
-&lt;espressione1> e &lt;espressione2> devono essere entrambi booleani. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono essere booleani. Il risultato è booleano.
 
 Esempio:
 
@@ -84,7 +87,7 @@ not 3.15 < 1
 
 ## Confronto {#comparison}
 
-### è null
+### è nullo
 
 
 
@@ -120,7 +123,7 @@ Esempio:
 @ is not null
 ```
 
-### ha valore null
+### ha null
 
 
 
@@ -150,7 +153,7 @@ Esempio:
 <expression1> == <expression2>
 ```
 
-&lt;espressione1> e &lt;espressione2> devono avere lo stesso tipo di dati. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono avere lo stesso tipo di dati. Il risultato è booleano.
 
 Esempio:
 
@@ -170,7 +173,7 @@ Esempio:
 <expression1> != <expression2>
 ```
 
-&lt;espressione1> e &lt;espressione2> devono avere lo stesso tipo di dati. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono avere lo stesso tipo di dati. Il risultato è booleano.
 
 Esempio:
 
@@ -190,11 +193,11 @@ Esempio:
 <expression1> > <expression2>
 ```
 
-È possibile confrontare datetime con Datetime.
+Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare numeri interi o decimali con numeri interi o decimali.
+È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -214,11 +217,11 @@ Esempio:
 <expression1> >= <expression2>
 ```
 
-È possibile confrontare datetime con Datetime.
+Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare numeri interi o decimali con numeri interi o decimali.
+È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -238,11 +241,11 @@ Esempio:
 <expression1> < <expression2>
 ```
 
-È possibile confrontare datetime con Datetime.
+Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare numeri interi o decimali con numeri interi o decimali.
+È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -262,11 +265,11 @@ Esempio:
 <expression1> <= <expression2>
 ```
 
-È possibile confrontare datetime con Datetime.
+Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare numeri interi o decimali con numeri interi o decimali.
+È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -288,7 +291,7 @@ Esempio:
 <expression1> + <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (numero intero o decimale).
+Entrambe le espressioni devono essere numeriche (integer o decimali).
 
 Il risultato è anche numerico.
 
@@ -306,7 +309,7 @@ Esempio:
 <expression1> - <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (numero intero o decimale).
+Entrambe le espressioni devono essere numeriche (integer o decimali).
 
 Il risultato è anche numerico.
 
@@ -324,11 +327,11 @@ Esempio:
 <expression1> / <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (numero intero o decimale).
+Entrambe le espressioni devono essere numeriche (integer o decimali).
 
 Il risultato è anche numerico.
 
-&lt;expression2> non deve essere uguale a 0 (restituisce 0).
+&lt;expression2> deve essere diverso da 0 (restituisce 0).
 
 Esempio:
 
@@ -344,7 +347,7 @@ Esempio:
 <expression1> * <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (numero intero o decimale).
+Entrambe le espressioni devono essere numeriche (integer o decimali).
 
 Il risultato è anche numerico.
 
@@ -362,7 +365,7 @@ Esempio:
 <expression1> % <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (numero intero o decimale).
+Entrambe le espressioni devono essere numeriche (integer o decimali).
 
 Il risultato è anche numerico.
 
@@ -382,7 +385,7 @@ Esempio:
 <expression> is numeric
 ```
 
-Il tipo di espressione è integer o decimal.
+Il tipo di espressione è integer o decimale.
 
 Esempio:
 
@@ -390,7 +393,7 @@ Esempio:
 @ is numeric
 ```
 
-### is integer
+### è un numero intero
 
 
 
@@ -406,7 +409,7 @@ Esempio:
 @ is integer
 ```
 
-### è decimal
+### è decimale
 
 
 
@@ -436,7 +439,7 @@ Esempio:
 <expression> + <string>
 ```
 
-Conconcatenano due espressioni.
+Conconcatena due espressioni.
 
 Un&#39;espressione deve essere una stringa concatenata.
 
@@ -464,7 +467,7 @@ Esempio:
 <expression + <duration>
 ```
 
-Aggiungi una durata a dateTime, dateTimeOnly o a una durata.
+Aggiungi una durata a un dateTime, a un dateTimeOnly o a una durata.
 
 Esempio:
 
