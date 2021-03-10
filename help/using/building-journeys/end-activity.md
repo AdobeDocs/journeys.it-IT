@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Attività fine
-description: Ulteriori informazioni sull'attività finale
+description: Scopri l’attività finale
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '63'
 ht-degree: 11%
 
 ---
@@ -14,6 +17,6 @@ ht-degree: 11%
 
 # Attività fine{#section_vqp_4ft_dgb}
 
-L&#39;attività **[!UICONTROL End]** consente di contrassegnare la fine di ogni percorso del viaggio. Non è obbligatorio ma consigliato per la chiarezza visiva. In effetti, se il viaggio ha diverse attività finali, si consiglia di aggiungere un&#39;etichetta a ogni fine per rendere i report più facili da leggere. Consulta [questa pagina](../reporting/about-journey-reports.md).
+L’ attività **[!UICONTROL End]** ti consente di contrassegnare la fine di ogni percorso del percorso. Non è obbligatorio ma consigliato per la chiarezza visiva. In effetti, se il percorso dispone di diverse attività finali, ti consigliamo di aggiungere un’etichetta a ogni fine per facilitare la lettura dei rapporti. Consulta [questa pagina](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)
