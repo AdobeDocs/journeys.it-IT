@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Campi di esecuzione azione degli eventi journeyStep
 description: Campi di esecuzione azione degli eventi journeyStep
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 4%
 
 ---
@@ -14,19 +17,19 @@ ht-degree: 4%
 
 # Campi di esecuzione azione degli eventi journeyStep {#sharing-execution-fields}
 
-Questo mixin sarà condiviso da pathStepEvent e pathStepProfileEvent.
+Questo mixin sarà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
-Se il passaggio dispone di un&#39;azione da elaborare, tali campi saranno aggiunti al payload dell&#39;evento.
+Se il passaggio dispone di un’azione da elaborare, tali campi verranno aggiunti al payload dell’evento.
 
 ## actionID
 
-ID dell’azione che viene eseguita.
+ID dell&#39;azione in corso di esecuzione.
 
 Tipo: string
 
 ## actionName
 
-Nome dell’azione. Se non è stato impostato alcun nome, stepName verrà eseguito.
+Nome dell’azione. Se non è stato impostato alcun nome, viene eseguito stepName.
 
 Tipo: string
 
@@ -36,11 +39,11 @@ Tipo di azione.
 
 Tipo: string
 
-## actionParameterized
+## actionParameter
 
-Indica se l&#39;azione è parametrizzata o meno.
+Indica se l’azione è parametrizzata o meno.
 
-Tipo: boolean
+Tipo: booleano
 
 ## actionExecutionTime
 
@@ -50,7 +53,7 @@ Tipo: long
 
 ## actionExecutionError
 
-Tipo di errore che si verifica quando l’azione viene chiamata.
+Tipo di errore che si verifica quando viene chiamata l&#39;azione.
 
 Tipo: string
 
@@ -58,22 +61,22 @@ Valori:
 * http
 * tappatura
 * timeout
-* error
+* errore
 
 ## actionExecutionErrorCode
 
-Errore di codice per l&#39;esecuzione dell&#39;azione. Presente se l&#39;errore ha un codice, ad esempio HTTP uno.
+Errore di esecuzione del codice per l&#39;azione. Presente se l&#39;errore ha un codice, ad esempio uno HTTP.
 
 Tipo: string
 
 ## actionExecutionOriginError
 
-Un timeout può verificarsi, in due casi:
+Può verificarsi un timeout, in due casi:
 
 * al primo tentativo viene eseguita un&#39;azione. In questo caso, l&#39;esecuzione non è completata, quindi non vi è alcun errore sottostante
-* in caso di nuovo tentativo: in questo caso, actionExecOrigError/actionExecOrigErrorCode descrive l&#39;errore rilevato nel tentativo prima del tentativo.
+* in un nuovo tentativo: in questo caso, actionExecOrigError/actionExecOrigErrorCode descrive l&#39;errore rilevato nel tentativo prima del nuovo tentativo.
 
-Ad esempio, viene inviato un messaggio e-mail e al primo tentativo viene restituito un errore HTTP 500. Il recupero viene ritentato, ma la durata dei 2 tentativi supera il timeout. Quindi l&#39;esecuzione dell&#39;azione viene taggata come timeout. La parte di azione avrà l&#39;aspetto seguente:
+Ad esempio, viene inviata un’e-mail e al primo tentativo viene restituito un errore HTTP 500. Il recupero viene ritentato, ma la durata dei 2 tentativi supera il timeout. Quindi l’esecuzione dell’azione viene taggata come timeout. La parte azione avrà un aspetto simile al seguente:
 
 ```
     ...
@@ -90,7 +93,7 @@ Tipo: string
 
 ## actionExecutionOriginCode
 
-Codice di errore di actionExecOrigError.
+Codice di errore dell&#39;actionExecOrigError.
 
 Tipo: string
 
@@ -100,10 +103,10 @@ Indica il tipo di azione.
 
 Valori:
 
-* builtin
-* Email ACS
-* ACS SMS
-* ACS Push
+* costruzione
+* E-mail ACS
+* SMS ACS
+* Push ACS
 * cliente
 * Epsilon
 * ...
@@ -112,24 +115,24 @@ Tipo: string
 
 ## deliveryJobID
 
-Questo descrive l&#39;ID del processo di consegna per il batch Journey.
+Questo descrive l’ID del processo di consegna per il Percorso batch.
 
 Tipo: string
 
 ## batchDeliveryID
 
-Questo descrive l&#39;ID consegna per il batch Journey.
+Questo descrive l’ID di consegna per il Percorso batch.
 
 Tipo: string
 
 ## fromSegmentTrigger
 
-Indica se il percorso batch viene attivato dal segmento di pubblico.
+Questo descrive se il Percorso batch viene attivato dal segmento di pubblico.
 
-Tipo: boolean
+Tipo: booleano
 
 ## actionSchedulerCount
 
-Conteggio delle richieste di notifica del pianificatore inviate al servizio pianificatore durante l&#39;elaborazione dei passaggi.
+Numero di richieste di notifica del programmatore inviate al servizio di pianificazione durante l&#39;elaborazione dei passaggi.
 
 Tipo: long
