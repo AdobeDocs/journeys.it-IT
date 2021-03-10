@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informazioni sui segmenti Adobe Experience Platform
 description: Scopri come configurare un segmento Adobe Experience Platform
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -14,13 +17,13 @@ ht-degree: 0%
 
 # Informazioni sui segmenti Adobe Experience Platform {#about-segments}
 
-Se per creare i segmenti si utilizza [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html), è possibile sfruttarli in [!DNL Journey Orchestration]. Grazie a un&#39;attività specifica per l&#39;evento, potete far entrare o far avanzare gli individui in un viaggio basato sulle entrate e uscite del segmento Adobe Experience Platform. Questo consente anche di creare condizioni complesse nei viaggi utilizzando l&#39;editor di espressioni semplice o avanzato.
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) per creare i segmenti, puoi sfruttarli in [!DNL Journey Orchestration]. Grazie a un’attività evento dedicata, puoi fare entrare o proseguire singoli utenti in un percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform. Questo consente anche di creare condizioni complesse nei percorsi utilizzando l’editor di espressioni semplice o avanzato.
 
-Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi far entrare tutti i nuovi clienti in argento in un viaggio e inviare loro una serie di messaggi personalizzati. È inoltre possibile creare facilmente condizioni basate su questo segmento.
+Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi fare entrare tutti i nuovi clienti in argento in un percorso e inviare loro una serie di messaggi personalizzati. Puoi anche creare facilmente condizioni basate su questo segmento.
 
-Di seguito sono riportate le possibilità offerte da [!DNL Journey Orchestration] con i segmenti:
+Di seguito sono elencate le possibilità offerte da [!DNL Journey Orchestration] con i segmenti:
 
-* Accedi all’elenco dei segmenti Adobe Experience Platform. Vedere [Creazione di un segmento](../segment/creating-a-segment.md).
-* Crea i segmenti direttamente in [!DNL Journey Orchestration] nello stesso modo in cui li crei con il servizio di segmentazione. Vedere [Creazione di un segmento](../segment/creating-a-segment.md).
-* Sfruttate i segmenti nelle condizioni del viaggio utilizzando l&#39;editor di espressioni semplice o avanzato. Vedere [Uso dei segmenti in condizioni](../segment/using-a-segment.md).
-* Aggiungi un evento **[!UICONTROL Segment qualification]** al tuo percorso per ascoltare le entrate e le uscite dei profili nei segmenti Adobe Experience Platform. Vedere [Attività eventi](../building-journeys/segment-qualification-events.md).
+* Accedi all’elenco dei segmenti di Adobe Experience Platform. Consulta [Creazione di un segmento](../segment/creating-a-segment.md).
+* Crea segmenti direttamente in [!DNL Journey Orchestration] nello stesso modo in cui li crei utilizzando il servizio di segmentazione. Consulta [Creazione di un segmento](../segment/creating-a-segment.md).
+* Sfrutta i segmenti nelle condizioni del tuo percorso utilizzando l’editor di espressioni semplice o avanzato. Consulta [Uso dei segmenti nelle condizioni](../segment/using-a-segment.md).
+* Aggiungi un evento **[!UICONTROL Segment qualification]** al tuo percorso per ascoltare le entrate e le uscite dei profili nei segmenti Adobe Experience Platform. Consulta [Attività eventi](../building-journeys/segment-qualification-events.md).
