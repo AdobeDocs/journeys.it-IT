@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Passaggio da un percorso a un altro
 description: Passaggio da un percorso a un altro
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '446'
 ht-degree: 3%
 
 ---
@@ -18,7 +21,7 @@ L’attività di azione **[!UICONTROL Update profile]** ti consente di aggiornar
 
 ## Note importanti
 
-* L’azione **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento con uno spazio dei nomi.
+* L&#39;azione **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento con uno spazio dei nomi.
 * L’azione aggiorna solo i campi esistenti e non crea nuovi campi di profilo.
 * Non è possibile utilizzare l&#39;azione **Aggiorna profilo** per generare eventi di esperienza, ad esempio un acquisto.
 * Come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi eseguire due azioni in parallelo.
@@ -35,7 +38,7 @@ Per ulteriori informazioni sulla modalità di test, consulta questa [sezione](..
 
 ## Utilizzo dell’aggiornamento del profilo
 
-1. Progetta il tuo percorso iniziando con un evento . Vedere questa sezione [](../building-journeys/journey.md).
+1. Progetta il tuo percorso iniziando con un evento. Vedere questa sezione [](../building-journeys/journey.md).
 
 1. Nella sezione **Azione** della palette, rilascia l’attività **Aggiorna profilo** nell’area di lavoro.
 
