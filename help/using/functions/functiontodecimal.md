@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: toDecimal
-description: Scopri la funzione toDecimal
+description: Scopri la funzione suDecimal
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 7%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
 
 # toDecimal {#toDecimal}
 
-Converte un valore argomento in un valore decimale, a seconda del tipo.
+Converte un valore di argomento in un valore decimale, a seconda del tipo.
 
 ## Categoria
 
 Conversione
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `toDecimal(<parameter>)`
 
@@ -28,10 +31,10 @@ Conversione
 
 | Parametro | Descrizione |
 |--- |--- |
-| string | converte il valore della stringa come valore decimale |
+| string | converte il valore della stringa come decimale |
 | dateTime | converte la data come numero di millisecondi (epoch millisecondi) |
-| boolean | converte il valore booleano in 1 se true, 0 se false |
-| integer | converte in decimale (ad esempio.: 1 diventa 1,0) |
+| booleano | converte il valore booleano in 1 se true, 0 se false |
+| integer | converte in un decimale (ad esempio.: 1 diventa 1,0) |
 
 ## Firme e tipi restituiti
 
