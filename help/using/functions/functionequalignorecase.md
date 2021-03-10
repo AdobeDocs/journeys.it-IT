@@ -2,25 +2,28 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: equalWithIgnoreCase
-description: Scopri la funzione EqualWithIgnoreCase
+description: Scopri la funzione equalWithIgnoreCase
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
 
 # equalWithIgnoreCase {#equalWithIgnoreCase}
 
-Confronta la prima stringa argomento con la seconda stringa argomento, ignorando le considerazioni relative ai casi.
+Confronta la stringa del primo argomento con la seconda stringa dell&#39;argomento, ignorando le considerazioni sulle maiuscole/minuscole.
 
 ## Categoria
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `equalWithIgnoreCase(<parameters>)`
 
