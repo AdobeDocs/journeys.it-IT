@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: indexOf
-description: Informazioni sulla funzione indexOf
+description: Scopri la funzione indexOf
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
@@ -14,13 +17,13 @@ ht-degree: 10%
 
 # indexOf {#indexOf}
 
-Controlla se la prima stringa argomento termina con una stringa specifica (seconda stringa argomento). Se la stringa non viene trovata, restituire -1.
+Controlla se la prima stringa di argomento termina con una stringa specifica (seconda stringa di argomento). Se la stringa non viene trovata, restituire -1.
 
 ## Categoria
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `indexOf(<parameters>)`
 
@@ -45,4 +48,4 @@ Restituisce 2.
 
 Spiegazione:
 
-In &quot;Hello&quot;, la prima occorrenza di &quot;l&quot; è nella posizione 2.
+In &quot;Hello&quot;, la prima occorrenza di &quot;l&quot; è in posizione 2.
