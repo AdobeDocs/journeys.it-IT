@@ -3,24 +3,27 @@ product: adobe campaign
 solution: Journey Orchestration
 title: nowWithDelta
 description: Scopri la funzione nowWithDelta
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 4%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
 
 # nowWithDelta {#nowWithDelta}
 
-Restituisce il valore datetime corrente, incluso un offset. Se viene specificato un ID del fuso orario, verrà applicato l&#39;offset del fuso orario. Per ulteriori informazioni sui tipi di dati, fare riferimento a [questa pagina](../expression/data-types.md).
+Restituisce il datetime corrente, incluso un offset. Se viene specificato un ID del fuso orario, viene applicato l&#39;offset del fuso orario. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
 Data
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `nowWithDelta(<parameters>)`
 
@@ -29,8 +32,8 @@ Data
 | Parametro | Descrizione |
 |--- |--- |
 | delta | valore intero positivo o negativo |
-| data part | anni, mesi, giorni, ore, minuti o secondi come stringa |
-| id fuso orario | rappresentazione in formato stringa del valore del fuso orario. Per ulteriori informazioni, vedere [Tipi di dati](../expression/data-types.md). L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento a un campo né un&#39;espressione. |
+| parte della data | anni, mesi, giorni, ore, minuti o secondi come stringa |
+| id fuso orario | rappresentazione stringa del valore del fuso orario. Per ulteriori informazioni, consulta [Tipi di dati](../expression/data-types.md). L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione. |
 
 ## Firme e tipo restituito
 
@@ -38,7 +41,7 @@ Data
 
 `nowWithDelta(<delta>,<date part>,"<timeZone id>")`
 
-Restituisce un dateTime.
+Restituisce un valore dateTime.
 
 ## Esempi
 
@@ -46,4 +49,4 @@ Restituisce un dateTime.
 
 `nowWithDelta(-2, "hours", "Europe/Paris")`
 
-Restituisce un dateTime esattamente 2 ore fa.
+Restituisce un dataTime esattamente 2 ore fa.
