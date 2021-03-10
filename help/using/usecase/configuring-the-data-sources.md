@@ -2,63 +2,66 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Configurazione delle origini dati
-description: Scopri come configurare l’origine dati per il percorso, caso di utilizzo avanzato
+description: Scopri come configurare l’origine dati per il percorso di casi d’uso avanzati
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 14%
 
 ---
 
 
 # Configurazione delle origini dati {#concept_vml_hdy_w2b}
 
-Nel nostro caso d&#39;uso, vogliamo utilizzare dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è un membro fedeltà e non è stata contattata nelle ultime 24 ore. Queste informazioni sono memorizzate nel database del profilo cliente in tempo reale. L&#39; **utente tecnico** deve configurare l&#39;origine dati Adobe Experience Platform per recuperare tali campi.
+Nel nostro caso d’uso, vogliamo utilizzare i dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è un membro fedeltà e non è stata contattata nelle ultime 24 ore. Queste informazioni sono memorizzate nel database Profilo cliente in tempo reale. L’ **utente tecnico** deve configurare l’origine dati Adobe Experience Platform per recuperare tali campi.
 
-Per ulteriori informazioni sulla configurazione dell&#39;origine dati, fare riferimento a [questa pagina](../datasource/about-data-sources.md).
+Per ulteriori informazioni sulla configurazione dell&#39;origine dati, consulta [questa pagina](../datasource/about-data-sources.md).
 
-1. Nel menu principale, fare clic sulla scheda **[!UICONTROL Data Sources]** e selezionare l&#39;origine dati Adobe Experience Platform incorporata.
+1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Data Sources]** e seleziona l’origine dati integrata di Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
-1. Nei campi gruppo preconfigurati, verificate che siano selezionati i campi seguenti:
+1. Nei campi gruppo preconfigurati, verifica che siano selezionati i campi seguenti:
 
-   * _Persona > nome > firstName_
-   * _persona > nome > lastName_
-   * _personalEmail > address_
+   * _person > name > firstName_
+   * _person > name > lastName_
+   * _personalEmail > indirizzo_
 
-1. Fare clic su **[!UICONTROL Add a New Field Group]**, selezionare uno schema **[!UICONTROL Profiles]** e aggiungere il campo **Fedeltà membro** per la condizione. Il campo **Fedeltà membro** è un campo personalizzato ed è stato aggiunto in XDM: &quot;_customer > marlton > loyaltyMember&quot;
+1. Fai clic su **[!UICONTROL Add a New Field Group]**, seleziona uno schema **[!UICONTROL Profiles]** e aggiungi il campo **Membro fedeltà** per la nostra condizione. Il campo **Membro fedeltà** è un campo personalizzato ed è stato aggiunto in XDM: &quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. Fare clic su **[!UICONTROL Add a New Field Group]**, selezionare uno schema **[!UICONTROL ExperienceEvent]** e scegliere i campi necessari per la nostra condizione in base al numero di messaggi inviati in un dato periodo: _marca temporale_ per la data e _directMarketing > invia > valore_ per il numero di messaggi inviati.
+1. Fai clic su **[!UICONTROL Add a New Field Group]**, seleziona uno schema **[!UICONTROL ExperienceEvent]** e scegli i campi necessari per la nostra condizione sul numero di messaggi inviati in un dato periodo: _timestamp_ per la data e _directMarketing > invia > valore_ per il numero di messaggi inviati.
 
    ![](../assets/journeyuc2_7.png)
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di prenotazione alberghiera. L&#39; **utente tecnico** deve configurare una seconda origine dati per recuperare questo campo.
+Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di prenotazione alberghiera. Per recuperare questo campo, l’ **utente tecnico** deve configurare una seconda origine dati.
 
-1. Nell&#39;elenco delle origini dati, fare clic su **[!UICONTROL Add]** per aggiungere una nuova origine dati esterna per definire la connessione al sistema di prenotazione alberghiera.
+1. Nell&#39;elenco delle origini dati fare clic su **[!UICONTROL Add]** per aggiungere una nuova origine dati esterna per definire la connessione al sistema di prenotazione alberghiera.
 
    ![](../assets/journeyuc2_9.png)
 
-1. Inserite un nome per l’origine dati e l’URL del servizio esterno, ad esempio: _https://marlton.com/reservation_
+1. Immetti un nome per l’origine dati e l’URL del servizio esterno, ad esempio: _https://marlton.com/reservation_
 
    >[!CAUTION]
    >
    >Per motivi di sicurezza, è consigliabile utilizzare HTTPS.
 
-1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Nel nostro esempio, scegliamo &quot;Base&quot; per il tipo e specifichiamo il nome utente e la password per la chiamata API.
+1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Nel nostro esempio, scegliamo &quot;Base&quot; per il tipo e specifica il nome utente e la password per la chiamata API.
 
    ![](../assets/journeyuc2_10.png)
 
-1. Fate clic su **[!UICONTROL Add a New Field Group]** per definire le informazioni da recuperare e i parametri API. Per il nostro esempio, esiste un solo parametro (l&#39;id), quindi è necessario creare un gruppo di campi con le seguenti informazioni:
+1. Fai clic su **[!UICONTROL Add a New Field Group]** per definire le informazioni da recuperare e i parametri API. Per il nostro esempio, esiste un solo parametro (l’id), quindi è necessario creare un gruppo di campi con le seguenti informazioni:
 
    * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
-   * **[!UICONTROL Cache duration]**: questo varia in base alla frequenza delle chiamate API. Nel nostro caso, il sistema di prenotazione viene aggiornato ogni 10 minuti.
-   * **[!UICONTROL Response Payload]**: fare clic all&#39;interno del  **[!UICONTROL Payload]** campo e incollare un esempio del payload. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Nel nostro esempio, il payload contiene solo lo stato della prenotazione:
+   * **[!UICONTROL Cache duration]**: questo varia a seconda della frequenza delle chiamate API. Nel nostro caso, il sistema di prenotazione viene aggiornato ogni 10 minuti.
+   * **[!UICONTROL Response Payload]**: fai clic all’interno del  **[!UICONTROL Payload]** campo e incolla un esempio del payload. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Nel nostro esempio, il payload contiene solo lo stato di prenotazione:
 
    ```
    {
@@ -66,10 +69,10 @@ Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di preno
    }
    ```
 
-   * **[!UICONTROL Dynamic Values]**: immettete il parametro corrispondente alla chiave utilizzata per identificare ogni cliente, &quot;id&quot; nel nostro esempio. Il valore di questo parametro verrà definito nel percorso.
+   * **[!UICONTROL Dynamic Values]**: inserisci il parametro corrispondente alla chiave utilizzata per identificare ogni cliente, nel nostro esempio &quot;id&quot;. Il valore di questo parametro sarà definito nel percorso.
 
    ![](../assets/journeyuc2_11.png)
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-   Le origini dati ora sono configurate e pronte per essere utilizzate durante il viaggio.
+   Le origini dati sono ora configurate e pronte per essere utilizzate nel percorso.
