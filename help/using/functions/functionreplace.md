@@ -2,27 +2,30 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: replace
-description: Ulteriori informazioni sulla sostituzione della funzione
+description: Informazioni sulla sostituzione della funzione
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
 
 # replace {#replace}
 
-Sostituisce la prima occorrenza che corrisponde alla stringa di destinazione con la stringa sostitutiva nella stringa base.
+Sostituisce la prima occorrenza che corrisponde alla stringa di destinazione dalla stringa di sostituzione nella stringa di base.
 
-Il passaggio di sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si ottiene &quot;ba&quot; anziché &quot;ab&quot;.
+La sostituzione procede dall’inizio della stringa alla fine, ad esempio sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
 
 ## Categoria
 
 Stringa
 
-## Sintassi delle funzioni
+## Sintassi della funzione
 
 `replace(<parameters>)`
 
@@ -32,7 +35,7 @@ Stringa
 |-----------|--------------|
 | base | string |
 | target | string |
-| sostitutivo | string |
+| sostituzione | string |
 
 ## Firma e tipo restituito
 
