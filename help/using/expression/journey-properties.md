@@ -2,67 +2,70 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Proprietà del percorso
-description: Informazioni sulle proprietà degli percorsi
+description: Informazioni sulle proprietà del percorso
+feature: Percorsi
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 
-# Attributi proprietà percorso {#journey-properties}
+# Attributi delle proprietà del percorso {#journey-properties}
 
-Nell&#39;editor di espressioni avanzate, sotto le categorie dell&#39;evento e dell&#39;origine dati si trova la categoria **Proprietà Percorso**. Questa categoria contiene i campi tecnici relativi al percorso per un determinato profilo. Queste sono le informazioni recuperate dal sistema dagli percorsi in diretta, come l&#39;ID percorso o gli errori specifici riscontrati.
+Nell’editor di espressioni avanzate, trovi la categoria **Proprietà Percorso** , sotto le categorie di eventi e origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi in tempo reale, ad esempio l’ID percorso o gli errori specifici rilevati.
 
 >[!NOTE]
 >
->Gli attributi delle proprietà percorso sono disponibili anche nell&#39;editor di espressioni semplici. Vedere la sezione [](../building-journeys/condition-activity.md#about_condition)
+>Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Vedere questa [sezione](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
 Troverete informazioni, ad esempio:
 
-* Versione percorso: ID percorso, ID versione percorso, uid istanza, ecc.
-* errori: acquisizione dei dati, esecuzione di azioni, ecc.
+* Versione percorso: uid di percorso, uid di versione di percorso, uid di istanza, ecc.
+* errori: recupero dati, esecuzione azione, ecc.
 * passaggio corrente, ultimo passaggio corrente, ecc.
-* profili eliminati
+* profili scartati
 
-È possibile utilizzare questi campi per creare espressioni. Durante l&#39;esecuzione del percorso, i valori verranno recuperati direttamente dal percorso.
+Puoi utilizzare questi campi per creare espressioni. Durante l’esecuzione del percorso, i valori verranno recuperati direttamente dal percorso.
 
-Di seguito sono riportati alcuni esempi di casi di utilizzo:
+Di seguito sono riportati alcuni esempi di casi d’uso:
 
-* **Profili** eliminati dal registro: puoi inviare tutti i profili esclusi da un messaggio tramite una regola di capping a un sistema di terze parti a scopo di registrazione. A questo scopo, configurate un percorso in caso di timeout ed errore e aggiungete una condizione per filtrare in base a un tipo di errore specifico, ad esempio: &quot;elimina le persone con la regola di capping&quot;. Potete quindi inviare i profili eliminati a un sistema di terze parti tramite un&#39;azione personalizzata.
+* **Registrare i profili** scartati: puoi inviare tutti i profili esclusi da un messaggio tramite una regola di limitazione a un sistema di terze parti a scopo di registrazione. A questo scopo, imposta un percorso in caso di timeout ed errore e aggiungi una condizione per filtrare in base a uno specifico tipo di errore, ad esempio: &quot;elimina le persone con la regola di limitazione&quot;. Puoi quindi inviare i profili scartati a un sistema di terze parti tramite un’azione personalizzata.
 
-* **Invia avvisi in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, potete impostare un percorso in caso di errore, aggiungere una condizione e un&#39;azione personalizzata. Potete inviare una notifica su un canale di Slack , ad esempio, con la descrizione dell&#39;errore rilevato.
+* **Inviare avvisi in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, imposta un percorso in caso di errore, aggiungi una condizione e un’azione personalizzata. Ad esempio, puoi inviare una notifica su un canale di Slack con la descrizione dell’errore rilevato.
 
-* **Ottimizzazione degli errori nel reporting** : invece di avere un solo percorso per i messaggi di errore, puoi definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare il reporting e visualizzare tutti i dati dei tipi di errore.
+* **Ridefinizione degli errori nel reporting** : invece di avere un solo percorso per i messaggi in errore, puoi definire una condizione per tipo di errore. Questo ti consentirà di perfezionare il reporting e visualizzare tutti i dati dei tipi di errore.
 
-## Elenco di campi {#journey-properties-fields}
+## Elenco dei campi {#journey-properties-fields}
 
 | Categoria | Nome campo | Etichetta | Descrizione |
 |---|---|---|------------|
-| Versione percorso | viaggioUID | Identificatore percorso |  |
-|  | viaggioVersionUID | ID versione percorso |  |
-|  | viaggioVersionName | Nome versione percorso |  |
-|  | pathVersionDescription | Descrizione versione percorso |  |
-|  | viaggioVersion | Versione percorso |  |
-| Istanza percorso | instanceUID | ID istanza percorso | ID dell’istanza |
-|  | externalKey | Chiave esterna | Singolo identificatore che attiva il percorso |
-|  | OrganizationId | Identificatore organizzazione | Organizzazione del marchio |
-|  | sandboxName | Nome sandbox | Nome della sandbox |
+| Versione percorso | journeyUID | Identificatore percorso |  |
+|  | journeyVersionUID | Identificatore versione percorso |  |
+|  | journeyVersionName | Nome versione percorso |  |
+|  | journeyVersionDescription | Descrizione della versione del percorso |  |
+|  | journeyVersion | Versione percorso |  |
+| Istanza percorso | instanceUID | Identificatore istanza percorso | ID dell’istanza |
+|  | externalKey | Chiave esterna | Identificatore individuale che attiva il percorso |
+|  | OrganizationId | Identificatore organizzazione | Organizzazione di Brand |
+|  | sandboxName | Nome della sandbox | Nome della sandbox |
 | Identità | profileId | Identificatore identità profilo | Identificatore del profilo nel percorso |
-|  | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nell&#39;percorso (esempio: ECID |
+|  | namespace | Spazio dei nomi dell’identità del profilo | Spazio dei nomi del profilo nel percorso (esempio: ECID) |
 | Nodo corrente | currentNodeId | Identificatore nodo corrente | Identificatore dell&#39;attività corrente (nodo) |
-|  | currentNodeName | Nome nodo corrente | Nome dell&#39;attività corrente (nodo) |
-| Nodo precedente | previousNodeId | Identificatore nodo precedente | Identificatore dell&#39;attività precedente (nodo) |
-|  | previousNodeName | Nome nodo precedente | Nome dell&#39;attività precedente (nodo) |
-| Errori | lastNodeUIDInError | Identificatore ultimo nodo in errore | Identificatore dell&#39;attività più recente (nodo) in errore |
-|  | lastNodeNameInError | Nome ultimo nodo in errore | Nome dell&#39;attività più recente (nodo) in errore |
-|  | lastNodeTypeInError | Ultimo tipo di nodo in errore | Tipo di errore dell&#39;ultima attività (nodo) in errore. Tipi possibili:<ul><li>Eventi: Eventi, Reazioni, SQ (esempio: Qualificazione segmento)</li><li>Controllo del flusso: Fine, Condizione, Aspetta</li><li>Azioni: Azioni ACS, Jump, Azione personalizzata</li></ul> |
-|  | lastErrorCode | Ultimo codice di errore | Codice di errore dell&#39;ultima attività (nodo) in errore. Possibili errori: <ul><li>Codici di errore HTTP</li><li>con cappuccio</li><li>timedOut</li><li>error (esempio: predefinito in caso di errore imprevisto. Non dovrebbe/estremamente raro)</li></ul> |
-|  | lastExecuteActionErrorCode | Codice errore ultima azione eseguita | Codice di errore dell&#39;ultima azione in errore |
+|  | currentNodeName | Nome nodo corrente | Nome dell’attività corrente (nodo) |
+| Nodo precedente | previousNodeId | Identificatore nodo precedente | Identificatore dell’attività precedente (nodo) |
+|  | previousNodeName | Nome nodo precedente | Nome dell’attività precedente (nodo) |
+| Errori | lastNodeUIDInError | Identificatore ultimo nodo in errore | Identificatore dell’attività più recente (nodo) in errore |
+|  | lastNodeNameInError | Nome ultimo nodo in errore | Nome dell’attività più recente (nodo) in errore |
+|  | lastNodeTypeInError | Ultimo tipo di nodo in errore | Tipo di errore dell&#39;attività più recente (nodo) in errore. Tipi possibili:<ul><li>Eventi: Eventi, Reazioni, SQ (esempio: Qualificazione del segmento)</li><li>Controllo del flusso: Fine, Condizione, Attendi</li><li>Azioni: Azioni ACS, Jump, Custom Action</li></ul> |
+|  | lastErrorCode | Ultimo codice di errore | Codice di errore dell&#39;ultima attività (nodo) in errore. Possibili errori: <ul><li>Codici di errore HTTP</li><li>cappuccio</li><li>timedOut</li><li>error (esempio: predefinito in caso di errore imprevisto. Non dovrebbe/estremamente raro)</li></ul> |
+|  | lastExecutionActionErrorCode | Codice errore ultima azione eseguita | Codice di errore dell’ultima azione in errore |
 |  | lastDataFetchErrorCode | Codice errore ultimo recupero dati | Codice di errore del recupero dati più recente da origini dati |
-| Time | lastActionExecutionElapsedTime | Tempo trascorso ultima esecuzione azione | Tempo impiegato per eseguire l&#39;azione più recente |
+| Time | lastActionExecutionElapsedTime | Tempo trascorso dell’ultima esecuzione dell’azione | Tempo impiegato per eseguire l’azione più recente |
 |  | lastDataFetchElapsedTime | Tempo trascorso ultimo recupero dati | Tempo impiegato per eseguire il recupero dati più recente da origini dati |
