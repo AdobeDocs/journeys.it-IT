@@ -3,40 +3,43 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Campi del percorso
 description: Campi del percorso
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
 
 # Campi del percorso {#sharing-journey-fields}
 
-Questo mixin viene utilizzato nello schema del percorso (in relazione con pathStepEvent). Contiene i campi seguenti:
+Questo mixin viene utilizzato nello schema di percorso (in relazione a journeyStepEvent). Contiene i campi seguenti:
 
-## viaggioID
+## journeyID
 
-Id del percorso principale.
+ID del percorso principale.
 
 Tipo: string
 
-## viaggioVersionID
+## journeyVersionID
 
-Id della versione del percorso. Questo ID rappresenta l&#39;identità di un viaggio.
+ID della versione del percorso. Questo ID rappresenta l&#39;identità di un percorso.
 
 Tipo: string
 
 ## name
 
-Nome del viaggio.
+Nome del percorso.
 
 Tipo: string
 
-## description
+## descrizione
 
-Descrizione del viaggio.
+Descrizione del percorso.
 
 Tipo: string
 
