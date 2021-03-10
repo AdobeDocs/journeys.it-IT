@@ -1,12 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Utilizzo dei punteggi AI dei clienti
-description: Utilizzo dei punteggi AI dei clienti
+title: Sfruttare i punteggi dell’intelligenza artificiale del cliente
+description: Sfruttare i punteggi dell’intelligenza artificiale del cliente
+feature: Percorsi
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
@@ -14,14 +17,14 @@ ht-degree: 2%
 
 # Sfruttamento dell’intelligenza artificiale del cliente {#customer-ai}
 
-L&#39;AI del cliente fa parte dei servizi intelligenti. Consente di prevedere le attività che un cliente è in grado di eseguire. Vedere la [documentazione](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+Customer AI fa parte dei servizi intelligenti. Aiuta a prevedere cosa è probabile che faccia un cliente. Consulta la [documentazione](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
-L&#39;AI del cliente consente ai marchi di creare punteggi basati sull&#39;apprendimento di churn o conversione che saranno disponibili come attributi di profilo nei profili Adobe Experience Platform (Real-time Customer Profile).
+Customer AI consente ai marchi di creare punteggi basati sull’apprendimento di una macchina di abbandono o di conversione che saranno disponibili come attributi di profilo nei profili Adobe Experience Platform (Profilo cliente in tempo reale).
 
-Di conseguenza, possono essere utilizzati come qualsiasi altro attributo di profilo nelle condizioni di  Journey Orchestration (per prendere le decisioni migliori), nelle azioni o nella creazione di segmenti.
+Di conseguenza, possono essere utilizzati come qualsiasi altro attributo di profilo nelle condizioni del Journey Orchestration (per prendere le decisioni migliori), nelle azioni o nella creazione di segmenti.
 
 ![](../assets/customer-ai.png)
 
-L&#39;AI cliente è una funzione a pagamento dell&#39;Adobe Experience Platform.
+Tieni presente che Customer AI è una funzione a pagamento di Adobe Experience Platform.
 
 
