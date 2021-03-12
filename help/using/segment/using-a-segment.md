@@ -7,10 +7,10 @@ feature: Percorsi
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
@@ -31,5 +31,9 @@ Per utilizzare un segmento in una condizione di percorso, effettua le seguenti o
 1. Sul lato sinistro, apri il nodo **[!UICONTROL Segments]** . Trascina e rilascia il segmento da utilizzare per la condizione. Per impostazione predefinita, la condizione sul segmento è vera.
 
    ![](../assets/segment4.png)
+
+   >[!NOTE]
+   >
+   >Solo i singoli utenti con gli stati di partecipazione al segmento **Realized** e **Esistenti** saranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 Per ulteriori informazioni sulle condizioni di percorso e su come utilizzare l’editor di espressioni semplici, consulta [Attività condizione](../building-journeys/condition-activity.md#about_condition).
