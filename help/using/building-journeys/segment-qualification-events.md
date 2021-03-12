@@ -7,9 +7,9 @@ feature: Percorsi
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,11 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
 
    ![](../assets/segment-copy.png)
 
-1. Nel campo **[!UICONTROL Behavior]** , scegli se desideri ascoltare le entrate, le uscite o entrambi dei segmenti.
+1. Nel campo **[!UICONTROL Behaviour]** , scegli se desideri ascoltare le entrate, le uscite o entrambi dei segmenti.
+
+   >[!NOTE]
+   >
+   >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono agli stati di partecipazione al segmento **Realized** e **Exited** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso.
 
