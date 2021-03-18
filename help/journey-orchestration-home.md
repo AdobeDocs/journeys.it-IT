@@ -4,14 +4,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Journey Orchestration: documentazione del prodotto'
 topic: Premium
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Principiante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
