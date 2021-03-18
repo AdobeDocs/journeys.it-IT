@@ -5,12 +5,12 @@ user-guide-title: Journey Orchestration
 title: Guida di Journey Orchestration
 user-guide-description: Fornisce istruzioni per l’implementazione e la creazione di percorsi.
 index: true
-feature: Percorsi
-translation-type: tm+mt
+feature: Journeys
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 98%
          + [Utilizzo delle azioni di Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Utilizzo di azioni personalizzate](using/building-journeys/using-custom-actions.md)
          + [Passaggio da un percorso a un altro](using/building-journeys/jump.md)
-         + [Aggiorna profilo](using/building-journeys/update-profiles.md)
+         + [Aggiornare il profilo](using/building-journeys/update-profiles.md)
    + [Verifica del percorso](using/building-journeys/testing-the-journey.md)
    + [Pubblicazione del percorso](using/building-journeys/publishing-the-journey.md)
    + Condivisione di passaggi del percorso con Adobe Experience Platform {#sharing-journey-steps}
