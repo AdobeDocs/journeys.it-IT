@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Interfaccia utente
 description: Ulteriori informazioni sull’interfaccia utente
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 93%
+source-wordcount: '1014'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ Puoi anche accedere a [!DNL Journey Orchestration] dalla home page di Experience
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Informazioni sull’elenco percorsi"
->abstract="L’elenco dei percorsi ti consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso terminato. È possibile creare una nuova versione oppure duplicarla. Puoi anche usare la barra di ricerca per cercare un percorso."
+>abstract="L’elenco dei percorsi ti consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
 I menu superiori ti consentono di navigare tra le diverse funzionalità di [!DNL Journey Orchestration]: **[!UICONTROL Home]** (i percorsi), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
