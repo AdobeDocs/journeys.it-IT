@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Modifica delle proprietà
 description: Scopri come modificare le proprietà
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 0%
+source-wordcount: '495'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +29,8 @@ Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il 
 Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l&#39;opzione per percorsi &quot;una ripresa&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non vuoi che il cliente sia in grado di reinserire il percorso e ricevere nuovamente l&#39;offerta.
 
 Quando un percorso &quot;termina&quot;, lo stato sarà **[!UICONTROL Closed (no entrance)]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso.
+
+Dopo il timeout globale predefinito di 30 giorni, il percorso passa allo stato **Finished** . Vedere questa sezione [](#global_timeout).
 
 ## Timeout ed errore nelle attività del percorso {#timeout_and_error}
 
