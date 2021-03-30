@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 68%
+source-wordcount: '2438'
+ht-degree: 64%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 68%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 È inoltre possibile consultare l&#39;ultimo [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
+
+## Versione di marzo 2021 {#march-2021-release}
+
+### Miglioramenti
+
+* È stato aggiunto un nuovo stato ai percorsi. Quando un percorso termina o viene chiuso manualmente, il suo stato passa da **Closed** a **Finished** 30 giorni dopo la chiusura. Questo ti permetterà di identificare più facilmente i percorsi inattivi, assicurandoti al contempo che tutti gli individui ancora presenti abbiano il tempo di finire il percorso. [Leggi tutto](../building-journeys/journey.md#ending_a_journey)
+* Nei riquadri a destra delle attività dei percorsi 2D, i campi di sola lettura ora sono nascosti per impostazione predefinita. Questa semplificazione dell’interfaccia ti aiuterà a configurare le attività più facilmente. Per visualizzarli, fai clic sull&#39;icona **Mostra campi di sola lettura**, disponibile nell&#39;angolo in alto a sinistra del riquadro di configurazione dell&#39;attività. [Leggi tutto](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* In modalità di test, nella schermata **Configurazione evento**, il campo **Chiave** utilizzato per definire l’ID del profilo di test è stato rinominato **Identificatore profilo** per una migliore esperienza utente. [Leggi tutto](../building-journeys/testing-the-journey.md).
+* Per gli eventi di reazione, la durata del timeout può ora essere impostata solo tra 40 e 30 giorni. Quando si esegue il test di un percorso che utilizza un evento di reazione, il metodo di test **[!UICONTROL Wait time]** predefinito e il valore minimo sono ora 40 secondi. [Leggi tutto](../building-journeys/reaction-events.md).
 
 ## Versione di febbraio 2021 {#february-2021-release}
 
