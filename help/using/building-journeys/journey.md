@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informazioni sulla creazione di percorsi
 description: In qualità di utente aziendale, scopri come combinare attività di evento, orchestrazione e azione per creare un percorso.
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 15%
+source-wordcount: '561'
+ht-degree: 13%
 
 ---
 
@@ -57,9 +57,20 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un perco
 
 ## Terminazione di un percorso {#ending_a_journey}
 
-Ci sono due modi per terminare un percorso:
+Un percorso può terminare per un individuo per due motivi:
 
 * La persona arriva all&#39;ultima attività di un percorso. Quest’ultima attività può essere un’attività finale o un’altra. Non vi è alcun obbligo di terminare un percorso con un’attività finale. Consulta [questa pagina](../building-journeys/end-activity.md).
 * La persona arriva a un’attività condizione (o un’attività di attesa con una condizione) e non corrisponde a nessuna delle condizioni.
 
 La persona può quindi rientrare nel percorso se è consentito il rientro. Consulta [questa pagina](../building-journeys/changing-properties.md).
+
+Un percorso può chiudersi per i motivi seguenti:
+
+* Il percorso viene chiuso manualmente tramite il pulsante **[!UICONTROL Close to new entrances]** .
+* La data di fine del percorso è raggiunta.
+
+Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Closed (no entrance)]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso. Dopo il timeout globale predefinito di 30 giorni, il percorso passa allo stato **Finished** . Vedere questa sezione [](../building-journeys/changing-properties.md#entrance).
+
+Nel caso tu debba interrompere il progresso di tutti gli individui nel percorso, puoi fermarlo. Arrestare il percorso causerà il timeout di tutti gli individui nel percorso.
+
+Per informazioni su come chiudere o arrestare manualmente un percorso, consulta questa [sezione](../building-journeys/terminating-a-journey.md).
