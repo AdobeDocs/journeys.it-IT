@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Verifica del percorso
 description: 'Scopri i test di percorso '
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1619'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,21 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
    ![](../assets/journeytest1.png)
 
-1. Utilizza il parametro **[!UICONTROL Wait time in test]** nell’angolo in basso a sinistra per definire l’ora in cui durerà ogni attività di attesa in modalità di test. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se nel percorso sono state eliminate una o più attività di attesa.
+1. Utilizza il parametro **[!UICONTROL Wait time]** , nell’angolo in basso a sinistra, per definire l’ora in cui ogni attività di attesa e il timeout dell’evento dureranno in modalità di test. Il tempo predefinito è di 10 secondi per attese e timeout dell’evento. In questo modo sarà possibile ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se nel percorso sono state eliminate una o più attività di attesa.
 
    ![](../assets/journeytest_wait.png)
 
-1. Fai clic su **[!UICONTROL Trigger an event]** per configurare e inviare eventi al percorso. Assicurati di inviare eventi relativi ai profili di test. Consulta [Attivazione degli eventi](#firing_events).
+   >[!NOTE]
+   >
+   >Quando un evento di reazione viene utilizzato in un percorso, il tempo di attesa predefinito e il valore minimo è 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md)
+
+1. Fai clic su **[!UICONTROL Trigger an event]** per configurare e inviare eventi al percorso.
 
    ![](../assets/journeyuctest1.png)
+
+1. Configura i diversi campi previsti. Nel campo **Identificatore profilo** , immetti il valore del campo utilizzato per identificare il profilo di test. Ad esempio, può essere l’indirizzo e-mail. Assicurati di inviare eventi relativi ai profili di test. Consulta [Attivazione degli eventi](#firing_events).
+
+   ![](../assets/journeyuctest1-bis.png)
 
 1. Dopo aver ricevuto gli eventi, fai clic sul pulsante **[!UICONTROL Show log]** per visualizzare il risultato del test e verificarlo. Consulta [Visualizzazione dei log](#viewing_logs).
 
@@ -123,7 +131,7 @@ Il pulsante **[!UICONTROL Trigger an event]** ti consente di configurare un even
 >
 >Quando si attiva un evento in modalità di test, viene generato un evento reale, il che significa che si verifica anche in altri percorsi in ascolto di questo evento.
 
-Come prerequisito, devi sapere quali profili vengono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso e l’evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID.
+Come prerequisito, devi sapere quali profili vengono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso e l’evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo** .
 
 Se il percorso contiene più eventi, utilizza l’elenco a discesa per selezionare un evento. Quindi, per ogni evento, configura i campi passati e l’esecuzione dell’invio dell’evento. L’interfaccia ti aiuta a trasmettere le informazioni corrette nel payload dell’evento e ad assicurarti che il tipo di informazioni sia corretto. La modalità di test salva gli ultimi parametri utilizzati in una sessione di test per un utilizzo successivo.
 
