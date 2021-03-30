@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilizzo del designer del percorso
 description: Ulteriori informazioni sull'utilizzo del designer del percorso
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 5%
+source-wordcount: '1416'
+ht-degree: 6%
 
 ---
 
@@ -66,6 +66,8 @@ La **area di lavoro** è la zona centrale nella finestra di progettazione del pe
 Il **riquadro di configurazione dell&#39;attività** viene visualizzato quando si fa clic su un&#39;attività nella palette. Compila i campi richiesti. Fai clic sull’icona **[!UICONTROL Delete]** per eliminare l’attività. Fai clic su **[!UICONTROL Cancel]** per annullare le modifiche o su **[!UICONTROL Ok]** per confermare. Per eliminare le attività, puoi anche selezionare una (o più) attività e premere il tasto backspace. Premendo il tasto Esc si chiude il riquadro di configurazione dell’attività.
 
 Nell’area di lavoro, le attività azione ed evento sono rappresentate da un’icona con il nome dell’evento o dell’azione visualizzato sotto di essa. Nel riquadro di configurazione dell’attività, puoi utilizzare il campo **[!UICONTROL Label]** per aggiungere un suffisso al nome dell’attività. Queste etichette consentono di contestualizzare l’utilizzo di eventi e azioni, soprattutto quando utilizzi più volte lo stesso evento o azione nel percorso. Potrai inoltre visualizzare le etichette aggiunte nel rapporto [!DNL Journey Orchestration] . Puoi anche definire le etichette per le attività di condizione.
+
+Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visualizzarli, fai clic sull&#39;icona **Mostra campi di sola lettura** in alto a sinistra nel riquadro di configurazione dell&#39;attività.
 
 ![](../assets/journey59bis.png)
 
