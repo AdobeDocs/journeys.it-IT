@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Eventi di reazione
 description: Scopri gli eventi di reazione
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 1. Aggiungi un **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall’elenco a discesa, seleziona l’attività di azione a cui desideri reagire. Puoi selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata (e-mail, SMS o notifica push), scegli a cosa vuoi reagire.
-1. È possibile definire una condizione come passaggio facoltativo. Ad esempio, dopo un’azione e-mail, puoi decidere di creare due percorsi, uno con un evento di reazione per tracciare i clic solo per i clienti VIP e uno con un evento di reazione per tracciare i clic eseguiti dalle donne.
+1. Puoi definire un timeout evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per gli individui che non hanno reagito entro la durata definita. Quando si esegue il test di un percorso che utilizza un evento di reazione, il metodo di prova **[!UICONTROL Wait time]** predefinito e il valore minimo sono 40 secondi. Vedi [questa sezione](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
