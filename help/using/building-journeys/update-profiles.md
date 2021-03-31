@@ -3,19 +3,19 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Passaggio da un percorso a un altro
 description: Passaggio da un percorso a un altro
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 3%
+source-wordcount: '359'
+ht-degree: 5%
 
 ---
 
 
-# Aggiorna profilo {#update-profile}
+# Aggiornare il profilo {#update-profile}
 
 L’attività di azione **[!UICONTROL Update profile]** ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico.
 
@@ -27,14 +27,7 @@ L’attività di azione **[!UICONTROL Update profile]** ti consente di aggiornar
 * Come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi eseguire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a Platform sarà rapida ma non immediata/entro un secondo. Normalmente ci vorranno alcuni secondi, ma a volte di più senza garanzia. Di conseguenza, ad esempio, se un’azione utilizza &quot;campo 1&quot; aggiornato da un’azione Aggiorna profilo posizionata in precedenza, non devi aspettarti che il &quot;campo 1&quot; venga aggiornato nell’azione .
 * Le origini dati hanno una nozione di durata della cache, a livello di gruppo di campi. Se ti aspetti di sfruttare, in un percorso, un campo di profilo aggiornato di recente, fai attenzione a definire una durata della cache molto breve.
-
-## Utilizzo della modalità di prova {#using-the-test-mode}
-
-In modalità di test, l’aggiornamento del profilo non verrà simulato. L’aggiornamento viene eseguito sul profilo di test.
-
-Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare un nuovo profilo di test o trasformarne uno esistente in un profilo di test. In Adobe Experience Platform puoi aggiornare gli attributi dei profili tramite chiamate API, ma non tramite l’interfaccia. Il modo più semplice per farlo è utilizzare un&#39;attività di azione **Aggiorna profilo** e cambiare il campo booleano del profilo di test da false a true.
-
-Per ulteriori informazioni sulla modalità di test, consulta questa [sezione](../building-journeys/testing-the-journey.md).
+* In modalità di test, l’aggiornamento del profilo non verrà simulato. L’aggiornamento viene eseguito sul profilo di test.
 
 ## Utilizzo dell’aggiornamento del profilo
 
