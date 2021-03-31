@@ -7,7 +7,7 @@ feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Quando un evento di reazione viene utilizzato in un percorso, il tempo di attesa predefinito e il valore minimo è 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md)
+   >Quando un evento di reazione viene utilizzato in un percorso, il tempo di attesa predefinito e il valore minimo è 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md).
 
 1. Fai clic su **[!UICONTROL Trigger an event]** per configurare e inviare eventi al percorso.
 
