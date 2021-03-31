@@ -7,9 +7,9 @@ feature: Journeys
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1624'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali 
 
 Puoi verificare il percorso prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso di singoli utenti nel percorso e risolvere i problemi prima della pubblicazione.
 
-Solo i profili di test possono accedere a un percorso in modalità di test. Puoi [creare un nuovo profilo di test](../building-journeys/testing-the-journey.md#create-test-profile) o [trasformare un profilo esistente in un profilo di test](../building-journeys/testing-the-journey.md#turning-profile-into-test).
+Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare un nuovo profilo di test o trasformarne uno esistente in un profilo di test. Fare riferimento a questa sezione [sezione](../building-journeys/creating-test-profiles.md).
 
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
@@ -56,7 +56,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 ## Note importanti {#important_notes}
 
 * Viene fornita un’interfaccia per attivare eventi al percorso testato, ma gli eventi possono essere inviati anche da sistemi di terze parti come Postman.
-* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Vedi [questa sezione](../building-journeys/testing-the-journey.md#create-test-profile).
+* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Fare riferimento a questa sezione [sezione](../building-journeys/creating-test-profiles.md).
 * La modalità di test è disponibile solo in percorsi 2D che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che accede al percorso è un profilo di test o meno e deve quindi essere in grado di raggiungere il Adobe Experience Platform.
 * Il numero massimo di profili di test che possono entrare in un percorso durante una sessione di test è 100.
 * Quando disattivi la modalità di test, svuota i percorsi da tutte le persone che sono entrate nel passato o che vi si trovano attualmente. Inoltre, cancella la segnalazione.
