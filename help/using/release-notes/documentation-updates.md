@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Aggiornamenti alla documentazione
 description: Scopri gli aggiornamenti della documentazione
-feature: Percorsi
+feature: Journeys
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 92%
+source-wordcount: '806'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 92%
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journey Orchestration].
 È inoltre possibile consultare le [Note sulla versione](../release-notes/release-notes.md) di [!DNL Journey Orchestration].
+
+## Marzo 2021 {#march-2021}
+
+* Abbiamo descritto la procedura completa per creare profili di test in Adobe Experience Platform. [Leggi tutto](../building-journeys/creating-test-profiles.md).
 
 ## Gennaio 2021 {#january-2021}
 
@@ -47,7 +51,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 * È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Leggi tutto](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * È stata aggiunta una nuova sezione sulle funzioni alfa testate tra un gruppo limitato di clienti.
 * È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Leggi tutto](../ai-services/ai-services-overview.md)
-* È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md#create-test-profile)
+* È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md)
 * Sono state aggiunte informazioni su come utilizzare il nodo **[!UICONTROL SegmentQualification]** in una condizione o azione di percorso. [Leggi tutto](../building-journeys/segment-qualification-events.md)
 * È stata aggiunta una nota al messaggio transazionale di Campaign e alla pubblicazione dell’evento. Consulta [Utilizzo di Adobe Campaign](../action/working-with-adobe-campaign.md) e [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md).
 * Sono state aggiunte informazioni sui controlli eseguiti durante il test dell’URL dell’istanza di Campaign Standard. [Leggi tutto](../action/working-with-adobe-campaign.md)
