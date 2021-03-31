@@ -6,10 +6,10 @@ title: Guida di Journey Orchestration
 user-guide-description: Fornisce istruzioni per l’implementazione e la creazione di percorsi.
 index: true
 feature: Journeys
-translation-type: ht
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: ht
-source-wordcount: '404'
+translation-type: tm+mt
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+workflow-type: tm+mt
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 100%
       + [Versioni del percorso](using/building-journeys/journey-versions.md)
       + [Terminazione di un percorso](using/building-journeys/terminating-a-journey.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
+      + [Profili di test](using/building-journeys/creating-test-profiles.md)
    + Attività {#about-journey-building}
       + Attività eventi {#events-activities}
          + [Informazioni sulle attività eventi](using/building-journeys/event-activities.md)
