@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Creazione di un profilo di test
 description: 'Scopri la creazione del profilo di test '
 translation-type: tm+mt
-source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
+source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '677'
 ht-degree: 2%
 
 ---
@@ -28,25 +28,25 @@ Per poter creare profili, devi innanzitutto creare uno schema e un set di dati i
 
 Innanzitutto, devi **creare uno schema**. Segui questi passaggi:
 
-1. In Adobe Experience Platform, fai clic su **Schemi** nel menu a sinistra.
+1. In Adobe Experience Platform, fai clic su **[!UICONTROL Schemas]** nel menu a sinistra.
    ![](../assets/test-profiles-0.png)
-1. Fai clic su **Crea schema**, in alto a destra, quindi seleziona un tipo di schema, ad esempio **Profilo individuale XDM**.
+1. Fai clic su **[!UICONTROL Create schema]**, in alto a destra, quindi seleziona un tipo di schema, ad esempio **[!UICONTROL XDM Individual Profile]**.
    ![](../assets/test-profiles-1.png)
 1. Scegli un nome per lo schema.
-1. Nella sezione **Mixins**, fai clic su **Aggiungi**.
+1. Nella sezione **[!UICONTROL Mixins]**, fai clic su **[!UICONTROL Add]**.
    ![](../assets/test-profiles-1-bis.png)
-1. Selezionare i mixin appropriati. Assicurati di aggiungere il mixin **Dettagli test profilo** . Fare clic su **Aggiungi mixin**.
+1. Selezionare i mixin appropriati. Assicurati di aggiungere il mixin **[!UICONTROL Profile test details]**. Fai clic su **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 L’elenco dei mixin viene visualizzato nella schermata di panoramica dello schema.
 
    ![](../assets/test-profiles-2.png)
 1. Nell’elenco dei campi, fai clic sul campo da definire come identità principale.
    ![](../assets/test-profiles-3.png)
-1. Nel pannello a destra **Proprietà campo**, seleziona le opzioni **Identità** e **Identità principale** e seleziona uno spazio dei nomi. Se desideri che l’identità principale sia un indirizzo e-mail, scegli lo spazio dei nomi **Email** . Fare clic su **Applica**.
+1. Nel pannello a destra **[!UICONTROL Field properties]**, seleziona le opzioni **[!UICONTROL Identity]** e **[!UICONTROL Primary Identity]** e seleziona uno spazio dei nomi. Se desideri che l’identità principale sia un indirizzo e-mail, scegli lo spazio dei nomi **[!UICONTROL Email]** . Fai clic su **[!UICONTROL Apply]**.
    ![](../assets/test-profiles-4.png)
-1. Seleziona lo schema e abilita l&#39;opzione **Profilo** nelle proprietà **Schema**.
+1. Seleziona lo schema e abilita l&#39;opzione **[!UICONTROL Profile]** in **[!UICONTROL Schema properties]**.
    ![](../assets/test-profiles-5.png)
-1. Fai clic su **Salva**.
+1. Fai clic su **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ L’elenco dei mixin viene visualizzato nella schermata di panoramica dello sche
 
 Quindi devi **creare il set di dati** in cui i profili verranno importati. Segui questi passaggi:
 
-1. In Adobe Experience Platform, fai clic su **Set di dati**, nel menu a sinistra, quindi fai clic su **Crea set di dati**.
+1. In Adobe Experience Platform, fai clic su **[!UICONTROL Datasets]**, nel menu di sinistra, quindi fai clic su **[!UICONTROL Create dataset]**.
    ![](../assets/test-profiles-6.png)
-1. Scegli **Crea set di dati da schema**.
+1. Scegli **[!UICONTROL Create dataset from schema]**.
    ![](../assets/test-profiles-7.png)
-1. Seleziona lo schema creato in precedenza e fai clic su **Avanti**.
+1. Seleziona lo schema creato in precedenza e fai clic su **[!UICONTROL Next]**.
    ![](../assets/test-profiles-8.png)
-1. Scegli un nome e fai clic su **Fine**.
+1. Scegli un nome e fai clic su **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-9.png)
-1. Abilita l’opzione **Profilo** .
+1. Abilita l’opzione **[!UICONTROL Profile]** .
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -79,17 +79,17 @@ In Adobe Experience Platform, puoi creare profili caricando un file csv contenen
 1. Aggiungi una riga per profilo e compila i valori per ciascun campo.
    ![](../assets/test-profiles-12.png)
 1. Salva il foglio di calcolo come file csv. Assicurati che le virgole siano utilizzate come separatori.
-1. In Adobe Experience Platform, fai clic su **Flussi di lavoro** nel menu a sinistra.
+1. In Adobe Experience Platform, fai clic su **[!UICONTROL Workflows]** nel menu a sinistra.
    ![](../assets/test-profiles-14.png)
-1. Scegli **Mappa CSV su schema XDM**, quindi fai clic su **Launch**.
+1. Scegli **[!UICONTROL Map CSV to XDM schema]**, quindi fai clic su **[!UICONTROL Launch]**.
    ![](../assets/test-profiles-16.png)
-1. Seleziona il set di dati in cui desideri importare i profili. Fare clic su **Avanti**.
+1. Seleziona il set di dati in cui desideri importare i profili. Fai clic su **[!UICONTROL Next]**.
    ![](../assets/test-profiles-17.png)
-1. Fai clic su **Scegli i file** e seleziona il file CSV. Quando il file viene caricato, fai clic su **Avanti**.
+1. Fai clic su **[!UICONTROL Choose files]** e seleziona il file csv . Quando il file viene caricato, fai clic su **[!UICONTROL Next]**.
    ![](../assets/test-profiles-18.png)
-1. Mappa i campi csv di origine ai campi dello schema, quindi fai clic su **Fine**.
+1. Mappa i campi csv di origine ai campi dello schema, quindi fai clic su **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-19.png)
-1. Inizia l’importazione dei dati. Lo stato verrà spostato da **Elaborazione** a **Success**. Fai clic su **Anteprima set di dati** in alto a destra.
+1. Inizia l’importazione dei dati. Lo stato verrà spostato da **[!UICONTROL Processing]** a **[!UICONTROL Success]**. Fai clic su **[!UICONTROL Preview data set]** in alto a destra.
    ![](../assets/test-profiles-20.png)
 1. Verifica che i profili di test siano stati aggiunti correttamente.
    ![](../assets/test-profiles-21.png)
