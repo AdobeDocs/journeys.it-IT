@@ -6,9 +6,9 @@ title: Guida di Journey Orchestration
 user-guide-description: Fornisce istruzioni per l’implementazione e la creazione di percorsi.
 index: true
 feature: Journeys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -173,7 +173,7 @@ ht-degree: 100%
          + [startWithIgnoreCase](using/functions/functionstartwithignorecase.md)
          + [substr](using/functions/functionsubstr.md)
          + [trim](using/functions/functiontrim.md)
-         + [top](using/functions/functionupper.md)
+         + [upper](using/functions/functionupper.md)
          + [uuid](using/functions/functionuuid.md)
 + Creazione dei rapporti{#journey-reports}
    + [Informazioni sui rapporti sui percorsi](using/reporting/about-journey-reports.md)
