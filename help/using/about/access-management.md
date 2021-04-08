@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Gestione degli accessi
 description: Ulteriori informazioni sulla gestione degli accessi
-feature: Percorsi
-role: Professionista
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
+exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 98%
 
 ---
-
 
 # Gestione degli accessi{#concept_rfj_wpt_52b}
 
@@ -42,7 +42,7 @@ All’interno di Admin Console, puoi assegnare agli utenti uno dei seguenti prof
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** è l’unico profilo di prodotto che consente la creazione, la modifica e la pubblicazione di messaggi transazionali (o modelli di messaggistica) all’interno di Adobe Campaign Standard. Questo profilo di prodotto è necessario se utilizzi Adobe Campaign Standard per l’invio di messaggi durante i tuoi percorsi.
+   >**[!UICONTROL Administrators]** è l’unico profilo di prodotto che consente la creazione, la modifica e la pubblicazione di messaggi transazionali (o modelli di messaggistica) all’interno di Adobe Campaign Standard. Questo profilo di prodotto è necessario se utilizzi Adobe Campaign Standard per l’invio di messaggi durante i tuoi percorsi. Non deve essere rinominato in Admin Console.
 
 * **[!UICONTROL Standard User]**: utente con accesso di base, ad esempio gestione del percorso. Questo profilo di prodotto include le seguenti autorizzazioni:
    * Gestione dei percorsi
