@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informazioni sui rapporti sui percorsi
 description: Scopri come generare i rapporti sul percorso
-feature: Percorsi
-role: Professionista
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

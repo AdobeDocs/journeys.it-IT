@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilizzo di un segmento
 description: Scopri come utilizzare un segmento
-feature: Percorsi
-role: Professionista
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt

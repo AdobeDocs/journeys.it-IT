@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Modifica delle proprietà
 description: Scopri come modificare le proprietà
 feature: Journeys
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt

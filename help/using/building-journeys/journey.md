@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Informazioni sulla creazione di percorsi
 description: In qualità di utente aziendale, scopri come combinare attività di evento, orchestrazione e azione per creare un percorso.
 feature: Journeys
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt

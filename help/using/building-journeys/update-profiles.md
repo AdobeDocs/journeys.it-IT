@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Passaggio da un percorso a un altro
 description: Passaggio da un percorso a un altro
 feature: Journeys
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt

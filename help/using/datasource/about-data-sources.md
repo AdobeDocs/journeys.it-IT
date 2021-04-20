@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Informazioni sulle origini dati
 description: 'Informazioni su come configurare un’origine dati '
 feature: Journeys
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt

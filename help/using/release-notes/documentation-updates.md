@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Aggiornamenti alla documentazione
 description: Scopri gli aggiornamenti della documentazione
 feature: Journeys
-role: Professionista
-level: Principiante
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt

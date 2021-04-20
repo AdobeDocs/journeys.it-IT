@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Eventi di reazione
 description: Scopri gli eventi di reazione
 feature: Journeys
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt

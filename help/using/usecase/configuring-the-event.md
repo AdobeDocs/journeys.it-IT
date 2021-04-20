@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configurazione dell’evento
 description: Scopri come configurare l’evento per il percorso di casi d’uso semplici
-feature: Percorsi
-role: Professionista
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

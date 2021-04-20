@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
 feature: Journeys
-role: Professionista
-level: Principiante
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt

@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Interfaccia utente
 description: Ulteriori informazioni sull’interfaccia utente
 feature: Journeys
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt

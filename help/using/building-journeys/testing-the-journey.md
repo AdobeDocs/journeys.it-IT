@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Verifica del percorso
 description: 'Scopri i test di percorso '
 feature: Journeys
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt

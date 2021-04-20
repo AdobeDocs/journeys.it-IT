@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Utilizzo del designer del percorso
 description: Ulteriori informazioni sull'utilizzo del designer del percorso
 feature: Journeys
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

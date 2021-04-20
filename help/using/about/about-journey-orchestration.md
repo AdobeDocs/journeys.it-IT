@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Informazioni su Journey Orchestration
 description: Ulteriori informazioni su Journey Orchestration
 feature: Journeys
-role: Professionista
-level: Principiante
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: ht
