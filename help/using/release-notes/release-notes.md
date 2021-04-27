@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 63%
 
 ---
@@ -24,7 +24,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 
 ### Miglioramenti
 
-* Nella schermata **Configurazione evento** della modalità di test, ora viene visualizzato un menu a discesa per i campi che richiedono un’enumerazione. È sufficiente selezionare uno dei valori disponibili. In questo modo si evitano errori quando si attiva l’evento se è definito un valore errato.
+* Nella schermata **Configurazione evento** della modalità di test, ora viene visualizzato un menu a discesa per i campi che richiedono un’enumerazione. È sufficiente selezionare uno dei valori disponibili. In questo modo si evitano errori quando si attiva l’evento se è definito un valore errato.[Leggi tutto](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Versione di marzo 2021 {#march-2021-release}
 
