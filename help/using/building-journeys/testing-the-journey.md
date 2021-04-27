@@ -6,14 +6,14 @@ description: 'Scopri i test di percorso '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: be413905-0631-4229-a954-80a92651206d
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 3%
+source-wordcount: '1638'
+ht-degree: 2%
 
 ---
-
 
 # Verifica del percorso{#testing_the_journey}
 
@@ -133,6 +133,10 @@ Il pulsante **[!UICONTROL Trigger an event]** ti consente di configurare un even
 
 Come prerequisito, devi sapere quali profili vengono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso e l’evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo** .
 
+>[!NOTE]
+>
+>Viene visualizzato un menu a discesa per i campi che prevedono un’enumerazione. È sufficiente selezionare uno dei valori disponibili.
+
 Se il percorso contiene più eventi, utilizza l’elenco a discesa per selezionare un evento. Quindi, per ogni evento, configura i campi passati e l’esecuzione dell’invio dell’evento. L’interfaccia ti aiuta a trasmettere le informazioni corrette nel payload dell’evento e ad assicurarti che il tipo di informazioni sia corretto. La modalità di test salva gli ultimi parametri utilizzati in una sessione di test per un utilizzo successivo.
 
 ![](../assets/journeytest4.png)
@@ -205,4 +209,3 @@ Esiste uno scenario in cui ci sono più eventi inviati da più percorsi che avra
 La creazione e la denominazione automatica di questi set di dati viene eseguita se un set di dati di destinazione non è incluso nell’evento di esperienza. Ecco perché oggi vediamo il &quot;dataset creato automaticamente per voyager&quot;.
 
 La denominazione della nostra sorgente determina la creazione automatica. Se abbiamo più eventi, dovremmo concatenarli e farli diventare &quot;Evento di test Journey Orchestration - NOME DELLO SCHEMA&quot;. Viene automaticamente impostato su &quot;Set di dati generato automaticamente per evento di test Journey Orchestration - NAME OF SCHEMA&quot;.
-
