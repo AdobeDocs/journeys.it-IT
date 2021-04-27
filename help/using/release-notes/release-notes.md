@@ -6,19 +6,25 @@ description: Informazioni sulle note sulla versione
 feature: Journeys
 role: Business Practitioner
 level: Beginner
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 64%
+source-wordcount: '2479'
+ht-degree: 63%
 
 ---
-
 
 # Note sulla versione {#release-notes}
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 È inoltre possibile consultare l&#39;ultimo [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
+
+## Versione di aprile 2021 {#april-2021-release}
+
+### Miglioramenti
+
+* Nella schermata **Configurazione evento** della modalità di test, ora viene visualizzato un menu a discesa per i campi che richiedono un’enumerazione. È sufficiente selezionare uno dei valori disponibili. In questo modo si evitano errori quando si attiva l’evento se è definito un valore errato.
 
 ## Versione di marzo 2021 {#march-2021-release}
 
