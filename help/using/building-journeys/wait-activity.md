@@ -6,18 +6,18 @@ description: Scopri l’attività attendi
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
 
-
 # Attività attendi{#section_rlm_nft_dgb}
 
-Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività **[!UICONTROL Wait]** . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili quattro opzioni:
+Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività **[!UICONTROL Wait]** . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
 * [Durata](#duration)
 * [Data fissa](#fixed_date)
@@ -57,7 +57,7 @@ Questa opzione ti consente di definire una data personalizzata, ad esempio 12 lu
 
 >[!NOTE]
 >
->È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, il campo nel caso in cui si tratti del modulo 2016-08-12T09:46:06Z.
+>È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell&#39;evento è del modulo 2016-08-12T09:46:06Z.
 >
 >Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di miscelazione e fuso orario ISO-8601 offset come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
