@@ -6,14 +6,13 @@ description: Informazioni sulle attività degli eventi
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
+source-git-commit: db7567f7f3333ad69015d07991158ce5b8f01af5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '447'
 ht-degree: 1%
 
 ---
-
 
 # Informazioni sulle attività eventi {#concept_rws_1rt_52b}
 
@@ -50,8 +49,8 @@ In questo esempio, il percorso invia un primo messaggio push di benvenuto a un c
 * Se l’evento del ristorante viene ricevuto meno di 1 giorno dopo il messaggio push di benvenuto, viene inviata l’attività push con sconto sui pasti.
 * Se non viene ricevuto alcun evento di ristorante entro il giorno successivo, la persona scorre attraverso il percorso di timeout.
 
-Tieni presente che se desideri configurare un timeout per più eventi posizionati dopo un’attività **[!UICONTROL Wait]** , devi configurare il timeout solo per uno di questi eventi.
+Tieni presente che se desideri configurare un timeout su più eventi posizionati dopo un’attività **[!UICONTROL Wait]** , devi configurare il timeout solo per uno di questi eventi.
 
-Il timeout si applica a tutti gli eventi posizionati dopo l’attività **[!UICONTROL Wait]** . Se non viene ricevuto alcun evento dopo il timeout specificato, gli utenti accederanno a un singolo percorso di timeout o termineranno il percorso.
+Il timeout si applica a tutti gli eventi posizionati dopo l’attività **[!UICONTROL Wait]** . Se non viene ricevuto alcun evento prima del timeout specificato, i singoli utenti accederanno a un unico percorso di timeout o termineranno il loro percorso.
 
 ![](../assets/event-timeout-group.png)
