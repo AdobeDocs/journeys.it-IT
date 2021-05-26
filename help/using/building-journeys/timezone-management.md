@@ -6,15 +6,13 @@ description: Informazioni sulla gestione del fuso orario
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
+source-git-commit: a19493178652a7fc91b7b778c5cb47eda72cd877
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
-
-
 
 # Gestione del fuso orario {#timezone_management}
 
@@ -37,7 +35,7 @@ Puoi selezionare un fuso orario o scegliere di utilizzarlo nel profilo utente.
 
 A questo scopo, in **[!UICONTROL Properties]**, seleziona un fuso orario.
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Utilizzo dei profili per definire il fuso orario percorso {#timezone-from-profiles}
 
@@ -49,7 +47,7 @@ Se il profilo della persona non contiene un fuso orario, il fuso orario recupera
 
 A tale scopo, in **[!UICONTROL Properties]**, selezionare **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Uso dei fusi orari nelle espressioni {#timezone-in-expressions}
 
