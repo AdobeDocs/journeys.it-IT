@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Selezione dello spazio dei nomi
 description: Scopri come selezionare lo spazio dei nomi
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 976c6353-797e-40cc-bb90-5d82381bb903
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '205'
 ht-degree: 12%
 
 ---
-
 
 # Selezione dello spazio dei nomi {#concept_ckb_3qt_52b}
 
