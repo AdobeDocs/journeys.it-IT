@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Guida di Journey Orchestration
 user-guide-description: Fornisce istruzioni per l’implementazione e la creazione di percorsi.
 index: true
 feature: Journeys
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
 ---
 
 
-# Guida di [!DNL Journey Orchestration] {#using}
+# Guida di [!DNL Journey Orchestration]  {#using}
 
 + [Documentazione del prodotto](journey-orchestration-home.md)
 + Novità {#release-notes}
@@ -78,8 +76,8 @@ ht-degree: 100%
          + [Attività condizione](using/building-journeys/condition-activity.md)
          + [Attività fine](using/building-journeys/end-activity.md)
          + [Attività attendi](using/building-journeys/wait-activity.md)
-      + Attività azione {#action-activities}
-         + [Informazioni sulle attività azione](using/building-journeys/about-action-activities.md)
+      + Attività di azione {#action-activities}
+         + [Informazioni sulle attività di azione](using/building-journeys/about-action-activities.md)
          + [Utilizzo delle azioni di Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Utilizzo di azioni personalizzate](using/building-journeys/using-custom-actions.md)
          + [Passaggio da un percorso a un altro](using/building-journeys/jump.md)
