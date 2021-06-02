@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Utilizzo di Adobe Campaign
 description: Informazioni sulle azioni di Adobe Campaign
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 4%
 
 ---
-
 
 # Utilizzo di Adobe Campaign {#using_adobe_campaign_standard}
 
