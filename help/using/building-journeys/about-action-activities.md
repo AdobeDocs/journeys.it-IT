@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: Informazioni sulle attività azione
+title: Informazioni sulle attività di azione
 description: Informazioni sulle attività di azione
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 27%
+source-wordcount: '174'
+ht-degree: 28%
 
 ---
 
-
-# Informazioni sulle attività azione {#concept_hbj_hrt_52b}
+# Informazioni sulle attività di azione {#concept_hbj_hrt_52b}
 
 Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, troverai la categoria **[!UICONTROL Actions]**.
 
