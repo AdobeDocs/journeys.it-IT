@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Operatori
 description: Informazioni sugli operatori nelle espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 6%
 
 ---
-
-
 
 # Operatori {#concept_wd5_pj5_dgb}
 
@@ -37,7 +34,7 @@ Esistono due tipi di operatori: operatori unari e operatori binari. Ci sono oper
 
 Elenco degli operatori supportati:
 
-## Logica {#logical}
+## Logica  {#logical}
 
 ### e
 
