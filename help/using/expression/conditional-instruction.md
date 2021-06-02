@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Istruzione condizionale (if, then, else)
 description: Scopri le istruzioni condizionali
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 1%
 
 ---
-
 
 # Istruzione condizionale (if, then, else) {#section_cdz_lsk_w3b}
 
