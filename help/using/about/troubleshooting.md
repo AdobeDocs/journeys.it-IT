@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Risoluzione dei problemi
 description: Ulteriori informazioni sulla risoluzione dei problemi
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 97%
+source-wordcount: '1041'
+ht-degree: 98%
 
 ---
-
 
 # Risoluzione dei problemi{#concept_nlv_bcv_2fb}
 
@@ -88,4 +86,3 @@ Se gli individui si spostano nel modo giusto durante il percorso ma non ricevono
 * La messaggistica transazionale ha inviato correttamente il messaggio. Nei registri di invio del messaggio transazionale, puoi vedere lo stato di ogni esecuzione. Puoi vedere se è verde, rosso e qual era il problema. Un utente aziendale può accedere a questa schermata e inviare i registri a un amministratore per ulteriori indagini.
 
 Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test del percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno che è associata all’azione personalizzata non genera un errore ma non provoca l’invio di un messaggio, è necessario effettuare alcune indagini sul lato del sistema esterno.
-
