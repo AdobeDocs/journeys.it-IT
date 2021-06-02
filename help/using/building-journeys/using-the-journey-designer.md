@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Utilizzo del designer del percorso
 description: Ulteriori informazioni sull'utilizzo del designer del percorso
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
+exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 6%
+source-wordcount: '1413'
+ht-degree: 5%
 
 ---
-
 
 # Utilizzo del designer del percorso {#concept_m1g_5qt_52b}
 
@@ -55,7 +53,7 @@ L’icona **[!UICONTROL Filter items]** nell’angolo in alto a sinistra consent
 
 Puoi inoltre utilizzare il campo **[!UICONTROL Search]** .
 
-## Area di lavoro {#canvas}
+## Il quadro {#canvas}
 
 La **area di lavoro** è la zona centrale nella finestra di progettazione del percorso. È in questa zona che puoi rilasciare le attività e configurarle. Fai clic su un’attività nell’area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell’attività sul lato destro. È possibile ingrandire e ridurre utilizzando i pulsanti &quot;+&quot; e &quot;-&quot; in alto a destra. Nell’area di lavoro, tutte le attività ti consentono di aggiungere un passaggio successivo, ad eccezione delle attività **[!UICONTROL End]** (consulta [questa pagina](../building-journeys/end-activity.md)).
 
@@ -71,7 +69,7 @@ Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visuali
 
 ![](../assets/journey59bis.png)
 
-## Azioni barra superiore {#top_actions}
+## Azioni della barra superiore {#top_actions}
 
 A seconda dello stato del percorso, è possibile eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante del registro della modalità di prova viene visualizzato quando viene attivata la modalità di prova (vedere [questa pagina](../building-journeys/testing-the-journey.md)). Il pulsante di reporting viene visualizzato quando il percorso è attivo, arrestato o chiuso.
 
@@ -118,4 +116,3 @@ Se desideri copiare una sola attività, puoi fare clic su di essa e utilizzare l
    ![](../assets/copy-paste2.png)
 1. In qualsiasi percorso, premi **Ctrl/Comando + V** per incollare le attività senza collegarle a un nodo esistente. Le attività inviate vengono collocate nello stesso ordine. Dopo essere state incollate, le attività rimangono selezionate in modo da poterle spostare facilmente. È inoltre possibile posizionare il cursore su un segnaposto vuoto e premere **Ctrl/Comando + V**. Le attività inviate saranno collegate al nodo .
    ![](../assets/copy-paste3.png)
-
