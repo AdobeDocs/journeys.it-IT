@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Panoramica sulla condivisione delle fasi del percorso
 description: Panoramica sulla condivisione delle fasi del percorso
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 7%
+source-wordcount: '421'
+ht-degree: 8%
 
 ---
-
 
 # Panoramica sulla condivisione delle fasi del percorso{#sharing-overview}
 
