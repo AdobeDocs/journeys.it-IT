@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Introduzione
 description: Scopri i passaggi principali per configurare Journey Orchestration e creare il primo percorso.
 feature: Journeys
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 91%
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
-
 
 # Introduzione{#concept_y4b_4qt_52b}
 
@@ -70,4 +68,3 @@ Di seguito sono riportati i passaggi principali per la configurazione e l’util
    Per ulteriori informazioni, consulta [questa pagina](../reporting/about-journey-reports.md).
 
    ![](../assets/dynamic_report_journey_12.png)
-
