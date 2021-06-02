@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Proprietà del percorso
 description: Informazioni sulle proprietà del percorso
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 1%
 
 ---
-
 
 # Attributi delle proprietà del percorso {#journey-properties}
 
