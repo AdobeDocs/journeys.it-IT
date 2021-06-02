@@ -1,20 +1,18 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Limitazione della descrizione API
 description: Ulteriori informazioni sull’API di limitazione di utilizzo.
 products: journeys
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
-
 
 # Utilizzo dell’API di limitazione utilizzo
 
@@ -77,7 +75,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 L’API di limitazione di utilizzo consente di creare, configurare e monitorare le configurazioni di limitazione di utilizzo.
 
-| Metodo | Percorso | Descrizione |
+| Elemento “method” | Percorso | Descrizione |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Ottieni un elenco delle configurazioni di limiti endpoint |
 | [!DNL POST] | /endpointConfigs | Creare una configurazione di limite endpoint |
@@ -214,4 +212,3 @@ Caso d’uso n° 5: **Aggiornare una configurazione di limite già distribuita**
 1. non distribuire
 1. canonizzare
 1. distribuire
-
