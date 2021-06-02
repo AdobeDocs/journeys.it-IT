@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Interfaccia utente
 description: Ulteriori informazioni sull’interfaccia utente
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 92%
+source-wordcount: '1011'
+ht-degree: 93%
 
 ---
-
 
 # Interfaccia utente{#concept_rcq_lqt_52b}
 
@@ -144,4 +142,3 @@ _In un percorso:_
 * In un percorso basato su eventi in modalità di test, premere **E** per attivare un evento.
 * In un percorso basato su segmenti, quando l&#39;opzione **Profilo singolo alla volta** è selezionata in modalità di test, premere **P** per attivare un evento.
 * In modalità di prova, premere **L** per visualizzare i registri.
-
