@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informazioni sui rapporti sui percorsi
 description: Scopri come generare i rapporti sul percorso
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 93768321-b171-4338-a440-6ea189a85a4a
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
-
 
 # Informazioni sui rapporti sui percorsi {#concept_rfj_wpt_52b}
 
