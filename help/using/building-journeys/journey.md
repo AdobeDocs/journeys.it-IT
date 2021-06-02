@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informazioni sulla creazione di percorsi
 description: In qualità di utente aziendale, scopri come combinare attività di evento, orchestrazione e azione per creare un percorso.
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
+exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 13%
+source-wordcount: '558'
+ht-degree: 12%
 
 ---
-
 
 # Creazione di un percorso {#concept_gq5_sqt_52b}
 
