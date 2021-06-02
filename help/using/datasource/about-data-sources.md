@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informazioni sulle origini dati
 description: 'Informazioni su come configurare un’origine dati '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '345'
 ht-degree: 81%
 
 ---
-
 
 # Informazioni sulle origini dati {#concept_s1s_dqt_52b}
 
@@ -26,7 +24,7 @@ La configurazione dell’origine dati consente di definire una connessione a un 
 
 * [Definizione della condizione.](../building-journeys/condition-activity.md)
 * Dati dei parametri e di personalizzazione nelle [azioni](../action/action.md).
-* [Impostazione di attesa personalizzata](../building-journeys/wait-activity.md#custom).
+* [Impostazione di attesa personalizzata.](../building-journeys/wait-activity.md#custom)
 * [Impostazione del fuso orario](../building-journeys/timezone-management.md)
 
 Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività e-mail che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
