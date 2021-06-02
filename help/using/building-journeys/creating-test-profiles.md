@@ -1,16 +1,14 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Creazione di un profilo di test
-description: 'Scopri la creazione del profilo di test '
-translation-type: tm+mt
-source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
+description: Scopri la creazione del profilo di test
+exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 2%
 
 ---
-
 
 # Creare profili di test {#create-test-profiles}
 
@@ -152,4 +150,3 @@ curl -X POST \
 }
 }'
 ```
-
