@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Configurazione dell’origine dati
 description: Scopri come configurare l’origine dati per il caso d’uso percorso semplice
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 6%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
-
 
 # Configurazione dell’origine dati{#concept_ax3_bcy_w2b}
 
