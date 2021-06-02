@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Generalità
 description: Scopri le generalità delle espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '215'
+ht-degree: 3%
 
 ---
 
-
 # Generalità {#concept_rcy_qj5_dgb}
 
-## Parentesi ed espressione prioritarie{#section_edf_fks_bgb}
+## Parentesi e priorità delle espressioni{#section_edf_fks_bgb}
 
 Le parentesi possono essere utilizzate per rendere più leggibile un’espressione complessa. _(&lt;expression>)_ è l’equivalente di  _&lt;expression>_. È inoltre possibile utilizzare le parentesi per definire l’ordine di valutazione e l’associatività.
 
@@ -30,7 +28,7 @@ Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugl
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; ha la priorità rispetto a &#39;+&#39;: 2 * 10 è valutato → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Le parentesi cambiano la priorità: (4 + 2) è valutato → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Sensibilità delle maiuscole/minuscole{#section_lrb_xh5_dgb}
+## Sensibilità delle maiuscole{#section_lrb_xh5_dgb}
 
 Di seguito sono riportate le diverse regole di distinzione tra maiuscole e minuscole:
 
