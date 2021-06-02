@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informazioni sugli eventi
 description: Informazioni sugli eventi
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 49%
+source-wordcount: '354'
+ht-degree: 48%
 
 ---
-
 
 # Principio generale {#concept_gfj_fqt_52b}
 
@@ -41,4 +39,3 @@ Puoi definire due tipi di eventi:
 * **Sviluppatori** di sistema: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, deve passare quello disponibile nell’anteprima del payload.
 
 Per informazioni su come creare un evento, consulta questa [pagina](../event/about-creating.md).
-
