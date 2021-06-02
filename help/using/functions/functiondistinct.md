@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinct
 description: Scopri il distinto funzione
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 13%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-
-# distinct {#distinct}
+# distinto {#distinct}
 
 Restituisce i valori distinti dell’elenco senza valori nulli.
 
@@ -27,7 +25,7 @@ Elenco
 
 `distinct(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
