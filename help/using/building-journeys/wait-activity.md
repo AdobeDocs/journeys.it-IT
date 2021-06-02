@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Attività attendi
 description: Scopri l’attività attendi
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-translation-type: tm+mt
-source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 4%
@@ -25,7 +23,7 @@ Se desideri attendere prima di eseguire l’attività successiva nel percorso, p
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## Informazioni sull&#39;attività Wait{#about_wait}
+## Informazioni sull’attività Attendi{#about_wait}
 
 Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione temporale e una condizione diversa ma sovrapposta, l’attesa posizionata sopra sarà quella prioritaria. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. La prima attività di attesa avrà una priorità
 
@@ -45,7 +43,7 @@ Seleziona la durata dell’attesa prima dell’esecuzione dell’attività succe
 
 ![](../assets/journey55.png)
 
-## Data fissa attesa{#fixed_date}
+## Attesa data fissa{#fixed_date}
 
 Seleziona la data di esecuzione dell’attività successiva.
 
