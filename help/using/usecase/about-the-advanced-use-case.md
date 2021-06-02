@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informazioni sul caso d’uso avanzato
 description: Ulteriori informazioni sul caso d’uso avanzato percorso
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 43435aee-572d-4db2-88d5-6124ce074285
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 4%
+source-wordcount: '419'
+ht-degree: 5%
 
 ---
-
 
 # Informazioni sul caso d’uso avanzato{#concept_vzy_ncy_w2b}
 
