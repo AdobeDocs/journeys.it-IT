@@ -6,14 +6,14 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 4%
+source-wordcount: '303'
+ht-degree: 3%
 
 ---
 
-# Utilizzo di Adobe Campaign {#using_adobe_campaign_standard}
+# Utilizzo di Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 Puoi inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign Standard.
 
