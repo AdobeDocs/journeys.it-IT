@@ -5,10 +5,10 @@ title: Guida di Journey Orchestration
 user-guide-description: Fornisce istruzioni per l’implementazione e la creazione di percorsi.
 index: true
 feature: Journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 100%
    + [Origini dati esterne](using/datasource/external-data-sources.md)
 + Configurazione di un’azione {#action-journeys}
    + [Informazioni sulle azioni](using/action/action.md)
-   + [Utilizzo di Adobe Campaign](using/action/working-with-adobe-campaign.md)
+   + [Utilizzo di Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [Utilizzo di Adobe Campaign Classic](using/action/acc-action.md)
    + Utilizzo di un sistema di terze parti {#action-third-party}
       + [Informazioni sulla configurazione delle azioni personalizzata](using/action/about-custom-action-configuration.md)
       + [Configurazione URL](using/action/url-configuration.md)
       + [Definizione dei parametri del messaggio](using/action/defining-the-message-parameters.md)
-   + [Integrazione con Adobe Campaign Classic](using/beta/acc-action.md)
 + Utilizzo dei segmenti di Platform {#configuring-segment}
    + [Informazioni sui segmenti di Platform](using/segment/about-segments.md)
    + [Creazione di un segmento](using/segment/creating-a-segment.md)
@@ -78,7 +78,8 @@ ht-degree: 100%
          + [Attività attendi](using/building-journeys/wait-activity.md)
       + Attività di azione {#action-activities}
          + [Informazioni sulle attività di azione](using/building-journeys/about-action-activities.md)
-         + [Utilizzo delle azioni di Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Utilizzo di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Utilizzo di Adobe Campaign Classic](using/building-journeys/using-adobe-campaign-classic.md)
          + [Utilizzo di azioni personalizzate](using/building-journeys/using-custom-actions.md)
          + [Passaggio da un percorso a un altro](using/building-journeys/jump.md)
          + [Aggiornare il profilo](using/building-journeys/update-profiles.md)
@@ -191,5 +192,6 @@ ht-degree: 100%
       + [Configurazione degli eventi](using/usecase/configuring-the-events.md)
       + [Configurazione delle origini dati](using/usecase/configuring-the-data-sources.md)
       + [Creazione di un percorso](using/usecase/building-the-journey.md)
+   + [Invio di un messaggio con Campaign Classic](using/usecase/campaign-classic-use-case.md)
 + Utilizzo delle API{#working-with-apis}
    + [Limitazione di utilizzo delle API](using/api/capping.md)
