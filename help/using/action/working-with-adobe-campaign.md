@@ -6,16 +6,14 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 04aa7d95c2f12fe03497efe74f2ab8bd1a270b5b
+source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 2%
+source-wordcount: '303'
+ht-degree: 3%
 
 ---
 
-# Utilizzo di Adobe Campaign {#using_adobe_campaign}
-
-## Utilizzo di Adobe Campaign Standard {#using_adobe_campaign_standard}
+# Utilizzo di Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 Puoi inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign Standard.
 
@@ -54,63 +52,3 @@ Durante la progettazione del percorso, nella categoria **[!UICONTROL Action]** s
 ![](../assets/journey58.png)
 
 Se utilizzi un sistema di terze parti per l’invio dei messaggi, devi aggiungere e configurare un’azione personalizzata. Consulta [Informazioni sulla configurazione delle azioni personalizzate](../action/about-custom-action-configuration.md).
-
-## Utilizzo di Adobe Campaign v7/v8 {#using_adobe_campaign_v7_v8}
-
-Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 21.1 e Adobe Campaign v8. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
-
-La connessione tra le istanze del Journey Orchestration e di Campaign viene impostata per Adobe al momento del provisioning.
-
-In questa [sezione](../usecase/campaign-v7-v8-use-case.md) viene presentato un caso d’uso end-to-end.
-
-Per ogni azione configurata, nella palette Progettazione percorsi è disponibile un’attività di azione. Fare riferimento a questa sezione [sezione](../building-journeys/using-adobe-campaign-actions.md).
-
-### Note importanti
-
-* I messaggi non sono soggetti a limitazione. Il numero massimo di messaggi che possono essere inviati oltre 50.000/ora in base al nostro attuale SLA Campaign. Per questo motivo, l’orchestrazione dei Percorsi deve essere utilizzata solo in casi d’uso unitari (eventi individuali, non segmenti).
-
-* È necessario configurare un’azione sull’area di lavoro per modello da utilizzare. Devi configurare un’azione in Journey Orchestration per ogni modello che desideri utilizzare da Adobe Campaign.
-
-* È consigliabile utilizzare un’istanza del Centro messaggi dedicata ospitata per questa integrazione per evitare di influenzare altre operazioni di Campaign che potrebbero essere in corso. Il server di marketing può essere ospitato o on-premise. La build richiesta è 21.1 Release Candidate o successiva.
-
-* Non esiste una convalida relativa alla correttezza del payload o del messaggio Campaign.
-
-* Non puoi utilizzare un’azione Campaign con un evento di qualificazione dei segmenti.
-
-### Prerequisiti
-
-In Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Consulta la [documentazione Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
-
-Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern seguente. Quindi incolla questo payload durante la configurazione dell’azione in Journey Orchestration (vedi sotto)
-
-Ecco un esempio:
-
-```
-{
-    "channel": "email",
-    "eventType": "welcome",
-    "email": "example@adobe.com",
-    "ctx": {
-        "firstName": "John"
-    }
-}
-```
-
-* **canale**: il canale definito per il modello transazionale di Campaign
-* **eventType**: il nome interno dell’evento Campaign
-* **ctx**: in base alla personalizzazione contenuta nel messaggio.
-
-### Configurazione dell’azione
-
-Al Journey Orchestration, devi configurare un’azione per messaggio transazionale. Segui questi passaggi:
-
-1. Crea una nuova azione. Fare riferimento a questa sezione [sezione](../action/action.md).
-1. Immetti un nome e una descrizione.
-1. Nel campo **Tipo azione**, seleziona **Adobe Campaign Classic**.
-1. Fai clic nel campo **Payload** e incolla un esempio del payload JSON corrispondente al messaggio Campaign. Per ottenere questo payload, contatta l’Adobe .
-1. Regola i diversi campi in modo che siano statici o variabili a seconda di se desideri mapparli sull’area di lavoro del Percorso. Alcuni campi, come i parametri del canale per l’indirizzo e-mail e i campi di personalizzazione (ctx), probabilmente dovranno essere definiti come variabili da mappare nel contesto del percorso.
-1. Fai clic su **Salva**.
-
-![](../assets/accintegration1.png)
-
-
