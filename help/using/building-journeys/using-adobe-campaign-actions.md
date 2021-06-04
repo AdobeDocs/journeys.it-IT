@@ -6,16 +6,14 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 04aa7d95c2f12fe03497efe74f2ab8bd1a270b5b
+source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 4%
+source-wordcount: '900'
+ht-degree: 5%
 
 ---
 
 # Utilizzo delle azioni di Adobe Campaign {#using_campaign_action}
-
-## Utilizzo di Adobe Campaign Standard {#using_campaign_standard_action}
 
 Se disponi di Adobe Campaign Standard, sono disponibili le seguenti attività di azione predefinite: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
 
@@ -41,7 +39,7 @@ Quando selezioni un modello, tutti i campi previsti nel payload del messaggio ve
 
 ![](../assets/journey60.png)
 
-### E-mail e SMS {#section_asc_51g_nhb}
+## E-mail e SMS {#section_asc_51g_nhb}
 
 Per **[!UICONTROL Email]** e **[!UICONTROL SMS]**, i parametri sono identici.
 
@@ -75,7 +73,7 @@ Questi sono i campi previsti dal messaggio Adobe Campaign Standard. Questi campi
 
 ![](../assets/journey62.png)
 
-### Push {#section_im3_hvf_nhb}
+## Push {#section_im3_hvf_nhb}
 
 Prima di utilizzare l’attività push, è necessario configurare la tua app mobile insieme a Campaign Standard per l’invio di notifiche push. Utilizza questo [articolo](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html) per intraprendere i passaggi di implementazione necessari per mobile.
 
@@ -106,20 +104,3 @@ In questa sezione, devi definire il valore **[!UICONTROL Push platform]**. L’e
 >Non puoi passare una raccolta nei dati di personalizzazione. Se il push transazionale prevede raccolte, non funzionerà. Tieni presente anche che i dati di personalizzazione hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti.
 
 Questi sono i campi previsti dal modello transazionale utilizzato nel messaggio Adobe Campaign Standard. Questi campi possono essere utilizzati per personalizzare il messaggio, applicare la formattazione condizionale o scegliere una specifica variante del messaggio.
-
-## Utilizzo di Adobe Campaign v7/v8 {#using_campaign_v7_v8_action}
-
-Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 21.1 e Adobe Campaign v8. Ti consentirà di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
-
-La connessione tra le istanze del Journey Orchestration e di Campaign viene impostata per Adobe al momento del provisioning. Adobe di contatto.
-
-Affinché questo funzioni, devi configurare un’azione dedicata. Fare riferimento a questa sezione [sezione](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
-
-In questa [sezione](../usecase/campaign-v7-v8-use-case.md) viene presentato un caso d’uso end-to-end.
-
-1. Progetta il tuo percorso, a partire da un evento. Vedere questa sezione [](../building-journeys/journey.md).
-1. Nella sezione **Azione** della palette, seleziona un’azione Campaign e aggiungilo al percorso.
-1. Nei **Parametri azione** vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Fare riferimento a questa sezione [sezione](../building-journeys/using-custom-actions.md).
-
-![](../assets/accintegration2.png)
-
