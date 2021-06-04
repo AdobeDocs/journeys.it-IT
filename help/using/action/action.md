@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '314'
 ht-degree: 85%
 
 ---
@@ -38,7 +38,7 @@ Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su *
 
 Se disponi di Adobe Campaign Standard, devi configurare l’azione predefinita affinché esegua l’invio di e-mail, notifiche push e SMS tramite le funzionalità di messaggistica transazionale di Adobe Campaign Standard. Consulta [questa pagina](../action/working-with-adobe-campaign.md).
 
-Se disponi di Adobe Campaign Classic, è disponibile un’integrazione su richiesta. Consulta [questa pagina](../action/acc-action.md).
+Se disponi di Adobe Campaign v7 o v8, è disponibile un’integrazione su richiesta. Consulta [questa pagina](../action/acc-action.md).
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, Adobe.io, Firebase e così via, devi aggiungere e configurare un’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
