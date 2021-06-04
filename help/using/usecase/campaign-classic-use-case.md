@@ -1,32 +1,32 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Sfruttare i punteggi di fatica
-description: Scopri come sfruttare i punteggi di affaticamento nei percorsi
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+title: Invio di un messaggio tramite Campaign v7/v8
+description: Invio di un messaggio tramite Campaign v7/v8
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
 
 
-# Invio di un messaggio tramite Campaign Classic {#campaign-classic-use-case}
+# Invio di un messaggio tramite Campaign v7/v8 {#campaign-classic-use-case}
 
-Questo caso d’uso illustra tutti i passaggi necessari per inviare un’e-mail utilizzando l’integrazione Adobe Campaign Classic.
+Questo caso d’uso illustra tutti i passaggi necessari per inviare un’e-mail utilizzando l’integrazione con Adobe Campaign Classic v7 e Adobe Campaign v8.
 
-In Campaign Classic verrà innanzitutto creato un modello di e-mail transazionale. Poi, al Journey Orchestration, creeremo l&#39;evento, l&#39;azione e progetteremo il percorso.
+Innanzitutto, creeremo un modello e-mail transazionale in Campaign. Poi, al Journey Orchestration, creeremo l&#39;evento, l&#39;azione e progetteremo il percorso.
 
-Per ulteriori informazioni sull’integrazione di Campaign Classic, consulta le pagine seguenti:
+Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti pagine:
 
-* [Creazione di un’azione Campaign Classic](../action/acc-action.md)
+* [Creazione di un’azione Campaign](../action/acc-action.md)
 * [Utilizzo dell’azione in un percorso](../building-journeys/using-adobe-campaign-classic.md).
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-È necessario eseguire il provisioning dell’istanza Campaign Classic per questa integrazione. È necessario configurare la funzione Messaggistica transazionale.
+È necessario eseguire il provisioning dell’istanza Campaign per questa integrazione. È necessario configurare la funzione Messaggistica transazionale.
 
-1. Accedi alla tua istanza di controllo Campaign Classic.
+1. Accedi alla tua istanza di controllo Campaign.
 
 1. In **Amministrazione** > **Piattaforma** > **Enumerazioni**, seleziona l&#39;enumerazione **Tipo evento** (eventType). Crea un nuovo tipo di evento (&quot;percorso-evento&quot;, nel nostro esempio). Sarà necessario utilizzare il nome interno del tipo di evento quando si scriverà il file JSON in un secondo momento.
 
@@ -38,7 +38,7 @@ Per ulteriori informazioni sull’integrazione di Campaign Classic, consulta le 
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Progetta il tuo modello. In questo esempio, utilizziamo la personalizzazione sul nome del profilo e sul numero dell’ordine. Il nome si trova nell’origine dati Adobe Experience Platform e il numero dell’ordine è un campo dell’evento Journey Orchestration. Assicurarsi di utilizzare i nomi di campo corretti in Campaign Classic.
+1. Progetta il tuo modello. In questo esempio, utilizziamo la personalizzazione sul nome del profilo e sul numero dell’ordine. Il nome si trova nell’origine dati Adobe Experience Platform e il numero dell’ordine è un campo dell’evento Journey Orchestration. Assicurati di utilizzare i nomi di campo corretti in Campaign.
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -70,7 +70,7 @@ Per ulteriori informazioni sull’integrazione di Campaign Classic, consulta le 
 
    ![](../assets/accintegration-uc-5.png)
 
-1. Devi quindi creare, al Journey Orchestration, un’azione corrispondente al modello di Campaign Classic. Nel menu a discesa **Tipo azione**, seleziona **Adobe Campaign Classic**.
+1. Devi quindi creare, in Journey Orchestration, un’azione corrispondente al modello di Campaign. Nel menu a discesa **Tipo azione**, seleziona **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
