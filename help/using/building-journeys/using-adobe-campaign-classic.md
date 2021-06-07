@@ -1,31 +1,31 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Utilizzo delle azioni di Adobe Campaign
-description: Informazioni sulle azioni di Adobe Campaign
+title: Utilizzo delle azioni Adobe Campaign v7/v8
+description: Scopri le azioni di Adobe Campaign v7/v8
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: f4344697c24d8436f7c474e828f820e7f3f9a48e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 3%
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
-# Utilizzo di Adobe Campaign Classic {#using_campaign_classic}
+# Utilizzo di Adobe Campaign v7/v8 {#using_campaign_classic}
 
-Se disponi di Adobe Campaign Classic, è disponibile un’integrazione . Ti consentirà di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign Classic.
+È disponibile un’integrazione se disponi di Adobe Campaign v7 o v8. Ti consentirà di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
 
-La connessione tra le istanze Journey Orchestration e Campaign Classic viene impostata per Adobe al momento del provisioning. Adobe di contatto.
+La connessione tra le istanze del Journey Orchestration e di Campaign viene impostata per Adobe al momento del provisioning. Adobe di contatto.
 
 Affinché questo funzioni, devi configurare un’azione dedicata. Fare riferimento a questa sezione [sezione](../action/acc-action.md).
 
 In questa [sezione](../usecase/campaign-classic-use-case.md) viene presentato un caso d’uso end-to-end.
 
 1. Progetta il tuo percorso, a partire da un evento. Vedere questa sezione [](../building-journeys/journey.md).
-1. Nella sezione **Azione** della palette, seleziona un’azione Campaign Classic e aggiungilo al percorso.
+1. Nella sezione **Azione** della palette, seleziona un’azione Campaign e aggiungilo al percorso.
 1. Nei **Parametri azione** vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Fare riferimento a questa sezione [sezione](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
