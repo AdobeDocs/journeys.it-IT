@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 35%
+source-wordcount: '394'
+ht-degree: 34%
 
 ---
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni su come generare un percorso, consulta [questa pagina
 
    ![](../assets/journeyuc1_12.png)
 
-1. Rilascia un’attività **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Spa discount&quot;. Questo modello è stato progettato utilizzando Adobe Campaign. Fai riferimento a questa [pagina]().
+1. Rilascia un’attività **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Spa discount&quot;. Questo modello è stato progettato utilizzando Adobe Campaign. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
    ![](../assets/journeyuc1_13.png)
 
