@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 5%
+source-wordcount: '896'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Se disponi di Adobe Campaign Standard, sono disponibili le seguenti attività di
 >
 >A questo scopo, devi configurare l’azione incorporata. Consulta [questa pagina](../action/working-with-adobe-campaign.md).
 
-Per ciascuno di questi canali, seleziona un modello di messaggistica transazionale Adobe Campaign Standard **template**. In effetti, [!DNL Journey Orchestration] non è una soluzione per l’invio di messaggi. Per i canali e-mail, SMS e push incorporati, ci affidiamo alla messaggistica transazionale per eseguire l’invio dei messaggi. Significa che se desideri utilizzare un determinato modello di messaggio nei tuoi percorsi, devi pubblicarlo in Adobe Campaign Standard. Per informazioni su come utilizzare questa funzione, consulta [questa pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html) .
+Per ciascuno di questi canali, seleziona un modello di messaggistica transazionale Adobe Campaign Standard **template**. In effetti, [!DNL Journey Orchestration] non è una soluzione per l’invio di messaggi. Per i canali e-mail, SMS e push incorporati, ci affidiamo alla messaggistica transazionale per eseguire l’invio dei messaggi. Significa che se desideri utilizzare un determinato modello di messaggio nei tuoi percorsi, devi pubblicarlo in Adobe Campaign Standard. Per informazioni su come utilizzare questa funzione, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) .
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Per **[!UICONTROL Email]** e **[!UICONTROL SMS]**, i parametri sono identici.
 
 >[!NOTE]
 >
->Per l’e-mail, se utilizzi un modello transazionale di profili, il meccanismo di annullamento dell’abbonamento viene gestito come predefinito da Campaign Standard. È sufficiente aggiungere un blocco di contenuto **[!UICONTROL Unsubscription link]** nel modello ([ulteriori informazioni](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Se utilizzi un modello basato su eventi (rtEvent), devi aggiungere nel messaggio un collegamento che passa l’e-mail della persona nel parametro URL e punta a una pagina di destinazione per l’annullamento dell’abbonamento. Devi creare questa pagina di destinazione e accertarti che la decisione dell’utente di annullare l’iscrizione sia trasmessa all’Adobe.
+>Per l’e-mail, se utilizzi un modello transazionale di profili, il meccanismo di annullamento dell’abbonamento viene gestito come predefinito da Campaign Standard. È sufficiente aggiungere un blocco di contenuto **[!UICONTROL Unsubscription link]** nel modello ([ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Se utilizzi un modello basato su eventi (rtEvent), devi aggiungere nel messaggio un collegamento che passa l’e-mail della persona nel parametro URL e punta a una pagina di destinazione per l’annullamento dell’abbonamento. Devi creare questa pagina di destinazione e accertarti che la decisione dell’utente di annullare l’iscrizione sia trasmessa all’Adobe.
 
 Innanzitutto, devi scegliere un modello di messaggistica transazionale. Consulta [questa pagina](../building-journeys/about-action-activities.md).
 
