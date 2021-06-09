@@ -7,9 +7,9 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Approfondisci i dettagli sulle ultime versioni.
 * [Definizione del campo XDM di Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/home.html)
 * [Documentazione spazio dei nomi di identità](https://docs.adobe.com/content/help/it-IT/experience-platform/identity/home.html)
 * [API Streaming Ingestion](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/streaming/overview.html)
-* [Documentazione sulla messaggistica transazionale di Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
+* [Documentazione sulla messaggistica transazionale di Campaign Standard]()
 
 ## Tutorial tecnici
 
