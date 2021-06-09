@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati conte
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Puoi configurare un’azione personalizzata se utilizzi un sistema di terze parti per l’invio dei messaggi. Se disponi di Adobe Campaign Standard, potrai eseguire l’invio di e-mail, notifiche push e SMS tramite le [funzionalità di messaggistica transazionale]() di Adobe Campaign Standard.
+[!DNL Journey Orchestration] consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Puoi configurare un’azione personalizzata se utilizzi un sistema di terze parti per l’invio dei messaggi. Se disponi di Adobe Campaign Standard, potrai eseguire l’invio di e-mail, notifiche push e SMS tramite le [funzionalità di messaggistica transazionale](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) di Adobe Campaign Standard.
 
 Nella scheda di configurazione dell’evento, **un utente tecnico** configura gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile.
 
