@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Informazioni sugli eventi
-description: Informazioni sugli eventi
-feature: Journeys
+description: Scopri gli eventi
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="Informazioni sugli eventi"
->abstract="Un evento è collegato a una persona Si riferisce al comportamento di una persona o qualcosa che si verifica in relazione a una persona. Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener a questi dati, in modo da orchestrare le migliori azioni da eseguire successivamente."
+>abstract="Un evento è collegato a una persona Si riferisce al comportamento di una persona o a qualcosa che si verifica in relazione a una persona. Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener a questi dati, in modo da orchestrare le migliori azioni da eseguire successivamente."
 
 Un evento è collegato a una persona e si riferisce al suo comportamento: ad esempio, se ha acquistato un prodotto, se ha visitato un negozio, se è uscita da un sito web, e così via. Oppure, indica qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener a questi dati, in modo da orchestrare le migliori azioni da eseguire successivamente.
 
@@ -30,12 +30,12 @@ Se modifichi un evento utilizzato in una bozza di percorso o in un percorso live
 
 Puoi definire due tipi di eventi:
 
-* **Eventi** basati sulle regole: questo tipo di evento non genera un eventID. Utilizzando l’editor di espressioni semplici, puoi semplicemente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i tuoi percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
+* **Eventi basati sulle regole**: questo tipo di evento non genera un eventID. Utilizzando l’editor di espressioni semplici, puoi semplicemente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
    >[!CAUTION]
    >
-   >Per gli eventi basati su regole viene definita una regola di limitazione. Limita il numero di eventi qualificati che un percorso può elaborare a 5000 al secondo per una determinata organizzazione (ORG). Corrisponde agli SLA di Journey Orchestration. Vedere questa [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Per gli eventi basati su regole viene definita una regola di quota limite. Questa limita a 5000 al secondo il numero di eventi qualificati che un percorso può elaborare per una determinata organizzazione (ORG). Corrisponde agli SLA di Journey Orchestration. Consulta questa [pagina](https://helpx.adobe.com/it/legal/product-descriptions/journey-orchestration.html).
 
-* **Sviluppatori** di sistema: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, deve passare quello disponibile nell’anteprima del payload.
+* Eventi **generati dal sistema**: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload.
 
-Per informazioni su come creare un evento, consulta questa [pagina](../event/about-creating.md).
+Per scoprire come creare un evento, consulta questa [pagina](../event/about-creating.md).
