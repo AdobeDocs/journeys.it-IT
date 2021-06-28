@@ -6,14 +6,14 @@ user-guide-description: Fornisce istruzioni per l’implementazione e la creazio
 index: true
 feature: Journeys
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# Guida di [!DNL Journey Orchestration]  {#using}
+# Guida di [!DNL Journey Orchestration] {#using}
 
 + [Documentazione del prodotto](journey-orchestration-home.md)
 + Novità {#release-notes}
@@ -34,7 +34,7 @@ ht-degree: 92%
       + [Creazione di un evento](using/event/about-creating.md)
       + [Utilizzo di Adobe Analytics](using/event/about-analytics.md)
       + [Informazioni sugli schemi ExperienceEvent](using/event/experience-event-schema.md)
-      + [Passaggi aggiuntivi per l&#39;invio di eventi](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + [Passaggi aggiuntivi per l’invio di eventi](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Definizione dei campi payload](using/event/defining-the-payload-fields.md)
    + [Selezione dello spazio dei nomi](using/event/selecting-the-namespace.md)
    + [Definizione del codice evento](using/event/defining-the-event-key.md)
@@ -63,7 +63,7 @@ ht-degree: 92%
       + [Utilizzo del designer del percorso](using/building-journeys/using-the-journey-designer.md)
       + [Modifica delle proprietà](using/building-journeys/changing-properties.md)
       + [Versioni del percorso](using/building-journeys/journey-versions.md)
-      + [Terminazione di un percorso](using/building-journeys/terminating-a-journey.md)
+      + [Conclusione di un percorso](using/building-journeys/terminating-a-journey.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
       + [Profili di test](using/building-journeys/creating-test-profiles.md)
    + Attività {#about-journey-building}
@@ -89,10 +89,10 @@ ht-degree: 92%
    + Condivisione di passaggi del percorso con Adobe Experience Platform {#sharing-journey-steps}
       + [Panoramica sulla condivisione delle fasi del percorso](using/building-journeys/sharing-overview.md)
       + [Campi comuni degli eventi journeySteps](using/building-journeys/sharing-common-fields.md)
-      + [Campi di esecuzione azione degli eventi journeyStep](using/building-journeys/sharing-execution-fields.md)
-      + [Campi di recupero dati di journeyStep](using/building-journeys/sharing-fetch-fields.md)
-      + [Campi di identità dell’evento di journeyStep](using/building-journeys/sharing-identity-fields.md)
-      + [Campi del percorso](using/building-journeys/sharing-journey-fields.md)
+      + [Campi di esecuzione dell’azione eventi journeyStep](using/building-journeys/sharing-execution-fields.md)
+      + [Campi di recupero dati di eventi journeyStep](using/building-journeys/sharing-fetch-fields.md)
+      + [Campi di identità dell’evento journeyStep](using/building-journeys/sharing-identity-fields.md)
+      + [campi del percorso](using/building-journeys/sharing-journey-fields.md)
 + Utilizzo dell’editor di espressioni avanzate {#building-advanced-conditions-journeys}
    + [Informazioni sull’editor di espressioni avanzate](using/expression/expressionadvanced.md)
    + Sintassi {#syntax}
@@ -163,7 +163,7 @@ ht-degree: 92%
          + [isNotEmpty](using/functions/functionisnotempty.md)
          + [lastIndexOf](using/functions/functionlastindexof.md)
          + [length](using/functions/functionlength.md)
-         + [Lower](using/functions/functionlower.md)
+         + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
@@ -179,9 +179,9 @@ ht-degree: 92%
    + [Informazioni sui rapporti sui percorsi](using/reporting/about-journey-reports.md)
    + [Creazione dei rapporti sui percorsi](using/reporting/creating-your-journey-reports.md)
    + [Metriche e dimensioni](using/reporting/metrics-and-dimensions.md)
-+ Integrazione con i servizi intelligenti{#use-case-advanced}
++ Integrazione con Intelligent Services{#use-case-advanced}
    + [Informazioni sull’integrazione con l’intelligenza artificiale](using/ai-services/ai-services-overview.md)
-   + [Sfruttamento dell’intelligenza artificiale del cliente](using/ai-services/leveraging-customer-ai.md)
+   + [Sfruttare IA analisi cliente](using/ai-services/leveraging-customer-ai.md)
 + Casi d’uso{#use-cases-journeys}
    + Invio di un’e-mail personalizzata{#use-case-simple}
       + [Informazioni sul caso d’uso semplice](using/usecase/about-the-simple-use-case.md)
@@ -195,4 +195,4 @@ ht-degree: 92%
       + [Creazione di un percorso](using/usecase/building-the-journey.md)
    + [Invio di un messaggio tramite Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
 + Utilizzo delle API{#working-with-apis}
-   + [Limitazione di utilizzo delle API](using/api/capping.md)
+   + [Quota limite delle API](using/api/capping.md)
