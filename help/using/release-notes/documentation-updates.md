@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Aggiornamenti alla documentazione
 description: Scopri gli aggiornamenti della documentazione
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 ## Settembre 2020 {#september-2020}
 
-* La sezione relativa alla descrizione dell’interfaccia è stata aggiornata per riflettere il nuovo menu **All selector** . [Leggi tutto](../about/user-interface.md)
+* La sezione che descrive l’interfaccia è stata aggiornata per riflettere il nuovo menu del **selettore Tutto**. [Leggi tutto](../about/user-interface.md)
 * È stata aggiunta una nota sulle nuove versioni non ricorrenti dei percorsi basati su segmenti.
 
 ## Agosto 2020 {#august-2020}
@@ -47,7 +47,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 * La sezione delle attività eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Leggi tutto](../building-journeys/event-activities.md)
 * Sono state aggiunte le best practice per evitare il sovraccarico con la qualificazione dei segmenti. [Leggi tutto](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Leggi tutto](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* È stata aggiunta una nuova sezione sulle funzioni alfa testate tra un gruppo limitato di clienti.
+* È stata aggiunta una nuova sezione sulle funzioni alfa testate da un gruppo limitato di clienti.
 * È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Leggi tutto](../ai-services/ai-services-overview.md)
 * È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md)
 * Sono state aggiunte informazioni su come utilizzare il nodo **[!UICONTROL SegmentQualification]** in una condizione o azione di percorso. [Leggi tutto](../building-journeys/segment-qualification-events.md)
