@@ -3,10 +3,10 @@ product: adobe campaign
 title: Descrizione dell’API di esportazione di importazione
 description: Ulteriori informazioni sull’API di esportazione dell’importazione.
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 2%
+source-wordcount: '1123'
+ht-degree: 1%
 
 ---
 
@@ -30,21 +30,21 @@ Per testare e preparare l&#39;integrazione, è disponibile una raccolta Postman 
 
 Per esportare e importare i percorsi tra ambienti, si consiglia di seguire questi passaggi:
 
-1. Crea e imposta il parametro di un percorso nell’ambiente di avvio. [Maggiori informazioni qui](https://docs.adobe.com/content/help/it-IT/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Controlla se la versione del percorso non contiene errori. [Maggiori informazioni qui](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. Crea e imposta il parametro di un percorso nell’ambiente di avvio. [Maggiori informazioni qui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Controlla se la versione del percorso non contiene errori. [Maggiori informazioni qui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. Chiama l’ API **/list/percorsi** per recuperare il percorso UID e l’UID della versione più recente del percorso. Se necessario, puoi chiamare **/percorsi/`{uid}`/più recente** per trovare l&#39;UID della versione più recente del percorso.
 1. Chiama l&#39;API **export** con i parametri dell&#39;ambiente di avvio (orgID e sandboxName).
 1. Apri il payload restituito, quindi controlla i seguenti elementi:
    * Se il percorso esportato contiene **credenziali specifiche**, è necessario sostituire tali credenziali con quelle corrispondenti al nuovo ambiente.
-   * Se il percorso esportato contiene **eventi** che puntano a uno **schema XDM**, è necessario aggiornare manualmente il riferimento dell&#39;ID dello schema con l&#39;ID dello schema del nuovo ambiente nel nodo xdmEntity se i valori degli ID sono diversi. Questo aggiornamento deve essere fatto per ogni evento. [Maggiori informazioni qui](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * Se il percorso esportato contiene **eventi** che puntano a uno **schema XDM**, è necessario aggiornare manualmente il riferimento dell&#39;ID dello schema con l&#39;ID dello schema del nuovo ambiente nel nodo xdmEntity se i valori degli ID sono diversi. Questo aggiornamento deve essere fatto per ogni evento. [Maggiori informazioni qui](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * Se il percorso contiene azioni e-mail, sms o push, potrebbe essere necessario aggiornare il nome del modello o il nome dell’app mobile se il nome nell’ambiente di destinazione è diverso da quello nell’ambiente di avvio.
 1. Chiama l&#39;API **Import** con i parametri dell&#39;ambiente di destinazione (orgID e sandboxName). Puoi richiamare l’API di importazione il numero di volte che desideri. L’UUID e il nome di ciascun oggetto contenuto nel percorso vengono generati ogni volta che si chiama l’API di importazione.
-1. Una volta importato il Percorso, puoi pubblicarlo nell’applicazione di Journey Orchestration. Maggiori informazioni [qui](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. Una volta importato il Percorso, puoi pubblicarlo nell’applicazione di Journey Orchestration. Maggiori informazioni [qui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Autenticazione
 
-### Impostazione dell’accesso API
+### Impostazione dell’accesso alle API
 
 L’accesso API di Journey Orchestration è configurato attraverso i passaggi seguenti. Ognuno di questi passaggi è descritto nella [documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
