@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Eventi di reazione
 description: Scopri gli eventi di reazione
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 >
 >Gli eventi di reazione non possono tenere traccia delle azioni e-mail, SMS o push che si verificano in un percorso diverso.
 >
->Gli eventi di reazione tengono traccia dei clic sui collegamenti del tipo &quot;tracciato&quot; (consulta questa [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). I collegamenti di annullamento all’abbonamento e alle pagine mirror non vengono presi in considerazione.
+>Gli eventi di reazione tengono traccia dei clic sui collegamenti del tipo &quot;tracciato&quot; (consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). I collegamenti di annullamento all’abbonamento e alle pagine mirror non vengono presi in considerazione.
 
 >[!IMPORTANT]
 >
