@@ -6,9 +6,9 @@ feature: Percorsi
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2625'
 ht-degree: 60%
 
 ---
@@ -40,7 +40,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 ### Miglioramenti
 
 * Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Leggi tutto](../about/external-systems.md#capping)
-* Nell’editor di espressioni semplici e avanzate, è ora supportato il formato data XDM.
+* Gli editor di espressioni semplici e avanzate ora supportano il formato data XDM.
 * Nella schermata elenco percorsi è stato aggiunto un nuovo filtro. Ora puoi filtrare per tipo di percorso: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Leggi tutto](../about/user-interface.md#section_lgm_hpz_pgb)
 * Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. Queste informazioni sono disponibili anche quando si copiano i dettagli tecnici del percorso. [Leggi tutto](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
