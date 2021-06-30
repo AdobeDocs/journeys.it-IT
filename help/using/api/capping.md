@@ -3,13 +3,13 @@ product: adobe campaign
 title: Limitazione della descrizione API
 description: Ulteriori informazioni sull’API di limitazione di utilizzo.
 products: journeys
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Durante la configurazione di un’origine dati, definirai una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei percorsi oppure, per una definizione di azione, configurerai la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API. Ogni volta che una chiamata API viene eseguita dal Percorso, l’API di limitazione viene interrogata, la chiamata viene eseguita tramite il motore API. Se è definito un limite, la chiamata viene rifiutata e il sistema esterno non verrà sovraccaricato.
 
-Per ulteriori informazioni sulle azioni o sulla configurazione dell&#39;origine dati, consulta [Informazioni sulle azioni](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
+Per ulteriori informazioni sulle azioni o sulla configurazione dell&#39;origine dati, consulta [Informazioni sulle azioni](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## Resources
@@ -37,7 +37,7 @@ Per testare e preparare l&#39;integrazione, è disponibile una raccolta Postman 
 
 ## Autenticazione
 
-### Impostazione dell’accesso API
+### Impostazione dell’accesso alle API
 
 [!DNL Journey Orchestration] L’accesso alle API è configurato attraverso i passaggi seguenti. Ognuno di questi passaggi è descritto nella [documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
@@ -173,7 +173,7 @@ Questa raccolta Postman è stata impostata per condividere la raccolta Postman V
 Una volta scaricata e caricata in Postman, devi aggiungere tre variabili: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` :  [!DNL Journey Orchestration] URL gateway
 * `{BASE_PATH}` : punto di ingresso per l’API. Il valore è &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : l’intestazione  **x-sandbox-name**  (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Per ulteriori informazioni, consulta la [panoramica sulle sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) .
+* `{SANDBOX_NAME}` : l’intestazione  **x-sandbox-name**  (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Per ulteriori informazioni, consulta la [panoramica sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) .
 
 Nella sezione seguente, trovi l’elenco delle chiamate API rimanenti ordinate per eseguire il caso d’uso.
 
