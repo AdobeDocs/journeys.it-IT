@@ -2,11 +2,11 @@
 product: adobe campaign
 title: Informazioni sulla creazione di percorsi
 description: In qualità di utente aziendale, scopri come combinare attività di evento, orchestrazione e azione per creare un percorso.
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 12%
@@ -67,7 +67,7 @@ Un percorso può chiudersi per i motivi seguenti:
 * Il percorso viene chiuso manualmente tramite il pulsante **[!UICONTROL Close to new entrances]** .
 * La data di fine del percorso è raggiunta.
 
-Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Closed (no entrance)]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso. Dopo il timeout globale predefinito di 30 giorni, il percorso passa allo stato **Finished** . Vedere questa sezione [](../building-journeys/changing-properties.md#entrance).
+Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Closed]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso. Dopo il timeout globale predefinito di 30 giorni, il percorso passa allo stato **Finished** . Vedere questa sezione [](../building-journeys/changing-properties.md#entrance).
 
 Nel caso tu debba interrompere il progresso di tutti gli individui nel percorso, puoi fermarlo. Arrestare il percorso causerà il timeout di tutti gli individui nel percorso.
 
