@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Passaggi aggiuntivi per l’invio di eventi al Journey Orchestration
 description: Scopri ulteriori passaggi per l’invio di eventi al Journey Orchestration
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 7%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Durante la creazione di un evento, [!DNL Journey Orchestration] genera automaticamente un ID per questo evento. Il sistema che preme l’evento non deve generare un ID, ma deve utilizzare quello disponibile nell’anteprima del payload. Consulta [questa pagina](../event/previewing-the-payload.md).
+>Quando crei un evento, [!DNL Journey Orchestration] genera automaticamente un ID per questo evento. Il sistema che preme l’evento non deve generare un ID, ma deve utilizzare quello disponibile nell’anteprima del payload. Consulta [questa pagina](../event/previewing-the-payload.md).
 
 Per configurare gli eventi da inviare a **[!UICONTROL Streaming Ingestion APIs]** e da utilizzare in [!DNL Journey Orchestration], segui questi passaggi:
 
-1. Ottieni l’URL di ingresso dalle API Adobe Experience Platform (consulta [API Streaming Ingestion](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/streaming/overview.html)).
+1. Ottieni l’URL di ingresso dalle API Adobe Experience Platform (consulta [API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
 1. Copia il payload dall’anteprima del payload nel menu **[!UICONTROL Event]** . Consulta [questa pagina](../event/defining-the-payload-fields.md).
 
 Devi quindi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
@@ -91,4 +91,4 @@ Ecco un esempio di evento API Streaming Ingestion:
 
 Per facilitare l’identificazione del punto in cui incollare la parte &quot;dati&quot;, puoi utilizzare uno strumento di visualizzazione JSON, ad esempio [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Per risolvere i problemi relativi alle API Streaming Ingestion, fai riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/streaming/troubleshooting.html).
+Per risolvere i problemi relativi alle API Streaming Ingestion, fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
