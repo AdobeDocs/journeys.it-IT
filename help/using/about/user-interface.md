@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Interfaccia utente
 description: Ulteriori informazioni sull’interfaccia utente
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 93%
+source-wordcount: '1015'
+ht-degree: 89%
 
 ---
 
@@ -55,7 +55,7 @@ Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta 
 
 Negli elenchi **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, utilizza **[!UICONTROL Creation filters]** (Filtri di creazione) per filtrare in base alla data e all’utente di creazione. Ad esempio, puoi scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
 
-Nell’elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre a **[!UICONTROL Creation filters]**, puoi anche filtrare i percorsi visualizzati in base allo stato e alla versione (**[!UICONTROL Status and version filters]**). È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
+Nell’elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre a **[!UICONTROL Creation filters]**, è anche possibile filtrare i percorsi visualizzati in base al loro stato, tipo e versione (**[!UICONTROL Status and version filters]**). Il tipo può essere: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun eleme
 
 Quando si definisce il [payload dell’evento](../event/defining-the-payload-fields.md) e il [payload del gruppo di campi](../datasource/field-groups.md) e si selezionano i campi nell’[editor delle espressioni](../expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. Questa funzione risulta particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. È possibile configurare i descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/api/getting-started.html).
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. Questa funzione risulta particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. È possibile configurare i descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
