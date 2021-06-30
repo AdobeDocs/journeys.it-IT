@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Informazioni sui dati di Adobe Analytics
 description: Scopri come sfruttare i dati di Adobe Analytics
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ Questo abilita il connettore di origine Analytics per la suite di rapporti. Ogni
 
 ![](../assets/alpha-event9.png)
 
-Per ulteriori informazioni sul connettore di origine Adobe Analytics, consulta la [documentazione](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) e [esercitazione](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Per ulteriori informazioni sul connettore di origine Adobe Analytics, consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) e [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
