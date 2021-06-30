@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Integrazione con sistemi esterni
 description: Scopri le best practice per l’integrazione di sistemi esterni
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5d2e82c10dd22b5b4bac15a78a2f6f592aedd371
+source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,11 @@ Quando il Journey Orchestration esegue una chiamata a un’API esterna, le prote
 
 ## Limitazione{#capping}
 
-L’API Capping integrata offre una protezione tecnica a monte che aiuta a proteggere il sistema esterno. In precedenza, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Orchestration invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, devi definire una regola di limitazione in modo che il sistema non saturi.
+L’API Capping integrata offre una protezione tecnica a monte che aiuta a proteggere il sistema esterno.
+
+Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per inserire in una whitelist l’endpoint. Ciò non è possibile per le fonti di dati esterne pubbliche.
+
+Per le azioni personalizzate, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, è necessario definire una regola di limitazione in modo che il sistema non saturi.
 
 Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ). In fase di runtime, il Journey Orchestration verifica se è definita una regola di limite e applica il tasso definito durante le chiamate a tale endpoint. Se il numero di chiamate supera il tasso definito, le chiamate rimanenti vengono scartate e sono conteggiate come errori nel reporting.
 
