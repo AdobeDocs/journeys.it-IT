@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Creazione di un evento
 description: Scopri come creare un evento
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 53%
+source-wordcount: '554'
+ht-degree: 63%
 
 ---
 
@@ -33,9 +33,9 @@ Di seguito sono riportati i passaggi principali per la configurazione di un nuov
 
    ![](../assets/journey6bis.png)
 
-   * **Eventi** basati sulle regole: questo tipo di evento non genera un eventID. Nel campo **Condizione ID evento** , definisci semplicemente una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i tuoi percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
+   * **Eventi basati sulle regole**: questo tipo di evento non genera un eventID. Nel campo **Condizione ID evento** , definisci semplicemente una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i tuoi percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
-   * **Sviluppatori** di sistema: questo tipo richiede un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento e aggiunto all’anteprima del payload. Il sistema che preme l’evento non deve generare un ID, deve passare quello disponibile nell’anteprima del payload. Vedi [questa sezione](../event/previewing-the-payload.md).
+   * **Sviluppatori** di sistema: questo tipo richiede un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento e aggiunto all’anteprima del payload. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload. Vedi [questa sezione](../event/previewing-the-payload.md).
    >[!NOTE]
    >
    >Ulteriori informazioni sui tipi di evento in [questa sezione](../event/about-events.md).
@@ -49,6 +49,10 @@ Di seguito sono riportati i passaggi principali per la configurazione di un nuov
    ![](../assets/alpha-event6.png)
 
    Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL City]** field e **[!UICONTROL Paris]** value), lo trasmette al Journey Orchestration.
+
+   >[!NOTE]
+   >
+   >L’editor di espressioni avanzate non è disponibile quando si definisce **[!UICONTROL Event ID condition]**.
 
 1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa pagina](../event/selecting-the-namespace.md).
 1. Definisci la chiave: scegli un campo di payload o specifica una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, [!DNL Journey Orchestration] seleziona la chiave che deve corrispondere allo spazio dei nomi, ad esempio, se scegli uno spazio dei nomi e-mail, opterà per la chiave e-mail. Consulta [questa pagina](../event/defining-the-event-key.md).
