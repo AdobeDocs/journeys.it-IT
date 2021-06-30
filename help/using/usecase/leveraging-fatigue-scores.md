@@ -2,9 +2,9 @@
 product: adobe campaign
 title: Sfruttare i punteggi di fatica
 description: Scopri come sfruttare i punteggi di affaticamento nei percorsi
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ Questo caso d’uso ti mostrerà come sfruttare i punteggi di affaticamento per 
 
 >[!NOTE]
 >
->La funzionalità Punteggio di affaticamento predittivo è disponibile solo per i clienti che utilizzano il [Connettore dati Adobe Experience Platform](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+>La funzionalità Punteggio di affaticamento predittivo è disponibile solo per i clienti che utilizzano il [Connettore dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
 ## Configurazione dell’evento {#section_ptb_ws1_ffb}
 
