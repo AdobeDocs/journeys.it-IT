@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Gestione degli accessi
 description: Ulteriori informazioni sulla gestione degli accessi
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '855'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Possono essere gestiti dagli amministratori che hanno accesso all’Admin Consol
 Per poter accedere a [!DNL Journey Orchestration], un utente deve essere:
 
 * parte di un **[!UICONTROL product profile]** di [!DNL Journey Orchestration] associato alle autorizzazioni di [!DNL Journey Orchestration].
-* parte di un **[!UICONTROL product profile]** di [!DNL Adobe Experience Platform]. Non c’è alcuna autorizzazione obbligatoria da possedere. L’utente deve disporre dell’autorizzazione **[!UICONTROL profile management]** per creare e modificare i segmenti di Platform dall’interfaccia di [!DNL Journey Orchestration]. Per ulteriori informazioni, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/access-control/home.html#adobe-admin-console).
+* parte di un **[!UICONTROL product profile]** di [!DNL Adobe Experience Platform]. Non c’è alcuna autorizzazione obbligatoria da possedere. L’utente deve disporre dell’autorizzazione **[!UICONTROL profile management]** per creare e modificare i segmenti di Platform dall’interfaccia di [!DNL Journey Orchestration]. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
 All’interno di Admin Console, puoi assegnare agli utenti uno dei seguenti profili di prodotto pronti all’uso:
 
@@ -67,7 +67,7 @@ Di seguito è riportata la compatibilità tra le autorizzazioni e le diverse fun
 
 [!DNL Journey Orchestration] consente di creare profili di prodotto personalizzati e di assegnare agli utenti un set di autorizzazioni e sandbox. Con i profili di prodotto, puoi autorizzare o negare l’accesso a determinate funzionalità o oggetti all’interno dell’interfaccia.
 
-Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/sandbox/ui/user-guide.html).
+Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
 
 Per creare un profilo di prodotto e assegnare un set di autorizzazioni e sandbox:
 
@@ -141,6 +141,6 @@ L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all�
 Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. Per ulteriori informazioni su come assegnare le sandbox, consulta questa [sezione](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] riflette le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
-Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza Adobe Experience Platform. Per conoscere i passaggi dettagliati, fai riferimento alla [guida utente sulle sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
+Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza Adobe Experience Platform. Per conoscere i passaggi dettagliati, fai riferimento alla [guida utente sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
 
 Il controllo del commutatore sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
