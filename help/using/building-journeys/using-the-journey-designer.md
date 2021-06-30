@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Utilizzo del designer del percorso
 description: Ulteriori informazioni sull'utilizzo del designer del percorso
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1423'
 ht-degree: 5%
 
 ---
@@ -65,7 +65,7 @@ Il **riquadro di configurazione dell&#39;attività** viene visualizzato quando s
 
 Nell’area di lavoro, le attività azione ed evento sono rappresentate da un’icona con il nome dell’evento o dell’azione visualizzato sotto di essa. Nel riquadro di configurazione dell’attività, puoi utilizzare il campo **[!UICONTROL Label]** per aggiungere un suffisso al nome dell’attività. Queste etichette consentono di contestualizzare l’utilizzo di eventi e azioni, soprattutto quando utilizzi più volte lo stesso evento o azione nel percorso. Potrai inoltre visualizzare le etichette aggiunte nel rapporto [!DNL Journey Orchestration] . Puoi anche definire le etichette per le attività di condizione.
 
-Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visualizzarli, fai clic sull&#39;icona **Mostra campi di sola lettura** in alto a sinistra nel riquadro di configurazione dell&#39;attività.
+Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visualizzare i campi di sola lettura, fai clic sull&#39;icona **Mostra campi di sola lettura** in alto a sinistra nel riquadro di configurazione dell&#39;attività. Questa impostazione si applica a tutte le attività in tutti i percorsi.
 
 ![](../assets/journey59bis.png)
 
