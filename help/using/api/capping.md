@@ -7,9 +7,9 @@ feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1171'
 ht-degree: 1%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 1%
 
 Durante la configurazione di un’origine dati, definirai una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei percorsi oppure, per una definizione di azione, configurerai la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API. Ogni volta che una chiamata API viene eseguita dal Percorso, l’API di limitazione viene interrogata, la chiamata viene eseguita tramite il motore API. Se è definito un limite, la chiamata viene rifiutata e il sistema esterno non verrà sovraccaricato.
 
-Per ulteriori informazioni sulle azioni o sulla configurazione dell&#39;origine dati, consulta [Informazioni sulle azioni](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
+Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per inserire in una whitelist l’endpoint. Ciò non è possibile per le fonti di dati esterne pubbliche. Per ulteriori informazioni sulle best practice e sulle protezioni durante l&#39;integrazione di sistemi esterni, consulta questa [pagina](../about/external-systems.md).
 
+Per ulteriori informazioni sulle azioni o sulla configurazione dell&#39;origine dati, consulta [Informazioni sulle azioni](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 ## Resources
 
