@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Sfruttare i punteggi dell’intelligenza artificiale del cliente
 description: Sfruttare i punteggi dell’intelligenza artificiale del cliente
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
 
-# Sfruttamento dell’intelligenza artificiale del cliente {#customer-ai}
+# Sfruttare IA analisi cliente {#customer-ai}
 
-Customer AI fa parte dei servizi intelligenti. Aiuta a prevedere cosa è probabile che faccia un cliente. Consulta la [documentazione](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+Customer AI fa parte dei servizi intelligenti. Aiuta a prevedere cosa è probabile che faccia un cliente. Consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
 
 Customer AI consente ai marchi di creare punteggi basati sull’apprendimento di una macchina di abbandono o di conversione che saranno disponibili come attributi di profilo nei profili Adobe Experience Platform (Profilo cliente in tempo reale).
 
