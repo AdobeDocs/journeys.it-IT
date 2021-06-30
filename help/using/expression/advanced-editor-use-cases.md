@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Utilizzo dell’editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 2%
 
 ---
@@ -141,4 +141,4 @@ La seguente espressione ti consente di definire l’ID del sistema di gestione d
 
 Spiegazione: In questo esempio vengono utilizzate le funzioni `substr` e `lastIndexOf` per rimuovere le parentesi graffe che racchiudono l’ID del sistema di gestione delle relazioni con i clienti passato con un evento di avvio di un’app mobile.
 
-Per ulteriori informazioni su come utilizzare l’editor di espressioni avanzate, guarda [questo video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Per ulteriori informazioni su come utilizzare l’editor di espressioni avanzate, guarda [questo video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
