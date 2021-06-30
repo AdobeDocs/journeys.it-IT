@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Eventi di qualificazione dei segmenti
 description: Scopri gli eventi di qualificazione dei segmenti
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -72,13 +72,15 @@ Consulta [Attività condizione](../building-journeys/condition-activity.md#about
 
 ![](../assets/segment8.png)
 
+Un nuovo percorso che include un evento di qualificazione dei segmenti è operativo dieci minuti dopo la pubblicazione. Questo intervallo di tempo corrisponde all’intervallo di aggiornamento della cache del servizio dedicato. Pertanto, è necessario attendere dieci minuti prima di utilizzare questo percorso.
+
 ## Best practice {#best-practices-segments}
 
 L’ attività **[!UICONTROL Segment Qualification]** consente l’ingresso immediato in percorsi di persone qualificate o squalificate da un segmento Adobe Experience Platform.
 
 La velocità di ricezione di queste informazioni è elevata. Le misurazioni effettuate mostrano una velocità di 10 000 eventi ricevuti al secondo. Di conseguenza, è necessario assicurarsi di comprendere come possono accadere picchi di ingresso, come evitarli e come rendere il percorso pronto per loro.
 
-### Segmenti batch{#batch-speed-segment-qualification}
+### Segmenti in batch{#batch-speed-segment-qualification}
 
 Quando si utilizza la qualificazione dei segmenti per un segmento batch, si noti che al momento del calcolo giornaliero si verifica un picco di entrata. La dimensione del picco dipenderà dal numero di persone che entrano (o escono) quotidianamente nel segmento.
 
