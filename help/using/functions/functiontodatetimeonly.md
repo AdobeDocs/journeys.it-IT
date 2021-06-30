@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDateTimeOnly
 description: Scopri la funzione toDateTime
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora in formato ISO-8601 | string |
+| ora in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato XDM Data) | string |
 | ora | dateTime |
 
 ## Firme e tipi restituiti
@@ -44,9 +44,9 @@ Restituisce un datetime senza considerare il fuso orario.
 
 ## Esempi
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
+`toDateTimeOnly ("2016-08-18")`
 
-Restituisce 2016-08-18T23:17:59.123.
+restituisce un valore dateTime che rappresenta 2016-08-18T00:00:00.000
 
 `toDateTimeOnly(now())`
 
