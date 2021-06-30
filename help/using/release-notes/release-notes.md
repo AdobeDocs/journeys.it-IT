@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 61%
+source-wordcount: '2627'
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 È inoltre possibile consultare l&#39;ultimo [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md).
 
-## Versione di giugno 2021 {#may-2021-release}
+## Versione di giugno 2021 {#june-2021-release}
 
 <table>
 <thead>
@@ -30,12 +30,19 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti p
 <tr>
 <td>
 <p>L’integrazione con l’integrazione Adobe Campaign Classic è ora GA. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale v7 o v8 di Adobe Campaign.</p>
-<p>La connessione tra le istanze del Journey Orchestration e di Campaign viene impostata per Adobe al momento del provisioning.</p>
+<p>La connessione tra le istanze Journey Orchestration e Campaign viene impostata per Adobe al momento del provisioning.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../action/acc-action.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+### Miglioramenti
+
+* Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Leggi tutto](../about/external-systems.md#capping)
+* Nell’editor di espressioni semplici e avanzate, è ora supportato il formato data XDM.
+* Nella schermata elenco percorsi è stato aggiunto un nuovo filtro. Ora puoi filtrare per tipo di percorso: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Leggi tutto](../about/user-interface.md#section_lgm_hpz_pgb)
+* Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. Queste informazioni sono disponibili anche quando si copiano i dettagli tecnici del percorso. [Leggi tutto](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Versione di aprile 2021 {#april-2021-release}
 
@@ -513,5 +520,5 @@ Journey Orchestration consente l’orchestrazione in tempo reale basata su dati 
 
 Risorse aggiuntive:
 
-* [Esercitazioni](https://docs.adobe.com/content/help/it-IT/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [Esercitazioni](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
