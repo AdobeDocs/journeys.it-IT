@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Verifica del percorso
 description: 'Scopri i test di percorso '
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1665'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 * Quando disattivi la modalità di test, svuota i percorsi da tutte le persone che sono entrate nel passato o che vi si trovano attualmente. Inoltre, cancella la segnalazione.
 * Puoi attivare/disattivare la modalità di test il numero di volte necessario.
 * Non è possibile modificare il percorso quando viene attivata la modalità di test. In modalità di test, è possibile pubblicare direttamente il percorso, senza dover disattivare la modalità di test in precedenza.
+* Quando si raggiunge una divisione, viene sempre scelto il ramo superiore. Potete riorganizzare la posizione dei rami divisi se desiderate che il test scelga un percorso diverso.
 
 ## Trasformazione di un profilo in un profilo di test{#turning-profile-into-test}
 
@@ -69,7 +70,7 @@ Il modo più semplice per farlo è utilizzare un&#39;attività di azione **Aggio
 
 ## Creazione di un profilo di test{#create-test-profile}
 
-Se desideri creare un nuovo profilo di test, la procedura è la stessa di quando crei un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. Vedere questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)
+Se desideri creare un nuovo profilo di test, la procedura è la stessa di quando crei un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. Consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 Devi utilizzare uno schema di profilo contenente il mixin &quot;profile test details&quot; (Dettagli test profilo). Il flag testProfile fa parte di questo mixin.
 
