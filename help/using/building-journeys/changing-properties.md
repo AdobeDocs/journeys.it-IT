@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Modifica delle proprietà
 description: Scopri come modificare le proprietà
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 1%
 Fai clic sull’icona della matita, in alto a destra, per accedere alle proprietà del percorso.
 
 Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e definire una **[!UICONTROL Timeout and error]** durata se sei un amministratore.
+
+Per i percorsi live, questa schermata mostra la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
+
+Il **Copia dettagli tecnici** consente di copiare informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Vengono copiate le seguenti informazioni: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
