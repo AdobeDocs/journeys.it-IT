@@ -3,10 +3,10 @@ product: adobe campaign
 title: Creazione di un profilo di test
 description: Scopri la creazione del profilo di test
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 1%
 
 ---
 
@@ -97,9 +97,9 @@ I profili di test vengono aggiunti e possono ora essere utilizzati durante il te
 >
 > Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull’ acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
 
-## Creazione di profili di test utilizzando le chiamate API{#create-test-profiles-api}
+## Creazione di profili di test tramite chiamate API{#create-test-profiles-api}
 
-Puoi anche creare profili di test tramite chiamate API. Vedere questa [pagina](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html).
+Puoi anche creare profili di test tramite chiamate API. Consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 Devi utilizzare uno schema di profilo contenente il mixin &quot;Dettagli del test di profilo&quot;. Il flag testProfile fa parte di questo mixin.
 
