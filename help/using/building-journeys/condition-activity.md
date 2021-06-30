@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Attività condizione
 description: Informazioni sulle attività di condizione
-feature: Journeys
+feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '778'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![](../assets/journey64.png)
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) per creare i segmenti, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo dei segmenti nelle condizioni](../segment/using-a-segment.md).
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) per creare i segmenti, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo dei segmenti nelle condizioni](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -75,6 +75,8 @@ Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al g
 ## Divisione percentuale {#percentage_split}
 
 Questa opzione ti consente di suddividere il pubblico in modo casuale per definire un’azione diversa per ciascun gruppo. Definire il numero di suddivisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico, in quanto il sistema non è in grado di prevedere quante persone fluiranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione è basata su un meccanismo casuale Java (consulta questa [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Potete riorganizzare la posizione dei rami divisi se desiderate che il test scelga un percorso diverso. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
