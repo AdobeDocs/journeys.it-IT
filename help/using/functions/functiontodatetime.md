@@ -6,10 +6,10 @@ feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
-source-git-commit: 55928668cffca2f01c140a083f11ce8f57e2ee0d
+source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ Conversione
 
 `toDateTime(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|
@@ -75,7 +75,7 @@ Return a datetime.
 
 Restituisce 2016-08-18T23:17:59.123Z
 
-`toDateTime(toDateTimeOnly("2016-08-18T23:17:59.123"),"UTC")`
+`toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
 Restituisce 2016-08-18T23:17:59.123Z
 
