@@ -6,68 +6,68 @@ feature: Percorsi
 role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Aggiornamenti alla documentazione
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journey Orchestration].
-È inoltre possibile consultare le [Note sulla versione](../release-notes/release-notes.md) di [!DNL Journey Orchestration].
+È inoltre possibile consultare le [!DNL Journey Orchestration][Note sulla versione](../release-notes/release-notes.md).
 
 ## Marzo 2021 {#march-2021}
 
-* Abbiamo descritto la procedura completa per creare profili di test in Adobe Experience Platform. [Leggi tutto](../building-journeys/creating-test-profiles.md).
+* Abbiamo descritto la procedura completa per creare profili di test in Adobe Experience Platform. [Ulteriori informazioni](../building-journeys/creating-test-profiles.md).
 
 ## Gennaio 2021 {#january-2021}
 
-* Sono state aggiunte le best practice per attivare un percorso contemporaneamente alla creazione di un profilo. [Leggi tutto](../about/limitations.md#journeys-limitation-profile-creation).
+* Sono state aggiunte le best practice per attivare un percorso contemporaneamente alla creazione di un profilo. [Ulteriori informazioni](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Ottobre 2020 {#october-2020}
 
-* Sono state aggiunte informazioni su come configurare un timeout per un evento. [Leggi tutto](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
+* Sono state aggiunte informazioni su come configurare un timeout per un evento. [Ulteriori informazioni](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
 
 ## Settembre 2020 {#september-2020}
 
-* La sezione che descrive l’interfaccia è stata aggiornata per riflettere il nuovo menu del **selettore Tutto**. [Leggi tutto](../about/user-interface.md)
+* La sezione che descrive l’interfaccia è stata aggiornata per riflettere il nuovo menu del **selettore Tutto**. [Ulteriori informazioni](../about/user-interface.md)
 * È stata aggiunta una nota sulle nuove versioni non ricorrenti dei percorsi basati su segmenti.
 
 ## Agosto 2020 {#august-2020}
 
-* Sono state aggiunte informazioni su come ordinare e scegliere le colonne da visualizzare nell’elenco dei segmenti. [Leggi tutto](../building-journeys/segment-qualification-events.md)
-* Sono state aggiunte informazioni su come copiare il nome e l’ID di un segmento dopo averlo selezionato. [Leggi tutto](../building-journeys/segment-qualification-events.md)
-* Le occorrenze di Experience Platform sono state armonizzate tra le diverse pagine.
+* Sono state aggiunte informazioni su come ordinare e scegliere le colonne da visualizzare nell’elenco dei segmenti. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
+* Sono state aggiunte informazioni su come copiare il nome e l’ID di un segmento dopo averlo selezionato. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
+* Le occorrenze di Experience Platform sono state armonizzate nelle diverse pagine.
 
 ## Luglio 2020 {#july-2020}
 
-* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi che inviano rapporti ad Adobe Experience Platform. [Leggi tutto](../building-journeys/sharing-overview.md)
-* La sezione delle attività eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Leggi tutto](../building-journeys/event-activities.md)
-* Sono state aggiunte le best practice per evitare il sovraccarico con la qualificazione dei segmenti. [Leggi tutto](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Leggi tutto](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi che inviano rapporti ad Adobe Experience Platform. [Ulteriori informazioni](../building-journeys/sharing-overview.md)
+* La sezione delle attività eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Ulteriori informazioni](../building-journeys/event-activities.md)
+* Sono state aggiunte le best practice per evitare il sovraccarico con la qualificazione dei segmenti. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Ulteriori informazioni](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * È stata aggiunta una nuova sezione sulle funzioni alfa testate da un gruppo limitato di clienti.
-* È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Leggi tutto](../ai-services/ai-services-overview.md)
-* È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Leggi tutto](../building-journeys/testing-the-journey.md)
-* Sono state aggiunte informazioni su come utilizzare il nodo **[!UICONTROL SegmentQualification]** in una condizione o azione di percorso. [Leggi tutto](../building-journeys/segment-qualification-events.md)
+* È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Ulteriori informazioni](../ai-services/ai-services-overview.md)
+* È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
+* Sono state aggiunte informazioni su come utilizzare il nodo **[!UICONTROL SegmentQualification]** in una condizione o azione di percorso. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
 * È stata aggiunta una nota al messaggio transazionale di Campaign e alla pubblicazione dell’evento. Consulta [Utilizzo di Adobe Campaign](../action/working-with-adobe-campaign.md) e [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md).
-* Sono state aggiunte informazioni sui controlli eseguiti durante il test dell’URL dell’istanza di Campaign Standard. [Leggi tutto](../action/working-with-adobe-campaign.md)
-* Sono state aggiunte informazioni sulla compatibilità degli eventi di reazione con le istanze di Campaign Standard ospitate su server AWS o Azure. [Leggi tutto](../building-journeys/reaction-events.md)
-* È stata aggiunta una nota sulla necessità di impostare una regola di limitazione di utilizzo nelle operazioni di messaggistica transazionale di Campaign Standard. [Leggi tutto](../action/working-with-adobe-campaign.md)
-* È stata aggiunta una nota sulla generazione di eventi reali quando si attivano gli eventi utilizzando la modalità di test. [Leggi tutto](../building-journeys/testing-the-journey.md#firing_events)
+* Sono state aggiunte informazioni sui controlli eseguiti durante il test dell’URL dell’istanza di Campaign Standard. [Ulteriori informazioni](../action/working-with-adobe-campaign.md)
+* Sono state aggiunte informazioni sulla compatibilità degli eventi di reazione con le istanze di Campaign Standard ospitate su server AWS o Azure. [Ulteriori informazioni](../building-journeys/reaction-events.md)
+* È stata aggiunta una nota sulla necessità di impostare una regola di limitazione di utilizzo nelle operazioni di messaggistica transazionale di Campaign Standard. [Ulteriori informazioni](../action/working-with-adobe-campaign.md)
+* È stata aggiunta una nota sulla generazione di eventi reali quando si attivano gli eventi utilizzando la modalità di test. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Giugno 2020 {#june-2020}
 
-* Sono state aggiunte informazioni su come modificare la durata della cache del token per un’origine dati di autenticazione personalizzata. [Leggi tutto](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Sono state aggiunte informazioni su come modificare la durata della cache del token per un’origine dati di autenticazione personalizzata. [Ulteriori informazioni](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Le schermate e il testo sono stati aggiornati per riflettere la ridenominazione dello stato del percorso **[!UICONTROL Finished]** che è stato modificato in **[!UICONTROL Closed (no entrance)]**.
-* Sono state aggiunte informazioni sulla definizione della lingua per l’interfaccia. [Leggi tutto](../about/user-interface.md)
+* Sono state aggiunte informazioni sulla definizione della lingua per l’interfaccia. [Ulteriori informazioni](../about/user-interface.md)
 * L’elenco degli stati del percorso di un individuo è stato spostato nella sezione dei [registri della modalità di prova](../building-journeys/testing-the-journey.md#viewing_logs).
 
 ## Aprile 2020 {#april-2020}
 
-* È stata aggiunta una nuova sezione sulla definizione dello schema evento esperienza per aiutare gli utenti a configurare il loro primo evento. [Leggi tutto](../event/experience-event-schema.md)
-* La pagina principale della documentazione di [!DNL Journey Orchestration] è stata aggiornata con altri collegamenti utili. [Leggi tutto](../../journey-orchestration-home.md)
+* È stata aggiunta una nuova sezione sulla definizione dello schema evento esperienza per aiutare gli utenti a configurare il loro primo evento. [Ulteriori informazioni](../event/experience-event-schema.md)
+* La home page della documentazione [!DNL Journey Orchestration] è stata aggiornata con altri collegamenti utili. [Ulteriori informazioni](../../journey-orchestration-home.md)
 
 ## Marzo 2020 {#march-2020}
 
@@ -86,7 +86,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 ## Febbraio 2020 {#february-2020}
 
-* La sezione delle scelte rapide è stata aggiornata. La scelta rapida da tastiera **C** consente di creare una nuova voce in tutte le schermate dell’elenco. [Ulteriori informazioni](../about/user-interface.md#section_ksq_zr1_ffb)
+* La sezione dei collegamenti è stata aggiornata. La scelta rapida da tastiera **C** consente di creare una nuova voce in tutte le schermate dell’elenco. [Ulteriori informazioni](../about/user-interface.md#section_ksq_zr1_ffb)
 * Sono state migliorate le pagine di panoramica di [origine dati](../datasource/about-data-sources.md) e delle [azioni](../action/action.md).
 
 ## Gennaio 2020 {#january-2020}
