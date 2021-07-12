@@ -6,7 +6,7 @@ feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
    >
    >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono agli stati di partecipazione al segmento **Realized** e **Exited** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso.
+1. Seleziona uno spazio dei nomi. Questo è necessario solo se l’evento è posizionato come primo passaggio del percorso.
 
    ![](../assets/segment7.png)
 
