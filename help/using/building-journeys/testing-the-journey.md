@@ -6,7 +6,7 @@ feature: Percorsi
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 ## Trasformazione di un profilo in un profilo di test{#turning-profile-into-test}
 
-Puoi trasformare un profilo esistente in un profilo di test. In Adobe Experience Platform puoi aggiornare gli attributi dei profili tramite chiamate API, ma non tramite l’interfaccia.
+Puoi trasformare un profilo esistente in un profilo di test. In Adobe Experience Platform puoi aggiornare gli attributi dei profili tramite chiamate API, ma non tramite l’interfaccia .
 
 Il modo più semplice per farlo è utilizzare un&#39;attività di azione **Aggiorna profilo** e cambiare il campo booleano del profilo di test da false a true. Vedi [questa sezione](../building-journeys/update-profiles.md#using-the-test-mode).
 
