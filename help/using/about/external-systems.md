@@ -7,9 +7,9 @@ feature: Percorsi
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Prendiamo ad esempio un timeout di 5 secondi.
 
 Per impostazione predefinita, non è presente alcuna regola di limitazione. Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ), utilizzando l’API di limitazione di utilizzo. Fare riferimento a [questa sezione](../about/external-systems.md#capping) e [questa pagina](../api/capping.md).
 
-**Quanti tentativi vengono eseguiti? Posso cambiare il numero di nuovi tentativi o definire un periodo di attesa minimo tra i tentativi?**
+**Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra i tentativi?**
 
 Per una determinata chiamata, è possibile eseguire un massimo di tre tentativi dopo la prima chiamata, fino a quando la durata di timeout non viene raggiunta. Impossibile modificare il numero di tentativi e l&#39;intervallo di tempo tra ogni nuovo tentativo. Fai riferimento a [questa sezione](../about/external-systems.md#timeout).
 
