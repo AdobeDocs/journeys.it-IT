@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Informazioni sul caso d’uso avanzato
 description: Ulteriori informazioni sul caso d’uso avanzato percorso
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -48,7 +48,7 @@ Sarà necessario configurare una connessione a due origini dati (consulta [quest
 
 ## Prerequisiti {#prerequisites}
 
-Per il nostro caso d’uso, abbiamo progettato tre modelli di messaggistica transazionale Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionale di eventi. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+Per il nostro caso d’uso, abbiamo progettato tre modelli di messaggistica transazionale Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionale di eventi. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
 Adobe Campaign Standard è configurato per l’invio di e-mail e notifiche push.
 
