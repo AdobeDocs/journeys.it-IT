@@ -3,10 +3,10 @@ product: adobe campaign
 title: Informazioni sulle origini dati
 description: 'Informazioni su come configurare un’origine dati '
 feature: Percorsi
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 79%
@@ -54,6 +54,6 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 
    ![](../assets/journey23.png)
 
-1. Clic **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
    Adesso l’origine dati è configurata ed è pronta per essere utilizzata nei percorsi.
