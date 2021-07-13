@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilizzo delle azioni Adobe Campaign v7/v8
 description: Scopri le azioni di Adobe Campaign v7/v8
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: b2439788ef547b401dea64faf46d4398b9a1a0c7
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 È disponibile un’integrazione se disponi di Adobe Campaign v7 o v8. Ti consentirà di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
 
-La connessione tra le istanze del Journey Orchestration e di Campaign viene impostata per Adobe al momento del provisioning. Adobe di contatto.
+La connessione tra le istanze Journey Orchestration e Campaign viene impostata per Adobe al momento del provisioning. Adobe di contatto.
 
 Affinché questo funzioni, devi configurare un’azione dedicata. Fare riferimento a questa sezione [sezione](../action/acc-action.md).
 
