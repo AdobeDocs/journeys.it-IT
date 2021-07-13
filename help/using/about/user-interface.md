@@ -3,13 +3,13 @@ product: adobe campaign
 title: Interfaccia utente
 description: Ulteriori informazioni sull’interfaccia utente
 feature: Percorsi
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1015'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ Per visualizzare l’aiuto contestuale, fai clic sull’icona ![](../assets/icon
 
 Negli elenchi **[!UICONTROL Home]**,**[!UICONTROL Data Sources]** **[!UICONTROL Events]** e **[!UICONTROL Actions]**, una barra di ricerca consente di effettuare la ricerca di un elemento.
 
-Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli creati oppure quelli modificati negli ultimi 30 giorni.
+Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro, in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli creati oppure quelli modificati negli ultimi 30 giorni.
 
 Negli elenchi **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, utilizza **[!UICONTROL Creation filters]** (Filtri di creazione) per filtrare in base alla data e all’utente di creazione. Ad esempio, puoi scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
 
@@ -77,7 +77,7 @@ All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun eleme
 
 Quando si definisce il [payload dell’evento](../event/defining-the-payload-fields.md) e il [payload del gruppo di campi](../datasource/field-groups.md) e si selezionano i campi nell’[editor delle espressioni](../expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. Questa funzione risulta particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. È possibile configurare i descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. Questa funzione risulta particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. È possibile configurare i descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -138,7 +138,7 @@ _Nell’area di lavoro di un percorso:_
 
 _In un percorso:_
 
-* Premere **T** per attivare/disattivare la modalità di prova.
-* In un percorso basato su eventi in modalità di test, premere **E** per attivare un evento.
-* In un percorso basato su segmenti, quando l&#39;opzione **Profilo singolo alla volta** è selezionata in modalità di test, premere **P** per attivare un evento.
-* In modalità di prova, premere **L** per visualizzare i registri.
+* Premi **T** per attivare/disattivare la modalità di test.
+* In un percorso basato su eventi in modalità di test, premi **E** per attivare un evento.
+* In un percorso basato su segmenti, quando l’opzione **Profilo singolo alla volta** è selezionata in modalità di test, premi **P** per attivare un evento.
+* In modalità di test, premi **L** per visualizzare i registri.
