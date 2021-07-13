@@ -2,18 +2,18 @@
 product: adobe campaign
 title: Campi comuni degli eventi di journeyStep
 description: Campi comuni degli eventi di journeyStep
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
-# campi comuni degli eventi journeyStep {#sharing-common-fields}
+# Campi comuni degli eventi di journeyStep {#sharing-common-fields}
 
 Questo mixin sarà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
@@ -75,7 +75,7 @@ Tipo: string
 
 Valori possibili:
 
-* Elemento “condizione”
+* Condizione
 * Azione
 * Attività Scheduler
 * Timer
