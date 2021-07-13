@@ -2,11 +2,11 @@
 product: adobe campaign
 title: Configurazione delle origini dati
 description: Scopri come configurare l’origine dati per il percorso di casi d’uso avanzati
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 14%
