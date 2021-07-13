@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Utilizzo di Adobe Campaign
 description: Informazioni sulle azioni di Adobe Campaign
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
