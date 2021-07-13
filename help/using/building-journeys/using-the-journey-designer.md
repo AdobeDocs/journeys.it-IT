@@ -3,10 +3,10 @@ product: adobe campaign
 title: Utilizzo del designer del percorso
 description: Ulteriori informazioni sull'utilizzo del designer del percorso
 feature: Percorsi
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 5%
@@ -21,7 +21,7 @@ Il menu Home del percorso consente di visualizzare l&#39; **elenco di percorsi**
 
 L&#39; **elenco percorsi** consente di visualizzare tutti i percorsi contemporaneamente, visualizzarne lo stato ed eseguire le azioni di base. Puoi duplicare, interrompere o eliminare i tuoi percorsi. A seconda del percorso, alcune azioni potrebbero non essere disponibili. Ad esempio, non puoi eliminare o riavviare un percorso terminato. Puoi crearne una nuova versione, duplicarla o interromperla. Puoi anche usare la barra di ricerca per cercare un percorso.
 
-Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare i percorsi visualizzati in base a diversi criteri (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare. È possibile configurare le colonne visualizzate nell’elenco. Tutti i filtri e le colonne vengono salvati per utente.
+Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro, in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare i percorsi visualizzati in base a diversi criteri (stato, quelli creati, quelli modificati negli ultimi 30 giorni, solo le versioni più recenti, ecc.). È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare. È possibile configurare le colonne visualizzate nell’elenco. Tutti i filtri e le colonne vengono salvati per utente.
 
 ![](../assets/journey74.png)
 
