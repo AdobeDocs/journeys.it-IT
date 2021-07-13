@@ -2,11 +2,11 @@
 product: adobe campaign
 title: Informazioni sulle attività eventi
 description: Informazioni sulle attività degli eventi
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
