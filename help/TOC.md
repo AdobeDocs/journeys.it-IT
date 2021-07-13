@@ -4,16 +4,16 @@ user-guide-title: Journey Orchestration
 title: Guida di Journey Orchestration
 user-guide-description: Fornisce istruzioni per l’implementazione e la creazione di percorsi.
 index: true
-feature: Journeys
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+feature: Percorsi
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
 
-# Guida di [!DNL Journey Orchestration] {#using}
+# [!DNL Journey Orchestration] Guida {#using}
 
 + [Documentazione del prodotto](journey-orchestration-home.md)
 + Novità {#release-notes}
@@ -21,7 +21,7 @@ ht-degree: 100%
    + [Aggiornamenti alla documentazione](using/release-notes/documentation-updates.md)
 + Primi passi con [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Informazioni su [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
-   + [Limitazioni](using/about/limitations.md)
+   + [Limitazioni ](using/about/limitations.md)
    + [Introduzione](using/about/get-started.md)
    + [Interfaccia utente](using/about/user-interface.md)
    + [Gestione degli accessi](using/about/access-management.md)
@@ -53,8 +53,8 @@ ht-degree: 100%
       + [Informazioni sulla configurazione delle azioni personalizzata](using/action/about-custom-action-configuration.md)
       + [Configurazione URL](using/action/url-configuration.md)
       + [Definizione dei parametri del messaggio](using/action/defining-the-message-parameters.md)
-+ Utilizzo dei segmenti di Platform {#configuring-segment}
-   + [Informazioni sui segmenti di Platform](using/segment/about-segments.md)
++ Utilizzo dei segmenti {#configuring-segment}
+   + [Informazioni sui segmenti](using/segment/about-segments.md)
    + [Creazione di un segmento](using/segment/creating-a-segment.md)
    + [Utilizzo di segmenti nelle condizioni](using/segment/using-a-segment.md)
 + Creare un percorso {#building-journeys}
@@ -70,7 +70,7 @@ ht-degree: 100%
       + Attività eventi {#events-activities}
          + [Informazioni sulle attività eventi](using/building-journeys/event-activities.md)
          + [Eventi generali](using/building-journeys/general-events.md)
-         + [Eventi di reazione](using/building-journeys/reaction-events.md)
+         + [Reazione events](using/building-journeys/reaction-events.md)
          + [Eventi di qualificazione dei segmenti](using/building-journeys/segment-qualification-events.md)
       + Attività di orchestrazione {#orchestration-activities}
          + [Informazioni sulle attività di orchestrazione](using/building-journeys/about-orchestration-activities.md)
@@ -83,7 +83,7 @@ ht-degree: 100%
          + [Utilizzo di Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [Utilizzo di azioni personalizzate](using/building-journeys/using-custom-actions.md)
          + [Passaggio da un percorso a un altro](using/building-journeys/jump.md)
-         + [Aggiornare il profilo](using/building-journeys/update-profiles.md)
+         + [Aggiorna il profilo](using/building-journeys/update-profiles.md)
    + [Verifica del percorso](using/building-journeys/testing-the-journey.md)
    + [Pubblicazione del percorso](using/building-journeys/publishing-the-journey.md)
    + Condivisione di passaggi del percorso con Adobe Experience Platform {#sharing-journey-steps}
