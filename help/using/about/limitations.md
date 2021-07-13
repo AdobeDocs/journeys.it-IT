@@ -3,17 +3,17 @@ product: adobe campaign
 title: Limitazioni del Journey Orchestration
 description: Ulteriori informazioni sui limiti dei Journey Orchestration
 feature: Percorsi
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 2%
 
 ---
 
-# Limitazioni {#limitations}
+# Limitazioni  {#limitations}
 
 Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orchestration.
 
@@ -30,7 +30,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 * Il segmento e lo spazio dei nomi scelti in **Qualificazione del segmento** (primo nodo) non possono essere modificati nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
 
-## Qualificazione di un segmento {#segment-qualification}
+## Qualificazione del segmento {#segment-qualification}
 
 * L&#39;attività **Qualificazione del segmento** non può essere utilizzata insieme alla messaggistica transazionale Adobe Campaign Standard a causa di vincoli di throughput. Consulta [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
  
@@ -39,7 +39,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 * L&#39;URL dell&#39;azione personalizzata non supporta i parametri dinamici. 
 * Sono supportati solo i metodi di chiamata POST e PUT. 
-* Il nome del parametro o dell&#39;intestazione della query non deve iniziare con &quot;.&quot; o &quot;$&quot;. 
+* Il nome del parametro o dell&#39;intestazione della query non deve iniziare con &quot;.&quot; oppure &quot;$&quot;. 
 * Gli indirizzi IP non sono consentiti. 
 * Indirizzi di Adobe interni (.adobe.) non sono consentiti.
  
