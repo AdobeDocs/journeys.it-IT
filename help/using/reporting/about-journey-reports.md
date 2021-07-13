@@ -2,11 +2,11 @@
 product: adobe campaign
 title: Informazioni sui rapporti sui percorsi
 description: Scopri come generare i rapporti sul percorso
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Questa sezione illustra come accedere ai rapporti e utilizzarli per misurare l’efficacia dei percorsi.
 
-## Interfaccia di reporting {#reporting-interface}
+## Interfaccia di generazione rapporti {#reporting-interface}
 
 La barra degli strumenti superiore consente, ad esempio, di modificare, salvare o stampare il rapporto.
 
