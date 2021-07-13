@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Metriche e dimensioni
 description: Informazioni su dimensioni e metriche disponibili per il Journey Orchestration
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consu
 
 La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti sui percorsi, le relative definizioni e formule.
 
-| Dimension | Definizione |
+| Dimensioni | Definizione |
 |--- |--- |
 | **Azione** | Elenco di tutte le azioni (**nome azione - etichetta azione**) utilizzate in percorsi come ad esempio Push - Check-out conferma, E-mail - Fedeltà premi. |
 | **Origine dati** | Elenco delle origini dati (**nome origine dati**) utilizzate per arricchire i dati in un percorso, ad esempio Adobe Experience Platform, Sistema di prenotazione. |
@@ -43,7 +43,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
 
 La tabella seguente fornisce l’elenco delle dimensioni di consegna utilizzate nei rapporti sui percorsi, le relative definizioni e formule.
 
-| Dimension | Definizione |
+| Dimensione | Definizione |
 |--- |--- |
 | **Browser** | Browser da cui è stato aperto o su cui è stato fatto clic il messaggio. |
 | **Nome consegna** | Etichetta e ID della consegna. |
@@ -94,14 +94,14 @@ rapporti, loro definizioni e formule.
 | **Rimbalzo + tasso di errore** | Numero totale di messaggi rimbalzati rispetto ai messaggi inviati. |
 | **Fai clic su** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
 | **Frequenza di click-through** | Numero totale di clic in una consegna rispetto al numero di messaggi inviati. |
-| **Consegnato** | Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati. |
+| **Consegnate** | Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati. |
 | **Tasso di consegna** | Numero totale di messaggi consegnati correttamente rispetto ai messaggi inviati. |
 | **Errore** | Numero totale di errori che si sono verificati durante un percorso ma che non hanno impedito il corretto funzionamento del percorso. |
 | **Rimbalzo duro** | Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. |
 | **Frequenza di rimbalzo difficile** | Numero totale di consegne non riuscite a causa di errori permanenti rispetto ai messaggi inviati. |
 | **Pagina speculare** | Numero di destinatari che hanno fatto clic sul collegamento della pagina speculare. |
 | **Frequenza pagina speculare** | Numero totale di clic sul collegamento della pagina speculare rispetto al totale dei messaggi consegnati. |
-| **Apri** | Numero di volte in cui un messaggio è stato aperto in una consegna. |
+| **Open** | Numero di volte in cui un messaggio è stato aperto in una consegna. |
 | **Open Rate** | Numero totale di messaggi aperti rispetto al numero di messaggi inviati. |
 | **Quarantena** | Numero di messaggi rimbalzati e risultati nella quarantena dell’indirizzo. |
 | **Tasso di quarantena** | Numero totale di quarantene rispetto ai messaggi inviati. |
