@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Passaggio da un percorso a un altro
 description: Passaggio da un percorso a un altro
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Nel percorso di destinazione, il primo evento attivato internamente dall’attiv
 
 >[!NOTE]
 >
->Fai riferimento anche al video tutorial [qui](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>Fai riferimento anche al video tutorial [qui](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=it)
 
 ## Ciclo di vita
 
@@ -61,7 +61,7 @@ Nel percorso B, il primo evento viene attivato internamente, tramite l&#39;attiv
 * Il percorso di destinazione può anche includere tutte le attività **[!UICONTROL Jump]** necessarie.
 * I pattern di loop non sono supportati. Non c&#39;è modo di collegare due o più percorsi che creerebbero un ciclo infinito. La schermata di configurazione dell’attività **[!UICONTROL Jump]** ti impedisce di eseguire questa operazione.
 
-### Execution
+### Esecuzione
 
 * Quando l’attività **[!UICONTROL Jump]** viene eseguita, viene attivata la versione più recente del percorso di destinazione.
 * Come al solito, un individuo unico può essere presente solo una volta nello stesso percorso. Di conseguenza, se l’individuo inviato dal percorso di origine è già nel percorso di destinazione, l’utente non entrerà nel percorso di destinazione. Nell’attività **[!UICONTROL Jump]** non verrà segnalato alcun errore, in quanto si tratta di un comportamento normale.
