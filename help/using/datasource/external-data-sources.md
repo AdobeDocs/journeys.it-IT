@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 'Origini dati esterne '
 description: 'Informazioni su come configurare le origini dati esterne '
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 99%
@@ -85,7 +85,7 @@ In presenza di una chiamata GET che richieda i parametri, inseriscili nel campo 
 
 ![](../assets/journey29.png)
 
-Clic **[!UICONTROL Save]**.
+Fai clic su **[!UICONTROL Save]**.
 
 L’origine dati è ora configurata ed è pronta per essere utilizzata nei percorsi, ad esempio nelle tue condizioni o per personalizzare un’e-mail. Se la temperatura è superiore a 30°C, puoi decidere di inviare una comunicazione specifica.
 
