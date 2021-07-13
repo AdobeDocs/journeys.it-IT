@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Creazione di un percorso
 description: Scopri come creare un percorso di casi d’uso semplice
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 34%
+ht-degree: 36%
 
 ---
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni su come generare un percorso, consulta [questa pagina
 
    ![](../assets/journeyuc1_12.png)
 
-1. Rilascia un’attività **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Spa discount&quot;. Questo modello è stato progettato utilizzando Adobe Campaign. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+1. Rilascia un’attività **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Spa discount&quot;. Questo modello è stato progettato utilizzando Adobe Campaign. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
    ![](../assets/journeyuc1_13.png)
 
