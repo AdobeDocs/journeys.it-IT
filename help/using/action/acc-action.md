@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Informazioni sull’integrazione di Campaign v7/v8
 description: Scopri l’integrazione di Campaign v7/v8
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 21.1 e Adobe Campaign v8. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
 
-La connessione tra le istanze del Journey Orchestration e di Campaign viene impostata per Adobe al momento del provisioning.
+La connessione tra le istanze Journey Orchestration e Campaign viene impostata per Adobe al momento del provisioning.
 
 In questa [sezione](../usecase/campaign-classic-use-case.md) viene presentato un caso d’uso end-to-end.
 
