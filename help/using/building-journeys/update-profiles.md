@@ -2,18 +2,18 @@
 product: adobe campaign
 title: Passaggio da un percorso a un altro
 description: Passaggio da un percorso a un altro
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
 
 ---
 
-# Aggiornare il profilo {#update-profile}
+# Aggiorna il profilo {#update-profile}
 
 L’attività di azione **[!UICONTROL Update profile]** ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico.
 
