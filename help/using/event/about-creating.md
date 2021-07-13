@@ -3,10 +3,10 @@ product: adobe campaign
 title: Creazione di un evento
 description: Scopri come creare un evento
 feature: Percorsi
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 63%
@@ -57,7 +57,7 @@ Di seguito sono riportati i passaggi principali per la configurazione di un nuov
 1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa pagina](../event/selecting-the-namespace.md).
 1. Definisci la chiave: scegli un campo di payload o specifica una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, [!DNL Journey Orchestration] seleziona la chiave che deve corrispondere allo spazio dei nomi, ad esempio, se scegli uno spazio dei nomi e-mail, opterà per la chiave e-mail. Consulta [questa pagina](../event/defining-the-event-key.md).
 1. Per gli eventi generati dal sistema, puoi aggiungere una condizione . Questo passaggio è facoltativo. In tal modo, consenti al sistema di elaborare solo gli eventi che soddisfano la condizione specifica. Tale condizione può essere basata solo sulle informazioni contenute nell’evento. Consulta [questa pagina](../event/adding-a-condition.md).
-1. Clic **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
    ![](../assets/journey7.png)
 
