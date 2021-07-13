@@ -4,13 +4,13 @@ title: Limitazione della descrizione API
 description: Ulteriori informazioni sull’API di limitazione di utilizzo.
 products: journeys
 feature: Percorsi
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Per le origini dati esterne, il numero massimo di chiamate al secondo è imposta
 
 Per ulteriori informazioni sulle azioni o sulla configurazione dell&#39;origine dati, consulta [Informazioni sulle azioni](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
-## Resources
+## Risorse
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 L’API di limitazione di utilizzo consente di creare, configurare e monitorare le configurazioni di limitazione di utilizzo.
 
-| Elemento “method” | Percorso | Descrizione |
+| Metodo | Path | Descrizione |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Ottieni un elenco delle configurazioni di limiti endpoint |
 | [!DNL POST] | /endpointConfigs | Creare una configurazione di limite endpoint |
@@ -174,13 +174,13 @@ Questa raccolta Postman è stata impostata per condividere la raccolta Postman V
 Una volta scaricata e caricata in Postman, devi aggiungere tre variabili: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` :  [!DNL Journey Orchestration] URL gateway
 * `{BASE_PATH}` : punto di ingresso per l’API. Il valore è &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : l’intestazione  **x-sandbox-name**  (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Per ulteriori informazioni, consulta la [panoramica sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) .
+* `{SANDBOX_NAME}` : l’intestazione  **x-sandbox-name**  (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Per ulteriori informazioni, consulta la [panoramica sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) .
 
 Nella sezione seguente, trovi l’elenco delle chiamate API rimanenti ordinate per eseguire il caso d’uso.
 
 Caso d’uso n° 1: **Creazione e distribuzione di una nuova configurazione di limitazione**
 
-1. elenco
+1. list
 1. creare
 1. canonizzare
 1. distribuire
