@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Attività attendi
 description: Scopri l’attività attendi
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -57,7 +57,7 @@ Questa opzione ti consente di definire una data personalizzata, ad esempio 12 lu
 >
 >È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell&#39;evento è del modulo 2016-08-12T09:46:06Z.
 >
->Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di miscelazione e fuso orario ISO-8601 offset come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
+>Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, non è possibile oggi dall&#39;interfaccia puntare direttamente a un tempo pieno di mixaggio e fuso orario ISO-8601 come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
