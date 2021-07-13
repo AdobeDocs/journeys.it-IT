@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Campi del percorso
-description: Campi del percorso
-feature: Journeys
-role: Business Practitioner
+title: campi del percorso
+description: campi del percorso
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
-# Campi del percorso {#sharing-journey-fields}
+# campi del percorso {#sharing-journey-fields}
 
 Questo mixin viene utilizzato nello schema di percorso (in relazione a journeyStepEvent). Contiene i campi seguenti:
 
