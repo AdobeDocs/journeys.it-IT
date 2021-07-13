@@ -3,11 +3,11 @@ product: adobe campaign
 title: Introduzione
 description: Scopri i passaggi principali per configurare Journey Orchestration e creare il primo percorso.
 feature: Percorsi
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 
