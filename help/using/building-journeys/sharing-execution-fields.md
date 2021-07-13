@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Campi di esecuzione azione degli eventi journeyStep
-description: Campi di esecuzione azione degli eventi journeyStep
-feature: Journeys
-role: Business Practitioner
+title: Campi di esecuzione dell’azione eventi journeyStep
+description: Campi di esecuzione dell’azione eventi journeyStep
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Campi di esecuzione azione degli eventi journeyStep {#sharing-execution-fields}
+# Campi di esecuzione dell’azione eventi journeyStep {#sharing-execution-fields}
 
 Questo mixin sarà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
@@ -59,7 +59,7 @@ Valori:
 * http
 * tappatura
 * timeout
-* errore
+* error
 
 ## actionExecutionErrorCode
 
