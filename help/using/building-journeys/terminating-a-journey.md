@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Terminazione di un percorso
+title: Conclusione di un percorso
 description: Scopri come terminare un percorso
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Terminazione di un percorso
+# Conclusione di un percorso
 
 Le opzioni **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** consentono di terminare i percorsi **live**. La chiusura di un percorso implica **che l&#39;arrivo di nuovi clienti nel percorso è bloccato** e che i clienti che sono già entrati nel percorso sono in grado di sperimentarlo fino alla fine. Questo è il modo più consigliato per mettere fine a un percorso in quanto offre la migliore esperienza per i clienti. Arrestare un percorso implica che le persone che sono già entrate in un percorso vengono tutte fermate nel loro progresso. Il percorso è fondamentalmente spento.
 
@@ -35,7 +35,7 @@ Per chiudere un percorso, fai clic su **[!UICONTROL Close to new entrances]** me
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
-Puoi inoltre:
+È inoltre possibile:
 
 1. In **[!UICONTROL Home]**, fai clic sul percorso da chiudere.
 1. In alto a destra, fai clic sulla freccia giù.
@@ -57,7 +57,7 @@ Quando viene arrestato, un percorso avrà lo stato **[!UICONTROL Stopped]**.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
-Puoi inoltre:
+È inoltre possibile:
 
 1. In **[!UICONTROL Home]**, fai clic sul percorso da interrompere.
 1. In alto a destra, fai clic sulla freccia giù.
