@@ -2,11 +2,11 @@
 product: adobe campaign
 title: Informazioni sulle attività di azione
 description: Informazioni sulle attività di azione
-feature: Journeys
-role: Business Practitioner
+feature: Percorsi
+role: User
 level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 28%
