@@ -9,7 +9,7 @@ exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,6 +38,6 @@ Puoi definire due tipi di eventi:
 
 * Eventi **generati dal sistema**: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload.
 
-Journey Orchestration richiede che gli eventi vengano inviati in streaming o inseriti in batch in Adobe Experience Platform. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso separato, ti consigliamo di abilitare il set di dati per il profilo.
+Journey Orchestration richiede che gli eventi vengano inviati in streaming o in batch ad Adobe Experience Platform. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso diverso, ti consigliamo di abilitare il set di dati per il profilo.
 
 Per scoprire come creare un evento, consulta questa [pagina](../event/about-creating.md).
