@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 * Sono state aggiunte informazioni su come ordinare e scegliere le colonne da visualizzare nell’elenco dei segmenti. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
 * Sono state aggiunte informazioni su come copiare il nome e l’ID di un segmento dopo averlo selezionato. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
-* Le occorrenze di Experience Platform sono state armonizzate nelle diverse pagine.
+* Le occorrenze di Experience Platform sono state armonizzate tra le diverse pagine.
 
 ## Luglio 2020 {#july-2020}
 
@@ -67,13 +67,13 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 ## Aprile 2020 {#april-2020}
 
 * È stata aggiunta una nuova sezione sulla definizione dello schema evento esperienza per aiutare gli utenti a configurare il loro primo evento. [Ulteriori informazioni](../event/experience-event-schema.md)
-* La home page della documentazione [!DNL Journey Orchestration] è stata aggiornata con altri collegamenti utili. [Ulteriori informazioni](../../journey-orchestration-home.md)
+* La pagina principale della documentazione di [!DNL Journey Orchestration] è stata aggiornata con altri collegamenti utili. [Ulteriori informazioni](../../journey-orchestration-home.md)
 
 ## Marzo 2020 {#march-2020}
 
 * Nella sezione dei registri di test sono state aggiunte le descrizioni dei parametri per _actionExecutionErrors_ e _fetchErrors_. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#viewing_logs)
 * Sono state aggiornate le limitazioni alle azioni personalizzate utilizzate in un percorso. Puoi anche modificare il campo **[!UICONTROL URL]** e i parametri di **[!UICONTROL Authentication]**. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
-* Sono state aggiunte nuove voci di aiuto contestuali. In azioni e origini dati, il riquadro del payload di autenticazione personalizzata adesso include un’icona dell’aiuto che collega a questa [sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+* Sono state aggiunte nuove voci di aiuto contestuali. In azioni e origini dati, il riquadro del payload di autenticazione personalizzata adesso include un’icona di aiuto che collega a questa [sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Ora è possibile interrompere i percorsi chiusi. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
 * È stata riorganizzata la sezione relativa alla descrizione dell’interfaccia. [Ulteriori informazioni](../about/user-interface.md)
 * È stata aggiunta l’attivazione di più eventi alla sezione Modalità di test [Ulteriori informazioni](../building-journeys/testing-the-journey.md#firing_events)
@@ -91,7 +91,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 
 ## Gennaio 2020 {#january-2020}
 
-* Sono state aggiunte limitazioni per gli [eventi di esperienza](../datasource/adobe-experience-platform-data-source.md) e [i segmenti](../functions/functioninsegment.md).
+* Sono state aggiunte limitazioni per acquisire gli [eventi di esperienza](../datasource/adobe-experience-platform-data-source.md) e i [segmenti](../functions/functioninsegment.md).
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
