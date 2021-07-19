@@ -17,7 +17,7 @@ Esporta una versione del percorso e tutti gli oggetti correlati (percorso, event
 Questa funzione consente di gestire i percorsi in più istanze o per più flussi di lavoro di ambienti di test.
 
 
-## Resources
+## Risorse
 
 L&#39;API Export-Import del Journey Orchestration è descritta all&#39;interno di un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
 
@@ -82,7 +82,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 Questa API ti consente di esportare per l’ID di un percorso una versione identificata dal relativo UID e tutti gli oggetti correlati (percorso, eventi, origini dati, gruppi di campi, azioni personalizzate).
 Il payload risultante può essere utilizzato per importare la versione di percorso in un altro ambiente (sandbox o istanza).
 
-| Elemento “method” | Percorso | Descrizione |
+| Metodo | Path | Descrizione |
 |---|---|---|
 | `[POST]` | /journeyVersions/import | Importare un contenuto di versione di un percorso risultante da un’esportazione di versioni di un percorso |
 | `[GET]` | /journeyVersions/`{uid}`/export | Esportare una versione di percorso |
