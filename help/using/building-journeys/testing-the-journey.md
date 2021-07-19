@@ -70,7 +70,7 @@ Il modo più semplice per farlo è utilizzare un&#39;attività di azione **Aggio
 
 ## Creazione di un profilo di test{#create-test-profile}
 
-Se desideri creare un nuovo profilo di test, la procedura è la stessa di quando crei un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. Consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+Se desideri creare un nuovo profilo di test, la procedura è la stessa di quando crei un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. Consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it)
 
 Devi utilizzare uno schema di profilo contenente il mixin &quot;profile test details&quot; (Dettagli test profilo). Il flag testProfile fa parte di questo mixin.
 
