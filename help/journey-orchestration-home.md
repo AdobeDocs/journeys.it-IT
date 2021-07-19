@@ -20,7 +20,8 @@ ht-degree: 100%
 
 ## Introduzione
 
-* **[Cos’è Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>Ulteriori informazioni su Journey Orchestration.
+* **[Cos’è Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>
+Ulteriori informazioni su Journey Orchestration.
 
 * **[Crea il tuo primo viaggio](using/about/get-started.md)**<br/>
 Scopri i passaggi principali per configurare Journey Orchestration e creare il tuo primo percorso.
