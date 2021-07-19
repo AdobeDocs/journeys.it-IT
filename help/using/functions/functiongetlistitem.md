@@ -2,14 +2,14 @@
 product: adobe campaign
 title: getListItem
 description: Scopri la funzione gstListItem
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -25,11 +25,11 @@ Elenco
 
 `getListItem(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|
-| elenco | listString |
+| list | listString |
 | elenco | listBoolean |
 | elenco | listInteger |
 | elenco | listDecimal |
