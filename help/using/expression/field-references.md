@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Riferimenti campo
 description: Informazioni sui riferimenti di campo nelle espressioni avanzate
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
