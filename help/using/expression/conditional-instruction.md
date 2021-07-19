@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Istruzione condizionale (if, then, else)
 description: Scopri le istruzioni condizionali
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
