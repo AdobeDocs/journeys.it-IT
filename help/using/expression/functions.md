@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Funzioni
 description: Informazioni sulle funzioni
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 Una funzione può avere firme diverse (un diverso insieme di parametri ordinati). Una firma di funzione può avere espressioni 0-N come parametri ordinati.
 
-`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 Ogni funzione ha un tipo restituito specifico.
 
