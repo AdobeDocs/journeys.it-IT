@@ -2,14 +2,14 @@
 product: adobe campaign
 title: serializeList
 description: Scopri la funzione serializeList
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Elenco
 
 `serializeList(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|
