@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Generalità
 description: Scopri le generalità delle espressioni avanzate
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Le parentesi possono essere utilizzate per rendere più leggibile un’espressione complessa. _(&lt;expression>)_ è l’equivalente di  _&lt;expression>_. È inoltre possibile utilizzare le parentesi per definire l’ordine di valutazione e l’associatività.
 
-Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugli operatori aritmetici deve essere applicata: le moltiplicazioni e le divisioni hanno la priorità su aggiunte e sottrazioni. Per imporre un ordine specifico, è necessario aggiungere parentesi per delimitare le operazioni. Ad esempio:
+Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugli operatori aritmetici deve essere applicata: le moltiplicazioni e le divisioni hanno la priorità su aggiunte e sottrazioni. Per imporre un ordine specifico, è necessario aggiungere parentesi per delimitare le operazioni. Esempio:
 
 <!--```5 + 2 * 10 = 25, and (5 + 2) * 10 = 70```-->
 
