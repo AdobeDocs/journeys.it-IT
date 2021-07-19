@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Proprietà del percorso
 description: Informazioni sulle proprietà del percorso
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
@@ -65,5 +65,5 @@ Di seguito sono riportati alcuni esempi di casi d’uso:
 |  | lastErrorCode | Ultimo codice di errore | Codice di errore dell&#39;ultima attività (nodo) in errore. Possibili errori: <ul><li>Codici di errore HTTP</li><li>cappuccio</li><li>timedOut</li><li>error (esempio: predefinito in caso di errore imprevisto. Non dovrebbe/estremamente raro)</li></ul> |
 |  | lastExecutionActionErrorCode | Codice errore ultima azione eseguita | Codice di errore dell’ultima azione in errore |
 |  | lastDataFetchErrorCode | Codice errore ultimo recupero dati | Codice di errore del recupero dati più recente da origini dati |
-| Time | lastActionExecutionElapsedTime | Tempo trascorso dell’ultima esecuzione dell’azione | Tempo impiegato per eseguire l’azione più recente |
+| Tempo | lastActionExecutionElapsedTime | Tempo trascorso dell’ultima esecuzione dell’azione | Tempo impiegato per eseguire l’azione più recente |
 |  | lastDataFetchElapsedTime | Tempo trascorso ultimo recupero dati | Tempo impiegato per eseguire il recupero dati più recente da origini dati |
