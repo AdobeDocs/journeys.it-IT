@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Informazioni sull’editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
@@ -57,11 +57,11 @@ Questa schermata ti consente di scrivere manualmente l’espressione.
 
 Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni disponibili:
 
-* **[!UICONTROL Events]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Leggi tutto](../event/about-events.md)
-* **[!UICONTROL Segments]**: se hai abbandonato un  **[!UICONTROL Segment qualification]** evento, scegli il segmento da utilizzare nell’espressione. [Leggi tutto](../segment/using-a-segment.md)
-* **[!UICONTROL Data Sources]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Leggi tutto](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Leggi tutto](../expression/journey-properties.md)
-* **[!UICONTROL Functions]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Leggi tutto](../expression/functions.md)
+* **[!UICONTROL Events]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Ulteriori informazioni](../event/about-events.md)
+* **[!UICONTROL Segments]**: se hai abbandonato un  **[!UICONTROL Segment qualification]** evento, scegli il segmento da utilizzare nell’espressione. [Ulteriori informazioni](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
