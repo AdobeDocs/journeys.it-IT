@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inNextDays
 description: Scopri la funzione inNextDays
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 13%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Data
 
 `inNextDays(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|
