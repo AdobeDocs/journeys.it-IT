@@ -9,7 +9,7 @@ exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Per configurare gli eventi da inviare a **[!UICONTROL Streaming Ingestion APIs]** e da utilizzare in [!DNL Journey Orchestration], segui questi passaggi:
 
-1. Ottieni l’URL di ingresso dalle API Adobe Experience Platform (consulta [API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
+1. Ottieni l’URL di ingresso dalle API Adobe Experience Platform (consulta [API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it)).
 1. Copia il payload dall’anteprima del payload nel menu **[!UICONTROL Event]** . Consulta [questa pagina](../event/defining-the-payload-fields.md).
 
 Devi quindi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
