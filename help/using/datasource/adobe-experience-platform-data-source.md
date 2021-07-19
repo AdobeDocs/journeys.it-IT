@@ -9,13 +9,13 @@ exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 # Origine dati Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-L’origine dati Adobe Experience Platform definisce la connessione al servizio Profilo cliente in tempo reale. Questa origine dati è incorporata e preconfigurata. Non può essere eliminato. Questa origine dati è progettata per recuperare e utilizzare i dati dal servizio Profilo cliente in tempo reale (ad esempio, controlla se la persona che ha inserito un percorso è una donna). Ti consente di utilizzare i dati Profilo e i dati Eventi esperienza. Per ulteriori informazioni sul servizio Profilo cliente in tempo reale, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+L’origine dati Adobe Experience Platform definisce la connessione al servizio Profilo cliente in tempo reale. Questa origine dati è incorporata e preconfigurata. Non può essere eliminato. Questa origine dati è progettata per recuperare e utilizzare i dati dal servizio Profilo cliente in tempo reale (ad esempio, controlla se la persona che ha inserito un percorso è una donna). Ti consente di utilizzare i dati Profilo e i dati Eventi esperienza. Per ulteriori informazioni sul servizio Profilo cliente in tempo reale, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it).
 
 >[!NOTE]
 >
