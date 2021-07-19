@@ -2,14 +2,14 @@
 product: adobe campaign
 title: nowWithDelta
 description: Scopri la funzione nowWithDelta
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: f23f729b-7edb-4efc-a7ea-904314a7b2e1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Data
 
 `nowWithDelta(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione |
 |--- |--- |
