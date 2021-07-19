@@ -2,14 +2,14 @@
 product: adobe campaign
 title: countOnlyNull
 description: Scopri la funzione countOnlyNull
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: e6170a21-0418-4311-a43b-fd4f323cd020
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -25,7 +25,7 @@ Aggregazione
 
 `countOnlyNull(<listAny>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|
