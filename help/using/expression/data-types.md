@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Tipi di dati
 description: Informazioni sui tipi di dati nelle espressioni avanzate
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
@@ -119,7 +119,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Descrizione**
 
@@ -155,7 +155,7 @@ Formato di serializzazione: Formato data-ora offset esteso ISO-8601.
 
 Utilizza DateTimeForsubject ISO_OFFSET_DATE_TIME per deserializzare e serializzare il valore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-È inoltre possibile passare un numero intero che passa un valore epoch. [Leggi tutto](https://www.epochconverter.com)
+È inoltre possibile passare un numero intero che passa un valore epoch. [Ulteriori informazioni](https://www.epochconverter.com)
 
 Il fuso orario può essere specificato da un codice di offset o di fuso orario (ad esempio: Europa/Parigi, Z - significato UTC).
 
@@ -263,7 +263,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## elenco {#list}
+## list {#list}
 
 **Descrizione**
 
