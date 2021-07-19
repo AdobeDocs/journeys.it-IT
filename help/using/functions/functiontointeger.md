@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toInteger
 description: Scopri la funzione toInteger
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
@@ -25,7 +25,7 @@ Conversione
 
 `toInteger(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione |
 |--- |--- |
