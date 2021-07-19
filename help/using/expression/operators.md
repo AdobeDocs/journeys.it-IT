@@ -50,7 +50,7 @@ Esempio:
 3.14 > 2 and 3.15 < 1
 ```
 
-### o
+### oppure
 
 
 
