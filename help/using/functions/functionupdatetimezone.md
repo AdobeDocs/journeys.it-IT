@@ -5,7 +5,7 @@ description: Scopri la funzione updateTimeZone
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ Data
 
 `updateTimeZone(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 * id fuso orario: string
 * dateTime
