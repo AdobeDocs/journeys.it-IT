@@ -2,14 +2,14 @@
 product: adobe campaign
 title: now
 description: Informazioni sulla funzione
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ Data
 
 `now(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione |
 |--- |--- |
