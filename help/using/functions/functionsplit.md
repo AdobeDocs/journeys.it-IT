@@ -2,14 +2,14 @@
 product: adobe campaign
 title: split
 description: Scopri la suddivisione della funzione
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 9%
+ht-degree: 17%
 
 ---
 
@@ -25,7 +25,7 @@ Stringa
 
 `split(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|
