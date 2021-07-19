@@ -2,14 +2,14 @@
 product: adobe campaign
 title: distinctWithNull
 description: Scopri la funzione distinctWithNull
-feature: Journeys
+feature: Percorsi
 role: Data Engineer
 level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ Elenco
 
 `distinctWithNull(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|
