@@ -6,10 +6,10 @@ feature: Percorsi
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '441'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,8 @@ Nel nostro caso d’uso, vogliamo utilizzare i dati di personalizzazione per i n
 
 Per ulteriori informazioni sulla configurazione dell&#39;origine dati, consulta [questa pagina](../datasource/about-data-sources.md).
 
-1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Data Sources]** e seleziona l’origine dati integrata di Adobe Experience Platform.
+1. Nel riquadro del menu, selezionare **[!UICONTROL Admin]**. Nella sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
+1. Seleziona l’origine dati integrata di Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di preno
 1. Fai clic su **[!UICONTROL Add a New Field Group]** per definire le informazioni da recuperare e i parametri API. Per il nostro esempio, esiste un solo parametro (l’id), quindi è necessario creare un gruppo di campi con le seguenti informazioni:
 
    * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
-   * **[!UICONTROL Cache duration]**: questo varia a seconda della frequenza delle chiamate API. Nel nostro caso, il sistema di prenotazione viene aggiornato ogni 10 minuti.
    * **[!UICONTROL Response Payload]**: fai clic all’interno del  **[!UICONTROL Payload]** campo e incolla un esempio del payload. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Nel nostro esempio, il payload contiene solo lo stato di prenotazione:
 
    ```
