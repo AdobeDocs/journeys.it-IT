@@ -6,10 +6,10 @@ feature: Percorsi
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 99%
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ La chiamata è composta da un URL principale, _https://api.adobeweather.org/weat
 
 Di seguito sono riportati i passaggi principali per la creazione e la configurazione di una nuova origine dati esterna:
 
-1. Dall’elenco delle origini dati, fare clic su **[!UICONTROL Add]** per creare una nuova origine dati esterna.
+1. Dall’elenco delle origini dati, fai clic su **[!UICONTROL Create data source]** per creare una nuova origine dati esterna.
 
    ![](../assets/journey25.png)
 
@@ -69,7 +69,6 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 
 * **[!UICONTROL Used in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. Puoi fare clic sull’icona **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
 * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
-* **[!UICONTROL Cache duration]**: nel nostro caso, vogliamo che il meteo sia memorizzato nella cache per 10 minuti.
 * **[!UICONTROL Response Payload]**: fai clic all’interno del campo **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Se vuoi modificare il payload attualmente trasmesso, è possibile fare clic su **[!UICONTROL Paste a new payload]**.
 * **[!UICONTROL Dynamic Values]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. Consulta [questa pagina](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
