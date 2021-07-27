@@ -6,9 +6,9 @@ feature: Percorsi
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '351'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,6 @@ Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi a
 
 1. Seleziona uno schema dal menu a discesa **[!UICONTROL Schema]** . In questo campo sono elencati gli schemi di profili ed eventi di esperienza disponibili in Adobe Experience Platform. La creazione dello schema non viene eseguita in [!DNL Journey Orchestration]. Viene eseguito in Adobe Experience Platform.
 1. Selezionare i campi da utilizzare.
-1. Definisci la durata della cache.
 1. Fai clic su **[!UICONTROL Save]**.
 
 Quando si posiziona il cursore sul nome di un gruppo di campi, vengono visualizzate due icone a destra. Consentono di eliminare e duplicare il gruppo di campi. L’icona **[!UICONTROL Delete]** è disponibile solo se il gruppo di campi non è utilizzato in alcun percorso live o 2D (informazioni visualizzate nel campo **[!UICONTROL Used in]** ).
