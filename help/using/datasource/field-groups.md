@@ -6,10 +6,10 @@ feature: Percorsi
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 0%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -19,15 +19,13 @@ I gruppi di campi sono insiemi di campi che è possibile recuperare da un’orig
 
 ## Definizione dei gruppi di campi {#section_dsz_kjd_fjb}
 
-Per ogni origine dati, puoi definire diversi gruppi di campi, ciascuno dei quali con una specifica durata della cache.
+Per ogni origine dati puoi definire diversi gruppi di campi.
 
 Ad esempio, puoi creare un gruppo di campi con il numero di telefono, l’e-mail, il nome e l’indirizzo del profilo. Potrai quindi utilizzare questi dati nel tuo percorso per creare condizioni. Ad esempio, puoi decidere di inviare un SMS solo se il numero di telefono del profilo non è vuoto. Se è vuoto, puoi inviare un’e-mail.
 
 Anche se viene aggiunto automaticamente un nome predefinito, ti consigliamo di assegnare un nome al gruppo di campi. In effetti, il nome del gruppo di campi sarà visibile agli altri utenti in [!DNL Journey Orchestration]. È consigliabile assegnare un nome pertinente ai gruppi di campi.
 
 Quando un campo origine dati viene utilizzato in un percorso, il sistema recupererà tutti i campi definiti per quel gruppo di campi. Pertanto, è consigliabile selezionare solo i campi necessari per i percorsi. Questo ridurrà la latenza della richiesta nei percorsi aumentando così le prestazioni. È possibile aggiungere facilmente più campi nei gruppi di campi in un secondo momento.
-
-**[!UICONTROL Cache duration]** è importante anche in quanto ti aiuterà a ottimizzare le prestazioni. La durata della cache indica che in un percorso, se i dati di un gruppo di campi vengono recuperati una volta, il sistema li memorizzerà temporaneamente nella cache. Se gli stessi dati sono richiesti più avanti nello stesso percorso, il sistema non effettuerà un&#39;altra richiesta all&#39;origine dati. La configurazione della durata della cache deve essere adattata per ogni caso d’uso. Se devi recuperare dati in tempo reale, ad esempio lo stato della prenotazione dell’hotel, le informazioni meteo o il numero di punti fedeltà, associ il gruppo di campi contenente questi campi a una breve durata della cache (ad esempio 1 secondo). Per i campi che vengono aggiornati meno frequentemente (nome, genere), creerai un secondo gruppo di campi con una durata della cache più lunga (ad esempio, 5 giorni).
 
 Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nel campo **[!UICONTROL Used in]** . Puoi fare clic sul pulsante **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
 
