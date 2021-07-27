@@ -6,10 +6,10 @@ feature: Percorsi
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 79%
+source-wordcount: '345'
+ht-degree: 76%
 
 ---
 
@@ -44,7 +44,7 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 >
 >La configurazione dell’origine dati viene sempre eseguita da un **utente tecnico**.
 
-1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Data Sources]**.
+1. Nel riquadro del menu, selezionare **[!UICONTROL Admin]**. Nella sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
 
    Viene visualizzato l’elenco delle origini dati. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../about/user-interface.md) .
 
