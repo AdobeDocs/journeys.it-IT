@@ -6,10 +6,10 @@ feature: Percorsi
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 61%
+source-wordcount: '2701'
+ht-degree: 59%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 61%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md) più recenti.
+
+## Versione di luglio 2021 {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Utilizzo delle relazioni tra schemi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform ti consente di definire relazioni tra schemi per utilizzare un set di dati come tabella di ricerca per un altro. Il Journey Orchestration ora può sfruttare i dati provenienti da uno schema collegato.</p>
+<p>Questi campi sono disponibili nella configurazione unitaria degli eventi, nelle condizioni di percorso e nella personalizzazione delle azioni personalizzata.
+<p>Per ulteriori informazioni, consulta la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti
+
+* Il campo **Durata cache** è stato rimosso dal riquadro di configurazione dell&#39;origine dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
 ## Versione di giugno 2021 {#june-2021-release}
 
