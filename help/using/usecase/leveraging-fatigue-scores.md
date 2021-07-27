@@ -2,9 +2,9 @@
 product: adobe campaign
 title: Sfruttare i punteggi di fatica
 description: Scopri come sfruttare i punteggi di affaticamento nei percorsi
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,8 @@ Segui i passaggi descritti in [questa pagina](../event/about-events.md).
 
 Esegui i seguenti passaggi per selezionare i campi del punteggio di affaticamento nell’origine dati incorporata:
 
-1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Data Sources]** e seleziona l’origine dati integrata di Adobe Experience Platform.
+1. Nel riquadro del menu, selezionare **[!UICONTROL Admin]**. Nella sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
+1. Seleziona l’origine dati integrata di Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
