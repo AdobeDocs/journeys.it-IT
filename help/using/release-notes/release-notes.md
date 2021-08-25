@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Note sulla versione
 description: Informazioni sulle note sulla versione
-feature: Percorsi
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2756'
 ht-degree: 59%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 59%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md) più recenti.
+
+## Versione di agosto 2021 {#august-2021-release}
+
+### Miglioramenti
+
+**Percorsi**
+
+* **Intestazioni dinamiche** : è ora possibile trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate HTTP dell’azione percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/url-configuration.md)
+* **Percorsi URL dinamici** : ora puoi impostare percorsi URL dinamici per le azioni personalizzate. [Ulteriori informazioni](../action/url-configuration.md)
 
 ## Versione di luglio 2021 {#july-2021-release}
 
