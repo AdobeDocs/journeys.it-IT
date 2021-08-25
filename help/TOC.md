@@ -4,11 +4,11 @@ user-guide-title: Journey Orchestration
 title: Guida di Journey Orchestration
 user-guide-description: Fornisce istruzioni per l’implementazione e la creazione di percorsi.
 index: true
-feature: Percorsi
-source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+feature: Journeys
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
    + Utilizzo di un sistema di terze parti {#action-third-party}
       + [Informazioni sulla configurazione delle azioni personalizzata](using/action/about-custom-action-configuration.md)
       + [Configurazione URL](using/action/url-configuration.md)
-      + [Definizione dei parametri del messaggio](using/action/defining-the-message-parameters.md)
+      + [Definizione dei parametri dell’azione](using/action/defining-the-message-parameters.md)
 + Utilizzo dei segmenti {#configuring-segment}
    + [Informazioni sui segmenti](using/segment/about-segments.md)
    + [Creazione di un segmento](using/segment/creating-a-segment.md)
