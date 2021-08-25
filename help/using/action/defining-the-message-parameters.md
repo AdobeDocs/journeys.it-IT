@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: Definizione dei parametri del messaggio
-description: Scopri come definire i parametri del messaggio
-feature: Percorsi
+title: Definizione dei parametri dell’azione
+description: Scopri come definire i parametri delle azioni
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
-# Definizione dei parametri del messaggio {#concept_wy4_bf1_2gb}
+# Definizione dei parametri dell’azione {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-Nella sezione **[!UICONTROL Message parameters]** , incolla un esempio del payload JSON da inviare al servizio esterno.
+Nella sezione **[!UICONTROL Action parameters]** , incolla un esempio del payload JSON da inviare al servizio esterno.
 
 ![](../assets/customactionpayloadmessage.png)
 
