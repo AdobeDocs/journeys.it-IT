@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Integrazione con sistemi esterni
 description: Scopri le best practice per l’integrazione di sistemi esterni
-feature: Percorsi
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Quando il Journey Orchestration esegue una chiamata a un’API esterna, le prote
 
 L’API Capping integrata offre una protezione tecnica a monte che aiuta a proteggere il sistema esterno.
 
-Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per inserire in una whitelist l’endpoint. Ciò non è possibile per le fonti di dati esterne pubbliche.
+Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per includere l’endpoint nell’inserire nell&#39;elenco Consentiti. Ciò non è possibile per le fonti di dati esterne pubbliche.
 
 Per le azioni personalizzate, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, è necessario definire una regola di limitazione in modo che il sistema non saturi.
 
