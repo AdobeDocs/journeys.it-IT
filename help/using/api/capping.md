@@ -3,13 +3,13 @@ product: adobe campaign
 title: Limitazione della descrizione API
 description: Ulteriori informazioni sull’API di limitazione di utilizzo.
 products: journeys
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Durante la configurazione di un’origine dati, definirai una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei percorsi oppure, per una definizione di azione, configurerai la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API. Ogni volta che una chiamata API viene eseguita dal Percorso, l’API di limitazione viene interrogata, la chiamata viene eseguita tramite il motore API. Se è definito un limite, la chiamata viene rifiutata e il sistema esterno non verrà sovraccaricato.
 
-Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per inserire in una whitelist l’endpoint. Ciò non è possibile per le fonti di dati esterne pubbliche. Per ulteriori informazioni sulle best practice e sulle protezioni durante l&#39;integrazione di sistemi esterni, consulta questa [pagina](../about/external-systems.md).
+Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per includere l’endpoint nell’inserire nell&#39;elenco Consentiti. Ciò non è possibile per le fonti di dati esterne pubbliche. Per ulteriori informazioni sulle best practice e sulle protezioni durante l&#39;integrazione di sistemi esterni, consulta questa [pagina](../about/external-systems.md).
 
 Per ulteriori informazioni sulle azioni o sulla configurazione dell&#39;origine dati, consulta [Informazioni sulle azioni](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
