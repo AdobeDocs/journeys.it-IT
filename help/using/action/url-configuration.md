@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Configurazione URL
 description: Scopri la configurazione dell’URL
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 14%
+source-wordcount: '312'
+ht-degree: 5%
 
 ---
 
@@ -19,17 +19,38 @@ Quando configuri un’azione personalizzata, devi definire i seguenti parametri 
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Aggiungi il **[!UICONTROL URL]** del servizio esterno.
+1. Nel campo **[!UICONTROL URL]** , specifica l’URL del servizio esterno:
 
+   * Se l’URL è statico, immetti l’URL in questo campo.
+
+   * Se l’URL include un percorso dinamico, immetti solo la parte statica dell’URL, ovvero lo schema, l’host, la porta e, facoltativamente, una parte statica del percorso.
+
+      Esempio: `https://xxx.yyy.com:8080/somethingstatic/`
+
+      Quando aggiungi l’azione personalizzata a un percorso, specificerai il percorso dinamico dell’URL. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
-   >Per motivi di sicurezza, è consigliabile utilizzare HTTPS. Non consentiamo l’uso di indirizzi di Adobe che non sono pubblici e l’uso di indirizzi IP.
+   >Per motivi di sicurezza, si consiglia vivamente di utilizzare lo schema HTTPS per l’URL. Non consentiamo l’uso di indirizzi di Adobe che non sono pubblici e l’uso di indirizzi IP.
 
 1. Seleziona la chiamata **[!UICONTROL Method]**: può essere **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
-1. Nella sezione **[!UICONTROL Headers]**, fai clic su **[!UICONTROL Add a header field]** per definire una nuova coppia chiave/valore. Corrispondono alle intestazioni HTTP della richiesta effettuata al servizio esterno. Per eliminare le coppie chiave/valore, posiziona il cursore sul campo **[!UICONTROL Headers]** e fai clic sull&#39;icona **[!UICONTROL Delete]**.
+1. Nella sezione **[!UICONTROL Headers]** , definisci le intestazioni HTTP del messaggio di richiesta da inviare al servizio esterno:
+   1. Per aggiungere un campo di intestazione, fare clic su **[!UICONTROL Add a header field]**.
+   1. Immetti la chiave del campo intestazione.
+   1. Per impostare un valore dinamico per la coppia chiave-valore, selezionare **[!UICONTROL Variable]**. In caso contrario, selezionare **[!UICONTROL Constant]**.
 
-   **[!UICONTROL Content-Type]** e  **[!UICONTROL Charset]** sono impostati per impostazione predefinita e non possono essere eliminati o ignorati.
+      Ad esempio, per una marca temporale, è possibile impostare un valore dinamico.
+
+   1. Se hai selezionato **[!UICONTROL Constant]**, immetti il valore costante.
+
+      Se hai selezionato **[!UICONTROL Variable]**, specificerai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
+
+      ![](../assets/journeyurlconfiguration2.png)
+
+   1. Per eliminare un campo di intestazione, puntare al campo di intestazione e fare clic sull&#39;icona **[!UICONTROL Delete]**.
+   I campi di intestazione **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** sono impostati per impostazione predefinita. Non è possibile modificare o eliminare questi campi.
+
+   Dopo aver aggiunto l’azione personalizzata a un percorso, puoi comunque aggiungergli dei campi di intestazione se il percorso è in stato di bozza. Se non desideri che le modifiche alla configurazione interessino il percorso, duplica l’azione personalizzata e aggiungi i campi di intestazione alla nuova azione personalizzata.
 
    >[!NOTE]
    >
-   >Le intestazioni vengono convalidate in base alle seguenti [regole di analisi](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. [Ulteriori informazioni](https://tools.ietf.org/html/rfc7230#section-3.2.4).
