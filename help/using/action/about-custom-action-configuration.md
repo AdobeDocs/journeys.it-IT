@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Informazioni sulla configurazione delle azioni personalizzata
 description: Scopri come configurare un’azione personalizzata
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 1. Il numero di percorsi che utilizzano questa azione viene visualizzato nel campo **[!UICONTROL Used in]** . Fai clic sul pulsante **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questa azione.
 1. Definisci i diversi parametri **[!UICONTROL URL Configuration]**. Consulta [questa pagina](../action/url-configuration.md).
 1. Configura la sezione **[!UICONTROL Authentication]** . Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Definisci il **[!UICONTROL Message parameters]**. Consulta [questa pagina](../action/defining-the-message-parameters.md).
+1. Definisci il **[!UICONTROL Action parameters]**. Consulta [questa pagina](../action/defining-the-message-parameters.md).
 1. Fai clic su **[!UICONTROL Save]**.
 
    L’azione personalizzata è ora configurata ed è pronta per essere utilizzata nei percorsi. Consulta [questa pagina](../building-journeys/about-action-activities.md).
