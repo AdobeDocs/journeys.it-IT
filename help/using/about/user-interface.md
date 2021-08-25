@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Interfaccia utente
 description: Ulteriori informazioni sull’interfaccia utente
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 95%
+source-wordcount: '989'
+ht-degree: 61%
 
 ---
 
@@ -87,58 +87,135 @@ Se è disponibile un nome descrittivo, il campo verrà visualizzato come `<frie
 >
 >I nomi descrittivi non vengono recuperati quando si selezionano i campi da un’unione di schemi.
 
-## Utilizzo delle varie scelte rapide{#section_ksq_zr1_ffb}
+## Accessibilità{#accessibility}
 
-Di seguito sono riportate le diverse scelte rapide disponibili nell’interfaccia di [!DNL Journey Orchestration].
+Le funzioni di accessibilità di Adobe Journey Optimizer sono fornite da Adobe Experience Platform:
 
-_Nell’elenco dei percorsi, delle azioni, delle origini dati o degli eventi:_
+* Accessibilità da tastiera
+* Contrasto colore
+* Convalida dei campi obbligatori
 
-* Premi **c** per creare un nuovo percorso, azione, origine dati o evento.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
 
-_Durante la configurazione di un’attività in un percorso:_
+In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da tastiera più comuni:
 
-L’area di lavoro viene salvata automaticamente. Nella parte superiore sinistra dell’area di lavoro è riportato lo stato di salvataggio.
+| Azione | Tasti di scelta rapida |
+| --- | --- |
+| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Scheda |
+| Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
+| Sposta all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
+| Seleziona o cancella un elemento attivo | Inserisci o Barra spaziatrice |
+| Annullare una selezione, comprimere un pannello o chiudere una finestra di dialogo | Esc |
 
-* Premi **Esc** per chiudere il riquadro di configurazione ed eliminare le modifiche apportate. Equivale al pulsante **[!UICONTROL Cancel]**.
-* Per chiudere il riquadro di configurazione, premi **Invio** o fai clic all’esterno del riquadro. Le modifiche vengono salvate. Equivale al pulsante **[!UICONTROL Ok]**.
-* Se premi **Elimina** o **backspace**, puoi premere **Invio** per confermare l’eliminazione.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
 
-_Nei pop-up:_
+È possibile utilizzare queste scelte rapide in parti specifiche di Journey Optimizer:
 
-* Premi **escape** per chiuderlo (equivalente al pulsante **[!UICONTROL Cancel]**).
-* Premi **Invio** per salvare o confermare (equivalente al pulsante **[!UICONTROL Ok]** o **[!UICONTROL Save]**).
+<table>
+  <thead>
+    <tr>
+      <th>Elemento di interfaccia</th>
+      <th>Azione</th>
+      <th>Tasti di scelta rapida</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Elenco di percorsi, azioni, origini dati o eventi</td>
+    <td>Creare un percorso, un’azione, un’origine dati o un evento</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Area di lavoro di percorso in stato bozza</td>
+    <td>Aggiungi un’attività dalla palette a sinistra nella prima posizione disponibile, dall’alto verso il basso</td>
+    <td>Fai doppio clic sull’attività</td>
+  </tr>
+  <tr>
+    <td>Seleziona tutte le attività</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Elimina le attività selezionate</td>
+    <td>Elimina o Backspace, quindi Inserisci per confermare l’eliminazione</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_Nel riquadro di configurazione dell’evento, dell’origine dati o dell’azione:_
+Riquadro di configurazione dei seguenti elementi:
 
-* Premi **escape** per chiudere il riquadro di configurazione senza salvataggio.
-* Premi **Invio** per salvare le modifiche e chiudere il riquadro di configurazione.
-* Premi la **scheda** per spostarti tra i diversi campi da configurare.
+<ul>
+  <li>Attività in un percorso</li>
+  <li>Evento</li>
+  <li>Origine dati</li>
+  <li>Azione</li>
+</ul>
 
-_Nell’editor di espressioni semplici_
+</td>
+    <td>Passa al campo successivo da configurare</td>
+    <td>Scheda</td>
+  </tr>
+  <tr>
+    <td>Salva le modifiche e chiudi il riquadro di configurazione</td>
+    <td>Invio</td>
+  </tr>
+  <tr>
+    <td>Ignora le modifiche e chiudi il riquadro di configurazione</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Percorso in modalità di prova</td>
+    <td>Attivare o disattivare la modalità di test</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Attiva un evento in un percorso basato su eventi</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* Fai doppio clic su un campo a sinistra per aggiungere una query, che equivale al trascinamento.
+Attiva un evento in un percorso basato su segmenti per il quale l&#39;opzione **[!UICONTROL Single profile at a time]** è attivata
 
-_Durante la navigazione nei campi XDM:_
-
-* Facendo clic su un &quot;nodo&quot; verranno selezionati tutti i campi al suo interno.
-
-_In tutte le aree di testo:_
-
-* Utilizza la combinazione di tasti **Ctrl/Comando + A** per selezionare il testo. Nell’anteprima del payload, seleziona il payload.
-
-_In una schermata con una barra di ricerca:_
-
-* Utilizza la combinazione di tasti **Ctrl/Comando + F** per selezionare la barra di ricerca.
-
-_Nell’area di lavoro di un percorso:_
-
-* Utilizza la combinazione di tasti **Ctrl/Comando + A** per selezionare tutte le attività.
-* Quando selezioni una o più attività, premi **Elimina** o **backspace** per eliminarle. A questo punto puoi premere **Invio** per confermare la scelta nella finestra a comparsa relativa.
-* Fai doppio clic su un’attività dal riquadro a sinistra per aggiungerla alla prima posizione disponibile (dall’alto verso il basso).
-
-_In un percorso:_
-
-* Premi **T** per attivare/disattivare la modalità di test.
-* In un percorso basato su eventi in modalità di test, premi **E** per attivare un evento.
-* In un percorso basato su segmenti, quando l’opzione **Profilo singolo alla volta** è selezionata in modalità di test, premi **P** per attivare un evento.
-* In modalità di test, premi **L** per visualizzare i registri.
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Visualizza i registri di test</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Campo di testo</td>
+    <td>Seleziona tutto il testo nel campo selezionato</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Finestra a comparsa</td>
+    <td>Salva le modifiche o conferma l’azione</td>
+    <td>Invio</td>
+  </tr>
+  <tr>
+    <td>Chiudi la finestra</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Editor di espressioni semplici</td>
+    <td>Selezionare e aggiungere un campo</td>
+    <td>Fare doppio clic su un campo</td>
+  </tr>
+  <tr>
+    <td>Esplorazione dei campi XDM</td>
+    <td>Seleziona tutti i campi di un nodo</td>
+    <td>Selezionare il nodo principale</td>
+  </tr>
+  <tr>
+    <td>Anteprima payload</td>
+    <td>Selezionare il payload</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+</table>
