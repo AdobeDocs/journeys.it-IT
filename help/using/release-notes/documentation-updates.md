@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journ
 ## Agosto 2021
 
 * È stata aggiornata la procedura di configurazione per le azioni personalizzate con percorsi URL dinamici e intestazioni dinamiche. [Ulteriori informazioni](../action/url-configuration.md)
-* È stata aggiunta una sezione sulle funzioni di accessibilità . [Ulteriori informazioni](../about/user-interface.md#accessibility)
+* È stata aggiunta una sezione sulle funzioni di accessibilità. [Ulteriori informazioni](../about/user-interface.md#accessibility)
 * È stata aggiunta una sezione sui metodi di valutazione dei segmenti. [Ulteriori informazioni](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## Marzo 2021 {#march-2021}
