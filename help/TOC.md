@@ -2,18 +2,18 @@
 product: adobe campaign
 user-guide-title: Journey Orchestration
 title: Guida di Journey Orchestration
-user-guide-description: Fornisce istruzioni per l’implementazione e la creazione di percorsi.
+user-guide-description: Istruzioni per l’implementazione e la creazione dei percorsi dei clienti.
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] Guida {#using}
+# Guida di [!DNL Journey Orchestration] {#using}
 
 + [Documentazione del prodotto](journey-orchestration-home.md)
 + Novità {#release-notes}
@@ -52,7 +52,7 @@ ht-degree: 98%
    + Utilizzo di un sistema di terze parti {#action-third-party}
       + [Informazioni sulla configurazione delle azioni personalizzata](using/action/about-custom-action-configuration.md)
       + [Configurazione URL](using/action/url-configuration.md)
-      + [Definizione dei parametri dell’azione](using/action/defining-the-message-parameters.md)
+      + [Definizione dei parametri del messaggio](using/action/defining-the-message-parameters.md)
 + Utilizzo dei segmenti {#configuring-segment}
    + [Informazioni sui segmenti](using/segment/about-segments.md)
    + [Creazione di un segmento](using/segment/creating-a-segment.md)
@@ -70,7 +70,7 @@ ht-degree: 98%
       + Attività eventi {#events-activities}
          + [Informazioni sulle attività eventi](using/building-journeys/event-activities.md)
          + [Eventi generali](using/building-journeys/general-events.md)
-         + [Reazione events](using/building-journeys/reaction-events.md)
+         + [Reazione eventi](using/building-journeys/reaction-events.md)
          + [Eventi di qualificazione dei segmenti](using/building-journeys/segment-qualification-events.md)
       + Attività di orchestrazione {#orchestration-activities}
          + [Informazioni sulle attività di orchestrazione](using/building-journeys/about-orchestration-activities.md)
@@ -162,7 +162,7 @@ ht-degree: 98%
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
          + [lastIndexOf](using/functions/functionlastindexof.md)
-         + [length](using/functions/functionlength.md)
+         + [lunghezza](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
