@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Creazione di un evento
 description: Scopri come creare un evento
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 63%
+source-wordcount: '584'
+ht-degree: 60%
 
 ---
 
@@ -52,7 +52,7 @@ Di seguito sono riportati i passaggi principali per la configurazione di un nuov
 
    >[!NOTE]
    >
-   >L’editor di espressioni avanzate non è disponibile quando si definisce **[!UICONTROL Event ID condition]**.
+   >L’editor di espressioni avanzate non è disponibile quando si definisce **[!UICONTROL Event ID condition]**. Nell’editor di espressioni semplici, non tutti gli operatori sono disponibili, dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, è possibile utilizzare &quot;contiene&quot; o &quot;uguale a&quot;.
 
 1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa pagina](../event/selecting-the-namespace.md).
 1. Definisci la chiave: scegli un campo di payload o specifica una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, [!DNL Journey Orchestration] seleziona la chiave che deve corrispondere allo spazio dei nomi, ad esempio, se scegli uno spazio dei nomi e-mail, opterà per la chiave e-mail. Consulta [questa pagina](../event/defining-the-event-key.md).

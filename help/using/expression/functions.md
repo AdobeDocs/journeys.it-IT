@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Funzioni
 description: Informazioni sulle funzioni
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 74%
 
 ---
@@ -38,6 +38,7 @@ Elenco delle funzioni supportate.
 | Aggregazione | [min](../functions/functionmin.md) |
 | Aggregazione | [sum](../functions/functionsum.md) |
 | Conversione | [toBool](../functions/functiontobool.md) |
+| Conversione | [toDateOnly](../functions/functiontodateonly.md) |
 | Conversione | [toDateTime](../functions/functiontodatetime.md) |
 | Conversione | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | Conversione | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ Elenco delle funzioni supportate.
 | Data | [setHours](../functions/functionsethours.md) |
 | Data | [setDays](../functions/functionsetdays.md) |
 | Elenco | [distinct](../functions/functiondistinct.md) |
-| Elenco | [distinctCount](../functions/functiondistinctcount.md) |
+| Elenco | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| Elenco | [filter](../functions/functionfilter.md) |
+| Elenco | [getListItem](../functions/functiongetlistitem.md) |
 | Elenco | [in](../functions/functionin.md) |
+| Elenco | [intersecare](../functions/functionintersect.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
 | Elenco | [sort](../functions/functionsort.md) |
@@ -75,7 +79,7 @@ Elenco delle funzioni supportate.
 | Stringa | [isEmpty](../functions/functionisempty.md) |
 | Stringa | [isNotEmpty](../functions/functionisnotempty.md) |
 | Stringa | [lastIndexOf](../functions/functionlastindexof.md) |
-| Stringa | [length](../functions/functionlength.md) |
+| Stringa | [lunghezza](../functions/functionlength.md) |
 | Stringa | [Lower](../functions/functionlower.md) |
 | Stringa | [matchRegExp](../functions/functionmatchregexp.md) |
 | Stringa | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |

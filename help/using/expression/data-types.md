@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Tipi di dati
 description: Informazioni sui tipi di dati nelle espressioni avanzate
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '636'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ Tecnicamente, una costante contiene sempre un tipo di dati. Nell’espressione l
 
 Le sezioni seguenti forniscono informazioni sulle diverse espressioni del tipo di dati e sulla relativa rappresentazione.
 
-## string {#string}
+## stringa {#string}
 
 **Descrizione**
 
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**Descrizione**
+
+Rappresenta una data senza un fuso orario, visualizzata come un giorno di un mese per un anno.
+
+È una descrizione della data, come utilizzata per i compleanni.
+
+Formato JSON: Stringa.
+
+Il formato è: AAAA-MM-GG (ISO-8601), ad esempio: &quot;2021-03-11&quot;.
+
+Può essere incapsulato in una funzione toDateOnly.
+
+Utilizza DateTimeForsubject ISO_LOCAL_DATE_TIME per deserializzare e serializzare il valore. [Ulteriori informazioni](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**Rappresentanza letterale**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**Esempio**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **Descrizione**
 
 Rappresenta un’ora di data senza un fuso orario, visualizzata come anno-mese-giorno-ora-minuto-secondo-millisecondi.
 
+Formato JSON: Stringa.
+
 Non memorizza o rappresenta un fuso orario. Invece, è una descrizione della data, come utilizzato per i compleanni, combinato con l&#39;ora locale come visto su un orologio a muro.
 
 Non può rappresentare un istante sulla linea temporale senza informazioni aggiuntive, ad esempio un offset o un fuso orario.
+
+Può essere incapsulato in una funzione toDateTimeOnly .
 
 Formato di serializzazione: Formato data-ora offset esteso ISO-8601.
 
@@ -136,7 +168,14 @@ Utilizza DateTimeForsubject ISO_LOCAL_DATE_TIME per deserializzare e serializzar
 **Rappresentanza letterale**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**Esempi**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,7 +188,7 @@ Può essere visualizzato come un istante nel tempo con le informazioni aggiuntiv
 
 Formato JSON: Stringa.
 
-Deve essere incapsulato in una funzione toDateTime .
+Può essere incapsulato in una funzione toDateTime .
 
 Formato di serializzazione: Formato data-ora offset esteso ISO-8601.
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
-**Esempio**
+**Esempi**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")

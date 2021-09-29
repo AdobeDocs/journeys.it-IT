@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Utilizzo del designer del percorso
 description: Ulteriori informazioni sull'utilizzo del designer del percorso
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1428'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,7 @@ L’icona **[!UICONTROL Filter items]** nell’angolo in alto a sinistra consent
 
 ![](../assets/palette-filter.png)
 
-Puoi inoltre utilizzare il campo **[!UICONTROL Search]** .
+Puoi inoltre utilizzare il campo **[!UICONTROL Search]** . Solo gli eventi e le azioni vengono filtrati.
 
 ## Il quadro {#canvas}
 

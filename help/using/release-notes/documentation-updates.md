@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journey Orchestration].
 È inoltre possibile consultare le [!DNL Journey Orchestration][Note sulla versione](../release-notes/release-notes.md).
+
+## Settembre 2021
+
+* Sono state aggiornate le seguenti pagine di funzioni: [sette](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+
+* Sono state aggiunte le seguenti funzioni: [filter](../functions/functionfilter.md), [interseca](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+
+* Il tipo di data dateOnly è stato aggiunto nella documentazione dell’editor di espressioni. [Ulteriori informazioni](../expression/data-types.md)
+
+* Sono stati aggiunti dettagli sulla durata della cache delle azioni personalizzata. [Ulteriori informazioni](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Sono state aggiunte informazioni sulle porte predefinite delle azioni personalizzate. [Ulteriori informazioni](../action/url-configuration.md)
+
+* Sono stati aggiunti esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi del Percorso in Data Lake. [Ulteriori informazioni](../building-journeys/query-examples.md)
 
 ## Agosto 2021
 

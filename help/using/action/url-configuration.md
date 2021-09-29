@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: 2a93bce42ea9f1f21d70c68da3dbc36844dafd1b
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 5%
+source-wordcount: '328'
+ht-degree: 4%
 
 ---
 
@@ -25,12 +25,14 @@ Quando configuri un’azione personalizzata, devi definire i seguenti parametri 
 
    * Se l’URL include un percorso dinamico, immetti solo la parte statica dell’URL, ovvero lo schema, l’host, la porta e, facoltativamente, una parte statica del percorso.
 
-      Esempio: `https://xxx.yyy.com:8080/somethingstatic/`
+      Esempio: `https://xxx.yyy.com/somethingstatic/`
 
       Quando aggiungi l’azione personalizzata a un percorso, specificerai il percorso dinamico dell’URL. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >Per motivi di sicurezza, si consiglia vivamente di utilizzare lo schema HTTPS per l’URL. Non consentiamo l’uso di indirizzi di Adobe che non sono pubblici e l’uso di indirizzi IP.
+   >
+   >Quando definisci un’azione personalizzata sono consentite solo le porte predefinite: 80 per http e 443 per https.
 
 1. Seleziona la chiamata **[!UICONTROL Method]**: può essere **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
 1. Nella sezione **[!UICONTROL Headers]** , definisci le intestazioni HTTP del messaggio di richiesta da inviare al servizio esterno:

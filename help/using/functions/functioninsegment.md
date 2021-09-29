@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inSegment
 description: Scopri la funzione inSegment
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 8%
+source-wordcount: '195'
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,17 @@ Il nome del segmento deve essere una costante stringa. Non può essere un riferi
 
 I segmenti sono definiti in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’editor di espressioni fornisce un elenco di segmenti compilato automaticamente.
 
->[!NOTE]
->
->Solo i singoli utenti con gli stati di partecipazione al segmento **Realized** e **Esistenti** saranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+I segmenti possono avere tre stati:
+
+* esistente: l’entità continua a trovarsi nel segmento.
+* realizzato: l’entità sta entrando nel segmento.
+* usciti: entità in uscita dal segmento.
+
+Solo i singoli utenti con gli stati di partecipazione al segmento **Realized** e **Esistenti** saranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+
+`IF inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
+
+`ELSE inSegment('segmentName') == false` significa che hai un segmentMembership dello stato exited.
 
 ## Categoria
 

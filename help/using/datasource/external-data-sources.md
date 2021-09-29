@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 'Origini dati esterne '
 description: 'Informazioni su come configurare le origini dati esterne '
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
+source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 98%
+source-wordcount: '1318'
+ht-degree: 93%
 
 ---
 
@@ -183,3 +183,7 @@ Adesso puoi modificare la durata della cache del token per un’origine dati di 
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>La durata della cache aiuta a evitare troppe chiamate agli endpoint di autenticazione. Il mantenimento del token di autenticazione è memorizzato nella cache dei servizi. Non esiste persistenza. Se un servizio viene riavviato, inizia con una cache pulita. La durata predefinita della cache è di 1 ora. Nel payload di azioni personalizzato, può essere adattato specificando un’altra durata di conservazione.

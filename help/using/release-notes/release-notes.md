@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 59%
+source-wordcount: '2965'
+ht-degree: 56%
 
 ---
 
@@ -18,21 +18,48 @@ ht-degree: 59%
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md) più recenti.
 
+## Versione di settembre 2021 {#september-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Trasmettere dinamicamente elenchi di dati utilizzando azioni personalizzate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi passare raccolte o un elenco di dati nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte: raccolte semplici e raccolte di oggetti. Le azioni personalizzate create in precedenza continueranno a funzionare. </p>
+<p>Per ulteriori informazioni sulle raccolte, consulta la <a href="../usecase/collections.md">documentazione dettagliata</a>. </p>
+<p>Le funzioni filtro e intersezione sono state aggiunte all’elenco delle funzioni disponibili nell’editor di espressioni avanzate. Questo offre più possibilità per il filtraggio della raccolta e il confronto.</p>
+<p>Consulta la documentazione sulle funzioni <a href="../functions/functionfilter.md">filter</a> e <a href="../functions/functionintersect.md">interseca</a> .</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti
+
+* Gli schemi e i set di dati generati dal sistema che sono stati creati durante il provisioning per gli eventi delle fasi ora sono in modalità di sola lettura, evitando eventuali modifiche involontarie agli schemi critici. [Ulteriori informazioni](../building-journeys/sharing-overview.md)
+* Etichettare in modo chiaro l&#39;attività **Wait** con un&#39;etichetta che verrà visualizzata nell&#39;area di lavoro. L’etichetta viene utilizzata anche nei registri della modalità di reporting e test per identificare chiaramente ciò che si sta facendo. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
+* Trova più rapidamente i tuoi eventi e le tue azioni filtrando gli elementi nelle categorie **Eventi** e **Azione** utilizzando la ricerca. Le attività di orchestrazione non vengono più filtrate. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
+* Quando definisci una condizione ID evento in una condizione basata su regola, l&#39;operatore &quot;contiene&quot; è ora disponibile per i tipi di stringa di campi. [Ulteriori informazioni](../event/about-creating.md)
+
 ## Versione di agosto 2021 {#august-2021-release}
 
 ### Miglioramenti
 
 **Percorsi**
 
-* **Intestazioni dinamiche** : è ora possibile trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate HTTP dell’azione percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/url-configuration.md)
+* **Intestazioni dinamiche** : è ora possibile trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate di azione HTTP del percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/url-configuration.md)
 * **Percorsi URL dinamici** : ora puoi impostare percorsi URL dinamici per le azioni personalizzate. [Ulteriori informazioni](../action/url-configuration.md)
 
-## Versione di luglio 2021 {#july-2021-release}
+## Luglio 2021 del prossimo maggio (?) {#july-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Utilizzo delle relazioni tra schemi</strong><br/></th>
+<th><strong>Sfruttamento delle relazioni tra schemi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
