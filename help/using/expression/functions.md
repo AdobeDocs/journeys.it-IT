@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -63,7 +63,7 @@ Elenco delle funzioni supportate.
 | Elenco | [filter](../functions/functionfilter.md) |
 | Elenco | [getListItem](../functions/functiongetlistitem.md) |
 | Elenco | [in](../functions/functionin.md) |
-| Elenco | [intersecare](../functions/functionintersect.md) |
+| Elenco | [intersect](../functions/functionintersect.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
 | Elenco | [sort](../functions/functionsort.md) |
@@ -71,10 +71,10 @@ Elenco delle funzioni supportate.
 | Matematica | [round](../functions/functionround.md) |
 | Stringa | [concat](../functions/functionconcat.md) |
 | Stringa | [contain](../functions/functioncontain.md) |
-| Stringa | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| Stringa | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | Stringa | [endWith](../functions/functionendwith.md) |
 | Stringa | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Stringa | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| Stringa | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | Stringa | [indexOf](../functions/functionindexof.md) |
 | Stringa | [isEmpty](../functions/functionisempty.md) |
 | Stringa | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ Elenco delle funzioni supportate.
 | Stringa | [lunghezza](../functions/functionlength.md) |
 | Stringa | [Lower](../functions/functionlower.md) |
 | Stringa | [matchRegExp](../functions/functionmatchregexp.md) |
-| Stringa | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| Stringa | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | Stringa | [replace](../functions/functionreplace.md) |
 | Stringa | [replaceAll](../functions/functionreplaceall.md) |
 | Stringa | [startWith](../functions/functionstartwith.md) |

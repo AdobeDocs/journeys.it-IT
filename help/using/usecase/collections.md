@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Trasmettere dinamicamente le raccolte utilizzando azioni personalizzate
 description: Invio di un messaggio tramite Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
+source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
@@ -52,23 +52,6 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
    ```
 
 ## Limitazioni  {#limitations}
-
-* Gli array di oggetti contenenti oggetti secondari non sono supportati. Esempio:
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
 
 * Le matrici nidificate di oggetti all&#39;interno di un array di oggetti non sono attualmente supportate. Esempio:
 
@@ -118,7 +101,7 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
 1. Crea l&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
-1. Nella sezione **[!UICONTROL Action parameters]** , incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
+1. In **[!UICONTROL Action parameters]** incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
 
    ![](../assets/uc-collection-1.png)
 
@@ -140,7 +123,7 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
 1. Crea il percorso e aggiungi l’azione personalizzata creata. Consulta [questa pagina](../building-journeys/using-custom-actions.md).
 
-1. Nella sezione **[!UICONTROL Action parameters]** , definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
+1. In **[!UICONTROL Action parameters]** definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
 
    ![](../assets/uc-collection-3.png)
 
@@ -148,7 +131,7 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
    ![](../assets/uc-collection-4.png)
 
-Per il campo array, è inoltre possibile utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell&#39;esempio seguente, utilizziamo le funzioni [filter](../functions/functionfilter.md) e [intersect](../functions/functionintersect.md) :
+Per il campo array, è inoltre possibile utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell’esempio seguente, utilizziamo il [filter](../functions/functionfilter.md) e [intersecare](../functions/functionintersect.md) funzioni:
 
 ![](../assets/uc-collection-5.png)
 

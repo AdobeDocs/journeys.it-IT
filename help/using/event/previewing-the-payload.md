@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Anteprima del payload
 description: Scopri come visualizzare in anteprima il payload
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ L’anteprima del payload ti consente di convalidare la definizione del payload.
 >
 >Per gli eventi generati dal sistema, quando crei un evento, prima di visualizzare l’anteprima del payload, salva l’evento e riaprilo. Questo passaggio è necessario per generare un ID evento nel payload.
 
-1. Fai clic sull&#39;icona **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema.
+1. Fai clic sul pulsante **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema.
 
    ![](../assets/journey13.png)
 
@@ -31,4 +31,4 @@ L’anteprima del payload ti consente di convalidare la definizione del payload.
 
 1. Seleziona l’anteprima per convalidare la definizione del payload.
 
-1. Quindi, puoi condividere l’anteprima del payload con la persona responsabile dell’invio dell’evento. Questo payload può aiutarlo a progettare la configurazione di un evento che preme su [!DNL Journey Orchestration]. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Quindi, puoi condividere l’anteprima del payload con la persona responsabile dell’invio dell’evento. Questo payload può aiutarli a progettare la configurazione di un evento che invia a [!DNL Journey Orchestration]. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).

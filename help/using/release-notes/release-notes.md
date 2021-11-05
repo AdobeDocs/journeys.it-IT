@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 56%
+source-wordcount: '3069'
+ht-degree: 54%
 
 ---
 
@@ -17,6 +17,30 @@ ht-degree: 56%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md) più recenti.
+
+## Versione di ottobre 2021 {#october-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Miglioramenti
+
+* **Editor espressioni** - In qualità di utente avanzato, è ora possibile utilizzare le funzioni per lavorare con le mappe. [Ulteriori informazioni](../expression/field-references.md)
+* **Accessibilità** - Sono stati implementati miglioramenti all’accessibilità. Il Journey Orchestration è ora completamente conforme in termini di accessibilità.
+* **Raccolte** - Sono ora supportati gli array di oggetti contenenti oggetti secondari. [Ulteriori informazioni](../usecase/collections.md)
+* **Monitoraggio** - Sono stati migliorati gli eventi di passaggio per i percorsi live e la modalità di test. [Nuovi campi](../building-journeys/sharing-field-list.md#serviceevents) sono stati aggiunti relativi ai processi di esportazione del profilo. Per una migliore esperienza utente, i campi evento dei passaggi sono ora organizzati in diverse categorie nello schema Evento passaggio Percorso per Journey Orchestration. Tutti i campi degli eventi dei passaggi precedenti sono ancora disponibili nel [stepEvents](../building-journeys/sharing-legacy-fields.md) categoria.
 
 ## Versione di settembre 2021 {#september-2021-release}
 
@@ -32,7 +56,7 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 <p>Ora puoi passare raccolte o un elenco di dati nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte: raccolte semplici e raccolte di oggetti. Le azioni personalizzate create in precedenza continueranno a funzionare. </p>
 <p>Per ulteriori informazioni sulle raccolte, consulta la <a href="../usecase/collections.md">documentazione dettagliata</a>. </p>
 <p>Le funzioni filtro e intersezione sono state aggiunte all’elenco delle funzioni disponibili nell’editor di espressioni avanzate. Questo offre più possibilità per il filtraggio della raccolta e il confronto.</p>
-<p>Consulta la documentazione sulle funzioni <a href="../functions/functionfilter.md">filter</a> e <a href="../functions/functionintersect.md">interseca</a> .</p>
+<p>Consulta la documentazione sul <a href="../functions/functionfilter.md">filter</a> e <a href="../functions/functionintersect.md">intersecare</a> funzioni.</p>
 </td>
 </tr>
 </tbody>
@@ -41,8 +65,8 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 ### Miglioramenti
 
 * Gli schemi e i set di dati generati dal sistema che sono stati creati durante il provisioning per gli eventi delle fasi ora sono in modalità di sola lettura, evitando eventuali modifiche involontarie agli schemi critici. [Ulteriori informazioni](../building-journeys/sharing-overview.md)
-* Etichettare in modo chiaro l&#39;attività **Wait** con un&#39;etichetta che verrà visualizzata nell&#39;area di lavoro. L’etichetta viene utilizzata anche nei registri della modalità di reporting e test per identificare chiaramente ciò che si sta facendo. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
-* Trova più rapidamente i tuoi eventi e le tue azioni filtrando gli elementi nelle categorie **Eventi** e **Azione** utilizzando la ricerca. Le attività di orchestrazione non vengono più filtrate. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
+* Etichettare in modo chiaro il **Wait** attività con un’etichetta che verrà visualizzata nell’area di lavoro. L’etichetta viene utilizzata anche nei registri della modalità di reporting e test per identificare chiaramente ciò che si sta facendo. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
+* Trova più rapidamente i tuoi eventi e le tue azioni filtrando gli elementi nel **Eventi** e **Azione** categorie che utilizzano la ricerca. Le attività di orchestrazione non vengono più filtrate. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
 * Quando definisci una condizione ID evento in una condizione basata su regola, l&#39;operatore &quot;contiene&quot; è ora disponibile per i tipi di stringa di campi. [Ulteriori informazioni](../event/about-creating.md)
 
 ## Versione di agosto 2021 {#august-2021-release}
@@ -51,10 +75,10 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 
 **Percorsi**
 
-* **Intestazioni dinamiche** : è ora possibile trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate di azione HTTP del percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/url-configuration.md)
-* **Percorsi URL dinamici** : ora puoi impostare percorsi URL dinamici per le azioni personalizzate. [Ulteriori informazioni](../action/url-configuration.md)
+* **Intestazioni dinamiche** - È ora possibile trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate di azione HTTP del percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/url-configuration.md)
+* **Percorsi URL dinamici** - È ora possibile impostare percorsi URL dinamici per le azioni personalizzate. [Ulteriori informazioni](../action/url-configuration.md)
 
-## Luglio 2021 del prossimo maggio (?) {#july-2021-release}
+## Versione di luglio 2021 {#july-2021-release}
 
 <table>
 <thead>
@@ -75,7 +99,7 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 
 ### Miglioramenti
 
-* Il campo **Durata cache** è stato rimosso dal riquadro di configurazione dell&#39;origine dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
+* La **Durata della cache** campo rimosso dal riquadro di configurazione dell’origine dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
 ## Versione di giugno 2021 {#june-2021-release}
 
@@ -107,16 +131,16 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 
 ### Miglioramenti
 
-* Nella schermata **Configurazione evento** della modalità di test, ora viene visualizzato un menu a discesa per i campi che richiedono un’enumerazione. È sufficiente selezionare uno dei valori disponibili. In questo modo si evitano errori quando si attiva l’evento se è definito un valore errato. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#firing_events)
+* In **Configurazione dell’evento** schermata della modalità di test, ora viene visualizzato un menu a discesa per i campi che prevedono un’enumerazione. È sufficiente selezionare uno dei valori disponibili. In questo modo si evitano errori quando si attiva l’evento se è definito un valore errato. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Versione di marzo 2021 {#march-2021-release}
 
 ### Miglioramenti
 
-* È stato aggiunto un nuovo stato ai percorsi. Quando un percorso termina o viene chiuso manualmente, il suo stato passa da **Closed** a **Finished** 30 giorni dopo la chiusura. Questo ti permetterà di identificare più facilmente i percorsi inattivi, assicurandoti al contempo che tutti gli individui ancora presenti abbiano il tempo di finire il percorso. [Ulteriori informazioni](../building-journeys/journey.md#ending_a_journey)
-* Nei riquadri a destra delle attività dei percorsi 2D, i campi di sola lettura ora sono nascosti per impostazione predefinita. Questa semplificazione dell’interfaccia ti aiuterà a configurare le attività più facilmente. Per visualizzarli, fai clic sull&#39;icona **Mostra campi di sola lettura**, disponibile nell&#39;angolo in alto a sinistra del riquadro di configurazione dell&#39;attività. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* In modalità di test, nella schermata **Configurazione evento**, il campo **Chiave** utilizzato per definire l’ID del profilo di test è stato rinominato **Identificatore profilo** per una migliore esperienza utente. [Ulteriori informazioni](../building-journeys/testing-the-journey.md).
-* Per gli eventi di reazione, la durata del timeout può ora essere impostata solo tra 40 e 30 giorni. Quando si esegue il test di un percorso che utilizza un evento di reazione, il metodo di test **[!UICONTROL Wait time]** predefinito e il valore minimo sono ora 40 secondi. [Ulteriori informazioni](../building-journeys/reaction-events.md).
+* È stato aggiunto un nuovo stato ai percorsi. Quando un percorso termina o viene chiuso manualmente, lo stato cambia da **Chiuso** a **Completato** 30 giorni dopo la chiusura. Questo ti permetterà di identificare più facilmente i percorsi inattivi, assicurandoti al contempo che tutti gli individui ancora presenti abbiano il tempo di finire il percorso. [Ulteriori informazioni](../building-journeys/journey.md#ending_a_journey)
+* Nei riquadri a destra delle attività dei percorsi 2D, i campi di sola lettura ora sono nascosti per impostazione predefinita. Questa semplificazione dell’interfaccia ti aiuterà a configurare le attività più facilmente. Per visualizzarli, fai clic sul pulsante **Mostra campi di sola lettura** , disponibile nell’angolo in alto a sinistra del riquadro di configurazione dell’attività. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* In modalità di prova, **Configurazione dell’evento** schermo, **Chiave** è stato rinominato il campo utilizzato per definire l’ID del profilo di test **Identificatore profilo** per una migliore esperienza utente. [Ulteriori informazioni](../building-journeys/testing-the-journey.md).
+* Per gli eventi di reazione, la durata del timeout può ora essere impostata solo tra 40 e 30 giorni. Quando si esegue il test di un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Wait time]** il valore predefinito e minimo è ora di 40 secondi. [Ulteriori informazioni](../building-journeys/reaction-events.md).
 
 ## Versione di febbraio 2021 {#february-2021-release}
 
@@ -141,7 +165,7 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 * Ora, durante la configurazione di un evento, solo i campi obbligatori per la convalida XDM sono preselezionati per impostazione predefinita. Questi campi non possono essere deselezionati.
 * Nella palette percorso è stato aggiunto un nuovo filtro. Consente di visualizzare solo gli ultimi cinque eventi e azioni utilizzati, oltre a quelli predefiniti. Questo è specifico per ogni utente. Per impostazione predefinita, vengono visualizzati tutti gli elementi. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#palette)
 * Quando si avvia un nuovo percorso, gli elementi che non possono essere eliminati nell’area di lavoro come primo passaggio sono ora nascosti. Questo riguarda tutte le azioni, l&#39;attività della condizione, l&#39;attesa e la reazione.
-* Nella parte sinistra dell’editor di espressioni avanzate, le funzioni sono ora raggruppate in una sezione **Funzioni** alla fine dell’elenco.
+* Nella parte sinistra dell’editor di espressioni avanzate, le funzioni ora sono raggruppate in un **Funzioni** alla fine dell&#39;elenco.
 
 ## Versione di gennaio 2021 {#january-2021-release}
 
@@ -155,7 +179,7 @@ Per allinearsi agli SLA di Adobe Campaign Standard, una regola di limite pari a 
 
 La durata del timeout dell’evento viene ora specificata più chiaramente nel percorso di timeout. [Ulteriori informazioni](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) sono state aggiunte all’elenco delle funzioni disponibili nell’editor di espressioni avanzate. Questo offre ulteriori possibilità nei casi di utilizzo del calcolo delle stringhe.
+La [getListItem](../functions/functiongetlistitem.md) e [dividere](../functions/functionsplit.md) sono state aggiunte funzioni all’elenco delle funzioni disponibili nell’editor di espressioni avanzate. Questo offre ulteriori possibilità nei casi di utilizzo del calcolo delle stringhe.
 
 ## Versione di novembre 2020 {#november-release}
 
@@ -168,7 +192,7 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 <tbody>
 <tr>
 <td>
-<p>Una nuova attività di azione ti consente di inviare singoli utenti da un percorso all’altro. L’attività <strong>Jump</strong> ti consente di:
+<p>Una nuova attività di azione ti consente di inviare singoli utenti da un percorso all’altro. La <strong>Salto</strong> l’attività ti consente di:
 </p>
 <ul>
 <li>semplificare la progettazione di percorsi molto complessi suddividendoli in più </li>
@@ -217,7 +241,7 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 
 Sono state aggiunte limitazioni durante la creazione di nuove versioni di un percorso. Queste limitazioni evitano modifiche troppo drastiche nel percorso per mantenere una certa coerenza tra le versioni. [Ulteriori informazioni](../about/limitations.md#journey-versions-limitations)
 
-L&#39;attività **Qualificazione del segmento** non può più essere utilizzata in un percorso che include attività messaggio di Campaign Standard. Questa restrizione protegge l’integrità delle istanze Adobe Campaign Standard. In effetti, l’utilizzo della qualificazione dei segmenti può causare picchi giornalieri di invio dei messaggi che sovraccaricano i messaggi transazionali Campaign Standard. [Ulteriori informazioni](../about/limitations.md#segment-qualification)
+La **Qualificazione del segmento** l’attività non può più essere utilizzata in un percorso che include attività messaggio di Campaign Standard. Questa restrizione protegge l’integrità delle istanze Adobe Campaign Standard. In effetti, l’utilizzo della qualificazione dei segmenti può causare picchi giornalieri di invio dei messaggi che sovraccaricano i messaggi transazionali Campaign Standard. [Ulteriori informazioni](../about/limitations.md#segment-qualification)
 
 ## Versione di ottobre 2020 {#october-release}
 
@@ -274,7 +298,7 @@ L&#39;attività **Qualificazione del segmento** non può più essere utilizzata 
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati i seguenti miglioramenti all'attività <strong>Read segment</strong> :
+<p>Sono stati apportati i seguenti miglioramenti al <strong>Leggi segmento</strong> attività:
 </p>
 <ul>
 <li><p>I percorsi basati su segmenti ora vengono visualizzati, al di sopra dell’area di lavoro, un promemoria del tipo di pianificazione del percorso. Puoi fare clic su questo promemoria per accedere al menu di configurazione della pianificazione.</p>

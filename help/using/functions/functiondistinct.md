@@ -2,14 +2,14 @@
 product: adobe campaign
 title: distinct
 description: Scopri il distinto funzione
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
@@ -36,6 +36,7 @@ Elenco
 | Elenco | listDuration |
 | Elenco | listDateTime |
 | Elenco | listDateTimeOnly |
+| Elenco | listDateOnly |
 
 ## Firme e tipi restituiti
 
@@ -56,6 +57,10 @@ Restituisce un elenco di stringhe.
 Restituisce un elenco di date senza considerare il fuso orario.
 
 `distinct(<listDateTime>)`
+
+Restituisce un elenco di date.
+
+`distinct(<listDateOnly>)`
 
 Restituisce un elenco di date.
 

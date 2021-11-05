@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Utilizzo dell’editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -50,22 +50,22 @@ Quindi seleziona tutti gli eventi addtocart che non si sono trasformati in un co
 
 La marca temporale specificata agisce come valore dell&#39;ora della data, la seconda come numero di giorni.
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 Questa espressione restituisce un valore booleano.
@@ -76,20 +76,20 @@ Questa espressione restituisce un valore booleano.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* A destra, vengono specificati i valori necessari, qui, è necessario recuperare la posizione dello store, che è mappata dalla posizione dell&#39;evento &quot;ArriveLumaStudio&quot;:
+* A destra, i valori necessari sono specificati, qui, dobbiamo recuperare la posizione dello store, che è mappata dalla posizione dell&#39;evento &quot;ArriveLumaStudio&quot;:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* Specifica lo SKU utilizzando la funzione `first` per recuperare la più recente interazione &quot;addToCart&quot;:
+* E specificare SKU, utilizzando la funzione `first` per recuperare la più recente interazione &quot;addToCart&quot;:
 
-   ```
+   ```json
        #{ExperiencePlatformDataSource
                        .ExperienceEventFieldGroup
                        .experienceevent
                        .first(
                        currentDataPackField
                        .productData
-                       .productInteraction == “addToCart”
+                       .productInteraction == "addToCart"
                        )
                        .SKU}
    ```
@@ -102,7 +102,7 @@ Da qui puoi aggiungere un altro percorso nel tuo percorso per quando il prodotto
 
 Questa condizione recupera solo gli eventi recinti geografici attivati in &quot;Arlington&quot;:
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -110,11 +110,11 @@ Questa condizione recupera solo gli eventi recinti geografici attivati in &quot;
                     .name} == "Arlington"
 ```
 
-Spiegazione: Si tratta di un confronto rigoroso delle stringhe (distinzione tra maiuscole e minuscole), equivalente a una query in modalità semplice che utilizza `equal to` con `Is sensitive` selezionata.
+Spiegazione: Si tratta di un confronto rigoroso delle stringhe (distinzione tra maiuscole e minuscole), equivalente a una query in modalità semplice che utilizza `equal to` con `Is sensitive` controllati.
 
-La stessa query con `Is sensitive` non selezionata genera la seguente espressione in modalità avanzata:
+La stessa query con `Is sensitive` deselezionata genera la seguente espressione in modalità avanzata:
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -126,7 +126,7 @@ La stessa query con `Is sensitive` non selezionata genera la seguente espression
 
 La seguente espressione ti consente di definire l’ID del sistema di gestione delle relazioni con i clienti in un campo di personalizzazione delle azioni:
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -135,10 +135,9 @@ La seguente espressione ti consente di definire l’ID del sistema di gestione d
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 
-Spiegazione: In questo esempio vengono utilizzate le funzioni `substr` e `lastIndexOf` per rimuovere le parentesi graffe che racchiudono l’ID del sistema di gestione delle relazioni con i clienti passato con un evento di avvio di un’app mobile.
+Spiegazione: Questo esempio utilizza `substr` e `lastIndexOf` funzioni per rimuovere le parentesi graffe che racchiudono l’ID CRM passato con un evento di avvio dell’app mobile.
 
-Per ulteriori informazioni su come utilizzare l’editor di espressioni avanzate, guarda [questo video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Per ulteriori informazioni su come utilizzare l’editor di espressioni avanzate, consulta [questo video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

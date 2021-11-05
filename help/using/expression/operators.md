@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Operatori
 description: Informazioni sugli operatori nelle espressioni avanzate
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: b52c9c0d6486a0b31c1ebe3d6d42a0fb0b708bf1
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Esistono due tipi di operatori: operatori unari e operatori binari. Ci sono operatori unari a sinistra e operatori unari a destra.
 
-```
+```json
     // left-hand unary operators
     <operator> <operand> // operand is an expression
     not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
@@ -38,15 +38,15 @@ Elenco degli operatori supportati:
 
 ### e
 
-```
+```json
 <expression1> and <expression2>
 ```
 
-Sia &lt;espressione1> che &lt;espressione2> devono essere booleani. Il risultato è booleano.
+Entrambi &lt;expression1> e &lt;expression2> deve essere booleano. Il risultato è booleano.
 
 Esempio:
 
-```
+```json
 3.14 > 2 and 3.15 < 1
 ```
 
@@ -54,15 +54,15 @@ Esempio:
 
 
 
-```
+```json
 <expression1> or <expression2>
 ```
 
-Sia &lt;espressione1> che &lt;espressione2> devono essere booleani. Il risultato è booleano.
+Entrambi &lt;expression1> e &lt;expression2> deve essere booleano. Il risultato è booleano.
 
 Esempio:
 
-```
+```json
 3.14 > 2 or 3.15 < 1
 ```
 
@@ -70,7 +70,7 @@ Esempio:
 
 
 
-```
+```json
 not <expression>
 ```
 
@@ -78,7 +78,7 @@ not <expression>
 
 Esempio:
 
-```
+```json
 not 3.15 < 1
 ```
 
@@ -88,7 +88,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> is null
 ```
 
@@ -98,7 +98,7 @@ Il valore null indica che l&#39;espressione non ha alcun valore valutato.
 
 Esempio:
 
-```
+```json
 @{BarBeacon.location} is null
 ```
 
@@ -106,7 +106,7 @@ Esempio:
 
 
 
-```
+```json
 <expression> is not null
 ```
 
@@ -116,7 +116,7 @@ Il valore null indica che l&#39;espressione non ha alcun valore valutato.
 
 Esempio:
 
-```
+```json
 @ is not null
 ```
 
@@ -124,7 +124,7 @@ Esempio:
 
 
 
-```
+```json
 <expression> has null
 ```
 
@@ -134,11 +134,11 @@ Utile per identificare che un elenco contiene almeno un valore null.
 
 Esempio:
 
-```
+```json
 ["foo", "bar", null] has null --  returns true.
 ```
 
-```
+```json
 ["foo", "bar", ""] has null -- returns false because "" is not considered as null.
 ```
 
@@ -146,19 +146,19 @@ Esempio:
 
 
 
-```
+```json
 <expression1> == <expression2>
 ```
 
-Sia &lt;espressione1> che &lt;espressione2> devono avere lo stesso tipo di dati. Il risultato è booleano.
+Entrambi &lt;expression1> e &lt;expression2> deve avere lo stesso tipo di dati. Il risultato è booleano.
 
 Esempio:
 
-```
+```json
 3.14 == 42
 ```
 
-```
+```json
 "foo" == "bar"
 ```
 
@@ -166,19 +166,19 @@ Esempio:
 
 
 
-```
+```json
 <expression1> != <expression2>
 ```
 
-Sia &lt;espressione1> che &lt;espressione2> devono avere lo stesso tipo di dati. Il risultato è booleano.
+Entrambi &lt;expression1> e &lt;expression2> deve avere lo stesso tipo di dati. Il risultato è booleano.
 
 Esempio:
 
-```
+```json
 3.14 != 42
 ```
 
-```
+```json
 "foo" != "bar"
 ```
 
@@ -186,7 +186,7 @@ Esempio:
 
 
 
-```
+```json
 <expression1> > <expression2>
 ```
 
@@ -202,7 +202,7 @@ Il risultato è booleano.
 
 Esempio:
 
-```
+```json
 3.14 > 42
 ```
 
@@ -210,7 +210,7 @@ Esempio:
 
 
 
-```
+```json
 <expression1> >= <expression2>
 ```
 
@@ -226,15 +226,15 @@ Il risultato è booleano.
 
 Esempio:
 
-```
+```json
 42 >= 3.14
 ```
 
-### &lt;>
+### &lt;
 
 
 
-```
+```json
 <expression1> < <expression2>
 ```
 
@@ -250,15 +250,15 @@ Il risultato è booleano.
 
 Esempio:
 
-```
+```json
 42 < 3.14
 ```
 
-### &lt;>
+### &lt;=
 
 
 
-```
+```json
 <expression1> <= <expression2>
 ```
 
@@ -274,7 +274,7 @@ Il risultato è booleano.
 
 Esempio:
 
-```
+```json
 42 <= 3.14
 ```
 
@@ -284,7 +284,7 @@ Esempio:
 
 
 
-```
+```json
 <expression1> + <expression2>
 ```
 
@@ -294,7 +294,7 @@ Il risultato è anche numerico.
 
 Esempio:
 
-```
+```json
 1 + 2 -- returns 3
 ```
 
@@ -302,7 +302,7 @@ Esempio:
 
 
 
-```
+```json
 <expression1> - <expression2>
 ```
 
@@ -312,7 +312,7 @@ Il risultato è anche numerico.
 
 Esempio:
 
-```
+```json
 2 - 1 -- returns 1
 ```
 
@@ -320,7 +320,7 @@ Esempio:
 
 
 
-```
+```json
 <expression1> / <expression2>
 ```
 
@@ -332,7 +332,7 @@ Il risultato è anche numerico.
 
 Esempio:
 
-```
+```json
 4 / 2 -- returns 2
 ```
 
@@ -340,7 +340,7 @@ Esempio:
 
 
 
-```
+```json
 <expression1> * <expression2>
 ```
 
@@ -350,7 +350,7 @@ Il risultato è anche numerico.
 
 Esempio:
 
-```
+```json
 3 * 4 -- returns 12
 ```
 
@@ -358,7 +358,7 @@ Esempio:
 
 
 
-```
+```json
 <expression1> % <expression2>
 ```
 
@@ -368,7 +368,7 @@ Il risultato è anche numerico.
 
 Esempio:
 
-```
+```json
 3 % 2 -- returns 1.
 ```
 
@@ -378,7 +378,7 @@ Esempio:
 
 
 
-```
+```json
 <expression> is numeric
 ```
 
@@ -386,7 +386,7 @@ Il tipo di espressione è integer o decimale.
 
 Esempio:
 
-```
+```json
 @ is numeric
 ```
 
@@ -394,7 +394,7 @@ Esempio:
 
 
 
-```
+```json
 <expression> is integer
 ```
 
@@ -402,7 +402,7 @@ Il tipo di espressione è integer.
 
 Esempio:
 
-```
+```json
 @ is integer
 ```
 
@@ -410,7 +410,7 @@ Esempio:
 
 
 
-```
+```json
 <expression> is decimal
 ```
 
@@ -418,7 +418,7 @@ Il tipo di espressione è decimale.
 
 Esempio:
 
-```
+```json
 @ is decimal
 ```
 
@@ -428,11 +428,11 @@ Esempio:
 
 
 
-```
+```json
 <string> + <expression>
 ```
 
-```
+```json
 <expression> + <string>
 ```
 
@@ -442,15 +442,15 @@ Un&#39;espressione deve essere una stringa concatenata.
 
 Esempio:
 
-```
+```json
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
 ```
 
-```
+```json
 (now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
 ```
 
-```
+```json
 "a" + "b" + "c" + 1234 -- returns "abc1234".
 ```
 
@@ -460,7 +460,7 @@ Esempio:
 
 
 
-```
+```json
 <expression> + <duration>
 ```
 
@@ -468,18 +468,18 @@ Aggiungi una durata a un dateTime, a un dateTimeOnly o a una durata.
 
 Esempio:
 
-```
+```json
 toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
 ```
 
-```
+```json
 toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
 ```
 
-```
+```json
 now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
 ```
 
-```
+```json
 toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
 ```

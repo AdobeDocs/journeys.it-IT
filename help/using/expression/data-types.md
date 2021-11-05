@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 5%
 
 ---
@@ -31,21 +31,21 @@ Formato di serializzazione: UTF-8
 
 **Rappresentanza letterale**
 
-```
+```json
 "<value>"
 ```
 
-```
+```json
 '<value>'
 ```
 
 **Esempio**
 
-```
+```json
 "hello world"
 ```
 
-```
+```json
 'hello world'
 ```
 
@@ -59,13 +59,13 @@ Formato JSON: Numero
 
 **Rappresentanza letterale**
 
-```
+```json
 <integer value>
 ```
 
 **Esempio**
 
-```
+```json
 42
 ```
 
@@ -85,13 +85,13 @@ Formato di serializzazione: utilizzo di &#39;.&#39; come separatore decimale.
 
 **Rappresentanza letterale**
 
-```
+```json
 <integer value>.<integer value>
 ```
 
 **Esempio**
 
-```
+```json
 3.14
 ```
 
@@ -105,17 +105,17 @@ Formato JSON: Booleano
 
 **Rappresentanza letterale**
 
-```
+```json
 true
 ```
 
-```
+```json
 false
 ```
 
 **Esempio**
 
-```
+```json
 true
 ```
 
@@ -137,13 +137,13 @@ Utilizza DateTimeForsubject ISO_LOCAL_DATE_TIME per deserializzare e serializzar
 
 **Rappresentanza letterale**
 
-```
+```json
 date("<dateOnly in ISO-8601 format>")  
 ```
 
 **Esempio**
 
-```
+```json
 date("2021-02-19")
 ```
 
@@ -167,13 +167,13 @@ Utilizza DateTimeForsubject ISO_LOCAL_DATE_TIME per deserializzare e serializzar
 
 **Rappresentanza letterale**
 
-```
+```json
 date("<dateTimeOnly in ISO-8601 format>")  
 ```
 
 **Esempi**
 
-```
+```json
 date("2021-02-19T00.00.000")
 date("2021-02-19T00.00")
 ```
@@ -200,45 +200,45 @@ Il fuso orario può essere specificato da un codice di offset o di fuso orario (
 
 **Rappresentanza letterale**
 
-```
+```json
 toDateTime("<dateTime in ISO-8601 format>")
 ```
 
-```
+```json
 date("<dateTime in ISO-8601 format>")
 ```
 
-```
+```json
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
 **Esempi**
 
-```
+```json
 date("2021-02-19T00.00.000Z")
 ```
 
-```
+```json
 toDateTime("1977-04-22T06:00:00Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123+02:00")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123-00:20")
 ```
 
-```
+```json
 toDateTime(1560762190189)
 ```
 
@@ -260,53 +260,53 @@ Duration.parse: i formati accettati sono basati sul formato di durata ISO-8601 P
 
 **Rappresentanza letterale**
 
-```
+```json
 toDuration("<duration in ISO-8601 format>")
 ```
 
-```
+```json
 toDuration(<duration in milliseconds>)
 ```
 
 **Esempio**
 
-```
+```json
 toDuration("PT5S") -- parses as 5 seconds
 ```
 
-```
+```json
 toDuration(500) -- parses as 500ms
 ```
 
-```
+```json
 toDuration("PT20.345S") -- parses as "20.345 seconds"
 ```
 
-```
+```json
 toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
 ```
 
-```
+```json
 toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
 ```
 
-```
+```json
 toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
 ```
 
-```
+```json
 toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
 ```
 
-```
+```json
 toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
 ```
 
-```
+```json
 toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 ```
 
-```
+```json
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
@@ -320,20 +320,20 @@ Polimorfismo non supportato, pertanto tutte le espressioni contenute nell&#39;el
 
 **Rappresentanza letterale**
 
-```
+```json
 [<expression>, <expression>, ... ]
 ```
 
 **Esempio**
 
-```
+```json
 ["value1","value2"]
 ```
 
-```
+```json
 [3,5]
 ```
 
-```
+```json
 [toDuration(500),toDuration(800)]
 ```
