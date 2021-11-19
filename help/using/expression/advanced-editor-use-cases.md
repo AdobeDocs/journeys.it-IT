@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Gli eventi di esperienza vengono recuperati da Adobe Experience Platform come ra
 * la prima funzione restituirà l’evento più recente
 * l&#39;ultima funzione restituirà quella più vecchia.
 
-Ad esempio, supponiamo che desideri indirizzare l’attività ai clienti con abbandono del carrello negli ultimi 7 giorni per inviare un messaggio quando il cliente si avvicina a un negozio, con un’offerta sugli articoli che desidera che siano in negozio.
+Ad esempio, supponiamo che desideri indirizzare l’attività ai clienti con un abbandono del carrello negli ultimi 7 giorni per inviare un messaggio quando il cliente si avvicina a un negozio, con un’offerta sugli articoli che desiderano che siano in negozio.
 
 **Devi creare le seguenti condizioni:**
 
@@ -127,15 +127,20 @@ La stessa query con `Is sensitive` deselezionata genera la seguente espressione 
 La seguente espressione ti consente di definire l’ID del sistema di gestione delle relazioni con i clienti in un campo di personalizzazione delle azioni:
 
 ```json
-    substr(@{MobileAppLaunch
-            ._myorganization
-            .identification
-            .crmid}, 1, 
-            lastIndexOf(@{MobileAppLaunch
-                        ._myorganization
-                        .identification
-                        .crmid}
-                         ))
+substr(
+   @{MobileAppLaunch
+   ._myorganization
+   .identification
+   .crmid},
+   1, 
+   lastIndexOf(
+     @{MobileAppLaunch
+     ._myorganization
+     .identification
+     .crmid},
+     '}'
+   )
+)
 ```
 
 Spiegazione: Questo esempio utilizza `substr` e `lastIndexOf` funzioni per rimuovere le parentesi graffe che racchiudono l’ID CRM passato con un evento di avvio dell’app mobile.
