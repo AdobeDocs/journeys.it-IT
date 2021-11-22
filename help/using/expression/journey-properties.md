@@ -2,24 +2,24 @@
 product: adobe campaign
 title: Proprietà del percorso
 description: Informazioni sulle proprietà del percorso
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
 
 # Attributi delle proprietà del percorso {#journey-properties}
 
-Nell’editor di espressioni avanzate, trovi la categoria **Proprietà Percorso** , sotto le categorie di eventi e origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi in tempo reale, ad esempio l’ID percorso o gli errori specifici rilevati.
+Nell’editor di espressioni avanzate, troverai il **Proprietà percorso** sotto le categorie di eventi e origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi in tempo reale, ad esempio l’ID percorso o gli errori specifici rilevati.
 
 >[!NOTE]
 >
->Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Vedere questa [sezione](../building-journeys/condition-activity.md#about_condition)
+>Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Vedi questo [sezione](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
@@ -34,11 +34,11 @@ Puoi utilizzare questi campi per creare espressioni. Durante l’esecuzione del 
 
 Di seguito sono riportati alcuni esempi di casi d’uso:
 
-* **Registrare i profili** scartati: puoi inviare tutti i profili esclusi da un messaggio tramite una regola di limitazione a un sistema di terze parti a scopo di registrazione. A questo scopo, imposta un percorso in caso di timeout ed errore e aggiungi una condizione per filtrare in base a uno specifico tipo di errore, ad esempio: &quot;elimina le persone con la regola di limitazione&quot;. Puoi quindi inviare i profili scartati a un sistema di terze parti tramite un’azione personalizzata.
+* **Registrare i profili scartati**: puoi inviare tutti i profili esclusi da un messaggio tramite una regola di limitazione a un sistema di terze parti a scopo di registrazione. A questo scopo, imposta un percorso in caso di timeout ed errore e aggiungi una condizione per filtrare in base a uno specifico tipo di errore, ad esempio: &quot;elimina le persone con la regola di limitazione&quot;. Puoi quindi inviare i profili scartati a un sistema di terze parti tramite un’azione personalizzata.
 
 * **Inviare avvisi in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, imposta un percorso in caso di errore, aggiungi una condizione e un’azione personalizzata. Ad esempio, puoi inviare una notifica su un canale di Slack con la descrizione dell’errore rilevato.
 
-* **Ridefinizione degli errori nel reporting** : invece di avere un solo percorso per i messaggi in errore, puoi definire una condizione per tipo di errore. Questo ti consentirà di perfezionare il reporting e visualizzare tutti i dati dei tipi di errore.
+* **Ottimizzazione degli errori nel reporting** : invece di avere un solo percorso per i messaggi in errore, puoi definire una condizione per tipo di errore. Questo ti consentirà di perfezionare il reporting e visualizzare tutti i dati dei tipi di errore.
 
 ## Elenco dei campi {#journey-properties-fields}
 
@@ -65,5 +65,5 @@ Di seguito sono riportati alcuni esempi di casi d’uso:
 |  | lastErrorCode | Ultimo codice di errore | Codice di errore dell&#39;ultima attività (nodo) in errore. Possibili errori: <ul><li>Codici di errore HTTP</li><li>cappuccio</li><li>timedOut</li><li>error (esempio: predefinito in caso di errore imprevisto. Non dovrebbe/estremamente raro)</li></ul> |
 |  | lastExecutionActionErrorCode | Codice errore ultima azione eseguita | Codice di errore dell’ultima azione in errore |
 |  | lastDataFetchErrorCode | Codice errore ultimo recupero dati | Codice di errore del recupero dati più recente da origini dati |
-| Tempo | lastActionExecutionElapsedTime | Tempo trascorso dell’ultima esecuzione dell’azione | Tempo impiegato per eseguire l’azione più recente |
+| Ora | lastActionExecutionElapsedTime | Tempo trascorso dell’ultima esecuzione dell’azione | Tempo impiegato per eseguire l’azione più recente |
 |  | lastDataFetchElapsedTime | Tempo trascorso ultimo recupero dati | Tempo impiegato per eseguire il recupero dati più recente da origini dati |

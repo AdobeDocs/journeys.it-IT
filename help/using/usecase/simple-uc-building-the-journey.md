@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Creazione di un percorso
 description: Scopri come creare un percorso di casi d’uso semplice
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '393'
 ht-degree: 36%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 36%
 
 Ora l’**utente aziendale** può costruire il percorso. Il nostro percorso includerà solo un percorso con le seguenti attività:
 
-* &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon spa, il sistema riceverà un evento e il percorso inizierà per quella persona.
-* un&#39;attività **[!UICONTROL Condition]** per verificare che la persona sia una donna
-* un&#39;attività **[!UICONTROL Email]** (utilizzando Adobe Campaign Standard)
-* un&#39;attività **[!UICONTROL End]**
+* il &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon spa, il sistema riceverà un evento e il percorso inizierà per quella persona.
+* a **[!UICONTROL Condition]** attività per verificare che la persona sia una donna
+* un **[!UICONTROL Email]** attività (utilizzando Adobe Campaign Standard)
+* un **[!UICONTROL End]** attività
 
 >[!NOTE]
 >
 >Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nel riquadro solo se si dispone di Adobe Campaign Standard.
 
-Per ulteriori informazioni su come generare un percorso, consulta [questa pagina](../building-journeys/journey.md).
+Per ulteriori informazioni sulla creazione di un percorso, consulta [questa pagina](../building-journeys/journey.md).
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]** e **[!UICONTROL Create]** per creare un nuovo percorso.
 
@@ -48,15 +48,15 @@ Per ulteriori informazioni su come generare un percorso, consulta [questa pagina
 
    ![](../assets/journeyuc1_11.png)
 
-1. Utilizzando l’editor di espressioni semplici, cerca il campo genere (_persona > genere_) e rilascialo a destra per creare la seguente condizione: &quot;il genere è uguale a &quot;Femmina&quot;.
+1. Utilizzando l’editor di espressioni semplici, cerca il campo gender (_persona > genere_) e rilasciarla a destra per creare la seguente condizione: &quot;il genere è uguale a &quot;Femmina&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Rilascia un’attività **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Spa discount&quot;. Questo modello è stato progettato utilizzando Adobe Campaign. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+1. Rilascia un **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Spa discount&quot;. Questo modello è stato progettato utilizzando Adobe Campaign. Fai riferimento a questo [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Fai clic all’interno del campo **[!UICONTROL Email]** e seleziona l’indirizzo e-mail dall’origine dati.
+1. Fai clic all’interno del **[!UICONTROL Email]** e seleziona l’indirizzo e-mail dall’origine dati.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ Per ulteriori informazioni su come generare un percorso, consulta [questa pagina
 
    ![](../assets/journeyuc1_15.png)
 
-1. Rilascia un’attività **[!UICONTROL End]** .
+1. Rilascia un **[!UICONTROL End]** attività.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Fai clic sull’interruttore **[!UICONTROL Test]** e verifica il percorso utilizzando i profili di test. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Per ulteriori informazioni sulla modalità di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+1. Fai clic sul pulsante **[!UICONTROL Test]** attiva e verifica il percorso utilizzando i profili di test. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Per ulteriori informazioni sulla modalità di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 

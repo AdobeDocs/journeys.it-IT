@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Creazione di un percorso
 description: 'Scopri come creare il percorso del caso di utilizzo avanzato '
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '847'
 ht-degree: 92%
 
 ---
@@ -27,7 +27,7 @@ Ora l’**utente aziendale** può costruire il percorso. Il percorso includerà 
 >
 >Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nel riquadro solo se si dispone di Adobe Campaign Standard.
 
-Per ulteriori informazioni su come generare un percorso, consulta [questa pagina](../building-journeys/journey.md).
+Per ulteriori informazioni sulla creazione di un percorso, consulta [questa pagina](../building-journeys/journey.md).
 
 ## Primi passaggi{#section_ntb_ws1_ffb}
 

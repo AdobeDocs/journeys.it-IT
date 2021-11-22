@@ -44,7 +44,7 @@ Una regola di limitazione è specifica per un endpoint ma globale per tutti i pe
 
 Ad esempio, supponiamo che tu abbia definito una regola di limitazione di 100 chiamate al secondo per il sistema esterno. Il sistema viene chiamato da un&#39;azione personalizzata in 10 percorsi diversi. Se un percorso riceve 200 chiamate al secondo, utilizzerà i 100 slot disponibili e scarterà i 100 slot rimanenti. Poiché la tariffa massima è stata superata, gli altri 9 percorsi non avranno più alcuna slot. Questa granularità aiuta a proteggere il sistema esterno da sovraccarichi e crash.
 
-Per ulteriori informazioni sull&#39;API di limitazione e su come configurare le regole di limitazione dei tag, consulta [questa pagina](../api/capping.md).
+Per ulteriori informazioni sull’API di limitazione di utilizzo e su come configurare le regole di limitazione di utilizzo, consulta [questa pagina](../api/capping.md).
 
 ## Timeout e nuovi tentativi{#timeout}
 
@@ -72,7 +72,7 @@ Prendiamo ad esempio un timeout di 5 secondi.
 
 **Come posso configurare una regola di limitazione? Esiste una regola di limitazione predefinita?**
 
-Per impostazione predefinita, non è presente alcuna regola di limitazione. Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ), utilizzando l’API di limitazione di utilizzo. Fare riferimento a [questa sezione](../about/external-systems.md#capping) e [questa pagina](../api/capping.md).
+Per impostazione predefinita, non è presente alcuna regola di limitazione. Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ), utilizzando l’API di limitazione di utilizzo. Fai riferimento a [questa sezione](../about/external-systems.md#capping) e [questa pagina](../api/capping.md).
 
 **Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra i tentativi?**
 
@@ -80,4 +80,4 @@ Per una determinata chiamata, è possibile eseguire un massimo di tre tentativi 
 
 **Dove posso configurare il timeout? Esiste un valore massimo?**
 
-In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 secondo e 30 secondi. Fare riferimento a [questa sezione](../about/external-systems.md#timeout) e [questa pagina](../building-journeys/changing-properties.md#timeout_and_error).
+In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 secondo e 30 secondi. Fai riferimento a [questa sezione](../about/external-systems.md#timeout) e [questa pagina](../building-journeys/changing-properties.md#timeout_and_error).

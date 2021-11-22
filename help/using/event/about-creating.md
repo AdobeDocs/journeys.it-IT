@@ -17,7 +17,7 @@ ht-degree: 60%
 
 Di seguito sono riportati i passaggi principali per la configurazione di un nuovo evento:
 
-1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Events]**. Viene visualizzato l’elenco degli eventi. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../about/user-interface.md) .
+1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Events]**. Viene visualizzato l’elenco degli eventi. Fai riferimento a [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
    ![](../assets/journey5.png)
 
@@ -29,13 +29,13 @@ Di seguito sono riportati i passaggi principali per la configurazione di un nuov
    >
    >Non utilizzare spazi o caratteri speciali. Non usare più di 30 caratteri.
 
-1. Nel campo **[!UICONTROL Event ID type]** , seleziona il tipo di evento da utilizzare.
+1. In **[!UICONTROL Event ID type]** selezionare il tipo di evento da utilizzare.
 
    ![](../assets/journey6bis.png)
 
-   * **Eventi basati sulle regole**: questo tipo di evento non genera un eventID. Nel campo **Condizione ID evento** , definisci semplicemente una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i tuoi percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
+   * **Eventi basati sulle regole**: questo tipo di evento non genera un eventID. In **Condizione ID evento** definisci semplicemente una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i tuoi percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
-   * **Sviluppatori** di sistema: questo tipo richiede un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento e aggiunto all’anteprima del payload. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload. Vedi [questa sezione](../event/previewing-the-payload.md).
+   * **Generato dal sistema** eventi: questo tipo richiede un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento e aggiunto all’anteprima del payload. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload. Vedi [questa sezione](../event/previewing-the-payload.md).
    >[!NOTE]
    >
    >Ulteriori informazioni sui tipi di evento in [questa sezione](../event/about-events.md).
@@ -43,16 +43,16 @@ Di seguito sono riportati i passaggi principali per la configurazione di un nuov
 1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento, solitamente denominato payload, che [!DNL Journey Orchestration] prevede di ricevere. Potrai quindi utilizzare queste informazioni nel tuo percorso. Consulta [questa pagina](../event/defining-the-payload-fields.md).
    >[!NOTE]
    >
-   >Quando selezioni il tipo **[!UICONTROL System Generated]** , sono disponibili solo gli schemi con il mixin del tipo eventID. Quando selezioni il tipo **[!UICONTROL Rule Based]** , sono disponibili tutti gli schemi Experience Event .
+   >Quando selezioni la **[!UICONTROL System Generated]** sono disponibili solo gli schemi con il mixin del tipo eventID. Quando selezioni la **[!UICONTROL Rule Based]** , tutti gli schemi Experience Event sono disponibili.
 
-1. Per gli eventi basati su regole, fai clic all’interno del campo **[!UICONTROL Event ID condition]** . Utilizzando l’editor di espressioni semplici, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
+1. Per gli eventi basati su regole, fai clic all’interno del **[!UICONTROL Event ID condition]** campo . Utilizzando l’editor di espressioni semplici, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
    ![](../assets/alpha-event6.png)
 
-   Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL City]** field e **[!UICONTROL Paris]** value), lo trasmette al Journey Orchestration.
+   Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL City]** campo e **[!UICONTROL Paris]** (valore), lo trasmetterà al Journey Orchestration.
 
    >[!NOTE]
    >
-   >L’editor di espressioni avanzate non è disponibile quando si definisce **[!UICONTROL Event ID condition]**. Nell’editor di espressioni semplici, non tutti gli operatori sono disponibili, dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, è possibile utilizzare &quot;contiene&quot; o &quot;uguale a&quot;.
+   >L’editor di espressioni avanzate non è disponibile quando si definisce il **[!UICONTROL Event ID condition]**. Nell’editor di espressioni semplici, non tutti gli operatori sono disponibili, dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, è possibile utilizzare &quot;contiene&quot; o &quot;uguale a&quot;.
 
 1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa pagina](../event/selecting-the-namespace.md).
 1. Definisci la chiave: scegli un campo di payload o specifica una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, [!DNL Journey Orchestration] seleziona la chiave che deve corrispondere allo spazio dei nomi, ad esempio, se scegli uno spazio dei nomi e-mail, opterà per la chiave e-mail. Consulta [questa pagina](../event/defining-the-event-key.md).

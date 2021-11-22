@@ -23,7 +23,7 @@ Controlla se una persona appartiene a un dato segmento.
 
 Il nome del segmento deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione.
 
-I segmenti sono definiti in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’editor di espressioni fornisce un elenco di segmenti compilato automaticamente.
+I segmenti sono definiti nella [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’editor di espressioni fornisce un elenco di segmenti compilato automaticamente.
 
 I segmenti possono avere tre stati:
 
@@ -31,7 +31,7 @@ I segmenti possono avere tre stati:
 * realizzato: l’entità sta entrando nel segmento.
 * usciti: entità in uscita dal segmento.
 
-Solo i singoli utenti con gli stati di partecipazione al segmento **Realized** e **Esistenti** saranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Solo gli individui con il **Realizzato** e **Esistente** gli stati di partecipazione al segmento saranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
 
@@ -63,4 +63,4 @@ Restituisce un valore booleano.
 
 Spiegazione:
 
-La funzione restituirà **[!UICONTROL true]** se la persona all&#39;interno dell&#39;istanza del percorso fa parte del segmento Adobe Experience Platform denominato &quot;men over 50&quot;, **[!UICONTROL false]** in caso contrario.
+La funzione restituirà **[!UICONTROL true]** se la persona all’interno dell’istanza di percorso fa parte del segmento Adobe Experience Platform denominato &quot;uomini oltre 50&quot;, **[!UICONTROL false]** altrimenti.

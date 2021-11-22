@@ -2,24 +2,24 @@
 product: adobe campaign
 title: Configurazione dell’evento
 description: Scopri come configurare l’evento per il percorso di casi d’uso semplici
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 8%
 
 ---
 
 # Configurazione dell’evento{#concept_y44_hcy_w2b}
 
-Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona cammina vicino a un beacon posizionato accanto al centro benessere. L’ **utente tecnico** deve configurare l’evento a cui il sistema farà da listener nel nostro percorso.
+Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona cammina vicino a un beacon posizionato accanto al centro benessere. La **utente tecnico** deve configurare l&#39;evento che il sistema ascolterà nel nostro percorso.
 
-Per ulteriori informazioni sulla configurazione dell&#39;evento, consulta [questa pagina](../event/about-events.md).
+Per ulteriori informazioni sulla configurazione degli eventi, consulta [questa pagina](../event/about-events.md).
 
-1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Events]** e fai clic su **[!UICONTROL Add]** per creare un nuovo evento.
+1. Nel menu principale, fai clic su **[!UICONTROL Events]** e fai clic su **[!UICONTROL Add]** per creare un nuovo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -27,7 +27,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consulta [quest
 
    ![](../assets/journeyuc1_2.png)
 
-1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. È necessario l’ID Experience Cloud per identificare la persona nel database del profilo cliente in tempo reale: _endUserIDs > esperienza > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID viene memorizzato nel campo **[!UICONTROL eventID]** (_esperienza > campagna > orchestrazione > eventID_). Il sistema che preme l’evento non deve generare un ID, ma deve utilizzare quello disponibile nell’anteprima del payload. Nel nostro caso d’uso, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l’invio dell’evento.
+1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. È necessario l’ID Experience Cloud per identificare la persona nel database del profilo cliente in tempo reale: _endUserIDs > experience > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato in **[!UICONTROL eventID]** campo (_esperienza > campagna > orchestrazione > eventID_). Il sistema che preme l’evento non deve generare un ID, ma deve utilizzare quello disponibile nell’anteprima del payload. Nel nostro caso d’uso, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l’invio dell’evento.
 
    ![](../assets/journeyuc1_3.png)
 
@@ -45,7 +45,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consulta [quest
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-1. Fai clic sull’icona **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema e condividerlo con la persona responsabile dell’invio dell’evento. Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
+1. Fai clic sul pulsante **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema e condividerlo con la persona responsabile dell’invio dell’evento. Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
 
    ![](../assets/journeyuc1_7.png)
 

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Creazione dei rapporti sui percorsi
 description: Scopri come creare rapporti sul percorso
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '825'
 ht-degree: 2%
 
 ---
@@ -29,31 +29,31 @@ Per accedere ai rapporti dei tuoi percorsi e iniziare a tenere traccia del succe
 
 1. Seleziona il percorso su cui desideri creare i rapporti.
 
-   Per accedere ai rapporti, fai clic su **Report** mentre passi il mouse su un percorso nell&#39;elenco dei percorsi.
+   Per accedere ai rapporti, fai clic su **Rapporto** quando passi il mouse su un percorso nell&#39;elenco dei percorsi.
 
    ![](../assets/dynamic_report_journey.png)
 
-1. Fai clic sull’icona **[!UICONTROL Report]** in alto a destra dello schermo.
+1. Fai clic sul pulsante **[!UICONTROL Report]** in alto a destra sullo schermo.
 
    ![](../assets/dynamic_report_journey_2.png)
 
-1. Il rapporto **[!UICONTROL Journey summary]** preconfigurato viene visualizzato sullo schermo. Per accedere ai rapporti personalizzati, fai clic sul pulsante **[!UICONTROL Close]** .
+1. La **[!UICONTROL Journey summary]** il rapporto preconfigurato viene visualizzato sullo schermo. Per accedere ai rapporti personalizzati, fai clic sul pulsante **[!UICONTROL Close]** pulsante .
 
    ![](../assets/dynamic_report_journey_12.png)
 
-1. Fai clic su **[!UICONTROL Create new project]** per creare il rapporto da zero.
+1. Fai clic sul pulsante **[!UICONTROL Create new project]** per creare il rapporto da zero.
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. Dalla scheda **[!UICONTROL Panels]** , trascina e rilascia tutti i pannelli o le tabelle a forma libera necessari. Per ulteriori informazioni, consulta questa [sezione](#adding-panels).
+1. Da **[!UICONTROL Panels]** , trascinare e rilasciare tutti i pannelli o le tabelle a forma libera necessari. Per ulteriori informazioni, consulta [sezione](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. Puoi quindi iniziare a filtrare i dati trascinando dimensioni e metriche dalla scheda **[!UICONTROL Components]** nella tabella a forma libera. Per ulteriori informazioni, consulta questa [sezione](#adding-components).
+1. Puoi quindi iniziare a filtrare i dati trascinando dimensioni e metriche dal menu **[!UICONTROL Components]** nella tabella a forma libera. Per ulteriori informazioni, consulta [sezione](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
-1. Per una visualizzazione più chiara dei dati, puoi aggiungere visualizzazioni dalla scheda **[!UICONTROL Visualizations]** . Per ulteriori informazioni, consulta questa [sezione](#adding-visualizations).
+1. Per ottenere una visualizzazione più chiara dei dati, puoi aggiungere visualizzazioni dalla sezione **[!UICONTROL Visualizations]** scheda . Per ulteriori informazioni, consulta [sezione](#adding-visualizations).
 
 ## Aggiunta di pannelli{#adding-panels}
 
@@ -63,11 +63,11 @@ Per avviare il rapporto, puoi aggiungere un set di pannelli a un rapporto predef
 
 Questo pannello consente di generare i rapporti in base alle esigenze. Puoi aggiungere tutti i pannelli desiderati nei rapporti per filtrare i dati in base a periodi di tempo diversi.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Panels]** . Per aggiungere un pannello, fai clic su **[!UICONTROL Insert tab]** e seleziona **[!UICONTROL New Blank Panel]**.
+1. Fai clic sul pulsante **[!UICONTROL Panels]** icona. Puoi anche aggiungere un pannello facendo clic sul pulsante **[!UICONTROL Insert tab]** e selezionando **[!UICONTROL New Blank Panel]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
-1. Trascina **[!UICONTROL Blank Panel]** nel dashboard.
+1. Trascina e rilascia la **[!UICONTROL Blank Panel]** nel dashboard.
 
    ![](../assets/dynamic_report_panel.png)
 
@@ -75,37 +75,37 @@ Ora puoi aggiungere una tabella a forma libera al pannello per avviare il target
 
 ### Aggiunta di una tabella a forma libera {#adding-a-freeform-table}
 
-Le tabelle a forma libera consentono di creare una tabella per analizzare i dati utilizzando le diverse metriche e dimensioni disponibili nella tabella **[!UICONTROL Component]** .
+Le tabelle a forma libera consentono di creare una tabella per analizzare i dati utilizzando le diverse metriche e dimensioni disponibili nel **[!UICONTROL Component]** tabella.
 
 Ogni tabella e visualizzazione può essere ridimensionata e spostata per personalizzare meglio il rapporto.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Panels]** .
+1. Fai clic sul pulsante **[!UICONTROL Panels]** icona.
 
    ![](../assets/dynamic_report_panel_1.png)
 
-1. Trascina e rilascia l’elemento **[!UICONTROL Freeform]** nel dashboard.
+1. Trascina e rilascia la **[!UICONTROL Freeform]** nel dashboard.
 
-   Per aggiungere una tabella, fai clic sulla scheda **[!UICONTROL Insert]** e seleziona **[!UICONTROL New Freeform]** oppure fai clic su **[!UICONTROL Add a freeform table]** in un pannello vuoto.
+   Puoi anche aggiungere una tabella facendo clic sul pulsante **[!UICONTROL Insert]** scheda e selezione **[!UICONTROL New Freeform]** o facendo clic su **[!UICONTROL Add a freeform table]** in un pannello vuoto.
 
    ![](../assets/dynamic_report_panel_2.png)
 
-1. Trascina gli elementi dalla scheda **[!UICONTROL Components]** nelle colonne e nelle righe per creare la tabella.
+1. Trascina e rilascia gli elementi dal **[!UICONTROL Components]** nelle colonne e nelle righe per creare la tabella.
 
    ![](../assets/dynamic_report_freeform_3.png)
 
-1. Fai clic sull’icona **[!UICONTROL Settings]** per modificare la modalità di visualizzazione dei dati nelle colonne.
+1. Fai clic sul pulsante **[!UICONTROL Settings]** per modificare la modalità di visualizzazione dei dati nelle colonne.
 
    ![](../assets/dynamic_report_freeform_4.png)
 
-   Il **[!UICONTROL Column settings]** è composto da:
+   La **[!UICONTROL Column settings]** è composto da:
 
    * **[!UICONTROL Number]**: consente di visualizzare o nascondere i numeri di riepilogo nella colonna.
    * **[!UICONTROL Percent]**: consente di mostrare o nascondere le percentuali nella colonna.
    * **[!UICONTROL Interpret zero as no value]**: consente di mostrare o nascondere quando il valore è uguale a zero.
    * **[!UICONTROL Background]**: consente di mostrare o nascondere la barra di avanzamento orizzontale nelle celle.
-   * **[!UICONTROL Include retries]**: consente di includere i nuovi tentativi nel risultato. Questa funzione è disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Include retries]**: consente di includere i nuovi tentativi nel risultato. Disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Seleziona una o più righe e fai clic sull&#39;icona **[!UICONTROL Visualize]** . Viene aggiunta una visualizzazione per riflettere le righe selezionate.
+1. Seleziona una o più righe e fai clic sul pulsante **[!UICONTROL Visualize]** icona. Viene aggiunta una visualizzazione per riflettere le righe selezionate.
 
    ![](../assets/dynamic_report_freeform_5.png)
 
@@ -115,11 +115,11 @@ Ora puoi aggiungere tutti i componenti necessari e anche aggiungere visualizzazi
 
 I componenti consentono di personalizzare i rapporti con dimensioni, metriche e periodi di tempo diversi.
 
-1. Fai clic sulla scheda **[!UICONTROL Components]** per accedere all’elenco dei componenti.
+1. Fai clic sul pulsante **[!UICONTROL Components]** per accedere all’elenco dei componenti.
 
    ![](../assets/dynamic_report_components.png)
 
-1. Ogni categoria presentata nella scheda **[!UICONTROL Components]** visualizza i cinque elementi più utilizzati, fai clic sul nome di una categoria per accedere al relativo elenco completo di componenti.
+1. Ogni categoria presentata nel **[!UICONTROL Components]** visualizza i cinque elementi più utilizzati, fai clic sul nome di una categoria per accedere al relativo elenco completo di componenti.
 
    La tabella dei componenti è divisa in tre categorie:
 
@@ -133,18 +133,18 @@ Puoi trascinare e rilasciare tutti i componenti necessari e confrontarli tra lor
 
 ## Aggiunta di visualizzazioni{#adding-visualizations}
 
-La scheda **[!UICONTROL Visualizations]** ti consente di trascinare e rilasciare elementi di visualizzazione, ad esempio area, anello e grafico. Le visualizzazioni ti forniscono rappresentazioni grafiche dei tuoi dati.
+La **[!UICONTROL Visualizations]** consente di trascinare e rilasciare elementi di visualizzazione, ad esempio area, anello e grafico. Le visualizzazioni ti forniscono rappresentazioni grafiche dei tuoi dati.
 
-1. Nella scheda **[!UICONTROL Visualizations]** , trascina e rilascia un elemento di visualizzazione in un pannello.
+1. In **[!UICONTROL Visualizations]** , trascina e rilascia un elemento di visualizzazione in un pannello.
 
    ![](../assets/dynamic_report_visualization_1.png)
 
 1. Dopo aver aggiunto una visualizzazione al pannello, i rapporti rilevano automaticamente i dati presenti nella tabella a forma libera. Seleziona le impostazioni per la visualizzazione.
-1. Se disponi di più tabelle a forma libera, scegli l’origine dati disponibile da aggiungere nel grafico nella finestra **[!UICONTROL Data Source Settings]**. Questa finestra è disponibile anche facendo clic sul punto colorato accanto al titolo della visualizzazione.
+1. Se disponi di più tabelle a forma libera, scegli l’origine dati disponibile da aggiungere nel grafico nel **[!UICONTROL Data Source Settings]** finestra. Questa finestra è disponibile anche facendo clic sul punto colorato accanto al titolo della visualizzazione.
 
    ![](../assets/dynamic_report_visualization_2.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Visualization]** impostazioni per modificare direttamente il tipo di grafico o il contenuto visualizzato, ad esempio:
+1. Fai clic sul pulsante **[!UICONTROL Visualization]** pulsante impostazioni per modificare direttamente il tipo di grafico o la visualizzazione su di esso, ad esempio:
 
    * **[!UICONTROL Percentages]**: Visualizza i valori in percentuale.
    * **[!UICONTROL Anchor Y Axis at Zero]**: Forza l&#39;asse y a zero anche se i valori sono superiori a zero.

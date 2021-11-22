@@ -2,14 +2,14 @@
 product: adobe campaign
 title: replaceAll
 description: Scopri la funzione replaceAll
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 13%
+source-wordcount: '75'
+ht-degree: 16%
 
 ---
 
@@ -31,9 +31,9 @@ Stringa
 
 | Parametro | Tipo |
 |-----------|--------------|
-| base | string |
-| target | string |
-| sostituzione | string |
+| base | stringa |
+| target | stringa |
+| sostituzione | stringa |
 
 ## Firma e tipo restituito
 

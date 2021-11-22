@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Informazioni sulle origini dati
 description: 'Informazioni su come configurare un’origine dati '
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '344'
 ht-degree: 76%
 
 ---
@@ -44,13 +44,13 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 >
 >La configurazione dell’origine dati viene sempre eseguita da un **utente tecnico**.
 
-1. Nel riquadro del menu, selezionare **[!UICONTROL Admin]**. Nella sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
+1. Nel riquadro dei menu, seleziona **[!UICONTROL Admin]**. In **[!UICONTROL Data sources]** sezione, fai clic su **[!UICONTROL Manage]**.
 
-   Viene visualizzato l’elenco delle origini dati. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../about/user-interface.md) .
+   Viene visualizzato l’elenco delle origini dati. Vedi [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
    ![](../assets/journey18.png)
 
-1. Quindi è possibile aggiungere gruppi di campi all&#39;origine dati incorporata (vedere [questa pagina](../datasource/adobe-experience-platform-data-source.md)) oppure creare una nuova origine dati esterna (vedere [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedere [questa pagina](../datasource/field-groups.md)).
+1. È quindi possibile aggiungere gruppi di campi all’origine dati incorporata (consulta [questa pagina](../datasource/adobe-experience-platform-data-source.md)) o crea una nuova origine dati esterna (vedi [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedi [questa pagina](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 

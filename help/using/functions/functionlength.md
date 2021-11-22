@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: length
+title: lunghezza
 description: Informazioni sulla lunghezza della funzione
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5dda3f35-bce4-42c6-b958-de28abebcbf3
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '34'
 ht-degree: 20%
 
 ---
 
-# length {#length}
+# lunghezza {#length}
 
 Restituisce il numero di caratteri dell&#39;espressione stringa nel parametro .
 
@@ -27,7 +27,7 @@ Stringa
 
 ## Parametro
 
-* string
+* stringa
 
 ## Firma e tipo restituito
 

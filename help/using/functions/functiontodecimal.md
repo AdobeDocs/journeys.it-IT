@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDecimal
 description: Scopri la funzione suDecimal
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 11d7013c-2190-4654-8466-920861c836f5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 13%
+source-wordcount: '71'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ Conversione
 
 | Parametro | Descrizione |
 |--- |--- |
-| string | converte il valore della stringa come decimale |
+| stringa | converte il valore della stringa come decimale |
 | dateTime | converte la data come numero di millisecondi (epoch millisecondi) |
 | booleano | converte il valore booleano in 1 se true, 0 se false |
 | integer | converte in un decimale (ad esempio.: 1 diventa 1,0) |

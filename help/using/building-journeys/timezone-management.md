@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Gestione del fuso orario
 description: Informazioni sulla gestione del fuso orario
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
 
 # Gestione del fuso orario {#timezone_management}
 
-Puoi definire un fuso orario nelle [proprietà](../building-journeys/changing-properties.md) del percorso.
+È possibile definire un fuso orario nel [proprietà](../building-journeys/changing-properties.md) del tuo percorso.
 
 Per accedere a Proprietà, fai clic sull’icona della matita in alto a destra dello schermo.
 
@@ -30,13 +30,13 @@ Puoi selezionare un fuso orario o scegliere di utilizzarlo nel profilo utente.
 
 >[!NOTE]
 >
->Il fuso orario del profilo funziona con il campo **timeZone** esistente nel gruppo di campi **Dettagli preferenza**.
+>Il fuso orario del profilo funziona con **timeZone** campo esistente nel **Dettagli sulle preferenze** gruppo di campi.
 
 ## Definizione di un fuso orario fisso {#fixed-timezone}
 
 È inoltre possibile correggere il fuso orario. Deseleziona il fuso orario predefinito e selezionane uno dall’elenco a discesa. Se utilizzi un fuso orario fisso, sarà lo stesso per tutti gli utenti che accedono al percorso.
 
-A questo scopo, in **[!UICONTROL Properties]**, seleziona un fuso orario.
+Per farlo, in **[!UICONTROL Properties]**, seleziona un fuso orario.
 
 ![](../assets/journey72.png)
 
@@ -48,7 +48,7 @@ Se un fuso orario è definito nel profilo Adobe Experience Platform, può essere
 
 Se il profilo della persona non contiene un fuso orario, il fuso orario recuperato sarà quello definito nel campo relativo al fuso orario.
 
-A tale scopo, in **[!UICONTROL Properties]**, selezionare **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Per farlo, in **[!UICONTROL Properties]**, controlla **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey73.png)
 

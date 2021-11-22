@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 61%
 
 ## Accesso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Per accedere all&#39;interfaccia di [!DNL Journey Orchestration], fai clic sull&#39;icona **[!UICONTROL App Selector]** in alto a destra, quindi fai clic su **[!UICONTROL Journey Orchestration]**.
+Per accedere al [!DNL Journey Orchestration]nell&#39;interfaccia, fai clic sul pulsante **[!UICONTROL App Selector]** in alto a destra, quindi fai clic su **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -31,7 +31,7 @@ Puoi anche accedere a [!DNL Journey Orchestration] dalla home page di Experience
 
 ![](../assets/journey1bis.png)
 
-## Esplorazione dell’interfaccia{#section_jsq_zr1_ffb}
+## Descrizione dell’interfaccia{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
@@ -55,7 +55,7 @@ Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro, in al
 
 Negli elenchi **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, utilizza **[!UICONTROL Creation filters]** (Filtri di creazione) per filtrare in base alla data e all’utente di creazione. Ad esempio, puoi scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
 
-Nell’elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre a **[!UICONTROL Creation filters]**, è anche possibile filtrare i percorsi visualizzati in base al loro stato, tipo e versione (**[!UICONTROL Status and version filters]**). Il tipo può essere: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
+Nell&#39;elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre al **[!UICONTROL Creation filters]**, puoi anche filtrare i percorsi visualizzati in base al loro stato, tipo e versione (**[!UICONTROL Status and version filters]**). Il tipo può essere: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da 
 | Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Scheda |
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
 | Sposta all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
-| Seleziona o cancella un elemento attivo | Inserisci o Barra spaziatrice |
+| Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
 | Annullare una selezione, comprimere un pannello o chiudere una finestra di dialogo | Esc |
 
 [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
@@ -131,7 +131,7 @@ In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da 
   </tr>
   <tr>
     <td>Seleziona tutte le attività</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td>Elimina le attività selezionate</td>
@@ -173,7 +173,7 @@ Riquadro di configurazione dei seguenti elementi:
   <tr>
     <td>
 
-Attiva un evento in un percorso basato su segmenti per il quale l&#39;opzione **[!UICONTROL Single profile at a time]** è attivata
+Attiva un evento in un percorso basato su segmenti per il quale il **[!UICONTROL Single profile at a time]** opzione attivata
 
 </td>
     <td>P</td>
@@ -192,7 +192,7 @@ Attiva un evento in un percorso basato su segmenti per il quale l&#39;opzione **
   <tr>
     <td>Campo di testo</td>
     <td>Seleziona tutto il testo nel campo selezionato</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Finestra a comparsa</td>
@@ -216,6 +216,6 @@ Attiva un evento in un percorso basato su segmenti per il quale l&#39;opzione **
   <tr>
     <td>Anteprima payload</td>
     <td>Selezionare il payload</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>

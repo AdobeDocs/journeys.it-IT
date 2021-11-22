@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Informazioni sui rapporti sui percorsi
 description: Scopri come generare i rapporti sul percorso
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ La barra degli strumenti superiore consente, ad esempio, di modificare, salvare 
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Utilizza la scheda **[!UICONTROL Project]** per:
+Utilizza la **[!UICONTROL Project]** scheda in:
 
 * **[!UICONTROL Open]**: apre un report o un modello creato in precedenza.
 * **[!UICONTROL Save As]**: duplica i modelli per poterli modificare.
@@ -35,13 +35,13 @@ Utilizza la scheda **[!UICONTROL Project]** per:
 * **[!UICONTROL Download CSV]**: esporta i rapporti in un file CSV.
 * **[!UICONTROL Print]**: stampa il rapporto.
 
-La scheda **[!UICONTROL Edit]** ti consente di:
+La **[!UICONTROL Edit]** consente di:
 
 * **[!UICONTROL Undo]**: annulla l’ultima azione sul dashboard.
-* **[!UICONTROL Redo]**: annulla l’ultima  **[!UICONTROL Undo]** azione sul dashboard.
+* **[!UICONTROL Redo]**: annulla l&#39;ultimo **[!UICONTROL Undo]** sul dashboard.
 * **[!UICONTROL Clear all]**: elimina tutti i pannelli presenti nel dashboard.
 
-La tabella **[!UICONTROL Insert]** ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+La **[!UICONTROL Insert]** La tabella ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
 
 * **[!UICONTROL New Blank Panel]**: aggiunge un nuovo pannello vuoto al dashboard.
 * **[!UICONTROL New Freeform]**: aggiunge una nuova tabella a forma libera al dashboard.
@@ -54,14 +54,14 @@ Le schede a sinistra ti consentono di generare il rapporto e filtrare i dati in 
 
 Queste schede consentono di accedere ai seguenti elementi:
 
-* **[!UICONTROL Panels]**: aggiungi un pannello vuoto o una forma libera al rapporto per iniziare a filtrare i dati. Per ulteriori informazioni, consulta la sezione [Aggiunta di pannelli](../reporting/creating-your-journey-reports.md#adding-panels) .
-* **[!UICONTROL Visualizations]**: trascina e rilascia una selezione di elementi di visualizzazione per assegnare al rapporto una dimensione grafica. Per ulteriori informazioni, consulta la sezione [Aggiunta di visualizzazioni](../reporting/creating-your-journey-reports.md#adding-visualizations) .
-* **[!UICONTROL Components]**: personalizzare i rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi. Per ulteriori informazioni, consulta la sezione [Aggiunta di componenti](../reporting/creating-your-journey-reports.md#adding-components) .
+* **[!UICONTROL Panels]**: aggiungi un pannello vuoto o una forma libera al rapporto per iniziare a filtrare i dati. Per ulteriori informazioni, consulta la sezione [Aggiunta di pannelli](../reporting/creating-your-journey-reports.md#adding-panels) sezione
+* **[!UICONTROL Visualizations]**: trascina e rilascia una selezione di elementi di visualizzazione per assegnare al rapporto una dimensione grafica. Per ulteriori informazioni, consulta la sezione [Aggiunta di visualizzazioni](../reporting/creating-your-journey-reports.md#adding-visualizations) sezione .
+* **[!UICONTROL Components]**: personalizzare i rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi. Per ulteriori informazioni, consulta la sezione [Aggiunta di componenti](../reporting/creating-your-journey-reports.md#adding-components) sezione .
 
 ## Modello di riepilogo del percorso {#ootb-template}
 
 I rapporti sono suddivisi in due categorie: un modello preconfigurato e rapporti personalizzati.
-Il modello preconfigurato **[!UICONTROL Journey summary]** offre una visualizzazione chiara dei dati di tracciamento più importanti.
+Il modello preconfigurato, **[!UICONTROL Journey summary]**, offre una visione chiara dei dati di tracciamento più importanti.
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -84,7 +84,7 @@ La visualizzazione del flusso di Percorso ti consente di visualizzare il percors
 
 ![](../assets/dynamic_report_journey_10.png)
 
-La tabella **[!UICONTROL Journey summary]** contiene i dati disponibili per il percorso, ad esempio:
+La **[!UICONTROL Journey summary]** La tabella contiene i dati disponibili per il percorso, ad esempio:
 
 * **[!UICONTROL Entered]**: numero totale di persone che hanno raggiunto l&#39;evento di ingresso del percorso.
 * **[!UICONTROL Completion rate]**: numero totale di individui che hanno raggiunto il controllo del flusso finale del percorso rispetto al numero totale di individui che sono entrati nel percorso.
@@ -92,11 +92,11 @@ La tabella **[!UICONTROL Journey summary]** contiene i dati disponibili per il p
 * **[!UICONTROL Failed]**: numero totale di percorsi non eseguiti correttamente.
 * **[!UICONTROL Failed rate]**: numero totale di percorsi che non sono stati eseguiti correttamente rispetto al numero di percorsi di esecuzione.
 
-La tabella **[!UICONTROL Top events]** visualizza gli eventi di maggior successo e le azioni di maggior successo dei percorsi **[!UICONTROL Top action]**.
+La **[!UICONTROL Top events]** nella tabella vengono visualizzati gli eventi di maggior successo e la **[!UICONTROL Top action]**, le azioni di maggior successo nei percorsi.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-La tabella **[!UICONTROL Delivery - Sending summary]** contiene i dati disponibili per le consegne del percorso, ad esempio:
+La **[!UICONTROL Delivery - Sending summary]** La tabella contiene i dati disponibili per le consegne del percorso, ad esempio:
 
 * **[!UICONTROL Processed/sent]**: numero totale di messaggi inviati.
 * **[!UICONTROL Delivered rate]**: numero totale di messaggi recapitati correttamente rispetto ai messaggi inviati.
@@ -104,7 +104,7 @@ La tabella **[!UICONTROL Delivery - Sending summary]** contiene i dati disponibi
 * **[!UICONTROL Bounce + error rate]**: numero totale di messaggi rimbalzati rispetto ai messaggi inviati.
 * **[!UICONTROL Bounces + errors]**: totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
-La tabella **[!UICONTROL Delivery - Tracking summary]** contiene i dati disponibili per tenere traccia del successo delle consegne dei percorsi, ad esempio:
+La **[!UICONTROL Delivery - Tracking summary]** La tabella contiene i dati disponibili per tenere traccia del successo delle consegne dei percorsi, ad esempio:
 
 * **[!UICONTROL Open Rate]**: percentuale dei messaggi aperti.
 * **[!UICONTROL Open]**: numero di volte in cui un messaggio è stato aperto in una consegna.

@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Utilizzo delle azioni Adobe Campaign v7/v8
 description: Scopri le azioni di Adobe Campaign v7/v8
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 13%
+source-wordcount: '164'
+ht-degree: 12%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 13%
 
 La connessione tra le istanze Journey Orchestration e Campaign viene impostata per Adobe al momento del provisioning. Adobe di contatto.
 
-Affinché questo funzioni, devi configurare un’azione dedicata. Fare riferimento a questa sezione [sezione](../action/acc-action.md).
+Affinché questo funzioni, devi configurare un’azione dedicata. Fai riferimento a questo [sezione](../action/acc-action.md).
 
-In questa [sezione](../usecase/campaign-classic-use-case.md) viene presentato un caso d’uso end-to-end.
+In questo viene presentato un caso d’uso end-to-end [sezione](../usecase/campaign-classic-use-case.md).
 
-1. Progetta il tuo percorso, a partire da un evento. Vedere questa sezione [](../building-journeys/journey.md).
-1. Nella sezione **Azione** della palette, seleziona un’azione Campaign e aggiungilo al percorso.
-1. Nei **Parametri azione** vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Fare riferimento a questa sezione [sezione](../building-journeys/using-custom-actions.md).
+1. Progetta il tuo percorso, a partire da un evento. Vedi questo [sezione](../building-journeys/journey.md).
+1. In **Azione** nella sezione della palette, seleziona un’azione Campaign e aggiungilo al percorso.
+1. In **Parametri azione**, vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Fai riferimento a questo [sezione](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)

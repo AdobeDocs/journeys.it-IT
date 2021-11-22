@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Versioni del percorso
 description: Informazioni sulle versioni di percorso
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
 >
 >Per ulteriori informazioni sulle limitazioni delle versioni di percorso, consulta [questa pagina](../about/limitations.md#journey-versions-limitations)
 
-1. Apri la versione più recente del percorso live, fai clic su **[!UICONTROL Create a new version]** e conferma.
+1. Apri la versione più recente del percorso live e fai clic su **[!UICONTROL Create a new version]** e confermare.
 
    ![](../assets/journeyversions2.png)
 
@@ -33,7 +33,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
    >
    >Puoi creare una nuova versione solo dall’ultima versione di un percorso.
 
-1. Apporta le modifiche desiderate, fai clic su **[!UICONTROL Publish]** e conferma.
+1. Apporta le modifiche desiderate, fai clic su **[!UICONTROL Publish]** e confermare.
 
    ![](../assets/journeyversions3.png)
 
@@ -43,4 +43,4 @@ Le versioni di percorso possono essere arrestate singolarmente. Tutte le version
 
 >[!NOTE]
 >
->Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e passa allo stato **Chiuso** . Non ci sarà alcuna entrata nel percorso. Anche se si interrompe l&#39;ultima versione, la versione precedente rimarrà chiusa.
+>Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e passa alla **Chiuso** stato. Non ci sarà alcuna entrata nel percorso. Anche se si interrompe l&#39;ultima versione, la versione precedente rimarrà chiusa.

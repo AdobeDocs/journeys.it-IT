@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Metriche e dimensioni
 description: Informazioni su dimensioni e metriche disponibili per il Journey Orchestration
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1035'
 ht-degree: 2%
 
 ---
@@ -31,13 +31,13 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
 
 | Dimensioni | Definizione |
 |--- |--- |
-| **Azione** | Elenco di tutte le azioni (**nome azione - etichetta azione**) utilizzate in percorsi come ad esempio Push - Check-out conferma, E-mail - Fedeltà premi. |
-| **Origine dati** | Elenco delle origini dati (**nome origine dati**) utilizzate per arricchire i dati in un percorso, ad esempio Adobe Experience Platform, Sistema di prenotazione. |
-| **[!UICONTROL Event]** | Elenco di ogni evento (**nome evento - etichetta evento**) utilizzato nei percorsi, ad esempio evento Geometrixx - Geometrixx estrazione. |
-| **Gruppo di campi** | Elenco dei gruppi di campi (**nome del gruppo di campi**) utilizzati per arricchire i dati in percorsi come ad esempio il gruppo di campi di profilo o il sistema di prenotazione Geometrixx. |
-| **Percorso** | Elenco di ogni percorso (**nome percorso**) in modalità di prova e live, ad esempio abbandono del carrello, notifica della prenotazione dell&#39;hotel. |
-| **Versione percorso** | Elenco di ogni versione pubblicata di un percorso (**nome del percorso + numero della versione**) ad esempio Abbandono del carrello v1, notifica di prenotazione dell&#39;hotel v2. |
-| **Orchestrazione** | Elenco di ogni attività di orchestrazione (**Condizione, Fine, Attesa**) definita e utilizzata nei percorsi. |
+| **Azione** | Elenco di ogni azione (**nome azione - etichetta azione**) utilizzata in percorsi come Push - Check-Out Confirm, Email - Rewards fidelity. |
+| **Origine dati** | Elenco delle origini dati (**nome origine dati**) utilizzata per arricchire i dati in un percorso, ad esempio Adobe Experience Platform, Sistema di prenotazione. |
+| **[!UICONTROL Event]** | Elenco di ogni evento (**nome evento - etichetta evento**) utilizzata in percorsi come ad esempio Geometrixx evento - Geometrixx check-out. |
+| **Gruppo di campi** | Elenco dei gruppi di campi (**nome del gruppo di campi**) utilizzata per arricchire i dati in percorsi come il gruppo di campi Profilo e il sistema di prenotazione Geometrixx. |
+| **Percorso** | Elenco di ogni percorso (**Nome percorso**) in modalità di prova e live, ad esempio abbandono del carrello, notifica di prenotazione dell&#39;hotel. |
+| **Versione percorso** | Elenco di ogni versione pubblicata di un percorso (**Nome percorso + numero della versione**) ad esempio Abbandono del carrello v1, notifica di prenotazione dell&#39;hotel v2. |
+| **Orchestrazione** | Elenco di ogni attività di orchestrazione (**Condizione, Fine, Attendi**) definita e utilizzata nei percorsi. |
 
 ## Dimensioni di consegna {#delivery-dimensions}
 
@@ -83,8 +83,7 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti s
 
 ## Metriche di consegna {#delivery-metrics}
 
-La tabella seguente fornisce l’elenco delle metriche utilizzate nel percorso
-rapporti, loro definizioni e formule.
+La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti sui percorsi, le relative definizioni e formule.
 
 | Metrica | Definizione |
 |--- |--- |
@@ -92,7 +91,7 @@ rapporti, loro definizioni e formule.
 | **Tasso di Elenco Bloccati** | Numero totale di messaggi in inserire nell&#39;elenco Bloccati rispetto ai messaggi inviati. |
 | **Rimbalzi + errori** | Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati. |
 | **Rimbalzo + tasso di errore** | Numero totale di messaggi rimbalzati rispetto ai messaggi inviati. |
-| **Fai clic su** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
+| **Click** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
 | **Frequenza di click-through** | Numero totale di clic in una consegna rispetto al numero di messaggi inviati. |
 | **Consegnate** | Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati. |
 | **Tasso di consegna** | Numero totale di messaggi consegnati correttamente rispetto ai messaggi inviati. |

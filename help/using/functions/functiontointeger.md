@@ -2,13 +2,13 @@
 product: adobe campaign
 title: toInteger
 description: Scopri la funzione toInteger
-feature: Percorsi
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '70'
 ht-degree: 14%
 
 ---
@@ -29,7 +29,7 @@ Conversione
 
 | Parametro | Descrizione |
 |--- |--- |
-| string | converte il valore della stringa in un numero intero |
+| stringa | converte il valore della stringa in un numero intero |
 | dateTime | converte la data come numero di millisecondi (epoch millisecondi) |
 | decimale | converte in numero intero rimuovendo la parte decimale (ad esempio: 1,5 diventa 1) |
 | booleano | converte il valore booleano in 1 se true, 0 se false |

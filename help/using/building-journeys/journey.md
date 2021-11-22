@@ -2,22 +2,22 @@
 product: adobe campaign
 title: Informazioni sulla creazione di percorsi
 description: In qualità di utente aziendale, scopri come combinare attività di evento, orchestrazione e azione per creare un percorso.
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 12%
 
 ---
 
 # Creazione di un percorso {#concept_gq5_sqt_52b}
 
-Questo passaggio viene eseguito dall&#39; **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
+Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
-L’interfaccia di percorso ti consente di trascinare facilmente le attività dalla palette nell’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla nell’area di lavoro al passaggio successivo disponibile. Ogni attività ha un ruolo specifico e un ruolo specifico nel processo. Le attività vengono sequenziate. Al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
+L’interfaccia di percorso ti consente di trascinare facilmente le attività dalla palette nell’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla nell’area di lavoro al passaggio successivo disponibile. Ciascuna attività ha un ruolo specifico e un ruolo specifico nel processo. Le attività vengono sequenziate. Al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
 
 È consentito un solo spazio dei nomi al percorso. Quando rilasci il primo evento, gli eventi con namespace diversi saranno disattivati. Se il primo evento non dispone di uno spazio dei nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. Consulta [questa pagina](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disattivati se il percorso dispone di eventi senza spazio dei nomi. Infine, se utilizzi più eventi nello stesso percorso, questi dovranno utilizzare lo stesso namespace.
 
@@ -29,7 +29,7 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un perco
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]**.
 
-   Viene visualizzato l’elenco dei percorsi. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../building-journeys/using-the-journey-designer.md) .
+   Viene visualizzato l’elenco dei percorsi. Fai riferimento a [questa pagina](../building-journeys/using-the-journey-designer.md) per ulteriori informazioni sull’interfaccia.
 
    ![](../assets/journey30.png)
 
@@ -45,11 +45,11 @@ Di seguito sono riportati i passaggi principali per creare e pubblicare un perco
 
    ![](../assets/journey33.png)
 
-1. Trascina e rilascia le altre attività e configurale. Consulta le pagine [Attività evento](../building-journeys/event-activities.md), [Informazioni sulle attività di orchestrazione](../building-journeys/about-orchestration-activities.md) e [Informazioni sulle attività di azione](../building-journeys/about-action-activities.md).
+1. Trascina e rilascia le altre attività e configurale. Consulta le pagine [Attività evento](../building-journeys/event-activities.md), [Informazioni sulle attività di orchestrazione](../building-journeys/about-orchestration-activities.md) e [Informazioni sulle attività azione](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Il percorso viene salvato automaticamente. Verifica il percorso e pubblicalo. Consulta [test del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
+1. Il percorso viene salvato automaticamente. Verifica il percorso e pubblicalo. Vedi [verifica del percorso](../building-journeys/testing-the-journey.md) e [Pubblicazione del percorso](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -64,11 +64,11 @@ La persona può quindi rientrare nel percorso se è consentito il rientro. Consu
 
 Un percorso può chiudersi per i motivi seguenti:
 
-* Il percorso viene chiuso manualmente tramite il pulsante **[!UICONTROL Close to new entrances]** .
+* Il percorso viene chiuso manualmente tramite il **[!UICONTROL Close to new entrances]** pulsante .
 * La data di fine del percorso è raggiunta.
 
-Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Closed]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso. Dopo il timeout globale predefinito di 30 giorni, il percorso passa allo stato **Finished** . Vedere questa sezione [](../building-journeys/changing-properties.md#entrance).
+Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Closed]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](../building-journeys/changing-properties.md#entrance).
 
 Nel caso tu debba interrompere il progresso di tutti gli individui nel percorso, puoi fermarlo. Arrestare il percorso causerà il timeout di tutti gli individui nel percorso.
 
-Per informazioni su come chiudere o arrestare manualmente un percorso, consulta questa [sezione](../building-journeys/terminating-a-journey.md).
+Per informazioni su come chiudere o arrestare manualmente un percorso, consulta questo [sezione](../building-journeys/terminating-a-journey.md).

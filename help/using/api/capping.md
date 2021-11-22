@@ -22,34 +22,34 @@ ht-degree: 2%
 
 Durante la configurazione di un’origine dati, definirai una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei percorsi oppure, per una definizione di azione, configurerai la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API. Ogni volta che una chiamata API viene eseguita dal Percorso, l’API di limitazione viene interrogata, la chiamata viene eseguita tramite il motore API. Se è definito un limite, la chiamata viene rifiutata e il sistema esterno non verrà sovraccaricato.
 
-Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per includere l’endpoint nell’inserire nell&#39;elenco Consentiti. Ciò non è possibile per le fonti di dati esterne pubbliche. Per ulteriori informazioni sulle best practice e sulle protezioni durante l&#39;integrazione di sistemi esterni, consulta questa [pagina](../about/external-systems.md).
+Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per includere l’endpoint nell’inserire nell&#39;elenco Consentiti. Ciò non è possibile per le fonti di dati esterne pubbliche. Per ulteriori informazioni sulle best practice e le protezioni durante l’integrazione di sistemi esterni, consulta questo articolo [page](../about/external-systems.md).
 
-Per ulteriori informazioni sulle azioni o sulla configurazione dell&#39;origine dati, consulta [Informazioni sulle azioni](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
+Per ulteriori informazioni sulla configurazione dell’azione o dell’origine dati, consulta [Informazioni sulle azioni](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 ## Risorse
 
 >[!NOTE]
 >
->L’ [!DNL Journey Orchestration] API di limitazione di utilizzo è descritta all’interno di un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
+>La [!DNL Journey Orchestration] L’API di limitazione di utilizzo è descritta in un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Per utilizzare questa API con l’istanza [!DNL Journey Orchestration], è necessario utilizzare la console AdobeI/O. Per iniziare, segui la [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e utilizza le sezioni presenti in questa pagina.
+Per utilizzare questa API con la [!DNL Journey Orchestration] ad esempio, è necessario utilizzare la console AdobeI/O. Per iniziare, segui questo [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e quindi utilizzare le sezioni di questa pagina.
 
-Per testare e preparare l&#39;integrazione, è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Per testare e preparare la tua integrazione è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## Autenticazione
 
 ### Impostazione dell’accesso alle API
 
-[!DNL Journey Orchestration] L’accesso alle API è configurato attraverso i passaggi seguenti. Ognuno di questi passaggi è descritto nella [documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+[!DNL Journey Orchestration] L’accesso alle API è configurato attraverso i passaggi seguenti. Ciascuno di questi passaggi è descritto nella sezione [Documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->Per gestire i certificati in Adobe I/O, assicurati di disporre dei diritti di <b>amministratore di sistema</b> sull’organizzazione o di un [account sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) in Admin Console.
+>Per gestire i certificati in Adobe I/O, assicurati di disporre di <b>Amministratore di sistema</b> diritti dell&#39;organizzazione o [account sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) in Admin Console.
 
-1. **Verifica di disporre di un certificato** digitale o creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
-1. **Crea una nuova integrazione a  [!DNL Journey Orchestration]** Servicein Adobe I/O e configurala. L’accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (chiave API, segreto client...).
-1. **Crea un JSON Web Token (JWT)** dalle credenziali generate in precedenza e firmalo con la tua chiave privata. JWT codifica tutte le informazioni di identità e sicurezza necessarie per Adobe per verificare la tua identità e concedere l’accesso all’API. Questo passaggio è descritto in questa sezione [sezione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Scambio di JWT per un** token di accesso tramite una richiesta POST o tramite l’interfaccia Console per sviluppatori. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
+1. **Verifica di disporre di un certificato digitale** oppure creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
+1. **Creare una nuova integrazione in [!DNL Journey Orchestration] Servizio** in Adobe I/O e configuralo. L’accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (chiave API, segreto client...).
+1. **Creare un token web JSON (JWT)** dalle credenziali generate in precedenza e firmalo con la tua chiave privata. JWT codifica tutte le informazioni di identità e sicurezza necessarie per Adobe per verificare la tua identità e concedere l’accesso all’API. Questo passaggio è descritto in [sezione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
+1. **Sostituire il JWT con un token di accesso** tramite una richiesta POST o tramite l’interfaccia Console per sviluppatori. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
 
 Per stabilire una sessione API di Adobe I/O servizio-servizio sicura, ogni richiesta a un servizio Adobe deve includere nell’intestazione Autorizzazione le informazioni riportate di seguito.
 
@@ -64,11 +64,11 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
    * &lt;organization> : l&#39;istanza di produzione
 
-   Per ottenere il valore dell’ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. Puoi anche recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell&#39;elenco delle licenze (consulta la <a href="https://www.adobe.io/authentication.html">documentazione di Adobe I/O</a>).
+   Per ottenere il valore dell’ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell&#39;elenco delle licenze (consulta <a href="https://www.adobe.io/authentication.html">Documentazione di Adobe I/O</a>).
 
 * **&lt;access_token>**: Token di accesso personale, recuperato durante lo scambio di JWT tramite una richiesta POST.
 
-* **&lt;api_key>**: la tua chiave API personale. Viene fornito in Adobe I/O dopo la creazione di una nuova integrazione al servizio [!DNL Journey Orchestration] .
+* **&lt;api_key>**: la tua chiave API personale. Viene fornito in Adobe I/O dopo la creazione di una nuova integrazione in [!DNL Journey Orchestration] Servizio.
 
 
 
@@ -137,7 +137,7 @@ La struttura di base di una configurazione dell’endpoint è la seguente:
 
 ## Avvisi ed errori
 
-Quando viene chiamato un metodo **canDeploy**, il processo convalida la configurazione e restituisce lo stato di convalida identificato dal relativo ID univoco, ovvero:
+Quando un **canDeploy** viene chiamato , il processo convalida la configurazione e restituisce lo stato di convalida identificato dal relativo ID univoco:
 
 ```
 "ok" or "error"
@@ -154,7 +154,7 @@ Gli errori potenziali sono:
 * **ERR_ENDPOINTCONFIG_108**: configurazione di tappping: conteggio massimo chiamate non valido (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: configurazione di tappping: impossibile creare la configurazione dell&#39;endpoint: payload non valido
 * **ERR_ENDPOINTCONFIG_112**: configurazione di tappping: impossibile creare la configurazione dell&#39;endpoint: attesa di un payload JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome di servizio non valido  `<!--<given value>-->`: deve essere &#39;dataSource&#39; o &#39;action&#39;
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome di servizio non valido `<!--<given value>-->`: deve essere &#39;dataSource&#39; o &#39;action&#39;
 
 
 L&#39;avviso potenziale è:
@@ -169,16 +169,16 @@ In questa sezione sono disponibili i cinque casi d’uso principali che è possi
 
 Per facilitare i test e la configurazione, è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-Questa raccolta Postman è stata impostata per condividere la raccolta Postman Variable generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file Postman Environment con i valori di integrazioni selezionati.
+Questa raccolta Postman è stata impostata per condividere la raccolta Postman Variable generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file Ambiente Postman con i valori di integrazioni selezionati.
 
 Una volta scaricata e caricata in Postman, devi aggiungere tre variabili: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
-* `{JO_HOST}` :  [!DNL Journey Orchestration] URL gateway
+* `{JO_HOST}` : [!DNL Journey Orchestration] URL gateway
 * `{BASE_PATH}` : punto di ingresso per l’API. Il valore è &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : l’intestazione  **x-sandbox-name**  (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Per ulteriori informazioni, consulta la [panoramica sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) .
+* `{SANDBOX_NAME}` : intestazione **x-sandbox-name** (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Consulta la sezione [panoramica sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) per ulteriori informazioni.
 
 Nella sezione seguente, trovi l’elenco delle chiamate API rimanenti ordinate per eseguire il caso d’uso.
 
-Caso d’uso n° 1: **Creazione e distribuzione di una nuova configurazione di limitazione**
+Caso d’uso n° 1: **Creazione e distribuzione di una nuova configurazione di tappatura**
 
 1. list
 1. creare
@@ -193,13 +193,13 @@ Caso d’uso n° 2: **Aggiornare e distribuire una configurazione di limite non 
 1. canonizzare
 1. distribuire
 
-Caso d’uso n° 3: **Disimplementare ed eliminare una configurazione di limite distribuita**
+Caso d’uso n° 3: **Disdistribuire ed eliminare una configurazione di limitazione distribuita**
 
 1. elenco
 1. non distribuire
 1. delete
 
-Caso d’uso n° 4: **Eliminare una configurazione di limitazione distribuita.**
+Caso d’uso n° 4: **Elimina una configurazione di limitazione distribuita.**
 
 In una sola chiamata API, puoi annullare la distribuzione ed eliminare la configurazione utilizzando il parametro forceDelete .
 1. elenco

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Definizione dei campi payload
 description: Scopri come definire i campi payload
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 6%
+source-wordcount: '299'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 La definizione del payload ti consente di scegliere le informazioni che il sistema prevede di ricevere dall’evento nel tuo percorso e la chiave per identificare quale persona è associata all’evento. Il payload si basa sulla definizione del campo XDM di Experience Cloud. Per ulteriori informazioni su XDM, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
 
-1. Seleziona uno schema XDM dall’elenco e fai clic sul campo **[!UICONTROL Payload]** o sull’icona **[!UICONTROL Edit]**.
+1. Seleziona uno schema XDM dall’elenco e fai clic sul pulsante **[!UICONTROL Payload]** o sul campo **[!UICONTROL Edit]** icona.
 
    ![](../assets/journey8.png)
 
@@ -25,22 +25,22 @@ La definizione del payload ti consente di scegliere le informazioni che il siste
 
    >[!NOTE]
    >
-   >Accertati di aver aggiunto il mixin &quot;orchestrazione&quot; allo schema XDM. Questo assicurerà che lo schema contenga tutte le informazioni necessarie per funzionare con [!DNL Journey Orchestration].
+   >Accertati di aver aggiunto il mixin &quot;orchestrazione&quot; allo schema XDM. Questo assicurerà che lo schema contenga tutte le informazioni necessarie con cui lavorare [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
-1. Seleziona i campi che si prevede di ricevere dall’evento. Questi sono i campi che l&#39;utente aziendale sfrutterà nel percorso. Devono inoltre includere la chiave che verrà utilizzata per identificare la persona associata all&#39;evento (consulta [questa pagina](../event/defining-the-event-key.md)).
+1. Seleziona i campi che si prevede di ricevere dall’evento. Questi sono i campi che l&#39;utente aziendale sfrutterà nel percorso. Devono inoltre includere la chiave che verrà utilizzata per identificare la persona associata all’evento (vedi [questa pagina](../event/defining-the-event-key.md)).
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >Per gli eventi generati dal sistema, il campo **[!UICONTROL eventID]** viene aggiunto automaticamente nell’elenco dei campi selezionati in modo che [!DNL Journey Orchestration] possa identificare l’evento. Il sistema che preme l’evento non deve generare un ID, ma deve utilizzare quello disponibile nell’anteprima del payload. Consulta [questa pagina](../event/previewing-the-payload.md).
+   >Per gli eventi generati dal sistema, la variabile **[!UICONTROL eventID]** viene aggiunto automaticamente nell’elenco dei campi selezionati in modo che [!DNL Journey Orchestration] può identificare l’evento. Il sistema che preme l’evento non deve generare un ID, ma deve utilizzare quello disponibile nell’anteprima del payload. Consulta [questa pagina](../event/previewing-the-payload.md).
 
-1. Dopo aver selezionato i campi necessari, fai clic su **[!UICONTROL Save]** o premi **[!UICONTROL Enter]**.
+1. Dopo aver selezionato i campi necessari, fai clic su **[!UICONTROL Save]** o premere **[!UICONTROL Enter]**.
 
    ![](../assets/journey11.png)
 
-   Il numero di campi selezionati viene visualizzato nel campo **[!UICONTROL Payload]** .
+   Il numero di campi selezionati viene visualizzato nella sezione **[!UICONTROL Payload]** campo .
 
    ![](../assets/journey12.png)

@@ -2,24 +2,24 @@
 product: adobe campaign
 title: Configurazione degli eventi
 description: Scopri come configurare gli eventi per il percorso di casi d’uso avanzati
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 7%
 
 ---
 
 # Configurazione degli eventi {#concept_sbp_5cy_w2b}
 
-Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona entra nell&#39;hotel Marlton e nel ristorante. L’ **utente tecnico** deve configurare i due eventi a cui desidera che il sistema ascolti nel nostro percorso.
+Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona entra nell&#39;hotel Marlton e nel ristorante. La **utente tecnico** deve configurare i due eventi che vogliamo che il sistema ascolti nel nostro percorso.
 
-Per ulteriori informazioni sulla configurazione dell&#39;evento, consulta [questa pagina](../event/about-events.md).
+Per ulteriori informazioni sulla configurazione degli eventi, consulta [questa pagina](../event/about-events.md).
 
-1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Events]** e fai clic su **[!UICONTROL Add]** per creare un nuovo evento.
+1. Nel menu principale, fai clic su **[!UICONTROL Events]** e fai clic su **[!UICONTROL Add]** per creare un nuovo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -31,7 +31,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consulta [quest
 
    È inoltre necessario il token di registrazione per inviare messaggi push: &quot;_experience > campagna > messaggio > profilo > pushNotificationToken > token&quot;
 
-   Per questo evento viene generato automaticamente un ID. Questo ID viene memorizzato nel campo **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). Il sistema che preme l’evento non deve generare un ID, ma deve utilizzare quello disponibile nell’anteprima del payload. Nel nostro caso d’uso, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon della lobby, viene inviato un evento contenente questo ID evento specifico. Lo stesso principio si applica agli eventi beacon del ristorante. Questo consente al sistema di sapere quale beacon ha attivato l’invio dell’evento.
+   Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato in **[!UICONTROL eventID]** campo (&quot;_esperienza > campagna > orchestrazione > eventID&quot;). Il sistema che preme l’evento non deve generare un ID, ma deve utilizzare quello disponibile nell’anteprima del payload. Nel nostro caso d’uso, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon della lobby, viene inviato un evento contenente questo ID evento specifico. Lo stesso principio si applica agli eventi beacon del ristorante. Questo consente al sistema di sapere quale beacon ha attivato l’invio dell’evento.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consulta [quest
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-1. Fai clic sull’icona **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema e condividerlo con la persona responsabile dell’invio dell’evento.  Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
+1. Fai clic sul pulsante **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema e condividerlo con la persona responsabile dell’invio dell’evento.  Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
 
    ![](../assets/journeyuc2_5.png)
 

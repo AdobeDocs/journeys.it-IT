@@ -2,35 +2,35 @@
 product: adobe campaign
 title: Passaggio da un percorso a un altro
 description: Passaggio da un percorso a un altro
-feature: Percorsi
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 5%
+source-wordcount: '336'
+ht-degree: 4%
 
 ---
 
 # Aggiorna il profilo {#update-profile}
 
-L’attività di azione **[!UICONTROL Update profile]** ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico.
+La **[!UICONTROL Update profile]** l’attività action ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico.
 
 ## Note importanti
 
-* L&#39;azione **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento con uno spazio dei nomi.
+* La **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento con uno spazio dei nomi.
 * L’azione aggiorna solo i campi esistenti e non crea nuovi campi di profilo.
-* Non è possibile utilizzare l&#39;azione **Aggiorna profilo** per generare eventi di esperienza, ad esempio un acquisto.
+* Non è possibile utilizzare il **Aggiorna profilo** azione per generare eventi di esperienza, ad esempio un acquisto.
 * Come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi eseguire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a Platform sarà rapida ma non immediata/entro un secondo. Normalmente ci vorranno alcuni secondi, ma a volte di più senza garanzia. Di conseguenza, ad esempio, se un’azione utilizza &quot;campo 1&quot; aggiornato da un’azione Aggiorna profilo posizionata in precedenza, non devi aspettarti che il &quot;campo 1&quot; venga aggiornato nell’azione .
 * In modalità di test, l’aggiornamento del profilo non verrà simulato. L’aggiornamento viene eseguito sul profilo di test.
 
 ## Utilizzo dell’aggiornamento del profilo
 
-1. Progetta il tuo percorso iniziando con un evento. Vedere questa sezione [](../building-journeys/journey.md).
+1. Progetta il tuo percorso iniziando con un evento. Vedi questo [sezione](../building-journeys/journey.md).
 
-1. Nella sezione **Azione** della palette, rilascia l’attività **Aggiorna profilo** nell’area di lavoro.
+1. In **Azione** della palette, rilascia la **Aggiorna profilo** nell’area di lavoro.
 
    ![](../assets/profileupdate0.png)
 
@@ -44,9 +44,9 @@ L’attività di azione **[!UICONTROL Update profile]** ti consente di aggiornar
 
    >[!NOTE]
    >
-   >L&#39;azione **Aggiorna profilo** aggiorna i dati del profilo in tempo reale, ma non aggiorna i set di dati. La selezione del set di dati è necessaria in quanto il profilo è un record relativo a un set di dati.
+   >La **Aggiorna profilo** aggiorna i dati del profilo in tempo reale, ma non i set di dati. La selezione del set di dati è necessaria in quanto il profilo è un record relativo a un set di dati.
 
-1. Fai clic sul campo **Valore** per definire il valore da utilizzare:
+1. Fai clic sul pulsante **Valore** per definire il valore da utilizzare:
 
    * Utilizzando l’editor di espressioni semplici, puoi selezionare un campo da un’origine dati o dall’evento in arrivo.
 
@@ -56,6 +56,6 @@ L’attività di azione **[!UICONTROL Update profile]** ti consente di aggiornar
 
       ![](../assets/profileupdate3.png)
 
-È ora configurato il **Aggiorna profilo** .
+La **Aggiorna profilo** è ora configurato.
 
 ![](../assets/profileupdate1.png)
