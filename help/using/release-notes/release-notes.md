@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 54%
+source-wordcount: '3130'
+ht-degree: 63%
 
 ---
 
@@ -18,29 +18,21 @@ ht-degree: 54%
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md) più recenti.
 
-## Versione di ottobre 2021 {#october-2021-release}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+## Versione di gennaio 2022 {#january-2022-release}
 
 ### Miglioramenti
 
-* **Editor espressioni** - In qualità di utente avanzato, è ora possibile utilizzare le funzioni per lavorare con le mappe. [Ulteriori informazioni](../expression/field-references.md)
+* È ora possibile collegare gli eventi dei passaggi Journey Orchestration ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). La **profileID** nello schema Evento passaggio Percorso integrato, il campo è ora definito come campo di identità. [Ulteriori informazioni](../building-journeys/sharing-overview.md#integration-cja)
+* La regola di limite per le azioni Adobe Campaign Standard è stata modificata in 4000 chiamate/5 minuti. [Ulteriori informazioni](../action/working-with-adobe-campaign.md)
+
+## Versione di ottobre 2021 {#october-2021-release}
+
+### Miglioramenti
+
+* **Editor espressioni** - In qualità di utente avanzato, ora puoi utilizzare le funzioni per lavorare con le mappe. [Ulteriori informazioni](../expression/field-references.md)
 * **Accessibilità** - Sono stati implementati miglioramenti all’accessibilità. Il Journey Orchestration è ora completamente conforme in termini di accessibilità.
 * **Raccolte** - Sono ora supportati gli array di oggetti contenenti oggetti secondari. [Ulteriori informazioni](../usecase/collections.md)
-* **Monitoraggio** - Sono stati migliorati gli eventi di passaggio per i percorsi live e la modalità di test. [Nuovi campi](../building-journeys/sharing-field-list.md#serviceevents) sono stati aggiunti relativi ai processi di esportazione del profilo. Per una migliore esperienza utente, i campi evento dei passaggi sono ora organizzati in diverse categorie nello schema Evento passaggio Percorso per Journey Orchestration. Tutti i campi degli eventi dei passaggi precedenti sono ancora disponibili nel [stepEvents](../building-journeys/sharing-legacy-fields.md) categoria.
+* **Monitoraggio** - Sono stati migliorati gli eventi di passaggio per i percorsi live e la modalità di test. [Nuovi campi](../building-journeys/sharing-field-list.md#serviceevents) sono stati aggiunti in relazione ai processi di esportazione del profilo. Per una migliore esperienza utente, i campi evento dei passaggi sono ora organizzati in diverse categorie nello schema Evento passaggio Percorso per Journey Orchestration. Tutti i campi degli eventi dei passaggi precedenti sono ancora disponibili nella categoria [stepEvents](../building-journeys/sharing-legacy-fields.md).
 
 ## Versione di settembre 2021 {#september-2021-release}
 
@@ -53,10 +45,10 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 <tbody>
 <tr>
 <td>
-<p>Ora puoi passare raccolte o un elenco di dati nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte: raccolte semplici e raccolte di oggetti. Le azioni personalizzate create in precedenza continueranno a funzionare. </p>
-<p>Per ulteriori informazioni sulle raccolte, consulta la <a href="../usecase/collections.md">documentazione dettagliata</a>. </p>
+<p>Ora puoi trasferire raccolte o un elenco di dati nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte: raccolte semplici e raccolte di oggetti. Le azioni personalizzate create in precedenza continueranno a funzionare. </p>
+<p>Per ulteriori informazioni, consulta la <a href="../usecase/collections.md">documentazione dettagliata</a>. </p>
 <p>Le funzioni filtro e intersezione sono state aggiunte all’elenco delle funzioni disponibili nell’editor di espressioni avanzate. Questo offre più possibilità per il filtraggio della raccolta e il confronto.</p>
-<p>Consulta la documentazione sul <a href="../functions/functionfilter.md">filter</a> e <a href="../functions/functionintersect.md">intersecare</a> funzioni.</p>
+<p>Consulta la documentazione sulle funzioni <a href="../functions/functionfilter.md">filtro</a> e <a href="../functions/functionintersect.md">intersezione</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -64,9 +56,9 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 
 ### Miglioramenti
 
-* Gli schemi e i set di dati generati dal sistema che sono stati creati durante il provisioning per gli eventi delle fasi ora sono in modalità di sola lettura, evitando eventuali modifiche involontarie agli schemi critici. [Ulteriori informazioni](../building-journeys/sharing-overview.md)
-* Etichettare in modo chiaro il **Wait** attività con un’etichetta che verrà visualizzata nell’area di lavoro. L’etichetta viene utilizzata anche nei registri della modalità di reporting e test per identificare chiaramente ciò che si sta facendo. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
-* Trova più rapidamente i tuoi eventi e le tue azioni filtrando gli elementi nel **Eventi** e **Azione** categorie che utilizzano la ricerca. Le attività di orchestrazione non vengono più filtrate. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
+* Gli schemi e i set di dati generati dal sistema che sono stati creati durante il provisioning per gli eventi delle fasi ora sono in modalità di sola lettura, in modo da evitare eventuali modifiche involontarie agli schemi critici. [Ulteriori informazioni](../building-journeys/sharing-overview.md)
+* Etichetta in modo chiaro l’attività **Attesa** con un’etichetta che verrà visualizzata nell’area di lavoro. L’etichetta viene utilizzata anche nei registri della modalità di reporting e test per identificare chiaramente ciò che si sta facendo. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
+* Trova più rapidamente i tuoi eventi e le tue azioni filtrando gli elementi nelle categorie **Eventi** e **Azione** utilizzando la ricerca. Le attività di orchestrazione non vengono più filtrate. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
 * Quando definisci una condizione ID evento in una condizione basata su regola, l&#39;operatore &quot;contiene&quot; è ora disponibile per i tipi di stringa di campi. [Ulteriori informazioni](../event/about-creating.md)
 
 ## Versione di agosto 2021 {#august-2021-release}
@@ -75,8 +67,8 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 
 **Percorsi**
 
-* **Intestazioni dinamiche** - È ora possibile trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate di azione HTTP del percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/url-configuration.md)
-* **Percorsi URL dinamici** - È ora possibile impostare percorsi URL dinamici per le azioni personalizzate. [Ulteriori informazioni](../action/url-configuration.md)
+* **Intestazioni dinamiche** - Ora puoi trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate di azione HTTP del percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/url-configuration.md)
+* **Percorsi URL dinamici** - Ora puoi impostare percorsi URL dinamici per azioni personalizzate. [Ulteriori informazioni](../action/url-configuration.md)
 
 ## Versione di luglio 2021 {#july-2021-release}
 
@@ -99,7 +91,7 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 
 ### Miglioramenti
 
-* La **Durata della cache** campo rimosso dal riquadro di configurazione dell’origine dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
+* Il campo **Durata della cache** è stato rimosso dal riquadro di configurazione dell’origine dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
 ## Versione di giugno 2021 {#june-2021-release}
 

@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Per poter essere utilizzato nel Journey Orchestration, il messaggio transazional
 
 >[!NOTE]
 >
->Una regola di limitazione di 13 chiamate al secondo viene definita automaticamente per le azioni di Adobe Campaign Standard non appena viene impostata l’integrazione di Adobe Campaign Standard. Questo corrisponde alla scala ufficiale dei messaggi transazionali Adobe Campaign Standard.
+>Una regola di limitazione di 4000 chiamate per 5 minuti viene definita automaticamente per le azioni di Adobe Campaign Standard non appena viene impostata l’integrazione di Adobe Campaign Standard. Questo corrisponde alla scala ufficiale dei messaggi transazionali Adobe Campaign Standard.
 >
 >Ulteriori informazioni sugli SLA di messaggistica transazionale in [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html).
 
