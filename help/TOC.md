@@ -5,9 +5,9 @@ title: Guida di Journey Orchestration
 user-guide-description: Istruzioni per l’implementazione e la creazione dei percorsi dei clienti.
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [Definizione dei campi payload](using/event/defining-the-payload-fields.md)
    + [Selezione dello spazio dei nomi](using/event/selecting-the-namespace.md)
    + [Definizione del codice evento](using/event/defining-the-event-key.md)
-   + [Aggiunta di una condizione](using/event/adding-a-condition.md)
    + [Anteprima del payload](using/event/previewing-the-payload.md)
 + Configurazione di un’origine dati {#data-source-journeys}
    + [Informazioni sulle origini dati](using/datasource/about-data-sources.md)

@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: Passaggio da un percorso a un altro
-description: Passaggio da un percorso a un altro
+title: Aggiorna il profilo
+description: Aggiorna il profilo
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 4%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
@@ -25,6 +25,7 @@ La **[!UICONTROL Update profile]** l’attività action ti consente di aggiornar
 * Come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi eseguire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a Platform sarà rapida ma non immediata/entro un secondo. Normalmente ci vorranno alcuni secondi, ma a volte di più senza garanzia. Di conseguenza, ad esempio, se un’azione utilizza &quot;campo 1&quot; aggiornato da un’azione Aggiorna profilo posizionata in precedenza, non devi aspettarti che il &quot;campo 1&quot; venga aggiornato nell’azione .
 * In modalità di test, l’aggiornamento del profilo non verrà simulato. L’aggiornamento viene eseguito sul profilo di test.
+* La **Aggiorna profilo** l&#39;attività non supporta campi XDM definiti come enumerazione.
 
 ## Utilizzo dell’aggiornamento del profilo
 

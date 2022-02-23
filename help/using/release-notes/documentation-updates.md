@@ -6,17 +6,22 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 96%
 
 ---
 
 # Aggiornamenti alla documentazione
 
-Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journey Orchestration].
+Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Orchestration].
 È inoltre possibile consultare le [!DNL Journey Orchestration][Note sulla versione](../release-notes/release-notes.md).
+
+## Febbraio 2022 {#feb-2022}
+
+* La [replace](../functions/functionreplace.md#example_2) e [replaceAll](../functions/functionreplaceall.md#example) le pagine della documentazione della funzione sono state aggiornate con ulteriori informazioni ed esempi relativi al parametro target.
+* Sono state aggiunte le best practice al [Operatori](../expression/operators.md#important-notes) pagina.
 
 ## Settembre 2021
 

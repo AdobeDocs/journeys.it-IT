@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 141937cd16d5676a80412b2b72750710ee1e537f
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1692'
 ht-degree: 2%
 
 ---
@@ -61,6 +61,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 * Puoi attivare/disattivare la modalità di test il numero di volte necessario.
 * Non è possibile modificare il percorso quando viene attivata la modalità di test. In modalità di test, è possibile pubblicare direttamente il percorso, senza dover disattivare la modalità di test in precedenza.
 * Quando si raggiunge una divisione, viene sempre scelto il ramo superiore. Potete riorganizzare la posizione dei rami divisi se desiderate che il test scelga un percorso diverso.
+* Per ottimizzare le prestazioni e impedire l’utilizzo di risorse obsolete, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato Bozza.
 
 ## Trasformazione di un profilo in un profilo di test{#turning-profile-into-test}
 

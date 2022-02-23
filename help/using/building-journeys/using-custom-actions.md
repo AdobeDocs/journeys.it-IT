@@ -6,20 +6,16 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 9%
+source-wordcount: '253'
+ht-degree: 11%
 
 ---
 
 # Utilizzo di azioni personalizzate {#section_f2c_hbg_nhb}
 
 Il riquadro di configurazione dell’attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
-
->[!NOTE]
->
->Non puoi passare una raccolta semplice nei parametri delle azioni personalizzate. Campi di raccolta più complessi (array di oggetti) non supportati.  Tieni presente che i parametri hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti.
 
 ## Configurazione URL
 

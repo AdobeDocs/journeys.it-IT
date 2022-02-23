@@ -6,17 +6,20 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
+source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 15%
+source-wordcount: '301'
+ht-degree: 12%
 
 ---
 
 # Informazioni sulla configurazione delle azioni personalizzata {#concept_sxy_bzs_dgb}
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri [!DNL Journey Orchestration] per inviare chiamate API a un sistema di terze parti, è qui che si configura la relativa connessione a [!DNL Journey Orchestration]. L’azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella sezione **[!UICONTROL Action]** categoria (vedere [questa pagina](../building-journeys/about-action-activities.md). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Facebook, Adobe.io, Firebase, ecc.
+
 Le limitazioni sono elencate in [questa pagina](../about/limitations.md).
+
+Nei parametri di azione personalizzati è possibile passare una raccolta semplice e una raccolta di oggetti. Per quanto riguarda le limitazioni, si prega di fare riferimento a [questa pagina](../usecase/collections.md#limitations). Tieni presente che i parametri hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti. Fai riferimento a questo [caso d&#39;uso](../usecase/collections.md).
 
 Di seguito sono riportati i passaggi principali necessari per configurare un’azione personalizzata:
 

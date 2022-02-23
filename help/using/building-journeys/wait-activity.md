@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 4%
+source-wordcount: '370'
+ht-degree: 5%
 
 ---
 
@@ -25,11 +25,9 @@ Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso,
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
-Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione temporale e una condizione diversa ma sovrapposta, l’attesa posizionata sopra sarà quella prioritaria. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. La prima attività di attesa avrà una priorità
+Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione temporale e una condizione diversa ma sovrapposta, l’attesa posizionata sopra sarà quella prioritaria. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. Viene data priorità alla prima attività di attesa .
 
 Inoltre, se due attese diverse sono in parallelo, quella che si verifica per prima verrà definita come priorità, indipendentemente dalla sua posizione verticale. Ad esempio, se un’attesa di 1 ora è superiore e un’attesa di 30 minuti è inferiore, dopo 30 minuti viene elaborata l’attesa di 30 minuti.
-
-Puoi definire una condizione se desideri limitare l’attesa a una determinata popolazione.
 
 >[!NOTE]
 >

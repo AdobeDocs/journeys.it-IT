@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 63%
+source-wordcount: '3164'
+ht-degree: 64%
 
 ---
 
@@ -18,11 +18,17 @@ ht-degree: 63%
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
 Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md) più recenti.
 
+## Versione di febbraio 2022 {#february-2022-release}
+
+### Miglioramenti
+
+* Per ottimizzare le prestazioni e impedire l’utilizzo di risorse obsolete, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato Bozza. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#important_notes)
+
 ## Versione di gennaio 2022 {#january-2022-release}
 
 ### Miglioramenti
 
-* È ora possibile collegare gli eventi dei passaggi Journey Orchestration ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). La **profileID** nello schema Evento passaggio Percorso integrato, il campo è ora definito come campo di identità. [Ulteriori informazioni](../building-journeys/sharing-overview.md#integration-cja)
+* È ora possibile collegare gli eventi dei passaggi Journey Orchestration ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il campo **profileID** nello schema integrato Evento passaggio percorso è ora definito come campo di identità. [Ulteriori informazioni](../building-journeys/sharing-overview.md#integration-cja)
 * La regola di limite per le azioni Adobe Campaign Standard è stata modificata in 4000 chiamate/5 minuti. [Ulteriori informazioni](../action/working-with-adobe-campaign.md)
 
 ## Versione di ottobre 2021 {#october-2021-release}
