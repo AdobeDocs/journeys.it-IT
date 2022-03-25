@@ -9,7 +9,7 @@ exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -63,7 +63,7 @@ Per avviare il rapporto, puoi aggiungere un set di pannelli a un rapporto predef
 
 Questo pannello consente di generare i rapporti in base alle esigenze. Puoi aggiungere tutti i pannelli desiderati nei rapporti per filtrare i dati in base a periodi di tempo diversi.
 
-1. Fai clic sul pulsante **[!UICONTROL Panels]** icona. Puoi anche aggiungere un pannello facendo clic sul pulsante **[!UICONTROL Insert tab]** e selezionando **[!UICONTROL New Blank Panel]**.
+1. Fai clic sull’icona **[!UICONTROL Panels]**. Puoi anche aggiungere un pannello facendo clic sul pulsante **[!UICONTROL Insert tab]** e selezionando **[!UICONTROL New Blank Panel]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
@@ -79,7 +79,7 @@ Le tabelle a forma libera consentono di creare una tabella per analizzare i dati
 
 Ogni tabella e visualizzazione può essere ridimensionata e spostata per personalizzare meglio il rapporto.
 
-1. Fai clic sul pulsante **[!UICONTROL Panels]** icona.
+1. Fai clic sull’icona **[!UICONTROL Panels]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 

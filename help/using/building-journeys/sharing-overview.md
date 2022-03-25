@@ -9,7 +9,7 @@ exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni sugli eventi dei passaggi che trasmettono a Adobe Exp
 
 ## Integrazione con Customer Percorsi Analytics{#integration-cja}
 
-Gli eventi dei passaggi di Journey Orchestration possono essere collegati ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Il flusso di lavoro generale è il seguente:
+Gli eventi dei passaggi di Journey Orchestration possono essere collegati ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il flusso di lavoro generale è il seguente:
 
 * Il Customer Journey Analytics acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * La **profileID** il campo nello &quot;schema evento del passaggio del Percorso per il Journey Orchestration&quot; associato è definito come campo Identity. Al Customer Journey Analytics, puoi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.

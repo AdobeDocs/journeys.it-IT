@@ -23,7 +23,7 @@ L’API Export-Import del Journey Orchestration è descritta all’interno di un
 
 Per utilizzare questa API con l’istanza di Journey Orchestration, è necessario utilizzare la console AdobeI/O. Per iniziare, segui questo [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e quindi utilizzare le sezioni di questa pagina.
 
-Per testare e preparare la tua integrazione è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
+Per testare e preparare l’integrazione è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 
 
 ## Flusso di esportazione-importazione
@@ -50,7 +50,7 @@ L’accesso API di Journey Orchestration è configurato attraverso i passaggi se
 
 >[!CAUTION]
 >
->Per gestire i certificati in Adobe I/O, assicurati di disporre di <b>Amministratore di sistema</b> diritti dell&#39;organizzazione o [account sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) in Admin Console.
+>Per gestire i certificati in Adobe I/O, assicurati di disporre di <b>Amministratore di sistema</b> diritti dell&#39;organizzazione o [account sviluppatore](https://helpx.adobe.com/it/enterprise/using/manage-developers.html) in Admin Console.
 
 1. **Verifica di disporre di un certificato digitale** oppure creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
 1. **Creare una nuova integrazione in [!DNL Journey Orchestration] Servizio** in Adobe I/O e configuralo. L’accesso al profilo di prodotto è necessario per Journey Orchestration e Adobe Experience Platform. Le credenziali verranno quindi generate (chiave API, segreto client...).

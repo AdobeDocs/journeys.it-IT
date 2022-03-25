@@ -10,7 +10,7 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
 source-wordcount: '1173'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ Per ulteriori informazioni sulla configurazione dell’azione o dell’origine d
 
 Per utilizzare questa API con la [!DNL Journey Orchestration] ad esempio, è necessario utilizzare la console AdobeI/O. Per iniziare, segui questo [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e quindi utilizzare le sezioni di questa pagina.
 
-Per testare e preparare la tua integrazione è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Per testare e preparare l’integrazione è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## Autenticazione
 
@@ -44,7 +44,7 @@ Per testare e preparare la tua integrazione è disponibile una raccolta Postman 
 
 >[!CAUTION]
 >
->Per gestire i certificati in Adobe I/O, assicurati di disporre di <b>Amministratore di sistema</b> diritti dell&#39;organizzazione o [account sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) in Admin Console.
+>Per gestire i certificati in Adobe I/O, assicurati di disporre di <b>Amministratore di sistema</b> diritti dell&#39;organizzazione o [account sviluppatore](https://helpx.adobe.com/it/enterprise/using/manage-developers.html) in Admin Console.
 
 1. **Verifica di disporre di un certificato digitale** oppure creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
 1. **Creare una nuova integrazione in [!DNL Journey Orchestration] Servizio** in Adobe I/O e configuralo. L’accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (chiave API, segreto client...).
@@ -169,7 +169,7 @@ In questa sezione sono disponibili i cinque casi d’uso principali che è possi
 
 Per facilitare i test e la configurazione, è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-Questa raccolta Postman è stata impostata per condividere la raccolta Postman Variable generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file Ambiente Postman con i valori di integrazioni selezionati.
+Questa raccolta Postman è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori di integrazioni selezionati.
 
 Una volta scaricata e caricata in Postman, devi aggiungere tre variabili: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL gateway

@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 62%
+ht-degree: 93%
 
 ---
 
@@ -95,7 +95,7 @@ Le funzioni di accessibilità di Adobe Journey Optimizer sono fornite da Adobe E
 * Contrasto colore
 * Convalida dei campi obbligatori
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
 
 In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da tastiera più comuni:
 
@@ -103,11 +103,11 @@ In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da 
 | --- | --- |
 | Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Scheda |
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
-| Sposta all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
+| Spostati all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
 | Annullare una selezione, comprimere un pannello o chiudere una finestra di dialogo | Esc |
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
 
 È possibile utilizzare queste scelte rapide in parti specifiche di Journey Optimizer:
 
@@ -120,22 +120,22 @@ In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da 
     </tr>
   </thead>
   <tr>
-    <td>Elenco di percorsi, azioni, origini dati o eventi</td>
+    <td>Elenco percorsi, azioni, origini dati o eventi</td>
     <td>Creare un percorso, un’azione, un’origine dati o un evento</td>
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Area di lavoro di percorso in stato bozza</td>
+    <td rowspan="3">Area di lavoro del percorso in stato bozza</td>
     <td>Aggiungi un’attività dalla palette a sinistra nella prima posizione disponibile, dall’alto verso il basso</td>
     <td>Fai doppio clic sull’attività</td>
   </tr>
   <tr>
     <td>Seleziona tutte le attività</td>
-    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td>Elimina le attività selezionate</td>
-    <td>Elimina o Backspace, quindi Inserisci per confermare l’eliminazione</td>
+    <td>Elimina o backspace, quindi premi Invio per confermare l’eliminazione</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -162,24 +162,24 @@ Riquadro di configurazione dei seguenti elementi:
     <td>Esc</td>
   </tr>
   <tr>
-    <td rowspan="4">Percorso in modalità di prova</td>
+    <td rowspan="4">Percorso in modalità di test</td>
     <td>Attivare o disattivare la modalità di test</td>
     <td>T</td>
   </tr>
   <tr>
-    <td>Attiva un evento in un percorso basato su eventi</td>
+    <td>Attivare un evento in un percorso basato su eventi</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-Attiva un evento in un percorso basato su segmenti per il quale il **[!UICONTROL Single profile at a time]** opzione attivata
+Attivare un evento in un percorso basato su segmenti per il quale è attivata l’opzione **[!UICONTROL Single profile at a time]**
 
 </td>
     <td>P</td>
   </tr>
   <tr>
-    <td>Visualizza i registri di test</td>
+    <td>Visualizzare i registri di test</td>
     <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
@@ -192,7 +192,7 @@ Attiva un evento in un percorso basato su segmenti per il quale il **[!UICONTROL
   <tr>
     <td>Campo di testo</td>
     <td>Seleziona tutto il testo nel campo selezionato</td>
-    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Finestra a comparsa</td>
@@ -206,16 +206,16 @@ Attiva un evento in un percorso basato su segmenti per il quale il **[!UICONTROL
   <tr>
     <td>Editor di espressioni semplici</td>
     <td>Selezionare e aggiungere un campo</td>
-    <td>Fare doppio clic su un campo</td>
+    <td>Fai doppio clic su un campo</td>
   </tr>
   <tr>
-    <td>Esplorazione dei campi XDM</td>
+    <td>Navigazione nei campi XDM</td>
     <td>Seleziona tutti i campi di un nodo</td>
-    <td>Selezionare il nodo principale</td>
+    <td>Seleziona il nodo principale</td>
   </tr>
   <tr>
     <td>Anteprima payload</td>
-    <td>Selezionare il payload</td>
-    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Seleziona il payload</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>

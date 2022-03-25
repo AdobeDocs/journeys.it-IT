@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDecimal
-description: Scopri la funzione suDecimal
+description: Learn about the function toDecimal
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -21,7 +21,7 @@ Converte un valore di argomento in un valore decimale, a seconda del tipo.
 
 Conversione
 
-## Sintassi della funzione
+## Function syntax
 
 `toDecimal(<parameter>)`
 
@@ -31,8 +31,8 @@ Conversione
 |--- |--- |
 | stringa | converte il valore della stringa come decimale |
 | dateTime | converte la data come numero di millisecondi (epoch millisecondi) |
-| booleano | converte il valore booleano in 1 se true, 0 se false |
-| integer | converte in un decimale (ad esempio.: 1 diventa 1,0) |
+| booleano | converts the boolean value as 1 if true, 0 if false |
+| integer | converts to a decimal (example.: 1 diventa 1,0) |
 
 ## Firme e tipi restituiti
 
@@ -50,4 +50,4 @@ Restituisce un decimale.
 
 `toDecimal("4.0")`
 
-Restituisce 4,0.
+Returns 4.0.

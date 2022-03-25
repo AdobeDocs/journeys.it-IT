@@ -9,7 +9,7 @@ exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -33,4 +33,4 @@ Questo abilita il connettore di origine Analytics per la suite di rapporti. Ogni
 
 ![](../assets/alpha-event9.png)
 
-Per ulteriori informazioni sul connettore di origine Adobe Analytics, consulta [documentazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Per ulteriori informazioni sul connettore di origine Adobe Analytics, consulta [documentazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it).
