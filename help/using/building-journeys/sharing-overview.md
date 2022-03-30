@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '506'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Per gli eventi delle fasi del profilo di percorso, l’attivazione avviene su richiesta. Non è possibile modificare o aggiornare gli schemi e i set di dati creati durante il provisioning per gli eventi delle fasi. Per impostazione predefinita, questi schemi e set di dati sono in modalità di sola lettura.
+>Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Non è possibile modificare o aggiornare gli schemi e i set di dati creati durante il provisioning per gli eventi delle fasi. Per impostazione predefinita, questi schemi e set di dati sono in modalità di sola lettura.
 
 Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità consente di combinare [!DNL Journey Orchestration] dati con dati evento a valle come quante conversioni si sono verificate, quanto coinvolgimento è avvenuto sul sito web o quante transazioni sono avvenute nel negozio. Le informazioni sul percorso possono essere combinate con i dati sul Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline per fornire una visione più completa delle prestazioni.
 
@@ -35,7 +35,6 @@ I percorsi inviano i dati mentre si verificano, in modo streaming. È possibile 
 
 Vengono creati i seguenti schemi:
 
-* Schema evento del profilo del passaggio del percorso per [!DNL Journey Orchestration] - Eventi di esperienza per i passaggi effettuati in un Percorso insieme a una mappa di identità da utilizzare per la mappatura a un singolo partecipante a un Percorso.
 * Schema evento del passaggio del percorso per [!DNL Journey Orchestration] - Evento Percorso associato a un Percorso di metadati.
 * Schema percorso con campi Percorso per [!DNL Journey Orchestration] - Metadati Percorso per descrivere i Percorsi.
 
@@ -45,7 +44,6 @@ Vengono creati i seguenti schemi:
 
 Vengono passati i seguenti set di dati:
 
-* Schema evento del profilo del passaggio del percorso per [!DNL Journey Orchestration]
 * Eventi percorso
 * Percorsi
 
@@ -60,7 +58,7 @@ Per ulteriori informazioni sugli eventi dei passaggi che trasmettono a Adobe Exp
 
 ## Integrazione con Customer Percorsi Analytics{#integration-cja}
 
-Gli eventi dei passaggi di Journey Orchestration possono essere collegati ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il flusso di lavoro generale è il seguente:
+Gli eventi dei passaggi di Journey Orchestration possono essere collegati ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il flusso di lavoro generale è il seguente:
 
 * Il Customer Journey Analytics acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * La **profileID** il campo nello &quot;schema evento del passaggio del Percorso per il Journey Orchestration&quot; associato è definito come campo Identity. Al Customer Journey Analytics, puoi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.
