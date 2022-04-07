@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 141937cd16d5676a80412b2b72750710ee1e537f
+source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 2%
+source-wordcount: '1573'
+ht-degree: 3%
 
 ---
 
@@ -201,11 +201,3 @@ Quando un evento viene attivato utilizzando la modalità di test, un set di dati
 Quando un evento viene attivato utilizzando la modalità di test, un set di dati viene generato automaticamente con il nome dell’origine.
 
 La modalità di test crea automaticamente un evento esperienza e lo invia a Adobe Experience Platform. Il nome dell&#39;origine di questo evento esperienza è &quot;Eventi test Journey Orchestration&quot;.
-
-Nel caso di più eventi attivati da più percorsi
-
-Esiste uno scenario in cui ci sono più eventi inviati da più percorsi che avranno schemi diversi. Lo schema può essere mappato su 1 set di dati? In caso contrario, saranno necessari più set di dati.
-
-La creazione e la denominazione automatica di questi set di dati viene eseguita se un set di dati di destinazione non è incluso nell’evento di esperienza. Ecco perché oggi vediamo il &quot;dataset creato automaticamente per voyager&quot;.
-
-La denominazione della nostra sorgente determina la creazione automatica. Se abbiamo più eventi, dovremmo concatenarli e farli diventare &quot;Evento di test Journey Orchestration - NOME DELLO SCHEMA&quot;. Viene automaticamente impostato su &quot;Set di dati generato automaticamente per evento di test Journey Orchestration - NAME OF SCHEMA&quot;.
