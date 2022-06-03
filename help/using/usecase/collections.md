@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Passaggio dinamico delle raccolte tramite azioni personalizzate
 description: Invio di un messaggio tramite Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 7%
@@ -66,6 +66,7 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
     ]
    }
    ```
+
 * Per testare le raccolte utilizzando la modalità di test, è necessario utilizzare la modalità di visualizzazione del codice. La modalità di visualizzazione del codice non è attualmente supportata per gli eventi aziendali. Puoi inviare una raccolta solo con un singolo elemento.
 
 ## Procedura generale {#general-procedure}
