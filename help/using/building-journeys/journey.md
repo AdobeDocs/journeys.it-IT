@@ -9,7 +9,7 @@ exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -21,9 +21,9 @@ L’interfaccia di percorso ti consente di trascinare facilmente le attività da
 
 È consentito un solo spazio dei nomi al percorso. Quando rilasci il primo evento, gli eventi con namespace diversi saranno disattivati. Se il primo evento non dispone di uno spazio dei nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. Consulta [questa pagina](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi Adobe Experience Platform sono disattivati se il percorso dispone di eventi senza spazio dei nomi. Infine, se utilizzi più eventi nello stesso percorso, questi dovranno utilizzare lo stesso namespace.
 
-Quando si avvia un nuovo percorso, gli elementi che non possono essere eliminati nell’area di lavoro come primo passaggio vengono nascosti. Questo riguarda tutte le azioni, l&#39;attività della condizione, l&#39;attesa e la reazione.
+Quando si avvia un nuovo percorso, gli elementi che non possono essere eliminati nell’area di lavoro come primo passaggio vengono nascosti. Questo riguarda tutte le azioni, l’attività della condizione, l’attesa e la reazione.
 
-## Avvio rapido {#creating_journey}
+## Guida introduttiva  {#creating_journey}
 
 Di seguito sono riportati i passaggi principali per creare e pubblicare un percorso.
 
