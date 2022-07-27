@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '355'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 5%
 Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso, puoi utilizzare un **[!UICONTROL Wait]** attività. Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
 * [Durata](#duration)
-* [Data fissa](#fixed_date)
 * [Personalizzato](#custom)
-
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informazioni sull’attività Attendi{#about_wait}
@@ -40,12 +38,6 @@ Inoltre, se due attese diverse sono in parallelo, quella che si verifica per pri
 Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva.
 
 ![](../assets/journey55.png)
-
-## Attesa data fissa{#fixed_date}
-
-Seleziona la data di esecuzione dell’attività successiva.
-
-![](../assets/journey56.png)
 
 ## Attesa personalizzata{#custom}
 

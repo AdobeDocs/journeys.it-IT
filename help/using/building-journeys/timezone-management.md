@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -24,7 +24,6 @@ Questo fuso orario verrà utilizzato per ogni attività del percorso contenente 
 * [Condizione di tempo](../building-journeys/condition-activity.md#time_condition)
 * [Condizione data](../building-journeys/condition-activity.md#date_condition)
 * [Attesa personalizzata](../building-journeys/wait-activity.md#custom)
-* [Attesa data fissa](../building-journeys/wait-activity.md#fixed_date)
 
 Puoi selezionare un fuso orario o scegliere di utilizzarlo nel profilo utente.
 
@@ -42,13 +41,9 @@ Per farlo, in **[!UICONTROL Properties]**, seleziona un fuso orario.
 
 ## Utilizzo dei profili per definire il fuso orario percorso {#timezone-from-profiles}
 
-Se l’evento di ingresso del percorso ha uno spazio dei nomi, ovvero il percorso può raggiungere il servizio Profilo cliente in tempo reale di Adobe Experience Platform, il fuso orario è predefinito con quello specificato nel profilo del singolo utente che scorre nel percorso.
+Se l’evento di ingresso del percorso dispone di uno spazio dei nomi, ovvero se il percorso può raggiungere il servizio Profilo cliente in tempo reale di Adobe Experience Platform, puoi utilizzare il fuso orario definito a livello di profilo. Per farlo, in **Proprietà**, controlla **Usa fuso orario del profilo in attese e condizioni**. Questa opzione non è selezionata per impostazione predefinita.
 
-Se un fuso orario è definito nel profilo Adobe Experience Platform, può essere recuperato nel percorso.
-
-Se il profilo della persona non contiene un fuso orario, il fuso orario recuperato sarà quello definito nel campo relativo al fuso orario.
-
-Per farlo, in **[!UICONTROL Properties]**, controlla **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Se è stato definito un fuso orario per un profilo, questo verrà recuperato e utilizzato dal percorso. In caso contrario, il fuso orario utilizzato sarà quello definito nel campo relativo al fuso orario.
 
 ![](../assets/journey73.png)
 
