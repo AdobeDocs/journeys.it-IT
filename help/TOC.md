@@ -5,9 +5,9 @@ title: Guida di Journey Orchestration
 user-guide-description: Istruzioni per l’implementazione e la creazione dei percorsi dei clienti.
 index: true
 feature: Journeys
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 19760b779c2b105286d502b3bf4edda5bec79194
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 + Novità {#release-notes}
    + [Note sulla versione](using/release-notes/release-notes.md)
    + [Aggiornamenti alla documentazione](using/release-notes/documentation-updates.md)
+   + [Migrazione a Journey Optimizer](using/release-notes/migration-to-ajo.md)
 + Primi passi con [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Informazioni su [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitazioni ](using/about/limitations.md)
@@ -152,7 +153,7 @@ ht-degree: 99%
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
          + [intersect](using/functions/functionintersect.md)
-         + [limite](using/functions/functionlimit.md)
+         + [limit](using/functions/functionlimit.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
