@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Luglio 2022 {#july-2022}
 
-* Nelle proprietà del percorso, il **Fuso orario del profilo** per impostazione predefinita, l’opzione è disabilitata. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
-* In **Wait** l&#39;attività **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
+* Nelle proprietà del percorso, l’opzione **Fuso orario del profilo** è disabilitata per impostazione predefinita. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
+* Nell’attività **Attendi** l’opzione **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 
 ## Giugno 2022 {#june-2022}
 
-* Sono stati aggiunti nuovi esempi di query a questo [page](../building-journeys/query-examples.md)
+* Sono stati aggiunti nuovi esempi di query in questa [pagina](../building-journeys/query-examples.md).
 
 ## Marzo 2022 {#march-2022}
 
@@ -86,7 +86,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiunte le best practice per evitare il sovraccarico con la qualificazione dei segmenti. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Ulteriori informazioni](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * È stata aggiunta una nuova sezione sulle funzioni alfa testate da un gruppo limitato di clienti.
-* È stata aggiunta una nuova sezione sull’integrazione con i servizi intelligenti. [Ulteriori informazioni](../ai-services/ai-services-overview.md)
+* È stata aggiunta una nuova sezione sull’integrazione con Intelligent Services. [Ulteriori informazioni](../ai-services/ai-services-overview.md)
 * È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
 * Sono state aggiunte informazioni su come utilizzare il nodo **[!UICONTROL SegmentQualification]** in una condizione o azione di percorso. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
 * È stata aggiunta una nota al messaggio transazionale di Campaign e alla pubblicazione dell’evento. Consulta [Utilizzo di Adobe Campaign](../action/working-with-adobe-campaign.md) e [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md).
