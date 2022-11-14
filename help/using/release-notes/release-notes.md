@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3274'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 
 ### Miglioramenti
 
-* **Editor espressioni** - [limite](../functions/functionlimit.md) è stata aggiunta la funzione per consentire di limitare il numero di elementi di un elenco. La [sort](../functions/functionsort.md) consente ora di ordinare un oggetto elenco. È stato aggiunto anche il supporto di listObject al [disctinct](../functions/functiondistinct.md) e [distinctWithNull](../functions/functiondistinctwithnull.md) funzioni.
+* **Editor espressioni**: è stata aggiunta la funzione [limit](../functions/functionlimit.md) per consentire di limitare il numero di elementi di un elenco. La funzione [sort](../functions/functionsort.md) consente ora di ordinare un oggetto elenco. È stato aggiunto anche il supporto di listObject alle funzioni [disctinct](../functions/functiondistinct.md) e [distinctWithNull](../functions/functiondistinctwithnull.md).
 
 ## Versione di marzo 2022 {#feb-2022-release}
 
@@ -135,7 +135,7 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/d
 
 * Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](../about/external-systems.md#capping)
 * Gli editor di espressioni semplici e avanzate ora supportano il formato data XDM.
-* Nella schermata dell’elenco dei percors è stato aggiunto un nuovo filtro. Ora puoi filtrare per tipo di percorso: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Ulteriori informazioni](../about/user-interface.md#section_lgm_hpz_pgb)
+* Nella schermata dell’elenco dei percorsi è stato aggiunto un nuovo filtro. Ora puoi filtrare per tipo di percorso: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Ulteriori informazioni](../about/user-interface.md#section_lgm_hpz_pgb)
 * Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. Queste informazioni sono disponibili anche quando si copiano i dettagli tecnici del percorso. [Ulteriori informazioni](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Versione di aprile 2021 {#april-2021-release}
@@ -560,7 +560,7 @@ L’interfaccia Journey Orchestration è disponibile in giapponese.
 <td>
 <p>È stata migliorata la <strong>palette</strong> del percorso, posizionata a sinistra rispetto al designer del percorso:</p>
 <ul>
-<li>Una nuova icona, posta accanto alla barra di <strong>ricerca</strong>, consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio quelli che utilizzano uno spazio dei nomi diverso rispetto a quelli usati nel percorso. Per impostazione predefinita, gli elementi non disponibili sono nascosti.</li>
+<li>Una nuova icona, posta accanto alla barra di <strong>ricerca</strong>, consente di nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio gli eventi che utilizzano uno spazio dei nomi diverso rispetto a quelli usati nel percorso. Per impostazione predefinita, gli elementi non disponibili sono nascosti.</li>
 <li>Quando si utilizza il campo <strong>ricerca</strong>, ora viene visualizzato il numero di risultati per ogni categoria di attività dell’area di lavoro.</li>
 <li>È stata migliorata la navigazione tra le diverse categorie di attività.</li>
 </ul>
