@@ -6,9 +6,9 @@ user-guide-description: Istruzioni per l’implementazione e la creazione dei pe
 index: true
 feature: Journeys
 source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -190,7 +190,7 @@ ht-degree: 99%
    + [Metriche e dimensioni](using/reporting/metrics-and-dimensions.md)
 + Integrazione con Intelligent Services{#use-case-advanced}
    + [Informazioni sull’integrazione con l’intelligenza artificiale](using/ai-services/ai-services-overview.md)
-   + [Sfruttare IA analisi cliente](using/ai-services/leveraging-customer-ai.md)
+   + [Sfruttare IA per l&#39;analisi dei clienti](using/ai-services/leveraging-customer-ai.md)
 + Casi d’uso{#use-cases-journeys}
    + Invio di un’e-mail personalizzata{#use-case-simple}
       + [Informazioni sul caso d’uso semplice](using/usecase/about-the-simple-use-case.md)
