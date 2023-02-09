@@ -13,7 +13,7 @@ ht-degree: 16%
 
 ---
 
-# casuale {#random}
+# random {#random}
 
 Genera un numero casuale compreso tra 0 e 1.
 

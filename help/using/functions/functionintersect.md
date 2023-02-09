@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# intersecare{#intersect}
+# intersect{#intersect}
 
 Restituisce i valori comuni nei due elenchi di input. Se uno dei due elenchi è nullo, restituisce un elenco vuoto.
 
@@ -29,8 +29,8 @@ Elenco
 
 | Parametro | Tipo |
 |-----------|------------------|
-| elenco 1 | elenco |
-| elenco 2 | elenco |
+| elenco 1 | list |
+| elenco 2 | list |
 
 ## Firme e tipi restituiti
 

@@ -9,7 +9,7 @@ exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ La **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** le opzioni co
 
 È possibile chiudere manualmente un percorso per garantire che i clienti che sono già entrati nel percorso possano completare il loro percorso ma i nuovi utenti non siano in grado di accedere al percorso.
 
-Una volta chiuso, un percorso avrà lo stato **[!UICONTROL Closed (no entrance)]**. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](../building-journeys/changing-properties.md#entrance).
+Una volta chiuso, un percorso avrà lo stato **[!UICONTROL Closed (no entrance)]**. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Consulta questa [sezione](../building-journeys/changing-properties.md#entrance).
 
 Impossibile riavviare o eliminare una versione di un percorso chiuso. Puoi crearne una nuova versione o duplicarla. È possibile eliminare solo i percorsi finiti.
 

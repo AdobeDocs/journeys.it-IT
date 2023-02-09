@@ -9,7 +9,7 @@ exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibi
 
 Quando un percorso &quot;termina&quot;, avrà lo stato **[!UICONTROL Closed (no entrance)]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso.
 
-Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](#global_timeout).
+Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Consulta questa [sezione](#global_timeout).
 
 ## Timeout ed errore nelle attività del percorso {#timeout_and_error}
 

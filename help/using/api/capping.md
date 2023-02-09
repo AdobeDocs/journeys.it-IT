@@ -32,7 +32,7 @@ Per ulteriori informazioni sulla configurazione dell’azione o dell’origine d
 >
 >La [!DNL Journey Orchestration] L’API di limitazione di utilizzo è descritta in un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Per utilizzare questa API con la [!DNL Journey Orchestration] ad esempio, è necessario utilizzare la console AdobeI/O. Per iniziare, segui questo [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e quindi utilizzare le sezioni di questa pagina.
+Per utilizzare questa API con la [!DNL Journey Orchestration] ad esempio, è necessario utilizzare la console AdobeI/O. Per iniziare, segui questo [Guida introduttiva alla console Adobe Developer](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e quindi utilizzare le sezioni di questa pagina.
 
 Per testare e preparare l’integrazione è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -187,7 +187,7 @@ Caso d’uso n° 1: **Creazione e distribuzione di una nuova configurazione di t
 
 Caso d’uso n° 2: **Aggiornare e distribuire una configurazione di limite non ancora distribuita**
 
-1. elenco
+1. list
 1. get
 1. update
 1. canonizzare
@@ -195,19 +195,19 @@ Caso d’uso n° 2: **Aggiornare e distribuire una configurazione di limite non 
 
 Caso d’uso n° 3: **Disdistribuire ed eliminare una configurazione di limitazione distribuita**
 
-1. elenco
+1. list
 1. non distribuire
 1. delete
 
 Caso d’uso n° 4: **Elimina una configurazione di limitazione distribuita.**
 
 In una sola chiamata API, puoi annullare la distribuzione ed eliminare la configurazione utilizzando il parametro forceDelete .
-1. elenco
+1. list
 1. elimina, con param forceDelete
 
 Caso d’uso n° 5: **Aggiornare una configurazione di limite già distribuita**
 
-1. elenco
+1. list
 1. get
 1. update
 1. non distribuire

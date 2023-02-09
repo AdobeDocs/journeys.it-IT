@@ -27,7 +27,7 @@ Stringa
 
 ## Parametro
 
-* stringa
+* string
 
 ## Firma e tipo restituito
 

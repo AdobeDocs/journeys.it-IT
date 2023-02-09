@@ -9,7 +9,7 @@ exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -23,19 +23,19 @@ Se il passaggio dispone di un’azione da elaborare, tali campi verranno aggiunt
 
 ID dell&#39;azione in corso di esecuzione.
 
-Tipo: string
+Tipo: stringa
 
 ## actionName
 
 Nome dell’azione. Se non è stato impostato alcun nome, viene eseguito stepName.
 
-Tipo: string
+Tipo: stringa
 
 ## actionType
 
 Tipo di azione.
 
-Tipo: string
+Tipo: stringa
 
 ## actionParameter
 
@@ -53,7 +53,7 @@ Tipo: long
 
 Tipo di errore che si verifica quando viene chiamata l&#39;azione.
 
-Tipo: string
+Tipo: stringa
 
 Valori:
 * http
@@ -65,7 +65,7 @@ Valori:
 
 Errore di esecuzione del codice per l&#39;azione. Presente se l&#39;errore ha un codice, ad esempio uno HTTP.
 
-Tipo: string
+Tipo: stringa
 
 ## actionExecutionOriginError
 
@@ -87,13 +87,13 @@ Ad esempio, viene inviata un’e-mail e al primo tentativo viene restituito un e
     "actionExecOrigErrorCode": "500"
 ```
 
-Tipo: string
+Tipo: stringa
 
 ## actionExecutionOriginCode
 
 Codice di errore dell&#39;actionExecOrigError.
 
-Tipo: string
+Tipo: stringa
 
 ## actionBusinessType
 
@@ -109,19 +109,19 @@ Valori:
 * Epsilon
 * ...
 
-Tipo: string
+Tipo: stringa
 
 ## deliveryJobID
 
 Questo descrive l’ID del processo di consegna per il Percorso batch.
 
-Tipo: string
+Tipo: stringa
 
 ## batchDeliveryID
 
 Questo descrive l’ID di consegna per il Percorso batch.
 
-Tipo: string
+Tipo: stringa
 
 ## fromSegmentTrigger
 

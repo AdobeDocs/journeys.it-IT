@@ -9,7 +9,7 @@ exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
 workflow-type: tm+mt
 source-wordcount: '1428'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -53,7 +53,7 @@ La **[!UICONTROL Filter items]** nell’angolo in alto a sinistra consente di vi
 
 È inoltre possibile utilizzare **[!UICONTROL Search]** campo . Solo gli eventi e le azioni vengono filtrati.
 
-## Il quadro {#canvas}
+## L’area di lavoro {#canvas}
 
 La **tela** è la zona centrale del designer del percorso. È in questa zona che puoi rilasciare le attività e configurarle. Fai clic su un’attività nell’area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell’attività sul lato destro. È possibile ingrandire e ridurre utilizzando i pulsanti &quot;+&quot; e &quot;-&quot; in alto a destra. Nell’area di lavoro, tutte le attività ti consentono di aggiungere un passaggio successivo, tranne **[!UICONTROL End]** attività (vedi [questa pagina](../building-journeys/end-activity.md)).
 

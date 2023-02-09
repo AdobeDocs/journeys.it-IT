@@ -45,7 +45,7 @@ Per ulteriori informazioni sulla configurazione degli eventi, consulta [questa p
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-1. Fai clic sul pulsante **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema e condividerlo con la persona responsabile dell’invio dell’evento. Questo payload deve essere configurato nel postback della console di amministrazione di Mobile Services.
+1. Fai clic sul pulsante **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema e condividerlo con la persona responsabile dell’invio dell’evento. Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
 
    ![](../assets/journeyuc1_7.png)
 

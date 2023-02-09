@@ -6,11 +6,11 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Creare profili di test {#create-test-profiles}
+# Crea profili di test {#create-test-profiles}
 
 I profili di test sono necessari quando si utilizza la modalità di test in un percorso. Per informazioni su come utilizzare la modalità di test, consulta [questa sezione](../building-journeys/testing-the-journey.md).
 
@@ -31,7 +31,7 @@ Per prima cosa, devi **creare uno schema**. Segui questi passaggi:
 1. Fai clic su **[!UICONTROL Create schema]**, in alto a destra, quindi seleziona un tipo di schema, ad esempio **[!UICONTROL XDM Individual Profile]**.
    ![](../assets/test-profiles-1.png)
 1. Scegli un nome per lo schema.
-1. In **[!UICONTROL Mixins]** sezione, fai clic su **[!UICONTROL Add]**.
+1. Dalla sezione **[!UICONTROL Mixins]**, fai clic su **[!UICONTROL Add]**.
    ![](../assets/test-profiles-1-bis.png)
 1. Selezionare i mixin appropriati. Assicurati di aggiungere la **[!UICONTROL Profile test details]** mixin. Fai clic su **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
@@ -99,7 +99,7 @@ I profili di test vengono aggiunti e possono ora essere utilizzati durante il te
 
 ## Creazione di profili di test tramite chiamate API{#create-test-profiles-api}
 
-Puoi anche creare profili di test tramite chiamate API. Consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Puoi anche creare profili di test tramite chiamate API. Consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it).
 
 Devi utilizzare uno schema di profilo contenente il mixin &quot;Dettagli del test di profilo&quot;. Il flag testProfile fa parte di questo mixin.
 

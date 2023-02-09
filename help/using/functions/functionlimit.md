@@ -1,18 +1,19 @@
 ---
 product: adobe campaign
-title: limite
+title: limit
 description: Scopri il limite di funzioni
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
+source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
-# limite {#limit}
+# limit {#limit}
 
 Restituisce il primo o l’ultimo N elementi di un elenco.
 

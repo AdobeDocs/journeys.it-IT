@@ -31,9 +31,9 @@ Stringa
 
 | Parametro | Tipo |
 |-----------|--------------|
-| base | stringa |
+| base | string |
 | target | string (RegExp) |
-| sostituzione | stringa |
+| sostituzione | string |
 
 ## Firma e tipo restituito
 

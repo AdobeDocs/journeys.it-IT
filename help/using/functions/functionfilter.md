@@ -30,7 +30,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToFilter | listObject | elenco di oggetti da filtrare. Deve essere un riferimento di campo. |
-| keyAttributeName | stringa | nome dell’attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtraggio |
+| keyAttributeName | string | nome dell’attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtraggio |
 | keyValueList | list | array di valori chiave per il filtro |
 
 ## Firme e tipi restituiti

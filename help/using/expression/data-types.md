@@ -9,7 +9,7 @@ exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ Tecnicamente, una costante contiene sempre un tipo di dati. Nell’espressione l
 
 Le sezioni seguenti forniscono informazioni sulle diverse espressioni del tipo di dati e sulla relativa rappresentazione.
 
-## stringa {#string}
+## string {#string}
 
 **Descrizione**
 
@@ -49,7 +49,7 @@ Formato di serializzazione: UTF-8
 'hello world'
 ```
 
-## integer {#integer}
+## numero intero {#integer}
 
 **Descrizione**
 
@@ -69,7 +69,7 @@ Formato JSON: Numero
 42
 ```
 
-## decimale {#decimal}
+## decimal {#decimal}
 
 **Descrizione**
 
@@ -194,7 +194,7 @@ Formato di serializzazione: Formato data-ora offset esteso ISO-8601.
 
 Utilizza DateTimeForsubject ISO_OFFSET_DATE_TIME per deserializzare e serializzare il valore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-È inoltre possibile passare un numero intero che passa un valore epoch. [Ulteriori informazioni](https://www.epochconverter.com)
+È inoltre possibile passare un numero intero che passa un valore epoch. [Maggiori informazioni](https://www.epochconverter.com)
 
 Il fuso orario può essere specificato da un codice di offset o di fuso orario (ad esempio: Europa/Parigi, Z - significato UTC).
 

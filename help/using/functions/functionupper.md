@@ -13,7 +13,7 @@ ht-degree: 17%
 
 ---
 
-# superiore {#upper}
+# upper {#upper}
 
 Restituisce una versione in maiuscolo del parametro .
 

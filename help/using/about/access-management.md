@@ -36,7 +36,7 @@ All’interno di Admin Console, puoi assegnare agli utenti uno dei seguenti prof
    * Gestione dei percorsi
    * Pubblicazione dei percorsi
    * Gestione di eventi, origini dati e azioni
-   * Gestione dei rapporti
+   * Gestire i rapporti
 
    >[!NOTE]
    >
@@ -45,7 +45,7 @@ All’interno di Admin Console, puoi assegnare agli utenti uno dei seguenti prof
 * **[!UICONTROL Standard User]**: utente con accesso di base, ad esempio gestione del percorso. Questo profilo di prodotto include le seguenti autorizzazioni:
    * Gestione dei percorsi
    * Pubblicazione dei percorsi
-   * Gestione dei rapporti
+   * Gestire i rapporti
    * Lettura di eventi, origini dati e azioni
 
 Puoi anche creare profili di prodotto personalizzati, se i profili forniti non sono sufficienti per la gestione dei tuoi utenti.
@@ -141,6 +141,6 @@ L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all�
 Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. Per ulteriori informazioni su come assegnare le sandbox, consulta questa [sezione](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] riflette le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
-Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. Per conoscere i passaggi dettagliati, fai riferimento alla [guida utente sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. Per conoscere i passaggi dettagliati, fai riferimento alla [guida utente sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it).
 
 Il controllo del commutatore sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.

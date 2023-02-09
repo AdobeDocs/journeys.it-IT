@@ -29,7 +29,7 @@ Stringa
 
 | Parametro | Tipo |
 |-----------|------------------|
-| stringa | stringa |
+| string | string |
 
 ## Firma e tipo restituito
 

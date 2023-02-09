@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Utilizzo di azioni personalizzate {#section_f2c_hbg_nhb}
 
-Il riquadro di configurazione dell’attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
+Il riquadro di configurazione dell’attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. [Maggiori informazioni](../action/about-custom-action-configuration.md).
 
 ## Configurazione URL
 
@@ -25,9 +25,9 @@ Se l’URL include un percorso dinamico, specifica il percorso nel **[!UICONTROL
 
 >[!NOTE]
 >
->Non puoi impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
+>Non puoi impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Maggiori informazioni](../action/about-custom-action-configuration.md).
 
-Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno Più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o tra virgolette doppie (&quot;). [Ulteriori informazioni](../expression/expressionadvanced.md).
+Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno Più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o tra virgolette doppie (&quot;). [Maggiori informazioni](../expression/expressionadvanced.md).
 
 Questa tabella mostra un esempio di configurazione:
 
@@ -44,7 +44,7 @@ L’URL concatenato ha questo modulo:
 
 ### Intestazioni
 
-La **[!UICONTROL URL Configuration]** La sezione mostra i campi di intestazione dinamici, ma non i campi di intestazione costanti. I campi di intestazione dinamica sono campi di intestazione HTTP il cui valore è configurato come variabile. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
+La **[!UICONTROL URL Configuration]** La sezione mostra i campi di intestazione dinamici, ma non i campi di intestazione costanti. I campi di intestazione dinamica sono campi di intestazione HTTP il cui valore è configurato come variabile. [Maggiori informazioni](../action/about-custom-action-configuration.md).
 
 Se necessario, specifica il valore dei campi di intestazione dinamici:
 
@@ -57,7 +57,7 @@ Se necessario, specifica il valore dei campi di intestazione dinamici:
 
 ## Parametri azione
 
-In **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. [Ulteriori informazioni](../expression/expressionadvanced.md).
+In **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. [Maggiori informazioni](../expression/expressionadvanced.md).
 
 **Argomenti correlati**
 

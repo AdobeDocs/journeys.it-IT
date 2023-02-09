@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Informazioni sulle origini dati
-description: 'Informazioni su come configurare un’origine dati '
+description: Informazioni su come configurare un’origine dati
 feature: Journeys
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -44,7 +44,7 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 >
 >La configurazione dell’origine dati viene sempre eseguita da un **utente tecnico**.
 
-1. Nel riquadro dei menu, seleziona **[!UICONTROL Admin]**. In **[!UICONTROL Data sources]** sezione, fai clic su **[!UICONTROL Manage]**.
+1. Nel riquadro dei menu, seleziona **[!UICONTROL Admin]**. Dalla sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
 
    Viene visualizzato l’elenco delle origini dati. Vedi [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
 

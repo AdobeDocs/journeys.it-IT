@@ -52,7 +52,7 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
 
 ## Limitazioni  {#limitations}
 
-* Le matrici nidificate di oggetti all&#39;interno di un array di oggetti non sono attualmente supportate. Esempio:
+* Le matrici nidificate di oggetti all&#39;interno di un array di oggetti non sono attualmente supportate. Ad esempio:
 
    ```
    {

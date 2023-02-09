@@ -49,7 +49,7 @@ La tabella seguente fornisce l’elenco delle dimensioni di consegna utilizzate 
 | **Nome consegna** | Etichetta e ID della consegna. |
 | **Dispositivo** | Dispositivo da cui è stata aperta/visualizzata/su la notifica e-mail/SMS/push. |
 | **Tipo di messaggio** | Canale utilizzato per la consegna, ad esempio e-mail, SMS, notifiche push o in-app. |
-| **Nome app Mobile** | Nome dell’app mobile |
+| **Nome app mobile** | Nome dell’app mobile |
 | **Piattaforma** | Piattaforma del dispositivo da cui il messaggio è stato aperto, visualizzato o su cui è stato fatto clic. |
 | **[!UICONTROL Push platform]** | Piattaforma del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android. |
 | **Dominio destinatario** | Dominio utilizzato per aprire l’e-mail. |
@@ -91,7 +91,7 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti s
 | **Tasso di Elenco Bloccati** | Numero totale di messaggi in inserire nell&#39;elenco Bloccati rispetto ai messaggi inviati. |
 | **Rimbalzi + errori** | Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati. |
 | **Rimbalzo + tasso di errore** | Numero totale di messaggi rimbalzati rispetto ai messaggi inviati. |
-| **Click** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
+| **Fai clic su** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
 | **Frequenza di click-through** | Numero totale di clic in una consegna rispetto al numero di messaggi inviati. |
 | **Consegnate** | Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati. |
 | **Tasso di consegna** | Numero totale di messaggi consegnati correttamente rispetto ai messaggi inviati. |

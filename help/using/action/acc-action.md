@@ -9,7 +9,7 @@ exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 7%
 
 Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 21.1 e Adobe Campaign v8. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
 
-La connessione tra le istanze Journey Orchestration e Campaign viene impostata per Adobe al momento del provisioning.
+La connessione tra le istanze Journey Orchestration e Campaign viene impostata da Adobe al momento del provisioning.
 
 In questo viene presentato un caso d’uso end-to-end [sezione](../usecase/campaign-classic-use-case.md).
 
-Per ogni azione configurata, nella palette Progettazione percorsi è disponibile un’attività di azione. Fai riferimento a questo [sezione](../building-journeys/using-adobe-campaign-classic.md).
+Per ogni azione configurata, nella palette Progettazione percorsi è disponibile un’attività di azione. Fai riferimento a questa [sezione](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Note importanti
 
@@ -62,7 +62,7 @@ Ecco un esempio:
 
 Al Journey Orchestration, devi configurare un’azione per messaggio transazionale. Segui questi passaggi:
 
-1. Crea una nuova azione. Fai riferimento a questo [sezione](../action/action.md).
+1. Crea una nuova azione. Fai riferimento a questa [sezione](../action/action.md).
 1. Immetti un nome e una descrizione.
 1. In **Tipo di azione** campo , seleziona **Adobe Campaign Classic**.
 1. Fai clic in **Payload** e incolla un esempio del payload JSON corrispondente al messaggio Campaign. Per ottenere questo payload, contatta l’Adobe .

@@ -9,7 +9,7 @@ exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Tipo: long
 
 Definisce se il recupero in errore si trova in Adobe Experience Platform o in un’origine dati personalizzata.
 
-Tipo: string
+Tipo: stringa
 
 Valori:
 * aep
@@ -39,7 +39,7 @@ Valori:
 
 Tipo di errore che si verifica quando il recupero dei dati viene elaborato.
 
-Tipo: string
+Tipo: stringa
 
 Valori:
 * http
@@ -51,7 +51,7 @@ Valori:
 
 Errore di recupero del codice. Presente se l&#39;errore ha un codice, ad esempio uno HTTP. Ad esempio, se actionExecError è http, il codice 404 rappresenta l&#39;errore HTTP 404.
 
-Tipo: string
+Tipo: stringa
 
 ## fetchOriginError
 
@@ -71,13 +71,13 @@ Ad esempio, i dati vengono recuperati da Unified Profile Service e viene restitu
     "fetchOrigErrorCode": "500"
 ```
 
-Tipo: string
+Tipo: stringa
 
 ## fetchOriginErrorCode
 
 Codice di errore fornito dal sistema [!DNL Journey Orchestration] sta eseguendo una query. Ad esempio può essere un 404, 500, ecc.
 
-Tipo: string
+Tipo: stringa
 
 ## fetchCount
 

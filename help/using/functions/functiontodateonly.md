@@ -29,7 +29,7 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| data in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato XDM Data) | stringa |
+| data in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato XDM Data) | string |
 | data | data |
 
 ## Firme e tipi restituiti

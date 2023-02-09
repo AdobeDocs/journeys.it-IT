@@ -21,7 +21,7 @@ Questa funzione consente di gestire i percorsi in più istanze o per più flussi
 
 L’API Export-Import del Journey Orchestration è descritta all’interno di un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Per utilizzare questa API con l’istanza di Journey Orchestration, è necessario utilizzare la console AdobeI/O. Per iniziare, segui questo [Guida introduttiva ad Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e quindi utilizzare le sezioni di questa pagina.
+Per utilizzare questa API con l’istanza di Journey Orchestration, è necessario utilizzare la console AdobeI/O. Per iniziare, segui questo [Guida introduttiva alla console Adobe Developer](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e quindi utilizzare le sezioni di questa pagina.
 
 Per testare e preparare l’integrazione è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 

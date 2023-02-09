@@ -9,7 +9,7 @@ exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 2%
+ht-degree: 63%
 
 ---
 
@@ -25,8 +25,8 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 ## Limitazioni delle versioni di percorso {#journey-versions-limitations}
 
-* Un percorso che inizia con un’attività evento nella versione 1 non può iniziare con un elemento diverso da un evento in ulteriori versioni. Non è possibile avviare un percorso con un **Qualificazione del segmento** evento.
-* Un percorso che inizia con un **Qualificazione del segmento** l’attività nella versione v1 deve sempre iniziare con un **Qualificazione del segmento** in ulteriori versioni.
+* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Non è possibile avviare un percorso con un evento **Qualificazione del segmento**.
+* Un percorso che inizia con un’attività di **Qualificazione del segmento** nella versione v1 deve sempre iniziare con una **Qualificazione del segmento** nelle altre versioni.
 * Segmento e spazio dei nomi scelti in **Qualificazione di un segmento** (primo nodo) non può essere modificato nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
 
@@ -37,16 +37,16 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 ## Limitazioni delle azioni personalizzate
 
-* L&#39;URL dell&#39;azione personalizzata non supporta i parametri dinamici. 
+* L’URL dell’azione personalizzata non supporta i parametri dinamici. 
 * Sono supportati solo i metodi di chiamata POST e PUT. 
-* Il nome del parametro o dell&#39;intestazione della query non deve iniziare con &quot;.&quot; oppure &quot;$&quot;. 
+* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”. 
 * Gli indirizzi IP non sono consentiti. 
-* Indirizzi di Adobe interni (.adobe.) non sono consentiti.
+* Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
  
 
 ## Limitazioni delle azioni Adobe Campaign
 
-* I messaggi transazionali Adobe Campaign Standard hanno una scala massima di 50.000 messaggi all&#39;ora su tutti i canali per una determinata istanza. Vedi [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* I messaggi transazionali Adobe Campaign Standard hanno una scala massima di 50.000 messaggi all&#39;ora su tutti i canali per una determinata istanza. Vedi [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limiti degli eventi
@@ -56,16 +56,16 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 ## Limiti delle origini dati
 
-* Le origini dati esterne possono essere utilizzate all’interno di un percorso di clienti per cercare dati esterni in tempo reale. Queste sorgenti devono essere utilizzabili tramite API REST, supportare JSON e poter gestire il volume di richieste.
+* Le origini dati esterne possono essere utilizzate all’interno di un percorso di clienti per cercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
 
 ## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 
-In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. L’obiettivo a livello di servizio (SLT) in termini di latenza è &lt; 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
+In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. Il target livello di servizio (Service Level Target, SLT) in termini di latenza è &lt; di 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
 
 Se un Percorso viene attivato simultaneamente per la creazione di un profilo e controlla/recupera immediatamente le informazioni dal Servizio profili, potrebbe non funzionare correttamente.
 
 Puoi scegliere una delle due soluzioni seguenti:
 
-* Aggiungi un’attività di attesa dopo il primo evento, per dare a Adobe Experience Platform il tempo necessario per eseguire l’acquisizione in Profile Service.
+* Aggiungi un’attività di attesa dopo il primo evento, per dare ad Adobe Experience Platform il tempo necessario per eseguire l’acquisizione nel servizio profilo.
 
-* Imposta un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
+* Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc).

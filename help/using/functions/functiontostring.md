@@ -9,7 +9,7 @@ exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -32,8 +32,8 @@ Conversione
 | dateTime | converte la data in formato data UTC |
 | dateTimeOnly | converte la data in formato data UTC |
 | durata | convertire nel numero corrispondente di millisecondi come stringa |
-| integer | converte in rappresentazione stringa del valore (1 diventa &quot;1&quot;) |
-| decimale | converte in rappresentazione stringa del valore (1.5 diventa &quot;1.5&quot;) |
+| numero intero | converte in rappresentazione stringa del valore (1 diventa &quot;1&quot;) |
+| decimal | converte in rappresentazione stringa del valore (1.5 diventa &quot;1.5&quot;) |
 | booleano | converte il valore booleano come &#39;true&#39; se true, &#39;false&#39; se false |
 
 ## Firme e tipo restituito

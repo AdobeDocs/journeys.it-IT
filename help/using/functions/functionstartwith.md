@@ -29,8 +29,8 @@ Stringa
 
 | Parametro | Tipo |
 |-------------|--------|
-| stringa | stringa |
-| Prefisso | stringa |
+| string | string |
+| Prefisso | string |
 
 ## Firma e tipo restituito
 

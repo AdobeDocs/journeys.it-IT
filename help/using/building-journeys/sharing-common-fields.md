@@ -9,7 +9,7 @@ exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -47,31 +47,31 @@ Tipo: booleano
 
 ID evento in elaborazione, per l’elaborazione dei passaggi. Se l’evento è esterno, il valore è il relativo eventId. Se l’evento è interno, il valore è l’ID evento interno (ad esempio, scheduledNotificationReceived, executeAction, ecc.).
 
-Tipo: string
+Tipo: stringa
 
 ## nodeID
 
 ID nodo client (dall’area di lavoro).
 
-Tipo: string
+Tipo: stringa
 
 ## stepID
 
 ID univoco del passaggio in fase di elaborazione.
 
-Tipo: string
+Tipo: stringa
 
 ## stepName
 
 Nome del passaggio attualmente in fase di elaborazione.
 
-Tipo: string
+Tipo: stringa
 
 ## stepType
 
 Tipo del passaggio.
 
-Tipo: string
+Tipo: stringa
 
 Valori possibili:
 
@@ -84,7 +84,7 @@ Valori possibili:
 
 Stato del passaggio, che rappresenta lo stato del passaggio, al termine dell’elaborazione (e all’avvio dell’evento step).
 
-Tipo: string
+Tipo: stringa
 
 Lo stato può essere:
 
@@ -99,61 +99,61 @@ Lo stato può essere:
 
 ID del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## journeyVersionID
 
 ID della versione del percorso. Questo id rappresenta il riferimento di identità al percorso, nel caso di journeyStepEvent.
 
-Tipo: string
+Tipo: stringa
 
 ## journeyVersionName
 
 Nome della versione del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## journeyVersion
 
 Versione del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## instanceID
 
 ID interno dell&#39;istanza del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## externalKey
 
 Chiave esterna estratta dall’evento per elaborarla.
 
-Tipo: string
+Tipo: stringa
 
 ## parentStepID
 
 ID del passo padre del passaggio elaborato corrente nell&#39;istanza.
 
-Tipo: string
+Tipo: stringa
 
 ## parentStepName
 
 Nome del passo dell&#39;elemento padre del passaggio corrente.
 
-Tipo: string
+Tipo: stringa
 
 ## parentTransitionID
 
 ID della transizione che ha portato l’istanza al passaggio elaborato.
 
-Tipo: string
+Tipo: stringa
 
 ## parentTransitionName
 
 Nome della transizione che ha portato l&#39;istanza al passaggio elaborato.
 
-Tipo: string
+Tipo: stringa
 
 ## inTest
 
@@ -171,7 +171,7 @@ Tipo: long
 
 Indica il tipo di istanza, se è batch o unitario.
 
-Tipo: string
+Tipo: stringa
 
 Valori: batch/unitario
 
@@ -191,16 +191,16 @@ Tipo: booleano
 
 Chiave esterna per evento batch.
 
-Tipo: string
+Tipo: stringa
 
 ## batchInstanceID
 
 questo è l&#39;ID dell&#39;istanza batch.
 
-Tipo: string
+Tipo: stringa
 
 ## batchUnitarioBranchID
 
 se l&#39;istanza è stata attivata da un&#39;istanza batch, ID ramo unitario.
 
-Tipo: string
+Tipo: stringa

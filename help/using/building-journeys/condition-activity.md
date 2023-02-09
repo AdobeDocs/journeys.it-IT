@@ -9,7 +9,7 @@ exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
-Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi in tempo reale, ad esempio l’ID percorso o gli errori specifici rilevati. Per ulteriori informazioni, consulta [questa pagina](../expression/journey-properties.md)
+Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. Per ulteriori informazioni, consulta [questa pagina](../expression/journey-properties.md)
 
 ## Condizione Origine dati {#data_source_condition}
 

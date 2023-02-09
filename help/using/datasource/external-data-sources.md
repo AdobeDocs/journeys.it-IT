@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Origini dati esterne '
-description: 'Informazioni su come configurare le origini dati esterne '
+title: Origini dati esterne
+description: Informazioni su come configurare le origini dati esterne
 feature: Journeys
 role: User
 level: Intermediate

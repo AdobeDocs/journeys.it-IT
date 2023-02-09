@@ -13,7 +13,7 @@ ht-degree: 19%
 
 ---
 
-# dividere {#split}
+# split {#split}
 
 Divide la prima stringa argomento con una stringa separatore (seconda stringa argomento, che può essere un’espressione regolare) per generare un elenco di stringhe (token).
 
@@ -29,8 +29,8 @@ Stringa
 
 | Parametro | Tipo |
 |-----------|------------------|
-| stringa di input | stringa |
-| stringa separatore | stringa |
+| stringa di input | string |
+| stringa separatore | string |
 
 ## Firme e tipo restituito
 

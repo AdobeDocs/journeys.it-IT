@@ -9,7 +9,7 @@ exl-id: dda01de5-b865-4323-ac36-2e3d90d213ee
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -27,11 +27,11 @@ Stringa
 
 ## Parametri
 
-| Parametro | type |
+| Parametro | Tipo |
 |-------------|----------|
-| stringa | stringa |
-| beginIndex | integer |
-| endIndex | integer |
+| string | string |
+| beginIndex | numero intero |
+| endIndex | numero intero |
 
 ## Firma e tipo restituito
 

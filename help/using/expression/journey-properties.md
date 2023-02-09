@@ -9,17 +9,17 @@ exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 # Attributi delle proprietà del percorso {#journey-properties}
 
-Nell’editor di espressioni avanzate, troverai il **Proprietà percorso** sotto le categorie di eventi e origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi in tempo reale, ad esempio l’ID percorso o gli errori specifici rilevati.
+Nell’editor di espressioni avanzate, troverai il **Proprietà percorso** sotto le categorie di eventi e origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati.
 
 >[!NOTE]
 >
->Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Vedi questo [sezione](../building-journeys/condition-activity.md#about_condition)
+>Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Consulta questa [sezione](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 

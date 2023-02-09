@@ -27,7 +27,7 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
       Esempio: `https://xxx.yyy.com/somethingstatic/`
 
-      Quando aggiungi l’azione personalizzata a un percorso, specificerai il percorso dinamico dell’URL. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
+      Quando aggiungi l’azione personalizzata a un percorso, specificerai il percorso dinamico dell’URL. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >Per motivi di sicurezza, si consiglia vivamente di utilizzare lo schema HTTPS per l’URL. Non consentiamo l’uso di indirizzi di Adobe che non sono pubblici e l’uso di indirizzi IP.
@@ -44,7 +44,7 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
    1. Se hai selezionato **[!UICONTROL Constant]**, quindi immetti il valore costante.
 
-      Se hai selezionato **[!UICONTROL Variable]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
+      Se hai selezionato **[!UICONTROL Variable]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
@@ -55,4 +55,4 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
    >[!NOTE]
    >
-   >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. [Ulteriori informazioni](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. [Maggiori informazioni](https://tools.ietf.org/html/rfc7230#section-3.2.4).

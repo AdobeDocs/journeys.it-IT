@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ---
 
-# Sfruttare IA analisi cliente {#customer-ai}
+# Sfruttare IA per l&#39;analisi dei clienti {#customer-ai}
 
 Customer AI fa parte dei servizi intelligenti. Aiuta a prevedere cosa è probabile che faccia un cliente. Consulta la sezione [documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
 

@@ -13,7 +13,7 @@ ht-degree: 23%
 
 ---
 
-# Lower {#lower}
+# lower {#lower}
 
 Restituisce una versione in minuscolo del parametro .
 
@@ -27,7 +27,7 @@ Stringa
 
 ## Parametro
 
-* stringa
+* string
 
 ## Firma e tipo restituito
 

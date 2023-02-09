@@ -9,7 +9,7 @@ exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -30,14 +30,14 @@ Elenco
 | Parametro | Tipo |
 |-----------|------------------|
 | list | listString |
-| elenco | listBoolean |
-| elenco | listInteger |
-| elenco | listDecimal |
-| elenco | listDuration |
-| elenco | listDateTime |
-| elenco | listDateTimeOnly |
-| elenco | listDateOnly |
-| index | integer |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
+| index | numero intero |
 
 ## Firme e tipo restituito
 

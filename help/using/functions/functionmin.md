@@ -9,7 +9,7 @@ exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -34,8 +34,8 @@ Aggregazione
 * listDateTimeOnly
 * listDateOnly
 * durata
-* integer
-* decimale
+* numero intero
+* decimal
 * dateTime
 * dateTimeOnly
 

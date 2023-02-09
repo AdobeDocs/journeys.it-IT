@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Verifica del percorso
-description: 'Scopri i test di percorso '
+description: Scopri i test di percorso
 feature: Journeys
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '1576'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali 
 
 Puoi verificare il percorso prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso di singoli utenti nel percorso e risolvere i problemi prima della pubblicazione.
 
-Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare un nuovo profilo di test o trasformarne uno esistente in un profilo di test. Fai riferimento a questo [sezione](../building-journeys/creating-test-profiles.md).
+Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare un nuovo profilo di test o trasformarne uno esistente in un profilo di test. Fai riferimento a questa [sezione](../building-journeys/creating-test-profiles.md).
 
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
@@ -54,7 +54,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 ## Note importanti {#important_notes}
 
 * Viene fornita un’interfaccia per attivare eventi al percorso testato, ma gli eventi possono essere inviati anche da sistemi di terze parti come Postman.
-* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Fai riferimento a questo [sezione](../building-journeys/creating-test-profiles.md).
+* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Fai riferimento a questa [sezione](../building-journeys/creating-test-profiles.md).
 * La modalità di test è disponibile solo in percorsi 2D che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che accede al percorso è un profilo di test o meno e deve quindi essere in grado di raggiungere il Adobe Experience Platform.
 * Il numero massimo di profili di test che possono entrare in un percorso durante una sessione di test è 100.
 * Quando disattivi la modalità di test, svuota i percorsi da tutte le persone che sono entrate nel passato o che vi si trovano attualmente. Inoltre, cancella la segnalazione.
@@ -181,7 +181,7 @@ Viene visualizzato il numero di persone (tecnicamente si chiamano istanze) attua
 
 * _Id_: l’ID interno della persona nel percorso. Può essere utilizzato a scopo di debug.
 * _currentstep_: il passo in cui si trova l&#39;individuo nel percorso. È consigliabile aggiungere etichette alle attività per identificarle più facilmente.
-* _currentstep_ > fase: lo stato del percorso dell’utente (in esecuzione, finito, errore o timeout). Per ulteriori informazioni, consulta di seguito.
+* _currentstep_ > fase: lo stato del percorso dell’utente (in esecuzione, finito, errore o timeout). Per ulteriori informazioni, vedi di seguito.
 * _currentstep_ > _extraInfo_: descrizione dell’errore e di altre informazioni contestuali.
 * _currentstep_ > _fetchErrors_: informazioni sugli errori di recupero dati che si sono verificati durante questo passaggio.
 * _externalKeys_: il valore della formula chiave definita nell&#39;evento.

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '985'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 93%
 >
 >Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate al prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 
-## Accesso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## Accesso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
 Per accedere al [!DNL Journey Orchestration]nell&#39;interfaccia, fai clic sul pulsante **[!UICONTROL App Selector]** in alto a destra, quindi fai clic su **[!UICONTROL Journey Orchestration]**.
 
@@ -95,19 +95,19 @@ Le funzioni di accessibilità di Adobe Journey Optimizer sono fornite da Adobe E
 * Contrasto colore
 * Convalida dei campi obbligatori
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=it){target="_blank"} nella documentazione di Adobe Experience Platform.
 
 In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da tastiera più comuni:
 
 | Azione | Tasti di scelta rapida |
 | --- | --- |
-| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Scheda |
+| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Tab |
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
 | Spostati all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
 | Annullare una selezione, comprimere un pannello o chiudere una finestra di dialogo | Esc |
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=it){target="_blank"} nella documentazione di Adobe Experience Platform.
 
 È possibile utilizzare queste scelte rapide in parti specifiche di Journey Optimizer:
 
@@ -151,7 +151,7 @@ Riquadro di configurazione dei seguenti elementi:
 
 </td>
     <td>Passa al campo successivo da configurare</td>
-    <td>Scheda</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>Salva le modifiche e chiudi il riquadro di configurazione</td>

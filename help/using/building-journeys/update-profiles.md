@@ -9,7 +9,7 @@ exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ La **[!UICONTROL Update profile]** l’attività action ti consente di aggiornar
 
 ## Utilizzo dell’aggiornamento del profilo
 
-1. Progetta il tuo percorso iniziando con un evento. Vedi questo [sezione](../building-journeys/journey.md).
+1. Progetta il tuo percorso iniziando con un evento. Consulta questa [sezione](../building-journeys/journey.md).
 
 1. In **Azione** della palette, rilascia la **Aggiorna profilo** nell’area di lavoro.
 
