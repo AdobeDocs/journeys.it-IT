@@ -7,74 +7,19 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
+source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '527'
 ht-degree: 3%
 
 ---
 
-# Utilizzo dell’API di limitazione utilizzo
 
-## Introduzione
-
-[!DNL Journey Orchestration]Le API di supportano eventi 5000/secondi, ma alcuni sistemi o API esterni non potrebbero avere una velocità effettiva equivalente. Ecco perché [!DNL Journey Orchestration] viene fornito con una funzione dedicata denominata API di limitazione per monitorare e limitare il tasso che imponiamo ai sistemi esterni.
-
-Durante la configurazione di un’origine dati, definirai una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei percorsi oppure, per una definizione di azione, configurerai la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API. Ogni volta che una chiamata API viene eseguita dal Percorso, l’API di limitazione viene interrogata, la chiamata viene eseguita tramite il motore API. Se è definito un limite, la chiamata viene rifiutata e il sistema esterno non verrà sovraccaricato.
-
-Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per includere l’endpoint nell’inserire nell&#39;elenco Consentiti. Ciò non è possibile per le fonti di dati esterne pubbliche. Per ulteriori informazioni sulle best practice e le protezioni durante l’integrazione di sistemi esterni, consulta questo articolo [page](../about/external-systems.md).
-
-Per ulteriori informazioni sulla configurazione dell’azione o dell’origine dati, consulta [Informazioni sulle azioni](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Informazioni sulle origini dati](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
-
-## Risorse
-
->[!NOTE]
->
->La [!DNL Journey Orchestration] L’API di limitazione di utilizzo è descritta in un file Swagger disponibile [qui](https://adobedocs.github.io/JourneyAPI/docs/).
-
-Per utilizzare questa API con la [!DNL Journey Orchestration] ad esempio, è necessario utilizzare la console AdobeI/O. Per iniziare, segui questo [Guida introduttiva alla console Adobe Developer](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e quindi utilizzare le sezioni di questa pagina.
-
-Per testare e preparare l’integrazione è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
-
-## Autenticazione
-
-### Impostazione dell’accesso alle API
-
-[!DNL Journey Orchestration] L’accesso alle API è configurato attraverso i passaggi seguenti. Ciascuno di questi passaggi è descritto nella sezione [Documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
-
->[!CAUTION]
->
->Per gestire i certificati in Adobe I/O, assicurati di disporre di <b>Amministratore di sistema</b> diritti dell&#39;organizzazione o [account sviluppatore](https://helpx.adobe.com/it/enterprise/using/manage-developers.html) in Admin Console.
-
-1. **Verifica di disporre di un certificato digitale** oppure creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
-1. **Creare una nuova integrazione in [!DNL Journey Orchestration] Servizio** in Adobe I/O e configuralo. L’accesso al profilo di prodotto è necessario per [!DNL Journey Orchestration] e Adobe Experience Platform. Le credenziali verranno quindi generate (chiave API, segreto client...).
-1. **Creare un token web JSON (JWT)** dalle credenziali generate in precedenza e firmalo con la tua chiave privata. JWT codifica tutte le informazioni di identità e sicurezza necessarie per Adobe per verificare la tua identità e concedere l’accesso all’API. Questo passaggio è descritto in [sezione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Sostituire il JWT con un token di accesso** tramite una richiesta POST o tramite l’interfaccia Console per sviluppatori. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
-
-Per stabilire una sessione API di Adobe I/O servizio-servizio sicura, ogni richiesta a un servizio Adobe deve includere nell’intestazione Autorizzazione le informazioni riportate di seguito.
-
-```
-curl -X GET https://journey.adobe.io/authoring/XXX \
- -H 'Authorization: Bearer <ACCESS_TOKEN>' \
- -H 'x-api-key: <API_KEY>' \
- -H 'x-gw-ims-org-id: <ORGANIZATION>'
-```
-
-* **&lt;organization>**: Si tratta dell’ID organizzazione personale, un ID organizzazione viene fornito per Adobe per ciascuna istanza :
-
-   * &lt;organization> : l&#39;istanza di produzione
-
-   Per ottenere il valore dell’ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell&#39;elenco delle licenze (consulta <a href="https://www.adobe.io/authentication.html">Documentazione di Adobe I/O</a>).
-
-* **&lt;access_token>**: Token di accesso personale, recuperato durante lo scambio di JWT tramite una richiesta POST.
-
-* **&lt;api_key>**: la tua chiave API personale. Viene fornito in Adobe I/O dopo la creazione di una nuova integrazione in [!DNL Journey Orchestration] Servizio.
-
-
-
-## Limitazione della descrizione API
+# Utilizzare l’API di limitazione di utilizzo {#work}
 
 L’API di limitazione di utilizzo consente di creare, configurare e monitorare le configurazioni di limitazione di utilizzo.
+
+## Limitazione della descrizione API
 
 | Metodo | Path | Descrizione |
 |---|---|---|
@@ -89,8 +34,6 @@ L’API di limitazione di utilizzo consente di creare, configurare e monitorare 
 
 Quando una configurazione viene creata o aggiornata, viene eseguito automaticamente un controllo per garantire la sintassi e l’integrità del payload.
 Se si verificano alcuni problemi, l&#39;operazione restituisce un avviso o degli errori per facilitare la correzione della configurazione.
-
-
 
 ## Configurazione endpoint
 
@@ -134,7 +77,6 @@ La struttura di base di una configurazione dell’endpoint è la seguente:
 }
 ```
 
-
 ## Avvisi ed errori
 
 Quando un **canDeploy** viene chiamato , il processo convalida la configurazione e restituisce lo stato di convalida identificato dal relativo ID univoco:
@@ -156,12 +98,9 @@ Gli errori potenziali sono:
 * **ERR_ENDPOINTCONFIG_112**: configurazione di tappping: impossibile creare la configurazione dell&#39;endpoint: attesa di un payload JSON
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome di servizio non valido `<!--<given value>-->`: deve essere &#39;dataSource&#39; o &#39;action&#39;
 
-
 L&#39;avviso potenziale è:
 
 **ERR_ENDPOINTCONFIG_106**: configurazione di tappping: connessioni HTTP massime non definite: nessuna limitazione per impostazione predefinita
-
-
 
 ## Casi d’uso
 
@@ -171,7 +110,7 @@ Per facilitare i test e la configurazione, è disponibile una raccolta Postman [
 
 Questa raccolta Postman è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori di integrazioni selezionati.
 
-Una volta scaricata e caricata in Postman, devi aggiungere tre variabili: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
+Una volta scaricata e caricata in Postman, devi aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL gateway
 * `{BASE_PATH}` : punto di ingresso per l’API. Il valore è &#39;/authoring&#39;
 * `{SANDBOX_NAME}` : intestazione **x-sandbox-name** (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Consulta la sezione [panoramica sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) per ulteriori informazioni.
