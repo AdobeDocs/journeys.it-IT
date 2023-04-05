@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '788'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ L’API di limitazione consente di creare, configurare e monitorare le configura
 >È attualmente consentita una sola configurazione per organizzazione. Una configurazione deve essere definita su una sandbox di produzione (fornita tramite x-sandbox-name nelle intestazioni).
 >
 >Viene applicata una configurazione a livello di organizzazione.
+>
+>Al raggiungimento del limite impostato nell’API, altri eventi vengono messi in coda per un massimo di 6 ore. Impossibile modificare questo valore.
 
 ## Descrizione API di limitazione {#description}
 
