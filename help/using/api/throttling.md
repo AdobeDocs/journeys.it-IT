@@ -10,7 +10,7 @@ exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 2%
+ht-degree: 96%
 
 ---
 
@@ -20,28 +20,28 @@ L’API di limitazione consente di creare, configurare e monitorare le configura
 
 >[!IMPORTANT]
 >
->È attualmente consentita una sola configurazione per organizzazione. Una configurazione deve essere definita su una sandbox di produzione (fornita tramite x-sandbox-name nelle intestazioni).
+>Attualmente è consentita una sola configurazione per organizzazione. Una configurazione deve essere definita su una sandbox di produzione (specificata tramite x-sandbox-name nelle intestazioni).
 >
->Viene applicata una configurazione a livello di organizzazione.
+>Viene applicata una configurazione per livello di organizzazione.
 >
->Al raggiungimento del limite impostato nell’API, altri eventi vengono messi in coda per un massimo di 6 ore. Impossibile modificare questo valore.
+>Al raggiungimento del limite impostato nell’API, gli altri eventi vengono messi in coda per un massimo di 6 ore. Impossibile modificare questo valore.
 
-## Descrizione API di limitazione {#description}
+## Descrizione dell’API di limitazione {#description}
 
-| Metodo | Path | Descrizione |
+| Metodo | Percorso | Descrizione |
 |---|---|---|
-| [!DNL POST] | list/throttlingConfigs | Ottieni un elenco delle configurazioni di limitazione |
+| [!DNL POST] | list/throttlingConfigs | Ottenere un elenco delle configurazioni di limitazione |
 | [!DNL POST] | /throttlingConfigs | Creare una configurazione di limitazione |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Distribuzione di una configurazione di limitazione |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Disdistribuire una configurazione di limitazione |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Controlla se una configurazione di limitazione può essere implementata o meno |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Distribuire una configurazione di limitazione |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Annullare la distribuzione di una configurazione di limitazione |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Verificare se una configurazione di limitazione può essere distribuita o meno |
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | Aggiornare una configurazione di limitazione |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Recuperare una configurazione di limitazione |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Eliminare una configurazione di limitazione |
 
-## Configurazione della limitazione {#configuration}
+## Configurazione di limitazione {#configuration}
 
-Ecco la struttura di una configurazione di limitazione. **name** e **descrizione** gli attributi sono facoltativi.
+Di seguito è riportata la struttura di una configurazione di limitazione. Gli attributi **name** e **description** sono facoltativi.
 
 ```
 {
@@ -67,7 +67,7 @@ Esempio:
 
 ## Errori
 
-Durante la creazione o l&#39;aggiornamento di una configurazione, il processo convalida la configurazione specificata e restituisce lo stato di convalida identificato dal relativo ID univoco:
+Durante la creazione o l’aggiornamento di una configurazione, il processo convalida la configurazione specificata e restituisce lo stato di convalida identificato dal relativo ID univoco:
 
 ```
 "ok" or "error"
@@ -75,34 +75,34 @@ Durante la creazione o l&#39;aggiornamento di una configurazione, il processo co
 
 >[!IMPORTANT]
 >
->Attributi **maxThroughput**, **urlPattern** e **Metodi** sono obbligatori.
+>Gli attributi **maxThroughput**, **urlPattern** e **methods** sono obbligatori.
 >
->**maxThroughput** Il valore deve essere compreso nell&#39;intervallo 200-5000.
+>Il valore **maxThroughput** deve essere compreso nell’intervallo 200-5000.
 
 Durante la creazione, l’eliminazione o la distribuzione della configurazione di limitazione, possono verificarsi i seguenti errori:
 
-* **ERR_THROTTLING_CONFIG_100**: configurazione di limitazione: `<mandatory attribute>` obbligatorio
+* **ERR_THROTTLING_CONFIG_100**: configurazione di limitazione: `<mandatory attribute>` obbligatoria
 * **ERR_THROTTLING_CONFIG_101**: configurazione di limitazione: maxThroughput è obbligatorio e deve essere maggiore o uguale a 200 e minore o uguale a 5000
-* **ERR_THROTTLING_CONFIG_104**: configurazione di limitazione: modello url malformato
-* **ERR_THROTTLING_CONFIG_105**: configurazione di limitazione: caratteri jolly non consentiti nella parte host del pattern url
+* **ERR_THROTTLING_CONFIG_104**: configurazione di limitazione: formato del pattern URL non valido
+* **ERR_THROTTLING_CONFIG_105**: configurazione di limitazione: caratteri jolly non consentiti nella parte dell’host del pattern URL
 * **ERR_THROTTLING_CONFIG_106**: configurazione di limitazione: payload non valido
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, &quot;Impossibile eliminare una configurazione di limitazione distribuita. Disdistribuirlo prima di eliminarlo&quot;
-* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, &quot;Impossibile eliminare la configurazione di limitazione: si verifica un errore imprevisto&quot;
-* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, &quot;Impossibile distribuire la configurazione di limitazione: si verifica un errore imprevisto&quot;
-* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, &quot;Impossibile annullare la distribuzione della configurazione di limitazione: si verifica un errore imprevisto&quot;
-* **THROTTLING_CONFIG_GET_ERROR: 1460**, &quot;Impossibile ottenere la configurazione di limitazione: si verifica un errore imprevisto&quot;
-* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, &quot;Impossibile aggiornare la configurazione di limitazione: la versione runtime non è attiva&quot;
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, &quot;Impossibile aggiornare la configurazione di limitazione: si verifica un errore imprevisto&quot;
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, &quot;Operazione non consentita nella configurazione di limitazione: sandbox non prod&quot;
-* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, &quot;Impossibile creare la configurazione di limitazione: si verifica un errore imprevisto&quot;
-* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, &quot;Impossibile creare la configurazione di limitazione: una sola configurazione consentita per organizzazione&quot;
-* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, &quot;Impossibile distribuire la configurazione di limitazione: già distribuito&quot;
-* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, &quot;throttling config not found&quot;
-* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, &quot;Impossibile annullare la distribuzione della configurazione di limitazione: non ancora distribuito&quot;
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, “Impossibile eliminare una configurazione di limitazione distribuita. Annullare la distribuzione prima di eliminarla”
+* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, “Impossibile eliminare la configurazione di limitazione: si è verificato un errore imprevisto”
+* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, “Impossibile distribuire la configurazione di limitazione: si è verificato un errore imprevisto”
+* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, “Impossibile annullare la distribuzione della configurazione di limitazione: si è verificato un errore imprevisto”
+* **THROTTLING_CONFIG_GET_ERROR: 1460**, “Impossibile ottenere la configurazione di limitazione: si è verificato un errore imprevisto”
+* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, “Impossibile aggiornare la configurazione di limitazione: la versione di runtime non è attiva”
+* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, “Impossibile aggiornare la configurazione di limitazione: si è verificato un errore imprevisto”
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, “Operazione non consentita nella configurazione di limitazione: sandbox non di produzione”
+* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, “Impossibile creare la configurazione di limitazione: si è verificato un errore imprevisto”
+* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, “Impossibile creare la configurazione di limitazione: è consentita una sola configurazione per organizzazione”
+* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, “Impossibile distribuire la configurazione di limitazione: è già stata distribuita”
+* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, “Nessuna configurazione di limitazione trovata”
+* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, “Impossibile annullare la distribuzione della configurazione di limitazione: non è ancora stata distribuita”
 
 **Esempi di errori**
 
-Quando si tenta di creare una configurazione su sandbox non prod:
+Quando si tenta di creare una configurazione su sandbox non di produzione:
 
 ```
 {
@@ -112,7 +112,7 @@ Quando si tenta di creare una configurazione su sandbox non prod:
 }
 ```
 
-Nel caso in cui una data casella di controllo non esista:
+Nel caso in cui la sandbox specificata non esiste:
 
 ```
 {
@@ -122,7 +122,7 @@ Nel caso in cui una data casella di controllo non esista:
 }
 ```
 
-Quando si tenta di creare un&#39;altra configurazione:
+Quando si tenta di creare un’altra configurazione:
 
 ```
 {
@@ -134,50 +134,50 @@ Quando si tenta di creare un&#39;altra configurazione:
 
 ## Casi d’uso {#uc}
 
-Per facilitare i test e la configurazione, è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json).
+Per facilitare i test e la configurazione, [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json) è disponibile una raccolta Postman.
 
-Questa raccolta Postman è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori di integrazioni selezionati.
+Questa raccolta Postman è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console di Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori delle integrazioni selezionate.
 
-Una volta scaricata e caricata in Postman, devi aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
+Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL gateway
-* `{BASE_PATH}` : punto di ingresso per l’API. Il valore è &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : intestazione **x-sandbox-name** (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Consulta la sezione [panoramica sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) per ulteriori informazioni.
+* `{BASE_PATH}` : punto di ingresso per l’API. Il valore è “/authoring”
+* `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
 
-Nella sezione seguente, trovi l’elenco delle chiamate API rimanenti ordinate per eseguire il caso d’uso.
+Nella sezione seguente, è disponibile un elenco ordinato delle chiamate API REST per eseguire il caso d’uso.
 
-Caso d’uso n° 1: **Creazione e distribuzione di una nuova configurazione di limitazione**
+Caso d’uso n°1: **Creazione e distribuzione di una nuova configurazione di limitazione**
 
 1. list
-1. creare
-1. canonizzare
-1. distribuire
+1. create
+1. candeploy
+1. deploy
 
 Caso d’uso n° 2: **Aggiornare e distribuire una configurazione di limitazione non ancora distribuita**
 
 1. list
 1. get
 1. update
-1. canonizzare
-1. distribuire
+1. candeploy
+1. deploy
 
-Caso d’uso n° 3: **Disdistribuire ed eliminare una configurazione di limitazione distribuita**
+Caso d’uso n° 3: **Annullare la distribuzione ed eliminare una configurazione di limitazione distribuita**
 
 1. list
-1. non distribuire
+1. undeploy
 1. delete
 
-Caso d’uso n° 4: **Eliminare una configurazione di limitazione implementata**
+Caso d’uso n° 4: **Eliminare una configurazione di limitazione distribuita**
 
-In una sola chiamata API, puoi annullare la distribuzione ed eliminare la configurazione utilizzando il parametro forceDelete .
+È possibile annullare la distribuzione ed eliminare la configurazione in una sola chiamata API utilizzando il parametro forceDelete.
 
 1. list
-1. elimina, con param forceDelete
+1. eliminare, con il parametro forceDelete
 
 Caso d’uso n° 5: **Aggiornare una configurazione di limitazione già distribuita**
 
 >[!NOTE]
 >
->Non è necessario annullare la distribuzione della configurazione prima dell’aggiornamento
+>Non è richiesto annullare la distribuzione della configurazione prima dell’aggiornamento
 
 1. list
 1. get
@@ -185,11 +185,11 @@ Caso d’uso n° 5: **Aggiornare una configurazione di limitazione già distribu
 
 ## Ciclo di vita della configurazione a livello di runtime {#config}
 
-Quando una configurazione non viene distribuita, viene contrassegnata come inattiva a livello di runtime e gli eventi in sospeso continuano a essere elaborati durante 24 ore. Viene quindi eliminato nel servizio runtime.
+Quando la distribuzione di una configurazione viene annullata, questa viene contrassegnata come inattiva a livello di runtime e gli eventi in sospeso continuano a essere elaborati per 24 ore. Quindi viene eliminata nel servizio di runtime.
 
-Una volta rimossa la distribuzione di una configurazione, è possibile aggiornarla e ridistribuirla. In questo modo verrà creata una nuova configurazione di runtime da considerare nell’esecuzione delle azioni successive.
+Una volta annullata la distribuzione di una configurazione, è possibile aggiornarla e ridistribuirla. In questo modo verrà creata una nuova configurazione di runtime che verrà considerata nell’esecuzione delle azioni successive.
 
-Quando aggiorni una configurazione già distribuita, i nuovi valori vengono presi in considerazione immediatamente. Le risorse di sistema sottostanti vengono automaticamente adattate. Questa funzione è ottimale se non si esegue la distribuzione e quindi si ridistribuisce la configurazione.
+Durante l’aggiornamento di una configurazione già distribuita, i nuovi valori vengono presi in considerazione immediatamente. Le risorse di sistema sottostanti vengono automaticamente adattate. Questa è una soluzione ottimale rispetto alla distribuzione e ridistribuzione della configurazione.
 
 ## Esempi di risposte {#responses}
 
@@ -268,7 +268,7 @@ Quando aggiorni una configurazione già distribuita, i nuovi valori vengono pres
 }
 ```
 
-**Leggi (dopo l&#39;aggiornamento) - GET**
+**Lettura (dopo l’aggiornamento) - GET**
 
 ```
 {
@@ -300,7 +300,7 @@ Quando aggiorni una configurazione già distribuita, i nuovi valori vengono pres
 }
 ```
 
-**Leggi (dopo la distribuzione) - GET**
+**Lettura (dopo la distribuzione) - GET**
 
 ```
 {
