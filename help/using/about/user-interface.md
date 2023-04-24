@@ -36,7 +36,7 @@ Puoi anche accedere a [!DNL Journey Orchestration] dalla home page di Experience
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Informazioni sull’elenco percorsi"
->abstract="L’elenco dei percorsi ti consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base."
+>abstract="L’elenco dei percorsi consente di visualizzarli tutti in contemporanea, di visionarne lo stato ed eseguire le azioni di base."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
 I menu superiori ti consentono di navigare tra le diverse funzionalità di [!DNL Journey Orchestration]: **[!UICONTROL Home]** (i percorsi), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
