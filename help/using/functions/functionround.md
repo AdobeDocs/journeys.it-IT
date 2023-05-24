@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: round
-description: Scopri l’arrotondamento della funzione
+description: Informazioni sulla funzione round
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # round {#round}
 
-Restituisce il valore intero più vicino all&#39;argomento con i legami arrotondati all&#39;infinito positivo.
+Restituisce il valore intero più vicino all&#39;argomento con legami arrotondati all&#39;infinito positivo.
 
 ## Categoria
 

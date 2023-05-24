@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # uuid {#uuid}
 
-Genera un UUID casuale (ID univoco universale).
+Genera un UUID (Universal Unique IDentifier) casuale.
 
 ## Categoria
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Istruzione condizionale (if, then, else)
-description: Scopri le istruzioni condizionali
+description: Informazioni sull’istruzione condizionale
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Istruzione condizionale (if, then, else) {#section_cdz_lsk_w3b}
 
-L’istruzione condizionale (se, then, else) è supportata nell’editor avanzato. Consente di definire espressioni più complesse. È composto dai seguenti elementi:
+L’istruzione condizionale (if, then, else) è supportata nell’editor avanzato. Consente di definire espressioni più complesse. È composto dai seguenti elementi:
 
 * **[!UICONTROL if]**: la condizione da valutare per prima.
-* **[!UICONTROL then]**: l&#39;espressione da valutare nel caso in cui il risultato della valutazione della condizione sia vero.
-* **[!UICONTROL else]**: l’espressione da valutare nel caso in cui il risultato della valutazione della condizione sia falso.
+* **[!UICONTROL then]**: l’espressione da valutare nel caso in cui il risultato della valutazione della condizione sia vero.
+* **[!UICONTROL else]**: l’espressione da valutare se il risultato della valutazione della condizione è falso.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ else
 
 `<expression1>` deve restituire un **booleano**.
 
-`<expression2>` e `<expression3>` devono avere lo stesso tipo o tipi compatibili. Le firme supportate e i tipi restituiti sono:
+`<expression2>` e `<expression3>` deve avere lo stesso tipo o tipi compatibili. Le firme supportate e i tipi restituiti sono:
 
 ```json
 boolean,boolean : boolean
@@ -57,9 +57,9 @@ listString,listString : listString
 
 **Utilizzo**
 
-L’istruzione condizionale ti consente di ottimizzare il flusso di lavoro del percorso riducendo il numero di attività di condizione. Ad esempio, all’interno della stessa attività di azione, puoi specificare due alternative per una definizione di campo utilizzando una sola espressione di condizione.
+L’istruzione condizionale ti consente di ottimizzare il flusso di lavoro del percorso riducendo il numero di attività relative alle condizioni. Ad esempio, all’interno della stessa attività di azione, puoi specificare due alternative per la definizione di un campo utilizzando una sola espressione di condizione.
 
-Esempio per un’attività di azione (per un campo che richiede una stringa come risultato dell’istruzione condizionale):
+Esempio per un’attività di azione (per un campo che prevede una stringa come risultato dell’istruzione condizionale):
 
 ```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))

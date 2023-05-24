@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # setDays {#setDays}
 
-Imposta solo il giorno dell’ora o dell’ora della data. Ad esempio, se desideri attendere fino a un determinato giorno del mese, puoi forzare il giorno .
+Imposta solo il giorno di un&#39;ora o di una data. Ad esempio, se desideri attendere fino a un determinato giorno del mese, puoi forzare il giorno.
 
 ## Categoria
 
@@ -29,7 +29,7 @@ Data
 
 | Parametro | Tipo |
 |--- |--- |
-| ora | dateTime |
+| data e ora | dateTime |
 | data e ora senza considerare il fuso orario | dateTimeOnly |
 | giorni | numero intero |
 
@@ -47,6 +47,6 @@ Restituisce un valore datetime senza considerare il fuso orario.
 
 `setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
 
-Restituisce 2010-12-25T01:11:00Z.
+Restituisce 2010-12-25T01:11:00Z
 
 `setDays(toDateTimeOnly(@{MyEvent.registrationDate}), 1)`

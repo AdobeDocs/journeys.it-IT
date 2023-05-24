@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextDays {#inNextDays}
 
-Restituisce true se una data o un valore dateTime specificato è compreso tra ora e ora + giorni delta.
+Restituisce true se una data o un&#39;ora specificata è compresa tra now e now + delta giorni.
 
 ## Categoria
 
@@ -29,7 +29,7 @@ Data
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora | dateTime |
+| data e ora | dateTime |
 | delta | numero intero |
 
 ## Firme e tipo restituito

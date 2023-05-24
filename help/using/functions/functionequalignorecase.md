@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-Confronta la stringa del primo argomento con la seconda stringa dell&#39;argomento, ignorando le considerazioni sulle maiuscole/minuscole.
+Confronta la prima stringa di argomento con la seconda stringa di argomento, ignorando le considerazioni relative alle maiuscole/minuscole.
 
 ## Categoria
 

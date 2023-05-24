@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inLastDays {#inLastDays}
 
-Restituisce true se una data o un valore dateTime specificato è compreso tra ora e ora - giorni delta.
+Restituisce true se una data o un valore dateTime specificato è compreso tra now e now - delta days.
 
 ## Categoria
 
@@ -29,7 +29,7 @@ Data
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora | dateTime |
+| data e ora | dateTime |
 | delta | numero intero |
 
 ## Firme e tipo restituito

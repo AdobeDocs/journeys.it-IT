@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # indexOf {#indexOf}
 
-Controlla se la prima stringa di argomento termina con una stringa specifica (seconda stringa di argomento). Se la stringa non viene trovata, restituire -1.
+Controlla se la stringa del primo argomento termina con una stringa specifica (stringa del secondo argomento). Se la stringa non viene trovata, restituisce -1.
 
 ## Categoria
 
@@ -46,4 +46,4 @@ Restituisce 2.
 
 Spiegazione:
 
-In &quot;Hello&quot;, la prima occorrenza di &quot;l&quot; è in posizione 2.
+In &quot;Hello&quot;, la prima occorrenza di &quot;l&quot; è nella posizione 2.

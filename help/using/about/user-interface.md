@@ -23,7 +23,7 @@ ht-degree: 93%
 
 ## Accesso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Per accedere al [!DNL Journey Orchestration]nell&#39;interfaccia, fai clic sul pulsante **[!UICONTROL App Selector]** in alto a destra, quindi fai clic su **[!UICONTROL Journey Orchestration]**.
+Per accedere al [!DNL Journey Orchestration]dell&#39;interfaccia di, fare clic sul pulsante **[!UICONTROL App Selector]** in alto a destra, quindi fai clic su **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ Per accedere a **[!UICONTROL Filters]**, fai clic sull’icona del filtro, in al
 
 Negli elenchi **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, utilizza **[!UICONTROL Creation filters]** (Filtri di creazione) per filtrare in base alla data e all’utente di creazione. Ad esempio, puoi scegliere di visualizzare solo gli eventi creati negli ultimi 30 giorni.
 
-Nell&#39;elenco dei percorsi (sotto **[!UICONTROL Home]**), oltre al **[!UICONTROL Creation filters]**, puoi anche filtrare i percorsi visualizzati in base al loro stato, tipo e versione (**[!UICONTROL Status and version filters]**). Il tipo può essere: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
+Nell&#39;elenco percorso (sotto **[!UICONTROL Home]**), oltre al **[!UICONTROL Creation filters]**, è inoltre possibile filtrare i percorsi visualizzati in base allo stato, al tipo e alla versione (**[!UICONTROL Status and version filters]**). Il tipo può essere: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. È inoltre possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** ti consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare solo le versioni più recenti dei percorsi live pubblicate ieri. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Le funzioni di accessibilità di Adobe Journey Optimizer sono fornite da Adobe E
 
 [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=it){target="_blank"} nella documentazione di Adobe Experience Platform.
 
-In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da tastiera più comuni:
+In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da tastiera comuni:
 
 | Azione | Tasti di scelta rapida |
 | --- | --- |

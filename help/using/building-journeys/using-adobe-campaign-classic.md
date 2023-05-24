@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Utilizzo delle azioni Adobe Campaign v7/v8
+title: Utilizzo delle azioni di Adobe Campaign v7/v8
 description: Scopri le azioni di Adobe Campaign v7/v8
 feature: Journeys
 role: User
@@ -22,10 +22,10 @@ La connessione tra le istanze Journey Orchestration e Campaign viene impostata d
 
 Affinché questo funzioni, devi configurare un’azione dedicata. Fai riferimento a questa [sezione](../action/acc-action.md).
 
-In questo viene presentato un caso d’uso end-to-end [sezione](../usecase/campaign-classic-use-case.md).
+Un caso d’uso end-to-end è presentato in questo [sezione](../usecase/campaign-classic-use-case.md).
 
-1. Progetta il tuo percorso, a partire da un evento. Consulta questa [sezione](../building-journeys/journey.md).
-1. In **Azione** nella sezione della palette, seleziona un’azione Campaign e aggiungilo al percorso.
+1. Progetta il percorso, a partire da un evento. Consulta questa [sezione](../building-journeys/journey.md).
+1. In **Azione** nella palette, seleziona un’azione Campaign e aggiungila al percorso.
 1. In **Parametri azione**, vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Fai riferimento a questa [sezione](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)

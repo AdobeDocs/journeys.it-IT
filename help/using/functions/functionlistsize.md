@@ -15,7 +15,7 @@ ht-degree: 34%
 
 # listSize {#listSize}
 
-Conta il numero di elementi nell’elenco.
+Conta il numero di elementi nell&#39;elenco.
 
 ## Categoria
 

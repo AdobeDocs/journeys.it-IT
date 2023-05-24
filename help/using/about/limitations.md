@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Limitazioni del Journey Orchestration
-description: Ulteriori informazioni sui limiti dei Journey Orchestration
+description: Ulteriori informazioni sulle limitazioni del Journey Orchestration
 feature: Journeys
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 57%
+ht-degree: 66%
 
 ---
 
@@ -20,24 +20,24 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 ## Guardrail di percorso generale {#journeys-guardrails-journeys}
 
 * Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso.
-* Numero di **percorsi vivi** in un’organizzazione è limitato a 100 per sandbox. Una volta raggiunto questo limite, non puoi più pubblicare un nuovo percorso.
+* Il numero di **percorsi live** in un’organizzazione è limitato a 100 per sandbox. Una volta raggiunto questo limite, non puoi più pubblicare un nuovo percorso.
 
-## Limiti generali delle azioni
+## Limitazioni delle azioni generali
 
 * Non esiste alcuna limitazione di invio. 
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. 
-* Incorporato **Reazione** ti consente di reagire alle azioni predefinite (consulta questo [page](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
+* Il sistema integrato **Reazione** consente di reagire alle azioni predefinite (vedi questo [pagina](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
 
 ## Limitazioni delle versioni di percorso {#journey-versions-limitations}
 
 * Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Non è possibile avviare un percorso con un evento **Qualificazione del segmento**.
 * Un percorso che inizia con un’attività di **Qualificazione del segmento** nella versione v1 deve sempre iniziare con una **Qualificazione del segmento** nelle altre versioni.
-* Segmento e spazio dei nomi scelti in **Qualificazione di un segmento** (primo nodo) non può essere modificato nelle nuove versioni.
+* Segmento e spazio dei nomi scelti in **Qualificazione del segmento** (primo nodo) non può essere modificato nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
 
 ## Qualificazione del segmento {#segment-qualification}
 
-* La **Qualificazione di un segmento** l’attività non può essere utilizzata insieme alla messaggistica transazionale Adobe Campaign Standard a causa di vincoli di throughput. Vedi [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
+* Il **Qualificazione del segmento** L’attività non può essere utilizzata insieme a Adobe Campaign Standard Transactional Messaging a causa di vincoli di velocità effettiva. Consulta [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitazioni delle azioni personalizzate
@@ -49,25 +49,25 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 * Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
  
 
-## Limitazioni delle azioni Adobe Campaign
+## Limitazioni delle azioni di Adobe Campaign
 
-* I messaggi transazionali Adobe Campaign Standard hanno una scala massima di 50.000 messaggi all&#39;ora su tutti i canali per una determinata istanza. Vedi [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
+* La messaggistica transazionale di Adobe Campaign Standard ha una scala massima di 50.000 messaggi all’ora sui canali per una determinata istanza. Consulta [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
  
 
-## Limiti degli eventi
+## Limitazioni degli eventi
 
-* Per gli eventi generati dal sistema, i dati di streaming utilizzati per avviare un percorso cliente devono essere configurati prima all’interno del Journey Orchestration per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
+* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima all’interno del Journey Orchestration per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
  
 
-## Limiti delle origini dati
+## Limitazioni delle origini dati
 
-* Le origini dati esterne possono essere utilizzate all’interno di un percorso di clienti per cercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
+* Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
 
 ## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 
 In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. Il target livello di servizio (Service Level Target, SLT) in termini di latenza è &lt; di 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
 
-Se un Percorso viene attivato simultaneamente per la creazione di un profilo e controlla/recupera immediatamente le informazioni dal Servizio profili, potrebbe non funzionare correttamente.
+Se un Percorso viene attivato simultaneamente per la creazione di un profilo e immediatamente controlla/recupera le informazioni dal servizio profili, potrebbe non funzionare correttamente.
 
 Puoi scegliere una delle due soluzioni seguenti:
 

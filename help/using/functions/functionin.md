@@ -15,9 +15,9 @@ ht-degree: 19%
 
 # in {#in}
 
-Controlla se il primo valore dell&#39;argomento si trova nell&#39;elenco. Il controllo viene eseguito tramite un valore Equal per ogni valore di argomento. Restituisce true se il valore dell&#39;argomento viene trovato, false in caso contrario.
+Controlla se il primo valore di argomento è presente nell&#39;elenco. Il controllo viene eseguito tramite un valore Uguale su ciascun argomento. Restituisce true se viene trovato il valore dell’argomento, in caso contrario false.
 
-Il tipo di `<expression>` deve corrispondere agli elementi dell’elenco. I tipi di elementi dell’elenco, come promemoria, devono corrispondere tra loro.
+Il tipo di `<expression>` deve corrispondere agli elementi dell’elenco. I tipi di elementi dell&#39;elenco, come promemoria, devono corrispondere tra loro.
 
 ## Categoria
 

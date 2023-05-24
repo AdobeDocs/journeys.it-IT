@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: max
-description: Scopri la funzione max
+description: Scopri il valore massimo della funzione
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # max{#max}
 
-Restituisce il valore massimo tra un set di espressioni, dato come elenco o due espressioni. I valori Null vengono ignorati.
+Restituisce il valore massimo in un insieme di espressioni, sotto forma di elenco o di due espressioni. I valori Null vengono ignorati.
 
 ## Categoria
 
@@ -63,11 +63,11 @@ Restituisce una data.
 
 `max(<listDecimal>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 `max(<decimal>,<decimal>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 `max(<duration>,<duration>)`
 

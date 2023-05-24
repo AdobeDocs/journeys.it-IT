@@ -13,9 +13,9 @@ ht-degree: 7%
 
 # Passaggio dinamico delle raccolte tramite azioni personalizzate{#passing-collection}
 
-Puoi passare una raccolta in parametri di azioni personalizzati che verranno compilati dinamicamente in fase di esecuzione. Sono supportati due tipi di raccolte:
+Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte:
 
-* raccolte semplici: array di tipi di dati semplici, ad esempio con listString:
+* raccolte semplici: array di tipi di dati semplici, ad esempio, con un listString:
 
    ```
    {
@@ -26,7 +26,7 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
    }
    ```
 
-* raccolte di oggetti: un array di oggetti JSON, ad esempio:
+* insiemi di oggetti: un array di oggetti JSON, ad esempio:
 
    ```
    {
@@ -52,7 +52,7 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
 
 ## Limitazioni  {#limitations}
 
-* Le matrici nidificate di oggetti all&#39;interno di un array di oggetti non sono attualmente supportate. Ad esempio:
+* Gli array nidificati di oggetti all’interno di un array di oggetti non sono al momento supportati. Ad esempio:
 
    ```
    {
@@ -67,11 +67,11 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
    }
    ```
 
-* Per testare le raccolte utilizzando la modalità di test, è necessario utilizzare la modalità di visualizzazione del codice. La modalità di visualizzazione del codice non è attualmente supportata per gli eventi aziendali. Puoi inviare una raccolta solo con un singolo elemento.
+* Per testare le raccolte utilizzando la modalità di test, è necessario utilizzare la modalità di visualizzazione del codice. La modalità di visualizzazione codice non è al momento supportata per gli eventi di business. Puoi inviare una raccolta solo con un singolo elemento.
 
 ## Procedura generale {#general-procedure}
 
-In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di oggetti con un campo costituito da una raccolta semplice.
+In questa sezione viene utilizzato il seguente esempio di payload JSON. Si tratta di un array di oggetti con un campo che è un insieme semplice.
 
 ```
 {
@@ -97,47 +97,47 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 }
 ```
 
-È possibile vedere che &quot;products&quot; è una matrice di due oggetti. È necessario disporre di almeno un oggetto.
+Si può vedere che &quot;prodotti&quot; è un array di due oggetti. Devi avere almeno un oggetto.
 
-1. Crea l&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
+1. Crea l’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
 1. In **[!UICONTROL Action parameters]** incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
 
    ![](../assets/uc-collection-1.png)
 
-1. Se necessario, regola i tipi di campo. I seguenti tipi di campi sono supportati per le raccolte: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
+1. Se necessario, regola i tipi di campo. Per gli insiemi sono supportati i tipi di campo seguenti: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
    >[!NOTE]
    >
    >Il tipo di campo viene dedotto automaticamente in base all’esempio di payload.
 
-1. Se si desidera passare gli oggetti in modo dinamico, è necessario impostarli come variabili. In questo esempio impostiamo &quot;products&quot; come variabile. Tutti i campi oggetto inclusi nell’oggetto vengono impostati automaticamente sulle variabili.
+1. Se si desidera passare gli oggetti in modo dinamico, è necessario impostarli come variabili. In questo esempio impostiamo &quot;products&quot; come variabile. Tutti i campi oggetto inclusi nell&#39;oggetto vengono impostati automaticamente su variabili.
 
    >[!NOTE]
    >
    >Il primo oggetto dell’esempio di payload viene utilizzato per definire i campi.
 
-1. Per ciascun campo, definisci l’etichetta che verrà visualizzata nell’area di lavoro del percorso.
+1. Per ogni campo, definisci l’etichetta che verrà visualizzata nell’area di lavoro del percorso.
 
    ![](../assets/uc-collection-2.png)
 
 1. Crea il percorso e aggiungi l’azione personalizzata creata. Consulta [questa pagina](../building-journeys/using-custom-actions.md).
 
-1. In **[!UICONTROL Action parameters]** definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
+1. In **[!UICONTROL Action parameters]** , definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
 
    ![](../assets/uc-collection-3.png)
 
-1. Per ciascuno dei campi oggetto seguenti, digitare il nome di campo corrispondente dallo schema XDM di origine. Se i nomi sono identici, ciò non è necessario. Nel nostro esempio, dobbiamo solo definire &quot;product id&quot; e &quot;color&quot;.
+1. Per ciascuno dei seguenti campi oggetto, digita il nome del campo corrispondente dallo schema XDM di origine. Se i nomi sono identici, non è necessario. Nel nostro esempio, dobbiamo solo definire &quot;id prodotto&quot; e &quot;colore&quot;.
 
    ![](../assets/uc-collection-4.png)
 
-Per il campo array, è inoltre possibile utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell’esempio seguente, utilizziamo il [filter](../functions/functionfilter.md) e [intersecare](../functions/functionintersect.md) funzioni:
+Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell’esempio seguente, utilizziamo [filter](../functions/functionfilter.md) e [intersecare](../functions/functionintersect.md) funzioni:
 
 ![](../assets/uc-collection-5.png)
 
 ## Casi particolari{#examples}
 
-Per tipi e array eterogenei di array, l&#39;array viene definito con il tipo listAny. È possibile mappare solo singoli elementi, ma non è possibile modificare la matrice in variabili.
+Per tipi e array di array eterogenei, l’array è definito con il tipo listAny. È possibile mappare solo singoli elementi, ma non è possibile modificare la matrice in variabile.
 
 ![](../assets/uc-collection-heterogeneous.png)
 

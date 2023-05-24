@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: split
-description: Scopri la suddivisione della funzione
+description: Scopri la suddivisione delle funzioni
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # split {#split}
 
-Divide la prima stringa argomento con una stringa separatore (seconda stringa argomento, che può essere un’espressione regolare) per generare un elenco di stringhe (token).
+Divide la prima stringa di argomento con una stringa di separatore (seconda stringa di argomento, che può essere un&#39;espressione regolare) per produrre un elenco di stringhe (token).
 
 ## Categoria
 
@@ -44,7 +44,7 @@ Restituisce un valore listString.
 
 Restituisce `["A","B","C"]`
 
-Esempio con un campo evento &#39;event.appVersion&#39; con valore: &quot;20.45.2.3434&quot;
+Esempio con un campo evento &quot;event.appVersion&quot; con valore: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 

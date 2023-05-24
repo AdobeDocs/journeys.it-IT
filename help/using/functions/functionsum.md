@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: sum
-description: Scopri la somma delle funzioni
+description: Informazioni sulla somma delle funzioni
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -37,7 +37,7 @@ Aggregazione
 
 `sum(<listDecimal>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 `sum(<listInteger>)`
 
@@ -49,7 +49,7 @@ Restituisce un numero intero.
 
 `sum(<decimal>,<decimal>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 ## Esempi
 

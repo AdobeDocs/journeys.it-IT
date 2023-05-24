@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: substr
-description: Informazioni sul substr funzione
+description: Informazioni sul sottoster della funzione
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # substr {#substr}
 
-Restituisce la sottostringa dell&#39;espressione stringa tra l&#39;indice begin e l&#39;indice end. Se l&#39;indice finale non è definito, si trova tra l&#39;indice iniziale e la fine.
+Restituisce la sottostringa dell&#39;espressione stringa tra l&#39;indice iniziale e l&#39;indice finale. Se l&#39;indice finale non è definito, si trova tra l&#39;indice iniziale e la fine.
 
 ## Categoria
 

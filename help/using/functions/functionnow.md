@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: now
-description: Informazioni sulla funzione
+description: Scopri subito la funzione
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # now {#now}
 
-Restituisce la data corrente in formato ora data. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
+Restituisce la data corrente in formato data e ora. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
 
 ## Categoria
 

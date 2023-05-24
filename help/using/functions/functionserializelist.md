@@ -15,7 +15,7 @@ ht-degree: 22%
 
 # serializeList {#serializeList}
 
-Converte l’elenco (qualsiasi tipo) fornito nel primo parametro in una stringa. Il secondo parametro rappresenta il separatore da utilizzare. Il terzo parametro è un valore booleano che indica se ogni elemento dell’espressione deve includere virgolette.
+Converte l&#39;elenco (qualsiasi tipo) specificato nel primo parametro in una stringa. Il secondo parametro rappresenta il separatore da utilizzare. Il terzo parametro è un valore booleano che indica se ogni elemento dell’espressione deve includere virgolette.
 
 ## Categoria
 

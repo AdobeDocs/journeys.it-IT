@@ -13,9 +13,9 @@ ht-degree: 6%
 
 ---
 
-# Attributi delle proprietà del percorso {#journey-properties}
+# Attributi proprietà percorso {#journey-properties}
 
-Nell’editor di espressioni avanzate, troverai il **Proprietà percorso** sotto le categorie di eventi e origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati.
+Nell’editor di espressioni avanzate, troverai **Proprietà percorso** sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati.
 
 >[!NOTE]
 >
@@ -23,22 +23,22 @@ Nell’editor di espressioni avanzate, troverai il **Proprietà percorso** sotto
 
 ![](../assets/journey-properties.png)
 
-Troverete informazioni, ad esempio:
+Troverai informazioni, ad esempio, su:
 
-* Versione percorso: uid di percorso, uid di versione di percorso, uid di istanza, ecc.
+* versione percorso: uid percorso, uid versione percorso, uid istanza, ecc.
 * errori: recupero dati, esecuzione azione, ecc.
 * passaggio corrente, ultimo passaggio corrente, ecc.
 * profili scartati
 
-Puoi utilizzare questi campi per creare espressioni. Durante l’esecuzione del percorso, i valori verranno recuperati direttamente dal percorso.
+Puoi utilizzare questi campi per creare espressioni. Durante l’esecuzione del percorso, i valori vengono recuperati direttamente dal percorso.
 
-Di seguito sono riportati alcuni esempi di casi d’uso:
+Di seguito sono riportati alcuni esempi di casi di utilizzo:
 
-* **Registrare i profili scartati**: puoi inviare tutti i profili esclusi da un messaggio tramite una regola di limitazione a un sistema di terze parti a scopo di registrazione. A questo scopo, imposta un percorso in caso di timeout ed errore e aggiungi una condizione per filtrare in base a uno specifico tipo di errore, ad esempio: &quot;elimina le persone con la regola di limitazione&quot;. Puoi quindi inviare i profili scartati a un sistema di terze parti tramite un’azione personalizzata.
+* **Registra profili eliminati**: puoi inviare a un sistema di terze parti tutti i profili esclusi da un messaggio da una regola di limitazione di utilizzo a scopo di registrazione. A questo scopo, imposta un percorso in caso di timeout ed errore e aggiungi una condizione per filtrare in base a un tipo di errore specifico, ad esempio: &quot;elimina le persone applicando una regola di limite&quot;. Puoi quindi inviare i profili eliminati a un sistema di terze parti tramite un’azione personalizzata.
 
-* **Inviare avvisi in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, imposta un percorso in caso di errore, aggiungi una condizione e un’azione personalizzata. Ad esempio, puoi inviare una notifica su un canale di Slack con la descrizione dell’errore rilevato.
+* **Invia avvisi in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, puoi impostare un percorso in caso di errore, aggiungere una condizione e un’azione personalizzata. Puoi inviare una notifica su un canale di Slack, ad esempio, con la descrizione dell’errore riscontrato.
 
-* **Ottimizzazione degli errori nel reporting** : invece di avere un solo percorso per i messaggi in errore, puoi definire una condizione per tipo di errore. Questo ti consentirà di perfezionare il reporting e visualizzare tutti i dati dei tipi di errore.
+* **Perfezionare gli errori nella generazione rapporti** : invece di disporre di un solo percorso per i messaggi con errore, puoi definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare la generazione rapporti e visualizzare tutti i dati relativi ai tipi di errore.
 
 ## Elenco dei campi {#journey-properties-fields}
 
@@ -47,23 +47,23 @@ Di seguito sono riportati alcuni esempi di casi d’uso:
 | Versione percorso | journeyUID | Identificatore percorso |  |
 |  | journeyVersionUID | Identificatore versione percorso |  |
 |  | journeyVersionName | Nome versione percorso |  |
-|  | journeyVersionDescription | Descrizione della versione del percorso |  |
+|  | journeyVersionDescription | Descrizione versione percorso |  |
 |  | journeyVersion | Versione percorso |  |
 | Istanza percorso | instanceUID | Identificatore istanza percorso | ID dell’istanza |
 |  | externalKey | Chiave esterna | Identificatore individuale che attiva il percorso |
-|  | OrganizationId | Identificatore organizzazione | Organizzazione di Brand |
+|  | organizationId | Identificatore organizzazione | Organizzazione del brand |
 |  | sandboxName | Nome della sandbox | Nome della sandbox |
-| Identità | profileId | Identificatore identità profilo | Identificatore del profilo nel percorso |
-|  | namespace | Spazio dei nomi dell’identità del profilo | Spazio dei nomi del profilo nel percorso (esempio: ECID) |
-| Nodo corrente | currentNodeId | Identificatore nodo corrente | Identificatore dell&#39;attività corrente (nodo) |
+| Identità | profileId | Identificatore dell’identità del profilo | Identificatore del profilo nel percorso |
+|  | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nel percorso (ad esempio: ECID) |
+| Nodo corrente | currentNodeId | Identificatore nodo corrente | Identificatore dell’attività corrente (nodo) |
 |  | currentNodeName | Nome nodo corrente | Nome dell’attività corrente (nodo) |
 | Nodo precedente | previousNodeId | Identificatore nodo precedente | Identificatore dell’attività precedente (nodo) |
 |  | previousNodeName | Nome nodo precedente | Nome dell’attività precedente (nodo) |
-| Errori | lastNodeUIDInError | Identificatore ultimo nodo in errore | Identificatore dell’attività più recente (nodo) in errore |
-|  | lastNodeNameInError | Nome ultimo nodo in errore | Nome dell’attività più recente (nodo) in errore |
-|  | lastNodeTypeInError | Ultimo tipo di nodo in errore | Tipo di errore dell&#39;attività più recente (nodo) in errore. Tipi possibili:<ul><li>Eventi: Eventi, Reazioni, SQ (esempio: Qualificazione del segmento)</li><li>Controllo del flusso: Fine, Condizione, Attendi</li><li>Azioni: Azioni ACS, Jump, Custom Action</li></ul> |
-|  | lastErrorCode | Ultimo codice di errore | Codice di errore dell&#39;ultima attività (nodo) in errore. Possibili errori: <ul><li>Codici di errore HTTP</li><li>cappuccio</li><li>timedOut</li><li>error (esempio: predefinito in caso di errore imprevisto. Non dovrebbe/estremamente raro)</li></ul> |
-|  | lastExecutionActionErrorCode | Codice errore ultima azione eseguita | Codice di errore dell’ultima azione in errore |
-|  | lastDataFetchErrorCode | Codice errore ultimo recupero dati | Codice di errore del recupero dati più recente da origini dati |
-| Ora | lastActionExecutionElapsedTime | Tempo trascorso dell’ultima esecuzione dell’azione | Tempo impiegato per eseguire l’azione più recente |
-|  | lastDataFetchElapsedTime | Tempo trascorso ultimo recupero dati | Tempo impiegato per eseguire il recupero dati più recente da origini dati |
+| Errori | lastNodeUIDInError | Identificatore ultimo nodo in errore | Identificatore dell’attività (nodo) più recente con errore |
+|  | lastNodeNameInError | Nome ultimo nodo in errore | Nome dell’attività (nodo) più recente con errore |
+|  | lastNodeTypeInError | Ultimo tipo di nodo in errore | Tipo di errore dell’attività (nodo) più recente nell’errore. Tipi possibili:<ul><li>Eventi: Eventi, Reazioni, SQ (ad esempio: Qualificazione del segmento)</li><li>Controllo del flusso: Fine, Condizione, Attesa</li><li>Azioni: azioni ACS, Salta, Azione personalizzata</li></ul> |
+|  | lastErrorCode | Codice ultimo errore | Codice di errore dell’attività (nodo) più recente che presenta un errore. Possibili errori: <ul><li>Codici di errore HTTP</li><li>con limite</li><li>timeout</li><li>error (esempio: default in caso di errore imprevisto. Non deve/raramente si verifica)</li></ul> |
+|  | lastExecutedActionErrorCode | Codice errore ultima azione eseguita | Codice di errore dell’ultima azione in errore |
+|  | lastDataFetchErrorCode | Codice errore ultimo recupero dati | Codice di errore dell’ultimo recupero dati da origini dati |
+| Ora | lastActionExecutionElapsedTime | Tempo trascorso dall’esecuzione dell’ultima azione | Tempo impiegato per eseguire l’azione più recente |
+|  | lastDataFetchElapsedTime | Tempo trascorso dall’ultimo recupero dati | Tempo impiegato per eseguire l’ultimo recupero dati dalle origini dati |

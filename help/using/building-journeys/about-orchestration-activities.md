@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Informazioni sulle attività di orchestrazione
-description: Informazioni sulle attività di orchestrazione
+description: Scopri le attività di orchestrazione
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,10 +15,10 @@ ht-degree: 37%
 
 # Informazioni sulle attività di orchestrazione {#concept_ksq_2rt_52b}
 
-Nella palette a sinistra dello schermo sono disponibili le seguenti attività di orchestrazione:
+Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti attività di orchestrazione:
 
-* [Attività condizione](../building-journeys/condition-activity.md)
-* [Attività fine](../building-journeys/end-activity.md)
-* [Attività attendi](../building-journeys/wait-activity.md)
+* [Attività Condizione](../building-journeys/condition-activity.md)
+* [Attività Fine](../building-journeys/end-activity.md)
+* [Attività Attendi](../building-journeys/wait-activity.md)
 
 ![](../assets/journey49.png)

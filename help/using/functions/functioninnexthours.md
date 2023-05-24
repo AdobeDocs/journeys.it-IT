@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextHours {#inNextHours}
 
-Restituisce true se una data o un&#39;ora specificata è compresa tra ora e ora + ore delta.
+Restituisce true se una data o un&#39;ora specificata è compresa tra now e now + delta ore.
 
 ## Categoria
 
@@ -29,7 +29,7 @@ Data
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora | dateTime |
+| data e ora | dateTime |
 | delta | numero intero |
 
 ## Firme e tipo restituito

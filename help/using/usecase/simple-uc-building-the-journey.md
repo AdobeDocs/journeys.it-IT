@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Creazione del percorso - Semplice
-description: Scopri come creare un percorso di casi d’uso semplice
+description: Scopri come creare il percorso di casi d’uso semplice
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,28 +15,28 @@ ht-degree: 35%
 
 # Creazione di un percorso{#concept_eyw_mcy_w2b}
 
-Ora l’**utente aziendale** può costruire il percorso. Il nostro percorso includerà solo un percorso con le seguenti attività:
+Ora l’**utente aziendale** può costruire il percorso. Il nostro percorso includerà un solo percorso con le seguenti attività:
 
-* il &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon spa, il sistema riceverà un evento e il percorso inizierà per quella persona.
+* il &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon spa, il percorso riceverà un evento e il sistema inizierà per quella persona.
 * a **[!UICONTROL Condition]** attività per verificare che la persona sia una donna
-* un **[!UICONTROL Email]** attività (utilizzando Adobe Campaign Standard)
+* un **[!UICONTROL Email]** attività (tramite Adobe Campaign Standard)
 * un **[!UICONTROL End]** attività
 
 >[!NOTE]
 >
 >Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nel riquadro solo se si dispone di Adobe Campaign Standard.
 
-Per ulteriori informazioni sulla creazione di un percorso, consulta [questa pagina](../building-journeys/journey.md).
+Per ulteriori informazioni su come creare un percorso, fare riferimento a [questa pagina](../building-journeys/journey.md).
 
 1. Nel menu principale, fai clic sulla scheda **[!UICONTROL Home]** e **[!UICONTROL Create]** per creare un nuovo percorso.
 
    ![](../assets/journey31.png)
 
-1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Lo chiamiamo &quot;percorso termale&quot; e lo mettiamo a durare un mese, dal 1 al 31 dicembre.
+1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Lo chiamiamo &quot;percorso termale&quot; e lo stabiliamo per durare un mese, dal 1° al 31 dicembre.
 
    ![](../assets/journeyuc1_8.png)
 
-1. Inizia a progettare il percorso trascinando l’evento &quot;SpaBeacon&quot; dalla palette all’area di lavoro. Puoi anche fare doppio clic sull’evento nel riquadro per aggiungerlo all’area di lavoro.
+1. Inizia a progettare il percorso trascinando l’evento &quot;SpaBeacon&quot; dal riquadro all’area di lavoro. Puoi anche fare doppio clic sull’evento nel riquadro per aggiungerlo all’area di lavoro.
 
    ![](../assets/journeyuc1_9.png)
 
@@ -48,11 +48,11 @@ Per ulteriori informazioni sulla creazione di un percorso, consulta [questa pagi
 
    ![](../assets/journeyuc1_11.png)
 
-1. Utilizzando l’editor di espressioni semplici, cerca il campo gender (_persona > genere_) e rilasciarla a destra per creare la seguente condizione: &quot;il genere è uguale a &quot;Femmina&quot;.
+1. Utilizzando l’editor di espressioni semplici, cerca il campo gender (_persona > genere_) e rilasciarla a destra per creare la seguente condizione: &quot;gender is equal to &quot;Female&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Rilascia un **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Spa discount&quot;. Questo modello è stato progettato utilizzando Adobe Campaign. Fai riferimento a questo [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+1. Rilascia un **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Sconto SPA&quot;. Questo modello è stato progettato con Adobe Campaign. Fai riferimento a questo [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
    ![](../assets/journeyuc1_13.png)
 
@@ -76,4 +76,4 @@ Per ulteriori informazioni sulla creazione di un percorso, consulta [questa pagi
 
    ![](../assets/journeyuc1_18.png)
 
-La prossima volta che una donna cammina vicino al beacon spa, riceverà immediatamente un &quot;Spa sconto&quot; e-mail personalizzata.
+La prossima volta che una donna cammina vicino al beacon spa, riceverà immediatamente un &quot;Sconto Spa&quot; e-mail personalizzata.

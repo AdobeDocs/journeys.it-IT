@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-Restituisce elementi comuni tra gli attributi del profilo e un elenco di categorie specificato.
+Restituisce elementi comuni tra gli attributi del profilo e un elenco specifico di categorie.
 
 ```json
 intersect(

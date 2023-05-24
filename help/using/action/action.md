@@ -24,21 +24,21 @@ Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperien
 
 Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 
-Le azioni sono disponibili nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria. Consulta [questa pagina](../building-journeys/about-action-activities.md).
+Le azioni sono disponibili nella palette a sinistra del percorso, nel **[!UICONTROL Action]** categoria. Consulta [questa pagina](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >La configurazione delle azioni personalizzate viene sempre eseguita da un **utente tecnico**.
 
-Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. Per ulteriori informazioni sulle scelte rapide da tastiera disponibili in [!DNL Journey Orchestration], vedi [questa sezione](../about/user-interface.md#section_ksq_zr1_ffb).
+Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. Per ulteriori informazioni sui collegamenti in [!DNL Journey Orchestration], vedi [questa sezione](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su **[!UICONTROL Actions]** nei menu principali. Viene visualizzato l’elenco delle azioni. Vedi [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
+Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su **[!UICONTROL Actions]** nei menu principali. Viene visualizzato l’elenco delle azioni. Consulta [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
 ![](../assets/custom1.png)
 
 Se disponi di Adobe Campaign Standard, devi configurare l’azione predefinita affinché esegua l’invio di e-mail, notifiche push e SMS tramite le funzionalità di messaggistica transazionale di Adobe Campaign Standard. Consulta [questa pagina](../action/working-with-adobe-campaign.md).
 
-Se disponi di Adobe Campaign v7 o v8, è disponibile un’integrazione su richiesta. Consulta [questa pagina](../action/acc-action.md).
+Se disponi di Adobe Campaign v7 o v8, su richiesta è disponibile un’integrazione. Consulta [questa pagina](../action/acc-action.md).
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, Adobe.io, Firebase e così via, devi aggiungere e configurare un’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 

@@ -29,7 +29,7 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| data in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato XDM Data) | string |
+| data in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato data XDM) | string |
 | data | data |
 
 ## Firme e tipi restituiti
@@ -38,10 +38,10 @@ Conversione
 
 `toDateOnly(<string>)`
 
-Restituisce un datetime senza considerare il fuso orario.
+Restituisce un valore datetime senza considerare il fuso orario.
 
 ## Esempi
 
 `toDateOnly("2016-08-18")`
 
-restituisce un oggetto dateOnly che rappresenta 2016-08-18.
+restituisce un oggetto dateOnly che rappresenta il 18/08/2016.

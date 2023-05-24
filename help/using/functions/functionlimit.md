@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: limit
-description: Scopri il limite di funzioni
+description: Scopri il limite delle funzioni
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # limit {#limit}
 
-Restituisce il primo o l’ultimo N elementi di un elenco.
+Restituisce il primo o l&#39;ultimo N elemento di un elenco.
 
 ## Categoria
 
@@ -30,7 +30,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da ordinare. Per listObject, deve essere un riferimento di campo. |
-| numberOfItems | numero intero | Numero di elementi da restituire dall’elenco specificato. |
+| numberOfItems | numero intero | Numero di elementi da restituire dall&#39;elenco specificato. |
 | firstOrLastItems | booleano | Questo parametro è facoltativo (true per impostazione predefinita). true restituisce i primi elementi. false restituisce gli ultimi elementi. |
 
 ## Firma e tipo restituito

@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # toString {#toString}
 
-Converte un valore di argomento in un valore di stringa, a seconda del tipo. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
+Converte un valore di argomento in un valore stringa, a seconda del tipo. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
@@ -29,12 +29,12 @@ Conversione
 
 | Parametro | Descrizione |
 |--- |--- |
-| dateTime | converte la data in formato data UTC |
-| dateTimeOnly | converte la data in formato data UTC |
-| durata | convertire nel numero corrispondente di millisecondi come stringa |
+| dateTime | converte la data nel formato data UTC |
+| dateTimeOnly | converte la data nel formato data UTC |
+| durata | convertire nel numero di millisecondi corrispondente come stringa |
 | numero intero | converte in rappresentazione stringa del valore (1 diventa &quot;1&quot;) |
-| decimal | converte in rappresentazione stringa del valore (1.5 diventa &quot;1.5&quot;) |
-| booleano | converte il valore booleano come &#39;true&#39; se true, &#39;false&#39; se false |
+| decimal | converte in rappresentazione stringa del valore (1,5 diventa &quot;1,5&quot;) |
+| booleano | converti il valore booleano come &#39;true&#39; se true, &#39;false&#39; se false |
 
 ## Firme e tipo restituito
 

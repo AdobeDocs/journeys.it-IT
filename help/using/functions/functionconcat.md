@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: concat
-description: Scopri la funzione concat
+description: Informazioni sulla concatenazione delle funzioni
 feature: Journeys
 role: Data Engineer
 level: Experienced

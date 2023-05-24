@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inLastHours {#inLastHours}
 
-Restituisce true se l&#39;ora data specificata è compresa tra ora e ora - ore delta.
+Restituisce true se la data e l’ora specificate sono comprese tra now e now - delta hours.
 
 ## Categoria
 
@@ -29,7 +29,7 @@ Data
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora | dateTime |
+| data e ora | dateTime |
 | delta | numero intero |
 
 ## Firme e tipo restituito

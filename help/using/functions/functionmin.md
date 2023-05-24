@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # min {#min}
 
-Restituisce il valore minimo tra un set di espressioni, dato come elenco o due espressioni. I valori Null vengono ignorati.
+Restituisce il valore minimo in un insieme di espressioni, sotto forma di elenco o di due espressioni. I valori Null vengono ignorati.
 
 ## Categoria
 
@@ -63,11 +63,11 @@ Restituisce una data.
 
 `min(<listDecimal>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 `min(<decimal>,<decimal>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 `min(<duration>,<duration>)`
 

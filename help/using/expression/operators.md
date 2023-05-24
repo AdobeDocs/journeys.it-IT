@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Operatori
-description: Informazioni sugli operatori nelle espressioni avanzate
+description: Scopri gli operatori nelle espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Operatori {#concept_wd5_pj5_dgb}
 
-Esistono due tipi di operatori: operatori unari e operatori binari. Ci sono operatori unari a sinistra e operatori unari a destra.
+Esistono due tipi di operatori: operatori unari e operatori binari. Sono disponibili operatori unari di sinistra e operatori unari di destra.
 
 ```json
     // left-hand unary operators
@@ -34,11 +34,11 @@ Esistono due tipi di operatori: operatori unari e operatori binari. Ci sono oper
 
 ## Note importanti{#important-notes}
 
-* Quando si utilizza una moltiplicazione (`*`), entrambi i campi operazione devono avere lo stesso tipo, intero o decimale. Esempio :
-   * l&#39;esempio seguente è corretto: `3.0 * 4.0`
-   * `3 * 4.0` porterà a un errore
+* Quando si utilizza una moltiplicazione (`*`), entrambi i campi dell&#39;operazione devono avere lo stesso tipo, intero o decimale. Esempio :
+   * l’esempio seguente è corretto: `3.0 * 4.0`
+   * `3 * 4.0` genererà un errore
 
-## Logica  {#logical}
+## Logico  {#logical}
 
 ### e
 
@@ -70,7 +70,7 @@ Esempio:
 3.14 > 2 or 3.15 < 1
 ```
 
-### not
+### non
 
 
 
@@ -98,7 +98,7 @@ not 3.15 < 1
 
 Il risultato è booleano.
 
-Il valore null indica che l&#39;espressione non ha alcun valore valutato.
+Nullo significa che l’espressione non ha un valore valutato.
 
 Esempio:
 
@@ -106,7 +106,7 @@ Esempio:
 @{BarBeacon.location} is null
 ```
 
-### non è null
+### non è nullo
 
 
 
@@ -116,7 +116,7 @@ Esempio:
 
 Il risultato è booleano.
 
-Il valore null indica che l&#39;espressione non ha alcun valore valutato.
+Nullo significa che l’espressione non ha un valore valutato.
 
 Esempio:
 
@@ -124,7 +124,7 @@ Esempio:
 @ is not null
 ```
 
-### ha null
+### ha valore null
 
 
 
@@ -198,7 +198,7 @@ Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
+Sia il numero intero che il numero decimale possono essere confrontati con il numero intero o il numero decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -222,7 +222,7 @@ Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
+Sia il numero intero che il numero decimale possono essere confrontati con il numero intero o il numero decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -246,7 +246,7 @@ Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
+Sia il numero intero che il numero decimale possono essere confrontati con il numero intero o il numero decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -270,7 +270,7 @@ Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
+Sia il numero intero che il numero decimale possono essere confrontati con il numero intero o il numero decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -292,7 +292,7 @@ Esempio:
 <expression1> + <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
@@ -310,7 +310,7 @@ Esempio:
 <expression1> - <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
@@ -328,11 +328,11 @@ Esempio:
 <expression1> / <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
-&lt;expression2> deve essere diverso da 0 (restituisce 0).
+&lt;expression2> non deve essere uguale a 0 (restituisce 0).
 
 Esempio:
 
@@ -348,7 +348,7 @@ Esempio:
 <expression1> * <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
@@ -366,7 +366,7 @@ Esempio:
 <expression1> % <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
@@ -386,7 +386,7 @@ Esempio:
 <expression> is numeric
 ```
 
-Il tipo di espressione è integer o decimale.
+Il tipo dell&#39;espressione è numero intero o decimale.
 
 Esempio:
 
@@ -402,7 +402,7 @@ Esempio:
 <expression> is integer
 ```
 
-Il tipo di espressione è integer.
+Il tipo dell&#39;espressione è un numero intero.
 
 Esempio:
 
@@ -418,7 +418,7 @@ Esempio:
 <expression> is decimal
 ```
 
-Il tipo di espressione è decimale.
+Il tipo dell&#39;espressione è decimal.
 
 Esempio:
 
@@ -440,7 +440,7 @@ Esempio:
 <expression> + <string>
 ```
 
-Conconcatena due espressioni.
+Concatena due espressioni.
 
 Un&#39;espressione deve essere una stringa concatenata.
 
@@ -468,7 +468,7 @@ Esempio:
 <expression> + <duration>
 ```
 
-Aggiungi una durata a un dateTime, a un dateTimeOnly o a una durata.
+Aggiungere una durata a un valore dateTime, dateTimeOnly o duration.
 
 Esempio:
 

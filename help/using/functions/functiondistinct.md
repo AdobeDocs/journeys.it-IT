@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinct
-description: Scopri il distinto funzione
+description: Scopri il distinto della funzione
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # distinct {#distinct}
 
-Restituisce i valori o gli oggetti distinti di un elenco specificato. Le voci Null vengono ignorate.
+Restituisce i valori o gli oggetti distinti di un elenco specifico. Le voci Null vengono ignorate.
 
 ## Categoria
 
@@ -30,7 +30,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da elaborare. Per listObject, deve essere un riferimento di campo. |
-| keyAttributeName | string | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l&#39;attributo specificato ha lo stesso valore. |
+| keyAttributeName | string | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l’attributo specificato ha lo stesso valore. |
 
 ## Firme e tipi restituiti
 

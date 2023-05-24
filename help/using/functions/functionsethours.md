@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # setHours {#setHours}
 
-Imposta solo le ore di un’ora di data o di data. Ad esempio, se desideri aspettare fino a una certa ora domani, puoi forzare l’ora.
+Imposta solo le ore di una data/ora o data/ora. Ad esempio, se desideri aspettare fino a un’ora specifica domani, puoi forzare l’ora.
 
 ## Categoria
 
@@ -29,7 +29,7 @@ Data
 
 | Parametro | Tipo |
 |--- |--- |
-| ora | dateTime |
+| data e ora | dateTime |
 | data e ora senza considerare il fuso orario | dateTimeOnly |
 | ore | numero intero |
 
@@ -47,8 +47,8 @@ Restituisce un valore datetime senza considerare il fuso orario.
 
 `setHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-Restituisce 2010-12-12T04:11:00Z.
+Restituisce 2010-12-12T04:11:00Z
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Restituisce domani alle 8:XY PM, XY indica i minuti al momento della valutazione dell&#39;ora corrente. Se la valutazione avviene alle 2:45 del mattino, il tempo restituito sarà alle 8:45 del pomeriggio.
+Restituisce domani alle 20:XY, dove XY corrisponde ai minuti al momento della valutazione dell&#39;ora corrente. Se la valutazione viene eseguita alle 02:45, l’ora restituita sarà le 20:45.

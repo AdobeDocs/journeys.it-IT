@@ -9,13 +9,13 @@ exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
 # campi del percorso {#sharing-journey-fields}
 
-Questo mixin viene utilizzato nello schema di percorso (in relazione a journeyStepEvent). Contiene i campi seguenti:
+Questo mixin viene utilizzato nello schema del percorso (in relazione a journeyStepEvent). Contiene i seguenti campi:
 
 ## journeyID
 
@@ -25,7 +25,7 @@ Tipo: stringa
 
 ## journeyVersionID
 
-ID della versione del percorso. Questo ID rappresenta l&#39;identità di un percorso.
+ID della versione del percorso. Questo ID rappresenta l’identità di un percorso.
 
 Tipo: stringa
 
@@ -41,7 +41,7 @@ Descrizione del percorso.
 
 Tipo: stringa
 
-## version
+## versione
 
 Versione, rappresentata come `major`.`minor`
 

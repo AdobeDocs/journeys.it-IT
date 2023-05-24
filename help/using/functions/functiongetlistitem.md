@@ -47,7 +47,7 @@ Restituisce un numero intero.
 
 `getListItem(<listDecimal>,<index>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 `getListItem(<listString>,<index>)`
 
@@ -82,7 +82,7 @@ Restituisce &quot;2&quot;
 `getListItem(["A", "B", "C"], 2)`
 Restituisce &quot;C&quot;
 
-Esempi con un campo evento &#39;event.appVersion&#39; con valore: &quot;20.45.2.3434&quot;
+Esempi con un campo evento &quot;event.appVersion&quot; con valore: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 

@@ -15,7 +15,7 @@ ht-degree: 32%
 
 # distinctCountWithNull {#distinctCountWithNull}
 
-Conta il numero di valori diversi, inclusi i valori nulli.
+Conta il numero di valori diversi, inclusi i valori Null.
 
 ## Categoria
 

@@ -18,7 +18,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Informazioni sulle origini dati"
->abstract="La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi."
+>abstract="La configurazione dell‘origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi."
 
 La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, le quali verranno utilizzate nei percorsi e consentiranno di ottenere:
 
@@ -44,13 +44,13 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 >
 >La configurazione dell’origine dati viene sempre eseguita da un **utente tecnico**.
 
-1. Nel riquadro dei menu, seleziona **[!UICONTROL Admin]**. Dalla sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
+1. Nel riquadro del menu, seleziona **[!UICONTROL Admin]**. Dalla sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
 
-   Viene visualizzato l’elenco delle origini dati. Vedi [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
+   Viene visualizzato l’elenco delle origini dati. Consulta [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
    ![](../assets/journey18.png)
 
-1. È quindi possibile aggiungere gruppi di campi all’origine dati incorporata (consulta [questa pagina](../datasource/adobe-experience-platform-data-source.md)) o crea una nuova origine dati esterna (vedi [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedi [questa pagina](../datasource/field-groups.md)).
+1. È quindi possibile aggiungere gruppi di campi all&#39;origine dati incorporata (vedere [questa pagina](../datasource/adobe-experience-platform-data-source.md)) o creare una nuova origine dati esterna (vedere [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedere [questa pagina](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 

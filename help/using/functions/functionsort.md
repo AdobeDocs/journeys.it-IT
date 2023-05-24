@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # sort {#sort}
 
-Ordina un elenco di valori o oggetti nell’ordine naturale.
+Ordina un elenco di valori o oggetti nell&#39;ordine naturale.
 
 ## Categoria
 
@@ -31,7 +31,7 @@ Elenco
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da ordinare. Per listObject, deve essere un riferimento di campo. |
 | keyAttributeName | string | Questo parametro è solo per listObject. Il nome dell’attributo negli oggetti dell’elenco specificato viene utilizzato come chiave per l’ordinamento. |
-| sortOrder | booleano | Crescente (true) o decrescente (false) |
+| ordinamentoOrdine | booleano | Crescente (true) o Decrescente (false) |
 
 ## Firma e tipo restituito
 

@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # filter{#filter}
 
-Restituisce un listObject con oggetti con l’attributo chiave corrispondente a uno dei valori chiave specificati.
+Restituisce un oggetto listObject con oggetti il cui attributo chiave corrisponde a uno dei valori chiave specificati.
 
 ## Categoria
 
@@ -30,7 +30,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToFilter | listObject | elenco di oggetti da filtrare. Deve essere un riferimento di campo. |
-| keyAttributeName | string | nome dell’attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtraggio |
+| keyAttributeName | string | nome attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtro |
 | keyValueList | list | array di valori chiave per il filtro |
 
 ## Firme e tipi restituiti
@@ -51,11 +51,11 @@ Elenco
 
 `filter(listObject, string, listBoolean)`
 
-Restituisce un valore listObject.
+Restituisce un oggetto listObject.
 
 ## Esempi
 
-Ecco un esempio di payload trasmesso in un evento in arrivo &quot;myevent&quot;:
+Ecco un esempio di payload passato in un evento in ingresso &quot;myevent&quot;:
 
 ```json
 "productListItems": [{
@@ -83,4 +83,4 @@ filter(
 )
 ```
 
-Restituisce un listObject contenente i due oggetti con &quot;product2&quot; e &quot;product3&quot; come id.
+Restituisce un oggetto listObject contenente i due oggetti con &quot;product2&quot; e &quot;product3&quot; come id.

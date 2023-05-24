@@ -17,8 +17,8 @@ ht-degree: 13%
 
 Converte un valore di argomento in un valore booleano, a seconda del tipo.
 
-* Stringa da: prova a convertire il valore della stringa come booleano, da &quot;true&quot; se il valore della stringa è &quot;true&quot;, false in caso contrario
-* Da dati numerici: true se il valore numerico non è uguale a 0, false in caso contrario
+* Da stringa: prova a convertire il valore stringa come booleano; da &quot;true&quot; se il valore stringa è &quot;true&quot;; in caso contrario false
+* Dal valore numerico: true se il valore numerico non è uguale a 0, false in caso contrario
 
 ## Categoria
 

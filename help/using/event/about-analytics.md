@@ -17,20 +17,20 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Questa sezione si applica solo agli eventi basati su regole e ai clienti che devono utilizzare i dati di Adobe Analytics.
+>Questa sezione si applica solo per gli eventi basati su regole e i clienti che devono utilizzare i dati di Adobe Analytics.
 
-Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che già acquisisci e trasferisci in Platform per attivare percorsi e automatizzare le esperienze per i tuoi clienti.
+Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che già acquisisci e trasferisci in Platform per attivare i percorsi e automatizzare le esperienze per i clienti.
 
-Affinché questo funzioni, devi attivare, in Adobe Experience Platform, la suite di rapporti che desideri sfruttare:
+Affinché questo funzioni, devi attivare in Adobe Experience Platform la suite di rapporti che desideri sfruttare:
 
-1. In Adobe Experience Platform, seleziona **[!UICONTROL Sources]** then **[!UICONTROL Add data]** nella sezione Adobe Analytics . Viene visualizzato l’elenco delle suite di rapporti Adobe Analytics disponibili.
+1. In Adobe Experience Platform, seleziona **[!UICONTROL Sources]** allora **[!UICONTROL Add data]** nella sezione Adobe Analytics. Viene visualizzato l’elenco delle suite di rapporti di Adobe Analytics disponibili.
 
-1. Scegli la suite di rapporti che desideri abilitare e fai clic su **[!UICONTROL Next]** e fai clic su **[!UICONTROL Finish]**.
+1. Scegli la suite di rapporti che desideri abilitare, fai clic su **[!UICONTROL Next]** e fai clic su **[!UICONTROL Finish]**.
 
-1. Condividi l&#39;ID dati sorgente con il tuo punto di contatto del programma Alpha.
+1. Condividi l’ID dati sorgente con il punto di contatto del programma Alpha.
 
-Questo abilita il connettore di origine Analytics per la suite di rapporti. Ogni volta che i dati entrano, vengono trasformati in un evento Experience e inviati ad Adobe Experience Platform.
+In questo modo viene attivato il connettore di origine di Analytics per quella suite di rapporti. Ogni volta che i dati vengono inseriti, vengono trasformati in un evento Experience e inviati in Adobe Experience Platform.
 
 ![](../assets/alpha-event9.png)
 
-Per ulteriori informazioni sul connettore di origine Adobe Analytics, consulta [documentazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it).
+Per ulteriori informazioni sul connettore di origine di Adobe Analytics, consulta [documentazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) e [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it).

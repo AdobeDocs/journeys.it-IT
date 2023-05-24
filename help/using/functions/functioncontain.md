@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: contain
-description: Informazioni sulla funzione che contiene
+description: Scopri la funzione contiene
 feature: Journeys
 role: Data Engineer
 level: Experienced

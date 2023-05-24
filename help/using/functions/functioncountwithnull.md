@@ -15,7 +15,7 @@ ht-degree: 32%
 
 # countWithNull {#countWithNull}
 
-Conta tutti gli elementi dell’elenco, inclusi i valori nulli.
+Conta tutti gli elementi dell’elenco, inclusi i valori Null.
 
 ## Categoria
 

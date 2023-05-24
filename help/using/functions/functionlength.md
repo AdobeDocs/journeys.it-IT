@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # lunghezza {#length}
 
-Restituisce il numero di caratteri dell&#39;espressione stringa nel parametro .
+Restituisce il numero di caratteri dell’espressione stringa nel parametro.
 
 ## Categoria
 

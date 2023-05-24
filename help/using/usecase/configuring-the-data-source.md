@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Configurazione dell’origine dati
-description: Scopri come configurare l’origine dati per il caso d’uso percorso semplice
+description: Scopri come configurare l’origine dati per il caso d’uso semplice del percorso
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # Configurazione dell’origine dati{#concept_ax3_bcy_w2b}
 
-Nel nostro caso d’uso, vogliamo utilizzare i dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è una donna. Queste informazioni sono memorizzate nel database Profilo cliente in tempo reale. La **utente tecnico** deve verificare che tali campi siano definiti nell’origine dati integrata di Adobe Experience Platform.
+Nel nostro caso d’uso, vogliamo utilizzare i dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è una donna. Queste informazioni vengono memorizzate nel database Profilo cliente in tempo reale. Il **utente tecnico** deve verificare che tali campi siano definiti nell’origine dati integrata di Adobe Experience Platform.
 
 Per ulteriori informazioni sulla configurazione dell’origine dati, consulta [questa pagina](../datasource/about-data-sources.md).
 
-1. Nel riquadro dei menu, seleziona **[!UICONTROL Admin]**. Dalla sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
+1. Nel riquadro del menu, seleziona **[!UICONTROL Admin]**. Dalla sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
 1. Seleziona l’origine dati integrata di Adobe Experience Platform.
 
    ![](../assets/journey23.png)
@@ -27,7 +27,7 @@ Per ulteriori informazioni sulla configurazione dell’origine dati, consulta [q
 1. Nei gruppi di campi, verifica che siano selezionati i campi seguenti:
 
    * _person > name > firstName_
-   * _person > name > lastName_
+   * _persona > nome > cognome_
    * _persona > genere_
    * _personalEmail > indirizzo_
 

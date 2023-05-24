@@ -21,8 +21,8 @@ Puoi creare un segmento utilizzando [Servizio di segmentazione di Adobe Experien
 
    ![](../assets/segment1.png)
 
-1. Fai clic su **[!UICONTROL Add]** per creare un nuovo segmento. La schermata di definizione del segmento ti consente di configurare tutti i campi richiesti per definire il segmento. La configurazione è la stessa del servizio di segmentazione. Fai riferimento a [Guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+1. Clic **[!UICONTROL Add]** per creare un nuovo segmento. La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il segmento. La configurazione è la stessa del servizio di segmentazione. Consulta la sezione [Guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](../assets/segment2.png)
 
-Il segmento può ora essere utilizzato nei percorsi per creare condizioni o aggiungere un **[!UICONTROL Segment qualification]** evento. Vedi [Utilizzo di segmenti nelle condizioni](../segment/using-a-segment.md) e [Attività eventi](../building-journeys/segment-qualification-events.md).
+Il segmento ora può essere utilizzato nei percorsi per creare condizioni o aggiungere una **[!UICONTROL Segment qualification]** evento. Consulta [Utilizzo di segmenti nelle condizioni](../segment/using-a-segment.md) e [Attività eventi](../building-journeys/segment-qualification-events.md).

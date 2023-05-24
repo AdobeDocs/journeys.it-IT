@@ -15,11 +15,11 @@ ht-degree: 2%
 
 # Versioni del percorso{#concept_ldc_k55_zgb}
 
-Nell’elenco percorso vengono visualizzate tutte le versioni del percorso con il numero di versione. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md). Quando cerchi un percorso, le versioni più recenti vengono visualizzate nella parte superiore dell’elenco al primo avvio dell’applicazione. Quindi, puoi definire l’ordinamento desiderato e l’applicazione lo manterrà come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell&#39;interfaccia dell&#39;edizione del percorso, sopra l&#39;area di lavoro.
+Nell&#39;elenco percorso vengono visualizzate tutte le versioni del percorso con il numero di versione. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md). Quando si cerca un percorso, le versioni più recenti vengono visualizzate nella parte superiore dell&#39;elenco la prima volta che l&#39;applicazione viene aperta. È quindi possibile definire l&#39;ordinamento desiderato, che verrà mantenuto dall&#39;applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia dell’edizione del percorso, sopra l’area di lavoro.
 
 ![](../assets/journeyversions1.png)
 
-Se devi modificare un percorso live, devi creare una nuova versione del percorso.
+Se devi modificare in un percorso live, devi creare una nuova versione del percorso.
 
 >[!NOTE]
 >
@@ -31,16 +31,16 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
 
    >[!NOTE]
    >
-   >Puoi creare una nuova versione solo dall’ultima versione di un percorso.
+   >È possibile creare una nuova versione solo a partire dalla versione più recente di un percorso.
 
-1. Apporta le modifiche desiderate, fai clic su **[!UICONTROL Publish]** e confermare.
+1. Apporta le modifiche necessarie, quindi fai clic su **[!UICONTROL Publish]** e confermare.
 
    ![](../assets/journeyversions3.png)
 
-Dal momento in cui il percorso verrà pubblicato, i singoli inizieranno a scorrere nell&#39;ultima versione del percorso. Le persone che hanno già inserito una versione precedente vi rimangono fino a quando non finiscono il percorso. Se in seguito vengono reinseriti nello stesso percorso, passeranno alla versione più recente.
+Dal momento in cui il percorso viene pubblicato, i singoli utenti inizieranno a passare all&#39;ultima versione del percorso. Le persone che hanno già inserito una versione precedente vi rimangono fino alla fine del percorso. Se in un secondo momento vengono reinseriti nello stesso percorso, verranno inseriti nella versione più recente.
 
 Le versioni di percorso possono essere arrestate singolarmente. Tutte le versioni dei percorsi hanno lo stesso nome.
 
 >[!NOTE]
 >
->Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e passa alla **Chiuso** stato. Non ci sarà alcuna entrata nel percorso. Anche se si interrompe l&#39;ultima versione, la versione precedente rimarrà chiusa.
+>Quando si pubblica una nuova versione di un percorso, la versione precedente termina automaticamente e passa alla **Chiuso** stato. Non ci sarà entrata nel percorso. Anche se interrompi la versione più recente, la versione precedente rimarrà chiusa.

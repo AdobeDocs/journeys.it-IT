@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Informazioni sul caso d’uso semplice
-description: Ulteriori informazioni sul percorso caso d’uso semplice
+description: Scopri di più sul caso d’uso semplice del percorso
 feature: Journeys
 role: User
 level: Intermediate
@@ -17,9 +17,9 @@ ht-degree: 11%
 
 ## Finalità {#purpose}
 
-Prendiamo l&#39;esempio di un marchio alberghiero chiamato Marlton. Nei loro hotel, hanno posizionato dispositivi beacon vicino a tutte le aree strategiche: hall, piani, ristorante, palestra, piscina, ecc.
+Prendiamo l&#39;esempio di un marchio di hotel chiamato Marlton. Nei loro hotel, hanno posizionato dispositivi beacon vicino a tutte le aree strategiche: hall, piani, ristorante, palestra, piscina, ecc.
 
-In questo caso d’uso, vedremo come inviare in tempo reale un messaggio personalizzato a una persona che cammina accanto a un beacon posizionato vicino al centro benessere.
+In questo caso d’uso, vedremo come inviare un messaggio personalizzato in tempo reale a una persona che cammina accanto a un beacon posizionato vicino all’applicazione a pagina singola.
 
 Vogliamo inviare un messaggio solo se la persona è una donna. Il messaggio deve essere ricevuto entro pochi secondi.
 
@@ -27,8 +27,8 @@ Vogliamo inviare un messaggio solo se la persona è una donna. Il messaggio deve
 
 ## Prerequisiti {#prerequisites}
 
-Per il nostro caso d’uso, abbiamo progettato un modello di messaggistica transazionale e-mail in Adobe Campaign Standard. Stiamo utilizzando un modello di messaggistica transazionale di evento. Fai riferimento a questo [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+Per il nostro caso d’uso, abbiamo progettato un modello di messaggistica transazionale e-mail in Adobe Campaign Standard. Stiamo utilizzando un modello per la messaggistica transazionale di eventi. Fai riferimento a questo [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
 Adobe Campaign Standard è configurato per l’invio di e-mail.
 
-Gli eventi vengono inviati dal telefono cellulare dei clienti quando vengono rilevati vicino a un beacon. Devi progettare un’app mobile per inviare eventi dal telefono cellulare del cliente all’SDK di Mobile.
+Gli eventi vengono inviati dal telefono cellulare dei clienti quando vengono rilevati vicino a un beacon. È necessario progettare un’app mobile per inviare eventi dal telefono cellulare del cliente all’SDK di Mobile.

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: trim
-description: Scopri il trim della funzione
+description: Scopri il ritaglio della funzione
 feature: Journeys
 role: Data Engineer
 level: Experienced

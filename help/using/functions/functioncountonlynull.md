@@ -15,7 +15,7 @@ ht-degree: 33%
 
 # countOnlyNull {#countOnlyNull}
 
-Conta il numero di valori nulli nell’elenco.
+Conta il numero di valori Null nell&#39;elenco.
 
 ## Categoria
 

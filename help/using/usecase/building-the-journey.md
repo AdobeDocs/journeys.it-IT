@@ -27,7 +27,7 @@ Ora l’**utente aziendale** può costruire il percorso. Il percorso includerà 
 >
 >Le attività **[!UICONTROL Push]** e **[!UICONTROL Email]** sono disponibili nel riquadro solo se si dispone di Adobe Campaign Standard.
 
-Per ulteriori informazioni sulla creazione di un percorso, consulta [questa pagina](../building-journeys/journey.md).
+Per ulteriori informazioni su come creare un percorso, fare riferimento a [questa pagina](../building-journeys/journey.md).
 
 ## Primi passaggi{#section_ntb_ws1_ffb}
 

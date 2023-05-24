@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Pubblicazione del percorso
-description: Informazioni sulla pubblicazione percorso
+description: Informazioni sulla pubblicazione di percorsi
 feature: Journeys
 role: User
 level: Intermediate
@@ -17,12 +17,12 @@ ht-degree: 8%
 
 Puoi pubblicare un percorso dopo averne verificato la validità.
 
-Se devi apportare modifiche a un percorso pubblicato, devi creare una nuova versione del percorso. Consulta [questa pagina](../building-journeys/journey-versions.md). Quando un percorso è di sola lettura, puoi modificare solo le etichette e le descrizioni dell’attività, il nome del percorso e la descrizione del percorso.
+Se è necessario apportare modifiche a un percorso pubblicato, è necessario creare una nuova versione del percorso. Consulta [questa pagina](../building-journeys/journey-versions.md). Quando un percorso è di sola lettura, è possibile modificare solo le etichette e le descrizioni delle attività, il nome del percorso e la descrizione del percorso.
 
-Se si interrompe un percorso, questo verrà interrotto definitivamente. Tutte le persone che confluiscono nel percorso saranno fermate in modo permanente e il percorso smetterà di permettere nuove entrate. Se devi utilizzare nuovamente il percorso, devi duplicarlo e pubblicarlo.
+Se si interrompe un percorso, questo verrà interrotto definitivamente. Tutte le persone che entrano nel percorso saranno fermate in modo permanente e il percorso non permetterà più nuovi ingressi. Se devi utilizzare nuovamente il percorso, devi duplicarlo e pubblicarlo.
 
-1. Prima di pubblicare il percorso, verifica che sia valido e che non vi siano errori. Non potrai pubblicare un percorso con errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). È inoltre consigliabile testare il percorso prima della pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
-1. Per pubblicare il percorso, fai clic sul pulsante **[!UICONTROL Publish]** disponibile nel menu a discesa in alto a destra.
+1. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Non potrai pubblicare un percorso con errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). Si consiglia inoltre di verificare il percorso prima della pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
+1. Per pubblicare il percorso, fai clic su **[!UICONTROL Publish]** nel menu a discesa in alto a destra.
 
    ![](../assets/journeyuc1_18.png)
 

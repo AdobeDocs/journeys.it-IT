@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: upper
-description: Scopri la funzione superiore
+description: Scopri la funzione upper
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # upper {#upper}
 
-Restituisce una versione in maiuscolo del parametro .
+Restituisce una versione in maiuscolo del parametro.
 
 ## Categoria
 

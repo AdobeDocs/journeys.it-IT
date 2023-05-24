@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: avg
-description: Scopri l’avg della funzione
+description: Scopri la funzione media
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # avg {#avg}
 
-Restituisce il valore medio tra un insieme di espressioni, dato come elenco o due espressioni. I valori Null vengono ignorati.
+Restituisce il valore medio tra un insieme di espressioni, sotto forma di elenco o di due espressioni. I valori Null vengono ignorati.
 
 
 ## Categoria
@@ -49,7 +49,7 @@ Tipi supportati:
 
 `avg(<integer>,<integer>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 ## Esempi
 
@@ -61,4 +61,4 @@ Restituisce 7,0.
 
 `avg(10.2, 3)`
 
-Restituisce 6.6.
+Restituisce 6,6.

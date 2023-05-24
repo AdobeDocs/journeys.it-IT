@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Conclusione di un percorso
 
-La **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** le opzioni consentono di terminare **live** percorsi. La chiusura di un percorso comporta **che l&#39;arrivo di nuovi clienti nel percorso è bloccato** e che i clienti che sono già entrati nel percorso sono in grado di sperimentarlo fino alla fine. Questo è il modo più consigliato per mettere fine a un percorso in quanto offre la migliore esperienza per i clienti. Arrestare un percorso implica che le persone che sono già entrate in un percorso vengono tutte fermate nel loro progresso. Il percorso è fondamentalmente spento.
+Il **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** opzioni che consentono di terminare **live** percorsi. La chiusura di un percorso comporta **che l&#39;arrivo di nuovi clienti nel percorso sia bloccato** e che i clienti che sono già entrati nel percorso siano in grado di sperimentarlo fino alla fine. Si tratta del metodo più consigliato per porre fine a un percorso in quanto offre la migliore esperienza per i clienti. L&#39;arresto di un percorso comporta che le persone che sono già entrate in un percorso siano tutte fermate nel loro avanzamento. Il percorso è spento.
 
 >[!NOTE]
 >
@@ -25,19 +25,19 @@ La **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** le opzioni co
 
 ## Chiusura di un percorso
 
-È possibile chiudere manualmente un percorso per garantire che i clienti che sono già entrati nel percorso possano completare il loro percorso ma i nuovi utenti non siano in grado di accedere al percorso.
+È possibile chiudere un percorso manualmente per garantire che i clienti che hanno già inserito il percorso possano completare il percorso ma che i nuovi utenti non siano in grado di accedere al percorso.
 
-Una volta chiuso, un percorso avrà lo stato **[!UICONTROL Closed (no entrance)]**. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Consulta questa [sezione](../building-journeys/changing-properties.md#entrance).
+Quando viene chiuso, lo stato di un percorso diventa **[!UICONTROL Closed (no entrance)]**. Dopo il timeout globale predefinito di 30 giorni, il percorso passa alla **Completato** stato. Consulta questa [sezione](../building-journeys/changing-properties.md#entrance).
 
-Impossibile riavviare o eliminare una versione di un percorso chiuso. Puoi crearne una nuova versione o duplicarla. È possibile eliminare solo i percorsi finiti.
+Impossibile riavviare o eliminare una versione di percorso chiusa. Puoi crearne una nuova versione o duplicarla. È possibile eliminare solo i percorsi finiti.
 
-Per chiudere un percorso, fai clic su **[!UICONTROL Close to new entrances]** quando passi il mouse su un percorso nell&#39;elenco dei percorsi.
+Per chiudere un percorso, fai clic su **[!UICONTROL Close to new entrances]** mentre si passa il mouse su un percorso nell’elenco dei percorsi.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
 È inoltre possibile:
 
-1. In **[!UICONTROL Home]**, fai clic sul percorso da chiudere.
+1. In entrata **[!UICONTROL Home]**, fare clic sul percorso da chiudere.
 1. In alto a destra, fai clic sulla freccia giù.
 
    ![](../assets/finish_drop_down_list.png)
@@ -45,21 +45,21 @@ Per chiudere un percorso, fai clic su **[!UICONTROL Close to new entrances]** qu
 1. Fai clic su **[!UICONTROL Close to new entrances]**. Viene visualizzata una finestra di dialogo.
 1. Fai clic su **[!UICONTROL Close to new entrances]** per confermare.
 
-## Arresto di un percorso
+## Interruzione di un percorso
 
-È possibile interrompere un percorso quando si è verificata un&#39;emergenza e tutte le operazioni di elaborazione devono essere terminate immediatamente su un percorso.
+È possibile interrompere un percorso quando si è verificata un&#39;emergenza e tutte le operazioni di elaborazione devono essere terminate immediatamente in un percorso.
 
-Impossibile riavviare una versione di percorso interrotta.
+Impossibile riavviare una versione del percorso interrotta.
 
-Quando viene arrestato, lo stato di un percorso è **[!UICONTROL Stopped]**.
+Quando viene interrotto, lo stato di un percorso diventa **[!UICONTROL Stopped]**.
 
-È possibile interrompere un percorso (ad esempio se un addetto al marketing si rende conto che il percorso esegue il targeting del pubblico errato o che un’azione personalizzata che dovrebbe inviare i messaggi non funziona correttamente) facendo clic su **[!UICONTROL Stop]** quando passi il mouse su un percorso nell&#39;elenco dei percorsi.
+Puoi interrompere un percorso (ad esempio se un addetto marketing si rende conto che il percorso esegue il targeting del pubblico sbagliato o che un’azione personalizzata destinata a consegnare i messaggi non funziona correttamente) facendo clic su **[!UICONTROL Stop]** mentre si passa il mouse su un percorso nell’elenco dei percorsi.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
 È inoltre possibile:
 
-1. In **[!UICONTROL Home]**, fare clic sul percorso che si desidera interrompere.
+1. In entrata **[!UICONTROL Home]**, fare clic sul percorso che si desidera interrompere.
 1. In alto a destra, fai clic sulla freccia giù.
 
 ![](../assets/finish_drop_down_list.png)

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: random
-description: Scopri la funzione casuale
+description: Scopri la funzione random
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -29,5 +29,5 @@ Operazioni matematiche
 
 `random()`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 

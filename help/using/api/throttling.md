@@ -16,7 +16,7 @@ ht-degree: 95%
 
 # Utilizzare l’API di limitazione
 
-L’API di limitazione consente di creare, configurare e monitorare le configurazioni di limitazione per limitare il numero di eventi inviati al secondo.
+L’API di limitazione ti consente di creare, configurare e monitorare le configurazioni di limitazione al fine di limitare il numero di eventi inviati al secondo.
 
 >[!IMPORTANT]
 >

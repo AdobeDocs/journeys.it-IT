@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # isEmpty {#isEmpty}
 
-Restituisce true se la stringa nel parametro non ha carattere.
+Restituisce true se la stringa nel parametro non contiene alcun carattere.
 
 ## Categoria
 

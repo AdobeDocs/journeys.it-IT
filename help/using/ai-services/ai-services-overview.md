@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Panoramica del servizio AI
-description: Panoramica del servizio AI
+title: Panoramica del servizio IA
+description: Panoramica del servizio IA
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,10 +15,10 @@ ht-degree: 3%
 
 # Informazioni sull’integrazione con l’intelligenza artificiale {#ai-overview}
 
-L’integrazione con i servizi intelligenti consente di sfruttare la potenza dell’intelligenza artificiale e dell’apprendimento automatico nei casi d’uso della customer experience. Questo consente agli analisti di marketing di impostare previsioni specifiche per le esigenze di un&#39;azienda utilizzando configurazioni a livello di business senza la necessità di conoscenze scientifiche dei dati.
+L’integrazione con Intelligent Services ti consente di sfruttare la potenza dell’intelligenza artificiale e dell’apprendimento automatico nei casi di utilizzo dell’esperienza del cliente. Questo consente agli analisti di marketing di impostare previsioni specifiche per le esigenze di un’azienda utilizzando configurazioni a livello aziendale senza la necessità di competenze in materia di data science.
 
-Per ulteriori informazioni sui servizi intelligenti, consulta [documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
+Per ulteriori informazioni su Intelligent Services, consulta [documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
 
-Questa integrazione consente di sfruttare le previsioni dei clienti, consulta [Utilizzo dell’intelligenza artificiale del cliente](../ai-services/leveraging-customer-ai.md)
+Questa integrazione consente di sfruttare le previsioni dei clienti, vedi [Utilizzo di Customer AI](../ai-services/leveraging-customer-ai.md)
 
 <!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->

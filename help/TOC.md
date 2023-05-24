@@ -6,7 +6,7 @@ user-guide-description: Istruzioni per l’implementazione e la creazione dei pe
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
 
@@ -74,9 +74,9 @@ ht-degree: 100%
          + [Eventi di qualificazione dei segmenti](using/building-journeys/segment-qualification-events.md)
       + Attività di orchestrazione {#orchestration-activities}
          + [Informazioni sulle attività di orchestrazione](using/building-journeys/about-orchestration-activities.md)
-         + [Attività condizione](using/building-journeys/condition-activity.md)
-         + [Attività fine](using/building-journeys/end-activity.md)
-         + [Attività attendi](using/building-journeys/wait-activity.md)
+         + [Attività Condizione](using/building-journeys/condition-activity.md)
+         + [Attività Fine](using/building-journeys/end-activity.md)
+         + [Attività Attendi](using/building-journeys/wait-activity.md)
       + Attività di azione {#action-activities}
          + [Informazioni sulle attività di azione](using/building-journeys/about-action-activities.md)
          + [Utilizzo di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)

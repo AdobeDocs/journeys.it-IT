@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-Verificare che la prima stringa di argomento con la seconda stringa di argomento sia diversa, ignorando le considerazioni relative a maiuscole e minuscole.
+Verificare se la prima stringa di argomento con la seconda stringa di argomento è diversa, ignorando le considerazioni relative alle maiuscole e minuscole.
 
 ## Categoria
 

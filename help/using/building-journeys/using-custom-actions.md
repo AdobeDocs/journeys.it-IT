@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Utilizzo di azioni personalizzate
-description: Informazioni sulle attività di azione
+description: Scopri le attività di azione
 feature: Journeys
 role: User
 level: Intermediate
@@ -21,22 +21,22 @@ Il riquadro di configurazione dell’attività mostra i parametri di configurazi
 
 ### Percorso dinamico
 
-Se l’URL include un percorso dinamico, specifica il percorso nel **[!UICONTROL Path]** campo .
+Se l’URL include un percorso dinamico, specifica il percorso in **[!UICONTROL Path]** campo.
 
 >[!NOTE]
 >
->Non puoi impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Maggiori informazioni](../action/about-custom-action-configuration.md).
+>Non è possibile impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Maggiori informazioni](../action/about-custom-action-configuration.md).
 
-Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno Più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o tra virgolette doppie (&quot;). [Maggiori informazioni](../expression/expressionadvanced.md).
+Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o doppie (&quot;). [Maggiori informazioni](../expression/expressionadvanced.md).
 
 Questa tabella mostra un esempio di configurazione:
 
 | Campo | Valore |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| Path | `The id of marketingCampaign + '/messages'` |
+| Percorso | `The id of marketingCampaign + '/messages'` |
 
-L’URL concatenato ha questo modulo:
+L’URL concatenato ha il seguente modulo:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
@@ -44,12 +44,12 @@ L’URL concatenato ha questo modulo:
 
 ### Intestazioni
 
-La **[!UICONTROL URL Configuration]** La sezione mostra i campi di intestazione dinamici, ma non i campi di intestazione costanti. I campi di intestazione dinamica sono campi di intestazione HTTP il cui valore è configurato come variabile. [Maggiori informazioni](../action/about-custom-action-configuration.md).
+Il **[!UICONTROL URL Configuration]** mostra i campi intestazione dinamici, ma non i campi intestazione costanti. I campi di intestazione dinamici sono campi di intestazione HTTP il cui valore è configurato come variabile. [Maggiori informazioni](../action/about-custom-action-configuration.md).
 
-Se necessario, specifica il valore dei campi di intestazione dinamici:
+Se necessario, specifica il valore dei campi di intestazione dinamica:
 
 1. Seleziona l’azione personalizzata nel percorso.
-1. Nel riquadro di configurazione, fai clic sull’icona a forma di matita accanto al campo di intestazione nel **[!UICONTROL URL Configuration]** sezione .
+1. Nel riquadro di configurazione, fai clic sull’icona a forma di matita accanto al campo di intestazione nel **[!UICONTROL URL Configuration]** sezione.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
@@ -57,7 +57,7 @@ Se necessario, specifica il valore dei campi di intestazione dinamici:
 
 ## Parametri azione
 
-In **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. [Maggiori informazioni](../expression/expressionadvanced.md).
+In **[!UICONTROL Action parameters]** , vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. [Maggiori informazioni](../expression/expressionadvanced.md).
 
 **Argomenti correlati**
 

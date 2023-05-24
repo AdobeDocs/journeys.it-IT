@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Riferimenti campo
-description: Informazioni sui riferimenti di campo nelle espressioni avanzate
+description: Scopri i riferimenti ai campi nelle espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,15 +15,15 @@ ht-degree: 3%
 
 # Riferimenti campo {#concept_fkj_ll5_dgb}
 
-Un riferimento di campo può essere associato a un evento o a un gruppo di campi. L’unica informazione significativa è il nome del campo e il relativo percorso.
+Un riferimento di campo può essere allegato a un evento o a un gruppo di campi. L’unica informazione significativa è il nome del campo e il relativo percorso.
 
-Se utilizzi caratteri speciali in un campo, devi utilizzare virgolette doppie o virgolette semplici. Di seguito sono riportati i casi in cui le virgolette sono necessarie:
+Se in un campo si utilizzano caratteri speciali, è necessario utilizzare virgolette doppie o semplici. Di seguito sono riportati i casi in cui sono necessarie virgolette:
 
 * il campo inizia con caratteri numerici
 * il campo inizia con il carattere &quot;-&quot;
 * il campo contiene elementi diversi da: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
-Ad esempio se il campo è _3 h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+Ad esempio, se il campo è _3 ore_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -35,11 +35,11 @@ Ad esempio se il campo è _3 h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} >
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-Nell&#39;espressione, ai campi evento viene fatto riferimento con &quot;@&quot; e ai campi dell&#39;origine dati viene fatto riferimento con &quot;#&quot;.
+Nell’espressione, ai campi evento viene fatto riferimento con &quot;@&quot; e ai campi dell’origine dati viene fatto riferimento con &quot;#&quot;.
 
-Il colore della sintassi viene utilizzato per distinguere visivamente i campi evento (verde) dai gruppi di campi (blu).
+Un colore di sintassi viene utilizzato per distinguere visivamente i campi degli eventi (verde) dai gruppi di campi (blu).
 
-## Valori predefiniti per i riferimenti di campo {#default-value}
+## Valori predefiniti per riferimenti campo {#default-value}
 
 Un valore predefinito può essere associato a un nome di campo. La sintassi è la seguente:
 
@@ -54,7 +54,7 @@ Un valore predefinito può essere associato a un nome di campo. La sintassi è l
 
 >[!NOTE]
 >
->Il tipo di campo e il valore predefinito devono essere uguali. Ad esempio, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} non sarà valido perché il valore predefinito è un numero intero, mentre il valore previsto deve essere una stringa.
+>Il tipo del campo e il valore predefinito devono essere uguali. Ad esempio, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} non sarà valido perché il valore predefinito è un numero intero, mentre il valore previsto deve essere una stringa.
 
 Esempi:
 
@@ -88,16 +88,16 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-È possibile aggiungere qualsiasi tipo di espressione come valore predefinito. L’unico vincolo consiste nel fatto che l’espressione deve restituire il tipo di dati previsto. Quando si utilizza una funzione, è necessario incapsulare la funzione con ().
+È possibile aggiungere qualsiasi tipo di espressione come valore predefinito. L’unico vincolo è che l’espressione deve restituire il tipo di dati previsto. Quando si utilizza una funzione, è necessario incapsularla con ().
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
 == date("2022-02-10T00:00:00Z")
 ```
 
-## Riferimento a un campo nelle raccolte
+## Riferimento a un campo all’interno di raccolte
 
-Gli elementi definiti nelle raccolte sono referenziati utilizzando le funzioni specifiche `all`, `first` e `last`. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
+Per fare riferimento agli elementi definiti nelle raccolte vengono utilizzate le funzioni specifiche `all`, `first` e `last`. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
 Esempio :
 
@@ -109,29 +109,29 @@ Esempio :
 
 ### Funzione  di `entry`
 
-Per recuperare un elemento in una mappa, utilizziamo la funzione di ingresso con una chiave specifica. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Consulta Selezione dello spazio dei nomi . Per ulteriori informazioni, consulta [questa pagina](../event/selecting-the-namespace.md).
+Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una determinata chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Consulta Selezione dello spazio dei nomi. Per ulteriori informazioni, consulta [questa pagina](../event/selecting-the-namespace.md).
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In questa espressione, otteniamo la voce per la chiave &quot;Email&quot; del campo &quot;IdentityMap&quot; di un evento. La voce &quot;Email&quot; è una raccolta da cui prendiamo l’&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
+In questa espressione, si ottiene la voce per la chiave &quot;E-mail&quot; del campo &quot;IdentityMap&quot; di un evento. La voce &quot;E-mail&quot; è una raccolta, da cui prendiamo l’&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
 ### Funzione  di `firstEntryKey`
 
-Per recuperare la prima chiave di ingresso di una mappa, utilizza la `firstEntryKey` funzione .
+Per recuperare la prima chiave di ingresso di una mappa, utilizza `firstEntryKey` funzione.
 
-Questo esempio mostra come recuperare il primo indirizzo e-mail degli abbonati a un elenco specifico:
+Questo esempio mostra come recuperare il primo indirizzo e-mail degli abbonati di un elenco specifico:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-In questo esempio, l’elenco di sottoscrizioni è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nel `subscribers` map, collegata alla mappa dell’elenco di abbonamenti.
+In questo esempio, l’elenco degli abbonamenti è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nella `subscribers` mappa, collegata alla mappa dell’elenco di iscrizioni.
 
 ### Funzione  di `keys`
 
-Per recuperare tutte le chiavi di una mappa, utilizza le `keys` funzione .
+Per recuperare in tutte le chiavi di una mappa, utilizza `keys` funzione.
 
 Questo esempio mostra come recuperare, per un profilo specifico, tutti gli indirizzi e-mail associati agli abbonati di un elenco specifico:
 
@@ -141,21 +141,21 @@ Questo esempio mostra come recuperare, per un profilo specifico, tutti gli indir
 
 ## Valori dei parametri di un’origine dati (valori dinamici dell’origine dati)
 
-Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro , viene visualizzata una nuova scheda a destra per consentirti di specificare questo parametro. Consulta [questa pagina](../expression/expressionadvanced.md).
+Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro, a destra viene visualizzata una nuova scheda che consente di specificare questo parametro. Consulta [questa pagina](../expression/expressionadvanced.md).
 
-Per casi d’uso più complessi, se desideri includere i parametri dell’origine dati nell’espressione principale, puoi definirne i valori utilizzando la parola chiave _params_. Un parametro può essere qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
+Per casi d’uso più complessi, se desideri includere i parametri dell’origine dati nell’espressione principale, puoi definirne i valori utilizzando la parola chiave _parametri_. Un parametro può essere qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
 
 >[!NOTE]
 >
->Quando definisci i valori dei parametri nell’espressione, la scheda a destra scompare.
+>Quando definite i valori dei parametri nell&#39;espressione, la linguetta a destra scompare.
 
-Utilizza la sintassi seguente:
+Utilizza la seguente sintassi:
 
 ```json
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: nome esatto del primo parametro dall&#39;origine dati.
+* **`<params-1-name>`**: nome esatto del primo parametro dell’origine dati.
 * **`<params-1-value>`**: il valore del primo parametro. Può essere qualsiasi espressione valida.
 
 Esempio:

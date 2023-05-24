@@ -15,9 +15,9 @@ ht-degree: 10%
 
 # replaceAll {#replaceAll}
 
-Sostituisce tutte le occorrenze corrispondenti alla stringa di destinazione con la stringa di sostituzione nella stringa di base.
+Sostituisce tutte le occorrenze che corrispondono alla stringa di destinazione con la stringa di sostituzione nella stringa di base.
 
-La sostituzione procede dall’inizio della stringa alla fine, ad esempio sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
+La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
 
 ## Categoria
 
@@ -32,7 +32,7 @@ Stringa
 | Parametro | Tipo |
 |-----------|--------------|
 | base | string |
-| target | string (RegExp) |
+| target | stringa (RegExp) |
 | sostituzione | string |
 
 ## Firma e tipo restituito
@@ -47,4 +47,4 @@ Restituisce una stringa.
 
 Restituisce &quot;Hexxo Worxd&quot;.
 
-Poiché il parametro di destinazione è un RegExp, a seconda della stringa che desideri sostituire, potrebbe essere necessario applicare l’escape di alcuni caratteri. Fai riferimento all’esempio in [questa pagina](../functions/functionreplace.md#example_2).
+Poiché il parametro di destinazione è un RegExp, a seconda della stringa che si desidera sostituire, potrebbe essere necessario eseguire l&#39;escape di alcuni caratteri. Fai riferimento all’esempio in [questa pagina](../functions/functionreplace.md#example_2).

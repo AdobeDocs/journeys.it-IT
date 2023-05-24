@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: count
-description: Informazioni sul conteggio delle funzioni
+description: Scopri il conteggio delle funzioni
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 30%
 
 # count {#count}
 
-Conta gli elementi dell’elenco che non tengono conto dei valori nulli.
+Conta gli elementi dell’elenco senza tenere conto dei valori nulli.
 
 ## Categoria
 

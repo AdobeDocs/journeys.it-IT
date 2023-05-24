@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-Controlla se la prima stringa di argomento termina con una stringa specifica (seconda stringa di argomento), senza tenere conto del caso.
+Controlla se la stringa del primo argomento termina con una stringa specifica (stringa del secondo argomento), senza tenere conto delle maiuscole/minuscole.
 
 ## Categoria
 
