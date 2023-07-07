@@ -6,17 +6,92 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
 workflow-type: tm+mt
-source-wordcount: '3274'
-ht-degree: 100%
+source-wordcount: '4188'
+ht-degree: 90%
 
 ---
 
 # Note sulla versione {#release-notes}
 
-Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration.
-Puoi anche consultare gli [Aggiornamenti alla documentazione](../release-notes/documentation-updates.md) più recenti.
+Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti per Journey Orchestration. Ad Experience Platform, per le funzioni, fare riferimento a quanto segue [note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it).
+
+>[!NOTE]
+>
+>Per le funzioni rilasciate nel 2022 e nel 2023, i collegamenti si trovano direttamente nella documentazione di Adobe Journey Optimizer.
+
+## Versione di aprile 2023 {#apr-rn-2023}
+
+### Miglioramenti {#april-2023-improvements}
+
+**Percorsi**
+
+* È stato migliorato il layout del riquadro di configurazione, che ora mostra azioni, origini dati, eventi e percorsi.
+* È ora possibile definire parametri di query statici o dinamici nelle azioni personalizzate. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration).
+* Nuovi guardrail per gestire la crescita di esperienze fornite dai Percorsi:
+   * Si consiglia di mantenere il numero di nodi limitato a un massimo di 50 per mantenere i percorsi efficienti, facili da leggere, di controllo qualità e di risoluzione dei problemi. Il numero di attività viene visualizzato nella sezione superiore sinistra dell’area di lavoro del percorso. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+   * Quando svilupperai e lancerai percorsi, riceverai una notifica non appena ti avvicinerai al traguardo di 100 percorsi live alla volta. Se i tuoi piani richiedono più di 100 percorsi alla volta, crea un ticket per il supporto dopo aver visualizzato la notifica. Ti aiuteremo. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+
+## Versione di marzo 2023 {#mar-2023}
+
+### Miglioramenti {#mar-2023-improvements}
+
+* La nuova **API di limitazione** consente di impostare un limite al numero di eventi inviati al secondo, evitando picchi di traffico eccessivi sui sistemi esterni o sulle API. Al raggiungimento del limite impostato, tutte le chiamate API successive vengono messe in coda ed elaborate il prima possibile, nell’ordine in cui sono state ricevute. Questa funzione supporta una sola configurazione di limitazione per tutte le sandbox. [Ulteriori informazioni](../api/throttling.md)
+* L’area di lavoro del percorso è stata ottimizzata per un’esperienza utente più semplice e migliorata. Alla fine di ogni percorso nell’area di lavoro, i segnaposto vuoti sono stati rimossi. Ora puoi semplicemente aggiungere le attività trascinandole alla fine di un percorso.
+* Nell’area di lavoro del percorso, l’etichetta del tag **Fine** non viene più impostata automaticamente con il nome dell’attività precedente. Se necessario, gli utenti possono aggiungere manualmente un’etichetta personalizzata.
+* Il timeout predefinito e la durata dell’errore nelle proprietà del percorso sono stati modificati da 5 a 30 secondi. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html#timeout).
+* È stato aggiunto un guardrail alla modalità di test per ascoltare solo gli eventi inviati tramite l’interfaccia. Gli eventi inviati tramite uno strumento esterno non vengono presi in considerazione. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=it).
+
+## Versione di febbraio 2023 {#feb-2023}
+
+### Miglioramenti {#feb-2023-improvements}
+
+* Il campo **Periodo di attesa per il rientro** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o una qualifica di segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#entrance).
+* Sono stati apportati miglioramenti per le **date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates).
+
+## Versione di gennaio 2023 {#jan-2023-release}
+
+### Miglioramenti {#jan-2023-improvements}
+
+* Quando si aggiunge una **Qualificazione del segmento** in un percorso, lo spazio dei nomi è ora precompilato, per impostazione predefinita, con l’ultimo spazio dei nomi utilizzato. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification).
+* Nell’area di lavoro del percorso, nella barra degli strumenti è disponibile un nuovo pulsante che consente di scaricare una schermata del percorso.
+
+## Versione di settembre 2022{#sept-2022-release}
+
+### Nuove funzionalità{#sept-2022-features}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Governance dei dati e privacy</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con il framework di governance per l’etichettatura e l’applicazione dell’utilizzo dati (DULE), il Journey Orchestration ora può sfruttare i criteri di governance di Adobe Experience Platform per impedire l’esportazione di campi sensibili in sistemi di terze parti tramite azioni personalizzate. Se il sistema identifica un campo con restrizioni nei parametri delle azioni personalizzate, viene visualizzato un errore che impedisce la pubblicazione del percorso.</p>
+<p>L’utilizzo dell’etichettatura e l’applicazione dell’utilizzo dati (DULE) è attualmente limitato a clienti selezionati e verrà implementato in tutti gli ambienti in una versione futura.</p>
+<p>Per ulteriori informazioni, consulta Journey Optimizer <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html">documentazione</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti{#sept-2022-improvements}
+
+* È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o una qualificazione di segmento) per evitare che i percorsi vengano erroneamente attivati più volte per lo stesso evento. Per impostazione predefinita, il rientro nel profilo viene ora bloccato temporaneamente per 5 minuti. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#events-g).
+
+### Altre modifiche{#sept-2022-other}
+
+* Per migliorare le prestazioni, i gruppi di campo evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività di qualificazione dei segmenti. Questo cambiamento è applicabile solo ai nuovi percorsi. Quelli esistenti manterranno il comportamento corrente. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#expression-editor).
+
+### Miglioramenti
+
+* **Cessazione di un percorso** - Nell’area di lavoro del percorso, l’attività **Fine** è stata rimossa dalla palette. I tag di fine vengono ora aggiunti per impostazione predefinita alla fine di ciascun percorso e non possono essere rimossi. Questo miglioramento consente una migliore generazione di rapporti su dove un cliente ha abbandonato il percorso, senza che sia necessaria alcuna azione da parte del professionista del percorso. Consulta la Journey Optimizer [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html).
+
+* L’opzione **Fuso orario del profilo** è ora deselezionata per impostazione predefinita nelle proprietà del percorso. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html#timezone-from-profiles).
 
 ## Versione di maggio 2022 {#may-2022-release}
 
