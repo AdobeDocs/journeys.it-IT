@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
+source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '567'
 ht-degree: 66%
 
 ---
@@ -24,7 +24,6 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 ## Limitazioni delle azioni generali
 
-* Non esiste alcuna limitazione di invio. 
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. 
 * Il sistema integrato **Reazione** consente di reagire alle azioni predefinite (vedi questo [pagina](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
 
@@ -39,7 +38,6 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 * Il **Qualificazione del segmento** L’attività non può essere utilizzata insieme a Adobe Campaign Standard Transactional Messaging a causa di vincoli di velocità effettiva. Consulta [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
  
-
 ## Limitazioni delle azioni personalizzate
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
@@ -48,17 +46,14 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 * Gli indirizzi IP non sono consentiti. 
 * Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
  
-
 ## Limitazioni delle azioni di Adobe Campaign
 
 * La messaggistica transazionale di Adobe Campaign Standard ha una scala massima di 50.000 messaggi all’ora sui canali per una determinata istanza. Consulta [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
  
-
 ## Limitazioni degli eventi
 
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima all’interno del Journey Orchestration per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
  
-
 ## Limitazioni delle origini dati
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.

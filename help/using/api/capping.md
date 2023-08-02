@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 32%
+source-wordcount: '580'
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ Di seguito è riportata la struttura di base di una configurazione di endpoint:
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -55,6 +55,12 @@ Di seguito è riportata la struttura di base di una configurazione di endpoint:
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>Il **maxHttpConnections** Il parametro è facoltativo. Consente di limitare il numero di connessioni aperte da Journey Optimizer al sistema esterno.
+>
+>Il valore massimo impostabile è 400. Se non viene specificato nulla, il sistema può aprire più di migliaia di connessioni a seconda della scalabilità dinamica del sistema.
 
 ### Esempio:
 
@@ -66,9 +72,9 @@ Di seguito è riportata la struttura di base di una configurazione di endpoint:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
