@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Definizione dei parametri del messaggio
+title: Definizione dei parametri dell’azione
 description: Scopri come definire i parametri dell’azione
 feature: Journeys
 role: User
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# Definizione dei parametri del messaggio {#concept_wy4_bf1_2gb}
+# Definizione dei parametri dell’azione {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 

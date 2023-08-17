@@ -30,7 +30,7 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 1. Aggiungi un **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall’elenco a discesa, seleziona l’attività di azione a cui desideri reagire. Puoi selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata (e-mail, SMS o notifica push), scegli a cosa desideri reagire.
-1. Puoi definire un timeout dell’evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Durante il test di un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Wait time]** il valore predefinito e minimo è di 40 secondi. Vedi [questa sezione](../building-journeys/testing-the-journey.md).
+1. Puoi definire un timeout dell’evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Durante il test di un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Wait time]** il valore predefinito e minimo è di 40 secondi. Consulta [questa sezione](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

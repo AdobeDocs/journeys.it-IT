@@ -68,4 +68,4 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 
 ## stepEvents
 
-Questa categoria contiene i campi dell’evento del passaggio originale. Fai riferimento a questa [sezione](../building-journeys/sharing-legacy-fields.md).
+Questa categoria contiene i campi dell’evento del passaggio originale. Consulta questa [sezione](../building-journeys/sharing-legacy-fields.md).

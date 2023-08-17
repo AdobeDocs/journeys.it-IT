@@ -19,7 +19,7 @@ Se desideri attendere prima di eseguire l’attività successiva nel percorso, p
 
 * [Durata](#duration)
 * [Personalizzato](#custom)
-   <!--* [Email send time optimization](#email_send_time_optimization)-->
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informazioni sull’attività Attendi{#about_wait}
 

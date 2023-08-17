@@ -83,7 +83,7 @@ Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività
 
 Varie attività (evento, azione, attesa) ti consentono di aggiungere diversi percorsi dopo di essi. A questo scopo, posiziona il cursore sull’attività e fai clic sul simbolo &quot;+&quot;. Solo le attività event e wait possono essere impostate in parallelo. Se più eventi sono impostati in parallelo, il percorso scelto sarà quello del primo evento in corso.
 
-Quando ascolti un evento, ti consigliamo di non attendere l’evento a tempo indefinito. Non è obbligatorio, è solo una best practice. Se desideri ascoltare uno o più eventi solo durante un certo periodo di tempo, inserirai uno o più eventi e un’attività Attendi in parallelo. Vedi [questa sezione](../building-journeys/event-activities.md#section_vxv_h25_pgb).
+Quando ascolti un evento, ti consigliamo di non attendere l’evento a tempo indefinito. Non è obbligatorio, è solo una best practice. Se desideri ascoltare uno o più eventi solo durante un certo periodo di tempo, inserirai uno o più eventi e un’attività Attendi in parallelo. Consulta [questa sezione](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
 Per eliminare il tracciato, posizionare il cursore su di esso e fare clic su **[!UICONTROL Delete arrow]** icona.
 

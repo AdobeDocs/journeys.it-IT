@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Tecnicamente, una costante contiene sempre un tipo di dati. Nell’espressione letterale, specifichiamo solo il valore. Il tipo di dati può essere dedotto dal valore (ad esempio stringa, numero intero, decimale e così via). Per casi specifici come la data e l’ora, utilizziamo funzioni dedicate per la rappresentazione.
 
-Le sezioni seguenti forniscono informazioni sulle diverse espressioni dei tipi di dati e su come vengono rappresentate.
+Le sezioni seguenti forniscono informazioni sulle diverse espressioni dei tipi di dati e sulla loro rappresentazione.
 
 ## string {#string}
 

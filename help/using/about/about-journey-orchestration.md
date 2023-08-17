@@ -34,7 +34,7 @@ Grazie al designer del percorso, un **utente aziendale** può trascinare facilme
 
 A quel punto potrai creare le condizioni in base a:
 
-* orario
+* time
 * dati provenienti dal payload dell’evento
 * informazioni provenienti dalle origini dati, come Profilo del cliente in tempo reale o altre origini dati personalizzate
 

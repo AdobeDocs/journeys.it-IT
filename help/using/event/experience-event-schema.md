@@ -17,7 +17,7 @@ ht-degree: 4%
 
 [!DNL Journey Orchestration] Gli eventi sono eventi di esperienza XDM inviati a Adobe Experience Platform tramite Streaming Ingestion.
 
-In quanto tale, un prerequisito importante per la configurazione di eventi per [!DNL Journey Orchestration] è che hai familiarità con Experience Data Model (o XDM) di Adobe Experience Platform e con le modalità di composizione degli schemi Experience Event XDM, nonché con le procedure per lo streaming di dati in formato XDM su Adobe Experience Platform.
+In quanto tale, un prerequisito importante per la configurazione di eventi per [!DNL Journey Orchestration] è che hai familiarità con Experience Data Model (o XDM) di Adobe Experience Platform e con le modalità di composizione degli schemi Experience Event XDM, nonché con le modalità di invio di dati in formato XDM a Adobe Experience Platform.
 
 ## Requisiti dello schema per [!DNL Journey Orchestration] Eventi
 
@@ -29,27 +29,27 @@ Qualsiasi schema XDM che verrà utilizzato per [!DNL Journey Orchestration] gli 
 
 * Lo schema deve essere della classe ExperienceEvent XDM.
 
-   ![](../assets/schema2.png)
+  ![](../assets/schema2.png)
 
 * Per gli eventi generati dal sistema, lo schema deve includere il mixin Orchestration eventID. [!DNL Journey Orchestration] utilizza questo campo per identificare gli eventi utilizzati nei percorsi.
 
-   ![](../assets/schema3.png)
+  ![](../assets/schema3.png)
 
 * Dichiara un campo di identità per identificare l’oggetto dell’evento. Se non viene specificata alcuna identità, è possibile utilizzare una mappa di identità. Queste operazioni non sono consigliate.
 
-   ![](../assets/schema4.png)
+  ![](../assets/schema4.png)
 
 * Se desideri che questi dati siano disponibili per la ricerca in un secondo momento in un Percorso, contrassegna lo schema e il set di dati per il profilo.
 
-   ![](../assets/schema5.png)
+  ![](../assets/schema5.png)
 
-   ![](../assets/schema6.png)
+  ![](../assets/schema6.png)
 
 * Puoi includere campi dati per acquisire altri dati contestuali che desideri includere con l’evento, ad esempio informazioni sull’utente, sul dispositivo da cui è stato generato l’evento, sulla posizione o su qualsiasi altra circostanza significativa correlata all’evento.
 
-   ![](../assets/schema7.png)
+  ![](../assets/schema7.png)
 
-   ![](../assets/schema8.png)
+  ![](../assets/schema8.png)
 
 ## Sfruttare le relazioni tra schemi{#leverage_schema_relationships}
 
@@ -69,7 +69,7 @@ Schema di acquisto con la relazione definita nel campo ID prodotto.
 
 >[!NOTE]
 >
->Ulteriori informazioni sulle relazioni tra schemi in [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Ulteriori informazioni sulle relazioni tra schemi in [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 In Journey Orchestration, puoi quindi sfruttare tutti i campi delle tabelle collegate:
 

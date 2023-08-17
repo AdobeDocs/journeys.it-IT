@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Aggiorna il profilo
-description: Aggiorna il profilo
+title: Aggiorna profilo
+description: Aggiorna profilo
 feature: Journeys
 role: User
 level: Intermediate
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 ---
 
-# Aggiorna il profilo {#update-profile}
+# Aggiorna profilo {#update-profile}
 
 Il **[!UICONTROL Update profile]** attività azione consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico.
 
@@ -51,11 +51,11 @@ Il **[!UICONTROL Update profile]** attività azione consente di aggiornare un pr
 
    * Utilizzando l’editor di espressioni semplici, puoi selezionare un campo da un’origine dati o dall’evento in ingresso.
 
-      ![](../assets/profileupdate4.png)
+     ![](../assets/profileupdate4.png)
 
    * Se desideri definire un valore specifico o sfruttare funzioni avanzate, fai clic su **Modalità avanzata**.
 
-      ![](../assets/profileupdate3.png)
+     ![](../assets/profileupdate3.png)
 
 Il **Aggiorna profilo** è ora configurato.
 

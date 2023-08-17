@@ -9,13 +9,13 @@ exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
 # Informazioni sui segmenti di Adobe Experience Platform {#about-segments}
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) per creare i segmenti, puoi sfruttarli in [!DNL Journey Orchestration]. Grazie a un’attività evento dedicata, puoi fare in modo che singoli utenti entrino o avanzino in un percorso basato sulle entrate e sulle uscite dei segmenti Adobe Experience Platform. Questo consente anche di creare condizioni complesse nei percorsi utilizzando l’editor di espressioni semplice o avanzato.
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it) per creare i segmenti, puoi sfruttarli in [!DNL Journey Orchestration]. Grazie a un’attività evento dedicata, puoi fare in modo che singoli utenti entrino o avanzino in un percorso basato sulle entrate e sulle uscite dei segmenti Adobe Experience Platform. Questo consente anche di creare condizioni complesse nei percorsi utilizzando l’editor di espressioni semplice o avanzato.
 
 Supponiamo che tu abbia un segmento &quot;cliente silver&quot;. Con questa attività, puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviino loro una serie di messaggi personalizzati. Puoi anche creare facilmente le condizioni in base a questo segmento.
 
@@ -39,4 +39,4 @@ Puoi visualizzare il metodo di valutazione per ogni segmento nel **[!UICONTROL E
 
 Dopo aver definito per la prima volta un segmento, i profili vengono aggiunti al pubblico quando sono idonei.
 
-Il backfill del pubblico dai dati precedenti può richiedere fino a 24 ore. Dopo che il pubblico è stato recuperato, viene costantemente aggiornato ed è sempre pronto per il targeting.
+Il recupero del pubblico dai dati precedenti può richiedere fino a 24 ore. Dopo il recupero, il pubblico viene aggionato costantemente ed è sempre pronto per il targeting.

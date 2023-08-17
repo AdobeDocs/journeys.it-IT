@@ -44,7 +44,7 @@ Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
 * Quando crei una condizione di origine dati, puoi accedere all’editor avanzato facendo clic su **[!UICONTROL Advanced mode]**.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * Quando crei un timer personalizzato, l’editor avanzato viene visualizzato direttamente.
 * Quando mappi il parametro dell’azione, fai clic su **[!UICONTROL Advanced mode]**.

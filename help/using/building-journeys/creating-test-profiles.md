@@ -10,7 +10,7 @@ ht-degree: 5%
 
 ---
 
-# Crea profili di test {#create-test-profiles}
+# Creare profili di test {#create-test-profiles}
 
 I profili di test sono necessari quando si utilizza la modalità di test in un percorso. Per informazioni su come utilizzare la modalità di test, consulta [questa sezione](../building-journeys/testing-the-journey.md).
 
@@ -36,7 +36,6 @@ Innanzitutto, devi **creare uno schema**. Segui questi passaggi:
 1. Selezionare i mixin appropriati. Accertati di aggiungere **[!UICONTROL Profile test details]** mixin. Fai clic su **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 L’elenco dei mixin viene visualizzato nella schermata di panoramica dello schema.
-
    ![](../assets/test-profiles-2.png)
 1. Nell’elenco dei campi, fai clic sul campo che desideri definire come identità primaria.
    ![](../assets/test-profiles-3.png)

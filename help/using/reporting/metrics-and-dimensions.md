@@ -9,7 +9,7 @@ exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -89,7 +89,7 @@ La tabella seguente fornisce l’elenco delle metriche utilizzate nei rapporti s
 |--- |--- |
 | **Su elenco Bloccati** | Numero di destinatari che hanno dichiarato un’e-mail come spam o posta indesiderata. |
 | **Percentuale Elenchi Bloccati** | Numero totale di messaggi su cui è stato eseguito il inserisco nell&#39;elenco Bloccati di rispetto ai messaggi inviati. |
-| **Mancato recapito + errori** | Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati. |
+| **Mancato recapito + errori** | Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati. |
 | **Mancato recapito + tasso di errore** | Numero totale di messaggi non recapitati rispetto ai messaggi inviati. |
 | **Fai clic su** | Numero di volte in cui è stato fatto clic su un contenuto in una consegna. |
 | **Percentuale di click-through** | Numero totale di clic in una consegna rispetto al numero di messaggi consegnati. |

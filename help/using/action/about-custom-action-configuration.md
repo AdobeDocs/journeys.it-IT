@@ -36,7 +36,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
 1. Il numero di percorsi che utilizzano questa azione viene visualizzato nel **[!UICONTROL Used in]** campo. Puoi fare clic su **[!UICONTROL View journeys]** per visualizzare l&#39;elenco dei percorsi che utilizzano questa azione.
 1. Definisci i diversi **[!UICONTROL URL Configuration]** parametri. Consulta [questa pagina](../action/url-configuration.md).
-1. Configurare **[!UICONTROL Authentication]** sezione. Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Configurare **[!UICONTROL Authentication]** sezione. Questa configurazione è la stessa delle origini dati.  Consulta [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Definisci il **[!UICONTROL Action parameters]**. Consulta [questa pagina](../action/defining-the-message-parameters.md).
 1. Fai clic su **[!UICONTROL Save]**.
 

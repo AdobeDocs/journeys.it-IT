@@ -78,9 +78,9 @@ In presenza di una chiamata GET che richieda i parametri, inseriscili nel campo 
 * Elencare i parametri da trasmettere al momento della chiamata nel campo **[!UICONTROL Dynamic Values]**, nell’esempio seguente: &quot;identifier&quot;.
 * Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A tale scopo, è necessario aggiungere: &quot;param&quot;: “nome del tuo parametro”, nell’esempio seguente è &quot;identifier&quot;. Attieniti alla sintassi seguente:
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](../assets/journey29.png)
 

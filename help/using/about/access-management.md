@@ -38,9 +38,9 @@ All’interno di Admin Console, puoi assegnare agli utenti uno dei seguenti prof
    * Gestione di eventi, origini dati e azioni
    * Gestire i rapporti
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Administrators]** è l’unico profilo di prodotto che consente la creazione, la modifica e la pubblicazione di messaggi transazionali (o modelli di messaggistica) all’interno di Adobe Campaign Standard. Questo profilo di prodotto è necessario se utilizzi Adobe Campaign Standard per l’invio di messaggi durante i tuoi percorsi. Non deve essere rinominato in Admin Console.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Administrators]** è l’unico profilo di prodotto che consente la creazione, la modifica e la pubblicazione di messaggi transazionali (o modelli di messaggistica) all’interno di Adobe Campaign Standard. Questo profilo di prodotto è necessario se utilizzi Adobe Campaign Standard per l’invio di messaggi durante i tuoi percorsi. Non deve essere rinominato in Admin Console.
 
 * **[!UICONTROL Standard User]**: utente con accesso di base, ad esempio gestione del percorso. Questo profilo di prodotto include le seguenti autorizzazioni:
    * Gestione dei percorsi

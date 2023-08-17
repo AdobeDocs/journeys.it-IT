@@ -69,7 +69,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZATION>**: si tratta dell’ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ciascuna istanza :
 
    * &lt;organization> : istanza di produzione
-   Per ottenere il valore dell’ID organizzazione, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell’elenco delle licenze (consulta la [documentazione di Adobe I/O](https://www.adobe.io/authentication.html)).
+
+  Per ottenere il valore dell’ID organizzazione, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell’elenco delle licenze (consulta la [documentazione di Adobe I/O](https://www.adobe.io/authentication.html)).
 
 * **&lt;ACCESS_TOKEN>**: token di accesso personale, che è stato recuperato durante lo scambio del JWT tramite una richiesta POST.
 
@@ -98,7 +99,7 @@ Il payload risultante può essere utilizzato per importare la versione del perco
 Dopo la chiamata di esportazione, è necessario inserire manualmente le nuove credenziali (corrispondenti all’ambiente di destinazione) prima di importare il payload nell’ambiente di destinazione.
 
 * I seguenti oggetti vengono esportati ma non verranno mai importati nell’ambiente di destinazione. Si tratta di risorse di sistema gestite automaticamente dal Journey Orchestration. Non è necessario sostituire &quot;INSERT_SECRET_HERE&quot;.
-   * **Fornitori di dati**: &quot;Adobe Campaign Standard Data Provider&quot; (acsDataProvider) e &quot;Experience Platform&quot; (acppsDataProvider)
+   * **Fornitori di dati**: &quot;Adobe Campaign Standard Data Provider&quot; (acsDataProvider) e &quot;Experienci Platform&quot; (acppsDataProvider)
    * **Gruppi di campi** (dataEntities): &quot;ProfileFieldGroup&quot; (acppsDataPack)
 
 

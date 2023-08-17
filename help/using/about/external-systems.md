@@ -38,7 +38,7 @@ Per le origini dati esterne, il numero massimo di chiamate al secondo è imposta
 
 Per le azioni personalizzate, è necessario valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, devi definire una regola di limite in modo che il sistema non si saturi.
 
-Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL denominato). In fase di runtime, il Journey Orchestration verifica se è definita una regola di limite e applica la tariffa definita durante le chiamate all’endpoint. Se il numero di chiamate supera il tasso definito, le chiamate rimanenti vengono scartate e conteggiate come errori nella generazione dei rapporti.
+Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (URL denominato). In fase di runtime, il Journey Orchestration verifica se è definita una regola di limite e applica la tariffa definita durante le chiamate all’endpoint. Se il numero di chiamate supera il tasso definito, le chiamate rimanenti vengono scartate e conteggiate come errori nella generazione dei rapporti.
 
 Una regola di limite è specifica per un endpoint, ma globale per tutti i percorsi di una sandbox. Ciò significa che gli slot di limitazione sono condivisi tra tutti i percorsi di una sandbox.
 

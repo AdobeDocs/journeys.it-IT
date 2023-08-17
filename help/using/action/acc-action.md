@@ -21,7 +21,7 @@ La connessione tra le istanze Journey Orchestration e Campaign viene impostata d
 
 Un caso d’uso end-to-end è presentato in questo [sezione](../usecase/campaign-classic-use-case.md).
 
-Per ogni azione configurata, nella palette di Progettazione percorsi è disponibile un’attività di azione. Fai riferimento a questa [sezione](../building-journeys/using-adobe-campaign-classic.md).
+Per ogni azione configurata, nella palette di Progettazione percorsi è disponibile un’attività di azione. Consulta questa [sezione](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Note importanti
 
@@ -62,7 +62,7 @@ Ecco un esempio:
 
 In Journey Orchestration, devi configurare un’azione per ogni messaggio transazionale. Segui questi passaggi:
 
-1. Crea una nuova azione. Fai riferimento a questa [sezione](../action/action.md).
+1. Crea una nuova azione. Consulta questa [sezione](../action/action.md).
 1. Immettere un nome e una descrizione.
 1. In **Tipo di azione** campo, seleziona **Adobe Campaign Classic**.
 1. Fai clic su nella **Payload** e incolla un esempio del payload JSON corrispondente al messaggio Campaign. Contatta l’Adobe per ottenere questo payload.

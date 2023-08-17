@@ -52,7 +52,7 @@ ht-degree: 100%
    + Utilizzo di un sistema di terze parti {#action-third-party}
       + [Informazioni sulla configurazione delle azioni personalizzata](using/action/about-custom-action-configuration.md)
       + [Configurazione URL](using/action/url-configuration.md)
-      + [Definizione dei parametri del messaggio](using/action/defining-the-message-parameters.md)
+      + [Definizione dei parametri dell’azione](using/action/defining-the-message-parameters.md)
 + Utilizzo dei segmenti {#configuring-segment}
    + [Informazioni sui segmenti](using/segment/about-segments.md)
    + [Creazione di un segmento](using/segment/creating-a-segment.md)
@@ -89,7 +89,7 @@ ht-degree: 100%
    + Condivisione di passaggi del percorso con Adobe Experience Platform {#sharing-journey-steps}
       + [Panoramica sulla condivisione delle fasi del percorso](using/building-journeys/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/building-journeys/sharing-field-list.md)
-      + Campi evento del passaggio precedente {#legacy-step-event-fields}
+      + Campi di eventi passaggio legacy{#legacy-step-event-fields}
          + [Informazioni sui campi legacy](using/building-journeys/sharing-legacy-fields.md)
          + [Campi comuni degli eventi journeySteps](using/building-journeys/sharing-common-fields.md)
          + [Campi di esecuzione dell’azione eventi journeyStep](using/building-journeys/sharing-execution-fields.md)

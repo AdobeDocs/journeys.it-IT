@@ -20,12 +20,12 @@ Se si dispone di Adobe Campaign v7 o v8, è disponibile un’integrazione. Ti co
 
 La connessione tra le istanze Journey Orchestration e Campaign viene impostata da Adobe al momento del provisioning. Adobe di contatto.
 
-Affinché questo funzioni, devi configurare un’azione dedicata. Fai riferimento a questa [sezione](../action/acc-action.md).
+Affinché questo funzioni, devi configurare un’azione dedicata. Consulta questa [sezione](../action/acc-action.md).
 
 Un caso d’uso end-to-end è presentato in questo [sezione](../usecase/campaign-classic-use-case.md).
 
 1. Progetta il percorso, a partire da un evento. Consulta questa [sezione](../building-journeys/journey.md).
 1. In **Azione** nella palette, seleziona un’azione Campaign e aggiungila al percorso.
-1. In **Parametri azione**, vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Fai riferimento a questa [sezione](../building-journeys/using-custom-actions.md).
+1. In **Parametri azione**, vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Consulta questa [sezione](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)

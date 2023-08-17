@@ -51,4 +51,4 @@ Restituisce 2010-12-12T04:11:00Z
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Restituisce domani alle 20:XY, dove XY corrisponde ai minuti al momento della valutazione dell&#39;ora corrente. Se la valutazione viene eseguita alle 02:45, l’ora restituita sarà le 20:45.
+Restituisce domani alle 20:XY, dove XY corrisponde ai minuti al momento della valutazione del tempo corrente. Se la valutazione viene eseguita alle 02:45, l’ora restituita sarà le 20:45.

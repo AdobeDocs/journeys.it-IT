@@ -130,9 +130,9 @@ Dopo la condizione vengono creati due percorsi:
    * **[!UICONTROL Push platform]**: seleziona la piattaforma: **[!UICONTROL Apple Push Notification Server]** (Apple) o **[!UICONTROL Firebase Cloud Messaging]** (Android).
    * **[!UICONTROL Registration token]**: aggiungi la seguente espressione (basata sull’evento configurato) utilizzando la modalità avanzata:
 
-      ```
-      @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-      ```
+     ```
+     @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+     ```
 
 1. Definisci i campi di personalizzazione delle notifiche push. Nel nostro esempio: nome e cognome.
 

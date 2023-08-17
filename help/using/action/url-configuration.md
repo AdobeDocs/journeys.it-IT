@@ -25,9 +25,10 @@ Durante la configurazione di un’azione personalizzata, devi definire quanto se
 
    * Se l&#39;URL include un percorso dinamico, immettere solo la parte statica dell&#39;URL, ovvero lo schema, l&#39;host, la porta e, facoltativamente, una parte statica del percorso.
 
-      Esempio: `https://xxx.yyy.com/somethingstatic/`
+     Esempio: `https://xxx.yyy.com/somethingstatic/`
 
-      Specificherai il percorso dinamico dell’URL quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
+     Specificherai il percorso dinamico dell’URL quando aggiungi l’azione personalizzata a un percorso. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
+
    >[!NOTE]
    >
    >Per motivi di sicurezza, si consiglia vivamente di utilizzare lo schema HTTPS per l’URL. Non consentiamo l’uso di indirizzi Adobe non pubblici e l’uso di indirizzi IP.
@@ -44,15 +45,16 @@ Durante la configurazione di un’azione personalizzata, devi definire quanto se
 
    1. Se hai selezionato **[!UICONTROL Constant]**, quindi immettere il valore costante.
 
-      Se hai selezionato **[!UICONTROL Variable]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
+      Se hai selezionato **[!UICONTROL Variable]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
    1. Per eliminare un campo intestazione, posizionare il puntatore del mouse sul campo intestazione e fare clic sul pulsante **[!UICONTROL Delete]** icona.
+
    Il **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** i campi dell’intestazione sono impostati per impostazione predefinita. Non è possibile modificare o eliminare questi campi.
 
    Dopo aver aggiunto l’azione personalizzata a un percorso, puoi comunque aggiungervi campi di intestazione se il percorso è in stato di bozza. Se non vuoi che le modifiche alla configurazione influiscano sul percorso, duplica l’azione personalizzata e aggiungi i campi dell’intestazione alla nuova azione personalizzata.
 
    >[!NOTE]
    >
-   >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. [Maggiori informazioni](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. [Ulteriori informazioni](https://tools.ietf.org/html/rfc7230#section-3.2.4).

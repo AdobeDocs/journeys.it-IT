@@ -48,5 +48,5 @@ Per eliminare un campo da un gruppo di campi utilizzato in uno o più percorsi, 
 1. In &quot;Gruppo di campi A&quot;, verificare dove viene utilizzato questo gruppo di campi. Queste informazioni vengono visualizzate nel **[!UICONTROL Used in]** campo.
 1. Aprire tutti i percorsi che utilizzano &quot;Gruppo di campi A&quot;.
 1. Crea nuove versioni di ciascuno di questi percorsi. Modificare tutte le attività utilizzando &quot;Gruppo di campi A&quot; e selezionare &quot;Gruppo di campi B&quot;.
-1. Interrompere le versioni precedenti dei percorsi che utilizzano &quot;Gruppo di campi A&quot;. In questo caso non dovrebbe esistere alcun percorso che utilizzi il &quot;Gruppo di campi A&quot;.
+1. Interrompere le versioni precedenti dei percorsi che utilizzano &quot;Gruppo di campi A&quot;. In questo caso non dovrebbe esistere alcun percorso che utilizzi &quot;Gruppo di campi A&quot;.
 1. Rimuovere il &quot;Gruppo di campi A&quot; perché non è più utilizzato.

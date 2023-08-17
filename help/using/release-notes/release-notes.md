@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4188'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 * È stato migliorato il layout del riquadro di configurazione, che ora mostra azioni, origini dati, eventi e percorsi.
 * È ora possibile definire parametri di query statici o dinamici nelle azioni personalizzate. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=it#url-configuration) di Journey Optimizer.
 * Nuovi guardrail per gestire la crescita delle esperienze fornite dai percorsi:
-   * Si consiglia di mantenere il numero di nodi limitato a un massimo di 50 per conservare i percorsi efficienti, facili da leggere nonché per favorire il controllo qualità e la risoluzione dei problemi. Il numero di attività verrà visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys) di Journey Optimizer
+   * Si consiglia di mantenere un massimo di 50 nodi per garantire percorsi efficienti e facili da leggere nonché per favorire il controllo qualità e la risoluzione dei problemi. Il numero di attività verrà visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys) di Journey Optimizer
    * Durante lo sviluppo e l’avvio dei percorsi, riceverai una notifica in prossimità del traguardo di 100 percorsi live alla volta. Se i tuoi piani richiedono più di 100 percorsi alla volta, crea un ticket per ricevere supporto dopo aver visualizzato la notifica e ti aiuteremo. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys) di Journey Optimizer
 
 ## Versione di marzo 2023 {#mar-2023}
@@ -224,7 +224,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 ### Miglioramenti
 
 * È stato aggiunto un nuovo stato ai percorsi. Quando un percorso termina o viene chiuso manualmente, lo stato cambia da **Chiuso** a **Completato** 30 giorni dopo la chiusura. Questo permette di identificare più facilmente i percorsi inattivi e di assicurarsi che tuttle persone ancora presenti abbiano il tempo di finire il percorso. [Ulteriori informazioni](../building-journeys/journey.md#ending_a_journey)
-* Nei riquadri delle attività a destra per i percorsi bozza, i campi di sola lettura ora sono nascosti per impostazione predefinita. L’interfaccia risulta così più semplice e facilita la configurazione delle attività. Per visualizzarli, fai clic sull&#39;icona **Mostra campi di sola lettura**, in alto a sinistra nel riquadro di configurazione dell’attività. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* Nei riquadri delle attività a destra per i percorsi bozza, i campi di sola lettura ora sono nascosti per impostazione predefinita. L’interfaccia risulta così più semplice e facilita la configurazione delle attività. Per visualizzarli, fai clic sull’icona **Mostra campi di sola lettura**, in alto a sinistra nel riquadro di configurazione dell’attività. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#configuration_pane)
 * In modalità di prova, nella schermata **Configurazione evento**, il campo **Chiave** utilizzato per definire l&#39;ID del profilo di test è stato rinominato **Identificatore profilo**, per chiarezza. [Ulteriori informazioni](../building-journeys/testing-the-journey.md).
 * Per gli eventi di reazione, la durata del timeout può ora essere impostata solo tra 40 secondi e 30 giorni. Quando si esegue il test di un percorso che utilizza un evento di reazione, il valore **[!UICONTROL Wait time]** predefinito e minimo per la modalità di test è ora di 40 secondi. [Ulteriori informazioni](../building-journeys/reaction-events.md).
 

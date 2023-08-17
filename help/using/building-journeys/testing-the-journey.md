@@ -15,15 +15,15 @@ ht-degree: 7%
 
 # Verifica del percorso{#testing_the_journey}
 
-Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali errori. Consulta [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 Puoi testare il percorso prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione.
 
-Solo i profili di test possono accedere a un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. Fai riferimento a questa [sezione](../building-journeys/creating-test-profiles.md).
+Solo i profili di test possono accedere a un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. Consulta questa [sezione](../building-journeys/creating-test-profiles.md).
 
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
-1. Prima di eseguire il test del percorso, verificare che sia valido e che non vi siano errori. Non sarà possibile avviare il test di un percorso con errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
+1. Prima di eseguire il test del percorso, verificare che sia valido e che non vi siano errori. Non sarà possibile avviare il test di un percorso con errori. Consulta [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
 
 1. Per attivare la modalità di test, fai clic sul pulsante **[!UICONTROL Test]** , situato nell’angolo in alto a destra.
 
@@ -35,7 +35,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md).
+   >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Consulta [questa sezione](../building-journeys/reaction-events.md).
 
 1. Clic **[!UICONTROL Trigger an event]** per configurare e inviare eventi al percorso.
 
@@ -54,7 +54,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 ## Note importanti {#important_notes}
 
 * Viene fornita un&#39;interfaccia per attivare eventi al percorso testato, ma gli eventi possono essere inviati anche da sistemi di terze parti come Postman.
-* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Fai riferimento a questa [sezione](../building-journeys/creating-test-profiles.md).
+* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Consulta questa [sezione](../building-journeys/creating-test-profiles.md).
 * La modalità di test è disponibile solo nei percorsi bozza che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che entra nel percorso è un profilo di test o meno e quindi deve essere in grado di raggiungere il Adobe Experience Platform.
 * Il numero massimo di profili di test che può entrare in un percorso durante una sessione di test è 100.
 * Quando disattivi la modalità di test, i percorsi vengono svuotati da tutte le persone che vi sono entrate in passato o che vi si trovano attualmente. Cancella anche la segnalazione.
@@ -67,7 +67,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 Puoi trasformare un profilo esistente in un profilo di test. In Adobe Experience Platform, puoi aggiornare gli attributi dei profili tramite chiamate API, ma non tramite l’interfaccia.
 
-Il modo più semplice per farlo è utilizzare un **Aggiorna profilo** attività di azione e modifica il campo booleano del profilo di test da false a true. Vedi [questa sezione](../building-journeys/update-profiles.md#using-the-test-mode).
+Il modo più semplice per farlo è utilizzare un **Aggiorna profilo** attività di azione e modifica il campo booleano del profilo di test da false a true. Consulta [questa sezione](../building-journeys/update-profiles.md#using-the-test-mode).
 
 ## Creazione di un profilo di test{#create-test-profile}
 

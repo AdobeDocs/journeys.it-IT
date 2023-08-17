@@ -110,7 +110,7 @@ Quando un **[!UICONTROL Jump]** l’attività è configurata in un percorso, un 
 
 Quando il percorso viene pubblicato o in modalità di test, si verificano degli errori se:
 * il percorso target non esiste più
-* il percorso di destinazione è bozza, chiuso o arrestato
+* il percorso di destinazione è bozza, chiuso o interrotto
 * se il primo evento del percorso target è stato modificato e la mappatura è interrotta
 
 ![](../assets/jump6.png)

@@ -35,7 +35,8 @@ Di seguito sono riportati i passaggi principali per la configurazione di un nuov
 
    * **Eventi basati sulle regole**: questo tipo di evento non genera un eventID. In **Condizione ID evento** definire semplicemente una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
-   * **Generato dal sistema** events: questo tipo richiede un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento e aggiunto all’anteprima del payload. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload. Vedi [questa sezione](../event/previewing-the-payload.md).
+   * **Generato dal sistema** events: questo tipo richiede un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento e aggiunto all’anteprima del payload. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload. Consulta [questa sezione](../event/previewing-the-payload.md).
+
    >[!NOTE]
    >
    >Ulteriori informazioni sui tipi di evento in [questa sezione](../event/about-events.md).

@@ -52,7 +52,7 @@ Vengono passati i seguenti set di dati:
 Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti qui:
 
 * [Elenco dei campi evento del passaggio](../building-journeys/sharing-field-list.md)
-* [Campi evento del passaggio precedente](../building-journeys/sharing-legacy-fields.md)
+* [Campi di eventi passaggio legacy](../building-journeys/sharing-legacy-fields.md)
 
 Per ulteriori informazioni sugli eventi dei passaggi che inviano rapporti a Adobe Experience Platform, guarda questo [video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=it).
 
