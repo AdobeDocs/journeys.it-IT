@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
-source-git-commit: 5b09ed456b6a9645dbb7897481317d3904e29d31
+source-git-commit: fca24f7dd0f9170fa209474f270a4c0fb4080c03
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ Quando fai clic sull’attività evento nell’area di lavoro, viene visualizzat
 
 ![](../assets/journey33.png)
 
-## Ascolto degli eventi durante un periodo di tempo specifico
+## Ascolto degli eventi durante uno specifico {#listening}
 
 Un’attività evento posizionata nel percorso ascolta gli eventi a tempo indefinito. Per ascoltare un evento solo durante un determinato periodo di tempo, è necessario configurare un timeout per l’evento.
 
-Il percorso ascolterà quindi l’evento durante il tempo specificato nel timeout. Se un evento viene ricevuto durante tale periodo, la persona scorrerà nel percorso dell’evento. In caso contrario, il cliente percorrerà un percorso di timeout o terminerà il percorso.
+Il percorso ascolterà quindi l’evento durante il tempo specificato nel timeout. Se un evento viene ricevuto durante tale periodo, la persona scorrerà nel percorso dell’evento. In caso contrario, il cliente passa al percorso di timeout, se definito, oppure continua quel percorso. Se non è definito alcun percorso di timeout, l’impostazione di timeout fungerà da attività di attesa, facendo aspettare il profilo per un periodo di tempo che potrebbe essere interrotto se un evento si verifica prima della fine di tale attesa. Se desideri escludere i profili da tale percorso dopo il timeout, devi impostare un percorso di timeout.
 
 Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
@@ -39,7 +39,7 @@ Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
 1. Specifica il tempo di attesa dell&#39;evento da parte del percorso.
 
-1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Set the timeout path]** opzione. Se questa opzione non è abilitata, il percorso termina per l’utente una volta raggiunto il timeout.
+1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Set the timeout path]** opzione. Se questa opzione non è abilitata, il percorso continuerà per la singola persona una volta raggiunto il timeout.
 
    ![](../assets/event-timeout.png)
 
@@ -50,6 +50,6 @@ In questo esempio, il percorso invia un messaggio push di benvenuto a un cliente
 
 Se desideri configurare un timeout per più eventi posizionati dopo un’ **[!UICONTROL Wait]** attività, è necessario configurare il timeout solo per uno di questi eventi.
 
-Il timeout verrà applicato a tutti gli eventi posizionati dopo il **[!UICONTROL Wait]** attività. Se non viene ricevuto alcun evento prima del timeout specificato, i singoli utenti scorrono in un unico percorso di timeout o terminano il percorso.
+Il timeout verrà applicato a tutti gli eventi posizionati dopo il **[!UICONTROL Wait]** attività. Se non viene ricevuto alcun evento prima del timeout specificato, i singoli utenti scorrono in un singolo percorso di timeout o continuano tale percorso attraverso il ramo che esce dall’attività in cui sono state definite tali impostazioni di timeout.
 
 ![](../assets/event-timeout-group.png)
