@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 89%
+source-wordcount: '791'
+ht-degree: 87%
 
 ---
 
@@ -78,7 +78,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZATION>**: si tratta dell’ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ciascuna istanza. Per ottenere il valore dell’ID organizzazione, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell’elenco delle licenze (consulta la <a href="https://www.adobe.io/authentication.html">documentazione di Adobe I/O</a>).
+* **&lt;ORGANIZATION>**: si tratta dell’ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ciascuna istanza. Per ottenere il valore dell’ID organizzazione, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell’elenco delle licenze (consulta la [documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)).
 
 * **&lt;access_token>**: token di accesso personale
 
