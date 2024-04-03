@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4418'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,34 +27,34 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 Sono stati aggiunti nuovi stati intermedi al ciclo di vita di authoring del percorso:
 
-* **Pubblicazione** stato tra **Bozza** stato e **Live** stato
-* **Interruzione** stato tra **Live** stato e **Interrotto** stato
-* **Attivazione della modalità di test** o **Disattivazione della modalità di test** stati tra **Bozza** stato e **Bozza (prova)** stato
+* Stato **Pubblicazione** tra gli stati **Bozza** e **Live**
+* Stato **Interruzione** tra gli stati **Live** e **Interrotto**
+* Stati **Attivazione modalità di test** o **Disattivazione modalità di test** tra gli stati **Bozza** e **Bozza (test)**
 
-Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
 
 ## Versione di febbraio 2024 {#feb-rn-2024}
 
 ### Miglioramenti {#feb-2024-improvements}
 
-* **Filtrare i percorsi**: è ora possibile utilizzare inventari di **date personalizzate per filtrare i percorsi**, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando i percorsi creati o pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o compresi in intervalli di tempo specifici. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Filtrare i percorsi**: è ora possibile utilizzare inventari di **date personalizzate per filtrare i percorsi**, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando i percorsi creati o pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o compresi in intervalli di tempo specifici. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#filter)
 * **Azioni personalizzate**: ora puoi aggiornare l’intestazione **content-type**. Questo nuovo **content-type** dovrebbe fare riferimento al contenuto JSON. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=it#url-configuration)
-* **Configurazione**: l’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come “primary = true”. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **Interfaccia utente**: la barra superiore, nelle schermate del percorso, è stata riorganizzata per offrire un’esperienza migliorata. Tra i diversi aggiornamenti, l’icona a forma di “matita” che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **Configurazione**: l’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come “primary = true”. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=it)
+* **Interfaccia utente**: la barra superiore, nelle schermate del percorso, è stata riorganizzata per offrire un’esperienza migliorata. Tra i diversi aggiornamenti, l’icona a forma di “matita” che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#change-properties)
 
 ## Versione di gennaio 2024 {#jan-rn-2024}
 
 ### Miglioramenti {#jan-2024-improvements}
 
-* **Durata eventi di reazione** - La durata massima che puoi definire negli **eventi di reazione** è ora di 29 giorni anziché di 30. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
-* **Gruppi di campi** - Questa versione risolve un problema che in alcuni casi impediva il salvataggio dei gruppi di campi.
+* **Durata eventi di reazione**: la durata massima che puoi definire negli **eventi di reazione** è ora di 29 giorni anziché di 30. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=it)
+* **Gruppi di campi**: questa versione risolve un problema che in alcuni casi impediva il salvataggio dei gruppi di campi.
 * Il supporto a `<listObject>` è stato modificato in più funzioni.
 
 ## Versione di agosto 2023 {#aug-rn-2023}
 
 ### Miglioramenti {#aug-2023-improvements}
 
-* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile solo come versione beta privata. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html) di Journey Optimizer.
+* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile solo come versione beta privata. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=it) di Journey Optimizer.
 
 ## Versione di aprile 2023 {#apr-rn-2023}
 
@@ -343,7 +343,7 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 <table>
 <thead>
 <tr>
-<th><strong>Eventi basati su regole (beta)</strong><br/></th>
+<th><strong>Eventi basati su regole (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
