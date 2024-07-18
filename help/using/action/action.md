@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 82%
+source-wordcount: '305'
+ht-degree: 84%
 
 ---
 
@@ -24,15 +24,15 @@ Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperien
 
 Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 
-Le azioni sono disponibili nella palette a sinistra del percorso, nel **[!UICONTROL Action]** categoria. Consulta [questa pagina](../building-journeys/about-action-activities.md).
+Le azioni sono disponibili nella palette a sinistra del percorso, nella categoria **[!UICONTROL Action]**. Consulta [questa pagina](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >La configurazione delle azioni personalizzate viene sempre eseguita da un **utente tecnico**.
 
-Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. Per ulteriori informazioni sui collegamenti in [!DNL Journey Orchestration], vedi [questa sezione](../about/user-interface.md#section_ksq_zr1_ffb).
+Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. Per ulteriori informazioni sui collegamenti in [!DNL Journey Orchestration], vedere [questa sezione](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su **[!UICONTROL Actions]** nei menu principali. Viene visualizzato l’elenco delle azioni. Consulta [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
+Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su **[!UICONTROL Actions]** nei menu principali. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, vedere [questa pagina](../about/user-interface.md).
 
 ![](../assets/custom1.png)
 

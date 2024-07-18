@@ -25,12 +25,12 @@ Data
 
 `inLastMonths(<dateTime>,<delta>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 ## Firme e tipo restituito
 

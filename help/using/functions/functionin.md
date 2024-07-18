@@ -9,7 +9,7 @@ exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 19%
+ht-degree: 24%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 Controlla se il primo valore di argomento è presente nell&#39;elenco. Il controllo viene eseguito tramite un valore Uguale su ciascun argomento. Restituisce true se viene trovato il valore dell’argomento, in caso contrario false.
 
-Il tipo di `<expression>` deve corrispondere agli elementi dell’elenco. I tipi di elementi dell&#39;elenco, come promemoria, devono corrispondere tra loro.
+Il tipo di `<expression>` deve corrispondere agli elementi dell&#39;elenco. I tipi di elementi dell&#39;elenco, come promemoria, devono corrispondere tra loro.
 
 ## Categoria
 
@@ -27,7 +27,7 @@ Elenco
 
 `in(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
@@ -36,7 +36,7 @@ Elenco
 | Intero | Intero |
 | Decimale | Decimale |
 | Durata | Durata |
-| DateTime | DateTime |
+| Data e ora | Data e ora |
 | DateTimeOnly | DateTimeOnly |
 | Elenco | listString |
 | Elenco | listBoolean |

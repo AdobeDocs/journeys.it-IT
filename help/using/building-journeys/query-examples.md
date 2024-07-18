@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1283'
 ht-degree: 2%
 
 ---
@@ -22,13 +22,13 @@ Assicurati che i campi utilizzati nelle query abbiano valori associati nello sch
 
 Di seguito è riportato l’elenco dei set di dati di tracciamento e dei casi d’uso correlati:
 
-**Set di dati dell’evento di tracciamento e-mail** (cjm_email_tracking_experience_event_dataset)
+**Set di dati evento esperienza di tracciamento e-mail** (cjm_email_tracking_experience_event_dataset)
 
 Set di dati di sistema per l’acquisizione di eventi di esperienza di tracciamento e-mail da Journey Optimizer.
 
 Lo schema correlato è Schema Evento esperienza di tracciamento e-mail CJM.
 
-_Caso di utilizzo del reporting_
+_Caso di utilizzo per la generazione di rapporti_
 
 ```sql
 select
@@ -63,7 +63,7 @@ Set di dati per l’acquisizione di eventi di feedback di applicazioni e-mail e 
 
 Lo schema correlato è Schema evento feedback messaggio CJM.
 
-_Caso di utilizzo del reporting_
+_Caso di utilizzo per la generazione di rapporti_
 
 ```sql
 select
@@ -92,13 +92,13 @@ order by
 limit 100;
 ```
 
-**Set di dati evento di tracciamento push** (cjm_push_tracking_experience_event_dataset)
+**Set di dati evento esperienza di tracciamento push** (cjm_push_tracking_experience_event_dataset)
 
 Set di dati per l’acquisizione da Journey Optimizer degli eventi di esperienza di tracciamento mobile per i canali push e inapp.
 
 Lo schema correlato è lo schema eventi esperienza tracciamento push CJM.
 
-_Caso di utilizzo del reporting_
+_Caso di utilizzo per la generazione di rapporti_
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -108,13 +108,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-**Evento passaggio percorso** (percorsi_step_events)
+**Evento passaggio Percorso** (percorsi_step_events)
 
 Set di dati per l’acquisizione degli eventi dei passaggi per l’utente nel percorso.
 
 Lo schema correlato è lo schema evento passaggio Percorso per il Journey Orchestration.
 
-_Caso di utilizzo del reporting_
+_Caso di utilizzo per la generazione di rapporti_
 
 ```sql
 select
@@ -174,7 +174,7 @@ Questa query restituisce tutti i diversi errori che si sono verificati durante l
 
 ## Query basate su profili {#profile-based-queries}
 
-**Trovare se un profilo è stato immesso in un Percorso specifico**
+**Trovare se un profilo è entrato in un Percorso specifico**
 
 _Query Data Lake_
 
@@ -272,7 +272,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 La query restituisce l’elenco di tutti i messaggi con il relativo conteggio richiamato per il profilo selezionato.
 
-**Trova tutti i percorsi inseriti da un profilo negli ultimi 30 giorni**
+**Trova tutti i percorsi in cui un profilo è entrato negli ultimi 30 giorni**
 
 _Query Data Lake_
 
@@ -322,7 +322,7 @@ La query restituisce, per il periodo definito, il numero di profili che sono ent
 
 ## Query relative al segmento di lettura {#read-segment-queries}
 
-**Tempo impiegato per completare un processo di esportazione di segmenti**
+**Tempo impiegato per completare un processo di esportazione segmento**
 
 _Query Data Lake_
 
@@ -354,7 +354,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 La query restituisce la differenza di tempo, espressa in minuti, tra il momento in cui il processo di esportazione del segmento è stato messo in coda e il momento in cui è stato infine terminato.
 
-**Numero di profili scartati dal percorso perché duplicati**
+**Numero di profili eliminati dal percorso perché duplicati**
 
 _Query Data Lake_
 
@@ -398,7 +398,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La query restituisce tutti gli ID profilo scartati dal percorso perché presentavano uno spazio dei nomi non valido o nessuna identità per tale spazio dei nomi.
 
-**Numero di profili scartati dal percorso perché nessuna mappa di identità**
+**Numero di profili scartati dal percorso a causa di nessuna mappa di identità**
 
 _Query Data Lake_
 
@@ -464,7 +464,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La query restituisce tutti gli ID profilo scartati dal percorso a causa di un errore interno.
 
-**Panoramica della funzione Leggi segmento per una determinata versione del percorso**
+**Panoramica del segmento di lettura per una determinata versione del percorso**
 
 _Query Data Lake_
 
@@ -502,7 +502,7 @@ IMPORTANTE: se questa query non restituisce alcun evento, la causa potrebbe esse
 * la versione del percorso non ha raggiunto la pianificazione
 * se la versione del percorso deve aver attivato il processo di esportazione chiamando l’orchestratore, si è verificato un errore nel flusso a monte: problema di implementazione del percorso, evento di business o problema con il modulo di pianificazione.
 
-**Errori di Leggi segmento per una determinata versione del percorso**
+**Errori Leggi segmento per una determinata versione del percorso**
 
 _Query Data Lake_
 
@@ -557,7 +557,7 @@ Se non viene restituito alcun record, significa che:
 * si è verificato un errore durante la creazione dell’argomento o del processo di esportazione
 * il processo di esportazione è ancora in esecuzione
 
-**Ottieni metriche sui profili esportati, compresi gli scarti e le metriche dei processi di esportazione per ogni processo di esportazione**
+**Ottieni le metriche sui profili esportati, inclusi gli scarti e le metriche dei processi di esportazione per ogni processo di esportazione**
 
 _Query Data Lake_
 
@@ -617,7 +617,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Ottieni metriche aggregate (processi di esportazione dei segmenti e scarti) su tutti i processi di esportazione**
+**Ottieni metriche aggregate (processi di esportazione del segmento ed elementi eliminati) su tutti i processi di esportazione**
 
 _Query Data Lake_
 
@@ -706,7 +706,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 Questa query restituisce tutti gli ID profilo che sono stati scartati dalla versione del percorso a causa di una realizzazione errata del segmento.
 
-**Eventi di qualificazione del segmento eliminati per qualsiasi altro motivo per un profilo specifico**
+**Eventi di qualificazione dei segmenti eliminati per qualsiasi altro motivo per un profilo specifico**
 
 _Query Data Lake_
 
@@ -760,7 +760,7 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**Controlla se un evento esterno di un profilo è stato eliminato perché non è stato trovato alcun percorso correlato**
+**Verifica se un evento esterno di un profilo è stato eliminato perché non è stato trovato alcun percorso correlato**
 
 _Query Data Lake_
 
@@ -784,7 +784,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Controlla se un evento esterno di un profilo è stato scartato per qualsiasi altro motivo**
+**Verifica se un evento esterno di un profilo è stato eliminato per altri motivi**
 
 _Query Data Lake_
 
@@ -828,7 +828,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Controlla tutti gli eventi scartati perché il rientro non era consentito**
+**Controlla tutti gli eventi eliminati perché il rientro non è consentito**
 
 _Query Data Lake_
 
@@ -878,7 +878,7 @@ La query restituisce, per il periodo definito, il numero di percorsi univoci att
 
 ## Query su istanze di percorso {#journey-instances-queries}
 
-**Numero di profili in uno stato specifico per un tempo specifico**
+**Numero di profili con uno stato specifico per un&#39;ora specifica**
 
 _Query Data Lake_
 

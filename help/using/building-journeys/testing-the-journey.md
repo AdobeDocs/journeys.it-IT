@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 7%
+source-wordcount: '1574'
+ht-degree: 4%
 
 ---
 
@@ -19,17 +19,17 @@ Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali 
 
 Puoi testare il percorso prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione.
 
-Solo i profili di test possono accedere a un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. Consulta questa [sezione](../building-journeys/creating-test-profiles.md).
+Solo i profili di test possono entrare in un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. Consulta questa [sezione](../building-journeys/creating-test-profiles.md).
 
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
-1. Prima di eseguire il test del percorso, verificare che sia valido e che non vi siano errori. Non sarà possibile avviare il test di un percorso con errori. Consulta [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
+1. Prima di eseguire il test del percorso, verificare che sia valido e che non vi siano errori. Non sarà possibile avviare il test di un percorso con errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
 
-1. Per attivare la modalità di test, fai clic sul pulsante **[!UICONTROL Test]** , situato nell’angolo in alto a destra.
+1. Per attivare la modalità di test, fare clic sull&#39;interruttore **[!UICONTROL Test]**, situato nell&#39;angolo in alto a destra.
 
    ![](../assets/journeytest1.png)
 
-1. Utilizza il **[!UICONTROL Wait time]** nell’angolo in basso a sinistra, per definire la durata di ogni attività di attesa e timeout evento in modalità di test. Il tempo predefinito è di 10 secondi per attese e timeout di eventi. In questo modo potrai ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se nel percorso sono state eliminate una o più attività Attendi.
+1. Utilizza il parametro **[!UICONTROL Wait time]**, nell&#39;angolo in basso a sinistra, per definire la durata di ogni attività di attesa e timeout evento in modalità di test. Il tempo predefinito è di 10 secondi per attese e timeout di eventi. In questo modo potrai ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se nel percorso sono state eliminate una o più attività Attendi.
 
    ![](../assets/journeytest_wait.png)
 
@@ -37,15 +37,15 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
    >
    >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Consulta [questa sezione](../building-journeys/reaction-events.md).
 
-1. Clic **[!UICONTROL Trigger an event]** per configurare e inviare eventi al percorso.
+1. Fare clic su **[!UICONTROL Trigger an event]** per configurare e inviare eventi al percorso.
 
    ![](../assets/journeyuctest1.png)
 
-1. Configura i diversi campi previsti. In **Identificatore profilo** , immetti il valore del campo utilizzato per identificare il profilo di test. Ad esempio, può essere l’indirizzo e-mail. Assicurati di inviare eventi relativi ai profili di test. Consulta [Attivazione degli eventi](#firing_events).
+1. Configura i diversi campi previsti. Nel campo **Identificatore profilo** immettere il valore del campo utilizzato per identificare il profilo di test. Ad esempio, può essere l’indirizzo e-mail. Assicurati di inviare eventi relativi ai profili di test. Consulta [Attivazione degli eventi](#firing_events).
 
    ![](../assets/journeyuctest1-bis.png)
 
-1. Dopo aver ricevuto gli eventi, fai clic su **[!UICONTROL Show log]** per visualizzare i risultati del test e verificarli. Consulta [Visualizzazione dei registri](#viewing_logs).
+1. Dopo aver ricevuto gli eventi, fare clic sul pulsante **[!UICONTROL Show log]** per visualizzare i risultati del test e verificarli. Consulta [Visualizzazione dei registri](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -67,11 +67,11 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 Puoi trasformare un profilo esistente in un profilo di test. In Adobe Experience Platform, puoi aggiornare gli attributi dei profili tramite chiamate API, ma non tramite l’interfaccia.
 
-Il modo più semplice per farlo è utilizzare un **Aggiorna profilo** attività di azione e modifica il campo booleano del profilo di test da false a true. Consulta [questa sezione](../building-journeys/update-profiles.md#using-the-test-mode).
+Il modo più semplice per farlo è utilizzare un&#39;attività di azione **Aggiorna profilo** e modificare il campo booleano del profilo di test da false a true. Consulta [questa sezione](../building-journeys/update-profiles.md#using-the-test-mode).
 
 ## Creazione di un profilo di test{#create-test-profile}
 
-Se desideri creare un nuovo profilo di test, la procedura è la stessa di quando crei un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. Consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it)
+Se desideri creare un nuovo profilo di test, la procedura è la stessa di quando crei un profilo in Adobe Experience Platform. Viene eseguito tramite chiamate API. Visualizza questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it)
 
 Devi utilizzare uno schema di profilo che contiene il mixin &quot;dettagli del test del profilo&quot;. Il flag testProfile fa parte di questo mixin.
 
@@ -125,13 +125,13 @@ curl -X POST \
 
 ## Attivazione degli eventi {#firing_events}
 
-Il **[!UICONTROL Trigger an event]** consente di configurare un evento che farà entrare una persona nel percorso.
+Il pulsante **[!UICONTROL Trigger an event]** consente di configurare un evento che consentirà a una persona di accedere al percorso.
 
 >[!NOTE]
 >
 >Quando si attiva un evento in modalità di test, viene generato un evento reale, che si verifica quindi anche in un altro percorso che ascolta l’evento.
 
-Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso e l’evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel **Identificatore profilo** campo.
+Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso e l’evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo**.
 
 >[!NOTE]
 >
@@ -141,13 +141,13 @@ Se il percorso contiene più eventi, utilizza l’elenco a discesa per seleziona
 
 ![](../assets/journeytest4.png)
 
-L’interfaccia ti consente di trasmettere parametri evento semplici. Se desideri trasmettere raccolte o altri oggetti avanzati nell’evento, puoi fare clic su **[!UICONTROL Code View]** per visualizzare l’intero codice del payload e modificarlo. Ad esempio, puoi copiare e incollare le informazioni sull’evento preparate da un utente tecnico.
+L’interfaccia ti consente di trasmettere parametri evento semplici. Se desideri trasmettere raccolte o altri oggetti avanzati nell&#39;evento, puoi fare clic su **[!UICONTROL Code View]** per visualizzare l&#39;intero codice del payload e modificarlo. Ad esempio, puoi copiare e incollare le informazioni sull’evento preparate da un utente tecnico.
 
 ![](../assets/journeytest5.png)
 
 Un utente tecnico può inoltre utilizzare questa interfaccia per comporre payload di eventi e attivare eventi senza dover utilizzare uno strumento di terze parti.
 
-Quando si fa clic su **[!UICONTROL Send]** , il test inizia. La progressione dell&#39;individuo nel percorso è rappresentata da un flusso visivo. Il tracciato diventa verde man mano che l&#39;individuo si sposta attraverso il percorso. Se si verifica un errore, nel passaggio corrispondente viene visualizzato un simbolo di avviso. È possibile posizionare il cursore su di esso per visualizzare ulteriori informazioni sull&#39;errore e accedere ai dettagli completi (se disponibili).
+Quando si fa clic sul pulsante **[!UICONTROL Send]**, inizia il test. La progressione dell&#39;individuo nel percorso è rappresentata da un flusso visivo. Il tracciato diventa verde man mano che l&#39;individuo si sposta attraverso il percorso. Se si verifica un errore, nel passaggio corrispondente viene visualizzato un simbolo di avviso. È possibile posizionare il cursore su di esso per visualizzare ulteriori informazioni sull&#39;errore e accedere ai dettagli completi (se disponibili).
 
 ![](../assets/journeytest6.png)
 
@@ -161,15 +161,15 @@ Il flusso visivo funziona sia quando l’evento viene attivato tramite l’inter
 
 La modalità di test è disponibile anche per i percorsi che utilizzano un evento basato su regole. Per ulteriori informazioni sugli eventi basati su regole, consulta [questa pagina](../event/about-events.md).
 
-Quando si attiva un evento, il **Configurazione evento** La schermata ti consente di definire i parametri dell’evento da trasmettere nel test. Per visualizzare la condizione dell’ID evento, fai clic sull’icona con la descrizione comando nell’angolo in alto a destra. È inoltre disponibile una descrizione comando accanto a ogni campo che fa parte della valutazione delle regole.
+Quando si attiva un evento, la schermata **Configurazione evento** consente di definire i parametri dell&#39;evento da passare nel test. Per visualizzare la condizione dell’ID evento, fai clic sull’icona con la descrizione comando nell’angolo in alto a destra. È inoltre disponibile una descrizione comando accanto a ogni campo che fa parte della valutazione delle regole.
 
 ![](../assets/alpha-event8.png)
 
-Per ulteriori informazioni su come utilizzare la modalità di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+Per ulteriori informazioni su come utilizzare la modalità di test, fare riferimento a [questa pagina](../building-journeys/testing-the-journey.md).
 
 ## Visualizzazione dei registri {#viewing_logs}
 
-Il **[!UICONTROL Show log]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Per aggiornare i risultati dei test del percorso, è necessario aggiornare manualmente la pagina.
+Il pulsante **[!UICONTROL Show log]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Per aggiornare i risultati dei test del percorso, è necessario aggiornare manualmente la pagina.
 
 ![](../assets/journeytest3.png)
 
@@ -179,22 +179,22 @@ Il **[!UICONTROL Show log]** consente di visualizzare i risultati del test. In q
 
 Viene visualizzato il numero di individui (tecnicamente denominati istanze) attualmente all’interno del percorso. Di seguito sono riportate informazioni utili visualizzate per ogni utente:
 
-* _ID_: ID interno dell’individuo nel percorso. Può essere utilizzato a scopo di debug.
-* _current step_: il passaggio in cui si trova l’individuo nel percorso. È consigliabile aggiungere etichette alle attività per identificarle più facilmente.
-* _current step_ > fase: lo stato del percorso dell’individuo (in esecuzione, finito, errore o scaduto). Per ulteriori informazioni, vedi di seguito.
-* _current step_ > _extraInfo_: descrizione dell’errore e altre informazioni contestuali.
-* _current step_ > _fetchErrors_: informazioni sugli errori di recupero dati che si sono verificati durante questo passaggio.
-* _externalKeys_: il valore della formula chiave definita nell’evento.
+* _Id_: ID interno dell&#39;individuo nel percorso. Può essere utilizzato a scopo di debug.
+* _currentstep_: il passaggio in cui si trova l&#39;utente nel percorso. È consigliabile aggiungere etichette alle attività per identificarle più facilmente.
+* _currentstep_ > fase: lo stato del percorso dell&#39;utente (in esecuzione, terminato, errore o timeout). Per ulteriori informazioni, consulta di seguito.
+* _currentstep_ > _extraInfo_: descrizione dell&#39;errore e altre informazioni contestuali.
+* _currentstep_ > _fetchErrors_: informazioni sugli errori di recupero dati che si sono verificati durante questo passaggio.
+* _externalKeys_: valore della formula chiave definita nell&#39;evento.
 * _arricchedData_: i dati recuperati dal percorso se il percorso utilizza origini dati.
-* _transitionHistory_: elenco dei passaggi seguiti dall’individuo. Per gli eventi, viene visualizzato il payload.
-* _actionExecutionErrors_ : informazioni sugli errori che si sono verificati.
+* _transitionHistory_: elenco dei passaggi seguiti dall&#39;utente. Per gli eventi, viene visualizzato il payload.
+* _actionExecutionErrors_: informazioni sugli errori che si sono verificati.
 
 Di seguito sono riportati i diversi stati del percorso di un singolo utente:
 
-* _In esecuzione_: l’individuo si trova attualmente nel percorso.
-* _Completato_: l’individuo è alla fine del percorso.
-* _Errore_: l’utente viene arrestato nel percorso a causa di un errore.
-* _Timeout_: l’utente viene arrestato nel percorso a causa di un passaggio che ha richiesto troppo tempo.
+* _In esecuzione_: l&#39;individuo è attualmente nel percorso.
+* _Fine_: l&#39;utente si trova alla fine del percorso.
+* _Errore_: l&#39;utente è stato arrestato nel percorso a causa di un errore.
+* _Timeout_: l&#39;utente è stato arrestato nel percorso a causa di un passaggio che ha richiesto troppo tempo.
 
 Quando un evento viene attivato utilizzando la modalità di test, viene generato automaticamente un set di dati con il nome dell’origine.
 

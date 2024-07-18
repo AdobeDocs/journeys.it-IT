@@ -9,13 +9,13 @@ exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
 # Attributi proprietà percorso {#journey-properties}
 
-Nell’editor di espressioni avanzate, troverai **Proprietà percorso** sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati.
+Nell&#39;editor di espressioni avanzate, si troverà la categoria **Proprietà Percorso**, sotto le categorie di eventi e di origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi attivi, ad esempio l&#39;ID percorso o gli errori specifici rilevati.
 
 >[!NOTE]
 >
@@ -34,11 +34,11 @@ Puoi utilizzare questi campi per creare espressioni. Durante l’esecuzione del 
 
 Di seguito sono riportati alcuni esempi di casi di utilizzo:
 
-* **Registra profili eliminati**: puoi inviare a un sistema di terze parti tutti i profili esclusi da un messaggio da una regola di limitazione di utilizzo a scopo di registrazione. A questo scopo, imposta un percorso in caso di timeout ed errore e aggiungi una condizione per filtrare in base a un tipo di errore specifico, ad esempio: &quot;elimina le persone applicando una regola di limite&quot;. Puoi quindi inviare i profili eliminati a un sistema di terze parti tramite un’azione personalizzata.
+* **Registra profili scartati**: puoi inviare tutti i profili esclusi da un messaggio da una regola di limitazione a un sistema di terze parti a scopo di registrazione. A questo scopo, imposta un percorso in caso di timeout ed errore e aggiungi una condizione per filtrare in base a un tipo di errore specifico, ad esempio: &quot;elimina le persone applicando una regola di limite&quot;. Puoi quindi inviare i profili eliminati a un sistema di terze parti tramite un’azione personalizzata.
 
-* **Invia avvisi in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, puoi impostare un percorso in caso di errore, aggiungere una condizione e un’azione personalizzata. Puoi inviare una notifica su un canale di Slack, ad esempio, con la descrizione dell’errore riscontrato.
+* **Invia avvisi in caso di errori**: è possibile inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, puoi impostare un percorso in caso di errore, aggiungere una condizione e un’azione personalizzata. Puoi inviare una notifica su un canale di Slack, ad esempio, con la descrizione dell’errore riscontrato.
 
-* **Ottimizzare gli errori nella generazione rapporti** : invece di disporre di un solo percorso per i messaggi con errore, puoi definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare la generazione rapporti e visualizzare tutti i dati relativi ai tipi di errore.
+* **Perfezionare gli errori nella generazione dei rapporti**: invece di disporre di un solo percorso per i messaggi in errore, è possibile definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare la generazione rapporti e visualizzare tutti i dati relativi ai tipi di errore.
 
 ## Elenco dei campi {#journey-properties-fields}
 
@@ -51,8 +51,8 @@ Di seguito sono riportati alcuni esempi di casi di utilizzo:
 | | journeyVersion | Versione percorso | |
 | Istanza percorso | instanceUID | Identificatore istanza percorso | ID dell’istanza |
 | | externalKey | Chiave esterna | Identificatore individuale che attiva il percorso |
-| | organizationId | Identificatore organizzazione | Organizzazione del brand |
-| | sandboxName | Nome della sandbox | Nome della sandbox |
+| | organizationId | Identificatore dell’organizzazione | Organizzazione del brand |
+| | sandboxName | Nome sandbox | Nome della sandbox |
 | Identità | profileId | Identificatore dell’identità del profilo | Identificatore del profilo nel percorso |
 | | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nel percorso (ad esempio: ECID) |
 | Nodo corrente | currentNodeId | Identificatore nodo corrente | Identificatore dell’attività corrente (nodo) |

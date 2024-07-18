@@ -8,8 +8,8 @@ level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 12%
 
 ---
 
@@ -27,13 +27,13 @@ Stringa
 
 `replace(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|--------------|
-| base | string |
-| target | stringa (RegExp) |
-| sostituzione | string |
+| base | stringa |
+| destinazione | stringa (RegExp) |
+| sostituzione | stringa |
 
 ## Firma e tipo restituito
 
@@ -55,7 +55,7 @@ Poiché il parametro di destinazione è un RegExp, a seconda della stringa che s
 * fornito da un attributo di profilo `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
 * Stringa da sostituire: `|OFFER_A`
 * Stringa sostituita da: `''`
-* Devi aggiungere `\\` prima del `|` carattere.
+* Aggiungere `\\` prima del carattere `|`.
 
 L’espressione è:
 

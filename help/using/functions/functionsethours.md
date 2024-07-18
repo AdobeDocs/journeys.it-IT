@@ -8,7 +8,7 @@ level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 9%
 
 ---
@@ -25,13 +25,13 @@ Data
 
 `setHours(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |--- |--- |
 | data e ora | dateTime |
 | data e ora senza considerare il fuso orario | dateTimeOnly |
-| ore | numero intero |
+| ore | intero |
 
 ## Firme e tipo restituito
 
@@ -47,7 +47,7 @@ Restituisce un valore datetime senza considerare il fuso orario.
 
 `setHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-Restituisce 2010-12-12T04:11:00Z
+Restituisce 2010-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 

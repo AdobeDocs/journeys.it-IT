@@ -50,7 +50,7 @@ Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verr
   }
   ```
 
-## Limitazioni  {#limitations}
+## Limitazioni {#limitations}
 
 * Gli array nidificati di oggetti all’interno di un array di oggetti non sono al momento supportati. Ad esempio:
 
@@ -101,7 +101,7 @@ Si può vedere che &quot;prodotti&quot; è un array di due oggetti. Devi avere a
 
 1. Crea l’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
-1. In **[!UICONTROL Action parameters]** incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
+1. Nella sezione **[!UICONTROL Action parameters]**, incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
 
    ![](../assets/uc-collection-1.png)
 
@@ -123,7 +123,7 @@ Si può vedere che &quot;prodotti&quot; è un array di due oggetti. Devi avere a
 
 1. Crea il percorso e aggiungi l’azione personalizzata creata. Consulta [questa pagina](../building-journeys/using-custom-actions.md).
 
-1. In **[!UICONTROL Action parameters]** , definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
+1. Nella sezione **[!UICONTROL Action parameters]**, definisci il parametro dell’array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
 
    ![](../assets/uc-collection-3.png)
 
@@ -131,7 +131,7 @@ Si può vedere che &quot;prodotti&quot; è un array di due oggetti. Devi avere a
 
    ![](../assets/uc-collection-4.png)
 
-Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell’esempio seguente, utilizziamo [filter](../functions/functionfilter.md) e [intersecare](../functions/functionintersect.md) funzioni:
+Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell&#39;esempio seguente vengono utilizzate le funzioni [filter](../functions/functionfilter.md) e [intersect](../functions/functionintersect.md):
 
 ![](../assets/uc-collection-5.png)
 

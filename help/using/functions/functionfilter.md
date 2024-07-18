@@ -25,12 +25,12 @@ Elenco
 
 `filter(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToFilter | listObject | elenco di oggetti da filtrare. Deve essere un riferimento di campo. |
-| keyAttributeName | string | nome attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtro |
+| keyAttributeName | stringa | nome attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtro |
 | keyValueList | list | array di valori chiave per il filtro |
 
 ## Firme e tipi restituiti

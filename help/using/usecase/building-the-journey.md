@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 91%
+source-wordcount: '857'
+ht-degree: 89%
 
 ---
 
@@ -77,7 +77,7 @@ Per ulteriori informazioni su come creare un percorso, fare riferimento a [quest
    >
    >Nella seconda parte dell’espressione, “Profile” è facoltativo.
 
-1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. Per ulteriori informazioni sugli spazi dei nomi, consulta [questa pagina](../event/selecting-the-namespace.md).
+1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. Per ulteriori informazioni sugli spazi dei nomi, vedere [questa pagina](../event/selecting-the-namespace.md).
 
 Nel nostro caso di utilizzo vogliamo solamente reagire a queste due condizioni, quindi non spuntiamo la casella **[!UICONTROL Show path for other cases than the one(s) above]** (Mostra percorso per casi diversi da quello/i mostrato/i sopra).
 
@@ -102,7 +102,7 @@ Dopo la condizione vengono creati due percorsi:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Quando selezioni un campo da un’origine dati esterna, nella parte destra della schermata viene visualizzato l’elenco dei parametri definiti al momento della configurazione dell’origine dati esterna (consulta [questa pagina](../usecase/configuring-the-data-sources.md)). Fai clic sul nome del parametro e definisci il valore della chiave del sistema di prenotazione, l’ID Experience Cloud, nel nostro esempio:
+1. Quando selezioni un campo da un&#39;origine dati esterna, nella parte destra della schermata viene visualizzato l&#39;elenco dei parametri definiti durante la configurazione dell&#39;origine dati esterna (vedi [questa pagina](../usecase/configuring-the-data-sources.md)). Fai clic sul nome del parametro e definisci il valore della chiave del sistema di prenotazione, l’ID Experience Cloud, nel nostro esempio:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}

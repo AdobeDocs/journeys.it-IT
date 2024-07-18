@@ -27,13 +27,13 @@ Stringa
 
 `replaceAll(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|--------------|
-| base | string |
-| target | stringa (RegExp) |
-| sostituzione | string |
+| base | stringa |
+| destinazione | stringa (RegExp) |
+| sostituzione | stringa |
 
 ## Firma e tipo restituito
 
@@ -47,4 +47,4 @@ Restituisce una stringa.
 
 Restituisce &quot;Hexxo Worxd&quot;.
 
-Poiché il parametro di destinazione è un RegExp, a seconda della stringa che si desidera sostituire, potrebbe essere necessario eseguire l&#39;escape di alcuni caratteri. Fai riferimento all’esempio in [questa pagina](../functions/functionreplace.md#example_2).
+Poiché il parametro di destinazione è un RegExp, a seconda della stringa che si desidera sostituire, potrebbe essere necessario eseguire l&#39;escape di alcuni caratteri. Fai riferimento all&#39;esempio in [questa pagina](../functions/functionreplace.md#example_2).

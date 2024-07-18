@@ -15,7 +15,7 @@ ht-degree: 28%
 
 # Informazioni sulle attività di azione {#concept_hbj_hrt_52b}
 
-Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, troverai il **[!UICONTROL Actions]** categoria.
+Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, si trova la categoria **[!UICONTROL Actions]**.
 
 ![](../assets/journey58.png)
 
@@ -23,9 +23,9 @@ Queste attività rappresentano i diversi canali di comunicazione disponibili. Pu
 
 Se disponi di Adobe Campaign Standard, sono disponibili le seguenti attività di azioni predefinite: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**. Consulta [questa pagina](../building-journeys/using-adobe-campaign-actions.md).
 
-Se hai configurato delle azioni personalizzate, queste verranno visualizzate anche qui (vedi [questa pagina](../building-journeys/using-custom-actions.md)).
+Se hai configurato delle azioni personalizzate, verranno visualizzate anche qui (vedi [questa pagina](../building-journeys/using-custom-actions.md)).
 
-Quando rilasci un’attività di azione nell’area di lavoro, puoi definire una **[!UICONTROL Label]**. Questo ti consente di aggiungere un suffisso al nome dell’azione che verrà visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa azione più volte nel percorso e desideri identificarla più facilmente. I report saranno anche più facili da leggere. È inoltre possibile aggiungere un&#39;opzione **[!UICONTROL Description]**.
+Quando rilasci un&#39;attività di azione nell&#39;area di lavoro, puoi definire un **[!UICONTROL Label]**. Questo ti consente di aggiungere un suffisso al nome dell’azione che verrà visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa azione più volte nel percorso e desideri identificarla più facilmente. I report saranno anche più facili da leggere. È inoltre possibile aggiungere un elemento **[!UICONTROL Description]** facoltativo.
 
 ![](../assets/journey59bis.png)
 

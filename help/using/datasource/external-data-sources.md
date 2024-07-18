@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1305'
 ht-degree: 93%
 
 ---
@@ -30,7 +30,7 @@ La chiamata è composta da un URL principale, _https://api.adobeweather.org/weat
 
 Di seguito sono riportati i passaggi principali per la creazione e la configurazione di una nuova origine dati esterna:
 
-1. Dall’elenco delle origini dati, fai clic su **[!UICONTROL Create data source]** per creare una nuova origine dati esterna.
+1. Nell&#39;elenco delle origini dati fare clic su **[!UICONTROL Create data source]** per creare una nuova origine dati esterna.
 
    ![](../assets/journey25.png)
 
@@ -53,7 +53,7 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    ![](../assets/journey27.png)
 
-1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, consulta [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Le scelte del nostro esempio:
+1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Le scelte del nostro esempio:
 
 
    * **[!UICONTROL Type]**: &quot;API key&quot;

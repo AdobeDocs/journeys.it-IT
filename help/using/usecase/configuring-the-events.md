@@ -15,11 +15,11 @@ ht-degree: 7%
 
 # Configurazione degli eventi {#concept_sbp_5cy_w2b}
 
-Nel nostro scenario, abbiamo bisogno di ricevere un evento ogni volta che una persona entra nell&#39;hotel Marlton e nel ristorante. Il **utente tecnico** deve configurare i due eventi a cui il sistema deve fare riferimento nel percorso.
+Nel nostro scenario, abbiamo bisogno di ricevere un evento ogni volta che una persona entra nell&#39;hotel Marlton e nel ristorante. L&#39;**utente tecnico** deve configurare i due eventi a cui il percorso deve prestare attenzione.
 
-Per ulteriori informazioni sulla configurazione dell’evento, consulta [questa pagina](../event/about-events.md).
+Per ulteriori informazioni sulla configurazione dell&#39;evento, consultare [questa pagina](../event/about-events.md).
 
-1. Nel menu principale, fai clic su **[!UICONTROL Events]** e fai clic su **[!UICONTROL Add]** per creare un nuovo evento.
+1. Nel menu principale, fare clic sulla scheda **[!UICONTROL Events]** e su **[!UICONTROL Add]** per creare un nuovo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -31,7 +31,7 @@ Per ulteriori informazioni sulla configurazione dell’evento, consulta [questa 
 
    È inoltre necessario il token di registrazione per inviare messaggi push: &quot;_experience > campagna > messaggio > profilo > pushNotificationTokens > token&quot;
 
-   Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato in **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). Il sistema che trasmette l’evento non deve generare un ID, deve utilizzare quello disponibile nell’anteprima del payload. Nel nostro caso di utilizzo, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon della lobby, viene inviato un evento contenente questo ID evento specifico. Lo stesso principio si applica agli eventi beacon del ristorante. Questo consente al sistema di sapere quale beacon ha attivato l’invio dell’evento.
+   Per questo evento viene generato automaticamente un ID. Questo ID è memorizzato nel campo **[!UICONTROL eventID]** (&quot;_experience > campagna > orchestrazione > eventID&quot;). Il sistema che trasmette l’evento non deve generare un ID, deve utilizzare quello disponibile nell’anteprima del payload. Nel nostro caso di utilizzo, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon della lobby, viene inviato un evento contenente questo ID evento specifico. Lo stesso principio si applica agli eventi beacon del ristorante. Questo consente al sistema di sapere quale beacon ha attivato l’invio dell’evento.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni sulla configurazione dell’evento, consulta [questa 
    >
    >L’elenco dei campi varia da uno schema all’altro. In base alla definizione dello schema, alcuni campi possono essere obbligatori e preselezionati.
 
-1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. Per ulteriori informazioni sugli spazi dei nomi, consulta [questa pagina](../event/selecting-the-namespace.md).
+1. È necessario selezionare uno spazio dei nomi. In base alle proprietà dello schema, viene preselezionato uno spazio dei nomi. Puoi scegliere di utilizzare quest’ultimo. Per ulteriori informazioni sugli spazi dei nomi, vedere [questa pagina](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni sulla configurazione dell’evento, consulta [questa 
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-1. Fai clic su **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema e condividerlo con la persona responsabile dell’invio dell’evento.  Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
+1. Fai clic sull&#39;icona **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema e condividerlo con la persona responsabile dell&#39;invio dell&#39;evento.  Questo payload dovrà essere configurato nel postback della console di amministrazione di Mobile Services.
 
    ![](../assets/journeyuc2_5.png)
 

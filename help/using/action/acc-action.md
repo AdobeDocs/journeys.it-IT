@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '437'
 ht-degree: 13%
 
 ---
@@ -19,7 +19,7 @@ Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla
 
 La connessione tra le istanze Journey Orchestration e Campaign viene impostata da Adobe al momento del provisioning.
 
-Un caso d’uso end-to-end è presentato in questo [sezione](../usecase/campaign-classic-use-case.md).
+Un caso d&#39;uso end-to-end è presentato in questa [sezione](../usecase/campaign-classic-use-case.md).
 
 Per ogni azione configurata, nella palette di Progettazione percorsi è disponibile un’attività di azione. Consulta questa [sezione](../building-journeys/using-adobe-campaign-classic.md).
 
@@ -37,7 +37,7 @@ Per ogni azione configurata, nella palette di Progettazione percorsi è disponib
 
 ## Prerequisiti
 
-In Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Consulta la sezione [Documentazione di Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+In Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Consulta la [documentazione di Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
 
 Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern indicato di seguito. Incolla quindi questo payload durante la configurazione dell’azione in Journey Orchestration (vedi sotto)
 
@@ -55,7 +55,7 @@ Ecco un esempio:
 ```
 
 * **channel**: il canale definito per il modello transazionale di Campaign
-* **eventType**: il nome interno dell’evento Campaign
+* **eventType**: nome interno dell&#39;evento Campaign
 * **ctx**: variabile basata sulla personalizzazione disponibile nel messaggio.
 
 ## Configurazione dell’azione
@@ -64,8 +64,8 @@ In Journey Orchestration, devi configurare un’azione per ogni messaggio transa
 
 1. Crea una nuova azione. Consulta questa [sezione](../action/action.md).
 1. Immettere un nome e una descrizione.
-1. In **Tipo di azione** campo, seleziona **Adobe Campaign Classic**.
-1. Fai clic su nella **Payload** e incolla un esempio del payload JSON corrispondente al messaggio Campaign. Contatta l’Adobe per ottenere questo payload.
+1. Nel campo **Tipo azione**, selezionare **Adobe Campaign Classic**.
+1. Fai clic nel campo **Payload** e incolla un esempio del payload JSON corrispondente al messaggio di Campaign. Contatta l’Adobe per ottenere questo payload.
 1. Imposta i diversi campi in modo che siano statici o variabili a seconda che desideri mapparli sull’area di lavoro del Percorso. Alcuni campi, come i parametri del canale per l’indirizzo e-mail e i campi di personalizzazione (ctx), probabilmente dovranno essere definiti come variabili da mappare nel contesto del percorso.
 1. Fai clic su **Salva**.
 

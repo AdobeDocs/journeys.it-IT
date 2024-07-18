@@ -7,7 +7,7 @@ index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 100%
       + Attività eventi {#events-activities}
          + [Informazioni sulle attività eventi](using/building-journeys/event-activities.md)
          + [Eventi generali](using/building-journeys/general-events.md)
-         + [Reazione eventi](using/building-journeys/reaction-events.md)
+         + [Eventi di reazione](using/building-journeys/reaction-events.md)
          + [Eventi di qualificazione dei segmenti](using/building-journeys/segment-qualification-events.md)
       + Attività di orchestrazione {#orchestration-activities}
          + [Informazioni sulle attività di orchestrazione](using/building-journeys/about-orchestration-activities.md)
@@ -114,7 +114,7 @@ ht-degree: 100%
          + [inSegment](using/functions/functioninsegment.md)
       + Aggregazione {#aggregation}
          + [avg](using/functions/functionavg.md)
-         + [count](using/functions/functioncount.md)
+         + [conteggio](using/functions/functioncount.md)
          + [countOnlyNull](using/functions/functioncountonlynull.md)
          + [countWithNull](using/functions/functioncountwithnull.md)
          + [distinctCount](using/functions/functiondistinctcount.md)
@@ -132,7 +132,7 @@ ht-degree: 100%
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
       + Data {#date}
-         + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
+         + [currentTimeInMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
          + [inLastMonths](using/functions/functioninlastmonths.md)
@@ -156,19 +156,19 @@ ht-degree: 100%
          + [limit](using/functions/functionlimit.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
-         + [sort](using/functions/functionsort.md)
+         + [ordina](using/functions/functionsort.md)
       + Matematica {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + Stringa {#string}
-         + [concat](using/functions/functionconcat.md)
+         + [concatena](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
          + [containIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
          + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
          + [equalIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
-         + [isEmpty](using/functions/functionisempty.md)
+         + [IsEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
          + [lastIndexOf](using/functions/functionlastindexof.md)
          + [lunghezza](using/functions/functionlength.md)

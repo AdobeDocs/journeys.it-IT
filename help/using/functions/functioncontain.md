@@ -25,9 +25,9 @@ Stringa
 
 `contain(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
-* string
+* stringa
 
 ## Firma e tipo restituito
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -34,8 +34,8 @@ Esistono due tipi di operatori: operatori unari e operatori binari. Sono disponi
 
 ## Note importanti{#important-notes}
 
-* Quando si utilizza una moltiplicazione (`*`), entrambi i campi dell&#39;operazione devono avere lo stesso tipo, intero o decimale. Esempio :
-   * l’esempio seguente è corretto: `3.0 * 4.0`
+* Quando si utilizza una moltiplicazione (`*`), entrambi i campi dell&#39;operazione devono avere lo stesso tipo, intero o decimale. Esempio:
+   * l&#39;esempio seguente è corretto: `3.0 * 4.0`
    * `3 * 4.0` genererà un errore
 
 ## Logico  {#logical}
@@ -46,7 +46,7 @@ Esistono due tipi di operatori: operatori unari e operatori binari. Sono disponi
 <expression1> and <expression2>
 ```
 
-Entrambi &lt;expression1> e &lt;expression2> deve essere booleano. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono essere booleani. Il risultato è booleano.
 
 Esempio:
 
@@ -62,7 +62,7 @@ Esempio:
 <expression1> or <expression2>
 ```
 
-Entrambi &lt;expression1> e &lt;expression2> deve essere booleano. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono essere booleani. Il risultato è booleano.
 
 Esempio:
 
@@ -78,7 +78,7 @@ Esempio:
 not <expression>
 ```
 
-&lt;expression> deve essere booleano. Il risultato è booleano.
+&lt;espressione> deve essere booleano. Il risultato è booleano.
 
 Esempio:
 
@@ -132,7 +132,7 @@ Esempio:
 <expression> has null
 ```
 
-&lt;expression> deve essere un elenco. Il risultato è booleano.
+&lt;espressione> deve essere un elenco. Il risultato è booleano.
 
 Utile per identificare che un elenco contiene almeno un valore null.
 
@@ -154,7 +154,7 @@ Esempio:
 <expression1> == <expression2>
 ```
 
-Entrambi &lt;expression1> e &lt;expression2> deve avere lo stesso tipo di dati. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono avere lo stesso tipo di dati. Il risultato è booleano.
 
 Esempio:
 
@@ -174,7 +174,7 @@ Esempio:
 <expression1> != <expression2>
 ```
 
-Entrambi &lt;expression1> e &lt;expression2> deve avere lo stesso tipo di dati. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono avere lo stesso tipo di dati. Il risultato è booleano.
 
 Esempio:
 
@@ -332,7 +332,7 @@ Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
-&lt;expression2> non deve essere uguale a 0 (restituisce 0).
+&lt;espressione2> non deve essere uguale a 0 (restituisce 0).
 
 Esempio:
 

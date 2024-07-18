@@ -8,21 +8,21 @@ level: Intermediate
 exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '154'
+ht-degree: 5%
 
 ---
 
 # Utilizzo di segmenti nelle condizioni {#using-a-segment}
 
-Questa sezione spiega come utilizzare un segmento in una condizione di percorso. Per scoprire come utilizzare un **[!UICONTROL Segment qualification]** nel tuo percorso, fai riferimento a questo [sezione](../building-journeys/segment-qualification-events.md).
+Questa sezione spiega come utilizzare un segmento in una condizione di percorso. Per informazioni su come utilizzare un evento **[!UICONTROL Segment qualification]** nel percorso, fare riferimento a questa [sezione](../building-journeys/segment-qualification-events.md).
 
 Per utilizzare un segmento in una condizione di percorso, effettua le seguenti operazioni:
 
-1. Apri un percorso, rilascia una **[!UICONTROL Condition]** e scegli la **Condizione origine dati**.
+1. Apri un percorso, rilascia un&#39;attività **[!UICONTROL Condition]** e scegli la **Condizione Source dati**.
    ![](../assets/journey47.png)
 
-1. Clic **[!UICONTROL Add a path]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fai clic su **[!UICONTROL Expression]** campo.
+1. Fare clic su **[!UICONTROL Add a path]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fare clic sul campo **[!UICONTROL Expression]**.
 
    ![](../assets/segment3.png)
 
@@ -32,6 +32,6 @@ Per utilizzare un segmento in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione al segmento verranno considerati come membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Solo i singoli utenti con gli stati di partecipazione al segmento **Realizzato** e **Esistente** verranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-Per ulteriori informazioni sulle condizioni del percorso e su come utilizzare l’editor di espressioni semplici, consulta [Attività condizione](../building-journeys/condition-activity.md#about_condition).
+Per ulteriori informazioni sulle condizioni del percorso e su come utilizzare l&#39;editor di espressioni semplici, vedere [Attività condizione](../building-journeys/condition-activity.md#about_condition).

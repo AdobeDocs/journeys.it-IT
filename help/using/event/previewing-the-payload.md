@@ -21,7 +21,7 @@ L’anteprima del payload consente di convalidare la definizione del payload.
 >
 >Per gli eventi generati dal sistema, quando crei un evento, prima di visualizzare l’anteprima del payload, salva l’evento e riaprilo. Questo passaggio è necessario per generare un ID evento nel payload.
 
-1. Fai clic su **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema.
+1. Fai clic sull&#39;icona **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema.
 
    ![](../assets/journey13.png)
 
@@ -31,4 +31,4 @@ L’anteprima del payload consente di convalidare la definizione del payload.
 
 1. Controlla l’anteprima per convalidare la definizione del payload.
 
-1. Quindi, puoi condividere l’anteprima del payload con alla persona responsabile dell’invio dell’evento. Questo payload può aiutarli a progettare la configurazione di un evento che invia a [!DNL Journey Orchestration]. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Quindi, puoi condividere l’anteprima del payload con alla persona responsabile dell’invio dell’evento. Questo payload può essere utile per progettare la configurazione di un evento che viene inviato a [!DNL Journey Orchestration]. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).

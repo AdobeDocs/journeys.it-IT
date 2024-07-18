@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '406'
 ht-degree: 2%
 
 ---
 
 # Eventi di reazione {#section_dhx_gss_dgb}
 
-Tra le diverse attività degli eventi disponibili nella palette, troverai la **[!UICONTROL Reactions]** evento. Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato con attività e-mail, SMS o push all’interno dello stesso percorso. Queste informazioni provengono dalla messaggistica transazionale in Adobe Campaign Standard. Queste informazioni vengono acquisite in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform. Per le notifiche push, puoi reagire ai messaggi con clic, inviati o non riusciti. Per i messaggi SMS, puoi reagire ai messaggi inviati o non riusciti. Per le e-mail, puoi reagire ai messaggi su cui hai fatto clic, che hai inviato, che hai aperto o non sei riuscito.
+Tra le diverse attività evento disponibili nella palette, troverai l’evento predefinito **[!UICONTROL Reactions]**. Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato con attività e-mail, SMS o push all’interno dello stesso percorso. Queste informazioni provengono dalla messaggistica transazionale in Adobe Campaign Standard. Queste informazioni vengono acquisite in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform. Per le notifiche push, puoi reagire ai messaggi con clic, inviati o non riusciti. Per i messaggi SMS, puoi reagire ai messaggi inviati o non riusciti. Per le e-mail, puoi reagire ai messaggi su cui hai fatto clic, che hai inviato, che hai aperto o non sei riuscito.
 
 Puoi anche utilizzare questo meccanismo per eseguire un’azione quando non vi è alcuna reazione ai messaggi. A questo scopo, crea un secondo percorso parallelo all’attività di reazione e aggiungi un’attività Attendi. Se non si verifica alcuna reazione durante il periodo definito nell’attività Attendi, verrà scelto il secondo percorso. Puoi scegliere di inviare, ad esempio, un messaggio di follow-up.
 
@@ -27,10 +27,10 @@ Consulta [Informazioni sulle attività di azione](../building-journeys/about-act
 
 Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazione:
 
-1. Aggiungi un **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
+1. Aggiungi **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall’elenco a discesa, seleziona l’attività di azione a cui desideri reagire. Puoi selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata (e-mail, SMS o notifica push), scegli a cosa desideri reagire.
-1. Puoi definire un timeout dell’evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Durante il test di un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Wait time]** il valore predefinito e minimo è di 40 secondi. Consulta [questa sezione](../building-journeys/testing-the-journey.md).
+1. Puoi definire un timeout dell’evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Quando si esegue il test di un percorso che utilizza un evento di reazione, il valore predefinito e minimo della modalità di test **[!UICONTROL Wait time]** è di 40 secondi. Consulta [questa sezione](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 >
 >Gli eventi di reazione non possono tenere traccia delle azioni e-mail, SMS o push che si verificano in un percorso diverso.
 >
->Gli eventi di reazione tengono traccia dei clic sui collegamenti di tipo &quot;tracciato&quot; (vedi questo articolo) [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). L’annullamento dell’abbonamento e i collegamenti alle pagine mirror non vengono presi in considerazione.
+>Gli eventi di reazione tengono traccia dei clic sui collegamenti di tipo &quot;tracciato&quot; (vedi questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). L’annullamento dell’abbonamento e i collegamenti alle pagine mirror non vengono presi in considerazione.
 
 >[!IMPORTANT]
 >

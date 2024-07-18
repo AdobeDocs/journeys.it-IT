@@ -25,13 +25,13 @@ Stringa
 
 `substr(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
-| Parametro | Tipo |
+| Parametro | tipo |
 |-------------|----------|
-| string | string |
-| beginIndex | numero intero |
-| endIndex | numero intero |
+| stringa | stringa |
+| beginIndex | intero |
+| endIndex | intero |
 
 ## Firma e tipo restituito
 

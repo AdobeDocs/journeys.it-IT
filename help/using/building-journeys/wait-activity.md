@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 9%
+source-wordcount: '368'
+ht-degree: 7%
 
 ---
 
 # Attività Attendi{#section_rlm_nft_dgb}
 
-Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’ **[!UICONTROL Wait]** attività. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
+Se si desidera attendere prima di eseguire l&#39;attività successiva nel percorso, è possibile utilizzare un&#39;attività **[!UICONTROL Wait]**. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
 * [Durata](#duration)
 * [Personalizzato](#custom)
@@ -31,7 +31,7 @@ Inoltre, se due diverse attese sono in parallelo, quella che si verifica per pri
 >
 >La durata massima di attesa è di 30 giorni.
 >
->In modalità di test, il **[!UICONTROL Wait time in test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
+>In modalità di test, il parametro **[!UICONTROL Wait time in test]** consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Vedi [questa pagina](../building-journeys/testing-the-journey.md)
 
 ## Attesa durata{#duration}
 
@@ -41,13 +41,13 @@ Seleziona la durata dell’attesa prima dell’esecuzione dell’attività succe
 
 ## Attesa personalizzata{#custom}
 
-Questa opzione consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o un’origine dati. Non consente di definire una durata personalizzata, ad esempio 7 giorni. L’espressione nell’editor espressioni deve fornire un formato dateTimeOnly. Consulta [questa pagina](../expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, vedere [questa pagina](../expression/data-types.md).
+Questa opzione consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o un’origine dati. Non consente di definire una durata personalizzata, ad esempio 7 giorni. L’espressione nell’editor espressioni deve fornire un formato dateTimeOnly. Vedi [questa pagina](../expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, vedere [questa pagina](../expression/data-types.md).
 
 >[!NOTE]
 >
->È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell’evento è nel formato 2016-08-12T09:46:06Z
+>È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell’evento è nel formato 2016-08-12T09:46:06Z.
 >
->Il **fuso orario** nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall’interfaccia puntare direttamente a una marca temporale ISO-8601 completa mescolando tempo e scostamento fuso orario come 2016-08-12T09:46:06.982-05 Consulta [questa pagina](../building-journeys/timezone-management.md).
+>Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall’interfaccia puntare direttamente a un timestamp completo ISO-8601 che mescola tempo e scostamento fuso orario come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 

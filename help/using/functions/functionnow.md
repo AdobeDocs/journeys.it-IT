@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 18%
+source-wordcount: '58'
+ht-degree: 15%
 
 ---
 
 # now {#now}
 
-Restituisce la data corrente in formato data e ora. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
+Restituisce la data corrente in formato data e ora. Per ulteriori informazioni sui tipi di dati, consultare [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
@@ -25,11 +25,11 @@ Data
 
 `now(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Descrizione |
 |--- |--- |
-| string |  |
+| stringa |  |
 
 ## Firme e tipo restituito
 

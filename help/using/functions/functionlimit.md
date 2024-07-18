@@ -9,7 +9,7 @@ exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
 source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -25,12 +25,12 @@ Elenco
 
 `limit(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da ordinare. Per listObject, deve essere un riferimento di campo. |
-| numberOfItems | numero intero | Numero di elementi da restituire dall&#39;elenco specificato. |
+| numberOfItems | intero | Numero di elementi da restituire dall&#39;elenco specificato. |
 | firstOrLastItems | booleano | Questo parametro è facoltativo (true per impostazione predefinita). true restituisce i primi elementi. false restituisce gli ultimi elementi. |
 
 ## Firma e tipo restituito

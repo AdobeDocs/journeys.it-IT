@@ -25,12 +25,12 @@ Stringa
 
 `containIgnoreCase(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
-| string | string |
-| stringa cercata | string |
+| stringa | stringa |
+| stringa cercata | stringa |
 
 ## Firma e tipo restituito
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 4%
 
 ---
 
@@ -43,9 +43,9 @@ Tipo: stringa
 
 Valori:
 * http
-* limite
+* limiti
 * timeout
-* error
+* errore
 
 ## fetchErrorCode
 
@@ -75,7 +75,7 @@ Tipo: stringa
 
 ## fetchOriginErrorCode
 
-Il codice di errore fornito dal sistema [!DNL Journey Orchestration] sta eseguendo una query. Ad esempio, può essere un 404, 500, ecc.
+È in corso la query del codice di errore fornito dal sistema [!DNL Journey Orchestration]. Ad esempio, può essere un 404, 500, ecc.
 
 Tipo: stringa
 

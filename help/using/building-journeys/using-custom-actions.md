@@ -21,7 +21,7 @@ Il riquadro di configurazione dell’attività mostra i parametri di configurazi
 
 ### Percorso dinamico
 
-Se l’URL include un percorso dinamico, specifica il percorso in **[!UICONTROL Path]** campo.
+Se l&#39;URL include un percorso dinamico, specificare il percorso nel campo **[!UICONTROL Path]**.
 
 >[!NOTE]
 >
@@ -38,26 +38,26 @@ Questa tabella mostra un esempio di configurazione:
 
 L’URL concatenato ha il seguente modulo:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID campagna\>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### Intestazioni
 
-Il **[!UICONTROL URL Configuration]** mostra i campi intestazione dinamici, ma non i campi intestazione costanti. I campi di intestazione dinamici sono campi di intestazione HTTP il cui valore è configurato come variabile. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
+La sezione **[!UICONTROL URL Configuration]** mostra i campi intestazione dinamici, ma non i campi intestazione costanti. I campi di intestazione dinamici sono campi di intestazione HTTP il cui valore è configurato come variabile. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
 
 Se necessario, specifica il valore dei campi di intestazione dinamica:
 
 1. Seleziona l’azione personalizzata nel percorso.
-1. Nel riquadro di configurazione, fai clic sull’icona a forma di matita accanto al campo di intestazione nel **[!UICONTROL URL Configuration]** sezione.
+1. Nel riquadro di configurazione fare clic sull&#39;icona della matita accanto al campo dell&#39;intestazione nella sezione **[!UICONTROL URL Configuration]**.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
-1. Seleziona un campo e fai clic su **[!UICONTROL OK]**.
+1. Selezionare un campo e fare clic su **[!UICONTROL OK]**.
 
 ## Parametri azione
 
-In **[!UICONTROL Action parameters]** , vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. [Ulteriori informazioni](../expression/expressionadvanced.md).
+Nella sezione **[!UICONTROL Action parameters]** verranno visualizzati i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. [Ulteriori informazioni](../expression/expressionadvanced.md).
 
 **Argomenti correlati**
 

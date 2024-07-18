@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 35%
+source-wordcount: '387'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 35%
 
 Ora l’**utente aziendale** può costruire il percorso. Il nostro percorso includerà un solo percorso con le seguenti attività:
 
-* il &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon spa, il percorso riceverà un evento e il sistema inizierà per quella persona.
-* a **[!UICONTROL Condition]** attività per verificare che la persona sia una donna
-* un **[!UICONTROL Email]** attività (tramite Adobe Campaign Standard)
-* un **[!UICONTROL End]** attività
+* &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando una persona cammina vicino al beacon spa, il percorso riceverà un evento e il sistema inizierà per quella persona.
+* un&#39;attività **[!UICONTROL Condition]** per verificare che la persona sia una donna
+* un&#39;attività **[!UICONTROL Email]** (tramite Adobe Campaign Standard)
+* un&#39;attività **[!UICONTROL End]**
 
 >[!NOTE]
 >
@@ -44,19 +44,19 @@ Per ulteriori informazioni su come creare un percorso, fare riferimento a [quest
 
    ![](../assets/journeyuc1_10.png)
 
-1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e fai clic nel campo **[!UICONTROL Expression]**. Puoi anche definire un’etichetta di condizione che verrà visualizzata sulla freccia nell’area di lavoro.
+1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e fai clic nel campo **[!UICONTROL Expression]**. Puoi anche definire un’etichetta di condizione che verrà visualizzata sulla freccia, nell’area di lavoro.
 
    ![](../assets/journeyuc1_11.png)
 
-1. Utilizzando l’editor di espressioni semplici, cerca il campo gender (_persona > genere_) e rilasciarla a destra per creare la seguente condizione: &quot;gender is equal to &quot;Female&quot;.
+1. Utilizzando l&#39;editor di espressioni semplici, cerca il campo gender (_persona > gender_) e rilascialo a destra per creare la seguente condizione: &quot;gender is equal to &quot;Female&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Rilascia un **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Sconto SPA&quot;. Questo modello è stato progettato con Adobe Campaign. Fai riferimento a questo [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+1. Rilascia un&#39;attività **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Sconto SPA&quot;. Questo modello è stato progettato con Adobe Campaign. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Fai clic all’interno del **[!UICONTROL Email]** e seleziona l’indirizzo e-mail dall’origine dati.
+1. Fare clic all&#39;interno del campo **[!UICONTROL Email]** e selezionare l&#39;indirizzo di posta elettronica dall&#39;origine dati.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ Per ulteriori informazioni su come creare un percorso, fare riferimento a [quest
 
    ![](../assets/journeyuc1_15.png)
 
-1. Rilascia un **[!UICONTROL End]** attività.
+1. Rilascia un&#39;attività **[!UICONTROL End]**.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Test]** attiva e verifica il percorso utilizzando i profili di test. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Per ulteriori informazioni sulla modalità di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+1. Fai clic sull&#39;interruttore **[!UICONTROL Test]** e verifica il percorso utilizzando i profili di test. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Per ulteriori informazioni sulla modalità di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 

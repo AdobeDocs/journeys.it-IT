@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '411'
+ht-degree: 2%
 
 ---
 
 # Informazioni sul caso d’uso avanzato{#concept_vzy_ncy_w2b}
 
-## Finalità {#purpose}
+## Scopo {#purpose}
 
 Prendiamo l&#39;esempio di un marchio di hotel chiamato Marlton. Nei loro hotel, hanno posizionato dispositivi beacon vicino a tutte le aree strategiche: hall, piani, ristorante, palestra, piscina, ecc.
 
@@ -36,7 +36,7 @@ Verifichiamo quindi due condizioni:
 
 ![](../assets/journeyuc2_29.png)
 
-Per questo caso d’uso, dovremo creare due eventi (vedi [questa pagina](../usecase/configuring-the-events.md)):
+Per questo caso d&#39;uso, dovremo creare due eventi (vedi [questa pagina](../usecase/configuring-the-events.md)):
 
 * L&#39;evento beacon della hall che verrà inviato al sistema quando un cliente entra nell&#39;hotel.
 * L’evento beacon del ristorante che verrà inviato quando un cliente entra nel ristorante.
@@ -48,7 +48,7 @@ Sarà necessario configurare una connessione a due origini dati (vedere [questa 
 
 ## Prerequisiti {#prerequisites}
 
-Per il nostro caso d’uso, abbiamo progettato tre modelli di messaggistica transazionale di Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionale di eventi. Fai riferimento a questo [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+Per il nostro caso d’uso, abbiamo progettato tre modelli di messaggistica transazionale di Adobe Campaign Standard. Stiamo utilizzando modelli di messaggistica transazionale di eventi. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
 Adobe Campaign Standard è configurato per l’invio di e-mail e notifiche push.
 

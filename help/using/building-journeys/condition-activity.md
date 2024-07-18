@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '824'
 ht-degree: 17%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 17%
 
 Sono disponibili quattro tipi di condizioni:
 
-* [Condizione origine dati](#data_source_condition)
+* [Condizione Data Source](#data_source_condition)
 * [Condizione temporale](#time_condition)
-* [Suddivisione percentuale](#percentage_split)
+* [Divisione percentuale](#percentage_split)
 * [Condizione data](#date_condition)
 
 ![](../assets/journey49.png)
@@ -28,7 +28,7 @@ Sono disponibili quattro tipi di condizioni:
 
 Quando utilizzi più condizioni in un percorso, puoi definire le etichette per ciascuna di esse in modo da identificarle più facilmente.
 
-Clic **[!UICONTROL Add a path]** se desideri definire diverse condizioni. Per ogni condizione, nell’area di lavoro viene aggiunto un nuovo percorso dopo l’attività.
+Fare clic su **[!UICONTROL Add a path]** per definire diverse condizioni. Per ogni condizione, nell’area di lavoro viene aggiunto un nuovo percorso dopo l’attività.
 
 ![](../assets/journey47.png)
 
@@ -38,7 +38,7 @@ Ad esempio, prendiamo l’esempio di una condizione del primo percorso &quot;La 
 
 ![](../assets/journey48.png)
 
-Puoi creare un altro percorso per i tipi di pubblico che non sono idonei alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni di suddivisione. Consulta [Suddivisione percentuale](#percentage_split).
+È possibile creare un altro percorso per i tipi di pubblico non idonei alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni di suddivisione. Vedi [Divisione percentuale](#percentage_split).
 
 La modalità semplice consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati a sinistra. Trascina i campi nell’area principale. Per combinare i diversi elementi, puoi unirli per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
 
@@ -47,7 +47,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![](../assets/journey64.png)
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it) per creare i segmenti, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo di segmenti nelle condizioni](../segment/using-a-segment.md).
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it) per creare i segmenti, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzo di segmenti nelle condizioni](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -56,11 +56,11 @@ Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
-Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. Per ulteriori informazioni, consulta [questa pagina](../expression/journey-properties.md)
+Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. Per ulteriori informazioni, vedere [questa pagina](../expression/journey-properties.md)
 
-## Condizione origine dati {#data_source_condition}
+## Condizione Data Source {#data_source_condition}
 
-Questo consente di definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Per informazioni su come utilizzare l’editor di espressioni, consulta [questa pagina](../expression/expressionadvanced.md). Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate per la manipolazione delle raccolte o l’utilizzo di origini dati che richiedono il trasferimento di parametri. Consulta [questa pagina](../datasource/external-data-sources.md).
+Questo consente di definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Per informazioni sull&#39;utilizzo dell&#39;editor espressioni, vedere [questa pagina](../expression/expressionadvanced.md). Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate per la manipolazione delle raccolte o l’utilizzo di origini dati che richiedono il trasferimento di parametri. Consulta [questa pagina](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -76,7 +76,7 @@ Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al g
 
 ## Suddivisione percentuale {#percentage_split}
 
-Questa opzione consente di suddividere in modo casuale il pubblico per definire un’azione diversa per ciascun gruppo. Definisci il numero di divisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico in quanto il sistema non è in grado di prevedere quante persone scorreranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione si basa su un meccanismo casuale Java (vedi [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Questa opzione consente di suddividere in modo casuale il pubblico per definire un’azione diversa per ciascun gruppo. Definisci il numero di divisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico in quanto il sistema non è in grado di prevedere quante persone scorreranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione si basa su un meccanismo casuale Java (vedi questa [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Se vuoi che il test scelga un percorso diverso, puoi riorganizzare la posizione dei rami divisi. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 

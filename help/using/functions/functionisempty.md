@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: isEmpty
+title: IsEmpty
 description: Scopri la funzione isEmpty
 feature: Journeys
 role: Data Engineer
@@ -13,7 +13,7 @@ ht-degree: 19%
 
 ---
 
-# isEmpty {#isEmpty}
+# IsEmpty {#isEmpty}
 
 Restituisce true se la stringa nel parametro non contiene alcun carattere.
 
@@ -25,9 +25,9 @@ Stringa
 
 `isEmpty(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
-* string
+* stringa
 
 ## Firma e tipo restituito
 

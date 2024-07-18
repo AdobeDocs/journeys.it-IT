@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 75%
+ht-degree: 70%
 
 ---
 
@@ -61,10 +61,10 @@ Elenco delle funzioni supportate.
 | Data | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Elenco | [distinct](../functions/functiondistinct.md) |
 | Elenco | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Elenco | [filter](../functions/functionfilter.md) |
+| Elenco | [filtro](../functions/functionfilter.md) |
 | Elenco | [getListItem](../functions/functiongetlistitem.md) |
 | Elenco | [in](../functions/functionin.md) |
-| Elenco | [intersect](../functions/functionintersect.md) |
+| Elenco | [intersezione](../functions/functionintersect.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
 | Elenco | [sort](../functions/functionsort.md) |
@@ -80,7 +80,7 @@ Elenco delle funzioni supportate.
 | Stringa | [isEmpty](../functions/functionisempty.md) |
 | Stringa | [isNotEmpty](../functions/functionisnotempty.md) |
 | Stringa | [lastIndexOf](../functions/functionlastindexof.md) |
-| Stringa | [lunghezza](../functions/functionlength.md) |
+| Stringa | [length](../functions/functionlength.md) |
 | Stringa | [Lower](../functions/functionlower.md) |
 | Stringa | [matchRegExp](../functions/functionmatchregexp.md) |
 | Stringa | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |

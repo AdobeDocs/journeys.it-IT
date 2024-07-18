@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 84%
+source-wordcount: '338'
+ht-degree: 82%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Informazioni sulle origini dati"
->abstract="La configurazione dell‘origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi."
+>abstract="La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi."
 
 La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, le quali verranno utilizzate nei percorsi e consentiranno di ottenere:
 
-* [Definizione della condizione.](../building-journeys/condition-activity.md)
+* [definizione della condizione](../building-journeys/condition-activity.md)
 * Dati dei parametri e di personalizzazione nelle [azioni](../action/action.md).
-* [Impostazione di attesa personalizzata.](../building-journeys/wait-activity.md#custom)
-* [Impostazione del fuso orario](../building-journeys/timezone-management.md)
+* [definizione di attesa personalizzata](../building-journeys/wait-activity.md#custom)
+* [definizione del fuso orario](../building-journeys/timezone-management.md)
 
 Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività e-mail che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
 
@@ -44,13 +44,13 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 >
 >La configurazione dell’origine dati viene sempre eseguita da un **utente tecnico**.
 
-1. Nel riquadro del menu, seleziona **[!UICONTROL Admin]**. Dalla sezione **[!UICONTROL Data sources]**, fai clic su **[!UICONTROL Manage]**.
+1. Nel riquadro dei menu, selezionare **[!UICONTROL Admin]**. Nella sezione **[!UICONTROL Data sources]**, fare clic su **[!UICONTROL Manage]**.
 
-   Viene visualizzato l’elenco delle origini dati. Consulta [questa pagina](../about/user-interface.md) per ulteriori informazioni sull’interfaccia.
+   Viene visualizzato l’elenco delle origini dati. Per ulteriori informazioni sull&#39;interfaccia, vedere [questa pagina](../about/user-interface.md).
 
    ![](../assets/journey18.png)
 
-1. È quindi possibile aggiungere gruppi di campi all&#39;origine dati incorporata (vedere [questa pagina](../datasource/adobe-experience-platform-data-source.md)) o creare una nuova origine dati esterna (vedere [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedere [questa pagina](../datasource/field-groups.md)).
+1. Quindi puoi aggiungere gruppi di campi all&#39;origine dati incorporata (vedi [questa pagina](../datasource/adobe-experience-platform-data-source.md)) o creare una nuova origine dati esterna (vedi [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedi [questa pagina](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 

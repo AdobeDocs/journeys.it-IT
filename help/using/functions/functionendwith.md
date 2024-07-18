@@ -25,12 +25,12 @@ Stringa
 
 `endWith(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
-| string | string |
-| suffisso | string |
+| stringa | stringa |
+| suffisso | stringa |
 
 ## Firma e tipo restituito
 

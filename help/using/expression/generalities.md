@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 4%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Priorità tra parentesi ed espressione{#section_edf_fks_bgb}
 
-Le parentesi possono essere utilizzate per rendere più leggibile un&#39;espressione complessa. _(&lt;expression>)_ equivale a _&lt;expression>_. Le parentesi possono essere utilizzate anche per definire l&#39;ordine di valutazione e l&#39;associatività.
+Le parentesi possono essere utilizzate per rendere più leggibile un&#39;espressione complessa. _(&lt;espressione>)_ equivale a _&lt;espressione>_. Le parentesi possono essere utilizzate anche per definire l&#39;ordine di valutazione e l&#39;associatività.
 
 Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugli operatori aritmetici deve essere applicata: le moltiplicazioni e le divisioni hanno priorità rispetto alle addizioni e alle sottrazioni. Per imporre un ordine specifico, è necessario aggiungere una parentesi per delimitare le operazioni. Ad esempio:
 
@@ -32,8 +32,8 @@ Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugl
 
 Di seguito sono riportate le diverse regole per la distinzione tra maiuscole e minuscole:
 
-* Tutti gli operatori (e, o, ecc.) devono essere scritte in minuscolo. Ad esempio: _`<expression1>`e`<expression2>`_ è un’espressione valida, mentre l’espressione _`<expression1>`E`<expression2>`_ non lo è.
-* Tutti i nomi di funzione fanno distinzione tra maiuscole e minuscole. Ad esempio: _inSegment()_ è valido, mentre la funzione _INSEGMENT()_ non lo è.
+* Tutti gli operatori (e, o, ecc.) devono essere scritte in minuscolo. Ad esempio, _`<expression1>`e`<expression2>`_ sono espressioni valide, mentre l&#39;espressione _`<expression1>`AND`<expression2>`_ non lo è.
+* Tutti i nomi di funzione fanno distinzione tra maiuscole e minuscole. Ad esempio, _inSegment()_ è valido, mentre la funzione _INSEGMENT()_ non lo è.
 * I riferimenti ai campi e i valori costanti fanno distinzione tra maiuscole e minuscole: non sono elementi incorporati del linguaggio (al contrario di operatori e funzioni), ma vengono creati dall’utente finale.
 
 ## Tipo di espressione restituito{#section_gyc_435_53b}

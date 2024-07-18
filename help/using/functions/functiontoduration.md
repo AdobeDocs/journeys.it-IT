@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
 
 # toDuration {#toDuration}
 
-Converte un valore di argomento in una durata. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
+Converte un valore di argomento in una durata. Per ulteriori informazioni sui tipi di dati, consultare [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
@@ -25,12 +25,12 @@ Conversione
 
 `toDuration(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Descrizione |
 |--- |--- |
-| string | formati basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore |
-| numero intero | numero di millisecondi |
+| stringa | formati basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore |
+| intero | numero di millisecondi |
 
 Espressione stringa: i formati accettati sono basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore.
 

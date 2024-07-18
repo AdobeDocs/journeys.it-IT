@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati conte
 
 [!DNL Journey Orchestration] consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Puoi configurare un’azione personalizzata se utilizzi un sistema di terze parti per l’invio dei messaggi. Se disponi di Adobe Campaign Standard, potrai eseguire l’invio di e-mail, notifiche push e SMS tramite le [funzionalità di messaggistica transazionale](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it) di Adobe Campaign Standard.
 
-Nella scheda di configurazione dell’evento, **un utente tecnico** configura gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion (acquisizione dati in streaming) per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile.
+Nella scheda di configurazione dell’evento, **un utente tecnico** configura gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile.
 
 Nella scheda di configurazione dell’origine dati, un **utente tecnico** configura:
 
@@ -34,7 +34,7 @@ Grazie al designer del percorso, un **utente aziendale** può trascinare facilme
 
 A quel punto potrai creare le condizioni in base a:
 
-* time
+* orario
 * dati provenienti dal payload dell’evento
 * informazioni provenienti dalle origini dati, come Profilo del cliente in tempo reale o altre origini dati personalizzate
 

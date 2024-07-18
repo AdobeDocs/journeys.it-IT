@@ -62,12 +62,12 @@ Per utilizzare queste API con l’istanza di [!DNL Journey Orchestration], è ne
 
 >[!CAUTION]
 >
->Il metodo JWT per generare i token di accesso è stato dichiarato obsoleto. Tutte le nuove integrazioni devono essere create utilizzando [Metodo di autenticazione server-to-server OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe consiglia inoltre di migrare le integrazioni esistenti al metodo OAuth.
+>Il metodo JWT per generare i token di accesso è stato dichiarato obsoleto. Tutte le nuove integrazioni devono essere create utilizzando il metodo di autenticazione server-to-server [OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe consiglia inoltre di migrare le integrazioni esistenti al metodo OAuth.
 >
 >Leggi le seguenti importanti documentazioni:
 >[Guida alla migrazione per le applicazioni da JWT a OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
->[Guida all’implementazione per applicazioni nuove e precedenti con OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
->[Vantaggi dell’utilizzo del metodo di credenziali server-to-server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>[Guida all&#39;implementazione per applicazioni nuove e vecchie con OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[Vantaggi dell&#39;utilizzo del metodo delle credenziali server-to-server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 Per stabilire una sessione API di Adobe I/O servizio-servizio sicura, ogni richiesta a un servizio di Adobe deve includere nell’intestazione dell’autorizzazione le informazioni riportate di seguito.
 
@@ -80,6 +80,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**: si tratta dell’ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ciascuna istanza. Per ottenere il valore dell’ID organizzazione, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell’elenco delle licenze (consulta la [documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)).
 
-* **&lt;access_token>**: token di accesso personale
+* **&lt;ACCESS_TOKEN>**: token di accesso personale
 
 * **&lt;API_KEY>**: la tua chiave API personale. Viene fornita in Adobe I/O dopo la creazione di una nuova integrazione nel servizio [!DNL Journey Orchestration].

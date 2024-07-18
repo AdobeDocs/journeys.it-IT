@@ -38,7 +38,7 @@ Questo gruppo di campi viene utilizzato nello schema del percorso (in relazione 
 | VersionID | Stringa | ID della versione del percorso. Questo ID rappresenta l’identità di un percorso |
 | name | Stringa | Nome del percorso |
 | descrizione | Stringa | Descrizione del percorso |
-| versione | Stringa | versione, rappresentata come `major`.`minor` |
+| version | Stringa | versione, rappresentata come `major`.`minor` |
 
 ## profilo
 
