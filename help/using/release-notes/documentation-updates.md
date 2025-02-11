@@ -5,9 +5,11 @@ description: Scopri gli aggiornamenti della documentazione
 feature: Journeys
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
+workflow-type: ht
 source-wordcount: '1010'
 ht-degree: 100%
 
