@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '777'
 ht-degree: 6%
 
 ---
@@ -23,10 +23,6 @@ L&#39;attività Azione **[!UICONTROL Jump]** consente di inviare singoli utenti 
 Nel percorso di origine, è sufficiente aggiungere un&#39;attività **[!UICONTROL Jump]** e selezionare un percorso di destinazione. Quando l&#39;utente accede al passaggio **[!UICONTROL Jump]**, un evento interno viene inviato al primo evento del percorso di destinazione. Se l&#39;azione **[!UICONTROL Jump]** ha esito positivo, l&#39;utente continua ad avanzare nel percorso. Il comportamento è simile ad altre azioni.
 
 Nel percorso di destinazione, il primo evento attivato internamente dall&#39;attività **[!UICONTROL Jump]** genererà il singolo flusso nel percorso.
-
->[!NOTE]
->
->Fai riferimento anche al video tutorial [qui](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=it)
 
 ## Ciclo di vita
 

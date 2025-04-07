@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '4462'
+source-wordcount: '4452'
 ht-degree: 96%
 
 ---
@@ -322,7 +322,7 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 <li>semplificare la progettazione di percorsi molto complessi suddividendoli in diversi percorsi più semplici; </li>
 <li>creare percorsi basati su pattern di percorso comuni e riutilizzabili.</li>
 </ul>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/jump.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=it">video tutorial</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/jump.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -724,8 +724,3 @@ Crea casi d’uso di orchestrazione in tempo reale sulla base dei dati contestua
 Journey Orchestration consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Nell’ambito di flussi di più passaggi denominati percorsi, l’applicazione determina le migliori azioni da eseguire in futuro che sono specifiche del consumatore, in base al profilo e ai comportamenti adottati. Tale procedura include sia la tempistica ottimale, sia il tipo di azione, ad esempio la notifica di un sistema di terze parti o l’invio al consumatore di una notifica push tramite le funzionalità di messaggistica transazionali di Adobe Campaign Standard (richiesto). Queste decisioni sono prese sulla base di regole e punteggi Sensei.
 
 [Ulteriori informazioni](../action/working-with-adobe-campaign.md) su Journey Orchestration.
-
-Risorse aggiuntive:
-
-* [Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=it)
-* [Community](https://www.adobe.com/go/journeyorchestrationcommunity)

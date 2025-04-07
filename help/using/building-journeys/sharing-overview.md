@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '473'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ L’elenco dei campi XDM passati è completo. Alcuni contengono codici generati 
 >
 >Non è possibile attivare i set di dati per il servizio profilo in tempo reale. Verificare che l&#39;interruttore **[!UICONTROL Profile]** sia disattivato.
 
-I percorsi inviano i dati così come si verificano, in modo streaming. Puoi eseguire query su questi dati utilizzando Query Service. È possibile connettersi al Customer Journey Analytics o ad altri strumenti di business intelligence per visualizzare i dati relativi a questi passaggi.
+I percorsi inviano i dati così come si verificano, in modo streaming. Puoi eseguire query su questi dati utilizzando Query Service. È possibile connettersi a Customer Journey Analytics o ad altri strumenti di business intelligence per visualizzare i dati relativi a questi passaggi.
 
 Vengono creati i seguenti schemi:
 
@@ -54,12 +54,11 @@ Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti qui
 * [Elenco dei campi evento del passaggio](../building-journeys/sharing-field-list.md)
 * [Campi evento del passaggio precedente](../building-journeys/sharing-legacy-fields.md)
 
-Per ulteriori informazioni sugli eventi dei passaggi che inviano rapporti a Adobe Experience Platform, guarda questo [video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=it).
 
 ## Integrazione con Customer Percorsi Analysis{#integration-cja}
 
 Gli eventi dei passaggi di Journey Orchestration possono essere collegati ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Di seguito è riportato il flusso di lavoro generale:
 
 * Customer Journey Analytics acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
-* Il campo **profileID** nello schema &quot;Evento passaggio Percorso per il Journey Orchestration&quot; associato è definito come campo di identità. In Customer Journey Analytics, puoi quindi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.
+* Il campo **profileID** nello &quot;Schema evento passaggio di Percorso per Journey Orchestration&quot; associato è definito come campo Identity. In Customer Journey Analytics, puoi quindi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.
 * Se desideri utilizzare questo set di dati in Customer Journey Analytics, per l&#39;analisi del percorso cross-channel, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).

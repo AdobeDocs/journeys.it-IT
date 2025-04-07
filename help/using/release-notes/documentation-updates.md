@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '992'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,6 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Luglio 2020 {#july-2020}
 
-* È stato aggiunto un collegamento a un nuovo video di esercitazione sugli eventi dei passaggi che inviano rapporti ad Adobe Experience Platform. [Ulteriori informazioni](../building-journeys/sharing-overview.md)
 * La sezione delle attività eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Ulteriori informazioni](../building-journeys/event-activities.md)
 * Sono state aggiunte le best practice per evitare il sovraccarico con la qualificazione dei segmenti. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Ulteriori informazioni](../about/troubleshooting.md#section_h3q_kqk_fhb)
