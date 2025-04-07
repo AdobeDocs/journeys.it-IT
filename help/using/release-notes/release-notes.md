@@ -6,14 +6,20 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '4418'
-ht-degree: 100%
+source-wordcount: '4463'
+ht-degree: 98%
 
 ---
 
 # Note sulla versione {#release-notes}
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>Questa documentazione fa riferimento ai materiali precedenti di Journey Orchestration che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull’accesso a Journey Orchestration o Journey Optimizer.
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in Journey Orchestration. Per le funzioni di Experience Platform, fare riferimento alle seguenti [note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it).
 
@@ -149,7 +155,7 @@ Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteri
 
 ### Miglioramenti
 
-* Ora è possibile collegare gli eventi dei passaggi di Journey Orchestration ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il campo **profileID** nello schema integrato Evento passaggio percorso è ora definito come campo di identità. [Ulteriori informazioni](../building-journeys/sharing-overview.md#integration-cja)
+* Ora è possibile collegare gli eventi dei passaggi di Journey Orchestration ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il campo **profileID** nello schema incorporato Evento passaggio percorso è ora definito come campo di identità. [Ulteriori informazioni](../building-journeys/sharing-overview.md#integration-cja)
 * La regola di limite per le azioni Adobe Campaign Standard è stata modificata in 4000 chiamate/5 minuti. [Ulteriori informazioni](../action/working-with-adobe-campaign.md)
 
 ## Versione di ottobre 2021 {#october-2021-release}
