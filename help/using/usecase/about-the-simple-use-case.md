@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '211'
+ht-degree: 6%
 
 ---
 
 # Informazioni sul caso d’uso semplice{#concept_grh_vby_w2b}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 ## Scopo {#purpose}
 
@@ -31,4 +40,4 @@ Per il nostro caso d’uso, abbiamo progettato un modello di messaggistica trans
 
 Adobe Campaign Standard è configurato per l’invio di e-mail.
 
-Gli eventi vengono inviati dal telefono cellulare dei clienti quando vengono rilevati vicino a un beacon. È necessario progettare un’app mobile per inviare eventi dal telefono cellulare del cliente all’SDK di Mobile.
+Gli eventi vengono inviati dal telefono cellulare dei clienti quando vengono rilevati vicino a un beacon. È necessario progettare un’app mobile per inviare eventi dal telefono cellulare del cliente al SDK mobile.

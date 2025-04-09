@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 93%
+source-wordcount: '1350'
+ht-degree: 88%
 
 ---
 
 # Origini dati esterne {#concept_t2s_kqt_52b}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
 
@@ -75,8 +84,8 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 
 In presenza di una chiamata GET che richieda i parametri, inseriscili nel campo **[!UICONTROL Dynamic Values]** e verranno aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
 
-* Elencare i parametri da trasmettere al momento della chiamata nel campo **[!UICONTROL Dynamic Values]**, nell’esempio seguente: &quot;identifier&quot;.
-* Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A tale scopo, è necessario aggiungere: &quot;param&quot;: “nome del tuo parametro”, nell’esempio seguente è &quot;identifier&quot;. Attieniti alla sintassi seguente:
+* elencare i parametri da trasmettere al momento della chiamata nel campo **[!UICONTROL Dynamic Values]** (nell&#39;esempio seguente: &quot;identifier&quot;).
+* Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A questo scopo, devi aggiungere: &quot;param&quot;: &quot;nome del tuo parametro&quot; (nell’esempio seguente: &quot;identifier&quot;). Attieniti alla sintassi seguente:
 
   ```
   {"id":{"param":"identifier"}}

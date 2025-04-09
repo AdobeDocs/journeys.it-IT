@@ -6,22 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 92%
+source-wordcount: '944'
+ht-degree: 83%
 
 ---
 
 # Interfaccia utente{#concept_rcq_lqt_52b}
 
->[!NOTE]
->
->Per ottenere il meglio da [!DNL Journey Orchestration], ti consigliamo di utilizzare Chrome come browser Internet. L’interfaccia viene visualizzata nella lingua definita all’interno di IMS. Se la lingua IMS non è supportata da [!DNL Journey Orchestration], l’interfaccia viene visualizzata in inglese.
->
->Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate al prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 
-## Accesso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
+## Accesso al [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
 Per accedere all&#39;interfaccia di [!DNL Journey Orchestration], fai clic sull&#39;icona **[!UICONTROL App Selector]** in alto a destra, quindi fai clic su **[!UICONTROL Journey Orchestration]**.
 
@@ -77,7 +80,7 @@ All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun eleme
 
 Quando si definisce il [payload dell’evento](../event/defining-the-payload-fields.md) e il [payload del gruppo di campi](../datasource/field-groups.md) e si selezionano i campi nell’[editor delle espressioni](../expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. Questa funzione risulta particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. È possibile configurare i descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. È possibile configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
 
 ![](../assets/xdm-from-descriptors.png)
 

@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '412'
 ht-degree: 7%
 
 ---
 
 # Attività Attendi{#section_rlm_nft_dgb}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
 
 Se si desidera attendere prima di eseguire l&#39;attività successiva nel percorso, è possibile utilizzare un&#39;attività **[!UICONTROL Wait]**. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
@@ -45,7 +55,7 @@ Questa opzione consente di definire una data personalizzata, ad esempio 12 lugli
 
 >[!NOTE]
 >
->È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell’evento è nel formato 2016-08-12T09:46:06Z.
+>È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell&#39;evento è del modulo 2016-08-12T09:46:06Z.
 >
 >Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall’interfaccia puntare direttamente a un timestamp completo ISO-8601 che mescola tempo e scostamento fuso orario come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
@@ -57,7 +67,7 @@ Questa opzione consente di definire una data personalizzata, ad esempio 12 lugli
 >
 >The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >

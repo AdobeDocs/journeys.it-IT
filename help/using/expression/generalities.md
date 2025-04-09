@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '269'
 ht-degree: 3%
 
 ---
 
 # Generalità {#concept_rcy_qj5_dgb}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 ## Priorità tra parentesi ed espressione{#section_edf_fks_bgb}
 
@@ -32,7 +41,7 @@ Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugl
 
 Di seguito sono riportate le diverse regole per la distinzione tra maiuscole e minuscole:
 
-* Tutti gli operatori (e, o, ecc.) devono essere scritte in minuscolo. Ad esempio, _`<expression1>`e`<expression2>`_ sono espressioni valide, mentre l&#39;espressione _`<expression1>`AND`<expression2>`_ non lo è.
+* Tutti gli operatori (e, o, ecc.) devono essere scritti in minuscolo. Ad esempio, _`<expression1>`e`<expression2>`_ sono espressioni valide, mentre l&#39;espressione _`<expression1>`AND`<expression2>`_ non lo è.
 * Tutti i nomi di funzione fanno distinzione tra maiuscole e minuscole. Ad esempio, _inSegment()_ è valido, mentre la funzione _INSEGMENT()_ non lo è.
 * I riferimenti ai campi e i valori costanti fanno distinzione tra maiuscole e minuscole: non sono elementi incorporati del linguaggio (al contrario di operatori e funzioni), ma vengono creati dall’utente finale.
 

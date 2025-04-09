@@ -1,19 +1,28 @@
 ---
 product: adobe campaign
 title: Creazione dei rapporti sui percorsi
-description: Scopri come creare i rapporti sul percorso
+description: Scopri come creare i rapporti sui percorsi
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '870'
 ht-degree: 2%
 
 ---
 
 # Creazione dei rapporti sui percorsi {#concept_rfj_wpt_52b}
+
+
+>[!CAUTION]
+>
+>**Cerchi Adobe Systems Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 ## Accesso e creazione dei rapporti {#accessing-reports}
 
@@ -37,15 +46,15 @@ Per accedere ai rapporti dei tuoi percorsi e iniziare a monitorare il successo d
 
    ![](../assets/dynamic_report_journey_2.png)
 
-1. Il report preconfigurato **[!UICONTROL Journey summary]** viene visualizzato sullo schermo. Per accedere ai report personalizzati, fare clic sul pulsante **[!UICONTROL Close]**.
+1. Il **[!UICONTROL Journey summary]** report predefinito viene visualizzato sullo schermo. Per accesso i rapporti personalizzati, fai clic sul **[!UICONTROL Close]** pulsante.
 
    ![](../assets/dynamic_report_journey_12.png)
 
-1. Fai clic su **[!UICONTROL Create new project]** per creare il report da zero.
+1. Fai clic sul pulsante **[!UICONTROL Create new project]** per creare il rapporto da zero.
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. Dalla scheda **[!UICONTROL Panels]**, trascina e rilascia tutti i pannelli o le tabelle a forma libera necessari. Per ulteriori informazioni, consulta questa [sezione](#adding-panels).
+1. **[!UICONTROL Panels]** Dal scheda, trascinare tutti i pannelli o le tabelle a forma libera necessari. Per ulteriori informazioni, consulta questa [sezione](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
@@ -59,9 +68,9 @@ Per accedere ai rapporti dei tuoi percorsi e iniziare a monitorare il successo d
 
 ### Aggiunta di un pannello vuoto {#adding-a-blank-panel}
 
-Per avviare il rapporto, puoi aggiungere un set di pannelli a un rapporto predefinito o personalizzato. Ogni pannello contiene set di dati diversi ed è composto da tabelle e visualizzazioni a forma libera.
+Per avviare il report, potete aggiungere una serie di pannelli a un report predefinito o personalizzato. Ogni pannello contiene diversi set di dati ed è composto da tabelle a forma libera e visualizzazioni.
 
-Questo pannello consente di creare i rapporti in base alle esigenze. Puoi aggiungere nei rapporti tutti i pannelli desiderati per filtrare i dati in base a diversi periodi di tempo.
+Questo pannello consente di versione i rapporti in base alle esigenze. Puoi aggiungere nei rapporti tutti i pannelli desiderati per filtrare i dati in base a diversi periodi di tempo.
 
 1. Fare clic sull&#39;icona **[!UICONTROL Panels]**. È inoltre possibile aggiungere un pannello facendo clic su **[!UICONTROL Insert tab]** e selezionando **[!UICONTROL New Blank Panel]**.
 
@@ -93,7 +102,7 @@ Ogni tabella e visualizzazione è ridimensionabile e può essere spostata per pe
 
    ![](../assets/dynamic_report_freeform_3.png)
 
-1. Fare clic sull&#39;icona **[!UICONTROL Settings]** per modificare la modalità di visualizzazione dei dati nelle colonne.
+1. Fare clic sull&#39;icona per modificare la **[!UICONTROL Settings]** modalità di visualizzazione dei dati nelle colonne.
 
    ![](../assets/dynamic_report_freeform_4.png)
 
@@ -103,13 +112,13 @@ Ogni tabella e visualizzazione è ridimensionabile e può essere spostata per pe
    * **[!UICONTROL Percent]**: consente di mostrare o nascondere le percentuali nella colonna.
    * **[!UICONTROL Interpret zero as no value]**: consente di mostrare o nascondere quando il valore è uguale a zero.
    * **[!UICONTROL Background]**: consente di mostrare o nascondere la barra di avanzamento orizzontale nelle celle.
-   * **[!UICONTROL Include retries]**: consente di includere nuovi tentativi nel risultato. Disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Include retries]**: consente di includere i tentativi nel risultato. Questa funzione è disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Selezionare una o più righe e fare clic sull&#39;icona **[!UICONTROL Visualize]**. Viene aggiunta una visualizzazione per riflettere le righe selezionate.
+1. Selezionare una o più righe e fare clic sull&#39;icona **[!UICONTROL Visualize]** . Viene aggiunta una visualizzazione per riflettere le righe selezionate.
 
    ![](../assets/dynamic_report_freeform_5.png)
 
-Ora puoi aggiungere tutti i componenti necessari e anche visualizzazioni per fornire rappresentazioni grafiche dei dati.
+Ora puoi aggiungere tutti i componenti necessari e aggiungere visualizzazioni per fornire rappresentazioni grafiche dei dati.
 
 ## Aggiunta di componenti{#adding-components}
 
@@ -124,12 +133,12 @@ I componenti consentono di personalizzare i rapporti con dimensioni, metriche e 
    La tabella dei componenti è suddivisa in tre categorie:
 
    * **[!UICONTROL Dimensions]**: ottiene dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario oppure il completamento di una consegna.
-   * **[!UICONTROL Metrics]**: ottieni dettagli sullo stato di un messaggio. Ad esempio, se un messaggio è stato recapitato e l’utente lo ha aperto.
-   * **[!UICONTROL Time]**: impostare un periodo di tempo per la tabella.
+   * **[!UICONTROL Metrics]**: consente di ottenere dettagli sullo stato di un messaggio. Ad esempio, se un messaggio è stato recapitato e il utente lo ha aperto.
+   * **[!UICONTROL Time]**: imposta un periodo di tempo per la tabella.
 
-1. Trascina e rilascia i componenti in un pannello per iniziare a filtrare i dati.
+1. Trascina i componenti in un pannello per iniziare a filtrare i dati.
 
-Puoi trascinare tutti i componenti necessari e confrontarli tra loro.
+È possibile trascinare e rilasciare tutti i componenti necessari e confrontarli tra loro.
 
 ## Aggiunta di visualizzazioni{#adding-visualizations}
 
@@ -139,8 +148,8 @@ La scheda **[!UICONTROL Visualizations]** consente di trascinare e rilasciare gl
 
    ![](../assets/dynamic_report_visualization_1.png)
 
-1. Dopo aver aggiunto una visualizzazione al pannello, i rapporti rileveranno automaticamente i dati nella tabella a forma libera. Seleziona le impostazioni per la visualizzazione.
-1. Se si dispone di più tabelle a forma libera, scegliere l&#39;origine dati disponibile da aggiungere al grafico nella finestra **[!UICONTROL Data Source Settings]**. Questa finestra è disponibile anche facendo clic sul punto colorato accanto al titolo della visualizzazione.
+1. Dopo aver aggiunto una visualizzazione al pannello, i rapporti rilevano automaticamente i dati nella tabella a forma libera. Seleziona le impostazioni per la visualizzazione.
+1. Se sono presenti più tabelle a forma libera, scegliere l&#39;origine dati disponibile da aggiungere al grafico nella **[!UICONTROL Data Source Settings]** finestra. Questa finestra è disponibile anche facendo clic sul punto colorato accanto al titolo della visualizzazione.
 
    ![](../assets/dynamic_report_visualization_2.png)
 

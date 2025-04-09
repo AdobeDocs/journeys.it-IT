@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
 # Utilizzo dei dati di Adobe Analytics{#analytics-data}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 >[!NOTE]
 >
@@ -27,7 +36,7 @@ Affinché questo funzioni, devi attivare in Adobe Experience Platform la suite d
 
 1. Selezionare la suite di rapporti che si desidera abilitare, fare clic su **[!UICONTROL Next]** e quindi su **[!UICONTROL Finish]**.
 
-1. Condividi l’ID dati sorgente con il punto di contatto del programma di Alpha.
+1. Condividi l’ID dati sorgente con il punto di contatto del programma Alpha.
 
 In questo modo viene attivato il connettore di origine di Analytics per quella suite di rapporti. Ogni volta che i dati vengono inseriti, vengono trasformati in un evento Experience e inviati in Adobe Experience Platform.
 

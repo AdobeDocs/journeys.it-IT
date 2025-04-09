@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
-title: Passaggi aggiuntivi per inviare eventi al Journey Orchestration
-description: Scopri i passaggi aggiuntivi per inviare eventi al Journey Orchestration
+title: Passaggi aggiuntivi per l’invio di eventi a Journey Orchestration
+description: Scopri i passaggi aggiuntivi per l’invio di eventi a Journey Orchestration
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---
 
 # Passaggi aggiuntivi per inviare eventi a [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
+
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 >[!NOTE]
 >

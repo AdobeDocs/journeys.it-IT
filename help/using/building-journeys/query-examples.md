@@ -5,14 +5,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1328'
 ht-degree: 2%
 
 ---
 
 # Esempi di query{#query-examples}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 In questa sezione sono elencati diversi esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi di Percorso in Data Lake.
 
@@ -112,7 +121,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 Set di dati per l’acquisizione degli eventi dei passaggi per l’utente nel percorso.
 
-Lo schema correlato è lo schema evento passaggio Percorso per il Journey Orchestration.
+Lo schema correlato è lo schema evento passaggio di Percorso per Journey Orchestration.
 
 _Caso di utilizzo per la generazione di rapporti_
 

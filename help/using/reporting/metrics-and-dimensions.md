@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1080'
 ht-degree: 3%
 
 ---
 
 # Metriche e dimensioni {#concept_rfj_wpt_52b}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 >[!NOTE]
 >
@@ -33,8 +42,8 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
 |--- |--- |
 | **Azione** | Elenco di ogni azione (**nome azione - etichetta azione**) utilizzata nei percorsi. Esempio: Push - Conferma estrazione, E-mail - Fedeltà premi. |
 | **Origine dati** | Elenco di origini dati (**nome origine dati**) utilizzate per arricchire i dati in un percorso, ad esempio Adobe Experience Platform, Sistema di prenotazione. |
-| **[!UICONTROL Event]** | Elenco di ogni evento (**nome evento - etichetta evento**) utilizzato in percorsi, ad esempio evento Geometrixx - Geometrixx. |
-| **Gruppo di campi** | Elenco dei gruppi di campi (**nome gruppo di campi**) utilizzati per arricchire i dati nei percorsi, ad esempio gruppo di campi Profilo, Geometrixx di prenotazione. |
+| **[!UICONTROL Event]** | Elenco di ogni evento (**nome evento - etichetta evento**) utilizzato in percorsi, ad esempio evento Geometrixx - estrazione Geometrixx. |
+| **Gruppo di campi** | Elenco dei gruppi di campi (**nome gruppo di campi**) utilizzati per arricchire i dati nei percorsi, ad esempio gruppo di campi Profilo, sistema di prenotazione Geometrixx. |
 | **Percorso** | Elenco di ogni percorso (**nome percorso**) in modalità di test e live, ad esempio abbandono del carrello, notifica di prenotazione dell&#39;hotel. |
 | **versione Percorso** | Elenco di tutte le versioni pubblicate di un percorso (**nome percorso + numero versione**), ad esempio abbandono carrello v1, notifica prenotazione hotel v2. |
 | **Orchestrazione** | Elenco di ogni attività di orchestrazione (**Condition, End, Wait**) definita e utilizzata in percorsi. |

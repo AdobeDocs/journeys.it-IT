@@ -6,19 +6,28 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 80%
+source-wordcount: '595'
+ht-degree: 74%
 
 ---
 
 # Editor di espressioni avanzate {#concept_uyj_trt_52b}
 
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
 Utilizza l’editor di espressioni avanzate per creare espressioni avanzate in varie schermate dell’interfaccia. È possibile, ad esempio, creare espressioni durante la configurazione e l&#39;utilizzo di percorsi e durante la definizione di una condizione di origine dati.
 È inoltre disponibile ogni volta che hai bisogno di definire parametri di azione che richiedono specifiche manipolazioni dei dati. Puoi sfruttare i dati provenienti dagli eventi o le informazioni aggiuntive recuperate dall’origine dati. In un percorso, l’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso.
 
-L’editor di espressioni avanzate offre un set di funzioni e operatori incorporati che ti consente di manipolare i valori e definire un’espressione adatta alle tue esigenze. L’editor di espressioni avanzate ti consente inoltre di definire i valori del parametro dell’origine dati esterna, di manipolare i campi e le raccolte delle mappe, ad esempio gli eventi di esperienza.
+L’editor di espressioni avanzate offre un set di funzioni e operatori incorporati che consente di manipolare i valori e definire un’espressione adatta alle tue esigenze. L’editor di espressioni avanzate ti consente inoltre di definire i valori del parametro dell’origine dati esterna, di manipolare i campi e le raccolte delle mappe, ad esempio gli eventi di esperienza.
 
 ![](../assets/journey65.png)
 
@@ -61,7 +70,7 @@ Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni dispo
 * **[!UICONTROL Segments]**: se è stato eliminato un evento **[!UICONTROL Segment qualification]**, scegliere il segmento da utilizzare nell&#39;espressione. [Ulteriori informazioni](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**: scegliere dall&#39;elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
 * **[!UICONTROL Journey properties]**: questa sezione raggruppa i campi tecnici correlati al percorso per un determinato profilo. [Ulteriori informazioni](../expression/journey-properties.md)
-* **[!UICONTROL Functions]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](../expression/functions.md)
+* **[!UICONTROL Functions]**: scegli dall’elenco di funzioni incorporate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](../expression/functions.md)
 
 ![](../assets/journey65.png)
 

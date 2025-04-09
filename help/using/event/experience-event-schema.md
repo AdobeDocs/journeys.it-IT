@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
-title: Informazioni sugli schemi ExperienceEvent per eventi di Journey Orchestration
-description: Scopri gli schemi ExperienceEvent per gli eventi di Journey Orchestration
+title: Informazioni sugli schemi ExperienceEvent per eventi Journey Orchestration
+description: Scopri gli schemi ExperienceEvent per gli eventi Journey Orchestration
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '762'
+ht-degree: 1%
 
 ---
 
 # Informazioni sugli schemi ExperienceEvent per [!DNL Journey Orchestration] eventi
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
 
 [!DNL Journey Orchestration] eventi sono eventi esperienza XDM inviati a Adobe Experience Platform tramite Streaming Ingestion.
 

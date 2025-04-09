@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
 
 # Esempi di espressioni avanzate
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home) per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 L’editor di espressioni avanzate può essere utilizzato per creare condizioni che consentono di filtrare gli utenti nei percorsi. Queste condizioni ti consentono di eseguire il targeting degli utenti in base a ora, data, posizione, durata o azioni quali l’acquisto o l’abbandono dei carrelli, in modo che possano essere indirizzati nuovamente al percorso.
 
@@ -38,7 +47,7 @@ Innanzitutto, rivolgiti ai clienti che hanno navigato nel negozio online ma non 
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **L&#39;espressione cerca tutti gli eventi per l&#39;utente specificato negli ultimi 7 giorni:**
 

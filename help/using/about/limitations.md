@@ -1,21 +1,31 @@
 ---
 product: adobe campaign
-title: Limitazioni del Journey Orchestration
-description: Ulteriori informazioni sulle limitazioni del Journey Orchestration
+title: Limitazioni di Journey Orchestration
+description: Scopri maggiori informazioni sulle limitazioni di Journey Orchestration
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 45%
+source-wordcount: '609'
+ht-degree: 42%
 
 ---
 
 # Limitazioni {#limitations}
 
-Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orchestration.
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
+
+Di seguito sono riportate le limitazioni relative all’utilizzo di Journey Orchestration.
 
 ## Guardrail di percorso generale {#journeys-guardrails-journeys}
 
@@ -36,8 +46,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 ## Qualificazione del segmento {#segment-qualification}
 
-* L&#39;attività **Qualificazione del segmento** non può essere utilizzata in combinazione con Adobe Campaign Standard Transactional Messaging a causa di vincoli di velocità effettiva. Vedi [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
- 
+* L&#39;attività **di qualificazione** del segmento non può essere utilizzata insieme alla messaggistica transazionale Adobe Campaign Standard a causa di vincoli di velocità effettiva. Consulta [Adobe Campaign Standard Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html) sul prodotto.
 ## Limitazioni delle azioni personalizzate
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
@@ -46,13 +55,12 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 * Gli indirizzi IP non sono consentiti. 
 * Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
  
-## Limitazioni delle azioni di Adobe Campaign
+## Adobe Campaign limitazioni delle azioni
 
-* La messaggistica transazionale di Adobe Campaign Standard ha una scala massima di 50.000 messaggi all’ora sui canali per una determinata istanza. Vedi [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
- 
+* Adobe Campaign Standard messaggi transazionali ha una scala massima di 50 000 messaggi all&#39;ora su tutti i canali per una determinata istanza. Consulta [Adobe Campaign Standard Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html) sul prodotto.
 ## Limitazioni degli eventi
 
-* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima all’interno del Journey Orchestration per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
+* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima in Journey Orchestration per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
  
 ## Limitazioni delle origini dati
 
@@ -62,7 +70,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo del Journey Orc
 
 In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. Il target livello di servizio (Service Level Target, SLT) in termini di latenza è &lt; di 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
 
-Se un Percorso viene attivato simultaneamente per la creazione di un profilo e immediatamente controlla/recupera le informazioni dal servizio profili, potrebbe non funzionare correttamente.
+Se un percorso viene attivato contemporaneamente alla creazione di un profilo e controlla/recupera immediatamente le informazioni dal servizio profili, potrebbe non funzionare correttamente.
 
 Puoi scegliere una delle due soluzioni seguenti:
 

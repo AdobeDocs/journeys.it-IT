@@ -6,16 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
 # Definizione del codice evento {#concept_ond_hqt_52b}
 
-La chiave è il campo o la combinazione di campi che fa parte dei dati di payload dell’evento e che consentirà al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l’ID Experience Cloud, un ID del sistema di gestione delle relazioni con i clienti o un indirizzo e-mail.
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
+La chiave è il campo o la combinazione di campi che fa parte dei dati di payload dell’evento e che consentirà al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l’Experience Cloud ID, un ID del sistema di gestione delle relazioni con i clienti o un indirizzo e-mail.
 
 Se si intende sfruttare i dati memorizzati nel database Profilo cliente in tempo reale, è necessario selezionare come chiave evento le informazioni definite come identità di un profilo nel [Servizio profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it).
 

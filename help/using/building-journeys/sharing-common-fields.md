@@ -6,20 +6,29 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
 # campi comuni degli eventi journeyStep {#sharing-common-fields}
 
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
 Questo mixin verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
 Questi sono i campi XDM comuni che [!DNL Journey Orchestration] invia a Adobe Experience Platform. Campi comuni vengono inviati per ogni passaggio elaborato in un percorso. Campi più specifici vengono utilizzati per azioni personalizzate e arricchimenti.
 
-Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione di azioni, recupero dati, ecc.) per limitare la dimensione degli eventi.
+Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione di azioni, recupero di dati, ecc.) per limitare la dimensione degli eventi.
 
 ## entrata
 

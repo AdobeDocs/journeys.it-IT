@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 8%
+source-wordcount: '402'
+ht-degree: 7%
 
 ---
 
 # Configurazione dell’evento{#concept_y44_hcy_w2b}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 Nel nostro scenario, dobbiamo ricevere un evento ogni volta che una persona cammina vicino a un beacon posizionato accanto al centro benessere. L&#39;**utente tecnico** deve configurare l&#39;evento a cui il percorso farà da listener.
 
@@ -27,7 +36,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;evento, consultare [que
 
    ![](../assets/journeyuc1_2.png)
 
-1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. È necessario l&#39;ID Experience Cloud per identificare la persona nel database del profilo cliente in tempo reale: _endUserIDs > esperienza > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID è archiviato nel campo **[!UICONTROL eventID]** (_esperienza > campagna > orchestrazione > eventID_). Il sistema che trasmette l’evento non deve generare un ID, deve utilizzare quello disponibile nell’anteprima del payload. Nel nostro caso di utilizzo, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l’invio dell’evento.
+1. Quindi selezioniamo lo schema e definiamo il payload previsto per questo evento. Selezioniamo i campi necessari dal modello normalizzato XDM. È necessario l&#39;Experience Cloud ID per identificare la persona nel database del profilo cliente in tempo reale: _endUserIDs > esperienza > mcid > id_. Per questo evento viene generato automaticamente un ID. Questo ID è archiviato nel campo **[!UICONTROL eventID]** (_esperienza > campagna > orchestrazione > eventID_). Il sistema che trasmette l’evento non deve generare un ID, deve utilizzare quello disponibile nell’anteprima del payload. Nel nostro caso di utilizzo, questo ID viene utilizzato per identificare la posizione del beacon. Ogni volta che una persona cammina vicino al beacon spa, viene inviato un evento contenente questo ID evento specifico. Questo consente al sistema di sapere quale beacon ha attivato l’invio dell’evento.
 
    ![](../assets/journeyuc1_3.png)
 

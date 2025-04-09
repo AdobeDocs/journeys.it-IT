@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 13%
+source-wordcount: '391'
+ht-degree: 11%
 
 ---
 
 # Origine dati Adobe Experience Platform {#concept_zrb_nqt_52b}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 L’origine dati Adobe Experience Platform definisce la connessione al servizio Profilo cliente in tempo reale. Questa origine dati è incorporata e preconfigurata. Non può essere cancellato. Questa origine dati è progettata per recuperare e utilizzare i dati del servizio Profilo cliente in tempo reale (ad esempio, verificare se la persona che ha inserito un percorso è una donna). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza. Per ulteriori informazioni sul servizio Profilo cliente in tempo reale, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it).
 
@@ -37,8 +46,8 @@ Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi a
 
    ![](../assets/journey24.png)
 
-1. Selezionare uno schema dal menu a discesa **[!UICONTROL Schema]**. Questo campo elenca gli schemi Profilo ed Eventi esperienza disponibili in Adobe Experience Platform. Creazione dello schema non eseguita in [!DNL Journey Orchestration]. Viene eseguito in Adobe Experience Platform.
+1. Selezionare uno schema dal menu a discesa **[!UICONTROL Schema]**. Questo campo elenca gli schemi Profilo ed Eventi esperienza disponibili in Adobe Experience Platform. Creazione dello schema non eseguita in [!DNL Journey Orchestration]. Viene eseguito nel Adobe Experience Platform.
 1. Selezionare i campi da utilizzare.
 1. Fai clic su **[!UICONTROL Save]**.
 
-Quando posizioni il cursore sul nome di un gruppo di campi, a destra vengono visualizzate due icone. Ti consentono di eliminare e duplicare il gruppo di campi. L&#39;icona **[!UICONTROL Delete]** è disponibile solo se il gruppo di campi non è utilizzato in alcun percorso live o in bozza (informazioni visualizzate nel campo **[!UICONTROL Used in]**).
+Quando si posiziona il cursore sul nome di un gruppo di campi, a destra vengono visualizzate due icone. Ti consentono di eliminare e duplicare il gruppo di campi. L&#39;icona **[!UICONTROL Delete]** è disponibile solo se il gruppo di campi non è utilizzato in alcun percorso live o in bozza (informazioni visualizzate nel campo **[!UICONTROL Used in]**).

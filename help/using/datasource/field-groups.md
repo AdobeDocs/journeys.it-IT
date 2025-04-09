@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 0%
+source-wordcount: '498'
+ht-degree: 1%
 
 ---
 
 # Gruppi di campi {#concept_ntl_ypt_52b}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 I gruppi di campi sono insiemi di campi che è possibile recuperare da un&#39;origine dati e utilizzare in un percorso.
 
@@ -31,7 +40,7 @@ Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nel c
 
 >[!NOTE]
 >
->Tieni presente che se un gruppo di campi non ha alcun campo, non verrà visualizzato nell’editor espressioni.
+>Tieni presente che se un gruppo di campi non ha un campo, non verrà visualizzato nell’editor espressioni.
 
 ![](../assets/journey3bis.png)
 

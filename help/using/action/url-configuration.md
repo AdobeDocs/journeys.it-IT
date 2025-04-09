@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: 2a93bce42ea9f1f21d70c68da3dbc36844dafd1b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
 
 # Configurazione URL {#concept_gbg_1f1_2gb}
+
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 Durante la configurazione di un&#39;azione personalizzata, è necessario definire i seguenti **[!UICONTROL URL Configuration]** parametri:
 

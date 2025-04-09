@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1619'
 ht-degree: 4%
 
 ---
 
 # Verifica del percorso{#testing_the_journey}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali errori. Consulta [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -169,7 +178,7 @@ Per ulteriori informazioni su come utilizzare la modalità di test, fare riferim
 
 ## Visualizzazione dei registri {#viewing_logs}
 
-Il pulsante **[!UICONTROL Show log]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Per aggiornare i risultati dei test del percorso, è necessario aggiornare manualmente la pagina.
+Il pulsante **[!UICONTROL Show log]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Per aggiornare i risultati del test del percorso, è necessario aggiornare manualmente la pagina.
 
 ![](../assets/journeytest3.png)
 
@@ -200,4 +209,4 @@ Quando un evento viene attivato utilizzando la modalità di test, viene generato
 
 Quando un evento viene attivato utilizzando la modalità di test, viene generato automaticamente un set di dati con il nome dell’origine.
 
-La modalità di test crea automaticamente un evento esperienza e lo invia a Adobe Experience Platform. Il nome dell’origine di questo evento esperienza è &quot;Eventi test di Journey Orchestration&quot;.
+La modalità di test crea automaticamente un evento esperienza e lo invia a Adobe Experience Platform. Il nome dell’origine di questo evento esperienza è &quot;Eventi di test di Journey Orchestration&quot;.

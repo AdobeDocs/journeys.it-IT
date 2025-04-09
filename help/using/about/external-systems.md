@@ -7,38 +7,48 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1084'
 ht-degree: 5%
 
 ---
 
 # Integrazione con sistemi esterni {#external-systems}
 
-Questa pagina presenta i diversi guardrail forniti dal Journey Orchestration durante l’integrazione di un sistema esterno, nonché le best practice: come ottimizzare la protezione del sistema esterno utilizzando l’API di limitazione di utilizzo, come configurare il timeout del percorso e come funzionano i nuovi tentativi.
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
+
+Questa pagina presenta i diversi guardrail forniti da Journey Orchestration durante l’integrazione di un sistema esterno, nonché le best practice: come ottimizzare la protezione del sistema esterno utilizzando l’API di limitazione di utilizzo, come configurare il timeout del percorso e come funzionano i nuovi tentativi.
 
 Journey Orchestration consente di configurare connessioni a sistemi esterni tramite origini dati e azioni personalizzate. Ciò ti consente, ad esempio, di arricchire i tuoi percorsi con dati provenienti da un sistema di prenotazione esterno o di inviare messaggi utilizzando un sistema di terze parti come Epsilon o Facebook.
 
-Quando si integra un sistema esterno, è possibile riscontrare diversi problemi, il sistema può essere lento, può smettere di rispondere o potrebbe non essere in grado di gestire un volume di grandi dimensioni. Il Journey Orchestration offre diversi guardrail per proteggere il sistema dal sovraccarico.
+Quando si integra un sistema esterno, è possibile riscontrare diversi problemi, il sistema può essere lento, può smettere di rispondere o potrebbe non essere in grado di gestire un volume di grandi dimensioni. Journey Orchestration offre diversi guardrail per proteggere il sistema dal sovraccarico.
 
 Tutti i sistemi esterni sono diversi in termini di prestazioni. Devi adattare la configurazione ai tuoi casi d’uso.
 
-Quando il Journey Orchestration esegue una chiamata a un’API esterna, i guardrail tecnici vengono eseguiti come segue:
+Quando Journey Orchestration esegue una chiamata a un’API esterna, i guardrail tecnici vengono eseguiti come segue:
 
 1. Vengono applicate le regole di limite: se viene raggiunta la tariffa massima, le chiamate rimanenti vengono scartate.
 
-2. Timeout e nuovo tentativo: se la regola di limite viene soddisfatta, il Journey Orchestration tenta di eseguire la chiamata fino al raggiungimento della fine della durata del timeout.
+2. Timeout e riprova: se la regola di limite viene soddisfatta, Journey Orchestration tenta di eseguire la chiamata fino al raggiungimento della fine della durata del timeout.
 
 ## Limiti{#capping}
 
 L’API Capping integrata offre un guardrail tecnico a monte che aiuta a proteggere il sistema esterno.
 
-Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per includere l’endpoint nel inserisco nell&#39;elenco Consentiti di. Questo non è possibile per le origini dati esterne pubbliche.
+Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta Adobe per includere l’endpoint nel inserisco nell&#39;elenco Consentiti di. Questo non è possibile per le origini dati esterne pubbliche.
 
 Per le azioni personalizzate, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, devi definire una regola di limite in modo che il sistema non si saturi.
 
-Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (URL denominato). In fase di runtime, il Journey Orchestration verifica se è definita una regola di limite e applica la tariffa definita durante le chiamate all’endpoint. Se il numero di chiamate supera il tasso definito, le chiamate rimanenti vengono scartate e conteggiate come errori nella generazione dei rapporti.
+Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (URL denominato). In fase di runtime, Journey Orchestration verifica se è stata definita una regola di limite e applica la tariffa definita durante le chiamate all’endpoint. Se il numero di chiamate supera il tasso definito, le chiamate rimanenti vengono scartate e conteggiate come errori nella generazione dei rapporti.
 
 Una regola di limite è specifica per un endpoint, ma globale per tutti i percorsi di una sandbox. Ciò significa che gli slot di limitazione sono condivisi tra tutti i percorsi di una sandbox.
 
@@ -54,11 +64,11 @@ In ogni percorso, puoi definire una durata di timeout. Questo consente di impost
 
 Questo timeout è globale per tutte le chiamate esterne (chiamate API esterne nelle azioni personalizzate e nelle origini dati personalizzate). Per impostazione predefinita è impostato su 5 secondi.
 
-Durante la durata di timeout definita, il Journey Orchestration tenta di chiamare il sistema esterno. Dopo la prima chiamata, è possibile eseguire un massimo di tre tentativi fino al raggiungimento della durata di timeout finale. Impossibile modificare il numero di tentativi.
+Durante la durata di timeout definita, Journey Orchestration tenta di chiamare il sistema esterno. Dopo la prima chiamata, è possibile eseguire un massimo di tre tentativi fino al raggiungimento della durata di timeout finale. Impossibile modificare il numero di tentativi.
 
 Ogni nuovo tentativo utilizza uno slot. Se hai un limite massimo di 100 chiamate al secondo e ciascuna chiamata richiede due tentativi, la frequenza scende a 30 chiamate al secondo (ogni chiamata utilizza 3 slot: la prima chiamata e due tentativi).
 
-Il valore della durata del timeout dipende dal caso d’uso. Se desideri inviare il messaggio rapidamente, ad esempio quando il client entra nell’archivio, non impostare un timeout prolungato. Inoltre, più è lungo il timeout, più elementi saranno messi in coda. Questo può avere un notevole impatto sulle prestazioni. Se il Journey Orchestration esegue 1000 chiamate al secondo, la conservazione di 5 o 15 secondi di dati può sopraffare rapidamente il sistema.
+Il valore della durata del timeout dipende dal caso d’uso. Se desideri inviare il messaggio rapidamente, ad esempio quando il client entra nell’archivio, non impostare un timeout prolungato. Inoltre, più è lungo il timeout, più elementi saranno messi in coda. Questo può avere un notevole impatto sulle prestazioni. Se Journey Orchestration esegue 1000 chiamate al secondo, la conservazione di 5 o 15 secondi di dati può sopraffare rapidamente il sistema.
 
 Prendiamo un esempio per un timeout di 5 secondi.
 

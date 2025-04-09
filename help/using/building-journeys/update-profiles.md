@@ -1,19 +1,28 @@
 ---
 product: adobe campaign
-title: Aggiorna profilo
-description: Aggiorna profilo
+title: Aggiorna il profilo
+description: Aggiorna il profilo
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
 
-# Aggiorna profilo {#update-profile}
+# Aggiorna il profilo {#update-profile}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 L&#39;attività azione **[!UICONTROL Update profile]** consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall&#39;evento, da un&#39;origine dati o utilizzando un valore specifico.
 

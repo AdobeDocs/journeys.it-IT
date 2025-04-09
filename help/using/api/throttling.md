@@ -7,14 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
-source-git-commit: 7b8c9d2bfe244b040a9064a7a240ea6f43cc8b41
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 96%
+source-wordcount: '791'
+ht-degree: 91%
 
 ---
 
 # Utilizzare l’API di limitazione
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
 
 L’API di limitazione ti consente di creare, configurare e monitorare le configurazioni di limitazione al fine di limitare il numero di eventi inviati al secondo.
 

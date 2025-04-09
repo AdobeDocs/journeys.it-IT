@@ -6,21 +6,31 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 90%
 
 ---
 
 # Principio generale {#concept_gfj_fqt_52b}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="Informazioni sugli eventi"
 >abstract="Un evento è collegato a una persona e si riferisce al comportamento di una persona o a qualcosa che si verifica in relazione a una persona. Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener per questi dati, in modo da orchestrare le migliori azioni successive da eseguire."
 
-Un evento è collegato a una persona e si riferisce al suo comportamento: ad esempio, se ha acquistato un prodotto, se ha visitato un negozio, se è uscita da un sito web, e così via. Oppure, indica qualcosa che si verifica in relazione a una persona, ad esempio se ha raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener per questi dati, in modo da orchestrare le migliori azioni successive da eseguire.
+Un evento è collegato a una persona. Riguarda il comportamento di una persona (ad esempio una persona che ha acquistato un prodotto, visitato un negozio, che è uscita da un sito web, ecc.) o qualcosa che accade in relazione a una persona (ad esempio, una persona che ha raggiunto 10.000 punti fedeltà). Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener per questi dati, in modo da orchestrare le migliori azioni successive da eseguire.
 
 Tale configurazione è **obbligatoria**[!DNL Journey Orchestration], in quanto è progettata per fare da listener agli eventi ed è sempre eseguita da un **utente tecnico**.
 

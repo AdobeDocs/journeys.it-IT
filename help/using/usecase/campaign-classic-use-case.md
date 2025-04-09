@@ -4,18 +4,27 @@ solution: Journey Orchestration
 title: Invio di un messaggio tramite Campaign v7/v8
 description: Invio di un messaggio tramite Campaign v7/v8
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 6%
+source-wordcount: '439'
+ht-degree: 5%
 
 ---
 
 # Invio di un messaggio tramite Campaign v7/v8 {#campaign-classic-use-case}
 
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
 Questo caso d’uso illustra tutti i passaggi necessari per inviare un’e-mail utilizzando l’integrazione con Adobe Campaign Classic v7 e Adobe Campaign v8.
 
-Creeremo prima un modello e-mail transazionale in Campaign. Quindi, in Journey Orchestration, creeremo l&#39;evento, l&#39;azione e progetteremo il percorso.
+Creeremo prima un modello e-mail transazionale in Campaign. Quindi, in Journey Orchestration, creeremo l’evento, l’azione e progetteremo il percorso.
 
 Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti pagine:
 
@@ -38,11 +47,11 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Progetta il modello. In questo esempio, utilizziamo la personalizzazione sul nome del profilo e sul numero di ordine. Il nome si trova nell’origine dati Adobe Experience Platform e il numero di ordine è un campo del nostro evento di Journey Orchestration. Assicurati di utilizzare i nomi di campo corretti in Campaign.
+1. Progetta il modello. In questo esempio, utilizziamo la personalizzazione sul nome del profilo e sul numero di ordine. Il nome si trova nell’origine dati Adobe Experience Platform e il numero d’ordine è un campo del nostro evento Journey Orchestration. Assicurati di utilizzare i nomi di campo corretti in Campaign.
 
    ![](../assets/accintegration-uc-3.png)
 
-1. Publish il modello transazionale.
+1. Pubblica il modello transazionale.
 
    ![](../assets/accintegration-uc-4.png)
 
@@ -70,7 +79,7 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
    ![](../assets/accintegration-uc-5.png)
 
-1. In seguito devi creare, nel Journey Orchestration, un’azione corrispondente al modello Campaign. Nell&#39;elenco a discesa **Tipo azione**, selezionare **Adobe Campaign Classic**.
+1. Devi quindi creare, in Journey Orchestration, un’azione corrispondente al modello Campaign. Nell&#39;elenco a discesa **Tipo azione**, selezionare **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
@@ -86,7 +95,7 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
    ![](../assets/accintegration-uc-9.png)
 
-1. Aggiungi l’azione e mappa ogni campo sul campo corretto nel Journey Orchestration.
+1. Aggiungi l’azione e mappa ogni campo sul campo corretto in Journey Orchestration.
 
    ![](../assets/accintegration-uc-10.png)
 

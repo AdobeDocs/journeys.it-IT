@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 95%
+source-wordcount: '1075'
+ht-degree: 81%
 
 ---
 
 # Risoluzione dei problemi{#concept_nlv_bcv_2fb}
+
+
+>[!CAUTION]
+>
+>**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>
+>
+>_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+
+
 
 In questa sezione viene descritto come risolvere i problemi dei percorsi prima di eseguire i test o di pubblicare. Tutti i controlli elencati di seguito possono essere effettuati quando il percorso è in modalità di test o quando è live. Ti consigliamo di eseguire tutti i controlli riportati di seguito in modalità di test, quindi di procedere alla pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
@@ -47,7 +57,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine a [!DNL Journey Orchestration]. In effetti, [!DNL Journey Orchestration] si basa sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine a [!DNL Journey Orchestration]. [!DNL Journey Orchestration] si basa sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 ## Verifica dell&#39;accesso al percorso da parte delle persone{#section_x4v_zzs_dgb}
 
@@ -85,4 +95,4 @@ Se gli individui si spostano nel modo giusto durante il percorso ma non ricevono
 * La messaggistica transazionale ha tenuto correttamente conto della richiesta di invio del messaggio. Un utente aziendale può accedere al messaggio transazionale che doveva essere stato essere inviato e verificare se l’ora dell’esecuzione più recente corrisponde all’orario di esecuzione del percorso. Può inoltre controllare le ultime chiamate/eventi API ricevuti tramite la messaggistica transazionale.
 * La messaggistica transazionale ha inviato correttamente il messaggio. Nei registri di invio del messaggio transazionale, puoi vedere lo stato di ogni esecuzione. Puoi vedere se è verde, rosso e qual era il problema. Un utente aziendale può accedere a questa schermata e inviare i registri a un amministratore per ulteriori indagini.
 
-Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test del percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno che è associata all’azione personalizzata non genera un errore ma non provoca l’invio di un messaggio, è necessario effettuare alcune indagini sul lato del sistema esterno.
+Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test di percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno associata all’azione personalizzata non genera un errore ma non causa l’invio di un messaggio, è necessario eseguire alcune indagini sul lato del sistema esterno.
