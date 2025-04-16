@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in Journey Orchestration. Per le funzioni di Experience Platform, fare riferimento alle seguenti [note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it).
 
-Per le funzionalità rilasciate dopo il 2022, i collegamenti rimandano alla [documentazione di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}.
+Per le funzioni rilasciate dopo il 2022, i collegamenti indirizzano alla [documentazione di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}.
 
 ## Versione di marzo 2024 {#mar-rn-2024}
 
@@ -69,7 +69,7 @@ Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteri
 * È ora possibile definire parametri di query statici o dinamici nelle azioni personalizzate. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=it#url-configuration){target="_blank"} di Journey Optimizer.
 * Nuovi guardrail per gestire la crescita delle esperienze fornite dai percorsi:
    * Si consiglia di mantenere un massimo di 50 nodi per garantire percorsi efficienti e facili da leggere nonché per favorire il controllo qualità e la risoluzione dei problemi. Il numero di attività verrà visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys){target="_blank"} di Journey Optimizer
-   * Durante lo sviluppo e l’avvio dei percorsi, riceverai una notifica in prossimità del traguardo di 100 percorsi live alla volta. Se i tuoi piani richiedono più di 100 percorsi alla volta, crea un ticket per il supporto dopo aver visualizzato la notifica e ti auiteremo. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys){target="_blank"} di Journey Optimizer
+   * Durante lo sviluppo e l’avvio dei percorsi, riceverai una notifica in prossimità del traguardo di 100 percorsi live alla volta. Se i tuoi piani richiedono più di 100 percorsi alla volta, crea un ticket per ricevere supporto dopo aver visualizzato la notifica e ti aiuteremo. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys){target="_blank"} di Journey Optimizer
 
 ## Versione di marzo 2023 {#mar-2023}
 
@@ -85,14 +85,14 @@ Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteri
 
 ### Miglioramenti {#feb-2023-improvements}
 
-* Il campo **Periodo di attesa per il reingresso** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o una qualifica di segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#entrance){target="_blank"} di Journey Optimizer.
-* Sono stati apportati miglioramenti per le **date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#dates){target="_blank"} di Journey Optimizer.
+* Il campo **Periodo di attesa per il reingresso** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o una qualifica di segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#entrance){target="_blank"}di Journey Optimizer.
+* Sono stati apportati miglioramenti per le **date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#dates){target="_blank"}di Journey Optimizer.
 
 ## Versione di gennaio 2023 {#jan-2023-release}
 
 ### Miglioramenti {#jan-2023-improvements}
 
-* Quando si aggiunge una **Qualificazione del segmento** in un percorso, lo spazio dei nomi ora viene precompilato, per impostazione predefinita, con l’ultimo spazio dei nomi utilizzato. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=it#about-segment-qualification){target="_blank"} di Journey Optimizer.
+* Quando si aggiunge una **Qualificazione del segmento** in un percorso, lo spazio dei nomi ora viene precompilato, per impostazione predefinita, con l’ultimo spazio dei nomi utilizzato. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=it#about-segment-qualification){target="_blank"}di Journey Optimizer.
 * Nell’area di lavoro del percorso, nella barra degli strumenti è disponibile un nuovo pulsante che consente di scaricare una schermata del percorso.
 
 ## Versione di settembre 2022{#sept-2022-release}
@@ -154,7 +154,7 @@ Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteri
 
 ### Miglioramenti
 
-* Gli eventi dei passaggi di Journey Orchestration ora possono essere collegati ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it){target="_blank"}. Il campo **profileID** nello schema incorporato Evento passaggio percorso è ora definito come campo di identità. [Ulteriori informazioni](../building-journeys/sharing-overview.md#integration-cja)
+* Ora è possibile collegare gli eventi dei passaggi di Journey Orchestration ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it){target="_blank"}. Il campo **profileID** nello schema incorporato Evento passaggio percorso è ora definito come campo di identità. [Ulteriori informazioni](../building-journeys/sharing-overview.md#integration-cja)
 * La regola di limite per le azioni Adobe Campaign Standard è stata modificata in 4000 chiamate/5 minuti. [Ulteriori informazioni](../action/working-with-adobe-campaign.md)
 
 ## Versione di ottobre 2021 {#october-2021-release}
@@ -457,7 +457,7 @@ Il payload degli eventi di qualificazione dei segmenti ora contiene le seguenti 
 <ul>
 <li><p>Il nome dell’attività è stato modificato in “Leggi segmento”. </p>
 </li>
-<li><p>La configurazione dell’utilità di pianificazione del percorso è stata rimossa dalle proprietà dell’attività. Ora è accessibile direttamente dalle proprietà del percorso, in una sezione dedicata che verrà visualizzata se un’attività Leggi segmento è stata rilasciata nell’area di lavoro. </p>
+<li><p>La configurazione del modulo di pianificazione del percorso è stata rimossa dalle proprietà dell’attività. Ora è accessibile direttamente dalle proprietà del percorso, in una sezione dedicata che verrà visualizzata se un’attività Leggi segmento è stata rilasciata nell’area di lavoro. </p>
 </li>
 <li><p>Ora puoi testare il percorso su un profilo unitario e monitorare l’avanzamento del profilo nel percorso utilizzando il flusso visivo.</p>
 </li>
