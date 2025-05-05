@@ -26,7 +26,7 @@ ht-degree: 22%
 
 L’integrazione con Intelligent Services ti consente di sfruttare la potenza dell’intelligenza artificiale e dell’apprendimento automatico nei casi di utilizzo dell’esperienza del cliente. Questo consente agli analisti di marketing di impostare previsioni specifiche per le esigenze di un’azienda utilizzando configurazioni a livello aziendale senza la necessità di competenze in materia di data science.
 
-Per ulteriori informazioni su Intelligent Services, consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
+Per ulteriori informazioni su Intelligent Services, consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=it).
 
 Questa integrazione ti consente di sfruttare le previsioni dei clienti. Vedi [Utilizzo di Customer AI](../ai-services/leveraging-customer-ai.md)
 

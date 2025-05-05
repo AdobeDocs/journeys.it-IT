@@ -70,4 +70,4 @@ Gli eventi dei passaggi di Journey Orchestration possono essere collegati ad alt
 
 * Customer Journey Analytics acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * Il campo **profileID** nello &quot;Schema evento passaggio di Percorso per Journey Orchestration&quot; associato è definito come campo Identity. In Customer Journey Analytics, puoi quindi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.
-* Se desideri utilizzare questo set di dati in Customer Journey Analytics, per l&#39;analisi del percorso cross-channel, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+* Se desideri utilizzare questo set di dati in Customer Journey Analytics, per l&#39;analisi del percorso cross-channel, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=it).

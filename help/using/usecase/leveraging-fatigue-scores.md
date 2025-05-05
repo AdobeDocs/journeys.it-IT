@@ -16,7 +16,7 @@ Questo caso d’uso ti mostrerà come sfruttare i punteggi di fatica per evitare
 
 >[!NOTE]
 >
->La funzionalità Punteggio di fatica predittivo è disponibile solo per i clienti che utilizzano il [Connettore dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
+>La funzionalità Punteggio di fatica predittivo è disponibile solo per i clienti che utilizzano il [Connettore dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=it).
 
 ## Configurazione dell’evento {#section_ptb_ws1_ffb}
 

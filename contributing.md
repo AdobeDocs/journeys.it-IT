@@ -37,4 +37,4 @@ Amiamo i contributi della nostra comunità! Se vuoi andare oltre il tuo contribu
 
 ## Problemi di sicurezza
 
-I problemi di sicurezza non devono essere segnalati su questo tracciatore di problemi. Al contrario, [presenta un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/security/alertus.html)
+I problemi di sicurezza non devono essere segnalati su questo tracciatore di problemi. Al contrario, [presenta un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/it/security/alertus.html)

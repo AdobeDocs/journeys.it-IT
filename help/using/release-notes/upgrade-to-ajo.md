@@ -23,7 +23,7 @@ Journey Orchestration è un servizio basato su Adobe Experience Platform che con
 
 ## Perché dovrei passare a Adobe Journey Optimizer?
 
-**Accesso a un&#39;interfaccia semplificata** con funzionalità di Experience Platform che consentono di accedere rapidamente a percorsi, set di dati, profili, avvisi e altro ancora. Non è più necessario fare avanti e indietro tra Adobe Experience Platform e il Journey Orchestration per accedere a schemi o set di dati, tutto è direttamente disponibile da Adobe Journey Optimizer. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
+**Accesso a un&#39;interfaccia semplificata** con funzionalità di Experience Platform che consentono di accedere rapidamente a percorsi, set di dati, profili, avvisi e altro ancora. Non è più necessario fare avanti e indietro tra Adobe Experience Platform e il Journey Orchestration per accedere a schemi o set di dati, tutto è direttamente disponibile da Adobe Journey Optimizer. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=it).
 
 <table>
 <tr>
@@ -96,6 +96,6 @@ Passando a Adobe Journey Optimizer, potrai comunque utilizzare l’integrazione 
 
 Tuttavia, a causa del funzionamento dello stack di reporting di Adobe Journey Optimizer, il reporting non combinerà dati di Percorso e Campaign Standard. Le informazioni di percorso saranno disponibili nei rapporti di Adobe Journey Optimizer e nelle informazioni di consegna in Adobe Campaign Standard. È possibile effettuare una configurazione di Experience Platform per riportare i dati di Adobe Campaign Standard in Adobe Experience Platform, rendendoli disponibili al Customer Journey Analytics ([ulteriori informazioni](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) o ad altri strumenti di reporting di terze parti come Tableau o Power BI.
 
-I rapporti di Adobe Journey Optimizer funzionano al meglio quando si utilizzano le funzionalità di messaggistica predefinite di Adobe Journey Optimizer (disponibili nelle offerte Adobe Journey Optimizer dedicate). Per ulteriori informazioni su come creare i messaggi nell&#39;area di lavoro del percorso, consulta questa [pagina](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html).
+I rapporti di Adobe Journey Optimizer funzionano al meglio quando si utilizzano le funzionalità di messaggistica predefinite di Adobe Journey Optimizer (disponibili nelle offerte Adobe Journey Optimizer dedicate). Per ulteriori informazioni su come creare i messaggi nell&#39;area di lavoro del percorso, consulta questa [pagina](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=it).
 
 Per ulteriori informazioni, rivolgiti al team del tuo account.
