@@ -47,6 +47,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo di Journey Orch
 ## Qualificazione del segmento {#segment-qualification}
 
 * L&#39;attività **di qualificazione** del segmento non può essere utilizzata insieme alla messaggistica transazionale Adobe Campaign Standard a causa di vincoli di velocità effettiva. Consulta [Adobe Campaign Standard Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html) sul prodotto.
+
 ## Limitazioni delle azioni personalizzate
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
@@ -55,13 +56,16 @@ Di seguito sono riportate le limitazioni relative all’utilizzo di Journey Orch
 * Gli indirizzi IP non sono consentiti. 
 * Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
  
+
 ## Adobe Campaign limitazioni delle azioni
 
 * Adobe Campaign Standard messaggi transazionali ha una scala massima di 50 000 messaggi all&#39;ora su tutti i canali per una determinata istanza. Consulta [Adobe Campaign Standard Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html) sul prodotto.
+
 ## Limitazioni degli eventi
 
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima in Journey Orchestration per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
  
+
 ## Limitazioni delle origini dati
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume di richieste.
