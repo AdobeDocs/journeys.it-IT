@@ -3,13 +3,13 @@ product: adobe campaign
 title: Operatori
 description: Scopri gli operatori nelle espressioni avanzate
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 Esistono due tipi di operatori: operatori unari e operatori binari. Sono disponibili operatori unari di sinistra e operatori unari di destra.

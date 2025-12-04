@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Funzioni
-description: Scopri sulle funzioni
+description: Informazioni sulle funzioni
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 57%
+ht-degree: 77%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 57%
 
 >[!CAUTION]
 >
->**Cerchi Adobe Systems Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy sostituiti da Journey Optimizer. Contatta il tuo team account se hai domande sulle accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
-Una funzione può avere firme diverse (un diverso insieme di parametri ordinati). Una firma di funzione può avere espressioni 0-N come parametri ordinati.
+Una funzione può avere firme diverse (un diverso set di parametri ordinati). Una firma di funzione può avere espressioni 0-N come parametri ordinati.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 Ogni funzione ha un tipo restituito specifico.
 
-Di seguito è riportato l&#39;elenco delle funzioni supportate.
+Elenco delle funzioni supportate.
 
 ## Funzioni principali
 
@@ -73,7 +73,7 @@ Di seguito è riportato l&#39;elenco delle funzioni supportate.
 | Elenco | [filtro](../functions/functionfilter.md) |
 | Elenco | [getListItem](../functions/functiongetlistitem.md) |
 | Elenco | [in](../functions/functionin.md) |
-| Elenco | [intersecare](../functions/functionintersect.md) |
+| Elenco | [intersezione](../functions/functionintersect.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
 | Elenco | [sort](../functions/functionsort.md) |

@@ -3,12 +3,12 @@ product: adobe campaign
 title: setHours
 description: Scopri la funzione setHours
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,7 @@ Data
 
 `setHours(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |--- |--- |
@@ -51,4 +51,4 @@ Restituisce 2010-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Restituisce domani alle 20:XY, dove XY corrisponde ai minuti al momento della valutazione del tempo corrente. Se la valutazione viene eseguita alle 02:45, l’ora restituita sarà le 20:45.
+Restituisce domani alle 20.00, dove XY corrisponde ai minuti al momento della valutazione dell&#39;ora corrente. :XY Se la valutazione viene eseguita alle 02:00, l&#39;ora restituita sarà le 20:00.:45:45

@@ -3,13 +3,13 @@ product: adobe campaign
 title: Istruzione condizionale (if, then, else)
 description: Informazioni sull’istruzione condizionale
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 L’istruzione condizionale (if, then, else) è supportata nell’editor avanzato. Consente di definire espressioni più complesse. È composto dai seguenti elementi:

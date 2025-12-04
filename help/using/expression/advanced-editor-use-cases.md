@@ -3,13 +3,13 @@ product: adobe campaign
 title: Utilizzo dell’editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '535'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home) per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 L’editor di espressioni avanzate può essere utilizzato per creare condizioni che consentono di filtrare gli utenti nei percorsi. Queste condizioni ti consentono di eseguire il targeting degli utenti in base a ora, data, posizione, durata o azioni quali l’acquisto o l’abbandono dei carrelli, in modo che possano essere indirizzati nuovamente al percorso.
@@ -154,4 +154,4 @@ substr(
 
 Spiegazione: In questo esempio vengono utilizzate le funzioni `substr` e `lastIndexOf` per rimuovere le parentesi graffe che racchiudono l&#39;ID CRM passato con un evento di avvio dell&#39;app mobile.
 
-Per ulteriori informazioni su come utilizzare l&#39;editor di espressioni avanzate, guarda [questo video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html?lang=it).
+Per ulteriori informazioni su come utilizzare l&#39;editor di espressioni avanzate, guarda [questo video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

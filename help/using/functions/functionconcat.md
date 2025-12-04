@@ -3,10 +3,10 @@ product: adobe campaign
 title: concatena
 description: Informazioni sulla concatenazione delle funzioni
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7a516705-2bbe-4b42-97fc-aeae11082002
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 27%
@@ -25,7 +25,7 @@ Stringa
 
 `concat(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

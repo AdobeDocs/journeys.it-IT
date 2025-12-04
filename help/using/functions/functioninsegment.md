@@ -3,10 +3,10 @@ product: adobe campaign
 title: inSegment
 description: Scopri la funzione in Segment
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 6%
@@ -31,7 +31,7 @@ I segmenti possono avere tre stati:
 * realizzato: l’entità sta entrando nel segmento.
 * uscita: l’entità sta uscendo dal segmento.
 
-Solo i singoli utenti con gli stati di partecipazione al segmento **Realizzato** e **Esistente** verranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results).
+Solo i singoli utenti con gli stati di partecipazione al segmento **Realizzato** e **Esistente** verranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
 
@@ -45,7 +45,7 @@ Adobe Experience Platform
 
 `inSegment(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione | Tipo |
 |--- |--- |--- |
