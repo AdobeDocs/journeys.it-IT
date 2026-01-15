@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
+source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+workflow-type: tm+mt
 source-wordcount: '4452'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -85,14 +85,14 @@ Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteri
 
 ### Miglioramenti {#feb-2023-improvements}
 
-* Il campo **Periodo di attesa per il reingresso** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o una qualifica di segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#entrance){target="_blank"}di Journey Optimizer.
+* Il campo **Periodo di attesa per il reingresso** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o un’attività Qualificazione segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#entrance){target="_blank"}di Journey Optimizer.
 * Sono stati apportati miglioramenti per le **date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=it#dates){target="_blank"}di Journey Optimizer.
 
 ## Versione di gennaio 2023 {#jan-2023-release}
 
 ### Miglioramenti {#jan-2023-improvements}
 
-* Quando si aggiunge una **Qualificazione del segmento** in un percorso, lo spazio dei nomi ora viene precompilato, per impostazione predefinita, con l’ultimo spazio dei nomi utilizzato. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=it#about-segment-qualification){target="_blank"}di Journey Optimizer.
+* Quando si aggiunge un’attività **Qualificazione segmento** in un percorso, lo spazio dei nomi ora viene precompilato, per impostazione predefinita, con l’ultimo spazio dei nomi utilizzato. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=it#about-segment-qualification){target="_blank"}di Journey Optimizer.
 * Nell’area di lavoro del percorso, nella barra degli strumenti è disponibile un nuovo pulsante che consente di scaricare una schermata del percorso.
 
 ## Versione di settembre 2022{#sept-2022-release}
@@ -119,11 +119,11 @@ Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteri
 
 ### Miglioramenti{#sept-2022-improvements}
 
-* È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o una qualificazione di segmento) per evitare che i percorsi vengano erroneamente attivati più volte per lo stesso evento. Per impostazione predefinita, il reingresso nel profilo viene ora bloccato temporaneamente per 5 minuti. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#events-g){target="_blank"} di Journey Optimizer.
+* È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o un’attività Qualificazione segmento) per evitare che i percorsi vengano erroneamente attivati più volte per lo stesso evento. Per impostazione predefinita, il reingresso nel profilo viene ora bloccato temporaneamente per 5 minuti. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#events-g){target="_blank"} di Journey Optimizer.
 
 ### Altre modifiche{#sept-2022-other}
 
-* Per migliorare le prestazioni, i gruppi di campo evento di un’esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività di qualificazione del segmento. Questo cambiamento è applicabile solo ai nuovi percorsi. Quelli esistenti manterranno il comportamento corrente. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#expression-editor){target="_blank"} di Journey Optimizer.
+* Per migliorare le prestazioni, i gruppi di campi per eventi esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Qualificazione segmento. Questo cambiamento è applicabile solo ai nuovi percorsi. Quelli esistenti manterranno il comportamento corrente. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#expression-editor){target="_blank"} di Journey Optimizer.
 
 ### Miglioramenti
 
@@ -365,7 +365,7 @@ Le funzioni [getListItem](../functions/functiongetlistitem.md) e [split](../func
 
 Sono state aggiunte limitazioni per la creazione di nuove versioni di un percorso. Queste limitazioni evitano modifiche troppo drastiche nel percorso per mantenere una certa coerenza da una versione all’altra. [Ulteriori informazioni](../about/limitations.md#journey-versions-limitations)
 
-L’attività **Qualificazione del segmento** non può più essere utilizzata in un percorso che include attività messaggio di Campaign Standard. Questa restrizione protegge l’integrità delle istanze Adobe Campaign Standard. In effetti, l’utilizzo della qualificazione dei segmenti può causare picchi giornalieri di invio dei messaggi che rischiano di sovraccaricare il servizio di messaggi transazionali di Campaign Standard. [Ulteriori informazioni](../about/limitations.md#segment-qualification)
+L’attività **Qualificazione segmento** non può più essere utilizzata in un percorso che include attività messaggio di Campaign Standard. Questa restrizione protegge l’integrità delle istanze Adobe Campaign Standard. In effetti, l’utilizzo di Qualificazione segmento può causare picchi giornalieri di invio dei messaggi che rischiano di sovraccaricare il servizio di messaggi transazionali di Campaign Standard. [Ulteriori informazioni](../about/limitations.md#segment-qualification)
 
 ## Versione di ottobre 2020 {#october-release}
 
@@ -439,7 +439,7 @@ L’attività **Qualificazione del segmento** non può più essere utilizzata in
 
 ### Aggiornamenti con disponibilità generale{#august-ga-update}
 
-Il payload degli eventi di qualificazione dei segmenti ora contiene le seguenti informazioni contestuali, che è possibile utilizzare in condizioni e azioni: il comportamento (entrata, uscita), il timestamp della qualificazione e l’ID del segmento. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
+Il payload degli eventi Qualificazione segmenti ora contiene le seguenti informazioni contestuali, che è possibile utilizzare in condizioni e azioni: il comportamento (entrata, uscita), il timestamp della qualificazione e l’ID del segmento. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
 
 ### Aggiornamenti Alpha{#august-alpha-update}
 
@@ -542,7 +542,7 @@ Il programma Alpha offre funzioni che sono attualmente in fase di test per un nu
 <tbody>
 <tr>
 <td>
-<p>Abbiamo semplificato la configurazione degli eventi di esperienza. Stiamo introducendo un nuovo metodo che non richiede l’uso di un ID evento. Ora quando configuri l’evento in Journey Orchestration puoi definire un evento basato su regole. <a href="../event/about-events.md">Ulteriori informazioni</a>
+<p>Abbiamo semplificato la configurazione degli eventi esperienza. Stiamo introducendo un nuovo metodo che non richiede l’uso di un ID evento. Ora quando configuri l’evento in Journey Orchestration puoi definire un evento basato su regole. <a href="../event/about-events.md">Ulteriori informazioni</a>
 </p>
 </td>
 </tr>
@@ -721,6 +721,6 @@ Journey Orchestration è ora disponibile al pubblico.
 
 Crea casi d’uso di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati.
 
-Journey Orchestration consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Nell’ambito di flussi di più passaggi denominati percorsi, l’applicazione determina le migliori azioni da eseguire in futuro che sono specifiche del consumatore, in base al profilo e ai comportamenti adottati. Tale procedura include sia la tempistica ottimale, sia il tipo di azione, ad esempio la notifica di un sistema di terze parti o l’invio al consumatore di una notifica push tramite le funzionalità di messaggistica transazionali di Adobe Campaign Standard (richiesto). Queste decisioni sono prese sulla base di regole e punteggi Sensei.
+Journey Orchestration consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Nell’ambito di flussi di più passaggi denominati percorsi, l’applicazione determina le migliori azioni da eseguire in futuro che sono specifiche del consumatore, in base al profilo e ai comportamenti adottati. Tale procedura include sia la tempistica ottimale, sia il tipo di azione, ad esempio la notifica di un sistema di terze parti o l’invio al consumatore di una notifica push tramite le funzionalità di messaggistica transazionali di Adobe Campaign Standard (richiesto). Queste decisioni vengono prese in base a regole e punteggi di IA.
 
 [Ulteriori informazioni](../action/working-with-adobe-campaign.md) su Journey Orchestration.
