@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 83%
+source-wordcount: '988'
+ht-degree: 87%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 ## Accesso al [!DNL Journey Orchestration]{#accessing_journey_orchestration}
@@ -80,7 +80,7 @@ All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun eleme
 
 Quando si definisce il [payload dell’evento](../event/defining-the-payload-fields.md) e il [payload del gruppo di campi](../datasource/field-groups.md) e si selezionano i campi nell’[editor delle espressioni](../expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. È possibile configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici.Puoi configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -104,7 +104,7 @@ In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da 
 
 | Azione | Scelta rapida |
 | --- | --- |
-| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Tab |
+| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Scheda |
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
 | Spostati all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
@@ -154,7 +154,7 @@ Riquadro di configurazione dei seguenti elementi:
 
 </td>
     <td>Passa al campo successivo da configurare</td>
-    <td>Tab</td>
+    <td>Scheda</td>
   </tr>
   <tr>
     <td>Salva le modifiche e chiudi il riquadro di configurazione</td>
@@ -166,7 +166,7 @@ Riquadro di configurazione dei seguenti elementi:
   </tr>
   <tr>
     <td rowspan="4">Percorso in modalità di test</td>
-    <td>Attivare o disattivare la modalità di test</td>
+    <td>Abilitare o disabilitare la modalità di test</td>
     <td>T</td>
   </tr>
   <tr>
@@ -185,7 +185,8 @@ Attivare un evento in un percorso basato su segmenti per il quale è attivata l�
     <td>Visualizzare i registri di test</td>
     <td>L</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+//Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

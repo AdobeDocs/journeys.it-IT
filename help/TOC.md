@@ -5,10 +5,10 @@ title: Guida di Journey Orchestration
 user-guide-description: Istruzioni per l’implementazione e la creazione dei percorsi dei clienti.
 index: true
 feature: Journeys
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 87%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
    + [Note sulla versione](using/release-notes/release-notes.md)
    + [Aggiornamenti alla documentazione](using/release-notes/documentation-updates.md)
    + [Aggiornamento a Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
-+ Primi passi con [!DNL Journey Orchestration] {#starting-with-journeys}
++ Inizio con [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Informazioni su [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
-   + [Limitazioni ](using/about/limitations.md)
+   + [Limitazioni](using/about/limitations.md)
    + [Introduzione](using/about/get-started.md)
    + [Interfaccia utente](using/about/user-interface.md)
    + [Gestione degli accessi](using/about/access-management.md)
@@ -57,7 +57,7 @@ ht-degree: 100%
    + [Informazioni sui segmenti](using/segment/about-segments.md)
    + [Creazione di un segmento](using/segment/creating-a-segment.md)
    + [Utilizzo di segmenti nelle condizioni](using/segment/using-a-segment.md)
-+ Creare un percorso {#building-journeys}
++ Creazione di un percorso {#building-journeys}
    + Informazioni sulla creazione di percorsi {#about-journey-building}
       + [Creazione di un percorso](using/building-journeys/journey.md)
       + [Utilizzo del designer del percorso](using/building-journeys/using-the-journey-designer.md)
@@ -71,7 +71,7 @@ ht-degree: 100%
          + [Informazioni sulle attività eventi](using/building-journeys/event-activities.md)
          + [Eventi generali](using/building-journeys/general-events.md)
          + [Eventi di reazione](using/building-journeys/reaction-events.md)
-         + [Eventi di qualificazione dei segmenti](using/building-journeys/segment-qualification-events.md)
+         + [Eventi Qualificazione segmento](using/building-journeys/segment-qualification-events.md)
       + Attività di orchestrazione {#orchestration-activities}
          + [Informazioni sulle attività di orchestrazione](using/building-journeys/about-orchestration-activities.md)
          + [Attività Condizione](using/building-journeys/condition-activity.md)
@@ -86,10 +86,10 @@ ht-degree: 100%
          + [Aggiorna il profilo](using/building-journeys/update-profiles.md)
    + [Verifica del percorso](using/building-journeys/testing-the-journey.md)
    + [Pubblicazione del percorso](using/building-journeys/publishing-the-journey.md)
-   + Condivisione di passaggi del percorso con Adobe Experience Platform {#sharing-journey-steps}
+   + Condivisione di passaggi di percorso con Adobe Experience Platform {#sharing-journey-steps}
       + [Panoramica sulla condivisione delle fasi del percorso](using/building-journeys/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/building-journeys/sharing-field-list.md)
-      + Campi di eventi passaggio legacy{#legacy-step-event-fields}
+      + Campi evento del passaggio precedente {#legacy-step-event-fields}
          + [Informazioni sui campi legacy](using/building-journeys/sharing-legacy-fields.md)
          + [Campi comuni degli eventi journeySteps](using/building-journeys/sharing-common-fields.md)
          + [Campi di esecuzione dell’azione eventi journeyStep](using/building-journeys/sharing-execution-fields.md)
