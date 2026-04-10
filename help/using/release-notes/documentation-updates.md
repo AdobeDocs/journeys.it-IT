@@ -6,12 +6,11 @@ feature: Journeys
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+workflow-type: tm+mt
+source-wordcount: '994'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Orchestration].
 È inoltre possibile consultare le [!DNL Journey Orchestration][Note sulla versione](../release-notes/release-notes.md).
 
-## Luglio 2022 {#july-2022}
+## luglio 2022 {#july-2022}
 
 * Nelle proprietà del percorso, l’opzione **Fuso orario del profilo** è disabilitata per impostazione predefinita. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
 * Nell’attività **Attendi** l’opzione **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
@@ -81,12 +80,12 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiunte informazioni su come copiare il nome e l’ID di un segmento dopo averlo selezionato. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
 * Le occorrenze di Experience Platform sono state armonizzate tra le diverse pagine.
 
-## Luglio 2020 {#july-2020}
+## luglio 2020 {#july-2020}
 
 * La sezione delle attività eventi è stata riorganizzata in sottosezioni dedicate per ciascun tipo di evento. [Ulteriori informazioni](../building-journeys/event-activities.md)
 * Sono state aggiunte le best practice per evitare il sovraccarico con la qualificazione dei segmenti. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * È stata aggiunta una nota per spiegare come fare in modo che un percorso continui dopo un errore in un’azione o in una condizione. [Ulteriori informazioni](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* È stata aggiunta una nuova sezione sulle funzioni alfa testate da un gruppo limitato di clienti.
+* È stata aggiunta una nuova sezione sulle funzioni Alpha testate da un gruppo limitato di clienti.
 * È stata aggiunta una nuova sezione sull’integrazione con Intelligent Services. [Ulteriori informazioni](../ai-services/ai-services-overview.md)
 * È stata aggiunta una nuova sezione sulla creazione del profilo di test. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
 * Sono state aggiunte informazioni su come utilizzare il nodo **[!UICONTROL SegmentQualification]** in una condizione o azione di percorso. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
@@ -130,14 +129,14 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Gennaio 2020 {#january-2020}
 
-* Sono state aggiunte limitazioni per acquisire gli [eventi di esperienza](../datasource/adobe-experience-platform-data-source.md) e i [segmenti](../functions/functioninsegment.md).
+* Sono state aggiunte limitazioni per gli [eventi esperienza](../datasource/adobe-experience-platform-data-source.md) e i [segmenti](../functions/functioninsegment.md).
   <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## Dicembre 2019 {#december-2019}
 
 * Tutte le schermate sono state aggiornate per riflettere le modifiche all’interfaccia.
 * La sezione della modalità di test è stata aggiornata. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=it).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * I percorsi interrotti ora possono essere eliminati. Sono state aggiornate le pagine correlate della documentazione.
 * Quando si rilevano problemi in un percorso, ora vengono visualizzati due colori: il rosso indica gli errori e l’arancione gli avvisi. [Ulteriori informazioni](../about/troubleshooting.md)
 * È stata aggiornata la sezione dell’editor di espressioni avanzate. [Ulteriori informazioni](../expression/expressionadvanced.md).
