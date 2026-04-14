@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 86%
    + [Informazioni sui rapporti sui percorsi](using/reporting/about-journey-reports.md)
    + [Creazione dei rapporti sui percorsi](using/reporting/creating-your-journey-reports.md)
    + [Metriche e dimensioni](using/reporting/metrics-and-dimensions.md)
-+ Integrazione con Intelligent Services{#use-case-advanced}
++ Integrare con Intelligent Services{#use-case-advanced}
    + [Informazioni sull’integrazione con l’intelligenza artificiale](using/ai-services/ai-services-overview.md)
    + [Sfruttare IA per l&#39;analisi dei clienti](using/ai-services/leveraging-customer-ai.md)
 + Casi d’uso{#use-cases-journeys}
