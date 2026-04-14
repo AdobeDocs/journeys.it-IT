@@ -9,7 +9,7 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
 workflow-type: ht
-source-wordcount: '206'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -29,14 +29,14 @@ ht-degree: 100%
 * **[Cos’è Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>
 Ulteriori informazioni su Journey Orchestration.
 
-* **[Crea il tuo primo viaggio](using/about/get-started.md)**<br/>
+* **[Crea il tuo primo percorso](using/about/get-started.md)**<br/>
 Scopri i passaggi principali per configurare Journey Orchestration e creare il tuo primo percorso.
 
 * **[Configurare un evento](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
 Scopri come configurare gli eventi a cui i tuoi percorsi faranno da listener.
 
-* **[Scopri le novità](using/release-notes/release-notes.md)**<br/>
-Approfondisci i dettagli sulle ultime versioni.
+* **[Novità](using/release-notes/release-notes.md)**<br/>
+Scopri i dettagli sulle ultime versioni.
 
 ## Pagine principali
 
@@ -49,7 +49,7 @@ Approfondisci i dettagli sulle ultime versioni.
     <div>
     <a href="using/about/troubleshooting.md"><strong>Risoluzione dei problemi</strong></a>
     </div>
-    <em>Scopri tutti gli strumenti che puoi usare per risolvere gli errori nei tuoi percorsi.</em>
+    <em>Scopri i vari strumenti che puoi usare per risolvere i problemi dei tuoi percorsi.</em>
     <br>
   </td>
   <td valign="top">
@@ -69,7 +69,7 @@ Approfondisci i dettagli sulle ultime versioni.
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>Creazione di espressioni avanzate</strong></a>
     </div>
-    <em>Scopri come generare espressioni complesse utilizzando i dati provenienti da eventi e origini dati. </em>
+    <em>Scopri come creare espressioni complesse sfruttando i dati provenienti da eventi e origini dati. </em> 
     <br>
   </td>
 </tr>
@@ -79,9 +79,9 @@ Approfondisci i dettagli sulle ultime versioni.
 
 * [Pagina prodotto di Journey Orchestration](https://www.adobe.com/it/experience-platform/journey-orchestration.html)
 * [Documentazione di Experience Platform](https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html)
-* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it)
+* [Documentazione di Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it)
 * [Definizione del campo XDM di Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it)
-* [Documentazione spazio dei nomi delle identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it)
-* [API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it)
-* [Documentazione sulla messaggistica transazionale di Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it)
+* [Documentazione Spazio dei nomi delle identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it)
+* [API per l’acquisizione in streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it)
+* [Documentazione Messaggistica transazionale di Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it)
 
