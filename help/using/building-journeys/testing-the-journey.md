@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 4%
+source-wordcount: '1641'
+ht-degree: 10%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
-Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali errori. Consulta [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali errori. Vedi [questa sezione](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 Puoi testare il percorso prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione.
 
-Solo i profili di test possono entrare in un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. Consulta questa [sezione](../building-journeys/creating-test-profiles.md).
+Solo i profili di test possono accedere a un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. Consulta questa [sezione](../building-journeys/creating-test-profiles.md).
 
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
@@ -44,7 +44,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Consulta [questa sezione](../building-journeys/reaction-events.md).
+   >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md).
 
 1. Fare clic su **[!UICONTROL Trigger an event]** per configurare e inviare eventi al percorso.
 
@@ -76,7 +76,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 Puoi trasformare un profilo esistente in un profilo di test. In Adobe Experience Platform, puoi aggiornare gli attributi dei profili tramite chiamate API, ma non tramite l’interfaccia.
 
-Il modo più semplice per farlo è utilizzare un&#39;attività di azione **Aggiorna profilo** e modificare il campo booleano del profilo di test da false a true. Consulta [questa sezione](../building-journeys/update-profiles.md#using-the-test-mode).
+Il modo più semplice per farlo è utilizzare un&#39;attività di azione **Aggiorna profilo** e modificare il campo booleano del profilo di test da false a true. Vedi [questa sezione](../building-journeys/update-profiles.md#using-the-test-mode).
 
 ## Creazione di un profilo di test{#create-test-profile}
 
