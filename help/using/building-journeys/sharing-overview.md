@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 3%
+source-wordcount: '546'
+ht-degree: 15%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 [!DNL Journey Orchestration] invia automaticamente i dati sulle prestazioni del percorso a Adobe Experience Platform in modo che possano essere combinati con altri dati a scopo di analisi.
@@ -70,4 +70,4 @@ Gli eventi dei passaggi di Journey Orchestration possono essere collegati ad alt
 
 * Customer Journey Analytics acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * Il campo **profileID** nello &quot;Schema evento passaggio di Percorso per Journey Orchestration&quot; associato è definito come campo Identity. In Customer Journey Analytics, puoi quindi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.
-* Se desideri utilizzare questo set di dati in Customer Journey Analytics, per l&#39;analisi del percorso cross-channel, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=it).
+* Se desideri utilizzare questo set di dati in Customer Journey Analytics, per l&#39;analisi del percorso cross-channel, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
