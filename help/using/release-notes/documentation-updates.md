@@ -7,17 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
 
 # Aggiornamenti alla documentazione
 
-Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Orchestration].
-È inoltre possibile consultare le [!DNL Journey Orchestration][Note sulla versione](../release-notes/release-notes.md).
+Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Orchestration].È inoltre possibile consultare le [!DNL Journey Orchestration][Note sulla versione](../release-notes/release-notes.md).
 
 ## luglio 2022 {#july-2022}
 
@@ -40,15 +39,10 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Settembre 2021
 
 * Sono state aggiornate le pagine delle seguenti funzioni: [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
-
 * Sono state aggiunte le seguenti funzioni: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
-
 * Nella documentazione dell’editor di espressioni è stato aggiunto il tipo di data dateOnly. [Ulteriori informazioni](../expression/data-types.md)
-
 * Sono stati aggiunti dettagli sulla durata della cache delle azioni personalizzate. [Ulteriori informazioni](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-
 * Sono state aggiunte informazioni sulle porte predefinite per le azioni personalizzate. [Ulteriori informazioni](../action/url-configuration.md)
-
 * Sono stati aggiunti alcuni esempi di uso comune per eseguire query sugli eventi dei passaggi del percorso in Data Lake. [Ulteriori informazioni](../building-journeys/query-examples.md)
 
 ## Agosto 2021
@@ -135,8 +129,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Dicembre 2019 {#december-2019}
 
 * Tutte le schermate sono state aggiornate per riflettere le modifiche all’interfaccia.
-* La sezione della modalità di test è stata aggiornata. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=it).-->
+* La sezione della modalità di test è stata aggiornata. [Ulteriori informazioni  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * I percorsi interrotti ora possono essere eliminati. Sono state aggiornate le pagine correlate della documentazione.
 * Quando si rilevano problemi in un percorso, ora vengono visualizzati due colori: il rosso indica gli errori e l’arancione gli avvisi. [Ulteriori informazioni](../about/troubleshooting.md)
 * È stata aggiornata la sezione dell’editor di espressioni avanzate. [Ulteriori informazioni](../expression/expressionadvanced.md).
