@@ -3,7 +3,7 @@ title: Aggiornamento a Adobe Journey Optimizer
 description: Scopri come effettuare l’aggiornamento a Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ## Cos’è Adobe Journey Optimizer?
 
-Adobe Journey Optimizer è un’applicazione agile e scalabile creata in modalità nativa su Adobe Experience Platform per orchestrare e distribuire percorsi di clienti personalizzati, connessi e tempestivi su qualsiasi app, dispositivo, schermo o canale&#x200B;
+Adobe Journey Optimizer è un’applicazione agile e scalabile creata in modalità nativa su Adobe Experience Platform per orchestrare e distribuire percorsi di clienti personalizzati, connessi e tempestivi su qualsiasi app, dispositivo, schermo o canale.
 
 ## Cos’è Journey Orchestration?
 
@@ -55,11 +55,8 @@ Ottieni i vantaggi delle altre **funzionalità di Adobe Journey Optimizer** corr
 ## Come aggiornare l’ambiente Journey Orchestration?
 
 1. Rivolgiti al team del tuo account per aggiornare l’accordo con Adobe.
-
 1. Attendi che il nostro team di progettazione completi la modifica.
-
 1. Aggiorna le autorizzazioni utilizzando i profili di prodotto di Journey Optimizer. Consulta [questa pagina](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html?lang=it).
-
 1. Ora puoi accedere a Adobe Journey Optimizer.
 
 ## Domande frequenti
