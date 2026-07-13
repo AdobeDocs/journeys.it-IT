@@ -1,49 +1,77 @@
 ---
 source-git-commit: 5476f47904ddbd3e9480ab05c43180e93d642ada
-translation-type: tm+mt
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 18%
 
 ---
-# Codice di condotta Adobe
+# Codice di condotta di Adobe
 
-## La nostra promessa
+## Il nostro impegno
 
-Nell&#39;interesse di promuovere un ambiente aperto e accogliente, noi contributori e sostenitori ci impegniamo a rendere la partecipazione al nostro progetto e alla nostra comunità un&#39;esperienza senza molestie per tutti, indipendentemente dall&#39;età, dalla dimensione corporea, dalla disabilità, dall&#39;etnia, dall&#39;identità di genere e dall&#39;espressione, dal livello di esperienza, dalla nazionalità, dall&#39;aspetto personale, dalla razza, dalla religione o dall&#39;identità e orientamento sessuali.
+Al fine di promuovere un ambiente aperto e accogliente,
+i collaboratori e i responsabili si impegnano a partecipare al nostro progetto e
+la nostra community è un’esperienza priva di molestie per tutti, indipendentemente dall’età, dal corpo
+dimensioni, disabilità, etnia, identità ed espressione di genere, livello di esperienza,
+nazionalità, aspetto personale, razza, religione o identità sessuale e
+Orientamento.
 
 ## I nostri standard
 
-Esempi di comportamento che contribuiscono alla creazione di un ambiente positivo:
+Esempi di comportamenti che contribuiscono alla creazione di un ambiente positivo
+include:
 
-* Utilizzo di un linguaggio accogliente e inclusivo
-* Rispetto di diversi punti di vista ed esperienze
-* Accettare con gratitudine la critica costruttiva
-* Concentrarsi su ciò che è meglio per la comunità
-* mostrare empatia verso altri membri della comunità
+* Utilizzare un linguaggio accogliente e inclusivo
+* Rispettare punti di vista ed esperienze diversi
+* Accettare gentilmente le critiche costruttive
+* Concentrarsi sul meglio per la community
+* Mostrare empatia verso altri membri della community
 
-Esempi di comportamenti inaccettabili da parte dei partecipanti includono:
+Esempi di comportamenti non accettabili da parte dei partecipanti includono:
 
-* L&#39;uso di linguaggio o immagini sessualizzati e l&#39;attenzione sessuale sgradita o progressi
-* Trolling, insulti/commenti spregiativi e attacchi personali o politici
+* L’uso di linguaggio o immagini a sfondo sessuale e attenzioni sessuali indesiderate o
+anticipi
+* Commenti provocatori, offensivi/dispregiativi e attacchi personali o politici
 * Molestie pubbliche o private
-* Pubblicazione di informazioni private di altri utenti, ad esempio un indirizzo fisico o elettronico, senza autorizzazione esplicita
-* Altri comportamenti che potrebbero essere ragionevolmente considerati inopportuni in un contesto professionale
+* Pubblicazione di informazioni private altrui, ad esempio in formato fisico o elettronico
+senza autorizzazione esplicita
+* Altri comportamenti che potrebbero essere ragionevolmente considerati inopportuni in un
+ambiente professionale
 
 ## Le nostre responsabilità
 
-I responsabili della manutenzione dei progetti sono responsabili della chiarificazione degli standard di comportamento accettabile e devono adottare misure correttive adeguate ed eque in risposta a qualsiasi comportamento inaccettabile.
+I responsabili del progetto hanno la responsabilità di chiarire gli standard di
+e sono tenuti ad adottare misure correttive appropriate ed eque in
+risposta a qualsiasi istanza di comportamento inaccettabile.
 
-I responsabili della manutenzione dei progetti hanno il diritto e la responsabilità di rimuovere, modificare o rifiutare commenti, commit, codice, modifiche wiki, problemi e altri contributi che non sono allineati al presente Codice di condotta, o di vietare temporaneamente o permanentemente qualsiasi collaboratore per altri comportamenti che ritengono inappropriati, minacciosi, offensivi o dannosi.
+I responsabili del progetto hanno il diritto e la responsabilità di rimuovere, modificare o
+rifiuta commenti, commit, codice, modifiche wiki, problemi e altri contributi
+che non sono allineati al presente Codice di condotta, o di interdire temporaneamente o
+permanentemente qualsiasi collaboratore per altri comportamenti che ritengono inopportuni,
+minaccioso, offensivo o dannoso.
 
-## Ambito
+## Portata
 
-Il presente Codice di Condotta si applica sia negli spazi del progetto che negli spazi pubblici quando un individuo rappresenta il progetto o la sua comunità. Ad esempio, per rappresentare un progetto o una comunità è possibile utilizzare un indirizzo e-mail ufficiale del progetto, pubblicarlo tramite un account ufficiale dei social media o agire come rappresentante designato a un evento online o offline. La rappresentanza di un progetto può essere ulteriormente definita e chiarita dai responsabili del mantenimento del progetto.
+Il presente Codice di condotta si applica sia all’interno degli spazi del progetto che negli spazi pubblici
+quando un utente rappresenta il progetto o la relativa community. Esempi di
+rappresentare un progetto o una community tramite un messaggio e-mail ufficiale del progetto
+tramite un account ufficiale di social media o in qualità di
+rappresentante a un evento online o offline. La rappresentanza di un progetto può essere
+ulteriormente definiti e chiariti dai responsabili del progetto.
 
-## Esecuzione
+## Applicazione
 
-I casi di comportamenti violenti, vessatori o altrimenti inaccettabili possono essere segnalati contattando il team del progetto all&#39;indirizzo Grp-opensourceoffice@adobe.com. Tutti i reclami saranno esaminati e esaminati e daranno luogo a una risposta ritenuta necessaria e adeguata alle circostanze. Il team del progetto è tenuto a mantenere la riservatezza per quanto riguarda il giornalista di un incidente.
-Ulteriori dettagli sulle politiche di applicazione specifiche possono essere pubblicati separatamente.
+I casi di comportamenti offensivi, molesti o altrimenti inaccettabili possono essere
+segnalato contattando il team del progetto all’indirizzo Grp-opensourceoffice@adobe.com. Tutto
+i reclami saranno esaminati e analizzati e daranno luogo a una risposta che
+sia ritenuta necessaria e adeguata alle circostanze. Il team del progetto è
+obbligato a mantenere la riservatezza nei confronti di chi denuncia un incidente.Ulteriori dettagli sui criteri di applicazione specifici possono essere pubblicati separatamente.
 
-I responsabili del progetto che non seguono o non applicano il Codice di condotta in buona fede possono avere ripercussioni temporanee o permanenti determinate da altri membri della direzione del progetto.
+Responsabili del progetto che non seguono o non applicano correttamente il Codice di condotta
+la fede può avere ripercussioni temporanee o permanenti determinate da altri
+membri della direzione del progetto.
 
 ## Attribuzione
 
-Il presente Codice di condotta è adattato dal Patto [per i collaboratori](https://contributor-covenant.org), versione 1.4, disponibile all&#39;indirizzo [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Questo Codice di condotta è stato adattato dal [Contributor Covenant](https://contributor-covenant.org), versione 1.4,
+disponibile in [https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/it/version/1/4/code-of-conduct)

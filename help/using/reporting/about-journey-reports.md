@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 1%
+source-wordcount: '796'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home) per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 
@@ -70,8 +70,7 @@ Queste schede consentono di accedere ai seguenti elementi:
 
 ## Modello di riepilogo percorso {#ootb-template}
 
-I rapporti sono suddivisi in due categorie: un modello preconfigurato e rapporti personalizzati.
-Il modello predefinito **[!UICONTROL Journey summary]** offre una visualizzazione chiara dei dati di tracciamento più importanti.
+I rapporti sono suddivisi in due categorie: un modello preconfigurato e rapporti personalizzati.Il modello predefinito **[!UICONTROL Journey summary]** offre una visualizzazione chiara dei dati di tracciamento più importanti.
 
 ![](../assets/dynamic_report_journey_8.png)
 
