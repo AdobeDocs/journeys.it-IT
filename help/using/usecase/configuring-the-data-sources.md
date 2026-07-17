@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 12%
+source-wordcount: '497'
+ht-degree: 23%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 Nel nostro caso d’uso, vogliamo utilizzare i dati di personalizzazione per i nostri messaggi. Dobbiamo anche verificare se la persona è un membro fedeltà e non è stata contattata nelle ultime 24 ore. Queste informazioni vengono memorizzate nel database Profilo cliente in tempo reale. L&#39;**utente tecnico** deve configurare l&#39;origine dati di Adobe Experience Platform per recuperare tali campi.
@@ -47,7 +47,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;origine dati, consultar
 
    ![](../assets/journeyuc2_7.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di prenotazione dell’hotel. L&#39;**utente tecnico** deve configurare una seconda origine dati per recuperare questo campo.
 
@@ -59,7 +59,7 @@ Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di preno
 
    >[!CAUTION]
    >
-   >Per motivi di sicurezza, si consiglia vivamente di utilizzare HTTPS.
+   >Per motivi di sicurezza, è consigliabile utilizzare HTTPS.
 
 1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Nel nostro esempio, scegliamo &quot;Base&quot; per il tipo e specifichiamo il nome utente e la password per la chiamata API.
 
@@ -68,7 +68,7 @@ Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di preno
 1. Fare clic su **[!UICONTROL Add a New Field Group]** per definire le informazioni da recuperare e i parametri API. Nel nostro esempio, esiste un solo parametro (l’ID), pertanto è necessario creare un gruppo di campi con le seguenti informazioni:
 
    * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
-   * **[!UICONTROL Response Payload]**: fare clic all&#39;interno del campo **[!UICONTROL Payload]** e incollare un esempio del payload. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Nel nostro esempio, il payload contiene solo lo stato della prenotazione:
+   * **[!UICONTROL Response Payload]**: fare clic all&#39;interno del campo **[!UICONTROL Payload]** e incollare un esempio del payload. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupera tutti i campi inclusi nell’esempio di payload. Nel nostro esempio, il payload contiene solo lo stato della prenotazione:
 
    ```
    {
@@ -80,6 +80,6 @@ Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di preno
 
    ![](../assets/journeyuc2_11.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
    Le origini dati sono ora configurate e pronte per essere utilizzate nel percorso.
