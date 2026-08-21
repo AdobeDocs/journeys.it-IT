@@ -48,7 +48,7 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 >
 >Gli eventi di reazione non possono tenere traccia delle azioni e-mail, SMS o push che si verificano in un percorso diverso.
 >
->Gli eventi di reazione tengono traccia dei clic sui collegamenti di tipo &quot;tracciato&quot; (vedi questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). L’annullamento dell’abbonamento e i collegamenti alle pagine mirror non vengono presi in considerazione.
+>Gli eventi di reazione tengono traccia dei clic sui collegamenti di tipo &quot;tracciato&quot; (vedi questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=it#about-tracked-urls)). L’annullamento dell’abbonamento e i collegamenti alle pagine mirror non vengono presi in considerazione.
 
 >[!IMPORTANT]
 >
