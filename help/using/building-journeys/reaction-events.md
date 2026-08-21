@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 2%
+source-wordcount: '475'
+ht-degree: 13%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 
@@ -40,11 +40,11 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 1. Aggiungi **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall’elenco a discesa, seleziona l’attività di azione a cui desideri reagire. Puoi selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata (e-mail, SMS o notifica push), scegli a cosa desideri reagire.
-1. Puoi definire un timeout dell’evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Quando si esegue il test di un percorso che utilizza un evento di reazione, il valore predefinito e minimo della modalità di test **[!UICONTROL Wait time]** è di 40 secondi. Consulta [questa sezione](../building-journeys/testing-the-journey.md).
+1. Puoi definire un timeout dell’evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Quando si esegue il test di un percorso che utilizza un evento di reazione, il valore predefinito e minimo della modalità di test **[!UICONTROL Wait time]** è di 40 secondi. Vedi [questa sezione](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
->Gli eventi di reazione funzionano con Adobe Campaign Standard, sia che sia distribuito sui server di AWS che di Azure.
+>Gli eventi di reazione funzionano con Adobe Campaign Standard, sia che sia implementato sui server di AWS che di Azure.
 >
 >Gli eventi di reazione non possono tenere traccia delle azioni e-mail, SMS o push che si verificano in un percorso diverso.
 >
