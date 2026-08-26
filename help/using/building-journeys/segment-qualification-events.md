@@ -64,7 +64,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 
    >[!NOTE]
    >
-   >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono agli stati di partecipazione al segmento **Realizzato** e **Uscito** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono agli stati di partecipazione al segmento **Realizzato** e **Uscito** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results).
 
 1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso.
 
@@ -100,7 +100,7 @@ Inoltre, se il segmento batch è stato appena creato e immediatamente utilizzato
 
 Quando si utilizza la qualificazione dei segmenti per i segmenti in streaming, vi è meno rischio di raggiungere picchi elevati di entrate/uscite a causa della valutazione continua del segmento. Tuttavia, se la definizione del segmento porta a rendere un grande volume di clienti idonei allo stesso tempo, potrebbe esserci anche un picco.
 
-Per ulteriori informazioni sulla segmentazione in streaming, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Per ulteriori informazioni sulla segmentazione in streaming, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=it#api)
 
 ### Come evitare gli overload{#overloads-speed-segment-qualification}
 
