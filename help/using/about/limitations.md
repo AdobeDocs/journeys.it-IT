@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Limitazioni di Journey Orchestration
-description: Scopri maggiori informazioni sulle limitazioni di Journey Orchestration
+description: Ulteriori informazioni sulle limitazioni di Journey Orchestration
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 42%
+source-wordcount: '637'
+ht-degree: 60%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 42%
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 
@@ -39,27 +39,29 @@ Di seguito sono riportate le limitazioni relative all’utilizzo di Journey Orch
 
 ## Limitazioni delle versioni di percorso {#journey-versions-limitations}
 
-* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Non è possibile avviare un percorso con un evento **Qualificazione del segmento**.
-* Un percorso che inizia con un’attività di **Qualificazione del segmento** nella versione v1 deve sempre iniziare con una **Qualificazione del segmento** nelle altre versioni.
+* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Non è possibile avviare un percorso con un evento **Qualificazione segmento**.
+* Un percorso che inizia con un’attività **Qualificazione segmento** nella versione v1 deve sempre iniziare con un’attività **Qualificazione segmento** nelle altre versioni.
 * Il segmento e lo spazio dei nomi scelti nella **Qualificazione del segmento** (primo nodo) non possono essere modificati nelle nuove versioni.
 * La regola di reingresso deve essere la stessa in tutte le versioni del percorso.
 
-## Qualificazione del segmento {#segment-qualification}
+## Qualificazione segmento {#segment-qualification}
 
-* L&#39;attività **di qualificazione** del segmento non può essere utilizzata insieme alla messaggistica transazionale Adobe Campaign Standard a causa di vincoli di velocità effettiva. Consulta [Adobe Campaign Standard Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html) sul prodotto.
+* L&#39;attività **Qualificazione del segmento** non può essere utilizzata in combinazione con Adobe Campaign Standard Transactional Messaging a causa di vincoli di velocità effettiva. Vedi [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
+ 
 
 ## Limitazioni delle azioni personalizzate
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
 * Sono supportati solo i metodi di chiamata POST e PUT. 
-* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” o &quot;$&quot;. 
+* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” o “$”. 
 * Gli indirizzi IP non sono consentiti. 
-* Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
+* Indirizzi interni di Adobe (.adobe.) non sono consentiti.
  
 
-## Adobe Campaign limitazioni delle azioni
+## Limitazioni delle azioni di Adobe Campaign
 
-* Adobe Campaign Standard messaggi transazionali ha una scala massima di 50 000 messaggi all&#39;ora su tutti i canali per una determinata istanza. Consulta [Adobe Campaign Standard Descrizione](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html) sul prodotto.
+* La messaggistica transazionale di Adobe Campaign Standard ha una scala massima di 50.000 messaggi all’ora sui canali per una determinata istanza. Vedi [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html). 
+ 
 
 ## Limitazioni degli eventi
 
@@ -68,13 +70,13 @@ Di seguito sono riportate le limitazioni relative all’utilizzo di Journey Orch
 
 ## Limitazioni delle origini dati
 
-* Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume di richieste.
+* Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
 
 ## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 
 In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. Il target livello di servizio (Service Level Target, SLT) in termini di latenza è &lt; di 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
 
-Se un percorso viene attivato contemporaneamente alla creazione di un profilo e controlla/recupera immediatamente le informazioni dal servizio profili, potrebbe non funzionare correttamente.
+Se un Percorso viene attivato simultaneamente per la creazione di un profilo e immediatamente controlla/recupera le informazioni dal servizio profili, potrebbe non funzionare correttamente.
 
 Puoi scegliere una delle due soluzioni seguenti:
 
