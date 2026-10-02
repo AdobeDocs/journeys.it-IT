@@ -6,13 +6,11 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+source-git-commit: c80acc261853108edccb40d120c8fe16023770e8
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '610'
 ht-degree: 3%
-
 ---
-
 # Funzioni di gestione delle raccolte {#collection-management-functions}
 
 Il linguaggio delle espressioni introduce anche un set di funzioni per le raccolte di query.
@@ -172,7 +170,8 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** è disponibile solo quando si manipolano raccolte eventi e **currentDataPackField**
->durante la manipolazione delle raccolte di origini dati. Durante l&#39;elaborazione delle raccolte con **[!UICONTROL all]**, **[!UICONTROL first]** e **[!UICONTROL last]**,>ciclo su ogni elemento della raccolta uno alla volta. **[!UICONTROL currentEventField]** e **currentDataPackField**
+>durante la manipolazione delle raccolte di origini dati. Durante l&#39;elaborazione delle raccolte con **[!UICONTROL all]**, **[!UICONTROL first]** e **[!UICONTROL last]**,
+>ciclo su ogni elemento della raccolta uno alla volta. **[!UICONTROL currentEventField]** e **currentDataPackField**
 >corrisponde all&#39;elemento di cui viene eseguito il ciclo.
 
 **Funzioni &quot;first(`<condition>`)&quot; e &quot;last(`<condition>`)&quot;**
@@ -244,6 +243,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
