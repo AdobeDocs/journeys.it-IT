@@ -8,20 +8,18 @@ level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 27%
-
+source-wordcount: '456'
+ht-degree: 45%
 ---
-
 # Creazione di un percorso{#concept_eyw_mcy_w2b}
 
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 Ora l’**utente aziendale** può costruire il percorso. Il nostro percorso includerà un solo percorso con le seguenti attività:
@@ -53,7 +51,7 @@ Per ulteriori informazioni su come creare un percorso, fare riferimento a [quest
 
    ![](../assets/journeyuc1_10.png)
 
-1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e fai clic nel campo **[!UICONTROL Expression]**. Puoi anche definire un’etichetta di condizione che verrà visualizzata sulla freccia, nell’area di lavoro.
+1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e fai clic nel campo **[!UICONTROL Expression]**. Puoi anche definire un’etichetta di condizione che verrà visualizzata sulla freccia nell’area di lavoro.
 
    ![](../assets/journeyuc1_11.png)
 
@@ -61,7 +59,7 @@ Per ulteriori informazioni su come creare un percorso, fare riferimento a [quest
 
    ![](../assets/journeyuc1_12.png)
 
-1. Rilascia un&#39;attività **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Sconto SPA&quot;. Questo modello è stato progettato con Adobe Campaign. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+1. Rilascia un&#39;attività **[!UICONTROL Email]** e seleziona il modello di messaggistica transazionale &quot;Sconto SPA&quot;. Questo modello è stato progettato con Adobe Campaign. Consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
    ![](../assets/journeyuc1_13.png)
 

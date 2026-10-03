@@ -8,31 +8,29 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 13%
-
+source-wordcount: '617'
+ht-degree: 28%
 ---
-
 # Creazione di un percorso {#concept_gq5_sqt_52b}
 
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home) per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
-Questo passaggio viene eseguito dall&#39;**utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a eventi, orchestrazioni e azioni per creare scenari cross-channel con più passaggi.
+Questo passaggio viene eseguito dall&#39;**utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
-L’interfaccia dei percorsi consente di trascinare facilmente le attività dalla palette all’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla nell’area di lavoro al passaggio successivo disponibile. Ogni attività ha un ruolo e un luogo specifici nel processo. Le attività sono in sequenza. Al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
+L’interfaccia dei percorsi consente di trascinare facilmente le attività dalla palette all’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro in corrispondenza del prossimo passaggio disponibile. Ogni attività ha un ruolo e un luogo specifici nel processo. Le attività sono in sequenza. Al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
 
-È consentito un solo spazio dei nomi per percorso. Quando rilasci il primo evento, gli eventi con spazi dei nomi diversi diventano grigi. Se il primo evento non ha uno spazio dei nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. Vedi [questa pagina](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi di Adobe Experience Platform sono disattivati se il percorso ha eventi senza uno spazio dei nomi. E infine, se usi più eventi nello stesso percorso, devono usare lo stesso namespace.
+È consentito un solo spazio dei nomi per percorso. Quando rilasci il primo evento, gli eventi con spazi dei nomi diversi diventano grigi. Se il primo evento non ha uno spazio dei nomi, tutti gli eventi con uno spazio dei nomi saranno disattivati. Consulta [questa pagina](../event/selecting-the-namespace.md). Inoltre, i gruppi di campi di Adobe Experience Platform sono disattivati se il percorso ha eventi senza uno spazio dei nomi. E infine, se usi più eventi nello stesso percorso, devono usare lo stesso namespace.
 
 Quando si avvia un nuovo percorso, gli elementi che non possono essere rilasciati nell’area di lavoro come primo passaggio vengono nascosti. Questo riguarda tutte le azioni, l’attività della condizione, l’attesa e la reazione.
 
-## Guida rapida {#creating_journey}
+## Avvio rapido {#creating_journey}
 
 Di seguito sono riportati i passaggi principali per creare e pubblicare un percorso.
 
