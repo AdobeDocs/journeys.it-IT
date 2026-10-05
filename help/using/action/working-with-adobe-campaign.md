@@ -8,20 +8,18 @@ level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 2%
-
+source-wordcount: '366'
+ht-degree: 17%
 ---
-
 # Utilizzo di Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 Puoi inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign Standard.
@@ -56,7 +54,7 @@ Di seguito sono riportati i passaggi per configurarlo:
    >
    >L’ORGANIZZAZIONE associata a questa istanza di Adobe Campaign Standard è la stessa dell’ORGANIZZAZIONE di Journey Orchestration.
 
-Durante la progettazione del percorso, sono disponibili tre azioni nella categoria **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (vedere [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Evento reazioni** ti consentirà inoltre di reagire ai clic sui messaggi, alle aperture e così via. (vedi [Eventi di reazione](../building-journeys/reaction-events.md)).
+Durante la progettazione del percorso, sono disponibili tre azioni nella categoria **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (vedere [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Evento reazioni** ti consentirà inoltre di reagire ai clic sui messaggi, alle aperture e così via (vedi [Eventi reazioni](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
