@@ -7,12 +7,10 @@ role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '367'
+workflow-type: tm+mt
+source-wordcount: '380'
 ht-degree: 100%
-
 ---
-
 # Introduzione{#concept_y4b_4qt_52b}
 
 
@@ -32,7 +30,7 @@ Di seguito sono riportati i passaggi principali per la configurazione e l’util
 
 1. **Configurare un evento**
 
-   È necessario definire le informazioni previste e le modalità con cui elaborarle. Questa configurazione è obbligatoria e viene eseguita da un **utente tecnico**.
+   È necessario definire le informazioni previste e le modalità con cui elaborarle. Questa configurazione è obbligatoria e viene eseguito da un **utente tecnico**.
 
    Per ulteriori informazioni, consulta [questa pagina](../event/about-events.md).
 
