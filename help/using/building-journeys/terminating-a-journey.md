@@ -8,20 +8,18 @@ level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 5%
-
+source-wordcount: '411'
+ht-degree: 18%
 ---
-
 # Conclusione di un percorso
 
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 Le opzioni **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** consentono di terminare **live** percorsi. La chiusura di un percorso comporta **il blocco dell&#39;arrivo di nuovi clienti nel percorso** e la possibilità per i clienti che sono già entrati nel percorso di sperimentarlo fino alla fine. Si tratta del metodo più consigliato per porre fine a un percorso in quanto offre la migliore esperienza per i clienti. L&#39;arresto di un percorso comporta che le persone che sono già entrate in un percorso siano tutte fermate nel loro avanzamento. Il percorso è spento.
@@ -51,7 +49,7 @@ Impossibile riavviare o eliminare una versione di percorso chiusa. Puoi crearne 
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Fai clic su **[!UICONTROL Close to new entrances]**. Viene visualizzata una finestra di dialogo.
+1. Fare clic su **[!UICONTROL Close to new entrances]**. Viene visualizzata una finestra di dialogo.
 1. Fai clic su **[!UICONTROL Close to new entrances]** per confermare.
 
 ## Interruzione di un percorso
@@ -73,5 +71,5 @@ Quando viene interrotto, un percorso avrà lo stato **[!UICONTROL Stopped]**.
 
 ![](../assets/finish_drop_down_list.png)
 
-1. Fai clic su **[!UICONTROL Stop]**. Viene visualizzata una finestra di dialogo.
+1. Fare clic su **[!UICONTROL Stop]**. Viene visualizzata una finestra di dialogo.
 1. Fai clic su **[!UICONTROL Stop]** per confermare.
