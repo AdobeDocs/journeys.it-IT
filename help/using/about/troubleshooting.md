@@ -6,7 +6,19 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 85%
@@ -55,7 +67,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine a [!DNL Journey Orchestration]. [!DNL Journey Orchestration] si basa sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it) per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine a [!DNL Journey Orchestration]. [!DNL Journey Orchestration] si basa sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 ## Verifica dell&#39;accesso al percorso da parte delle persone{#section_x4v_zzs_dgb}
 

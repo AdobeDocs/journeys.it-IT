@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '426'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
-
 ---
-
 # Informazioni su [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 
@@ -24,13 +34,13 @@ ht-degree: 100%
 >_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
-Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati.
+Crea casi d’uso di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati.
 
 [!DNL Journey Orchestration] è un servizio applicativo integrato con Adobe Experience Platform.
 
 [!DNL Journey Orchestration] consente l’orchestrazione in tempo reale basata su dati contestuali derivati dagli eventi, su informazioni provenienti da Adobe Experience Platform oppure su dati di servizi API di terze parti. Puoi configurare un’azione personalizzata se utilizzi un sistema di terze parti per l’invio dei messaggi. Se disponi di Adobe Campaign Standard, potrai eseguire l’invio di e-mail, notifiche push e SMS tramite le [funzionalità di messaggistica transazionale](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it) di Adobe Campaign Standard.
 
-Nella scheda di configurazione dell’evento, **un utente tecnico** configura gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile.
+Nella scheda di configurazione dell’evento, **un utente tecnico** configura gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API per l’acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile.
 
 Nella scheda di configurazione dell’origine dati, un **utente tecnico** configura:
 
@@ -41,7 +51,7 @@ Grazie al designer del percorso, un **utente aziendale** può trascinare facilme
 
 A quel punto potrai creare le condizioni in base a:
 
-* orario
+* ora
 * dati provenienti dal payload dell’evento
 * informazioni provenienti dalle origini dati, come Profilo del cliente in tempo reale o altre origini dati personalizzate
 

@@ -6,22 +6,32 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 47%
-
+source-wordcount: '602'
+ht-degree: 60%
 ---
-
 # Creazione di un nuovo evento {#section_tbk_5qt_pgb}
 
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 Di seguito sono riportati i passaggi principali per la configurazione di un nuovo evento:
@@ -44,7 +54,7 @@ Di seguito sono riportati i passaggi principali per la configurazione di un nuov
 
    * **Eventi basati sulle regole**: questo tipo di evento non genera un eventID. Nel campo **Condizione ID evento** è sufficiente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
-   * **Eventi generati dal sistema**: questo tipo richiede un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento e aggiunto all’anteprima del payload. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload. Consulta [questa sezione](../event/previewing-the-payload.md).
+   * **Eventi generati dal sistema**: questo tipo richiede un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento e aggiunto all’anteprima del payload. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload. Vedi [questa sezione](../event/previewing-the-payload.md).
 
    >[!NOTE]
    >

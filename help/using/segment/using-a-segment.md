@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 27%
-
 ---
-
 # Utilizzo di segmenti nelle condizioni {#using-a-segment}
 
 
@@ -41,6 +51,6 @@ Per utilizzare un segmento in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con gli stati di partecipazione al segmento **Realizzato** e **Esistente** verranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results).
+   >Solo i singoli utenti con gli stati di partecipazione al segmento **Realizzato** e **Esistente** verranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 Per ulteriori informazioni sulle condizioni del percorso e su come utilizzare l&#39;editor di espressioni semplici, vedere [Attività condizione](../building-journeys/condition-activity.md#about_condition).

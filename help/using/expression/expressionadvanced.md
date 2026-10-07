@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 81%
-
+source-wordcount: '601'
+ht-degree: 84%
 ---
-
 # Editor di espressioni avanzate {#concept_uyj_trt_52b}
 
 
@@ -24,7 +34,7 @@ ht-degree: 81%
 >_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
-Utilizza l’editor di espressioni avanzate per creare espressioni avanzate in varie schermate dell’interfaccia. È possibile, ad esempio, creare espressioni durante la configurazione e l&#39;utilizzo di percorsi e durante la definizione di una condizione di origine dati.
+Utilizza l’editor di espressioni avanzate per creare espressioni avanzate in varie schermate dell’interfaccia. Ad esempio, puoi creare espressioni durante la configurazione e l’utilizzo di percorsi e durante la definizione di una condizione di origine dati.
 È inoltre disponibile ogni volta che hai bisogno di definire parametri di azione che richiedono specifiche manipolazioni dei dati. Puoi sfruttare i dati provenienti dagli eventi o le informazioni aggiuntive recuperate dall’origine dati. In un percorso, l’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso.
 
 L’editor di espressioni avanzate offre un set di funzioni e operatori incorporati che consente di manipolare i valori e definire un’espressione adatta alle tue esigenze. L’editor di espressioni avanzate consente inoltre di definire i valori del parametro dell’origine dati esterna, di manipolare i campi e le raccolte delle mappe, ad esempio gli eventi esperienza.

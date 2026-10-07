@@ -2,13 +2,14 @@
 product: adobe campaign
 title: Sfruttare i punteggi di fatica
 description: Scopri come sfruttare i punteggi di fatica in percorsi
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
-
+source-wordcount: '262'
+ht-degree: 7%
 ---
-
 
 # Utilizzo di IA per l’analisi del Percorso {#concept_dsh_1ry_wfb}
 
@@ -16,7 +17,7 @@ Questo caso d’uso ti mostrerà come sfruttare i punteggi di fatica per evitare
 
 >[!NOTE]
 >
->La funzionalità Punteggio di fatica predittivo è disponibile solo per i clienti che utilizzano il [Connettore dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=it).
+>La funzionalità Punteggio di fatica predittivo è disponibile solo per i clienti che utilizzano il [Connettore dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
 ## Configurazione dell’evento {#section_ptb_ws1_ffb}
 
@@ -50,7 +51,7 @@ Per sfruttare il livello di affaticamento nel percorso, effettua le seguenti ope
 
    ![](../assets/journeyuc2_14.png)
 
-1. Scegliere il tipo **[!UICONTROL Data Source Condition]** e fare clic nel campo **[!UICONTROL Expression]**.
+1. Scegli il tipo di **[!UICONTROL Data Source Condition]** e fai clic nel campo **[!UICONTROL Expression]**.
 
    ![](../assets/journeyuc3_2.png)
 
