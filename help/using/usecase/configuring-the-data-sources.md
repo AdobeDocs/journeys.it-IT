@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 23%
-
+ht-degree: 24%
 ---
-
 # Configurazione delle origini dati {#concept_vml_hdy_w2b}
 
 
@@ -47,7 +57,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;origine dati, consultar
 
    ![](../assets/journeyuc2_7.png)
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
 Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di prenotazione dell’hotel. L&#39;**utente tecnico** deve configurare una seconda origine dati per recuperare questo campo.
 
@@ -80,6 +90,6 @@ Dobbiamo anche verificare se la persona ha una prenotazione nel sistema di preno
 
    ![](../assets/journeyuc2_11.png)
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
    Le origini dati sono ora configurate e pronte per essere utilizzate nel percorso.

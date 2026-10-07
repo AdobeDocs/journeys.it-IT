@@ -6,22 +6,32 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 11%
-
+source-wordcount: '358'
+ht-degree: 25%
 ---
-
 # Informazioni sulla configurazione delle azioni personalizzata {#concept_sxy_bzs_dgb}
 
 
 >[!CAUTION]
 >
->**Ricerca di Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
+>**Stai cercando Adobe Journey Optimizer**? Fai clic [qui](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} per la documentazione di Journey Optimizer.
 >
 >
->_Questa documentazione fa riferimento ai materiali Journey Orchestration legacy che sono stati sostituiti da Journey Optimizer. Contatta il team del tuo account in caso di domande sull&#39;accesso a Journey Orchestration o Journey Optimizer._
+>_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
 Se si utilizza un sistema di terze parti per l&#39;invio di messaggi o se si desidera che [!DNL Journey Orchestration] invii chiamate API a un sistema di terze parti, è qui che si configura la connessione a [!DNL Journey Orchestration]. L&#39;azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella categoria **[!UICONTROL Action]** (vedi [questa pagina](../building-journeys/about-action-activities.md). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Facebook, Adobe.io, Firebase, ecc.
@@ -45,7 +55,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
 1. Il numero di percorsi che utilizzano questa azione viene visualizzato nel campo **[!UICONTROL Used in]**. È possibile fare clic sul pulsante **[!UICONTROL View journeys]** per visualizzare l&#39;elenco dei percorsi che utilizzano questa azione.
 1. Definisci i diversi **[!UICONTROL URL Configuration]** parametri. Consulta [questa pagina](../action/url-configuration.md).
-1. Configurare la sezione **[!UICONTROL Authentication]**. Questa configurazione è la stessa delle origini dati.  Consulta [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Configurare la sezione **[!UICONTROL Authentication]**. Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Definisci **[!UICONTROL Action parameters]**. Consulta [questa pagina](../action/defining-the-message-parameters.md).
 1. Fai clic su **[!UICONTROL Save]**.
 

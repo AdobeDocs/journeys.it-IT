@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 9%
-
+source-wordcount: '642'
+ht-degree: 14%
 ---
-
 # Attributi proprietà percorso {#journey-properties}
 
 
@@ -24,7 +34,7 @@ ht-degree: 9%
 >_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
-Nell&#39;editor di espressioni avanzate, si troverà la categoria **Proprietà Percorso**, sotto le categorie di eventi e di origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi attivi, ad esempio l&#39;ID percorso o gli errori specifici rilevati.
+Nell&#39;editor di espressioni avanzate, si troverà la categoria **Proprietà Percorso**, sotto le categorie di eventi e di origini dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati.
 
 >[!NOTE]
 >

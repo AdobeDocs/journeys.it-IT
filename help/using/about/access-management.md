@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 88%
-
 ---
-
 # Gestione degli accessi{#concept_rfj_wpt_52b}
 
 
@@ -39,24 +49,24 @@ Per poter accedere a [!DNL Journey Orchestration], un utente deve essere:
 In Admin Console, puoi assegnare agli utenti uno dei seguenti profili di prodotto predefiniti:
 
 * **[!UICONTROL Limited Access User]**: utente con accesso in sola lettura ai percorsi e ai rapporti. Questo profilo di prodotto include le seguenti autorizzazioni:
-   * Lettura dei percorsi
-   * Lettura dei rapporti
+  * Lettura dei percorsi
+  * Lettura dei rapporti
 
 * **[!UICONTROL Administrators]**: utente con accesso ai menu di amministrazione con la possibilità di gestire percorsi, eventi e rapporti. Questo profilo di prodotto include le seguenti autorizzazioni:
-   * Gestione dei percorsi
-   * Pubblicazione dei percorsi
-   * Gestione di eventi, origini dati e azioni
-   * Gestione dei rapporti
+  * Gestione dei percorsi
+  * Pubblicazione dei percorsi
+  * Gestione di eventi, origini dati e azioni
+  * Gestione dei rapporti
 
   >[!NOTE]
   >
   >**[!UICONTROL Administrators]** è l’unico profilo di prodotto che consente la creazione, la modifica e la pubblicazione di messaggi transazionali (o modelli di messaggistica) all’interno di Adobe Campaign Standard. Questo profilo di prodotto è necessario se utilizzi Adobe Campaign Standard per inviare messaggi nei tuoi percorsi. Non deve essere rinominato in Admin Console.
 
 * **[!UICONTROL Standard User]**: utente con accesso di base, ad esempio gestione del percorso. Questo profilo di prodotto include le seguenti autorizzazioni:
-   * Gestione dei percorsi
-   * Pubblicazione dei percorsi
-   * Gestione dei rapporti
-   * Lettura di eventi, origini dati e azioni
+  * Gestione dei percorsi
+  * Pubblicazione dei percorsi
+  * Gestione dei rapporti
+  * Lettura di eventi, origini dati e azioni
 
 Puoi anche creare profili di prodotto personalizzati, se i profili forniti non sono sufficienti per la gestione dei tuoi utenti.
 Gli utenti devono essere sempre collegati a un profilo di prodotto che consenta loro di assegnare autorizzazioni incorporate specifiche, ad esempio:
@@ -133,7 +143,7 @@ Per assegnare un profilo di prodotto a un utente perché possa accedere a [!DNL 
 
    ![](../assets/do-not-localize/user_management_2.png)
 
-1. Fare clic su **[!UICONTROL Add user]**.
+1. Fai clic su **[!UICONTROL Add user]**.
 
    Puoi anche aggiungere il nuovo utente a un gruppo di utenti per ottimizzare il set di autorizzazioni condiviso. Per ulteriori informazioni, consulta questa [pagina](https://helpx.adobe.com/it/enterprise/using/user-groups.html).
 

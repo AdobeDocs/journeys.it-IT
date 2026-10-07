@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 100%
-
 ---
-
 # Principio generale {#concept_gfj_fqt_52b}
 
 
@@ -30,7 +40,7 @@ ht-degree: 100%
 >title="Informazioni sugli eventi"
 >abstract="Un evento è collegato a una persona. e si riferisce al comportamento di una persona o a qualcosa che si verifica in relazione a una persona. Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener per questi dati, in modo da orchestrare le migliori azioni successive da eseguire."
 
-Un evento è collegato a una persona. Si riferisce al suo comportamento: ad esempio, se ha acquistato un prodotto, se ha visitato un negozio, se è uscita da un sito web, e così via. Oppure a qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà.Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener per questi dati, in modo da orchestrare le migliori azioni successive da eseguire.
+Un evento è collegato a una persona. Si riferisce al suo comportamento: ad esempio, se ha acquistato un prodotto, se ha visitato un negozio, se è uscita da un sito web, e così via. Oppure a qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Orchestration] farà da listener per questi dati, in modo da orchestrare le migliori azioni successive da eseguire.
 
 Tale configurazione è **obbligatoria**[!DNL Journey Orchestration], in quanto è progettata per fare da listener agli eventi ed è sempre eseguita da un **utente tecnico**.
 

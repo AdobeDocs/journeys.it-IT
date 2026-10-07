@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: ht
-source-wordcount: '4452'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '4770'
 ht-degree: 100%
-
 ---
-
 # Note sulla versione {#release-notes}
 
 >[!CAUTION]
@@ -68,8 +78,8 @@ Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteri
 * È stato migliorato il layout del riquadro di configurazione, che ora mostra azioni, origini dati, eventi e percorsi.
 * È ora possibile definire parametri di query statici o dinamici nelle azioni personalizzate. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=it#url-configuration){target="_blank"} di Journey Optimizer.
 * Nuovi guardrail per gestire la crescita delle esperienze fornite dai percorsi:
-   * Si consiglia di mantenere un massimo di 50 nodi per garantire percorsi efficienti e facili da leggere nonché per favorire il controllo qualità e la risoluzione dei problemi. Il numero di attività verrà visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys){target="_blank"} di Journey Optimizer
-   * Durante lo sviluppo e l’avvio dei percorsi, riceverai una notifica in prossimità del traguardo di 100 percorsi live alla volta. Se i tuoi piani richiedono più di 100 percorsi alla volta, crea un ticket per ricevere supporto dopo aver visualizzato la notifica e ti aiuteremo. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys){target="_blank"} di Journey Optimizer
+  * Si consiglia di mantenere un massimo di 50 nodi per garantire percorsi efficienti e facili da leggere nonché per favorire il controllo qualità e la risoluzione dei problemi. Il numero di attività verrà visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys){target="_blank"} di Journey Optimizer
+  * Durante lo sviluppo e l’avvio dei percorsi, riceverai una notifica in prossimità del traguardo di 100 percorsi live alla volta. Se i tuoi piani richiedono più di 100 percorsi alla volta, crea un ticket per ricevere supporto dopo aver visualizzato la notifica e ti aiuteremo. Consulta la [documentazione](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=it#journeys-guardrails-journeys){target="_blank"} di Journey Optimizer
 
 ## Versione di marzo 2023 {#mar-2023}
 
@@ -263,7 +273,7 @@ Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteri
 
 * È stato aggiunto un nuovo stato ai percorsi. Quando un percorso termina o viene chiuso manualmente, lo stato cambia da **Chiuso** a **Completato** 30 giorni dopo la chiusura. Questo permette di identificare più facilmente i percorsi inattivi e di assicurarsi che tuttle persone ancora presenti abbiano il tempo di finire il percorso. [Ulteriori informazioni](../building-journeys/journey.md#ending_a_journey)
 * Nei riquadri delle attività a destra per i percorsi bozza, i campi di sola lettura ora sono nascosti per impostazione predefinita. L’interfaccia risulta così più semplice e facilita la configurazione delle attività. Per visualizzarli, fai clic sull’icona **Mostra campi di sola lettura**, in alto a sinistra nel riquadro di configurazione dell’attività. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* In modalità di prova, nella schermata **Configurazione evento**, il campo **Chiave** utilizzato per definire l&#39;ID del profilo di test è stato rinominato **Identificatore profilo**, per chiarezza. [Ulteriori informazioni](../building-journeys/testing-the-journey.md).
+* In modalità di prova, nella schermata **Configurazione evento**, il campo **Chiave** utilizzato per definire l&#39;ID del profilo di test è stato rinominato **Identificatore profilo**, per migliorare l’esperienza utente. [Ulteriori informazioni](../building-journeys/testing-the-journey.md).
 * Per gli eventi di reazione, la durata del timeout può ora essere impostata solo tra 40 secondi e 30 giorni. Quando si esegue il test di un percorso che utilizza un evento di reazione, il valore **[!UICONTROL Wait time]** predefinito e minimo per la modalità di test è ora di 40 secondi. [Ulteriori informazioni](../building-journeys/reaction-events.md).
 
 ## Versione di febbraio 2021 {#february-2021-release}

@@ -7,16 +7,27 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 100%
-
 ---
-
 # Aggiornamenti alla documentazione
 
-Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Orchestration].È inoltre possibile consultare le [!DNL Journey Orchestration][Note sulla versione](../release-notes/release-notes.md).
+Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Orchestration].
+È inoltre possibile consultare le [!DNL Journey Orchestration][Note sulla versione](../release-notes/release-notes.md).
 
 ## luglio 2022 {#july-2022}
 

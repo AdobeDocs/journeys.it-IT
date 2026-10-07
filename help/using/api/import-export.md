@@ -3,13 +3,14 @@ product: adobe campaign
 title: Importa descrizione API di esportazione
 description: Ulteriori informazioni sull’API di esportazione import.
 products: journeys
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 17%
-
+source-wordcount: '1162'
+ht-degree: 19%
 ---
-
 
 # Utilizzo dell’API Export-Import
 
@@ -32,21 +33,21 @@ Per esportare e importare i percorsi negli ambienti, è consigliabile seguire la
 
 1. Creare e impostare i parametri di un percorso nell&#39;ambiente di avvio. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=it)
 1. Verifica se la versione del percorso non contiene errori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=it)
-1. Chiamare l&#39;API **/list/percorsi** per recuperare il percorso UID e l&#39;UID della versione di percorso più recente. Se necessario, puoi chiamare **/percorsi/`{uid}`/più recente** per trovare l&#39;UID della versione più recente del percorso.
+1. Chiamare l&#39;API **/list/percorsi** per recuperare il percorso UID e l&#39;UID della versione di percorso più recente. Se necessario, puoi chiamare **/percorsi/`{uid}`/più recente** per trovare l&#39;UID della versione di percorso più recente.
 1. Chiama l&#39;API **export** con i parametri dell&#39;ambiente di avvio (orgID e sandboxName).
 1. Apri il payload di ritorno, quindi controlla i seguenti elementi:
    * Se il percorso esportato contiene **credenziali specifiche**, è necessario sostituire queste credenziali con quelle corrispondenti al nuovo ambiente.
    * Se il percorso esportato contiene **eventi** che puntano a uno schema **XDM**, è necessario aggiornare manualmente il riferimento ID schema con l&#39;ID schema del nuovo ambiente nel nodo xdmEntity, se i valori ID sono diversi. Questo aggiornamento deve essere eseguito per ogni evento. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=it)
    * Se il percorso contiene azioni e-mail, sms o push, potrebbe essere necessario aggiornare il nome del modello o il nome di mobileApp se il nome nell’ambiente di destinazione è diverso da quello nell’ambiente di avvio.
 1. Chiama l&#39;API **Import** con i parametri dell&#39;ambiente di destinazione (orgID e sandboxName). Puoi richiamare l’API di importazione il numero di volte desiderato. L’UUID e il nome di ciascun oggetto contenuto nel percorso vengono generati ogni volta che si chiama l’API di importazione.
-1. Una volta importato il Percorso, potete pubblicarlo nell&#39;applicazione di Journey Orchestration. Ulteriori informazioni [qui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=it)
+1. Una volta importato il Percorso, è possibile pubblicarlo nell&#39;applicazione Journey Orchestration. Ulteriori informazioni [qui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=it)
 
 
 ## Autenticazione
 
 ### Configurazione dell’accesso alle API
 
-L’accesso alle API di Journey Orchestration è configurato attraverso i passaggi seguenti. Ogni passaggio è descritto in dettaglio nella [Documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+L’accesso all’API Journey Orchestration è configurato attraverso i passaggi seguenti. Ogni passaggio è descritto in dettaglio nella [Documentazione di Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
@@ -74,9 +75,9 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZZAZIONE>**: questo è il tuo ID organizzazione personale; per Adobe viene fornito un ID organizzazione per ciascuna istanza:
+* **&lt;ORGANIZZAZIONE>**: questo è il tuo ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ciascuna istanza:
 
-   * &lt;ORGANIZZAZIONE> : l’istanza di produzione
+  * &lt;ORGANIZZAZIONE> : l’istanza di produzione
 
   Per ottenere il valore dell’ID organizzazione, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell’elenco delle licenze (consulta la [documentazione di Adobe I/O](https://www.adobe.io/authentication.html)).
 
@@ -106,15 +107,15 @@ Il payload risultante può essere utilizzato per importare la versione del perco
 * Le credenziali non vengono esportate e un segnaposto (ad esempio, INSERT_SECRET_HERE) viene inserito nel payload di risposta.
 Dopo la chiamata di esportazione, è necessario inserire manualmente le nuove credenziali (corrispondenti all’ambiente di destinazione) prima di importare il payload nell’ambiente di destinazione.
 
-* I seguenti oggetti vengono esportati ma non verranno mai importati nell’ambiente di destinazione. Si tratta di risorse di sistema gestite automaticamente dal Journey Orchestration. Non è necessario sostituire &quot;INSERT_SECRET_HERE&quot;.
-   * **FornitoriDati**: &quot;ProviderDati Adobe Campaign Standard&quot; (acsDataProvider) e &quot;Experience Platform&quot; (acppsDataProvider)
-   * **Gruppi di campi** (dataEntities): &quot;ProfileFieldGroup&quot; (acppsDataPack)
+* I seguenti oggetti vengono esportati ma non verranno mai importati nell’ambiente di destinazione. Si tratta di risorse di sistema gestite automaticamente da Journey Orchestration. Non è necessario sostituire &quot;INSERT_SECRET_HERE&quot;.
+  * **FornitoriDati**: &quot;ProviderDati Adobe Campaign Standard&quot; (acsDataProvider) e &quot;Experience Platform&quot; (acppsDataProvider)
+  * **Gruppi di campi** (dataEntities): &quot;ProfileFieldGroup&quot; (acppsDataPack)
 
 
 
 ### Caratteristiche di importazione
 
-* Durante l’importazione, gli oggetti del percorso vengono creati con un nuovo UID e un nuovo nome per garantire l’univocità nell’ambiente di destinazione (istanza o sandbox).
+* Durante l’importazione, gli oggetti del percorso vengono creati con un nuovo UID e un nuovo nome per garantirne l’univocità nell’ambiente di destinazione (istanza o sandbox).
 
 * Se il payload di importazione contiene segnaposto segreti, viene generato un errore. È necessario sostituire le informazioni sulle credenziali prima della chiamata POST per importare il percorso.
 
@@ -126,4 +127,4 @@ I potenziali errori sono:
 
 * Al **ora di importazione**, se il payload non è valido dopo le modifiche o se le credenziali non sono ben definite nel payload: errore 400
 
-* Dopo il passaggio di importazione, se l’ID dello schema XDM per gli eventi non è valido nell’ambiente di destinazione, viene visualizzato un errore nell’applicazione di Journey Orchestration. In tal caso non sarà possibile pubblicare il percorso.
+* Dopo il passaggio di importazione, se l’ID dello schema XDM per gli eventi non è valido nell’ambiente di destinazione, viene visualizzato un errore nell’applicazione Journey Orchestration. In tal caso non sarà possibile pubblicare il percorso.

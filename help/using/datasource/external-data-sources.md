@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 91%
-
 ---
-
 # Origini dati esterne {#concept_t2s_kqt_52b}
 
 
@@ -127,20 +137,20 @@ Definizione dell’endpoint da chiamare per la generazione del token di accesso:
 * metodo della richiesta HTTP sull’endpoint (GET o POST)
 * intestazioni: coppie chiave/valore da inserire come intestazioni in questa chiamata, se necessario
 * corpo: descrive il corpo della chiamata se il metodo è POST. Supportiamo una struttura del corpo limitata, definita in bodyParams (coppie chiave/valore). Il bodyType descrive il formato e la codifica del corpo nella chiamata:
-   * &#39;form&#39;: significa che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave/valore saranno serializzate come segue: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: indica che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie di valori chiave saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+  * &#39;form&#39;: significa che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave/valore saranno serializzate come segue: key1=value1&amp;key2=value2&amp;...
+  * &#39;json&#39;: indica che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie di valori chiave saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 La definizione della modalità di inserimento del token di accesso nella richiesta HTTP dell’azione:
 
 * authorizationType: definisce il modo in cui il token di accesso generato deve essere inserito nella chiamata HTTP per l’azione. I valori possibili sono:
 
-   * bearer: indica che il token di accesso deve essere inserito nell’intestazione Autorizzazione, ad esempio: _Authorization: Bearer &lt;token di accesso>_
-   * header: indica che il token di accesso deve essere inserito come intestazione, il nome dell’intestazione è definito dalla proprietà tokenTarget. Ad esempio, se tokenTarget è myHeader, il token di accesso verrà inserito come intestazione: _myHeader: &lt;token di accesso>_
-   * queryParam: indica che il token di accesso deve essere inserito come queryParam, il nome del param di query è definito dalla proprietà tokenTarget. Ad esempio, se il tokenTarget è myQueryParam, l’URL della chiamata di azione sarà: _&lt;url>?myQueryParam=&lt;token di accesso>_
+  * bearer: indica che il token di accesso deve essere inserito nell’intestazione Autorizzazione, ad esempio: _Authorization: Bearer &lt;token di accesso>_
+  * header: indica che il token di accesso deve essere inserito come intestazione, il nome dell’intestazione è definito dalla proprietà tokenTarget. Ad esempio, se tokenTarget è myHeader, il token di accesso verrà inserito come intestazione: _myHeader: &lt;token di accesso>_
+  * queryParam: indica che il token di accesso deve essere inserito come queryParam, il nome del param di query è definito dalla proprietà tokenTarget. Ad esempio, se il tokenTarget è myQueryParam, l’URL della chiamata di azione sarà: _&lt;url>?myQueryParam=&lt;token di accesso>_
 
 * tokenInResponse: indica come estrarre il token di accesso dalla chiamata di autenticazione. Questa proprietà può corrispondere a:
-   * &#39;response&#39;: indica che la risposta HTTP è il token di accesso.
-   * Un selettore in un json: poiché la risposta deve essere un json, non sono supportati altri formati come XML. Il formato di questo selettore è _json://&lt;percorso della proprietà del token di accesso>_. Ad esempio, se la risposta della chiamata è: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656}_, tokenInResponse sarà:_ json: //access_token_
+  * &#39;response&#39;: indica che la risposta HTTP è il token di accesso.
+  * Un selettore in un json: poiché la risposta deve essere un json, non sono supportati altri formati come XML. Il formato di questo selettore è _json://&lt;percorso della proprietà del token di accesso>_. Ad esempio, se la risposta della chiamata è: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656}_, tokenInResponse sarà:_ json: //access_token_
 
 Il formato di questa autenticazione è:
 
