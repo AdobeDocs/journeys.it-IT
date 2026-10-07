@@ -34,7 +34,7 @@ ht-degree: 34%
 >_Questa documentazione fa riferimento ai precedenti materiali su Journey Orchestration, che è stato sostituito da Journey Optimizer. In caso di domande sull’accesso a Journey Orchestration o Journey Optimizer, contatta il team del tuo account._
 
 
-IA per l’analisi dei clienti fa parte di Intelligent Services. Consente di prevedere le probabili azioni di un cliente. Consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
+IA per l’analisi dei clienti fa parte di Intelligent Services. Consente di prevedere le probabili azioni di un cliente. Consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=it).
 
 IA per l’analisi dei clienti consente ai brand di creare punteggi basati sull’apprendimento automatico di abbandono o conversione che saranno disponibili come attributi di profilo nei profili Adobe Experience Platform (Real-time Customer Profile).
 
